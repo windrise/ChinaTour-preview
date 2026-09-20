@@ -6,12 +6,12 @@
   <meta name="theme-color" content="#080f14">
   <meta name="description" content="行知：按月份认识一个地方，循着真实照片找到想去的景点。">
   <title>行知 · 中国旅行</title>
-  <link rel="stylesheet" href="./static/style.css?v=37ef1cf4a1d2">
-  <link rel="stylesheet" href="./static/atlas.css?v=37ef1cf4a1d2">
-  <script defer src='./preview-config.js?v=37ef1cf4a1d2'></script>
-  <script defer src='./static/preview.js?v=37ef1cf4a1d2'></script>
-  <script defer src="./static/app.js?v=37ef1cf4a1d2"></script>
-  <script defer src="./static/atlas.js?v=37ef1cf4a1d2"></script>
+  <link rel="stylesheet" href="./static/style.css?v=3ac6e674bc0b">
+  <link rel="stylesheet" href="./static/atlas.css?v=3ac6e674bc0b">
+  <script defer src='./preview-config.js?v=3ac6e674bc0b'></script>
+  <script defer src='./static/preview.js?v=3ac6e674bc0b'></script>
+  <script defer src="./static/app.js?v=3ac6e674bc0b"></script>
+  <script defer src="./static/atlas.js?v=3ac6e674bc0b"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
@@ -59,6 +59,15 @@
       <section id="travel-essentials" class="travel-essentials" aria-label="衣食住行">
         <div id="essentials-grid" class="essentials-grid"></div>
         <div id="essentials-panel" class="essentials-panel" hidden></div>
+      </section>
+
+      <section id="route-guides" class="section-block route-guides" aria-labelledby="route-guides-heading">
+        <div class="section-heading split-heading"><div><p class="eyebrow">FIND YOUR WAY</p><h2 id="route-guides-heading">热门线路攻略</h2></div><p class="route-heading-hint">少做一点功课，多走一段喜欢的路。</p></div>
+        <div id="route-theme-filter" class="route-theme-filter" role="group" aria-label="按玩法筛选线路"></div>
+        <div id="route-guide-grid" class="route-guide-grid"></div>
+        <p id="route-guide-status" class="sr-only" role="status"></p>
+        <div id="route-guide-panel" class="route-guide-panel" hidden></div>
+        <div class="route-guides-footer"><p id="route-guides-note" class="route-guides-note"></p><button id="route-guides-more" class="route-guides-more" type="button" hidden>查看更多线路 ↓</button></div>
       </section>
 
       <section id="attractions-section" class="section-block attractions-section" aria-labelledby="attractions-heading">

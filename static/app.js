@@ -10,6 +10,7 @@ const state = {
   mode: ['all', 'recent', 'historical'].includes(initialParams.get('mode')) ? initialParams.get('mode') : 'all',
   monthScope: ['all', 'practical'].includes(initialParams.get('collect_scope')) ? initialParams.get('collect_scope') : 'selected',
   practicalTab: null,
+  routeTheme: 'all', routeLimit: 3, openRouteId: null,
   query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null,
   requestVersion: 0, openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
 };
@@ -28,6 +29,14 @@ const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 let photoCycleTimer = null;
 
 const SOURCE_LABELS = { official: '官网', xiaohongshu: '小红书', weibo: '微博', wechat: '微信公众号', douyin: '抖音', news: '新闻' };
+const ROUTE_THEMES = [
+  { id: 'all', label: '全部', keys: [] },
+  { id: 'citywalk', label: '吃逛漫步', keys: ['citywalk', 'food'] },
+  { id: 'drive', label: '自驾', keys: ['drive'] },
+  { id: 'camp', label: '露营', keys: ['camp'] },
+  { id: 'family', label: '亲子', keys: ['family'] },
+  { id: 'scenic', label: '山水', keys: ['scenic'] },
+];
 
 function make(tag, className = '', text) {
   const element = document.createElement(tag);
@@ -176,6 +185,7 @@ function normalizeDestination(raw) {
     coverage: raw?.coverage && typeof raw.coverage === 'object' ? raw.coverage : { months: [], unknown_time: 0 },
     map: raw?.map && typeof raw.map === 'object' ? raw.map : { bounds: [], hubs: [], roads: [], limitations: [] },
     practical: raw?.practical || { facts: [], classified_sources: [], climate: null },
+    route_guides: raw?.route_guides && typeof raw.route_guides === 'object' ? raw.route_guides : { items: [], available_themes: [] },
     limitations: Array.isArray(raw?.limitations) ? raw.limitations : [],
   };
 }
@@ -1185,7 +1195,7 @@ function toggleBrowserInfo() {
 }
 
 function renderAll() {
-  renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderEssentials(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
+  renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderEssentials(); renderRouteGuides(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
   const collect = $('#collect-button'); if (collect) { const active = jobActive(state.job); collect.disabled = !state.placeId; collect.innerHTML = active ? '搜集进行中 <span aria-hidden="true">…</span>' : '自动搜集 <span aria-hidden="true">↗</span>'; }
   renderCollectionScope();
   document.dispatchEvent(new CustomEvent('chinatour:data', { detail: state.data }));
@@ -1381,6 +1391,137 @@ async function initialize() {
   if (state.job && jobActive(state.job)) pollJob();
 }
 initialize();
+
+// Routes keep the source author's itinerary and season notes across month switches.
+function routeItems() {
+  return (Array.isArray(state.data?.route_guides?.items) ? state.data.route_guides.items : []).filter((route) => route && route.id && route.title);
+}
+function routeThemeNames(route) {
+  const themes = Array.isArray(route.themes) ? route.themes : [];
+  return ROUTE_THEMES.filter((theme) => theme.id !== 'all' && theme.keys.some((key) => themes.includes(key))).map((theme) => theme.label);
+}
+function routeSourceCount(route) {
+  const count = Array.isArray(route.sources) ? route.sources.filter(Boolean).length : 0;
+  return route.source_count === null || route.source_count === undefined ? count : Math.max(0, integer(route.source_count, count));
+}
+function routeFacts(route) {
+  return [['行程时长', route.duration], ['出行方式', route.transport], ['体力安排', route.effort], ['费用说明', route.budget_note], ['季节说明', route.season_note]].filter((entry) => entry[1]);
+}
+function routeDays(route) {
+  return (Array.isArray(route.days) ? route.days : []).filter((day) => day && Array.isArray(day.stops) && day.stops.some((stop) => stop?.name));
+}
+function renderRouteGuides() {
+  const filter = clear($('#route-theme-filter')); const grid = clear($('#route-guide-grid'));
+  if (!filter || !grid) return;
+  const all = routeItems();
+  const selectedTheme = ROUTE_THEMES.find((theme) => theme.id === state.routeTheme) || ROUTE_THEMES[0];
+  const routes = all.filter((route) => selectedTheme.id === 'all' || selectedTheme.keys.some((key) => route.themes?.includes(key)));
+  for (const theme of ROUTE_THEMES) {
+    const button = make('button', `route-theme-chip${selectedTheme.id === theme.id ? ' active' : ''}`, theme.label);
+    button.type = 'button'; button.dataset.routeTheme = theme.id;
+    button.setAttribute('aria-pressed', String(selectedTheme.id === theme.id)); button.setAttribute('aria-controls', 'route-guide-grid');
+    button.addEventListener('click', () => {
+      state.routeTheme = theme.id; state.routeLimit = 3; state.openRouteId = null;
+      renderRouteGuides(); $(`[data-route-theme="${theme.id}"]`, filter)?.focus();
+    });
+    filter.append(button);
+  }
+  if (!routes.length) {
+    const empty = make('div', 'route-guide-empty');
+    empty.append(make('strong', '', selectedTheme.id === 'all' ? '线路攻略正在补充' : `暂无已核对的${selectedTheme.label}线路`));
+    empty.append(make('p', '', '有具体行程与原文依据后，会整理在这里。'));
+    grid.append(empty);
+  }
+  routes.slice(0, state.routeLimit).forEach((route, index) => {
+    const card = make('button', `route-guide-card${state.openRouteId === String(route.id) ? ' active' : ''}`);
+    card.type = 'button'; card.id = `route-card-${index}`; card.dataset.routeId = String(route.id);
+    card.setAttribute('aria-expanded', String(state.openRouteId === String(route.id))); card.setAttribute('aria-controls', 'route-guide-panel');
+    const top = make('span', 'route-card-top');
+    top.append(make('span', 'route-card-theme', routeThemeNames(route).join(' · ') || '行程攻略'), make('span', 'route-card-number', String(index + 1).padStart(2, '0')));
+    card.append(top, make('strong', 'route-card-title', route.title));
+    const meta = [route.duration, route.transport].filter(Boolean);
+    if (meta.length) card.append(make('span', 'route-card-meta', meta.join(' · ')));
+    if (route.summary) card.append(make('span', 'route-card-summary', route.summary));
+    const stops = routeDays(route).flatMap((day) => day.stops.filter((stop) => stop?.name).map((stop) => stop.name));
+    if (stops.length) {
+      const path = make('span', 'route-card-path');
+      stops.slice(0, 4).forEach((name, stopIndex) => {
+        if (stopIndex) { const arrow = make('span', 'route-stop-arrow', '→'); arrow.setAttribute('aria-hidden', 'true'); path.append(arrow); }
+        path.append(make('span', '', name));
+      });
+      if (stops.length > 4) path.append(make('span', 'route-path-more', `等 ${stops.length} 站`));
+      card.append(path);
+    }
+    const footer = make('span', 'route-card-footer');
+    footer.append(make('span', '', `${routeSourceCount(route)} 篇原文`), make('span', 'route-card-action', state.openRouteId === String(route.id) ? '收起路线 ↑' : '查看安排 ↗'));
+    card.append(footer);
+    card.addEventListener('click', () => {
+      state.openRouteId = state.openRouteId === String(route.id) ? null : String(route.id);
+      renderRouteGuides();
+      if (state.openRouteId) $('#route-detail-heading')?.focus();
+      else routeCardFor(route.id)?.focus({ preventScroll: true });
+    });
+    grid.append(card);
+  });
+  $('#route-guide-status').textContent = `${selectedTheme.label}，${routes.length} 条已收录线路，当前显示 ${Math.min(routes.length, state.routeLimit)} 条。`;
+  $('#route-guides-note').textContent = `${state.data?.route_guides?.note || '当前为已收录攻略精选，不是全网热度排行。'} 路线按原文安排展示，不随月份改写。`;
+  const more = $('#route-guides-more'); more.hidden = routes.length <= state.routeLimit;
+  more.textContent = `再看 ${Math.min(3, Math.max(0, routes.length - state.routeLimit))} 条线路 ↓`;
+  more.onclick = () => { const next = state.routeLimit; state.routeLimit += 3; renderRouteGuides(); $('#route-guide-grid').querySelectorAll('.route-guide-card')[next]?.focus(); };
+  const openRoute = routes.slice(0, state.routeLimit).find((route) => String(route.id) === state.openRouteId);
+  if (!openRoute) state.openRouteId = null;
+  renderRouteGuidePanel(openRoute);
+}
+function routeCardFor(id) {
+  return Array.from(document.querySelectorAll('.route-guide-card')).find((card) => card.dataset.routeId === String(id));
+}
+function renderRouteGuidePanel(route) {
+  const panel = clear($('#route-guide-panel')); if (!panel) return;
+  panel.hidden = !route;
+  if (!route) return;
+  panel.setAttribute('role', 'region'); panel.setAttribute('aria-labelledby', 'route-detail-heading');
+  const header = make('div', 'route-detail-header');
+  const heading = make('h3', '', route.title); heading.id = 'route-detail-heading'; heading.tabIndex = -1;
+  const close = make('button', 'button button-quiet', '收起 ×'); close.type = 'button'; close.setAttribute('aria-label', `收起${route.title}路线详情`);
+  close.addEventListener('click', () => { state.openRouteId = null; renderRouteGuides(); routeCardFor(route.id)?.focus(); });
+  header.append(heading, close); panel.append(header);
+  if (route.recommendation_reason) panel.append(make('p', 'route-recommendation', route.recommendation_reason));
+  const facts = routeFacts(route);
+  if (facts.length) {
+    const list = make('dl', 'route-detail-facts');
+    for (const [label, value] of facts) { const fact = make('div'); fact.append(make('dt', '', label), make('dd', '', value)); list.append(fact); }
+    panel.append(list);
+  }
+  const itinerary = make('div', 'route-itinerary');
+  for (const day of routeDays(route)) {
+    const section = make('section', 'route-day');
+    if (day.label) section.append(make('h4', '', day.label));
+    const stops = make('ol', 'route-stop-list');
+    for (const stop of day.stops.filter((item) => item?.name)) {
+      const item = make('li'); item.append(make('strong', '', stop.name));
+      if (stop.note) item.append(make('p', '', stop.note));
+      stops.append(item);
+    }
+    section.append(stops); itinerary.append(section);
+  }
+  if (itinerary.childElementCount) panel.append(itinerary);
+  if (Array.isArray(route.tips) && route.tips.filter(Boolean).length) {
+    const tips = make('section', 'route-tips'); tips.append(make('h4', '', '出发前留意'));
+    const list = make('ul'); route.tips.filter(Boolean).forEach((tip) => list.append(make('li', '', tip))); tips.append(list); panel.append(tips);
+  }
+  const sources = make('details', 'route-sources');
+  sources.append(make('summary', '', `原文与适用时间 · ${routeSourceCount(route)} 篇`));
+  sources.append(make('p', 'route-source-note', '以下保留作者的行程与经验。费用、营业安排和季节景观以出行时的实际情况为准。'));
+  for (const source of (Array.isArray(route.sources) ? route.sources : []).filter(Boolean)) {
+    const row = make('div', 'route-source-row'); const href = safeUrl(source.url);
+    if (href) {
+      const link = make('a', 'source-link', `${source.title || '打开路线原文'} ↗`); link.href = href; link.target = '_blank'; link.rel = 'noopener noreferrer'; row.append(link);
+    } else if (source.title) row.append(make('strong', '', source.title));
+    row.append(make('p', '', [source.publisher, source.published_at ? `发布 ${dateText(source.published_at)}` : '原文未标发布日期', source.checked_at ? `读取 ${dateText(source.checked_at)}` : ''].filter(Boolean).join(' · ')));
+    sources.append(row);
+  }
+  panel.append(sources);
+}
 
 // Practical information stays compact until a visitor chooses a topic.
 const PRACTICAL_LABELS = { clothing: '天气与穿衣', food: '当地吃什么', stay: '住在哪里', transport: '从车站出发', visit_duration: '游玩时长', route_length: '游览路线与长度', internal_transport: '园内交通' };
