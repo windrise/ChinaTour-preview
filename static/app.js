@@ -10,7 +10,7 @@ const state = {
   mode: ['all', 'recent', 'historical'].includes(initialParams.get('mode')) ? initialParams.get('mode') : 'all',
   monthScope: ['all', 'practical'].includes(initialParams.get('collect_scope')) ? initialParams.get('collect_scope') : 'selected',
   practicalTab: null,
-  routeTheme: 'all', routeLimit: 3, openRouteId: null,
+  routeTheme: 'all', routePeriod: 'all', routeLimit: 3, openRouteId: null,
   query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null,
   requestVersion: 0, openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
 };
@@ -37,6 +37,50 @@ const ROUTE_THEMES = [
   { id: 'family', label: '亲子', keys: ['family'] },
   { id: 'scenic', label: '山水', keys: ['scenic'] },
 ];
+const VISIT_PERIODS = [
+  { id: 'all', label: '全部时段', shortLabel: '全部', kind: 'all' },
+  { id: 'ordinary', label: '平时', shortLabel: '平时', kind: 'ordinary' },
+  { id: 'may_day', label: '五一假期', shortLabel: '五一', kind: 'holiday', holiday: 'labor_day' },
+  { id: 'national_day', label: '十一假期', shortLabel: '十一', kind: 'holiday', holiday: 'national_day' },
+  { id: 'other_holiday', label: '其他假期', shortLabel: '其他假期', kind: 'holiday', holiday: 'other' },
+  { id: 'unknown', label: '时间待确认', shortLabel: '待确认', kind: 'unknown' },
+];
+const VISIT_PERIOD_IDS = new Set(VISIT_PERIODS.filter((item) => item.id !== 'all').map((item) => item.id));
+
+function visitPeriodOf(item) {
+  const raw = item?.visit_period;
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return { ...VISIT_PERIODS[VISIT_PERIODS.length - 1] };
+  let id = String(raw.id || '').toLowerCase();
+  const kind = String(raw.kind || '').toLowerCase();
+  const holiday = String(raw.holiday || '').toLowerCase();
+  if (!VISIT_PERIOD_IDS.has(id)) {
+    if (kind === 'ordinary') id = 'ordinary';
+    else if (kind === 'holiday' && holiday === 'labor_day') id = 'may_day';
+    else if (kind === 'holiday' && holiday === 'national_day') id = 'national_day';
+    else if (kind === 'holiday' && holiday === 'other') id = 'other_holiday';
+    else id = 'unknown';
+  }
+  const definition = VISIT_PERIODS.find((entry) => entry.id === id) || VISIT_PERIODS[VISIT_PERIODS.length - 1];
+  return {
+    ...definition,
+    label: String(raw.label || definition.label),
+    basis: String(raw.basis_label || raw.basis || ''),
+    supportExcerpt: String(raw.support_excerpt || ''),
+    sourceUrl: safeUrl(raw.source_url),
+  };
+}
+function visitPeriodMatches(item, periodId) { return periodId === 'all' || visitPeriodOf(item).id === periodId; }
+function visitPeriodBadge(period, extraClass = '') {
+  const badge = make('span', `visit-period-badge period-${period.id}${extraClass ? ` ${extraClass}` : ''}`, period.shortLabel || period.label);
+  badge.title = period.id === 'unknown' ? '原文缺少可确认的时段依据' : period.label;
+  return badge;
+}
+function visitPeriodBasis(period, context = 'photo') {
+  if (period.basis) return period.basis;
+  if (period.supportExcerpt) return `原文依据：${period.supportExcerpt}`;
+  if (period.id === 'unknown') return context === 'route' ? '攻略没有明确适用平时或假期。' : '原文没有明确到访或拍摄时段。';
+  return context === 'route' ? `攻略注明适用于${period.label}。` : `原文时间依据归为${period.label}。`;
+}
 
 function make(tag, className = '', text) {
   const element = document.createElement(tag);
@@ -1214,38 +1258,45 @@ function attractionEvidence(attraction) {
 function attractionMediaEntries(attraction) {
   const entries = [];
   const seen = new Set();
-  const add = (candidate, item = attraction) => {
-    const candidateUrl = typeof candidate === 'string' ? candidate : candidate?.url || candidate?.src || candidate?.photo_url;
+  const add = (candidate, item = attraction, scopedToSelection = false) => {
+    const media = candidate && typeof candidate === 'object' ? candidate : {};
+    const candidateUrl = typeof candidate === 'string' ? candidate : media.url || media.src || media.photo_url;
     const url = safeUrl(candidateUrl);
     if (!url || seen.has(url)) return;
     seen.add(url);
-    const sourceUrl = safeUrl(item === attraction
+    const sourceUrl = safeUrl(media.source_url || media.provenance?.source_url || (item === attraction
       ? attraction?.photo_source_url || attraction?.source_url
-      : item?.url || item?.source_url || attraction?.photo_source_url || attraction?.source_url);
+      : item?.url || item?.source_url || attraction?.photo_source_url || attraction?.source_url));
     const time = item === attraction
       ? photoTimeText(attraction, attraction?.photo_time_basis || '未确认')
-      : photoTimeText(item, timeBasis(item));
+      : media.time_label || photoTimeText(item, timeBasis(item));
     const observedMonth = item === attraction ? integer(attraction?.photo_month) === currentMonthNumber() : monthOf(item) === currentMonthNumber();
-    const monthMatched = item === attraction
+    const monthMatched = scopedToSelection || (item === attraction
       ? integer(attraction?.photo_browse_month || attraction?.photo_month) === currentMonthNumber()
-      : integer(item?.browse_month || item?.month) === currentMonthNumber();
+      : integer(item?.browse_month || item?.month) === currentMonthNumber());
+    const visitPeriod = visitPeriodOf(media.visit_period ? media : item);
     entries.push({
       url,
-      credit: (typeof candidate === 'object' && candidate?.credit) || item?.photo_credit || item?.publisher || (item === attraction ? attraction?.photo_credit : '') || sourceText(item?.source_type),
-      source: item?.publisher || (item?.source_type ? sourceText(item.source_type) : '') || attraction?.photo_credit || '来源未注明',
+      credit: media.credit || media.publisher || item?.photo_credit || item?.publisher || (item === attraction ? attraction?.photo_credit : '') || sourceText(item?.source_type),
+      source: media.publisher || item?.publisher || (item?.source_type ? sourceText(item.source_type) : '') || attraction?.photo_credit || '来源未注明',
       sourceUrl,
-      title: item?.title || '',
+      title: media.title || item?.title || '',
       time,
-      landscape: candidate?.scene_hint?.eligible === true,
-      subjectExcluded: candidate?.scene_hint?.reason === 'prominent_non_landscape_subject',
+      landscape: media.scene_hint?.eligible === true,
+      subjectExcluded: media.scene_hint?.reason === 'prominent_non_landscape_subject',
       observedMonth,
       monthMatched,
+      visitPeriod,
     });
   };
   attractionEvidence(attraction).forEach((item) => {
     if (Array.isArray(item.media) && item.media.length) item.media.forEach((media) => add(media, item));
     else add(item.photo_url || item.image_url || item.media_url, item);
   });
+  for (const group of Object.values(attraction?.visit_periods || {})) {
+    if (!group || !Array.isArray(group.photos)) continue;
+    group.photos.forEach((photo) => add(photo, photo, true));
+  }
   add(attraction?.photo_url || attraction?.image_url, attraction);
   return entries;
 }
@@ -1256,7 +1307,7 @@ function drawerPhoto(entry, attraction, index) {
   frame.append(make('span', `photo-time${isUnknownTime(entry.time) ? ' unknown' : ''}`, `时间依据：${entry.time}`));
   figure.append(frame);
   const caption = make('figcaption', 'drawer-photo-caption');
-  caption.append(make('strong', '', entry.source), make('span', '', entry.time));
+  caption.append(visitPeriodBadge(entry.visitPeriod || visitPeriodOf(null), 'photo-period-badge'), make('strong', '', entry.source), make('span', '', entry.time));
   if (entry.title) caption.append(make('small', '', entry.title));
   if (entry.sourceUrl) {
     const link = make('a', '', '查看来源 ↗'); link.href = entry.sourceUrl; link.target = '_blank'; link.rel = 'noopener noreferrer'; caption.append(link);
@@ -1286,7 +1337,8 @@ function drawerLocalMap(attraction) {
 function drawerEvidenceRow(item, index) {
   const row = make('details', 'drawer-record'); row.dataset.recordId = String(item.id || index);
   const summary = make('summary');
-  const tags = make('span', 'drawer-record-tags'); tags.append(make('span', 'tag tag-source', sourceText(item.source_type)), make('span', 'drawer-record-time', timeBasis(item)));
+  const period = visitPeriodOf(item);
+  const tags = make('span', 'drawer-record-tags'); tags.append(make('span', 'tag tag-source', sourceText(item.source_type)), visitPeriodBadge(period), make('span', 'drawer-record-time', timeBasis(item)));
   summary.append(tags, make('strong', '', item.title || '原始资料'));
   row.append(summary);
   const body = make('div', 'drawer-record-body');
@@ -1294,12 +1346,22 @@ function drawerEvidenceRow(item, index) {
   const facts = make('dl', 'drawer-facts');
   facts.append(make('dt', '', '发布者'), make('dd', '', item.publisher || sourceText(item.source_type)));
   facts.append(make('dt', '', '时间依据'), make('dd', '', item.time_excerpt || timeBasis(item)));
+  facts.append(make('dt', '', '出行时段'), make('dd', '', `${period.label} · ${visitPeriodBasis(period)}`));
   if (item.material_date || item.published_label) facts.append(make('dt', '', '资料发布'), make('dd', '', item.material_date ? dateText(item.material_date) : item.published_label));
   if (item.browse_time_basis === 'publication_month') facts.append(make('dt', '', '当前归档'), make('dd', '', '按发布月份暂归档，拍摄时间未知'));
   body.append(facts);
   const url = safeUrl(item.url || item.source_url);
   if (url) { const link = make('a', 'drawer-source', '打开原文 ↗'); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; body.append(link); }
   row.append(body); return row;
+}
+function drawerPeriodDefinitions(entries, records) {
+  const counts = new Map(VISIT_PERIODS.map((period) => [period.id, { photos: 0, records: 0 }]));
+  entries.forEach((entry) => { const count = counts.get(entry.visitPeriod?.id || 'unknown') || counts.get('unknown'); count.photos += 1; });
+  records.forEach((item) => { const count = counts.get(visitPeriodOf(item).id) || counts.get('unknown'); count.records += 1; });
+  counts.set('all', { photos: entries.length, records: records.length });
+  return VISIT_PERIODS
+    .filter((period) => period.id !== 'other_holiday' || counts.get(period.id).photos || counts.get(period.id).records)
+    .map((period) => ({ ...period, ...counts.get(period.id) }));
 }
 function populateDrawer(attraction) {
   const content = clear($('#drawer-content')); if (!content || !attraction) return;
@@ -1312,28 +1374,59 @@ function populateDrawer(attraction) {
   const entries = [...preferred, ...allEntries.filter((entry) => entry.monthMatched && !preferredUrls.has(entry.url))];
   content.append(make('p', 'drawer-description', attraction.description || '暂无经核对的景点简介。'));
   content.append(drawerPractical(attraction));
-  const filterNote = make('p', 'drawer-photo-note', '照片保留原始来源；人物近景、低清和待审核图片不展示。按发布月份暂归档的照片，拍摄时间仍未知；月份未知的背景图不混入这个月。'); content.append(filterNote);
   const localMap = drawerLocalMap(attraction); if (localMap) content.append(localMap);
-  const galleryBlock = make('section', 'drawer-gallery-block');
-  const galleryHeading = make('div', 'drawer-gallery-heading'); galleryHeading.append(make('h3', '', '这个月份的照片'), make('span', '', entries.length ? `${entries.length} 张 · 现场月/发布月依据见图注` : '暂无当月照片 · 背景文字仍保留')); galleryBlock.append(galleryHeading);
-  if (entries.length) {
-    const gallery = make('div', 'drawer-gallery'); entries.slice(0, 6).forEach((entry, index) => gallery.append(drawerPhoto(entry, attraction, index))); galleryBlock.append(gallery);
-    if (entries.length > 6) {
-      const more = make('details', 'drawer-more-photos'); more.append(make('summary', '', `展开其余 ${entries.length - 6} 张照片`));
-      more.addEventListener('toggle', () => {
-        if (!more.open || more.dataset.loaded) return;
-        const rest = make('div', 'drawer-gallery'); entries.slice(6).forEach((entry, index) => rest.append(drawerPhoto(entry, attraction, index + 6))); more.append(rest); more.dataset.loaded = 'true';
-      }); galleryBlock.append(more);
-    }
-  } else galleryBlock.append(emptyBlock('暂无合适的展示照片', '已有文字资料保留在下方，清晰的景色照片待补充。'));
-  content.append(galleryBlock);
-  const records = make('section', 'drawer-records');
-  const heading = make('div', 'drawer-gallery-heading'); heading.append(make('h3', '', '相关真实资料'), make('span', '', `${related.length} 条`)); records.append(heading);
-  if (related.length) {
-    const sorted = [...related].sort((a, b) => Number(monthOf(b) === currentMonthNumber()) - Number(monthOf(a) === currentMonthNumber()));
-    sorted.forEach((item, index) => records.append(drawerEvidenceRow(item, index)));
-  } else records.append(make('p', 'drawer-photo-note', '当前筛选下暂无可关联的原始资料。'));
-  content.append(records);
+  const periodSection = make('section', 'drawer-period-section');
+  const periodHeading = make('div', 'drawer-period-heading');
+  const headingCopy = make('div'); headingCopy.append(make('p', 'eyebrow', 'WHEN TO GO'), make('h3', '', '平时与节假日实景'));
+  periodHeading.append(headingCopy, make('span', '', `当前 ${state.month} 月筛选`));
+  periodSection.append(periodHeading);
+  periodSection.append(make('p', 'drawer-period-note', '只按原文明确的到访或拍摄时段分组；发布时间不作为实景时段。缺少依据的资料保留在“时间待确认”，不会算作平时。'));
+  const periodControls = make('div', 'drawer-period-filter');
+  periodControls.setAttribute('role', 'group'); periodControls.setAttribute('aria-label', '筛选当前月份的平时与节假日照片');
+  const periodResults = make('div', 'drawer-period-results');
+  periodSection.append(periodControls, periodResults); content.append(periodSection);
+  const definitions = drawerPeriodDefinitions(entries, related);
+  let activePeriod = 'all';
+  const renderPeriodResults = () => {
+    const definition = definitions.find((period) => period.id === activePeriod) || definitions[0];
+    const selectedEntries = activePeriod === 'all' ? entries : entries.filter((entry) => entry.visitPeriod?.id === activePeriod);
+    const selectedRecords = activePeriod === 'all' ? related : related.filter((item) => visitPeriodMatches(item, activePeriod));
+    periodControls.querySelectorAll('[data-visit-period]').forEach((button) => {
+      const active = button.dataset.visitPeriod === activePeriod;
+      button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active));
+    });
+    clear(periodResults);
+    const filterNote = make('p', 'drawer-photo-note', '照片保留原始来源；人物近景、低清和待审核图片不展示。按发布月份暂归档的照片，拍摄时间仍未知；月份未知的背景图不混入这个月。'); periodResults.append(filterNote);
+    const galleryBlock = make('section', 'drawer-gallery-block');
+    const galleryHeading = make('div', 'drawer-gallery-heading');
+    galleryHeading.append(make('h3', '', activePeriod === 'all' ? '这个月份的照片' : `${definition.label}照片`), make('span', '', selectedEntries.length ? `${selectedEntries.length} 张 · 时间依据见图注` : `${definition.label}暂无可展示照片`));
+    galleryBlock.append(galleryHeading);
+    if (selectedEntries.length) {
+      const gallery = make('div', 'drawer-gallery'); selectedEntries.slice(0, 6).forEach((entry, index) => gallery.append(drawerPhoto(entry, attraction, index))); galleryBlock.append(gallery);
+      if (selectedEntries.length > 6) {
+        const more = make('details', 'drawer-more-photos'); more.append(make('summary', '', `展开其余 ${selectedEntries.length - 6} 张照片`));
+        more.addEventListener('toggle', () => {
+          if (!more.open || more.dataset.loaded) return;
+          const rest = make('div', 'drawer-gallery'); selectedEntries.slice(6).forEach((entry, index) => rest.append(drawerPhoto(entry, attraction, index + 6))); more.append(rest); more.dataset.loaded = 'true';
+        }); galleryBlock.append(more);
+      }
+    } else galleryBlock.append(emptyBlock(`${definition.label}暂无合适的展示照片`, '已归入该时段的文字资料仍保留在下方；清晰的景色照片待补充。'));
+    periodResults.append(galleryBlock);
+    const records = make('section', 'drawer-records');
+    const recordsHeading = make('div', 'drawer-gallery-heading'); recordsHeading.append(make('h3', '', activePeriod === 'all' ? '相关真实资料' : `${definition.label}相关资料`), make('span', '', `${selectedRecords.length} 条`)); records.append(recordsHeading);
+    if (selectedRecords.length) {
+      const sorted = [...selectedRecords].sort((a, b) => Number(monthOf(b) === currentMonthNumber()) - Number(monthOf(a) === currentMonthNumber()));
+      sorted.forEach((item, index) => records.append(drawerEvidenceRow(item, index)));
+    } else records.append(make('p', 'drawer-photo-note', '当前月份与时段筛选下暂无可关联的原始资料。'));
+    periodResults.append(records);
+  };
+  definitions.forEach((period) => {
+    const button = make('button', 'drawer-period-chip', `${period.shortLabel} · ${period.photos} 图`); button.type = 'button'; button.dataset.visitPeriod = period.id;
+    button.setAttribute('aria-controls', 'drawer-period-results');
+    button.addEventListener('click', () => { activePeriod = period.id; renderPeriodResults(); button.focus(); });
+    periodControls.append(button);
+  });
+  periodResults.id = 'drawer-period-results'; renderPeriodResults();
 }
 function openDrawer(attraction) {
   const drawer = $('#detail-drawer'); if (!drawer || !attraction) return;
@@ -1410,12 +1503,30 @@ function routeFacts(route) {
 function routeDays(route) {
   return (Array.isArray(route.days) ? route.days : []).filter((day) => day && Array.isArray(day.stops) && day.stops.some((stop) => stop?.name));
 }
+function renderRoutePeriodFilter(routes) {
+  const select = clear($('#route-period-filter')); if (!select) return;
+  const counts = new Map(VISIT_PERIODS.map((period) => [period.id, 0]));
+  routes.forEach((route) => counts.set(visitPeriodOf(route).id, (counts.get(visitPeriodOf(route).id) || 0) + 1));
+  for (const period of VISIT_PERIODS) {
+    if (period.id === 'other_holiday' && !counts.get(period.id) && state.routePeriod !== period.id) continue;
+    const count = period.id === 'all' ? routes.length : counts.get(period.id) || 0;
+    const option = make('option', '', `${period.label} · ${count}`); option.value = period.id; select.append(option);
+  }
+  select.value = state.routePeriod;
+  select.onchange = () => {
+    state.routePeriod = VISIT_PERIODS.some((period) => period.id === select.value) ? select.value : 'all';
+    state.routeLimit = 3; state.openRouteId = null; renderRouteGuides(); $('#route-period-filter')?.focus();
+  };
+}
 function renderRouteGuides() {
   const filter = clear($('#route-theme-filter')); const grid = clear($('#route-guide-grid'));
   if (!filter || !grid) return;
   const all = routeItems();
   const selectedTheme = ROUTE_THEMES.find((theme) => theme.id === state.routeTheme) || ROUTE_THEMES[0];
-  const routes = all.filter((route) => selectedTheme.id === 'all' || selectedTheme.keys.some((key) => route.themes?.includes(key)));
+  const themedRoutes = all.filter((route) => selectedTheme.id === 'all' || selectedTheme.keys.some((key) => route.themes?.includes(key)));
+  renderRoutePeriodFilter(themedRoutes);
+  const selectedPeriod = VISIT_PERIODS.find((period) => period.id === state.routePeriod) || VISIT_PERIODS[0];
+  const routes = themedRoutes.filter((route) => visitPeriodMatches(route, selectedPeriod.id));
   for (const theme of ROUTE_THEMES) {
     const button = make('button', `route-theme-chip${selectedTheme.id === theme.id ? ' active' : ''}`, theme.label);
     button.type = 'button'; button.dataset.routeTheme = theme.id;
@@ -1428,8 +1539,8 @@ function renderRouteGuides() {
   }
   if (!routes.length) {
     const empty = make('div', 'route-guide-empty');
-    empty.append(make('strong', '', selectedTheme.id === 'all' ? '线路攻略正在补充' : `暂无已核对的${selectedTheme.label}线路`));
-    empty.append(make('p', '', '有具体行程与原文依据后，会整理在这里。'));
+    empty.append(make('strong', '', selectedPeriod.id === 'all' && selectedTheme.id === 'all' ? '线路攻略正在补充' : `暂无已核对的${selectedPeriod.id === 'all' ? '' : selectedPeriod.label}${selectedTheme.id === 'all' ? '' : selectedTheme.label}线路`));
+    empty.append(make('p', '', '有具体行程和明确的适用时段依据后，会整理在这里；时间不明的攻略单独保留。'));
     grid.append(empty);
   }
   routes.slice(0, state.routeLimit).forEach((route, index) => {
@@ -1437,7 +1548,8 @@ function renderRouteGuides() {
     card.type = 'button'; card.id = `route-card-${index}`; card.dataset.routeId = String(route.id);
     card.setAttribute('aria-expanded', String(state.openRouteId === String(route.id))); card.setAttribute('aria-controls', 'route-guide-panel');
     const top = make('span', 'route-card-top');
-    top.append(make('span', 'route-card-theme', routeThemeNames(route).join(' · ') || '行程攻略'), make('span', 'route-card-number', String(index + 1).padStart(2, '0')));
+    const labels = make('span', 'route-card-labels'); labels.append(make('span', 'route-card-theme', routeThemeNames(route).join(' · ') || '行程攻略'), visitPeriodBadge(visitPeriodOf(route), 'route-period-badge'));
+    top.append(labels, make('span', 'route-card-number', String(index + 1).padStart(2, '0')));
     card.append(top, make('strong', 'route-card-title', route.title));
     const meta = [route.duration, route.transport].filter(Boolean);
     if (meta.length) card.append(make('span', 'route-card-meta', meta.join(' · ')));
@@ -1463,8 +1575,8 @@ function renderRouteGuides() {
     });
     grid.append(card);
   });
-  $('#route-guide-status').textContent = `${selectedTheme.label}，${routes.length} 条已收录线路，当前显示 ${Math.min(routes.length, state.routeLimit)} 条。`;
-  $('#route-guides-note').textContent = `${state.data?.route_guides?.note || '当前为已收录攻略精选，不是全网热度排行。'} 路线按原文安排展示，不随月份改写。`;
+  $('#route-guide-status').textContent = `${selectedTheme.label} · ${selectedPeriod.label}，${routes.length} 条已收录线路，当前显示 ${Math.min(routes.length, state.routeLimit)} 条。`;
+  $('#route-guides-note').textContent = `${state.data?.route_guides?.note || '当前为已收录攻略精选，不是全网热度排行。'} 路线按原文安排展示，不随月份改写；没有适用时段依据的攻略归入“时间待确认”，不会算作平时。`;
   const more = $('#route-guides-more'); more.hidden = routes.length <= state.routeLimit;
   more.textContent = `再看 ${Math.min(3, Math.max(0, routes.length - state.routeLimit))} 条线路 ↓`;
   more.onclick = () => { const next = state.routeLimit; state.routeLimit += 3; renderRouteGuides(); $('#route-guide-grid').querySelectorAll('.route-guide-card')[next]?.focus(); };
@@ -1485,6 +1597,8 @@ function renderRouteGuidePanel(route) {
   const close = make('button', 'button button-quiet', '收起 ×'); close.type = 'button'; close.setAttribute('aria-label', `收起${route.title}路线详情`);
   close.addEventListener('click', () => { state.openRouteId = null; renderRouteGuides(); routeCardFor(route.id)?.focus(); });
   header.append(heading, close); panel.append(header);
+  const period = visitPeriodOf(route);
+  const periodContext = make('div', 'route-period-context'); periodContext.append(visitPeriodBadge(period, 'route-period-badge'), make('span', '', visitPeriodBasis(period, 'route'))); panel.append(periodContext);
   if (route.recommendation_reason) panel.append(make('p', 'route-recommendation', route.recommendation_reason));
   const facts = routeFacts(route);
   if (facts.length) {

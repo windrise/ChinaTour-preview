@@ -544,6 +544,22 @@ main { padding-bottom: 20px; }
 .drawer-record-body .drawer-facts { font-size: 10px; grid-template-columns: 58px minmax(0, 1fr); }
 .drawer-record-body .drawer-facts dd { overflow: visible; white-space: normal; }
 .drawer-record-body .drawer-source { margin-top: 12px; }
+.drawer-period-section { margin-top:28px; padding-top:24px; border-top:1px solid var(--line); }
+.drawer-period-heading { display:flex; align-items:end; justify-content:space-between; gap:18px; }
+.drawer-period-heading .eyebrow { margin-bottom:5px; }
+.drawer-period-heading h3 { margin:0; font:500 20px var(--serif); }
+.drawer-period-heading>span { flex:0 0 auto; padding-bottom:2px; color:var(--muted); font-size:10px; }
+.drawer-period-note { max-width:610px; margin:10px 0 14px; color:var(--muted); font-size:10px; line-height:1.8; }
+.drawer-period-filter { display:flex; gap:7px; overflow-x:auto; margin:0 -2px; padding:2px 2px 7px; scrollbar-width:thin; }
+.drawer-period-chip { flex:0 0 auto; border:1px solid var(--line); border-radius:18px; padding:6px 11px; background:transparent; color:var(--ink-soft); font-size:10px; }
+.drawer-period-chip:hover,.drawer-period-chip.active { border-color:var(--green); background:var(--green-pale); color:var(--green); }
+.drawer-period-chip:focus-visible { outline:2px solid var(--green); outline-offset:2px; }
+.drawer-period-results .drawer-photo-note { margin-top:5px; }
+.visit-period-badge { display:inline-flex; align-items:center; width:max-content; max-width:100%; border:1px solid var(--line-dark); border-radius:12px; padding:2px 7px; background:#f3f5ef; color:var(--ink-soft); font-size:9px; font-weight:500; line-height:1.45; white-space:nowrap; }
+.visit-period-badge.period-may_day,.visit-period-badge.period-national_day,.visit-period-badge.period-other_holiday { border-color:#e4c8bc; background:var(--coral-pale); color:#8e5544; }
+.visit-period-badge.period-ordinary { border-color:#bfd2c3; background:var(--green-pale); color:var(--green); }
+.visit-period-badge.period-unknown { border-style:dashed; color:var(--muted); background:#f4f2ec; }
+.drawer-photo-caption .photo-period-badge { margin-bottom:1px; }
 button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
 
 @media (max-width: 1050px) {
@@ -674,7 +690,12 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px soli
 .route-guides { padding-top:32px; }
 .route-guides .section-heading { margin-bottom:15px; align-items:end; gap:18px; }
 .route-heading-hint { color:var(--muted); font-size:11px; margin:0 0 3px; }
+.route-filter-row { display:flex; align-items:start; gap:12px; }
+.route-filter-row .route-theme-filter { flex:1 1 auto; min-width:0; }
 .route-theme-filter { display:flex; flex-wrap:nowrap; gap:8px; overflow-x:auto; padding:3px 2px 13px; margin-left:-2px; scrollbar-width:thin; }
+.route-period-control { flex:0 0 auto; display:flex; align-items:center; gap:7px; margin-top:3px; color:var(--muted); font-size:10px; white-space:nowrap; }
+.route-period-control select { min-width:132px; border:1px solid var(--line); border-radius:18px; padding:6px 27px 6px 10px; background:var(--paper); color:var(--ink-soft); font-size:10px; }
+.route-period-control select:focus-visible { outline:2px solid var(--green); outline-offset:2px; }
 .route-theme-chip { flex:0 0 auto; border:1px solid var(--line); border-radius:20px; padding:7px 16px; background:transparent; color:var(--ink-soft); font-size:11px; line-height:1.5; }
 .route-theme-chip.active { background:var(--green-pale); color:var(--green); border-color:var(--green); }
 .route-theme-chip:hover { background:var(--green-pale); }
@@ -684,7 +705,9 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px soli
 .route-guide-card.active::before { content:''; position:absolute; inset:15px auto 15px -1px; width:3px; border-radius:2px; background:var(--green); }
 .route-guide-card:focus-visible,.route-theme-chip:focus-visible,.route-guides-more:focus-visible { outline:2px solid var(--green); outline-offset:3px; }
 .route-card-top { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; }
+.route-card-labels { display:flex; min-width:0; flex-wrap:wrap; align-items:center; gap:6px; }
 .route-card-theme { color:var(--green); font-size:10px; }
+.route-period-badge { flex:0 0 auto; }
 .route-card-number { color:var(--muted); font-size:10px; font-variant-numeric:tabular-nums; letter-spacing:.12em; }
 .route-card-title { font:400 20px/1.5 var(--serif); }
 .route-card-meta { display:block; color:var(--ink-soft); margin-top:8px; font-size:11px; line-height:1.8; }
@@ -704,6 +727,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px soli
 .route-detail-header h3 { margin:0; font:400 25px/1.5 var(--serif); }
 .route-detail-header h3:focus { outline:none; }
 .route-detail-header .button { flex:0 0 auto; }
+.route-period-context { display:flex; align-items:center; gap:9px; margin:11px 0 0; color:var(--muted); font-size:10px; line-height:1.75; }
 .route-recommendation { margin:12px 0 0; color:var(--ink-soft); font-size:12px; line-height:1.9; }
 .route-detail-facts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px 24px; margin:22px 0; padding:18px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
 .route-detail-facts dt { color:var(--muted); font-size:10px; margin:0 0 5px; }
@@ -740,9 +764,15 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px soli
   .route-card-path { margin:9px 0; }
   .route-card-footer { padding-top:9px; }
   .route-guide-panel { padding:18px 16px; }
+  .route-filter-row { flex-wrap:wrap; gap:0; margin-bottom:10px; }
+  .route-filter-row .route-theme-filter { flex-basis:100%; padding-bottom:7px; }
+  .route-period-control { width:100%; justify-content:space-between; margin-top:0; }
+  .route-period-control select { flex:0 0 min(64%,190px); }
   .route-detail-header { gap:12px; }
   .route-detail-header h3 { font-size:22px; }
   .route-detail-facts { grid-template-columns:1fr; gap:13px; margin:18px 0; }
   .route-theme-chip { padding:7px 14px; }
+  .drawer-period-heading { align-items:start; }
+  .drawer-period-heading>span { padding-top:4px; }
 }
 @media(prefers-reduced-motion:reduce) { .route-guide-card { transition:none; } }
