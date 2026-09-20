@@ -5,7 +5,7 @@ const initialParams = new URLSearchParams(window.location.search);
 const defaultMonthNumber = window.CHINATOUR_PREVIEW_META?.defaultMonth || new Date().getMonth() + 1;
 const initialMonthNumber = integer(initialParams.get('month'), defaultMonthNumber);
 const state = {
-  placeId: initialParams.get('place_id') || 'liyang',
+  placeId: window.CHINATOUR_PREVIEW_META?.defaultPlace || initialParams.get('place_id') || 'liyang',
   month: initialMonthNumber >= 1 && initialMonthNumber <= 12 ? String(initialMonthNumber) : String(defaultMonthNumber),
   mode: ['all', 'recent', 'historical'].includes(initialParams.get('mode')) ? initialParams.get('mode') : 'all',
   monthScope: initialParams.get('collect_scope') === 'all' ? 'all' : 'selected',
