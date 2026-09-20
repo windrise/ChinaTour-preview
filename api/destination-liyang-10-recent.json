@@ -12,7 +12,7 @@
       "lon": 119.4286978,
       "description": "天目湖山水园,国家5A级景区。作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138952.html",
-      "photo_url": "/api/media/353e275eb910066bb2dd321e",
+      "photo_url": null,
       "photo_credit": "夏天的小黑皮",
       "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
       "photo_source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05",
@@ -30,6 +30,7 @@
         10,
         11
       ],
+      "collection_status": "has_sources",
       "visit_periods": {
         "ordinary": {
           "evidence_count": 0,
@@ -39,324 +40,12 @@
         },
         "holiday": {
           "evidence_count": 2,
-          "photo_count": 7,
+          "photo_count": 1,
           "evidence_ids": [
             "ev_85f99d5615804e5d",
             "ev_5e23f48e7a584bdb"
           ],
           "photos": [
-            {
-              "asset_id": "1040g00831n6s16muli00493r5pfkckoecljltdg",
-              "id": "353e275eb910066bb2dd321e",
-              "ordinal": 1,
-              "url": "/api/media/353e275eb910066bb2dd321e",
-              "visit_period": {
-                "kind": "holiday",
-                "id": "national_day",
-                "holiday": "national_day",
-                "label": "十一假期",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "04866af642455100eb7070a5b669e3f9101542804ee7153889d9a75297da41c9",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 3696.1,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.027846230193972588,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.5341575145721436,
-                "scene_scores": {
-                  "vegetation": 0.5341575145721436
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05",
-              "publisher": "夏天的小黑皮",
-              "title": "国庆假期-天目湖山水园",
-              "evidence_id": "ev_85f99d5615804e5d",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-04"
-            },
-            {
-              "asset_id": "1040g00831n6s16muli10493r5pfkckoeokgndh8",
-              "id": "ea63962c64f412e58e941dea",
-              "ordinal": 3,
-              "url": "/api/media/ea63962c64f412e58e941dea",
-              "visit_period": {
-                "kind": "holiday",
-                "id": "national_day",
-                "holiday": "national_day",
-                "label": "十一假期",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "e8da0bd04e410e7656c1f9ce63f92583340185ba5fb0e97d784aa2730911ece8",
-                "reasons": [],
-                "metrics": {
-                  "width": 1440,
-                  "height": 1080,
-                  "sharpness": 3758.71,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.009310994297266006,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "water",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.418212890625,
-                "scene_scores": {
-                  "water": 0.418212890625
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05",
-              "publisher": "夏天的小黑皮",
-              "title": "国庆假期-天目湖山水园",
-              "evidence_id": "ev_85f99d5615804e5d",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-04"
-            },
-            {
-              "asset_id": "1040g00831n6s16muli1g493r5pfkckoeo9p2l10",
-              "id": "7d538bd464ab43927e45517e",
-              "ordinal": 4,
-              "url": "/api/media/7d538bd464ab43927e45517e",
-              "visit_period": {
-                "kind": "holiday",
-                "id": "national_day",
-                "holiday": "national_day",
-                "label": "十一假期",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "328dda777f4d1746d9d59becc464d19cf39e63106e75a095de12a03742fbb141",
-                "reasons": [],
-                "metrics": {
-                  "width": 1440,
-                  "height": 1080,
-                  "sharpness": 4151.5,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.0156322680413723,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.39908429980278015,
-                "scene_scores": {
-                  "vegetation": 0.39908429980278015
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05",
-              "publisher": "夏天的小黑皮",
-              "title": "国庆假期-天目湖山水园",
-              "evidence_id": "ev_85f99d5615804e5d",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-04"
-            },
-            {
-              "asset_id": "1040g00831n6s16muli2g493r5pfkckoeji0vm30",
-              "id": "cdc54d1f60deb9f42edb688d",
-              "ordinal": 5,
-              "url": "/api/media/cdc54d1f60deb9f42edb688d",
-              "visit_period": {
-                "kind": "holiday",
-                "id": "national_day",
-                "holiday": "national_day",
-                "label": "十一假期",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "06a244a9f4ab467710850cee280fc84391ef0f557040a322fefa7cf18ae22efb",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 1089.97,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.001708984375,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "water",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.68505859375,
-                "scene_scores": {
-                  "water": 0.68505859375
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05",
-              "publisher": "夏天的小黑皮",
-              "title": "国庆假期-天目湖山水园",
-              "evidence_id": "ev_85f99d5615804e5d",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-04"
-            },
-            {
-              "asset_id": "1040g00831n6s16muli30493r5pfkckoene44hh0",
-              "id": "b3901187c3a1ca08fd886096",
-              "ordinal": 6,
-              "url": "/api/media/b3901187c3a1ca08fd886096",
-              "visit_period": {
-                "kind": "holiday",
-                "id": "national_day",
-                "holiday": "national_day",
-                "label": "十一假期",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "9dd57b553e4c806ab8a296a42e3899dff1462fa138577db56d73ed5aebfb7124",
-                "reasons": [],
-                "metrics": {
-                  "width": 1440,
-                  "height": 1080,
-                  "sharpness": 1512.69,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.011474761180579662,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "water",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.751953125,
-                "scene_scores": {
-                  "water": 0.751953125
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05",
-              "publisher": "夏天的小黑皮",
-              "title": "国庆假期-天目湖山水园",
-              "evidence_id": "ev_85f99d5615804e5d",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-04"
-            },
-            {
-              "asset_id": "1040g00831n6s16muli20493r5pfkckoeh7ovano",
-              "id": "8f40a41addd6191c2f3002f3",
-              "ordinal": 7,
-              "url": "/api/media/8f40a41addd6191c2f3002f3",
-              "visit_period": {
-                "kind": "holiday",
-                "id": "national_day",
-                "holiday": "national_day",
-                "label": "十一假期",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "711b9709848ebc5f11e09c7997ee28ba9721b209dc34560c715a3e04b76d1cec",
-                "reasons": [],
-                "metrics": {
-                  "width": 1440,
-                  "height": 1080,
-                  "sharpness": 820.25,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.009522851556539536,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "water",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.398193359375,
-                "scene_scores": {
-                  "water": 0.398193359375
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05",
-              "publisher": "夏天的小黑皮",
-              "title": "国庆假期-天目湖山水园",
-              "evidence_id": "ev_85f99d5615804e5d",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-04"
-            },
             {
               "asset_id": "1040g00831n6s16muli3g493r5pfkckoeagntvpg",
               "id": "95d69511aa152d77feb5edfd",
@@ -442,7 +131,7 @@
       "lon": 119.5200143,
       "description": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
-      "photo_url": "/api/media/963ee23c24329e6aefab0614",
+      "photo_url": null,
       "photo_credit": "Woody",
       "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
       "photo_source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402",
@@ -463,6 +152,7 @@
         11,
         12
       ],
+      "collection_status": "has_sources",
       "visit_periods": {
         "ordinary": {
           "evidence_count": 0,
@@ -478,7 +168,7 @@
         },
         "unknown": {
           "evidence_count": 7,
-          "photo_count": 20,
+          "photo_count": 1,
           "evidence_ids": [
             "ev_c7fe2b617d1b4893",
             "ev_e0da12c3bb5a44f6",
@@ -489,880 +179,6 @@
             "ev_6fd5c12669d245c0"
           ],
           "photos": [
-            {
-              "asset_id": "1040g3k031o52ko8b6g7g49lu94ovvd4kl1edavg",
-              "id": "963ee23c24329e6aefab0614",
-              "ordinal": 2,
-              "url": "/api/media/963ee23c24329e6aefab0614",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "5015a1adceca0e1706b444eb5c9e445629e30dfbaa9b8d323d339cd59c3c0e94",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 2074.26,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.002441589254885912,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.43896484375,
-                "scene_scores": {
-                  "mountain": 0.43896484375
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402",
-              "publisher": "Woody",
-              "title": "以为安吉很美了，直到我来了溧阳天目湖‼️",
-              "evidence_id": "ev_c7fe2b617d1b4893",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-27"
-            },
-            {
-              "asset_id": "1040g3k031o52ko8b6g8049lu94ovvd4kqmma4sg",
-              "id": "f322b717b550b2b9fb5df3fc",
-              "ordinal": 3,
-              "url": "/api/media/f322b717b550b2b9fb5df3fc",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "52bc06e1a5f1c2c1f24865ef6769a55df6c576af1207e88712a27b5fb57a40f3",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 614.53,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.0009784642606973648,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.84130859375,
-                "scene_scores": {
-                  "mountain": 0.84130859375
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402",
-              "publisher": "Woody",
-              "title": "以为安吉很美了，直到我来了溧阳天目湖‼️",
-              "evidence_id": "ev_c7fe2b617d1b4893",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-27"
-            },
-            {
-              "asset_id": "1040g3k031o52ko8b6g8g49lu94ovvd4ks3hmq00",
-              "id": "fa071541be2421e1567199d2",
-              "ordinal": 4,
-              "url": "/api/media/fa071541be2421e1567199d2",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "b6eafa5e7b799ad5f902bde48c6d7abe0335145de98a19067a82f8b5f36790ea",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 2745.26,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.03881862387061119,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "uncertain_scene"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402",
-              "publisher": "Woody",
-              "title": "以为安吉很美了，直到我来了溧阳天目湖‼️",
-              "evidence_id": "ev_c7fe2b617d1b4893",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-27"
-            },
-            {
-              "asset_id": "1040g3k031o52ko8b6g9g49lu94ovvd4kaoo1bbg",
-              "id": "9aeae8717d7c5a9725b9fb65",
-              "ordinal": 6,
-              "url": "/api/media/9aeae8717d7c5a9725b9fb65",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "64928bb1f45ae5c35e032df939fa871c6e470eda4fab071d20648f1704e09d7f",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 1060.31,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.049560561776161194,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.77587890625,
-                "scene_scores": {
-                  "mountain": 0.77587890625
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402",
-              "publisher": "Woody",
-              "title": "以为安吉很美了，直到我来了溧阳天目湖‼️",
-              "evidence_id": "ev_c7fe2b617d1b4893",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-27"
-            },
-            {
-              "asset_id": "1040g3k031o52ko8b6gb049lu94ovvd4kc2ejdd8",
-              "id": "b78c253aede159206cb27e6a",
-              "ordinal": 9,
-              "url": "/api/media/b78c253aede159206cb27e6a",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "3ae45764dfd20308c6bebe5f76794a7da3c52d71e02adb2acf0d0f155c946917",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 1428.91,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.06037243455648422,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.44091796875,
-                "scene_scores": {
-                  "mountain": 0.44091796875
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402",
-              "publisher": "Woody",
-              "title": "以为安吉很美了，直到我来了溧阳天目湖‼️",
-              "evidence_id": "ev_c7fe2b617d1b4893",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-27"
-            },
-            {
-              "asset_id": "1040g3k031o52ko8b6gc049lu94ovvd4k5fm1fn8",
-              "id": "2af490e59649a8a7f9f418d1",
-              "ordinal": 11,
-              "url": "/api/media/2af490e59649a8a7f9f418d1",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "7bc431ab87554aed506720b9b985ae5c561e6ec54ad76bdc132a269a86eafd2f",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 928.32,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.0036623987834900618,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "uncertain_scene"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402",
-              "publisher": "Woody",
-              "title": "以为安吉很美了，直到我来了溧阳天目湖‼️",
-              "evidence_id": "ev_c7fe2b617d1b4893",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-27"
-            },
-            {
-              "asset_id": "1040g3k831nb9jajk6gc04a38s74t2nmkqdpco18",
-              "id": "9dcfe814d0264c5181d47f80",
-              "ordinal": 3,
-              "url": "/api/media/9dcfe814d0264c5181d47f80",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "6988707bf84c541fb87613885b6b3e12ed0206ee16f04720f45c71982c0ae531",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 1879.43,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.0039077093824744225,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.76171875,
-                "scene_scores": {
-                  "vegetation": 0.7163364887237549,
-                  "mountain": 0.76171875
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g3k831nb9jajk6g9g4a38s74t2nmk4258rp8",
-              "id": "40db30eca592f5567c582935",
-              "ordinal": 4,
-              "url": "/api/media/40db30eca592f5567c582935",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "1da5cc0d6937cf287a8480ef906ca95ec670c16863a4ebdd8648907879a8951f",
-                "reasons": [],
-                "metrics": {
-                  "width": 1440,
-                  "height": 1080,
-                  "sharpness": 1064.69,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.07154042273759842,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.68603515625,
-                "scene_scores": {
-                  "mountain": 0.68603515625
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g3k831nb9jajk6ga04a38s74t2nmk4ofno2o",
-              "id": "f833073bcf60abbd1acb79c0",
-              "ordinal": 5,
-              "url": "/api/media/f833073bcf60abbd1acb79c0",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "80bc29627ccd9c840d4c3985a5ec7b61b9119844af9baa1017ce3f2226b7b9ab",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 2418.77,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.0012216785689815879,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "water",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.5283203125,
-                "scene_scores": {
-                  "water": 0.5283203125,
-                  "mountain": 0.478759765625
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g3k831nb9jajk6gb04a38s74t2nmkm7te1ko",
-              "id": "e2f1e5baa416c4c0fff10991",
-              "ordinal": 6,
-              "url": "/api/media/e2f1e5baa416c4c0fff10991",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "f940ddb3e3ecfaee6e4c7d39efc60fed8f8e786c87d93b58533777a8e8600ce0",
-                "reasons": [],
-                "metrics": {
-                  "width": 1440,
-                  "height": 1080,
-                  "sharpness": 620.1,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.0019533634185791016,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.69873046875,
-                "scene_scores": {
-                  "mountain": 0.69873046875
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g3k831nb9jajk6gbg4a38s74t2nmkesu4tv0",
-              "id": "2b31c8f62d975bd45f999484",
-              "ordinal": 8,
-              "url": "/api/media/2b31c8f62d975bd45f999484",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "2af08fa53c046f043256caf516d460e36a2411082295c83c5a15aed2a09ebd38",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1441,
-                  "sharpness": 1461.44,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.010499522089958191,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.6865234375,
-                "scene_scores": {
-                  "mountain": 0.6865234375
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g3k831nb9jajk6gcg4a38s74t2nmk2rbtqh8",
-              "id": "ec4655b0723310d77ddfe917",
-              "ordinal": 9,
-              "url": "/api/media/ec4655b0723310d77ddfe917",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "ced0f8c0c53c77fb487aa8e6b065eaa9867c0b540bf0afc03100920d4656fde9",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 3784.13,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.023197786882519722,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.6151323914527893,
-                "scene_scores": {
-                  "vegetation": 0.6151323914527893
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g3k031nb9jak25m604a38s74t2nmk5rlq5bg",
-              "id": "ed93302d294fe72bcc2a5bff",
-              "ordinal": 10,
-              "url": "/api/media/ed93302d294fe72bcc2a5bff",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "fa11a3950540cdbe29261b301d8c8b2d33923c08f25fcc4e7204054671450fff",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 1137.5,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.006249520927667618,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "prominent_non_landscape_subject",
-                "subject_flags": [
-                  "animal",
-                  "mammal"
-                ]
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g3k831nb9jajk6gdg4a38s74t2nmk97qee5o",
-              "id": "426054296068b3e3855df5aa",
-              "ordinal": 11,
-              "url": "/api/media/426054296068b3e3855df5aa",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "f970bd37ef472a94937b0c374ff29a55f9ce5b480947ccf2560f53b5c0924b14",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 1251.15,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.07203207910060883,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.8046875,
-                "scene_scores": {
-                  "mountain": 0.8046875
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g3k031nb9des25m404a38s74t2nmk5c55u50",
-              "id": "58562b6380e08635bf7cfbbc",
-              "ordinal": 12,
-              "url": "/api/media/58562b6380e08635bf7cfbbc",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "b396c395b498bdfec8ed9deee98feaeede90295abe5a0ffb7fc08181b2fb0867",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1435,
-                  "sharpness": 1995.78,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.007096443325281143,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "prominent_non_landscape_subject",
-                "subject_flags": [
-                  "animal",
-                  "mammal"
-                ]
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c",
-              "publisher": "狮子菌",
-              "title": "南山竹海，0人排队，丝滑游玩攻略！",
-              "evidence_id": "ev_e0da12c3bb5a44f6",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-07"
-            },
-            {
-              "asset_id": "1040g00831n8u7rnl5m0g40r3nv9mekbv1edi8q0",
-              "id": "1917e05c9ef7102159458cab",
-              "ordinal": 2,
-              "url": "/api/media/1917e05c9ef7102159458cab",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e28f670000000003034082"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "e248b8e15d7b6c4a1624cf1458433d312efccdf73861faf2192d0898cd83a8b3",
-                "reasons": [],
-                "metrics": {
-                  "width": 1440,
-                  "height": 1080,
-                  "sharpness": 329.24,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.0026856386102735996,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.9296875,
-                "scene_scores": {
-                  "mountain": 0.9296875
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e28f670000000003034082",
-              "publisher": "呼呼",
-              "title": "溧阳南山竹海一整个骗我来花钱受苦",
-              "evidence_id": "ev_50f9c1ab722f4094",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-05"
-            },
-            {
-              "asset_id": "1040g00831n8u7rnl5m4040r3nv9mekbvita5a1g",
-              "id": "b0b842dcbcaf99cfe928368a",
-              "ordinal": 9,
-              "url": "/api/media/b0b842dcbcaf99cfe928368a",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68e28f670000000003034082"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "0378b56c8728933e1d2faacdfbd2e54e2130724b642160f22d11aecc9d1cce5d",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 5684.22,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.011231674812734127,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.613544225692749,
-                "scene_scores": {
-                  "vegetation": 0.613544225692749
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68e28f670000000003034082",
-              "publisher": "呼呼",
-              "title": "溧阳南山竹海一整个骗我来花钱受苦",
-              "evidence_id": "ev_50f9c1ab722f4094",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-05"
-            },
             {
               "asset_id": "1040g00831n3jq0ku5m105pnegfi7cdai8595eb8",
               "id": "95b66c8705063b2b80ce4db5",
@@ -1415,105 +231,6 @@
               "evidence_id": "ev_0bf0897120f54403",
               "time_label": "拍摄时间未知",
               "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3qg31n3jqekm6m2g5pnegfi7cdaip0lb9cg",
-              "id": "984d91a887f1167e3e3d3e07",
-              "ordinal": 4,
-              "url": "/api/media/984d91a887f1167e3e3d3e07",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68dd1c090000000003038dd9"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "1233790e5df901d0a2fc76ecfaec798ceb80a54a12df7f90dd964e467270f915",
-                "reasons": [],
-                "metrics": {
-                  "width": 1440,
-                  "height": 1080,
-                  "sharpness": 379.66,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.0009784642606973648,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "uncertain_scene"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68dd1c090000000003038dd9",
-              "publisher": "忧郁小黑猫",
-              "title": "十一的南山竹海人很少嘛",
-              "evidence_id": "ev_0bf0897120f54403",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3qg31n3jqekm6m305pnegfi7cdain6tdljo",
-              "id": "5e70576c91db968a3072f71d",
-              "ordinal": 6,
-              "url": "/api/media/5e70576c91db968a3072f71d",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/68dd1c090000000003038dd9"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "9a42ed040d6f21126517b6baf8ad7c965781f3c20c34434eab314ca20569c28a",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 3535.6,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.03443127125501633,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "grassland",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.392333984375,
-                "scene_scores": {
-                  "grassland": 0.392333984375
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68dd1c090000000003038dd9",
-              "publisher": "忧郁小黑猫",
-              "title": "十一的南山竹海人很少嘛",
-              "evidence_id": "ev_0bf0897120f54403",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
             }
           ]
         }
@@ -1538,7 +255,7 @@
       "lon": 119.5286808,
       "description": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
-      "photo_url": "/api/media/100408c45de3d2d902eb8b30",
+      "photo_url": null,
       "photo_credit": "朝南",
       "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
       "photo_source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
@@ -1558,572 +275,15 @@
         11,
         12
       ],
+      "collection_status": "has_sources",
       "visit_periods": {
         "ordinary": {
           "evidence_count": 1,
-          "photo_count": 12,
+          "photo_count": 1,
           "evidence_ids": [
             "ev_411f7914ff2c4039"
           ],
           "photos": [
-            {
-              "asset_id": "1040g3k031n1qc6816g605n19frhhughsodt8rjo",
-              "id": "100408c45de3d2d902eb8b30",
-              "ordinal": 1,
-              "url": "/api/media/100408c45de3d2d902eb8b30",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "44aa26c92dd8f9b75585c970e0353f548ce835b751e98ef50467912627e7e233",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1438,
-                  "sharpness": 2158.59,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.014943749643862247,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "grassland",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.445068359375,
-                "scene_scores": {
-                  "grassland": 0.445068359375
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g0g5n19frhhughsf9dgveo",
-              "id": "b8af91597a0a29a1b1d55176",
-              "ordinal": 2,
-              "url": "/api/media/b8af91597a0a29a1b1d55176",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "5e72da15a478c9b212a336dc10ecb9e095e19d134e12b9a67b2f0b20d52c704e",
-                "reasons": [],
-                "metrics": {
-                  "width": 1920,
-                  "height": 1080,
-                  "sharpness": 2919.31,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.02860957756638527,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.46389585733413696,
-                "scene_scores": {
-                  "vegetation": 0.46389585733413696
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g505n19frhhughsh79p86g",
-              "id": "15795b7e7acf470a0a92bfc4",
-              "ordinal": 3,
-              "url": "/api/media/15795b7e7acf470a0a92bfc4",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "c47322b1f0c3e4ab820f999536f1d2e90cd613fb574d3898414f7019bc69b2ef",
-                "reasons": [],
-                "metrics": {
-                  "width": 1920,
-                  "height": 1080,
-                  "sharpness": 2790.13,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.03822832927107811,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.5635991096496582,
-                "scene_scores": {
-                  "vegetation": 0.5635991096496582
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g305n19frhhughsebmjl78",
-              "id": "c62acadd580039a08cf296a2",
-              "ordinal": 4,
-              "url": "/api/media/c62acadd580039a08cf296a2",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "eebfd1aa11d9e6b30c712702834279d95753b9dc97268b4af9257da9690c8dfe",
-                "reasons": [],
-                "metrics": {
-                  "width": 1920,
-                  "height": 1080,
-                  "sharpness": 2447.22,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.05493389442563057,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.3857180178165436,
-                "scene_scores": {
-                  "vegetation": 0.3857180178165436
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g4g5n19frhhughsmkfvq0g",
-              "id": "04b8ed92fc72f4fa10d150b7",
-              "ordinal": 5,
-              "url": "/api/media/04b8ed92fc72f4fa10d150b7",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "3738c1a7e6819786f13ca4ce9b3bf299d2ea19b6463529fcfe689959fcb5f05e",
-                "reasons": [],
-                "metrics": {
-                  "width": 1920,
-                  "height": 1080,
-                  "sharpness": 3637.39,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.23018628358840942,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "uncertain_scene"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g205n19frhhughseg6ehp0",
-              "id": "28b65898f864a423c59860b3",
-              "ordinal": 6,
-              "url": "/api/media/28b65898f864a423c59860b3",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "7ae3b667235f9c6be297f099444d757f321a4683c747d4ef4585f42f33c92406",
-                "reasons": [],
-                "metrics": {
-                  "width": 1920,
-                  "height": 1080,
-                  "sharpness": 3724.54,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.06592175364494324,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "prominent_non_landscape_subject",
-                "subject_flags": [
-                  "statue"
-                ]
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g2g5n19frhhughsj3qn9m0",
-              "id": "3c9abe3c4674e2e89fad2982",
-              "ordinal": 7,
-              "url": "/api/media/3c9abe3c4674e2e89fad2982",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "4e3191c11041813d3e1dab5cdd7f7b63e00a77ead164c0bb9c56d1ccd1c75f02",
-                "reasons": [],
-                "metrics": {
-                  "width": 1920,
-                  "height": 1080,
-                  "sharpness": 5092.13,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.022735193371772766,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.6670348644256592,
-                "scene_scores": {
-                  "vegetation": 0.6670348644256592
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g6g5n19frhhughs0tdb0oo",
-              "id": "2f1484d7c130dc4fee9d0a28",
-              "ordinal": 8,
-              "url": "/api/media/2f1484d7c130dc4fee9d0a28",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "f57163e0ab4a8c27718e62929acb9feb88e54719ccc7f4e6d0142aa86e572ae6",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1920,
-                  "sharpness": 2187.07,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.03029235266149044,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "vegetation",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.5385850667953491,
-                "scene_scores": {
-                  "vegetation": 0.5385850667953491
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g2sg31n34jesr6mkg5n19frhhughsl1rd7go",
-              "id": "706a8ca74675bd6c97dc5b28",
-              "ordinal": 9,
-              "url": "/api/media/706a8ca74675bd6c97dc5b28",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "acb32d97c6023af2753bbd53646048a386b8a8e1b22e337d9f3035915ea3330f",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1920,
-                  "sharpness": 828.23,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.014160757884383202,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": true,
-                "scene": "mountain",
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "score": 0.8818359375,
-                "scene_scores": {
-                  "mountain": 0.8818359375
-                },
-                "reason": "scene_candidate",
-                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g105n19frhhughsi3c31ao",
-              "id": "04232b05d3c1832ace2bccb3",
-              "ordinal": 10,
-              "url": "/api/media/04232b05d3c1832ace2bccb3",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "1df4f2969a1d228719dbac97593803757adc420346aca82fa034cba6c1f7ce74",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1920,
-                  "sharpness": 981.27,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.1511753648519516,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "uncertain_scene"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
-            {
-              "asset_id": "1040g3k031n1qc6816g3g5n19frhhughsr3c5o8o",
-              "id": "f98b1c9a37412bd58707434f",
-              "ordinal": 11,
-              "url": "/api/media/f98b1c9a37412bd58707434f",
-              "visit_period": {
-                "kind": "ordinary",
-                "id": "ordinary",
-                "holiday": null,
-                "label": "平时",
-                "basis": "author_visit_statement",
-                "basis_label": "作者明确描述到访时段",
-                "support_excerpt": "点击原帖查看作者正文与完整说明。",
-                "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "2199a576263b3523996d9e9214b05fafc4a4e865dc5b988bc6e5407304ef0955",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1920,
-                  "sharpness": 1298.15,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.021244579926133156,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "prominent_non_landscape_subject",
-                "subject_flags": [
-                  "food"
-                ]
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170",
-              "publisher": "朝南",
-              "title": "天目湖御水温泉体验~",
-              "evidence_id": "ev_411f7914ff2c4039",
-              "time_label": "拍摄时间未知",
-              "material_date": "2025-10-01"
-            },
             {
               "asset_id": "1040g3k031n1qc6816g5g5n19frhhughs2maclj0",
               "id": "dc1e09e17e47989c83b44051",
@@ -2207,136 +367,6 @@
       }
     },
     {
-      "id": "place_c194c49525e140d0",
-      "name": "曹山旅游度假区",
-      "lat": null,
-      "lon": null,
-      "description": "曹山旅游度假区，2018年1月被江苏省人民政府批准为省级旅游度假区。曹山旅游度假区依托优良的生态环境、深厚的文化积淀、丰富的现代农业资源、优越的区位条件，以“七彩曹山”为主题，融生态农业、乡村文化、运动休闲、养生度假于一体，着力打造“养眼、养身、养心”三个层次的旅游产品体系，建设特色乡村旅游度假目的地。",
-      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138949.html",
-      "photo_url": null,
-      "photo_credit": null,
-      "photo_time_basis": null,
-      "photo_source_url": null,
-      "photo_month": null,
-      "photo_browse_month": null,
-      "evidence_count": 1,
-      "months": [],
-      "visit_periods": {
-        "ordinary": {
-          "evidence_count": 0,
-          "photo_count": 0,
-          "evidence_ids": [],
-          "photos": []
-        },
-        "holiday": {
-          "evidence_count": 0,
-          "photo_count": 0,
-          "evidence_ids": [],
-          "photos": []
-        },
-        "unknown": {
-          "evidence_count": 1,
-          "photo_count": 0,
-          "evidence_ids": [
-            "ev_cfa63ebb278546f4"
-          ],
-          "photos": []
-        }
-      },
-      "map_source_url": null,
-      "coordinate_system": null,
-      "local_map": null
-    },
-    {
-      "id": "place_183ab381969345da",
-      "name": "新四军江南指挥部纪念馆",
-      "lat": 31.5096085,
-      "lon": 119.33798445,
-      "description": "新四军江南指挥部纪念馆,国家4A级景区。位于竹箦镇水西村内，依托新四军江南指挥部旧址而建。",
-      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138948.html",
-      "photo_url": null,
-      "photo_credit": null,
-      "photo_time_basis": null,
-      "photo_source_url": null,
-      "photo_month": null,
-      "photo_browse_month": null,
-      "evidence_count": 5,
-      "months": [
-        4,
-        9,
-        12
-      ],
-      "visit_periods": {
-        "ordinary": {
-          "evidence_count": 0,
-          "photo_count": 0,
-          "evidence_ids": [],
-          "photos": []
-        },
-        "holiday": {
-          "evidence_count": 0,
-          "photo_count": 0,
-          "evidence_ids": [],
-          "photos": []
-        },
-        "unknown": {
-          "evidence_count": 1,
-          "photo_count": 0,
-          "evidence_ids": [
-            "ev_223a3ac412af4917"
-          ],
-          "photos": []
-        }
-      },
-      "map_source_url": "https://www.openstreetmap.org/way/334129153",
-      "coordinate_system": "WGS84",
-      "local_map": null
-    },
-    {
-      "id": "place_b056a5774794434a",
-      "name": "史侯祠",
-      "lat": null,
-      "lon": null,
-      "description": "史侯祠，国家3A级景区。位于埭头镇，始建于东汉初年，是为纪念东汉名将、溧阳侯史崇而建的祭祀建筑群，距今有2000多年历史。",
-      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138947.html",
-      "photo_url": null,
-      "photo_credit": null,
-      "photo_time_basis": null,
-      "photo_source_url": null,
-      "photo_month": null,
-      "photo_browse_month": null,
-      "evidence_count": 3,
-      "months": [
-        6,
-        8
-      ],
-      "visit_periods": {
-        "ordinary": {
-          "evidence_count": 0,
-          "photo_count": 0,
-          "evidence_ids": [],
-          "photos": []
-        },
-        "holiday": {
-          "evidence_count": 0,
-          "photo_count": 0,
-          "evidence_ids": [],
-          "photos": []
-        },
-        "unknown": {
-          "evidence_count": 1,
-          "photo_count": 0,
-          "evidence_ids": [
-            "ev_421ddb1f75824ef2"
-          ],
-          "photos": []
-        }
-      },
-      "map_source_url": null,
-      "coordinate_system": null,
-      "local_map": null
-    },
-    {
       "id": "place_7bf2baddf01440af",
       "name": "松岭竹海漂流",
       "lat": null,
@@ -2353,6 +383,7 @@
       "months": [
         9
       ],
+      "collection_status": "has_sources",
       "visit_periods": {
         "ordinary": {
           "evidence_count": 0,
@@ -2394,6 +425,7 @@
       "months": [
         9
       ],
+      "collection_status": "has_sources",
       "visit_periods": {
         "ordinary": {
           "evidence_count": 0,
@@ -2441,6 +473,7 @@
         10,
         11
       ],
+      "collection_status": "has_sources",
       "visit_periods": {
         "ordinary": {
           "evidence_count": 0,
@@ -2468,8 +501,8 @@
       "local_map": null
     },
     {
-      "id": "place_64fc604c88c741b1",
-      "name": "加顺农场",
+      "id": "configured_652b4b9215cf8737628a",
+      "name": "天目湖国家湿地公园",
       "lat": null,
       "lon": null,
       "description": "资料正在汇集",
@@ -2480,14 +513,49 @@
       "photo_source_url": null,
       "photo_month": null,
       "photo_browse_month": null,
-      "evidence_count": 6,
-      "months": [
-        4,
-        5,
-        8,
-        9,
-        11
-      ],
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "configured_609ef45c8982f218b0d1",
+      "name": "长荡湖国家湿地公园",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
       "visit_periods": {
         "ordinary": {
           "evidence_count": 0,
@@ -2531,6 +599,7 @@
         3,
         4
       ],
+      "collection_status": "has_sources",
       "visit_periods": {
         "ordinary": {
           "evidence_count": 0,
@@ -2548,6 +617,305 @@
           "evidence_count": 0,
           "photo_count": 0,
           "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "configured_6c7837fbe7f9199cb4c0",
+      "name": "姜下鹅村",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "configured_ac8a7fd189faf5e1c272",
+      "name": "美岕山野温泉度假村",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_64fc604c88c741b1",
+      "name": "加顺农场",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 6,
+      "months": [
+        4,
+        5,
+        8,
+        9,
+        11
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "configured_7bc32401b48517f9c07e",
+      "name": "至外面包",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_183ab381969345da",
+      "name": "新四军江南指挥部纪念馆",
+      "lat": 31.5096085,
+      "lon": 119.33798445,
+      "description": "新四军江南指挥部纪念馆,国家4A级景区。位于竹箦镇水西村内，依托新四军江南指挥部旧址而建。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138948.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 5,
+      "months": [
+        4,
+        9,
+        12
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_223a3ac412af4917"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/334129153",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_c194c49525e140d0",
+      "name": "曹山旅游度假区",
+      "lat": null,
+      "lon": null,
+      "description": "曹山旅游度假区，2018年1月被江苏省人民政府批准为省级旅游度假区。曹山旅游度假区依托优良的生态环境、深厚的文化积淀、丰富的现代农业资源、优越的区位条件，以“七彩曹山”为主题，融生态农业、乡村文化、运动休闲、养生度假于一体，着力打造“养眼、养身、养心”三个层次的旅游产品体系，建设特色乡村旅游度假目的地。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138949.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_cfa63ebb278546f4"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_b056a5774794434a",
+      "name": "史侯祠",
+      "lat": null,
+      "lon": null,
+      "description": "史侯祠，国家3A级景区。位于埭头镇，始建于东汉初年，是为纪念东汉名将、溧阳侯史崇而建的祭祀建筑群，距今有2000多年历史。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138947.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 3,
+      "months": [
+        6,
+        8
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_421ddb1f75824ef2"
+          ],
           "photos": []
         }
       },
@@ -2587,282 +955,6 @@
         "湖泊"
       ],
       "media": [
-        {
-          "asset_id": "1040g00831n6s16muli00493r5pfkckoecljltdg",
-          "id": "353e275eb910066bb2dd321e",
-          "ordinal": 1,
-          "url": "/api/media/353e275eb910066bb2dd321e",
-          "visit_period": {
-            "kind": "holiday",
-            "id": "national_day",
-            "holiday": "national_day",
-            "label": "十一假期",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "04866af642455100eb7070a5b669e3f9101542804ee7153889d9a75297da41c9",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 3696.1,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.027846230193972588,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.5341575145721436,
-            "scene_scores": {
-              "vegetation": 0.5341575145721436
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g00831n6s16muli10493r5pfkckoeokgndh8",
-          "id": "ea63962c64f412e58e941dea",
-          "ordinal": 3,
-          "url": "/api/media/ea63962c64f412e58e941dea",
-          "visit_period": {
-            "kind": "holiday",
-            "id": "national_day",
-            "holiday": "national_day",
-            "label": "十一假期",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "e8da0bd04e410e7656c1f9ce63f92583340185ba5fb0e97d784aa2730911ece8",
-            "reasons": [],
-            "metrics": {
-              "width": 1440,
-              "height": 1080,
-              "sharpness": 3758.71,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.009310994297266006,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "water",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.418212890625,
-            "scene_scores": {
-              "water": 0.418212890625
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g00831n6s16muli1g493r5pfkckoeo9p2l10",
-          "id": "7d538bd464ab43927e45517e",
-          "ordinal": 4,
-          "url": "/api/media/7d538bd464ab43927e45517e",
-          "visit_period": {
-            "kind": "holiday",
-            "id": "national_day",
-            "holiday": "national_day",
-            "label": "十一假期",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "328dda777f4d1746d9d59becc464d19cf39e63106e75a095de12a03742fbb141",
-            "reasons": [],
-            "metrics": {
-              "width": 1440,
-              "height": 1080,
-              "sharpness": 4151.5,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.0156322680413723,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.39908429980278015,
-            "scene_scores": {
-              "vegetation": 0.39908429980278015
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g00831n6s16muli2g493r5pfkckoeji0vm30",
-          "id": "cdc54d1f60deb9f42edb688d",
-          "ordinal": 5,
-          "url": "/api/media/cdc54d1f60deb9f42edb688d",
-          "visit_period": {
-            "kind": "holiday",
-            "id": "national_day",
-            "holiday": "national_day",
-            "label": "十一假期",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "06a244a9f4ab467710850cee280fc84391ef0f557040a322fefa7cf18ae22efb",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 1089.97,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.001708984375,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "water",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.68505859375,
-            "scene_scores": {
-              "water": 0.68505859375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g00831n6s16muli30493r5pfkckoene44hh0",
-          "id": "b3901187c3a1ca08fd886096",
-          "ordinal": 6,
-          "url": "/api/media/b3901187c3a1ca08fd886096",
-          "visit_period": {
-            "kind": "holiday",
-            "id": "national_day",
-            "holiday": "national_day",
-            "label": "十一假期",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "9dd57b553e4c806ab8a296a42e3899dff1462fa138577db56d73ed5aebfb7124",
-            "reasons": [],
-            "metrics": {
-              "width": 1440,
-              "height": 1080,
-              "sharpness": 1512.69,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.011474761180579662,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "water",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.751953125,
-            "scene_scores": {
-              "water": 0.751953125
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g00831n6s16muli20493r5pfkckoeh7ovano",
-          "id": "8f40a41addd6191c2f3002f3",
-          "ordinal": 7,
-          "url": "/api/media/8f40a41addd6191c2f3002f3",
-          "visit_period": {
-            "kind": "holiday",
-            "id": "national_day",
-            "holiday": "national_day",
-            "label": "十一假期",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "711b9709848ebc5f11e09c7997ee28ba9721b209dc34560c715a3e04b76d1cec",
-            "reasons": [],
-            "metrics": {
-              "width": 1440,
-              "height": 1080,
-              "sharpness": 820.25,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.009522851556539536,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "water",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.398193359375,
-            "scene_scores": {
-              "water": 0.398193359375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
         {
           "asset_id": "1040g00831n6s16muli3g493r5pfkckoeagntvpg",
           "id": "95d69511aa152d77feb5edfd",
@@ -3133,274 +1225,7 @@
         "湖泊",
         "竹林"
       ],
-      "media": [
-        {
-          "asset_id": "1040g3k031o52ko8b6g7g49lu94ovvd4kl1edavg",
-          "id": "963ee23c24329e6aefab0614",
-          "ordinal": 2,
-          "url": "/api/media/963ee23c24329e6aefab0614",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "5015a1adceca0e1706b444eb5c9e445629e30dfbaa9b8d323d339cd59c3c0e94",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 2074.26,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.002441589254885912,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.43896484375,
-            "scene_scores": {
-              "mountain": 0.43896484375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031o52ko8b6g8049lu94ovvd4kqmma4sg",
-          "id": "f322b717b550b2b9fb5df3fc",
-          "ordinal": 3,
-          "url": "/api/media/f322b717b550b2b9fb5df3fc",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "52bc06e1a5f1c2c1f24865ef6769a55df6c576af1207e88712a27b5fb57a40f3",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 614.53,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.0009784642606973648,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.84130859375,
-            "scene_scores": {
-              "mountain": 0.84130859375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031o52ko8b6g8g49lu94ovvd4ks3hmq00",
-          "id": "fa071541be2421e1567199d2",
-          "ordinal": 4,
-          "url": "/api/media/fa071541be2421e1567199d2",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "b6eafa5e7b799ad5f902bde48c6d7abe0335145de98a19067a82f8b5f36790ea",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 2745.26,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.03881862387061119,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "1040g3k031o52ko8b6g9g49lu94ovvd4kaoo1bbg",
-          "id": "9aeae8717d7c5a9725b9fb65",
-          "ordinal": 6,
-          "url": "/api/media/9aeae8717d7c5a9725b9fb65",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "64928bb1f45ae5c35e032df939fa871c6e470eda4fab071d20648f1704e09d7f",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 1060.31,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.049560561776161194,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.77587890625,
-            "scene_scores": {
-              "mountain": 0.77587890625
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031o52ko8b6gb049lu94ovvd4kc2ejdd8",
-          "id": "b78c253aede159206cb27e6a",
-          "ordinal": 9,
-          "url": "/api/media/b78c253aede159206cb27e6a",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "3ae45764dfd20308c6bebe5f76794a7da3c52d71e02adb2acf0d0f155c946917",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 1428.91,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.06037243455648422,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.44091796875,
-            "scene_scores": {
-              "mountain": 0.44091796875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031o52ko8b6gc049lu94ovvd4k5fm1fn8",
-          "id": "2af490e59649a8a7f9f418d1",
-          "ordinal": 11,
-          "url": "/api/media/2af490e59649a8a7f9f418d1",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68ff5fb9000000000402b402"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "7bc431ab87554aed506720b9b985ae5c561e6ec54ad76bdc132a269a86eafd2f",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 928.32,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.0036623987834900618,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2025-10-27",
@@ -3584,422 +1409,7 @@
       "topics": [
         "竹林"
       ],
-      "media": [
-        {
-          "asset_id": "1040g3k831nb9jajk6gc04a38s74t2nmkqdpco18",
-          "id": "9dcfe814d0264c5181d47f80",
-          "ordinal": 3,
-          "url": "/api/media/9dcfe814d0264c5181d47f80",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "6988707bf84c541fb87613885b6b3e12ed0206ee16f04720f45c71982c0ae531",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 1879.43,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.0039077093824744225,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.76171875,
-            "scene_scores": {
-              "vegetation": 0.7163364887237549,
-              "mountain": 0.76171875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k831nb9jajk6g9g4a38s74t2nmk4258rp8",
-          "id": "40db30eca592f5567c582935",
-          "ordinal": 4,
-          "url": "/api/media/40db30eca592f5567c582935",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "1da5cc0d6937cf287a8480ef906ca95ec670c16863a4ebdd8648907879a8951f",
-            "reasons": [],
-            "metrics": {
-              "width": 1440,
-              "height": 1080,
-              "sharpness": 1064.69,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.07154042273759842,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.68603515625,
-            "scene_scores": {
-              "mountain": 0.68603515625
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k831nb9jajk6ga04a38s74t2nmk4ofno2o",
-          "id": "f833073bcf60abbd1acb79c0",
-          "ordinal": 5,
-          "url": "/api/media/f833073bcf60abbd1acb79c0",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "80bc29627ccd9c840d4c3985a5ec7b61b9119844af9baa1017ce3f2226b7b9ab",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 2418.77,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.0012216785689815879,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "water",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.5283203125,
-            "scene_scores": {
-              "water": 0.5283203125,
-              "mountain": 0.478759765625
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k831nb9jajk6gb04a38s74t2nmkm7te1ko",
-          "id": "e2f1e5baa416c4c0fff10991",
-          "ordinal": 6,
-          "url": "/api/media/e2f1e5baa416c4c0fff10991",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "f940ddb3e3ecfaee6e4c7d39efc60fed8f8e786c87d93b58533777a8e8600ce0",
-            "reasons": [],
-            "metrics": {
-              "width": 1440,
-              "height": 1080,
-              "sharpness": 620.1,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.0019533634185791016,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.69873046875,
-            "scene_scores": {
-              "mountain": 0.69873046875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k831nb9jajk6gbg4a38s74t2nmkesu4tv0",
-          "id": "2b31c8f62d975bd45f999484",
-          "ordinal": 8,
-          "url": "/api/media/2b31c8f62d975bd45f999484",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "2af08fa53c046f043256caf516d460e36a2411082295c83c5a15aed2a09ebd38",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1441,
-              "sharpness": 1461.44,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.010499522089958191,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.6865234375,
-            "scene_scores": {
-              "mountain": 0.6865234375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k831nb9jajk6gcg4a38s74t2nmk2rbtqh8",
-          "id": "ec4655b0723310d77ddfe917",
-          "ordinal": 9,
-          "url": "/api/media/ec4655b0723310d77ddfe917",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "ced0f8c0c53c77fb487aa8e6b065eaa9867c0b540bf0afc03100920d4656fde9",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 3784.13,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.023197786882519722,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.6151323914527893,
-            "scene_scores": {
-              "vegetation": 0.6151323914527893
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031nb9jak25m604a38s74t2nmk5rlq5bg",
-          "id": "ed93302d294fe72bcc2a5bff",
-          "ordinal": 10,
-          "url": "/api/media/ed93302d294fe72bcc2a5bff",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "fa11a3950540cdbe29261b301d8c8b2d33923c08f25fcc4e7204054671450fff",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 1137.5,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.006249520927667618,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "animal",
-              "mammal"
-            ]
-          }
-        },
-        {
-          "asset_id": "1040g3k831nb9jajk6gdg4a38s74t2nmk97qee5o",
-          "id": "426054296068b3e3855df5aa",
-          "ordinal": 11,
-          "url": "/api/media/426054296068b3e3855df5aa",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "f970bd37ef472a94937b0c374ff29a55f9ce5b480947ccf2560f53b5c0924b14",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 1251.15,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.07203207910060883,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.8046875,
-            "scene_scores": {
-              "mountain": 0.8046875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031nb9des25m404a38s74t2nmk5c55u50",
-          "id": "58562b6380e08635bf7cfbbc",
-          "ordinal": 12,
-          "url": "/api/media/58562b6380e08635bf7cfbbc",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e4f9a6000000000301ad8c"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "b396c395b498bdfec8ed9deee98feaeede90295abe5a0ffb7fc08181b2fb0867",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1435,
-              "sharpness": 1995.78,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.007096443325281143,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "animal",
-              "mammal"
-            ]
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2025-10-07",
@@ -4233,498 +1643,6 @@
         "竹林"
       ],
       "media": [
-        {
-          "asset_id": "1040g3k031n1qc6816g605n19frhhughsodt8rjo",
-          "id": "100408c45de3d2d902eb8b30",
-          "ordinal": 1,
-          "url": "/api/media/100408c45de3d2d902eb8b30",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "44aa26c92dd8f9b75585c970e0353f548ce835b751e98ef50467912627e7e233",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1438,
-              "sharpness": 2158.59,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.014943749643862247,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "grassland",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.445068359375,
-            "scene_scores": {
-              "grassland": 0.445068359375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g0g5n19frhhughsf9dgveo",
-          "id": "b8af91597a0a29a1b1d55176",
-          "ordinal": 2,
-          "url": "/api/media/b8af91597a0a29a1b1d55176",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "5e72da15a478c9b212a336dc10ecb9e095e19d134e12b9a67b2f0b20d52c704e",
-            "reasons": [],
-            "metrics": {
-              "width": 1920,
-              "height": 1080,
-              "sharpness": 2919.31,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.02860957756638527,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.46389585733413696,
-            "scene_scores": {
-              "vegetation": 0.46389585733413696
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g505n19frhhughsh79p86g",
-          "id": "15795b7e7acf470a0a92bfc4",
-          "ordinal": 3,
-          "url": "/api/media/15795b7e7acf470a0a92bfc4",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "c47322b1f0c3e4ab820f999536f1d2e90cd613fb574d3898414f7019bc69b2ef",
-            "reasons": [],
-            "metrics": {
-              "width": 1920,
-              "height": 1080,
-              "sharpness": 2790.13,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.03822832927107811,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.5635991096496582,
-            "scene_scores": {
-              "vegetation": 0.5635991096496582
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g305n19frhhughsebmjl78",
-          "id": "c62acadd580039a08cf296a2",
-          "ordinal": 4,
-          "url": "/api/media/c62acadd580039a08cf296a2",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "eebfd1aa11d9e6b30c712702834279d95753b9dc97268b4af9257da9690c8dfe",
-            "reasons": [],
-            "metrics": {
-              "width": 1920,
-              "height": 1080,
-              "sharpness": 2447.22,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.05493389442563057,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.3857180178165436,
-            "scene_scores": {
-              "vegetation": 0.3857180178165436
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g4g5n19frhhughsmkfvq0g",
-          "id": "04b8ed92fc72f4fa10d150b7",
-          "ordinal": 5,
-          "url": "/api/media/04b8ed92fc72f4fa10d150b7",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "3738c1a7e6819786f13ca4ce9b3bf299d2ea19b6463529fcfe689959fcb5f05e",
-            "reasons": [],
-            "metrics": {
-              "width": 1920,
-              "height": 1080,
-              "sharpness": 3637.39,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.23018628358840942,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g205n19frhhughseg6ehp0",
-          "id": "28b65898f864a423c59860b3",
-          "ordinal": 6,
-          "url": "/api/media/28b65898f864a423c59860b3",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "7ae3b667235f9c6be297f099444d757f321a4683c747d4ef4585f42f33c92406",
-            "reasons": [],
-            "metrics": {
-              "width": 1920,
-              "height": 1080,
-              "sharpness": 3724.54,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.06592175364494324,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "statue"
-            ]
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g2g5n19frhhughsj3qn9m0",
-          "id": "3c9abe3c4674e2e89fad2982",
-          "ordinal": 7,
-          "url": "/api/media/3c9abe3c4674e2e89fad2982",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "4e3191c11041813d3e1dab5cdd7f7b63e00a77ead164c0bb9c56d1ccd1c75f02",
-            "reasons": [],
-            "metrics": {
-              "width": 1920,
-              "height": 1080,
-              "sharpness": 5092.13,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.022735193371772766,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.6670348644256592,
-            "scene_scores": {
-              "vegetation": 0.6670348644256592
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g6g5n19frhhughs0tdb0oo",
-          "id": "2f1484d7c130dc4fee9d0a28",
-          "ordinal": 8,
-          "url": "/api/media/2f1484d7c130dc4fee9d0a28",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "f57163e0ab4a8c27718e62929acb9feb88e54719ccc7f4e6d0142aa86e572ae6",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1920,
-              "sharpness": 2187.07,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.03029235266149044,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.5385850667953491,
-            "scene_scores": {
-              "vegetation": 0.5385850667953491
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g2sg31n34jesr6mkg5n19frhhughsl1rd7go",
-          "id": "706a8ca74675bd6c97dc5b28",
-          "ordinal": 9,
-          "url": "/api/media/706a8ca74675bd6c97dc5b28",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "acb32d97c6023af2753bbd53646048a386b8a8e1b22e337d9f3035915ea3330f",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1920,
-              "sharpness": 828.23,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.014160757884383202,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.8818359375,
-            "scene_scores": {
-              "mountain": 0.8818359375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g105n19frhhughsi3c31ao",
-          "id": "04232b05d3c1832ace2bccb3",
-          "ordinal": 10,
-          "url": "/api/media/04232b05d3c1832ace2bccb3",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "1df4f2969a1d228719dbac97593803757adc420346aca82fa034cba6c1f7ce74",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1920,
-              "sharpness": 981.27,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.1511753648519516,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "1040g3k031n1qc6816g3g5n19frhhughsr3c5o8o",
-          "id": "f98b1c9a37412bd58707434f",
-          "ordinal": 11,
-          "url": "/api/media/f98b1c9a37412bd58707434f",
-          "visit_period": {
-            "kind": "ordinary",
-            "id": "ordinary",
-            "holiday": null,
-            "label": "平时",
-            "basis": "author_visit_statement",
-            "basis_label": "作者明确描述到访时段",
-            "support_excerpt": "点击原帖查看作者正文与完整说明。",
-            "source_url": "https://www.xiaohongshu.com/explore/68db44b80000000014008170"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "2199a576263b3523996d9e9214b05fafc4a4e865dc5b988bc6e5407304ef0955",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1920,
-              "sharpness": 1298.15,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.021244579926133156,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "food"
-            ]
-          }
-        },
         {
           "asset_id": "1040g3k031n1qc6816g5g5n19frhhughs2maclj0",
           "id": "dc1e09e17e47989c83b44051",
@@ -4963,100 +1881,7 @@
       "topics": [
         "竹林"
       ],
-      "media": [
-        {
-          "asset_id": "1040g00831n8u7rnl5m0g40r3nv9mekbv1edi8q0",
-          "id": "1917e05c9ef7102159458cab",
-          "ordinal": 2,
-          "url": "/api/media/1917e05c9ef7102159458cab",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e28f670000000003034082"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "e248b8e15d7b6c4a1624cf1458433d312efccdf73861faf2192d0898cd83a8b3",
-            "reasons": [],
-            "metrics": {
-              "width": 1440,
-              "height": 1080,
-              "sharpness": 329.24,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.0026856386102735996,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.9296875,
-            "scene_scores": {
-              "mountain": 0.9296875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g00831n8u7rnl5m4040r3nv9mekbvita5a1g",
-          "id": "b0b842dcbcaf99cfe928368a",
-          "ordinal": 9,
-          "url": "/api/media/b0b842dcbcaf99cfe928368a",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68e28f670000000003034082"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "0378b56c8728933e1d2faacdfbd2e54e2130724b642160f22d11aecc9d1cce5d",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 5684.22,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.011231674812734127,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.613544225692749,
-            "scene_scores": {
-              "vegetation": 0.613544225692749
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2025-10-05",
@@ -5256,93 +2081,6 @@
             "scene_scores": {
               "grassland": 0.350341796875,
               "mountain": 0.58203125
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "1040g3qg31n3jqekm6m2g5pnegfi7cdaip0lb9cg",
-          "id": "984d91a887f1167e3e3d3e07",
-          "ordinal": 4,
-          "url": "/api/media/984d91a887f1167e3e3d3e07",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68dd1c090000000003038dd9"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "1233790e5df901d0a2fc76ecfaec798ceb80a54a12df7f90dd964e467270f915",
-            "reasons": [],
-            "metrics": {
-              "width": 1440,
-              "height": 1080,
-              "sharpness": 379.66,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.0009784642606973648,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "1040g3qg31n3jqekm6m305pnegfi7cdain6tdljo",
-          "id": "5e70576c91db968a3072f71d",
-          "ordinal": 6,
-          "url": "/api/media/5e70576c91db968a3072f71d",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/68dd1c090000000003038dd9"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "9a42ed040d6f21126517b6baf8ad7c965781f3c20c34434eab314ca20569c28a",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 3535.6,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.03443127125501633,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "grassland",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.392333984375,
-            "scene_scores": {
-              "grassland": 0.392333984375
             },
             "reason": "scene_candidate",
             "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
@@ -6922,338 +3660,7 @@
       "summary": "这个月份还缺少有时间依据的独立观察"
     }
   ],
-  "changes": [
-    {
-      "id": "49de83c9ba2103b2aef03392ca3fb827de53d7f87720efc8f97ee3bd358e09d4",
-      "title": "江浙沪周边‼️我宣布这是亲子农场天花板",
-      "created_at": "2026-09-20T17:15:15.698602+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69146ae500000000070219a1",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "3d569f137f825d3bcbb8672ba73a8093b6707b9c51006709ae6c6c756a850c37",
-      "title": "亲子友好旅行｜溧阳📍加顺农场一日游",
-      "created_at": "2026-09-20T17:15:15.694272+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a01c5c9000000003701cb6e",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "b3a6aba84fdde611c70981e4990886c1fafb6b4a1c7ebcf566df3896973021ee",
-      "title": "后悔！在溧阳当了一天农场主，娃拽不走😭",
-      "created_at": "2026-09-20T17:15:15.689905+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69eac7ab000000001a037d93",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "37eecf44f6ab1317cb1392ec31d1d8ca1b1dc8f46a2bad53d8e6b4f480d9492f",
-      "title": "二刷溧阳加顺农场🌿",
-      "created_at": "2026-09-20T17:15:15.685154+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a82608a000000002701dc04",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "5844b6b9468ad2fb607b2265fc15424a78a7ce30731814449f1d266e526a4a03",
-      "title": "👧🏻｜溧阳加顺农场半日体验",
-      "created_at": "2026-09-20T17:15:15.681013+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a9e3150000000002803bc60",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "b9cf62868133de8527c5aa1e6c00cae0c51a6745261751a0b33ac0e366e2f454",
-      "title": "江苏省溧阳新四军江南指挥部纪念馆",
-      "created_at": "2026-09-20T17:15:15.675901+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69ea13230000000011020005",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "c369692811b9f95d6b831e2e2119c59b86694996fb4a0e93b16acdf705a43969",
-      "title": "参观-溧阳市新四军江南指挥部纪念馆",
-      "created_at": "2026-09-20T17:15:15.671556+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6943faca000000001e032fed",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "f3fd841227e772789f0b793dcc01177c304e4499b71a5d52e4489f6580b731ce",
-      "title": "新四军江南指挥部纪念馆",
-      "created_at": "2026-09-20T17:15:15.667259+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6aa8b241000000002b01c8d5",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "a1f158ed2d6a61736cb2b0817c0b30231cbaf34d1fa4c18b19982d2ba7271654",
-      "title": "江南第一大祠堂史侯祠",
-      "created_at": "2026-09-20T17:15:15.663381+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/68aee2fd000000001d0027cb",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "d44e96881094a262ae615d0705262f7d22cdbd62963de6c4ab12b09da2475aaf",
-      "title": "溧阳史公祠🈶姓史免费进🚪",
-      "created_at": "2026-09-20T17:15:15.659204+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69fd6ce7000000002003a050",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "eef0bc49c69504442fc85536bba8383fa3591d763e06f9288ab05e5dc4f90db9",
-      "title": "溧阳探古寻幽——史侯祠",
-      "created_at": "2026-09-20T17:15:15.655145+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a38fc63000000000f01575b",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "64776a7b357834a1d4b8b0a111b86b9b69da08ca12a1804b61653a0181b066aa",
-      "title": "上南山，走花路🌸一不小心闯入春天🌿",
-      "created_at": "2026-09-20T17:15:15.650044+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69b26124000000001503a207",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "3a600a2bbb0402a5ac13336b84eaa6ec70a0ce2dc8c779b668eef75157b55252",
-      "title": "上南山，走花路🌸一不小心闯入春天🌿",
-      "created_at": "2026-09-20T17:15:15.648729+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69b26124000000001503a207",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "b9494afb6f445eada5eb6f4a1d9e0e1e3abb4d785a1094883a2ad29e33ded22a",
-      "title": "常州溧阳市御水温泉攻略",
-      "created_at": "2026-09-20T17:15:15.644008+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6918a0f500000000040052d6",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "a5d46d41eae38f7451e19fbcbbdbaa80042f34c91ce97e9fb0c6db63e9ace1e5",
-      "title": "御水温泉♨️太仙了，在深山里享受5A泡汤",
-      "created_at": "2026-09-20T17:15:15.639569+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/693e0fa7000000000d034db3",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "cbe2a80e1b8c45ce3684c55040e485246830824ce51f120038807b49333bc98a",
-      "title": "上海牛马周末出发溧阳天目湖御水温泉♨️",
-      "created_at": "2026-09-20T17:15:15.634912+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69315d81000000001e00a32a",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "a70fb888b5aa58468f69ccb04b95ac9a9c4465c52ffb4a5fc2a3d25f15278c8e",
-      "title": "12.20-21御水温泉+南山竹海亲子游",
-      "created_at": "2026-09-20T17:15:15.630417+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/694b3730000000001e03469f",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "06cb2eef39a7cfe455b008039010dbdde848a16d1ca36b76eb12a4208056cf1e",
-      "title": "12.20-21御水温泉+南山竹海亲子游",
-      "created_at": "2026-09-20T17:15:15.628796+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/694b3730000000001e03469f",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "c2095effcfb15b5bc333e5cea20a769cbc6f0f5b5ee9be4efc9a48b31424d6c4",
-      "title": "国庆假期-天目湖山水园",
-      "created_at": "2026-09-20T17:15:15.624180+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/68e07c8f0000000005010b05",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "6757143d9a03c3e49468243e66c88a66c0001ef6dcdfb5ccb0e13d9c092b5d04",
-      "title": "年初一无滤镜天目湖山水园",
-      "created_at": "2026-09-20T17:15:15.618741+00:00",
-      "before_value": "来源正文版本已保留在本地工作台。",
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "来源内容更新",
-      "source_url": "https://www.xiaohongshu.com/explore/6995ca4a000000001a02dcd1",
-      "parent_id": "bb67617366d2e813de9fd2f83b921d39d02dfdc7ab397167ad46ba76e6ae08fb",
-      "kind": "source_revision"
-    },
-    {
-      "id": "1b984c6bbcac6ba71eef55b1c83bdc7e5857b4bd5a040eeaafde1f9961de3408",
-      "title": "南山竹海",
-      "created_at": "2026-09-20T17:06:57.435524+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a8e5a4d000000002003bf14",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "2526c672f99f32341d632de0b322f1ef2ac2878d299dfff0393aa7d0d6526931",
-      "title": "10月1日，南山竹海免门票！",
-      "created_at": "2026-09-20T17:06:57.432002+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6aaf71740000000028001188",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "2d4daa6fe5a0aa8157e93a4b8da0cb3eeafb9f5e642a60c0a0b63a5b0d3c90f5",
-      "title": "✅溧阳南山竹海｜新手纯爬省钱攻略",
-      "created_at": "2026-09-20T17:06:57.428278+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6aa7b9990000000029011645",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "d5361e09fcefb06bace80355ec9675495cab1bc80dcac8613aed77a96b87e021",
-      "title": "溧阳南山竹海｜带宠溯溪轻松路线",
-      "created_at": "2026-09-20T17:06:57.424409+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a9d639c000000001001d58a",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "30844d9a744d6dde0bbf220d56ea2dabd1819b1876833a0cd990f756cb03a737",
-      "title": "国庆节天目湖山水园带娃攻略",
-      "created_at": "2026-09-20T17:06:57.420430+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/68e51b4a0000000004013af3",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "60c3f247cf6c6cc14e8bf3f205a60c7bed5953a51e4ba501ccae66ff5d013dcb",
-      "title": "五一南山竹海半日游☔雨天带娃实况",
-      "created_at": "2026-09-20T17:06:57.416878+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69f61d7f000000003502f631",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "bec02151e326174340455cadcdb3aa0f216e3bc360c7a10d8d9a85a9bfb268b2",
-      "title": "关于我五一在南山竹海全程没排队",
-      "created_at": "2026-09-20T17:06:57.413241+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69fc945900000000200383ff",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "3227f4306abd41d58b3468ada6d7ebc7b0719706093e9f536382fed4417a53a8",
-      "title": "上海出发溧阳南山竹海｜攻略(五一假期去的)",
-      "created_at": "2026-09-20T17:06:57.409541+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69f9ce7400000000350241bc",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "0a86cfe6743fb6a3d7ab5c9ae1a5f7718dd56deca229deb8875da85da2247b19",
-      "title": "五一南山竹海一日游感受",
-      "created_at": "2026-09-20T17:06:57.405563+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a001f9a0000000006030a8b",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "cb7799866a8460981c14cdd89da7511431355b844aa95a5368ace35cb105d84c",
-      "title": "五一出游｜ 骑遇曹山，解锁N种高级玩法🏍️",
-      "created_at": "2026-09-20T17:06:57.401582+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69f19308000000003703793d",
-      "parent_id": null,
-      "kind": "discovery"
-    }
-  ],
+  "changes": [],
   "landscape_updates": [],
   "visual_cohorts": [],
   "practical": {
@@ -7360,7 +3767,23 @@
               "17:30",
               "17:55"
             ]
-          ]
+          ],
+          "stops": {
+            "outbound": [
+              "溧阳站",
+              "天目湖山水园",
+              "南山竹海"
+            ],
+            "inbound": [
+              "南山竹海",
+              "天目湖山水园",
+              "溧阳站"
+            ]
+          },
+          "notes": {
+            "outbound": "工作日取消 08:40、15:50 班次；其余以当日运营为准。",
+            "inbound": "工作日取消 10:00、16:00 班次；其余以当日运营为准。"
+          }
         }
       },
       {
@@ -7636,6 +4059,7 @@
         "time_note": "2024年游客记录，单一样本，不是平均游玩时间；不含索道登峰线。"
       }
     ],
+    "origin_label": "溧阳站",
     "classified_sources": [
       {
         "id": "ev_b77ae6d32ec14f7a",
@@ -27591,9 +24015,9 @@
         "count": 10,
         "observed_count": 4,
         "publication_count": 6,
-        "observed_photo_count": 5,
-        "publication_photo_count": 22,
-        "approved_photo_count": 27
+        "observed_photo_count": 1,
+        "publication_photo_count": 1,
+        "approved_photo_count": 2
       },
       {
         "month": 2,
@@ -27601,8 +24025,8 @@
         "observed_count": 0,
         "publication_count": 13,
         "observed_photo_count": 0,
-        "publication_photo_count": 17,
-        "approved_photo_count": 17
+        "publication_photo_count": 3,
+        "approved_photo_count": 3
       },
       {
         "month": 3,
@@ -27610,8 +24034,8 @@
         "observed_count": 3,
         "publication_count": 16,
         "observed_photo_count": 0,
-        "publication_photo_count": 7,
-        "approved_photo_count": 7
+        "publication_photo_count": 1,
+        "approved_photo_count": 1
       },
       {
         "month": 4,
@@ -27619,8 +24043,8 @@
         "observed_count": 2,
         "publication_count": 24,
         "observed_photo_count": 1,
-        "publication_photo_count": 31,
-        "approved_photo_count": 32
+        "publication_photo_count": 3,
+        "approved_photo_count": 4
       },
       {
         "month": 5,
@@ -27628,8 +24052,8 @@
         "observed_count": 0,
         "publication_count": 15,
         "observed_photo_count": 0,
-        "publication_photo_count": 36,
-        "approved_photo_count": 36
+        "publication_photo_count": 2,
+        "approved_photo_count": 2
       },
       {
         "month": 6,
@@ -27637,8 +24061,8 @@
         "observed_count": 1,
         "publication_count": 7,
         "observed_photo_count": 0,
-        "publication_photo_count": 16,
-        "approved_photo_count": 16
+        "publication_photo_count": 3,
+        "approved_photo_count": 3
       },
       {
         "month": 7,
@@ -27655,17 +24079,17 @@
         "observed_count": 0,
         "publication_count": 15,
         "observed_photo_count": 0,
-        "publication_photo_count": 46,
-        "approved_photo_count": 46
+        "publication_photo_count": 4,
+        "approved_photo_count": 4
       },
       {
         "month": 9,
         "count": 34,
         "observed_count": 9,
         "publication_count": 25,
-        "observed_photo_count": 6,
-        "publication_photo_count": 35,
-        "approved_photo_count": 41
+        "observed_photo_count": 9,
+        "publication_photo_count": 19,
+        "approved_photo_count": 28
       },
       {
         "month": 10,
@@ -27673,17 +24097,17 @@
         "observed_count": 1,
         "publication_count": 13,
         "observed_photo_count": 0,
-        "publication_photo_count": 39,
-        "approved_photo_count": 39
+        "publication_photo_count": 3,
+        "approved_photo_count": 3
       },
       {
         "month": 11,
         "count": 14,
         "observed_count": 2,
         "publication_count": 12,
-        "observed_photo_count": 5,
-        "publication_photo_count": 20,
-        "approved_photo_count": 25
+        "observed_photo_count": 2,
+        "publication_photo_count": 0,
+        "approved_photo_count": 2
       },
       {
         "month": 12,
@@ -27691,8 +24115,8 @@
         "observed_count": 0,
         "publication_count": 9,
         "observed_photo_count": 0,
-        "publication_photo_count": 25,
-        "approved_photo_count": 25
+        "publication_photo_count": 3,
+        "approved_photo_count": 3
       }
     ],
     "unknown_time": 174,
@@ -27725,6 +24149,7 @@
     ],
     "roads": [],
     "image_url": "/static/liyang-overview.svg",
+    "assets": [],
     "transport_sources": [
       {
         "label": "地图来源与署名",

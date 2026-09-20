@@ -5,13 +5,13 @@ const initialParams = new URLSearchParams(window.location.search);
 const defaultMonthNumber = window.CHINATOUR_PREVIEW_META?.defaultMonth || new Date().getMonth() + 1;
 const initialMonthNumber = integer(initialParams.get('month'), defaultMonthNumber);
 const state = {
-  placeId: window.CHINATOUR_PREVIEW_META?.defaultPlace || initialParams.get('place_id') || 'liyang',
+  placeId: initialParams.get('place_id') || window.CHINATOUR_PREVIEW_META?.defaultPlace || 'liyang',
   month: initialMonthNumber >= 1 && initialMonthNumber <= 12 ? String(initialMonthNumber) : String(defaultMonthNumber),
   mode: ['all', 'recent', 'historical'].includes(initialParams.get('mode')) ? initialParams.get('mode') : 'all',
   monthScope: ['all', 'practical'].includes(initialParams.get('collect_scope')) ? initialParams.get('collect_scope') : 'selected',
   practicalTab: null,
   routeTheme: 'all', routePeriod: 'all', routeLimit: 3, openRouteId: null,
-  query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null,
+  query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null, mapAssetIndex: 0,
   requestVersion: 0, openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
 };
 
@@ -149,7 +149,7 @@ function isReadySource(source) { return READY_SOURCE_STATUS.has(sourceStatus(sou
 function sourceKey(source) { return String(source?.id || source?.key || source?.label || '').toLowerCase(); }
 function matchesSource(source, key) {
   const haystack = `${sourceKey(source)} ${String(source?.label || '').toLowerCase()}`;
-  return key === 'xiaohongshu' ? haystack.includes('xiaohong') || haystack.includes('小红书') || haystack.includes('redbook') : key === 'official' ? haystack.includes('official') || haystack.includes('官网') || haystack.includes('gov') || haystack.includes('liyang') : haystack.includes(key);
+  return key === 'xiaohongshu' ? haystack.includes('xiaohong') || haystack.includes('小红书') || haystack.includes('redbook') : key === 'official' ? source.source_type === 'official' || haystack.includes('official') || haystack.includes('官网') || haystack.includes('gov') : haystack.includes(key);
 }
 
 function showToast(message, error = false, duration = 5200) {
@@ -214,6 +214,7 @@ function normalizeDestination(raw) {
   const destination = raw?.destination || raw?.place || {};
   return {
     destination: {
+      ...destination,
       id: String(destination.id || state.placeId),
       name: destination.name || '未命名目的地',
       description: destination.description || destination.summary || '',
@@ -251,6 +252,7 @@ async function loadOverview() {
   }
   renderPlacePicker();
   renderSourceOptions();
+  document.dispatchEvent(new CustomEvent('chinatour:places', { detail: state.places }));
 }
 function applyBrowserStatus(payload) {
   const status = typeof payload === 'string' ? payload : payload?.status || (payload?.connected || payload?.ready || payload?.authorized ? 'ready' : 'unknown');
@@ -674,17 +676,32 @@ function renderMap() {
   const canvas = $('#map-canvas'); const placeholder = $('#map-placeholder'); const legend = $('#map-legend');
   if (!canvas) return;
   clear(canvas); canvas.classList.remove('svg-map'); canvas.hidden = false;
-  const mapImage = state.data?.map?.image_url || state.data?.map?.overview_image || (state.placeId === 'liyang' ? '/static/liyang-overview.svg' : '');
+  const assets = state.data?.map?.assets || state.data?.map?.map_assets || [];
+  const choices = Array.isArray(assets) ? assets.filter(item => item?.image_url) : [];
+  const controls = clear($('#map-view-options'));
+  state.mapAssetIndex = Math.min(state.mapAssetIndex, Math.max(0, choices.length - 1));
+  if (controls) {
+    controls.hidden = choices.length < 2;
+    choices.forEach((item, index) => {
+      const button = make('button', index === state.mapAssetIndex ? 'active' : '', item.title || `地图 ${index + 1}`);
+      button.type = 'button'; button.setAttribute('aria-pressed', String(index === state.mapAssetIndex));
+      button.addEventListener('click', () => { state.mapAssetIndex = index; renderMap(); }); controls.append(button);
+    });
+  }
+  const asset = choices[state.mapAssetIndex];
+  const mapImage = asset?.image_url || state.data?.map?.image_url || state.data?.map?.overview_image || '';
   const mapHref = safeUrl(mapImage) || (String(mapImage).startsWith('/') ? (window.CHINATOUR_PREVIEW ? window.CHINATOUR_PREVIEW.assetUrl(mapImage) : String(mapImage)) : '');
-  const points = mapPoints();
   if (!mapHref) {
     canvas.hidden = true; placeholder.hidden = false; legend.hidden = true; renderMapLimitations(); return;
   }
   const link = make('a', 'static-map-link'); link.href = mapHref; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.title = '打开大图';
-  const image = document.createElement('img'); image.src = link.href; image.alt = `${state.data?.destination?.name || '目的地'}景点、道路和交通枢纽概览图`; image.loading = 'lazy';
+  const image = document.createElement('img'); image.src = link.href; image.alt = asset?.description || `${state.data?.destination?.name || '目的地'}景点、道路和交通枢纽概览图`; image.loading = 'lazy';
   image.addEventListener('load', () => { placeholder.hidden = true; legend.hidden = false; }, { once: true });
   image.addEventListener('error', () => { image.remove(); link.remove(); canvas.hidden = true; placeholder.hidden = false; legend.hidden = true; }, { once: true });
   link.append(image); canvas.append(link); placeholder.hidden = false; legend.hidden = false; renderMapLimitations();
+  if (asset?.description) $('#map-limitations').prepend(make('span', '', asset.description));
+  const assetSource = safeUrl(asset?.source_url);
+  if (assetSource) { const source = make('a', 'map-source-link', `${asset.source_label || '地图数据来源'} ↗`); source.href = assetSource; source.target = '_blank'; source.rel = 'noopener noreferrer'; $('#map-limitations').append(source); }
 }
 function renderMapLimitations() {
   const list = clear($('#map-limitations'));
@@ -1444,7 +1461,27 @@ function closeDrawer() {
   state.drawerReturnFocus = null; startPhotoCycle();
 }
 
-$('#place-picker')?.addEventListener('change', (event) => { state.placeId = event.target.value; state.attractionLimit = 6; state.data = null; clearJobForContext(); updateUrl(); loadDestination(); });
+function selectDestination(placeId, { update = true } = {}) {
+  if (!placeId || String(placeId) === state.placeId) return;
+  closeDrawer(); state.placeId = String(placeId); state.attractionLimit = 6; state.mapAssetIndex = 0;
+  state.query = ''; $('#search-input').value = ''; state.practicalTab = null;
+  state.routeTheme = 'all'; state.routePeriod = 'all'; state.routeLimit = 3; state.openRouteId = null;
+  state.data = null; clearJobForContext();
+  if (update) updateUrl();
+  document.dispatchEvent(new CustomEvent('chinatour:place-selected', { detail: { placeId: state.placeId } }));
+  loadDestination();
+}
+$('#place-picker')?.addEventListener('change', (event) => selectDestination(event.target.value));
+document.addEventListener('chinatour:select-place', (event) => selectDestination(event.detail?.placeId));
+window.addEventListener('popstate', () => {
+  const params = new URLSearchParams(location.search);
+  const placeId = params.get('place_id') || window.CHINATOUR_PREVIEW_META?.defaultPlace || state.places[0]?.id;
+  const month = integer(params.get('month'), defaultMonthNumber);
+  state.month = String(month >= 1 && month <= 12 ? month : defaultMonthNumber);
+  state.mode = ['all', 'recent', 'historical'].includes(params.get('mode')) ? params.get('mode') : 'all';
+  if (placeId !== state.placeId) selectDestination(placeId, { update: false });
+  else loadDestination();
+});
 $('#mode-filter')?.addEventListener('click', (event) => { const button = event.target.closest('[data-mode]'); if (!button) return; state.mode = button.dataset.mode; state.attractionLimit = 6; clearJobForContext(); updateUrl(); renderMode(); loadDestination(); });
 $('#search-input')?.addEventListener('input', (event) => { state.query = event.target.value || ''; state.attractionLimit = 6; renderAttractions(); });
 $('#collect-button')?.addEventListener('click', () => { const workbench = $('#collection-workbench'); workbench.open = true; workbench.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }); });
@@ -1638,7 +1675,7 @@ function renderRouteGuidePanel(route) {
 }
 
 // Practical information stays compact until a visitor chooses a topic.
-const PRACTICAL_LABELS = { clothing: '天气与穿衣', food: '当地吃什么', stay: '住在哪里', transport: '从车站出发', visit_duration: '游玩时长', route_length: '游览路线与长度', internal_transport: '园内交通' };
+const PRACTICAL_LABELS = { clothing: '天气与穿衣', food: '当地吃什么', stay: '住在哪里', transport: '抵达与出行', visit_duration: '游玩时长', route_length: '游览路线与长度', internal_transport: '园内交通' };
 function practicalFacts(category, name = null) {
   return (state.data?.practical?.facts || []).filter((item) => item.category === category && (!name || item.place_name === name || item.place_names?.includes(name)));
 }
@@ -1662,9 +1699,12 @@ function practicalFactCard(fact) {
   if (fact.timetable) {
     const schedule = make('details', 'practical-source'); schedule.append(make('summary', '', '展开往返时刻表'));
     for (const direction of ['outbound', 'inbound']) {
-      const table = make('table', 'climate-table'); const caption = make('caption', '', direction === 'outbound' ? '去程 · 工作日无 08:40、15:50 班次' : '返程 · 工作日无 10:00、16:00 班次'); table.append(caption);
+      const times = fact.timetable[direction] || [];
+      if (!Array.isArray(times) || !times.length) continue;
+      const table = make('table', 'climate-table'); const caption = make('caption', '', fact.timetable.notes?.[direction] || (direction === 'outbound' ? '去程' : '返程')); table.append(caption);
       const head = make('thead'); const row = make('tr');
-      for (const text of direction === 'outbound' ? ['溧阳站', '山水园', '南山竹海'] : ['南山竹海', '山水园', '溧阳站']) row.append(make('th', '', text));
+      const stops = fact.timetable.stops?.[direction] || Array.from({ length: times[0]?.length || 0 }, (_, index) => `站点 ${index + 1}`);
+      for (const text of stops) row.append(make('th', '', text));
       head.append(row); table.append(head); const body = make('tbody');
       for (const times of fact.timetable[direction] || []) { const tr = make('tr'); times.forEach((time) => tr.append(make('td', '', time))); body.append(tr); }
       table.append(body); schedule.append(table);
@@ -1727,8 +1767,8 @@ function renderEssentials() {
   const tiles = [
     { id: 'clothing', icon: '衣', title: current ? `${state.month} 月均温 ${temperature(current.mean_c, '°C')}` : '每月气温', subtitle: '看全年温度变化' },
     { id: 'food', icon: '食', title: '小吃街与地方味', subtitle: food.length ? `${food.length} 条有来源的信息` : '从真实攻略找线索' },
-    { id: 'stay', icon: '住', title: '酒店与山间民宿', subtitle: stays.length ? `${stays.length} 条住宿资料` : '房型、价位与评级' },
-    { id: 'transport', icon: '行', title: state.placeId === 'liyang' ? '从溧阳站出发' : '如何抵达景点', subtitle: travel.length ? '公交线路 · 自驾路径' : '具体线路待补充' },
+    { id: 'stay', icon: '住', title: '酒店与当地民宿', subtitle: stays.length ? `${stays.length} 条住宿资料` : '房型、价位与评级' },
+    { id: 'transport', icon: '行', title: data.origin_label ? `从${data.origin_label}出发` : '如何抵达景点', subtitle: travel.length ? '公共交通 · 自驾路径' : '具体线路待补充' },
   ];
   for (const tile of tiles) {
     const button = make('button', `essential-button${state.practicalTab === tile.id ? ' active' : ''}`); button.type = 'button'; button.id = `essential-${tile.id}`;
@@ -1752,7 +1792,7 @@ function renderEssentials() {
     if (!facts.length) list.append(make('p', 'practical-meta', '暂缺可直接使用的信息；下方保留相关原文，继续补充后再整理。'));
     panel.append(list);
     if (state.practicalTab === 'stay') panel.append(make('p', 'practical-meta', '房价只展示有日期、房型和价格口径的报价；暂无可比样本时，不计算“平均房价”。酒店星级与平台评分分别记录。'));
-    if (state.practicalTab === 'transport') panel.append(make('p', 'practical-meta', '以溧阳站作为本页出发点。尚未核实的地铁、班次、票价和车程不填估计值；具体线路留存原文的适用时间。'));
+    if (state.practicalTab === 'transport') panel.append(make('p', 'practical-meta', `${data.origin_label ? `以${data.origin_label}作为本页出发点。` : ''}各条线路分别标注起点。尚未核实的班次、票价和车程不填估计值；具体线路留存原文的适用时间。`));
   }
   const related = practicalSources([state.practicalTab]); if (related.length) panel.append(classifiedSourceList(related));
 }

@@ -1,0 +1,55 @@
+{
+  "destination": "dalian",
+  "coordinate_system": "WGS84",
+  "retrieved_at": "2026-09-21",
+  "sources": [
+    {
+      "path": "data/dalian-map/admins.json",
+      "sha256": "2a6a367cf7989e5a786a84646925b0cd1ab6766ca61d08ca0370d7fbae28e7c6",
+      "bytes": 827826,
+      "osm_base_timestamp": "2026-09-20T21:33:19Z",
+      "element_count": 6
+    },
+    {
+      "path": "data/dalian-map/roads.json",
+      "sha256": "0e2c9db48f2674dffe64f1a3077ee09d1f0ac2ae3707f1587d2f658d63c031e8",
+      "bytes": 1815482,
+      "osm_base_timestamp": "2026-09-20T21:34:18Z",
+      "element_count": 1828
+    },
+    {
+      "path": "data/dalian-map/metro.json",
+      "sha256": "4e50f039201da0ccf789e3d75a0e9da18d5b28004e7a371fdc97e33a9da9624f",
+      "bytes": 353151,
+      "osm_base_timestamp": "2026-09-20T21:36:20Z",
+      "element_count": 16
+    },
+    {
+      "path": "data/dalian-map/parks.json",
+      "sha256": "2be6f231ed7a9b1ba710abf29a49bbcd0e2b940b6346c3afbac467cc5787147a",
+      "bytes": 51359,
+      "osm_base_timestamp": "2026-09-20T21:37:16Z",
+      "element_count": 19
+    },
+    {
+      "path": "data/dalian-map/pois.json",
+      "sha256": "2b11f48d67087675ffacfe89e25a4020764058db2966972e40a885c693f3761e",
+      "bytes": 95506,
+      "osm_base_timestamp": "2026-09-20T21:30:21Z",
+      "element_count": 389
+    },
+    {
+      "path": "data/dalian-map/poi_extra.json",
+      "sha256": "773822f7e99bca330bb42df065920539254cd9eea8f3443022d37d1e7c5df6b9",
+      "bytes": 9870,
+      "osm_base_timestamp": "2026-07-24T11:04:51Z",
+      "element_count": 17
+    }
+  ],
+  "manifest": "config/maps/dalian.json",
+  "notes": [
+    "Only complete source geometry rendered; source gaps remain gaps.",
+    "One local equirectangular scale in x and y per panel; no map/GCJ02 atlas overlay.",
+    "Attraction markers are OSM nodes or geometry representatives, not verified entry gates."
+  ]
+}

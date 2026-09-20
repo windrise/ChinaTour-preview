@@ -6,12 +6,12 @@
   <meta name="theme-color" content="#080f14">
   <meta name="description" content="行知：按月份认识一个地方，循着真实照片找到想去的景点。">
   <title>行知 · 中国旅行</title>
-  <link rel="stylesheet" href="./static/style.css?v=3e1561c8a779">
-  <link rel="stylesheet" href="./static/atlas.css?v=3e1561c8a779">
-  <script defer src='./preview-config.js?v=3e1561c8a779'></script>
-  <script defer src='./static/preview.js?v=3e1561c8a779'></script>
-  <script defer src="./static/app.js?v=3e1561c8a779"></script>
-  <script defer src="./static/atlas.js?v=3e1561c8a779"></script>
+  <link rel="stylesheet" href="./static/style.css?v=9ead0e5b0cf3">
+  <link rel="stylesheet" href="./static/atlas.css?v=9ead0e5b0cf3">
+  <script defer src='./preview-config.js?v=9ead0e5b0cf3'></script>
+  <script defer src='./static/preview.js?v=9ead0e5b0cf3'></script>
+  <script defer src="./static/app.js?v=9ead0e5b0cf3"></script>
+  <script defer src="./static/atlas.js?v=9ead0e5b0cf3"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
@@ -27,17 +27,17 @@
         <p id="atlas-chapter" class="atlas-chapter">01 / 从中国出发</p>
         <h1 id="atlas-title">山河有时，<br><span>去见此刻。</span></h1>
         <p id="atlas-description" class="atlas-description">把散落的真实风景，放回地图与四季。<br>从一个月份，找到你想去的地方。</p>
-        <div class="atlas-destination-pick"><span class="atlas-pick-label">第一站 · 江苏</span><button id="atlas-enter" class="atlas-enter" type="button"><span><strong>溧阳</strong><small>LIYANG</small></span><span class="atlas-enter-arrow" aria-hidden="true">↗</span></button><p id="atlas-pick-note">一城湖光，万亩竹海。</p></div>
-        <button class="atlas-skip" id="atlas-skip" type="button">直接浏览溧阳资料 <span aria-hidden="true">→</span></button>
+        <div class="atlas-destination-pick"><label class="atlas-city-selector" for="atlas-place-picker"><span>选择目的地</span><select id="atlas-place-picker" aria-label="山河图鉴目的地" disabled><option>读取城市…</option></select></label><span class="atlas-pick-label">从一个城市开始</span><button id="atlas-enter" class="atlas-enter" type="button"><span><strong>目的地</strong><small>CHINA</small></span><span class="atlas-enter-arrow" aria-hidden="true">↗</span></button><p id="atlas-pick-note">循着地图，走进真实风景。</p></div>
+        <button class="atlas-skip" id="atlas-skip" type="button">直接浏览目的地资料 <span aria-hidden="true">→</span></button>
       </div>
       <div class="atlas-visual" id="atlas-visual">
         <div class="atlas-orbit atlas-orbit-one" aria-hidden="true"></div><div class="atlas-orbit atlas-orbit-two" aria-hidden="true"></div>
         <span class="atlas-north" aria-hidden="true">N<br>↑</span>
-        <div class="atlas-map-mount" id="atlas-map-mount" aria-label="中国、江苏与溧阳的地理层级地图"></div>
-        <div class="atlas-coordinate"><span id="atlas-coordinate">31.42° N / 119.48° E</span><small id="atlas-map-caption">中国 · 选择溧阳，沿地图逐级抵达</small></div>
-        <div class="atlas-map-failure" id="atlas-map-failure" hidden>地图暂未加载。你仍可直接浏览溧阳。</div>
+        <div class="atlas-map-mount" id="atlas-map-mount" aria-label="中国、省与目的地的地理层级地图"></div>
+        <div class="atlas-coordinate"><span id="atlas-coordinate"></span><small id="atlas-map-caption">中国 · 选择目的地，沿地图逐级抵达</small></div>
+        <div class="atlas-map-failure" id="atlas-map-failure" hidden>地图暂未加载。你仍可直接浏览目的地资料。</div>
       </div>
-      <div class="atlas-bottomline"><div class="atlas-steps" aria-label="地图层级"><button type="button" data-atlas-stage="china" aria-current="step"><b>01</b> 中国</button><span></span><button type="button" data-atlas-stage="jiangsu"><b>02</b> 江苏</button><span></span><button type="button" data-atlas-stage="liyang"><b>03</b> 溧阳</button></div><span class="atlas-footnote">循着真实照片，走进一个地方 <span aria-hidden="true">↘</span></span></div>
+      <div class="atlas-bottomline"><div class="atlas-steps" aria-label="地图层级"><button type="button" data-atlas-stage="china" aria-current="step"><b>01</b> 中国</button><span></span><button type="button" data-atlas-stage="province"><b>02</b> <span>省域</span></button><span></span><button type="button" data-atlas-stage="local"><b>03</b> <span>目的地</span></button></div><span class="atlas-footnote">循着真实照片，走进一个地方 <span aria-hidden="true">↘</span></span></div>
       <p class="atlas-map-credit">边界数据：<a href="https://datav.aliyun.com/portal/school/atlas/area_selector" target="_blank" rel="noopener noreferrer">阿里云 DataV</a> · 区域浏览示意</p>
       <p id="atlas-announcement" class="sr-only" aria-live="polite"></p>
     </section>
@@ -77,7 +77,8 @@
       </section>
 
       <section id="destination-map" class="section-block map-section" aria-labelledby="map-heading">
-        <div class="section-heading split-heading"><div><p class="eyebrow">GET YOUR BEARINGS</p><h2 id="map-heading">溧阳，先看全貌</h2></div><span class="section-stamp">点图放大</span></div>
+        <div class="section-heading split-heading"><div><p class="eyebrow">GET YOUR BEARINGS</p><h2 id="map-heading">先看全貌</h2></div><span class="section-stamp">点图放大</span></div>
+        <div id="map-view-options" class="map-view-options" role="group" aria-label="选择地图范围" hidden></div>
         <div class="map-layout"><div class="map-frame"><div id="map-canvas" class="map-canvas" aria-label="目的地景点地图"></div><div id="map-placeholder" class="map-placeholder" hidden><span class="map-placeholder-mark" aria-hidden="true">⌁</span><strong>地图资料还没有覆盖这里</strong><p>有来源的区域地图接入后会显示在这里。</p></div></div><aside class="map-aside" aria-label="地图说明"><div id="map-legend" class="map-legend" hidden><span><i class="legend-dot attraction"></i>景点</span><span><i class="legend-dot hub"></i>铁路 / 交通枢纽</span></div><details class="map-source-details"><summary>地图来源与说明</summary><div id="map-limitations" class="map-limitations"></div></details></aside></div>
       </section>
 

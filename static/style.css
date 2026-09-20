@@ -477,6 +477,10 @@ main { padding-bottom: 20px; }
 .map-frame { height: auto; min-height: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #e7ece2; }
 .map-canvas, .static-map-link { height: auto; min-height: 0; }
 .static-map-link { display: block; }
+.map-view-options { display:flex; gap:8px; margin:0 0 13px; flex-wrap:wrap; }
+.map-view-options[hidden] { display:none; }
+.map-view-options button { background:transparent; border:1px solid var(--line); border-radius:4px; color:var(--ink-soft); padding:8px 14px; font-size:11px; }
+.map-view-options button.active { background:var(--green-pale); border-color:var(--green-deep); color:var(--ink); }
 .static-map-link img { display: block; width: 100%; height: auto; min-height: 0; max-height: 620px; object-fit: contain; }
 .map-aside { display: flex; flex-direction: row; justify-content: space-between; align-items: start; gap: 20px; padding: 12px 0 0; }
 .map-legend { display: flex; flex-wrap: wrap; gap: 12px; border: 0; padding: 0; font-size: 10px; }

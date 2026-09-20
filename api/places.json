@@ -106,5 +106,140 @@
     "created_at": "2026-09-20T17:06:57.378295+00:00",
     "evidence_count": 3,
     "pending_count": 0
+  },
+  {
+    "id": "dalian",
+    "name": "大连",
+    "kind": "destination",
+    "parent_id": null,
+    "created_at": "2026-09-20T21:34:23.397628+00:00",
+    "evidence_count": 170,
+    "pending_count": 0
+  },
+  {
+    "id": "place_37140c302d0b447c",
+    "name": "星海广场",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.713392+00:00",
+    "evidence_count": 21,
+    "pending_count": 0
+  },
+  {
+    "id": "place_2bd46f8a66714aa6",
+    "name": "莲花山观景台",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.751523+00:00",
+    "evidence_count": 12,
+    "pending_count": 0
+  },
+  {
+    "id": "place_17486492fdb84076",
+    "name": "中山广场",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.751553+00:00",
+    "evidence_count": 11,
+    "pending_count": 0
+  },
+  {
+    "id": "place_2c970d42b87642a2",
+    "name": "星海公园",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.756754+00:00",
+    "evidence_count": 12,
+    "pending_count": 0
+  },
+  {
+    "id": "place_861a0e4e2dfd4883",
+    "name": "大连森林动物园",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.764351+00:00",
+    "evidence_count": 13,
+    "pending_count": 0
+  },
+  {
+    "id": "place_a9bf2d379c6b4b51",
+    "name": "老虎滩海洋公园",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.772085+00:00",
+    "evidence_count": 10,
+    "pending_count": 0
+  },
+  {
+    "id": "place_0b85b8622805447b",
+    "name": "东方威尼斯水城",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.772107+00:00",
+    "evidence_count": 12,
+    "pending_count": 0
+  },
+  {
+    "id": "place_3f49f3cb05d448b2",
+    "name": "俄罗斯风情街",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.772118+00:00",
+    "evidence_count": 9,
+    "pending_count": 0
+  },
+  {
+    "id": "place_aa57b66ae60a48a2",
+    "name": "棒棰岛",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:34:37.786032+00:00",
+    "evidence_count": 16,
+    "pending_count": 0
+  },
+  {
+    "id": "place_3af4f542fe654d74",
+    "name": "海之韵公园",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:35:13.522310+00:00",
+    "evidence_count": 8,
+    "pending_count": 0
+  },
+  {
+    "id": "place_696feba19a9b4090",
+    "name": "东港音乐喷泉广场",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:35:50.935986+00:00",
+    "evidence_count": 11,
+    "pending_count": 0
+  },
+  {
+    "id": "place_48f07543c9334993",
+    "name": "金石滩",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:38:16.311335+00:00",
+    "evidence_count": 10,
+    "pending_count": 0
+  },
+  {
+    "id": "place_264ef5ea3d884497",
+    "name": "白玉山",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:38:16.378047+00:00",
+    "evidence_count": 10,
+    "pending_count": 0
+  },
+  {
+    "id": "place_bb2a9e407fce4c8a",
+    "name": "旅顺博物馆",
+    "kind": "attraction",
+    "parent_id": "dalian",
+    "created_at": "2026-09-20T21:38:16.378059+00:00",
+    "evidence_count": 12,
+    "pending_count": 0
   }
 ]

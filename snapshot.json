@@ -1,6 +1,16 @@
 {
-  "snapshotAt": "2026-09-20T17:23:18Z",
+  "snapshotAt": "2026-09-20T21:53:38Z",
   "place": "liyang",
+  "places": [
+    {
+      "id": "liyang",
+      "name": "溧阳"
+    },
+    {
+      "id": "dalian",
+      "name": "大连"
+    }
+  ],
   "months": [
     1,
     2,
@@ -20,11 +30,11 @@
     "recent",
     "historical"
   ],
-  "destinationFiles": 36,
-  "destinationEvidenceRecords": 535,
-  "mediaReferences": 706,
-  "mediaCopied": 353,
-  "missingMedia": 199,
-  "missingMediaReferences": 704,
+  "destinationFiles": 72,
+  "destinationEvidenceRecords": 924,
+  "mediaReferences": 854,
+  "mediaCopied": 431,
+  "missingMedia": 570,
+  "missingMediaReferences": 2157,
   "withheldMedia": 0
 }

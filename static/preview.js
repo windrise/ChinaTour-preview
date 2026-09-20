@@ -26,7 +26,8 @@
       const place = url.searchParams.get('place_id') || meta.defaultPlace;
       const month = Number(url.searchParams.get('month') || meta.defaultMonth);
       const mode = url.searchParams.get('mode') || 'all';
-      if (place !== meta.defaultPlace || !Number.isInteger(month) || month < 1 || month > 12 || !['all','recent','historical'].includes(mode)) return reply({detail:'此预览只包含溧阳的十二个月资料。'},404);
+      const places = Array.isArray(meta.places) ? meta.places.map(item => typeof item === 'string' ? item : item.id) : [meta.defaultPlace];
+      if (!places.includes(place) || !Number.isInteger(month) || month < 1 || month > 12 || !['all','recent','historical'].includes(mode)) return reply({detail:'此城市或月份未包含在当前公开快照中。'},404);
       filename = `api/destination-${place}-${month}-${mode}.json`;
     } else return reply({detail:'此功能仅在本机工作台提供。'},404);
     const result = await fetch(assetUrl(filename) + '?v=' + encodeURIComponent(meta.snapshotAt));
