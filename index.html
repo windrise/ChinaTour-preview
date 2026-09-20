@@ -6,12 +6,12 @@
   <meta name="theme-color" content="#080f14">
   <meta name="description" content="行知：按月份认识一个地方，循着真实照片找到想去的景点。">
   <title>行知 · 中国旅行</title>
-  <link rel="stylesheet" href="./static/style.css?v=48f14f9e29d0">
-  <link rel="stylesheet" href="./static/atlas.css?v=48f14f9e29d0">
-  <script defer src='./preview-config.js?v=48f14f9e29d0'></script>
-  <script defer src='./static/preview.js?v=48f14f9e29d0'></script>
-  <script defer src="./static/app.js?v=48f14f9e29d0"></script>
-  <script defer src="./static/atlas.js?v=48f14f9e29d0"></script>
+  <link rel="stylesheet" href="./static/style.css?v=62786d51b8c0">
+  <link rel="stylesheet" href="./static/atlas.css?v=62786d51b8c0">
+  <script defer src='./preview-config.js?v=62786d51b8c0'></script>
+  <script defer src='./static/preview.js?v=62786d51b8c0'></script>
+  <script defer src="./static/app.js?v=62786d51b8c0"></script>
+  <script defer src="./static/atlas.js?v=62786d51b8c0"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
@@ -56,6 +56,11 @@
         <div class="month-controls-row"><div id="mode-filter" class="mode-switch" role="group" aria-label="资料时间范围"><button type="button" data-mode="all" class="active" aria-pressed="true">全部资料</button><button type="button" data-mode="recent" aria-pressed="false">近两年发布</button><button type="button" data-mode="historical" aria-pressed="false">历年同月</button></div><p id="month-heading-note" class="heading-note">照片的时间依据会随图标注。</p></div>
       </section>
 
+      <section id="travel-essentials" class="travel-essentials" aria-label="衣食住行">
+        <div id="essentials-grid" class="essentials-grid"></div>
+        <div id="essentials-panel" class="essentials-panel" hidden></div>
+      </section>
+
       <section id="attractions-section" class="section-block attractions-section" aria-labelledby="attractions-heading">
         <div class="section-heading split-heading"><div><p class="eyebrow">PLACES TO NOTICE</p><h2 id="attractions-heading">值得先看的景点</h2></div><div class="attraction-controls"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">搜索景点或资料关键词</span><input id="search-input" type="search" placeholder="找景点、搜关键词" autocomplete="off"></label><span id="attractions-count" class="section-count">—</span></div></div>
         <p id="attractions-context" class="section-intro">点开感兴趣的景点，查看照片、路线与真实资料。</p>
@@ -64,7 +69,7 @@
 
       <section id="destination-map" class="section-block map-section" aria-labelledby="map-heading">
         <div class="section-heading split-heading"><div><p class="eyebrow">GET YOUR BEARINGS</p><h2 id="map-heading">溧阳，先看全貌</h2></div><span class="section-stamp">点图放大</span></div>
-        <div class="map-layout"><div class="map-frame"><div id="map-canvas" class="map-canvas" aria-label="目的地景点地图"></div><div id="map-placeholder" class="map-placeholder" hidden><span class="map-placeholder-mark" aria-hidden="true">⌁</span><strong>地图资料还没有覆盖这里</strong><p>有来源的区域地图接入后会显示在这里。</p></div></div><aside class="map-aside" aria-label="地图说明"><div id="map-legend" class="map-legend" hidden><span><i class="legend-dot attraction"></i>景点</span><span><i class="legend-dot hub"></i>铁路 / 交通枢纽</span></div><details class="map-source-details"><summary>地图来源与交通查询</summary><div id="map-limitations" class="map-limitations"></div></details></aside></div>
+        <div class="map-layout"><div class="map-frame"><div id="map-canvas" class="map-canvas" aria-label="目的地景点地图"></div><div id="map-placeholder" class="map-placeholder" hidden><span class="map-placeholder-mark" aria-hidden="true">⌁</span><strong>地图资料还没有覆盖这里</strong><p>有来源的区域地图接入后会显示在这里。</p></div></div><aside class="map-aside" aria-label="地图说明"><div id="map-legend" class="map-legend" hidden><span><i class="legend-dot attraction"></i>景点</span><span><i class="legend-dot hub"></i>铁路 / 交通枢纽</span></div><details class="map-source-details"><summary>地图来源与说明</summary><div id="map-limitations" class="map-limitations"></div></details></aside></div>
       </section>
 
       <div class="supporting-tools">
@@ -82,7 +87,7 @@
         <details id="collection-workbench" class="workbench-fold">
           <summary><span><strong>自动搜集工作台</strong><small id="collection-summary">选择来源，补充当前月份或全年资料</small></span><span class="fold-action" aria-hidden="true">展开</span></summary>
           <div class="fold-body">
-            <section class="collection-section" aria-labelledby="collection-heading"><div class="collection-copy"><p class="eyebrow">KEEP RESEARCHING</p><h2 id="collection-heading">继续搜集真实资料</h2><p>选择平台和月份范围，查看每一轮实际搜索与整理的结果。</p><p class="builtin-browser-note">内置浏览器采集由当前 Codex 任务执行；关闭 Codex 后不会在后台继续抓取。</p></div><div class="collection-actions"><div class="collection-scope"><label for="collection-month-scope">采集范围</label><select id="collection-month-scope" aria-describedby="collection-scope-note"><option value="selected">当前月份</option><option value="all">全年补缺</option></select><p id="collection-scope-note"></p></div><div id="source-options" class="source-options"></div><button id="campaign-button" class="button button-light" type="button">搜集当前月份</button></div><div id="storage-note" class="storage-note" aria-live="polite">正在读取本地图片缓存状态…</div></section>
+            <section class="collection-section" aria-labelledby="collection-heading"><div class="collection-copy"><p class="eyebrow">KEEP RESEARCHING</p><h2 id="collection-heading">继续搜集真实资料</h2><p>选择平台和月份范围，查看每一轮实际搜索与整理的结果。</p><p class="builtin-browser-note">内置浏览器采集由当前 Codex 任务执行；关闭 Codex 后不会在后台继续抓取。</p></div><div class="collection-actions"><div class="collection-scope"><label for="collection-month-scope">采集范围</label><select id="collection-month-scope" aria-describedby="collection-scope-note"><option value="selected">当前月份</option><option value="all">全年补缺</option><option value="practical">衣食住行与游览</option></select><p id="collection-scope-note"></p></div><div id="source-options" class="source-options"></div><button id="campaign-button" class="button button-light" type="button">搜集当前月份</button></div><p id="practical-screening-note" class="storage-note" aria-live="polite"></p><div id="storage-note" class="storage-note" aria-live="polite">正在读取本地图片缓存状态…</div></section>
             <section id="job-panel" class="job-panel" hidden aria-live="polite"></section>
           </div>
         </details>

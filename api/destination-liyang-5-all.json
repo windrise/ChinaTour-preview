@@ -48,7 +48,7 @@
       "photo_credit": "溧阳市人民政府",
       "photo_time_basis": "官方背景资料",
       "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
-      "evidence_count": 26,
+      "evidence_count": 27,
       "months": [
         1,
         2,
@@ -2585,6 +2585,39 @@
   ],
   "changes": [
     {
+      "id": "ca12ca7d2de9d37594f87f2d7c3f70ce5779731a6990fedb0a2d55c373d37e5c",
+      "title": "天目十八浇？香的一批！",
+      "created_at": "2026-09-20T16:04:18.324104+00:00",
+      "before_value": null,
+      "after_value": "天目十八浇？香的一批！\n刚跑完步，就被朋友喊上去吃饭，说吃十八浇！天目十八浇？拌面十八浇？十八种配料浇头在一碗面吗？\n因为首次到溧阳打卡美食，为此特别好奇，于是带着好奇去打卡这份溧阳美食。\n抵达门口，一个天目十八浇牌匾挂在门头上，瞬间感觉氛围有了。走进一看，环境清新，简约风，看起来很是舒适。这时候已经发现有客人在品尝拌面了，此时已经饿了…有味道一阵香味…\n立",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5090776796/QdnEZ6FLX",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "e62f042459fde4578272c7599a8b2eabad2ec19511020890ecc369528c08287c",
+      "title": "离开溧阳竹海时，我读懂了‘知竹常乐’",
+      "created_at": "2026-09-20T16:04:18.322579+00:00",
+      "before_value": null,
+      "after_value": "离开溧阳竹海时，我读懂了‘知竹常乐’\n车子穿过南山竹海\n满眼都是绿。绿得让人心静\n竹林慢慢退开，酒店就出现了\n#溧阳曲禅里酒店傲途格精选#\n不是张扬的华丽，像从土地里长出来的\n圆形的建筑像拔地挺身的竹笋，方形的排开如修竹列阵；整个酒店的设计以竹为魂，处处都自带疗愈感\n客房有露台私汤，远处是竹海的葱郁，青白主调，艺术感与宜居的温润并存！\n恰逢‘竹迷日’，农历五",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/3120395837/R6F2Rbypx",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "72cd1c7d1d270f72022859b6876de6893afb8e9507243acf34ea7732637f6c06",
+      "title": "美食报告｜常州·溧阳｜夜半不二海鲜炭烤",
+      "created_at": "2026-09-20T16:04:18.320804+00:00",
+      "before_value": null,
+      "after_value": "美食报告｜常州·溧阳｜必吃榜·夜半不二海鲜炭烤\n初六夜晚，途径常州溧阳，前方高速实在太堵，所以决定下高速进城用膳，正好打卡📍溧阳必吃榜·夜半不二海鲜炭烤。餐厅位于丹金溧漕河畔，晚上排队的人很多，肉质细嫩、口味鲜美，不过‘必吃’的成分不高！建议顺路品尝，不推荐特意前往～",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/1035989841/Qt7N5pQVN",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
       "id": "f4c8724772a9bc867d540b2f474380cd909087693632f697d5a373a4b26da440",
       "title": "#发现极美常州# 【天目湖旅游度假区滨湖片区入选“国家级夜间文化和旅游消费集聚区”】1月25日，文化和旅游部公布第三批国家级夜间文化和旅游消费集",
       "created_at": "2026-09-20T11:55:52.979904+00:00",
@@ -2880,43 +2913,6090 @@
       "source_url": "https://weibo.com/3718923893/M5iIDlsFC",
       "parent_id": null,
       "kind": "discovery"
-    },
-    {
-      "id": "24eed87ac28ff36b82f1dc25b464780d42566444e0b232a6aa682cbeefeb01a0",
-      "title": "#被溧阳治愈的秋天#今天刚去了南山竹海，开心 ​​​",
-      "created_at": "2026-09-20T10:11:38.345422+00:00",
-      "before_value": null,
-      "after_value": "#被溧阳治愈的秋天#今天刚去了南山竹海，开心 ​​​",
-      "reason": "首次自动采集",
-      "source_url": "https://weibo.com/6580230813/M6kz4zeZv",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "d6b9f9f9df0d023481d50f8e3166687632e310bc392c8fccf8481dad4d492f3b",
-      "title": "2022.6.4南山竹海 ​​​",
-      "created_at": "2026-09-20T10:11:38.343071+00:00",
-      "before_value": null,
-      "after_value": "2022.6.4南山竹海 ​​​",
-      "reason": "首次自动采集",
-      "source_url": "https://weibo.com/5880383994/M7QRfxYcA",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "7b900c93b4b82837a3f15482c73c2a41f80d1d6f900a456e4c25b553b1d18a2a",
-      "title": "下雪的溧阳南山竹海实在美丽",
-      "created_at": "2026-09-20T09:50:43.889924+00:00",
-      "before_value": null,
-      "after_value": "#冬日里的雪景",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69707c8d000000002103fb48",
-      "parent_id": null,
-      "kind": "discovery"
     }
   ],
   "landscape_updates": [],
   "visual_cohorts": [],
+  "practical": {
+    "facts": [
+      {
+        "id": "transport-liyang-station-tour-shuttle",
+        "category": "transport",
+        "title": "溧阳站到天目湖的旅游直通车时刻",
+        "text": "溧阳站 → 天目湖山水园 → 南山竹海。资料表列示周末/节假日去程8班，溧阳站08:40–15:50；返程8班，南山竹海10:00–17:00。工作日去程取消08:40、15:50，返程取消10:00、16:00。展开可看逐班到达时间。票价未提供。",
+        "source": {
+          "url": "https://cz.bendibao.com/tour/2024111/67560.shtm",
+          "title": "常州天目湖景区交通指南(高铁+公交+机场+直通车)",
+          "publisher": "常州本地宝",
+          "published_at": "2026-09-07",
+          "checked_at": "2026-09-20",
+          "excerpt": "附图按8班分别列出溧阳高铁站、山水园、南山竹海的去回程时刻。"
+        },
+        "time_note": "页面更新时间为2026-09-07，但附图未标独立日期；工作日/节假日规则和班次应出发前核实。",
+        "place_names": [
+          "天目湖山水园",
+          "南山竹海"
+        ],
+        "timetable": {
+          "outbound": [
+            [
+              "08:40",
+              "09:05",
+              "09:35"
+            ],
+            [
+              "09:40",
+              "10:05",
+              "10:35"
+            ],
+            [
+              "10:40",
+              "11:05",
+              "11:35"
+            ],
+            [
+              "11:40",
+              "12:05",
+              "12:35"
+            ],
+            [
+              "12:50",
+              "13:15",
+              "13:45"
+            ],
+            [
+              "13:50",
+              "14:15",
+              "14:45"
+            ],
+            [
+              "14:50",
+              "15:15",
+              "15:45"
+            ],
+            [
+              "15:50",
+              "16:15",
+              "16:45"
+            ]
+          ],
+          "inbound": [
+            [
+              "10:00",
+              "10:30",
+              "10:55"
+            ],
+            [
+              "11:00",
+              "11:30",
+              "11:55"
+            ],
+            [
+              "12:00",
+              "12:30",
+              "12:55"
+            ],
+            [
+              "13:00",
+              "13:30",
+              "13:55"
+            ],
+            [
+              "14:00",
+              "14:30",
+              "14:55"
+            ],
+            [
+              "15:00",
+              "15:30",
+              "15:55"
+            ],
+            [
+              "16:00",
+              "16:30",
+              "16:55"
+            ],
+            [
+              "17:00",
+              "17:30",
+              "17:55"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "transport-liyang-city-bus-reference",
+        "category": "transport",
+        "title": "汽车客运站到景区的公交路径参考",
+        "text": "交通整理页给出的路径参考是：到溧阳长途汽车站后，可乘公交9路前往天目湖；前往南山竹海可查溧阳73路（游2）或72路（城乡）。该页没有给出这几条线路的票价和完整时刻，不能把它当作实时班次承诺。",
+        "source": {
+          "url": "https://cz.bendibao.com/tour/2024111/67560.shtm",
+          "title": "常州天目湖景区交通指南(高铁+公交+机场+直通车)",
+          "publisher": "常州本地宝",
+          "published_at": "2026-09-07",
+          "checked_at": "2026-09-20",
+          "excerpt": "汽车站到天目湖可参考公交9路；到南山竹海可参考溧阳73路(游2)/72路(城乡)。"
+        },
+        "time_note": "页面建议另查溧阳汽车客运站官网；票价、发车时间和站点变化需出发前核实。"
+      },
+      {
+        "id": "transport-bus72-yushui-nanshan",
+        "category": "transport",
+        "title": "72路经过南山竹海和御水温泉",
+        "text": "次级公交资料显示，溧阳72路站点包含竹海公交站、御水温泉、李家园村、天目湖公交站和汽车总站；资料列示5月1日至9月30日约05:30–17:30，10月1日至次年4月30日约05:50–17:20，约25分钟一班。该页面未证明它从溧阳站直达，也未列票价。",
+        "source": {
+          "url": "https://www.modiauto.com.cn/cx/bus_3708.html",
+          "title": "常州溧阳72路公交车时刻表查询",
+          "publisher": "无敌电动网",
+          "published_at": "2026-08-21",
+          "checked_at": "2026-09-20",
+          "excerpt": "数据时间2026-08-21；运营时间分5月1日—9月30日和10月1日—4月30日，约25分钟/趟。"
+        },
+        "time_note": "非官方线路整理；运营方或季节调整后可能不同，出发前以公交站牌/客运方为准。",
+        "place_names": [
+          "南山竹海",
+          "御水温泉"
+        ]
+      },
+      {
+        "id": "transport-changxiangyou-weekend",
+        "category": "transport",
+        "title": "常享游周末直通车（常州科教城出发）",
+        "text": "常州市政府在线访谈记录的A线从常州科教城到天目湖：周六、周日08:30从常州科教城发车，经停天目湖山水园，终点南山竹海；17:00从南山竹海返程。官方答复称可预约免费乘坐，但班次按季节调整。它从常州工程职业技术学院南门出发，不是溧阳站接驳。",
+        "source": {
+          "url": "https://www.changzhou.gov.cn/api/mobile/talk_info.php?theme_id=1745",
+          "title": "“常享游”旅游直通车在线访谈",
+          "publisher": "常州市人民政府",
+          "published_at": "2023-11-27",
+          "checked_at": "2026-09-20",
+          "excerpt": "A线周六、周日8:30从常州科教城发车，17:00从南山竹海返程；免费乘坐、需预约。"
+        },
+        "time_note": "官方历史访谈，班次并非当前保证；预约前应查看常享游入口。"
+      },
+      {
+        "id": "transport-liyang-one-road-self-drive",
+        "category": "transport",
+        "title": "天目湖—南山竹韵自驾线",
+        "text": "溧阳市政府2026年报道的省级推荐线路以天目湖为核心，依托“溧阳1号公路”，串联南山竹海、深溪岕村、王家村、桂林村和石塘村，适合作为自驾检索的主线。报道没有给出总里程、分段车程或实时道路状况，不能据此计算驾车时间。",
+        "source": {
+          "url": "https://www.liyang.gov.cn/index.php?a=show&c=phone&catid=43984&id=237241",
+          "title": "春季周末自驾封神！溧阳这条线路被省里点名啦",
+          "publisher": "溧阳市人民政府",
+          "published_at": "2026-04-14",
+          "checked_at": "2026-09-20",
+          "excerpt": "天目湖自驾线依托“溧阳1号公路”，串联深溪岕村、王家村、桂林村、石塘村。"
+        },
+        "time_note": "官方线路介绍未提供里程和车程；导航距离应按具体入口、道路管制和实时路况另算。",
+        "place_names": [
+          "南山竹海",
+          "天目湖山水园"
+        ]
+      },
+      {
+        "id": "visit-duration-shanshuiyuan-guide",
+        "category": "visit_duration",
+        "title": "山水园不同游览线的时间参考",
+        "place_name": "天目湖山水园",
+        "text": "携程景点导览给出四种计划时长：经典线约3小时，热卖线约2.5小时，定制线约2小时，休闲线约1.5小时；路线都包含码头和乘船环节，完整线路还会游览龙兴岛、中国茶岛。这里是平台行程建议，不是景区对客流和排队的保证。",
+        "source": {
+          "url": "https://you.ctrip.com/sight/liyang598/48723.html",
+          "title": "溧阳天目湖山水园游玩攻略简介",
+          "publisher": "携程攻略",
+          "published_at": null,
+          "checked_at": "2026-09-20",
+          "excerpt": "经典线（3小时）、热卖线（2.5小时）、定制线（2小时）、休闲线（1.5小时）。"
+        },
+        "time_note": "平台导览估算；船班、节假日排队和临时关闭会改变实际用时。"
+      },
+      {
+        "id": "route-nanshan-ancient-road",
+        "category": "route_length",
+        "title": "古官道约1.5公里",
+        "place_name": "南山竹海",
+        "text": "溧阳市政府景区介绍称，南山竹海古官道由石块铺砌，宽约2米、长约1.5公里。这个长度是景区内古道段的描述，不是整个景区步行线路长度。",
+        "source": {
+          "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
+          "title": "南山竹海",
+          "publisher": "溧阳市人民政府",
+          "published_at": "2026-06-01",
+          "checked_at": "2026-09-20",
+          "excerpt": "古官道宽约2米，长约1.5公里。"
+        }
+      },
+      {
+        "id": "internal-transport-shanshuiyuan-cruise",
+        "category": "internal_transport",
+        "title": "山水园游船是核心园内交通",
+        "place_name": "天目湖山水园",
+        "text": "溧阳市政府介绍称游船是山水园经典项目，可满足千余人同时畅游天目湖；携程路线也把码头和乘船前往龙兴岛、中国茶岛列为主要环节。游船班次和等候时间应按当天公告。",
+        "source": {
+          "url": "https://www.liyang.gov.cn/html/czly/2020/KKELABDM_0710/230025.html",
+          "title": "天目湖山水园",
+          "publisher": "溧阳市人民政府",
+          "published_at": "2025-08-18",
+          "checked_at": "2026-09-20",
+          "excerpt": "游船是景区的经典项目，可以满足千余人同时畅游天目湖。"
+        },
+        "time_note": "容量描述不等于班次或可售座位；具体码头、末班和等候时间需现场确认。"
+      },
+      {
+        "id": "internal-transport-nanshan-raft",
+        "category": "internal_transport",
+        "title": "南山竹海静湖竹筏",
+        "place_name": "南山竹海",
+        "text": "溧阳市政府景区介绍称，静湖竹筏是南山竹海唯一的水上游览项目。它属于园内体验项目，页面没有给出固定航程、班次或价格，不能按普通公交接驳理解。",
+        "source": {
+          "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
+          "title": "南山竹海",
+          "publisher": "溧阳市人民政府",
+          "published_at": "2026-06-01",
+          "checked_at": "2026-09-20",
+          "excerpt": "静湖竹筏是南山竹海景区唯一的水上游览项目。"
+        },
+        "time_note": "官方介绍未给价格、开放时段和航程；出发前核实。"
+      },
+      {
+        "id": "food-liyang-specialties",
+        "category": "food",
+        "title": "溧阳代表性地方菜和小吃检索词",
+        "text": "常州市政府报道的溧阳非遗美食主题活动列出天目湖砂锅鱼头、溧阳扎肝、乌米饭、雁来蕈、咸鹅、手工香肠、白芹和南山板栗等。可把这些作为找店和看菜单的检索词；报道没有指定常年营业的美食街或单店。",
+        "source": {
+          "url": "https://sgj.changzhou.gov.cn/index.php?a=show&c=phone&catid=36866&id=17222",
+          "title": "溧阳非遗美食主题活动在南京成功举办",
+          "publisher": "常州市机关事务管理局",
+          "published_at": "2024-11-01",
+          "checked_at": "2026-09-20",
+          "excerpt": "活动展示溧阳扎肝、乌米饭、雁来蕈、咸鹅、白芹等非遗美食。"
+        },
+        "time_note": "这是官方活动报道中的代表性菜品清单，不是实时店铺推荐。"
+      },
+      {
+        "id": "clothing-nanshan-hot-spring-guide",
+        "category": "clothing",
+        "title": "竹海步行与温泉的装备建议",
+        "text": "旅游攻略建议南山竹海登山穿舒适运动鞋，竹林部分路段可能湿滑；前往御水温泉应准备泳衣。该建议来自第三方攻略，不是景区硬性规定，雨天和山路情况仍应按当天安排调整。",
+        "source": {
+          "url": "https://www.loongwander.com/zh-CN/article/tianmu-lake-scenic-area",
+          "title": "天目湖景区 - 江苏旅游景区",
+          "publisher": "LoongWander",
+          "published_at": null,
+          "checked_at": "2026-09-20",
+          "excerpt": "南山竹海登山建议穿舒适的运动鞋，竹林内部分路段较滑；御水温泉需自带泳衣。"
+        },
+        "time_note": "第三方旅行攻略建议；温泉是否提供租售、山路是否湿滑需以现场为准。"
+      },
+      {
+        "id": "internal-transport-nanshan-route-structure",
+        "category": "internal_transport",
+        "title": "南山竹海小火车、地面缆车和索道路线",
+        "place_name": "南山竹海",
+        "text": "江苏省台湾同胞联谊会专题页将南山竹海描述为Y形游览结构：入口左侧可乘小火车穿竹林到寿星广场；从寿星广场前往鸡鸣村需搭乘地面缆车；登吴越“弟”一峰可乘索道，也可步行，页面给出步行约1小时的参考。这里说明的是线路关系，不含当前票价或班次。",
+        "source": {
+          "url": "https://www.jsstb.gov.cn/view/202012/t20201210_12310742.htm",
+          "title": "南山竹海_江苏美景_江苏与台湾",
+          "publisher": "江苏省台湾同胞联谊会",
+          "published_at": "2020-12-10",
+          "checked_at": "2026-09-20",
+          "excerpt": "入口可乘小火车至寿星广场；鸡鸣村只能搭乘地面缆车；登峰可乘索道或步行。"
+        },
+        "time_note": "政府专题资料较早；设备开放、末班和票价可能变化，出发前向景区核实。"
+      },
+      {
+        "id": "internal-transport-nanshan-shuttle-segment",
+        "category": "internal_transport",
+        "title": "南山竹海小火车/电瓶车服务段",
+        "place_name": "南山竹海",
+        "text": "天目湖旅游攻略PDF写明，南山竹海可用电瓶车或小火车代步，服务段起点为静湖、终点为索道服务中心；同一资料还说明景区有高空索道。资料没有给当前班次、票价或是否全部设备同时开放。",
+        "source": {
+          "url": "https://tmhtour.com/upfiles/gonglue/tianmuhulvyougonglue.pdf",
+          "title": "天目湖旅游攻略（PDF）",
+          "publisher": "江苏天目湖旅游股份有限公司（tmhtour.com）",
+          "published_at": null,
+          "checked_at": "2026-09-20",
+          "excerpt": "电瓶车、小火车起点：静湖；终点：索道服务中心。"
+        },
+        "time_note": "PDF未标清晰发布日期；仅用于理解园内交通结构，票价和运营状态需现场确认。"
+      },
+      {
+        "id": "food-liyang-regulated-markets",
+        "category": "food",
+        "title": "溧阳高新区烟火市集与锂享广场市集",
+        "text": "常州市政府公开答复将溧阳市高新区科达利烟火市集、锂享广场市集列为规范管理的流动摊点案例。它们可作为在溧阳市区寻找夜间小吃的地点线索；答复没有提供营业时间、具体商户或每日摊位清单，不应当作固定美食街营业承诺。",
+        "source": {
+          "url": "https://www.changzhou.gov.cn/gi_news/314178478727419",
+          "title": "关于对常州市十七届人大五次会议代表建议第024号的答复",
+          "publisher": "常州市城市管理局（常州市人民政府）",
+          "published_at": "2026-07-23",
+          "checked_at": "2026-09-20",
+          "excerpt": "溧阳市高新区科达利烟火市集、锂享广场市集是规范管理的案例。"
+        },
+        "time_note": "政府答复确认的是市集案例，不含营业时间和商户名单；出发前查看“烟火市集”平台或现场公示。"
+      },
+      {
+        "id": "stay-zhu-yin-ju-hotel",
+        "category": "stay",
+        "title": "遇·竹隐居酒店",
+        "place_name": "南山竹海",
+        "text": "天目湖旅游官网介绍，遇·竹隐居酒店位于南山竹海停车场对面，步行约3分钟可到达南山竹海和御水温泉两大景区；周边有竹海夜市、夜南山等休闲区域。页面未提供统一房价，价格需按入住日期和房型查询。",
+        "source": {
+          "url": "https://www.tmhtour.com/shows/89/94.html",
+          "title": "遇·竹隐居酒店简介",
+          "publisher": "江苏天目湖旅游股份有限公司（tmhtour.com）",
+          "published_at": null,
+          "checked_at": "2026-09-20",
+          "excerpt": "酒店位于南山竹海停车场对面，3分钟可步行到达两大景区。"
+        },
+        "time_note": "官方酒店介绍；未提供本次旅行日期的实时房价和房态。"
+      },
+      {
+        "id": "stay-shenxijie-minsu",
+        "category": "stay",
+        "title": "深溪岕村特色民宿示例",
+        "place_name": "深溪岕村",
+        "text": "溧阳市政府推荐的天目湖自驾线介绍深溪岕村时，点名叁朵花、晚秋山居等特色民宿。页面没有给房型、房价、营业状态或预订链接，可作为查找民宿的名称线索，预订前需自行确认。",
+        "source": {
+          "url": "https://www.liyang.gov.cn/index.php?a=show&c=phone&catid=43984&id=237241",
+          "title": "春季周末自驾封神！溧阳这条线路被省里点名啦",
+          "publisher": "溧阳市人民政府",
+          "published_at": "2026-04-14",
+          "checked_at": "2026-09-20",
+          "excerpt": "深溪岕村拥有叁朵花、晚秋山居等特色民宿。"
+        },
+        "time_note": "官方线路报道只确认名称和线路关联，不确认当前房态、价格或营业状态。"
+      },
+      {
+        "id": "stay-tianmu-lake-hotel-five-star",
+        "category": "stay",
+        "title": "天目湖宾馆 · 五星级旅游饭店",
+        "place_name": "天目湖山水园",
+        "text": "溧阳市人民政府介绍将天目湖宾馆列为五星级旅游饭店，位于天目湖国家级旅游度假区。这里指旅游饭店星级，不是平台钻级或用户评分。当前暂无可核验的房型和入住日期报价。",
+        "source": {
+          "url": "https://www.liyang.gov.cn/html/czly/2020/NKONQEKJ_0710/138953.html",
+          "title": "天目湖宾馆",
+          "publisher": "溧阳市人民政府",
+          "published_at": "2026-06-01",
+          "checked_at": "2026-09-21",
+          "excerpt": "天目湖宾馆，五星级旅游饭店，江苏省精品度假酒店。"
+        },
+        "time_note": "星级以此官方介绍为依据；没有当前房态或房价数据。"
+      },
+      {
+        "id": "visit-duration-nanshan-family-observation",
+        "category": "visit_duration",
+        "title": "亲子熊猫线：一次约4小时的实游记录",
+        "place_name": "南山竹海",
+        "text": "这位游客记录了10:00–14:00在南山竹海的亲子行程：小火车到寿星广场 → 地轨到鸡鸣村、熊猫馆 → 地轨返回 → 步行经小鸟天堂到出口。这次没有走索道登峰线。约4小时仅代表这一次游览，可作为安排亲子路线的参考。",
+        "source": {
+          "url": "https://weibo.com/7216240984/Ozgp5t6vt",
+          "title": "溧阳亲子游 Day2：南山竹海",
+          "publisher": "鹿宝妈妈_",
+          "published_at": "2024-09-29",
+          "checked_at": "2026-09-21",
+          "excerpt": "今天早上10:00到下午14:00都是在南山竹海这个溧阳著名景点度过的。进景区之后先是乘坐小火车到寿星广场……带娃果断选择熊猫线。"
+        },
+        "time_note": "2024年游客记录，单一样本，不是平均游玩时间；不含索道登峰线。"
+      }
+    ],
+    "classified_sources": [
+      {
+        "id": "ev_0f87f74041b14132",
+        "title": "9月19日 溧阳仙山十三岭",
+        "excerpt": "野菜不会认，🌰还能不认识嘛\n\t\n路况。仙山这里的路线还是蛮多的，原本选择15km的大环线，但走错一个路口，最终华为手表记录14km（两步路app才记录12km）。稍有难度，爬升集中在前面的8km，爬升比约1:100 ~怪不得觉得累啊不少路段提供了绳索使用，所以戴上手套会轻松很多。\n\t\n捡栗子。集中在前面的一公里，应该不算也板栗吧，感觉是集中种植的，但好像也没人管，适量采摘吧。板栗外壳太扎手了，务必准备周全！！看到其他有经验的人是拿了竹篮等篮子带下山慢慢开（塑料袋必然被扎的千疮百孔）。\n\t\n无痕山野。江南雪村的停车场去起点的路上有个游客服务中心，门面不大，别错过了。和里面的小姐姐登记信息就可以领垃圾袋了。礼物兑换是根据垃圾袋数量进阶的，所以能力够的话，多要几个，应该可以装的满（有种无奈呢）。总体没想象的多，但也不少。我们把塑料瓶都压扁都能放满3袋。如果真没有的话，可以捡路上设置的垃圾桶的吧，就是桶比较深\n\t\n柿柿如意。出了山，村子家家户户的院子都种了柿子。红彤彤的很是诱人。不过只有一家老奶奶是没有围墙的，人也特别好，让我们徒步佬可以随便摘（低处的都没有了，一定要拉上高个子的朋友啊）。\n\t\n补给。山上全程无补给。但是差不多8公里下山后就有厕所和补给点了，所以可以根据个人情况适当准备，2L水应该足够了。\n\t\n蚊子还是很多，隔着手套衣服都能狠狠扎进去，驱蚊水必不可少啊。\n\t\n#户外徒步 #每年就等这一口 #秋季去爬山",
+        "url": "https://www.xiaohongshu.com/explore/6aaf266b0000000025037bef",
+        "publisher": "DAYKNIGHT",
+        "source_type": "xiaohongshu",
+        "place_name": "仙山十三岭",
+        "published_at": "2026-09-20",
+        "categories": [
+          "clothing",
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.41,
+            "stay": 0.98,
+            "transport": 0.43,
+            "visit_duration": 0.81,
+            "route_length": 0.3,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.41,
+              "probabilities": {
+                "absent": 0.6,
+                "relevant": 0.33,
+                "unclear": 0.07
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.3,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.54,
+                "unclear": 0.46
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.43,
+              "probabilities": {
+                "absent": 0.62,
+                "relevant": 0.15,
+                "unclear": 0.23
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.81,
+              "probabilities": {
+                "absent": 0.87,
+                "relevant": 0.02,
+                "unclear": 0.11
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:17.178447+00:00"
+        }
+      },
+      {
+        "id": "ev_cf65df2319bf45ec",
+        "title": "2026.9.19常州溧阳南山竹海跑游",
+        "excerpt": "1. 整体感受：\n1. 跑了10公里，700米的爬升，训练旅游兼顾了，挺好；\n2. 没有想到常州有这么多连绵不断的人，以及这么漂亮的竹海；\n3. 都是铺装路面，越野的性能下降了一些；\n4. 台阶路比较多。刚进山有一段缓坡，上下坡跑的蛮舒服的。\n2. 上午环天目湖骑行100公里，中午围绕大溪水库转了一圈，也没能找到游泳的地方，就放弃，直接导航到南山竹林；在来之前就计划跑个山，就下载了20公里的南山轨迹；\n3. 只跑了景区这一段路，再想前没有看到路，不知道是不是被封了，不过两上两下，回到车那边天也已经黑了，如果按照轨迹跑，估计要在夜里跑个3个小时左右！\n#南山竹海#越野跑游",
+        "url": "https://www.xiaohongshu.com/explore/6aaf9eb6000000002502f357",
+        "publisher": "RawFlow",
+        "source_type": "xiaohongshu",
+        "place_name": "南山竹海",
+        "published_at": "2026-09-20",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 0.98,
+            "transport": 0.6,
+            "visit_duration": 0.19,
+            "route_length": 0.28,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.28,
+              "probabilities": {
+                "absent": 0.06,
+                "relevant": 0.52,
+                "unclear": 0.42
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.6,
+              "probabilities": {
+                "absent": 0.73,
+                "relevant": 0.06,
+                "unclear": 0.21
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "unclear",
+              "confidence": 0.19,
+              "probabilities": {
+                "absent": 0.16,
+                "relevant": 0.37,
+                "unclear": 0.47000000000000003
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:02.566030+00:00"
+        }
+      },
+      {
+        "id": "ev_07b44a6b061b4cdc",
+        "title": "中秋🥮南山竹海 坐了人生第一次的架空索道 超稳的，回来还两人包车了 超开心 今天也终于见到了胖达 真的好懒 晚上吃的饭也好好吃 溧阳鱼汤👍 ​​",
+        "excerpt": "中秋🥮南山竹海\n坐了人生第一次的架空索道\n超稳的，回来还两人包车了\n超开心\n今天也终于见到了胖达\n真的好懒\n晚上吃的饭也好好吃\n溧阳鱼汤👍 ​​​",
+        "url": "https://weibo.com/3718923893/M5iIDlsFC",
+        "publisher": "耳犀",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2022-09-11",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.36,
+            "stay": 0.96,
+            "transport": 0.72,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.69
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.36,
+              "probabilities": {
+                "absent": 0.31,
+                "relevant": 0.57,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.69,
+              "probabilities": {
+                "absent": 0.79,
+                "relevant": 0.08,
+                "unclear": 0.13
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.72,
+              "probabilities": {
+                "absent": 0.82,
+                "relevant": 0.06,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:58.824912+00:00"
+        }
+      },
+      {
+        "id": "ev_3ee2b4c5ce0644e1",
+        "title": "南山竹海🎋沉浸式竹海吸氧之旅～",
+        "excerpt": "我的路线：（上山坐车 下山徒步）\n景区大门→静湖→竹海小火车→寿星广场→网红地轨缆车→鸡鸣村→熊猫馆→原路坐地轨缆车回到寿星广场→全程徒步步道下山（不走回头路）→一路景点直达景区大门\n\t\n关于买票🎫：\n建议直接买套票 景区门票＋单程的小火车＋往返网红地轨\n\t\n敲重点❗️❗️\n中转站是寿星广场 到熊猫馆是从寿星广场坐地轨到鸡鸣村  步行下山也是需要做地轨返回寿星广场再开始徒步下山\n如需到吴越第一峰 需再购票乘坐架空索道（上去主要是欣赏风景 竹林全貌 我没去）\n\t\n上山路段打卡景点：\n1)巨型老寿星铜像\n2）鸡鸣村  白墙黑瓦 有民俗舞狮表演 逛古街 竹艺小店 还 有一些NPC 可以和他们玩游戏可以获得银票💰\n3） 竹文化园：简单参观各类竹子标本\n4） 熊猫馆🐼（终点）：有两只大熊猫  上午会比较活跃 中午去可能在睡觉哦  建议早点\n\t\n下山段景点（全程约1.8km左右  步行40–60分钟）\n1）竹林古道和溯溪  这里一路比较平坦 全程竹林遮荫 很多浅滩 可以停下来溯溪玩水💦\n2）火烈鸟池塘🦩免费打卡 无需买票\n3）小鸟天堂🐦 有十几种鸟类在这里 鹦鹉 孔雀 犀鸟等等\n4） 静湖环湖栈道  体验竹筏就在这里  最美的地方就是这里拉\n\t\n关于吃🥣\n景区门口有很多饭店 价格都不贵\n我们选的是人气王 快乐家园 口味还可以\n点一个套餐就足够了 里面都包含了特色菜 鱼头汤之类的！#南山竹海 #避暑胜地 #周边游 #溧阳旅游 #溯溪玩水",
+        "url": "https://www.xiaohongshu.com/explore/6a8d06af0000000029025484",
+        "publisher": "璇璇没啤汽🍏",
+        "source_type": "xiaohongshu",
+        "place_name": "南山竹海",
+        "published_at": "2026-08-26",
+        "categories": [
+          "food",
+          "visit_duration",
+          "route_length",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.95,
+            "food": 0.98,
+            "stay": 0.98,
+            "transport": 0.98,
+            "visit_duration": 0.92,
+            "route_length": 1,
+            "internal_transport": 0.99
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.99,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "relevant",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.95,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:16.274510+00:00"
+        }
+      },
+      {
+        "id": "ev_0198f09fad544d26",
+        "title": "周末溧阳南山竹海",
+        "excerpt": "大门进入，坐小火车，然后去排队等地轨，排了一层楼，以为快了，结果上了二楼发现，，，，如图，继续排，还好有空调和电扇，还有万亩竹林给我一丝清凉，领取工作人员准备了小礼物，还是很贴心的#景区体验howto #溧阳 #溧阳旅游 #没有漂流的夏天是不完美的 #总要去一次漂流吧 #一起看熊猫 #夏日避暑好去处",
+        "url": "https://www.xiaohongshu.com/explore/6a8a7cea000000003302809f",
+        "publisher": "李小兮的极简生活",
+        "source_type": "xiaohongshu",
+        "place_name": "南山竹海",
+        "published_at": "2026-08-23",
+        "categories": [
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.57,
+            "stay": 0.98,
+            "transport": 0.99,
+            "visit_duration": 0.99,
+            "route_length": 0.99,
+            "internal_transport": 0.73
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.57,
+              "probabilities": {
+                "absent": 0.72,
+                "relevant": 0.23,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.73,
+              "probabilities": {
+                "absent": 0.06,
+                "relevant": 0.82,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:15.256434+00:00"
+        }
+      },
+      {
+        "id": "ev_92d04cb36b08475b",
+        "title": "溧阳亲子游Day2 能让鹿宝全程没有喊累，还主动牵一路🐶可可的一天就是最到位的👏 为了方便大家参考，我把行程分两段写哈，今天早上10:00到下午",
+        "excerpt": "溧阳亲子游Day2\n\n能让鹿宝全程没有喊累，还主动牵一路🐶可可的一天就是最到位的👏\n\n为了方便大家参考，我把行程分两段写哈，今天早上10:00到下午14:00都是在南山竹海这个溧阳著名景点度过的逛下来我觉得非常适合亲子带娃，可逛性挺高的，不仅仅是单纯的一个风景秀丽的地方～\n\n1米4以下儿童免票，只需要买各种交通票就行，进景区之后先是乘坐小火车到寿星广场，这里分了两条线，一条坐地轨小火车（图3）去看大熊猫，一条坐高空缆车去登山，带娃果断选择熊猫🐼线～但是这条线不能带🐶所以鹿爸就在广场等我们。\n\n我以为熊猫线就是看个熊猫，没想到上去还有个古村落鸡鸣村，还能看舞狮表演，舞狮还跟迪士尼明星一样一个个小互动过去的～\n\n看完舞狮走几步又能去看熊猫，一丁点儿也不累，虽然也只有2只大熊猫啦！但是体验总比成都好点\n\n看完熊猫再坐地轨小火车返程回寿星广场，然后就一路步行到出口，这一路上还有个小鸟天堂，可以喂鸟，看剧场表演，观赏不同种类的鸟（就是比较可惜都是隔着玻璃或者笼子的）。\n\n而且这条路还是个溯溪线，道路两旁都是小溪流，想下水玩随时下去玩就行！想拍点好看的照片也有个溯溪咖啡馆可以拍拍。\n\n快到出口的地方可以坐竹筏，一问💰200，我想砍到150💰没成功就没坐这一趟下来其实挺累的，但是鹿宝非常沉浸，看鸟的时候根本不愿意错过任何一只鸟！是很开心的一站！\n\n唯一不太满意的地方，就是景区的饭实在太难吃28💰一份的酸辣粉我想着总不会出错吧，但凡给我个方便即食的都不会这么难吃咖喱牛肉饭也是非常一般💔大家可以带着点干粮，多带水！\n\n或者早上早点入园，争取饭点就逛完，从南山竹海出来有家“再回楼农家饭店”味道不错，我们今天晚上去吃的，133💰鱼头套餐！着实好吃到了😋\n#鹿旅记##微博旅行家##带着微博去旅行##快乐万岁##微博影像年#",
+        "url": "https://weibo.com/7216240984/Ozgp5t6vt",
+        "publisher": "鹿宝妈妈_",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-09-29",
+        "categories": [
+          "food",
+          "visit_duration",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.83,
+            "food": 1,
+            "stay": 0.83,
+            "transport": 0.97,
+            "visit_duration": 0.88,
+            "route_length": 0.87,
+            "internal_transport": 0.98
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.83,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.1,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.98,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.87,
+              "probabilities": {
+                "absent": 0.92,
+                "relevant": 0,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.83,
+              "probabilities": {
+                "absent": 0.88,
+                "relevant": 0.09,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "relevant",
+              "confidence": 0.88,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.92,
+                "unclear": 0.07
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:07.058395+00:00"
+        }
+      },
+      {
+        "id": "ev_65526d678af643e2",
+        "title": "溧阳南山竹海 大熊猫🐼星安在睡觉觉， 华丽好可爱大糯米团子！ 网红桃子味竹笋冰淇淋好好吃！ 原以为网红小火车就是套票里的“小火车”，其实司机地面",
+        "excerpt": "溧阳南山竹海\n大熊猫🐼星安在睡觉觉，\n华丽好可爱大糯米团子！\n网红桃子味竹笋冰淇淋好好吃！\n原以为网红小火车就是套票里的“小火车”，其实司机地面缆车，要站在车头才能拍到两车相遇的画面。\n吴越弟一峰坐索道下来爬200米就可以到\n我一个人上去爬，毫无感觉，喘也不喘（边上的人都在喘），毕竟今年第四次爬山了。\n中秋快乐哟！！",
+        "url": "https://weibo.com/2835241040/NlAvcA7Vb",
+        "publisher": "那样玥色",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2023-09-29",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.3,
+            "stay": 0.96,
+            "transport": 0.92,
+            "visit_duration": 0.97,
+            "route_length": 0.88,
+            "internal_transport": 0.24
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.3,
+              "probabilities": {
+                "absent": 0.54,
+                "relevant": 0.35,
+                "unclear": 0.11
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "unclear",
+              "confidence": 0.24,
+              "probabilities": {
+                "absent": 0.15,
+                "relevant": 0.36,
+                "unclear": 0.49
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.88,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.92,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.01,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:06.180804+00:00"
+        }
+      },
+      {
+        "id": "ev_7e9775cab0334168",
+        "title": "看过南山竹海满目青翠，吃过热气腾腾的天目湖砂锅鱼头。 不用赶行程的短途出行，溧阳的体验感很不错，值得再来✨ ​​​",
+        "excerpt": "看过南山竹海满目青翠，吃过热气腾腾的天目湖砂锅鱼头。\n不用赶行程的短途出行，溧阳的体验感很不错，值得再来✨  ​​​",
+        "url": "https://weibo.com/1924818861/RiSeo3RY6",
+        "publisher": "伊颜苒99",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2026-09-19",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.49,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.49,
+              "probabilities": {
+                "absent": 0.27,
+                "relevant": 0.67,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:11.565373+00:00"
+        }
+      },
+      {
+        "id": "ev_73070bda5ad545a3",
+        "title": "离开溧阳竹海时，我读懂了‘知竹常乐’",
+        "excerpt": "离开溧阳竹海时，我读懂了‘知竹常乐’\n车子穿过南山竹海\n满眼都是绿。绿得让人心静\n竹林慢慢退开，酒店就出现了\n#溧阳曲禅里酒店傲途格精选#\n不是张扬的华丽，像从土地里长出来的\n圆形的建筑像拔地挺身的竹笋，方形的排开如修竹列阵；整个酒店的设计以竹为魂，处处都自带疗愈感\n客房有露台私汤，远处是竹海的葱郁，青白主调，艺术感与宜居的温润并存！\n恰逢‘竹迷日’，农历五月十三，这个日子源自古代栽竹习俗，是竹乡人敬竹的日子。\n而酒店的主题是‘知竹常乐，照见本心’——整片竹海都成了沉浸式剧场。\n下午在无边泳池边参加派对，歌手唱得很带感，冰镇果汁和特调都非常夏日，无边泳池倒映着竹影，伴着下午的暖光，水中芭蕾在蓝色池水里翻出晶莹水花。\n晚宴吃到好多溧阳本地好菜，熟醉小龙虾酒香浓郁，黄焖竹林鸡浓到想拌饭，冬瓜盅里藏着花胶瑶柱和鸽蛋，清蒸东星斑鲜甜得停不下筷。\n最震撼的还是夜晚那场‘傲途格印记’，颂钵的声音从竹林深处缓缓漫来，手碟敲击的音色，像水滴落进深潭。第二天还有开业仪式和‘竹迷艺展’，非遗体验好丰富——茶艺、竹编、竹雕、乱针绣、花鸟画。\n午宴更是五感全开，开场舞《只此青绿》，菜名也美：凉菜·‘竹海行舟’，海鲜·‘龙傲九天’。\n两天一夜，从竹林到烟火，从舌尖到心里。",
+        "url": "https://weibo.com/3120395837/R6F2Rbypx",
+        "publisher": "寻味旅行",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2026-07-01",
+        "categories": [
+          "food",
+          "stay"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.92,
+            "stay": 0.94,
+            "transport": 0.93,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 0.99
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.94,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 0.94,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.96,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0.01,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:06:56.403814+00:00"
+        }
+      },
+      {
+        "id": "ev_115e0770e88f4a66",
+        "title": "说走就走 溧阳 南山竹海 40度的下午坐了小火车，缆车，空中轨道，登顶了弟一峰！全程不需要排队，太爽了！ 最后下山的小溪走不动了，没玩成，水枪白",
+        "excerpt": "说走就走 溧阳 南山竹海\n40度的下午坐了小火车，缆车，空中轨道，登顶了弟一峰！全程不需要排队，太爽了！\n最后下山的小溪走不动了，没玩成，水枪白背了！  ​​​",
+        "url": "https://weibo.com/1229466912/OpYo5l6VE",
+        "publisher": "月半_J",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-07-30",
+        "categories": [
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.52,
+            "food": 0.91,
+            "stay": 0.98,
+            "transport": 0.99,
+            "visit_duration": 0.89,
+            "route_length": 0.98,
+            "internal_transport": 0.75
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.52,
+              "probabilities": {
+                "absent": 0.68,
+                "relevant": 0.18,
+                "unclear": 0.14
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.91,
+              "probabilities": {
+                "absent": 0.9299999999999999,
+                "relevant": 0.05,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.75,
+              "probabilities": {
+                "absent": 0.08,
+                "relevant": 0.83,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.89,
+              "probabilities": {
+                "absent": 0.93,
+                "relevant": 0.01,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:51.397874+00:00"
+        }
+      },
+      {
+        "id": "ev_a6c2a8d510d943ef",
+        "title": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～ 打卡溧阳南山竹海～的确是漫山遍野的竹",
+        "excerpt": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～\n\n打卡溧阳南山竹海～的确是漫山遍野的竹林，沿路栽种的桂花飘香，沉浸在大自然里的心旷神怡\n\n坐了轨道看起来很像过山车实际也就小火车速度的观光缆车，进了熊猫馆才后知后觉地发现这里的两只熊猫原来是星安和华丽我总在早上看他们的吃播，虽然看得津津有味但是一直不知道他们生活在哪个熊猫馆结果就有一种一不小心线下追到爱豆的兴奋～\n\n可惜只拍到星安，华丽睡得太香了",
+        "url": "https://weibo.com/2303852471/OzpTytTcv",
+        "publisher": "Bonnie加加油",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-09-30",
+        "categories": [
+          "transport",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.97,
+            "transport": 0.97,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.66
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.66,
+              "probabilities": {
+                "absent": 0.11,
+                "relevant": 0.77,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.98,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:56.991608+00:00"
+        }
+      },
+      {
+        "id": "ev_e37de9d73b7a4256",
+        "title": "今天常州溧阳这边下起了小雨微风送凉，很是舒适趁着雨后清新，早饭后驾车前往“天目湖山水园”湖边散步吹着微风，呼吸着新鲜的空气真是太惬意了喝一杯“天",
+        "excerpt": "今天常州溧阳这边下起了小雨微风送凉，很是舒适趁着雨后清新，早饭后驾车前往“天目湖山水园”湖边散步吹着微风，呼吸着新鲜的空气真是太惬意了喝一杯“天目湖啤酒”🍺再品尝一份鲜美的“天目湖鱼头”那是相当的舒坦\n\n#随手拍##天目湖##记录美好##湖光山色##今日分享#常州旅游超话  壹夜寒风的微博视频",
+        "url": "https://weibo.com/1377774282/OwuF6neTj",
+        "publisher": "壹夜寒风",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-09-11",
+        "categories": [
+          "food",
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.42,
+            "stay": 0.99,
+            "transport": 0.6,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.42,
+              "probabilities": {
+                "absent": 0.23,
+                "relevant": 0.61,
+                "unclear": 0.16
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.6,
+              "probabilities": {
+                "absent": 0.15,
+                "relevant": 0.73,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:55.099421+00:00"
+        }
+      },
+      {
+        "id": "ev_fe2ef64d32014571",
+        "title": "分会组织天目湖山水园一日游，原来天气预报要一直下雨，每人都带了雨伞，直到游玩结束也没下雨，很幸运 ​​​",
+        "excerpt": "分会组织天目湖山水园一日游，原来天气预报要一直下雨，每人都带了雨伞，直到游玩结束也没下雨，很幸运  ​​​",
+        "url": "https://weibo.com/1457799632/O9I4hadj4",
+        "publisher": "世外桃源1966",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-04-14",
+        "categories": [
+          "clothing"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.51,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 0.92,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 0.51,
+              "probabilities": {
+                "absent": 0.25,
+                "relevant": 0.67,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:53.279689+00:00"
+        }
+      },
+      {
+        "id": "ev_f676a60fb4b8473e",
+        "title": "御水温泉",
+        "excerpt": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。御水温泉是华东地区稀缺的碳酸氢钙型温泉，其热量可产生医疗作用，可饮可浴，对神经系统疾病、运动系统疾病、皮肤科疾病等都具有独特的理疗作用。经常浸泡，可爽身润肤、缓解疲劳，是休闲度假、焕发身心健康、美容养颜的天然矿泉。",
+        "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
+        "publisher": "溧阳市人民政府",
+        "source_type": "official",
+        "place_name": "御水温泉",
+        "published_at": "2026-06-01",
+        "categories": [
+          "stay"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.97,
+            "food": 0.99,
+            "stay": 0.42,
+            "transport": 0.99,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 0.42,
+              "probabilities": {
+                "absent": 0.27,
+                "relevant": 0.61,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:21.905340+00:00"
+        }
+      },
+      {
+        "id": "ev_c8eef77070ed4da1",
+        "title": "早餐后打车去报恩禅寺。雨下得挺大，几乎没有游人。听着旅途随身听的介绍了解了寺庙的历史和建筑。走在菩提路上，内心“净、静、境”。打卡了方所文化村，",
+        "excerpt": "早餐后打车去报恩禅寺。雨下得挺大，几乎没有游人。听着旅途随身听的介绍了解了寺庙的历史和建筑。走在菩提路上，内心“净、静、境”。打卡了方所文化村，特别喜欢天目书塔。又去了者里一仓文创店。中午去吃了必吃榜鱼头汤，较昨晚的鱼头汤更清淡，还吃到了溧阳特产白芹和乌米饭。下午去御水温泉泡汤，直到晩上。山间的日景夜景一览无遗～～～\n带着微博去旅行超话",
+        "url": "https://weibo.com/2279339552/ODwF63EoY",
+        "publisher": "萍子贝儿",
+        "source_type": "weibo",
+        "place_name": "御水温泉",
+        "published_at": "2024-10-27",
+        "categories": [
+          "food",
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.95,
+            "food": 0.9,
+            "stay": 0.91,
+            "transport": 0.86,
+            "visit_duration": 0.65,
+            "route_length": 0.99,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.9,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.9400000000000001,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.91,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.02,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.86,
+              "probabilities": {
+                "absent": 0.05,
+                "relevant": 0.9,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.65,
+              "probabilities": {
+                "absent": 0.76,
+                "relevant": 0.11,
+                "unclear": 0.13
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:50.418674+00:00"
+        }
+      },
+      {
+        "id": "ev_40452024d3a846d4",
+        "title": "9月溧阳松岭竹海漂流",
+        "excerpt": "🎫门票:198/双人\n必备:水瓢、防水手机套、棉签、洗发水、换洗衣物、毛巾、拖鞋\n:导航到终点停车场，有免费接驳车送到漂流起点，自己拿头盔和救生衣穿好检票。\n九月第一周周末，人不多，不需要排队等。漂流时长大概1.5h，途中有很多“服务区”卖装备小吃。\n\t\n水质不好，可以看到附近村里的生活用水排进来。水位也不高，有的地方明显感觉到石头硌屁股。水流不是很急，适合毛孩子和小朋友。打水仗的时候水进到耳朵和眼里会不舒服。\n\t\n洗澡热水很舒服，洗浴间外面有一排吹风机，也可以自带吹风机。\n🚗停车费:10元\n#玩水还松弛 #漂流 #松岭竹海漂流",
+        "url": "https://www.xiaohongshu.com/explore/6a9e239400000000120025c2",
+        "publisher": "再来一杯杨枝甘露",
+        "source_type": "xiaohongshu",
+        "place_name": "松岭竹海漂流",
+        "published_at": "2026-09-07",
+        "categories": [
+          "clothing",
+          "transport",
+          "visit_duration",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.63,
+            "stay": 0.92,
+            "transport": 0.91,
+            "visit_duration": 0.73,
+            "route_length": 0.4,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.63,
+              "probabilities": {
+                "absent": 0.75,
+                "relevant": 0.1,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.4,
+              "probabilities": {
+                "absent": 0.61,
+                "relevant": 0.25,
+                "unclear": 0.14
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.04,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.91,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.94,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "relevant",
+              "confidence": 0.73,
+              "probabilities": {
+                "absent": 0.07,
+                "relevant": 0.82,
+                "unclear": 0.11
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:18.084629+00:00"
+        }
+      },
+      {
+        "id": "ev_48358a1aa6f54658",
+        "title": "天目十八浇？香的一批！",
+        "excerpt": "天目十八浇？香的一批！\n刚跑完步，就被朋友喊上去吃饭，说吃十八浇！天目十八浇？拌面十八浇？十八种配料浇头在一碗面吗？\n因为首次到溧阳打卡美食，为此特别好奇，于是带着好奇去打卡这份溧阳美食。\n抵达门口，一个天目十八浇牌匾挂在门头上，瞬间感觉氛围有了。走进一看，环境清新，简约风，看起来很是舒适。这时候已经发现有客人在品尝拌面了，此时已经饿了…有味道一阵香味…\n立马扫码点单，期间服务员还每人送了一份什么糊（免费），色调好，喝起来软糯可口，有点汤圆的味道。\n听朋友说才知道，为啥叫十八浇，是因为有十八种浇头…哈哈哈哈哈…一份十八种浇头梦没了…不一会，一份香喷喷十三香小龙虾拌面来了，立马就拌了几下，此时香味扑鼻，立即来了一口，真的是香啊…\n浇头很足，面也很劲道，喜欢重口味的人群福音。吃的很香，很满足…回去的路上意犹未尽！\n对于我们这些跑马拉松的人来说，除了跑马就是各个城市马拉松的美食了。\n对了，天目湖鱼头汤还没喝上#天目湖马拉松#",
+        "url": "https://weibo.com/5090776796/QdnEZ6FLX",
+        "publisher": "长腿公子",
+        "source_type": "weibo",
+        "place_name": "溧阳",
+        "published_at": "2025-11-11",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.81,
+            "stay": 0.99,
+            "transport": 0.99,
+            "visit_duration": 1,
+            "route_length": 0.96,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.81,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.87,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:32.508949+00:00"
+        }
+      },
+      {
+        "id": "ev_da23204db2814ed9",
+        "title": "美食报告｜常州·溧阳｜夜半不二海鲜炭烤",
+        "excerpt": "美食报告｜常州·溧阳｜必吃榜·夜半不二海鲜炭烤\n初六夜晚，途径常州溧阳，前方高速实在太堵，所以决定下高速进城用膳，正好打卡📍溧阳必吃榜·夜半不二海鲜炭烤。餐厅位于丹金溧漕河畔，晚上排队的人很多，肉质细嫩、口味鲜美，不过‘必吃’的成分不高！建议顺路品尝，不推荐特意前往～",
+        "url": "https://weibo.com/1035989841/Qt7N5pQVN",
+        "publisher": "伯爵与少女的酒宴",
+        "source_type": "weibo",
+        "place_name": "溧阳",
+        "published_at": "2026-02-23",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.99,
+            "stay": 0.97,
+            "transport": 0.26,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.99,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.26,
+              "probabilities": {
+                "absent": 0.51,
+                "relevant": 0.27,
+                "unclear": 0.22
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:33.398222+00:00"
+        }
+      },
+      {
+        "id": "ev_10dc1bd0e4bb41af",
+        "title": "#被溧阳治愈的秋天#今天刚去了南山竹海，开心 ​​​",
+        "excerpt": "#被溧阳治愈的秋天#今天刚去了南山竹海，开心 ​​​",
+        "url": "https://weibo.com/6580230813/M6kz4zeZv",
+        "publisher": "不写一本小说不改名",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2022-09-18",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:59.762289+00:00"
+        }
+      },
+      {
+        "id": "ev_c53188ce2f7c42e1",
+        "title": "2022.6.4南山竹海 ​​​",
+        "excerpt": "2022.6.4南山竹海 ​​​",
+        "url": "https://weibo.com/5880383994/M7QRfxYcA",
+        "publisher": "W王冰冰w",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2022-09-28",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:00.683812+00:00"
+        }
+      },
+      {
+        "id": "ev_6f89bacd03d74d27",
+        "title": "下雪的溧阳南山竹海实在美丽",
+        "excerpt": "#冬日里的雪景",
+        "url": "https://www.xiaohongshu.com/explore/69707c8d000000002103fb48",
+        "publisher": "啊幻momo",
+        "source_type": "xiaohongshu",
+        "place_name": "南山竹海",
+        "published_at": "2026-01-31",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.98,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:01.550105+00:00"
+        }
+      },
+      {
+        "id": "ev_0c1938055fdb4ed7",
+        "title": "今天去的南山竹海，2017年公司旅游去过，对我来说，这就是个纯练体力的5A景区，但小朋友玩的还是蛮开心的 ​​​",
+        "excerpt": "今天去的南山竹海，2017年公司旅游去过，对我来说，这就是个纯练体力的5A景区，但小朋友玩的还是蛮开心的  ​​​",
+        "url": "https://weibo.com/2284418264/M5i2Kyjtv",
+        "publisher": "Mike卫",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2022-09-11",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.98,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:57.895316+00:00"
+        }
+      },
+      {
+        "id": "ev_45d088644f584ce2",
+        "title": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！） ​​​",
+        "excerpt": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！）  ​​​",
+        "url": "https://weibo.com/5978888176/O0j9N71w9",
+        "publisher": "青柠芒果YM",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-02-12",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.77,
+            "stay": 0.97,
+            "transport": 0.84,
+            "visit_duration": 1,
+            "route_length": 0.84,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.77,
+              "probabilities": {
+                "absent": 0.85,
+                "relevant": 0.05,
+                "unclear": 0.1
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0,
+                "unclear": 0.11
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.01,
+                "unclear": 0.1
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:44.641785+00:00"
+        }
+      },
+      {
+        "id": "ev_53cd02bf309042b4",
+        "title": "十一年前来南山竹海是下雨天 今天又是下雨天☔️ ​​​",
+        "excerpt": "十一年前来南山竹海是下雨天\n今天又是下雨天☔️  ​​​",
+        "url": "https://weibo.com/2118836720/OgOgdd1cD",
+        "publisher": "楚小妞cici",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-05-31",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.97,
+            "food": 1,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:42.770217+00:00"
+        }
+      },
+      {
+        "id": "ev_6fd5c12669d245c0",
+        "title": "南山竹海",
+        "excerpt": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。有静湖娱乐区、竹文化博物馆、古官道、长寿文化区、南山寿翁、吴越弟一峰、鸡鸣村、熊猫馆、竹文园等景点 。南山竹海深蕴着青山绿水的诗意和神韵，是一处风景如画的风雅之地，故有“天堂南山，梦幻竹海”之美誉。 寿星广场上矗立着中国第一寿星，头部高近十三米，纯铜打造，以山体为身、以山峰为臂，寿翁笑容可掬、慈祥亲切。寿翁后方照壁上有100种不同字体的寿字，集寿书法之大成。到寿星广场，看石雕猴子悟养生之道，逛寿文化长廊得养生知识，感受“世界长寿之乡”之独特内",
+        "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
+        "publisher": "溧阳市人民政府",
+        "source_type": "official",
+        "place_name": "南山竹海",
+        "published_at": "2026-06-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.98,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:22.846387+00:00"
+        }
+      },
+      {
+        "id": "ev_614a105cd3514281",
+        "title": "南山竹海是大自然赋予的天然氧吧 ​​​",
+        "excerpt": "南山竹海是大自然赋予的天然氧吧  ​​​",
+        "url": "https://weibo.com/2959361992/OpZWYj4PR",
+        "publisher": "梧桐树731",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-07-30",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:52.289616+00:00"
+        }
+      },
+      {
+        "id": "ev_1a916fa239b0480f",
+        "title": "南山竹海，肉见可见的葱郁🌿D2#天目湖##一月²⁰²⁴# ​​​",
+        "excerpt": "南山竹海，肉见可见的葱郁🌿D2#天目湖##一月²⁰²⁴# ​​​",
+        "url": "https://weibo.com/2964285732/OzozRnJDe",
+        "publisher": "悠悠muO0o",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-09-30",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:07.943208+00:00"
+        }
+      },
+      {
+        "id": "ev_ff03890baa304e00",
+        "title": "哈哈，今天到南山竹海终于见到了活泼的大熊猫华丽～ 史史史小怡想去撒哈拉游泳的微博视频 ​​​",
+        "excerpt": "哈哈，今天到南山竹海终于见到了活泼的大熊猫华丽～ 史史史小怡想去撒哈拉游泳的微博视频 ​​​",
+        "url": "https://weibo.com/2797745083/Nl7Lluqyn",
+        "publisher": "史史史小怡想去撒哈拉游泳",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2023-09-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.98,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:05.201861+00:00"
+        }
+      },
+      {
+        "id": "ev_ea9e7875b71e4e42",
+        "title": "大熊猫星安超话 今天来南山竹海来看2只宝贝了，应该是吃过下午点心睡觉觉了星安随便动动都引起一阵骚动大明星不得了 ​ ​​​",
+        "excerpt": "大熊猫星安超话 今天来南山竹海来看2只宝贝了，应该是吃过下午点心睡觉觉了星安随便动动都引起一阵骚动大明星不得了  ​  ​​​",
+        "url": "https://weibo.com/1867381614/Nixam9BGK",
+        "publisher": "不想当保镖的保安不是好渣渣",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2023-09-09",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.92,
+            "stay": 0.98,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:03.472419+00:00"
+        }
+      },
+      {
+        "id": "ev_d86a6d4fa65242f0",
+        "title": "小张说春游常去的南山竹海 今天体会到了 爬台阶累得不行 还有一堆图懒得发 教师节捞捞八八折 还送了份小甜品 ​​​",
+        "excerpt": "小张说春游常去的南山竹海\n今天体会到了 爬台阶累得不行\n还有一堆图懒得发\n\n教师节捞捞八八折  还送了份小甜品 ​​​",
+        "url": "https://weibo.com/2721857043/NiHnfFqjY",
+        "publisher": "Monster9_",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2023-09-10",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.34,
+            "stay": 0.89,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.34,
+              "probabilities": {
+                "absent": 0.56,
+                "relevant": 0.18,
+                "unclear": 0.26
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.89,
+              "probabilities": {
+                "absent": 0.92,
+                "relevant": 0.02,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:04.370713+00:00"
+        }
+      },
+      {
+        "id": "ev_1000f42579524bef",
+        "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+        "excerpt": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+        "url": "https://weibo.com/2721991990/OAyDQ6xtr",
+        "publisher": "溧阳发布",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-10-08",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:48.343995+00:00"
+        }
+      },
+      {
+        "id": "ev_6aab69d8af2843f3",
+        "title": "约个日常 | 南山竹海",
+        "excerpt": "今年江南的九月，凉意来得比往年早一些，却也刚刚好，热乎乎的风里能感受到丝丝缕缕的凉风滑过皮肤。\n溧阳的南山竹海，春天的时候，大熊猫在那儿实现了新鲜竹笋的自由；而到了秋天，山里的风景换了副模样，空气清清爽爽的，吸一口，满肺都是草木的味道。\n今年是江南最舒服的季节了，最留念的季节。山色温柔，风也温柔。周末带上家人，或者约上三两好友，去山里走走，刚刚好。\n#溧阳 #南山竹海 #熊猫",
+        "url": "https://www.xiaohongshu.com/explore/6aabd34a000000002502c279",
+        "publisher": "ZHAO ZHAO",
+        "source_type": "xiaohongshu",
+        "place_name": "南山竹海",
+        "published_at": "2026-09-18",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.97,
+            "food": 0.98,
+            "stay": 0.98,
+            "transport": 1,
+            "visit_duration": 0.97,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:14.340316+00:00"
+        }
+      },
+      {
+        "id": "ev_fb305464f8684d84",
+        "title": "继续踏青 南山竹海 寿比南山 轻松登顶 吴越弟一峰 508米 ​​​",
+        "excerpt": "继续踏青 南山竹海 \n寿比南山 轻松登顶\n吴越弟一峰 508米  ​​​",
+        "url": "https://weibo.com/3463875794/O7B09fqVA",
+        "publisher": "SU985Z",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-03-31",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:37.996942+00:00"
+        }
+      },
+      {
+        "id": "ev_cb109bf88e0649f3",
+        "title": "这个季节包邮区的天气就是不讲信用，说好的早上雨就停了，但是淅淅沥沥一直下到下午。 周五的景区，游客很少，风景也很美。 5/31之溧阳南山竹海 ​",
+        "excerpt": "这个季节包邮区的天气就是不讲信用，说好的早上雨就停了，但是淅淅沥沥一直下到下午。\n周五的景区，游客很少，风景也很美。\n5/31之溧阳南山竹海  ​​​",
+        "url": "https://weibo.com/2152128042/OgShiw3Ph",
+        "publisher": "keke_anvin",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-05-31",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.93,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:43.711625+00:00"
+        }
+      },
+      {
+        "id": "ev_9b47998cc2754c98",
+        "title": "🌈南山竹海🎋🎋 这个山是爬不了一点，全程地轨+索道 早上还在下雨☔️ 下山了天才放晴emmm ​​​",
+        "excerpt": "🌈南山竹海🎋🎋\n这个山是爬不了一点，全程地轨+索道\n早上还在下雨☔️ 下山了天才放晴emmm  ​​​",
+        "url": "https://weibo.com/6395260399/O7yL6quW1",
+        "publisher": "是萌萌的我呀",
+        "source_type": "weibo",
+        "place_name": "南山竹海",
+        "published_at": "2024-03-31",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.97,
+            "food": 1,
+            "stay": 0.98,
+            "transport": 0.92,
+            "visit_duration": 0.99,
+            "route_length": 0.97,
+            "internal_transport": 0.23
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.23,
+              "probabilities": {
+                "absent": 0.49,
+                "relevant": 0.36,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.02,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:37.105735+00:00"
+        }
+      },
+      {
+        "id": "ev_421ddb1f75824ef2",
+        "title": "史侯祠",
+        "excerpt": "史侯祠，国家3A级景区。位于埭头镇，始建于东汉初年，是为纪念东汉名将、溧阳侯史崇而建的祭祀建筑群，距今有2000多年历史。重建的史侯祠内有中国族谱博物馆、史氏名人艺术馆、清廉堂等景点。",
+        "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138947.html",
+        "publisher": "溧阳市人民政府",
+        "source_type": "official",
+        "place_name": "史侯祠",
+        "published_at": "2026-06-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.93,
+            "transport": 0.99,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.03,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:18.977426+00:00"
+        }
+      },
+      {
+        "id": "ev_94313cc9590e48a6",
+        "title": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的",
+        "excerpt": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的乐趣，感受丰收的喜悦，蛮好溧阳·天目湖山水园 。 ​​​",
+        "url": "https://weibo.com/2275491451/OzefHgpl6",
+        "publisher": "八姑婆-",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-09-29",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.92,
+            "stay": 0.84,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.01,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.9,
+                "relevant": 0.02,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:56.059567+00:00"
+        }
+      },
+      {
+        "id": "ev_edda1a73a52f4f98",
+        "title": "「天目湖景区·溧阳」 今天刮风又下雨 温度降得厉害 下午4点30分 进入天目湖景区 但湖边实在是冷 匆匆玩了会儿 就回酒店吃饭休息了 #春节摄影",
+        "excerpt": "「天目湖景区·溧阳」\n今天刮风又下雨\n温度降得厉害\n下午4点30分\n进入天目湖景区\n但湖边实在是冷\n匆匆玩了会儿\n就回酒店吃饭休息了\n#春节摄影大赛##溧阳##天目湖山水园景区##春节旅游##红米手机#手机摄影超话  ​​​",
+        "url": "https://weibo.com/7391638199/O0LhdwNkP",
+        "publisher": "David独上西楼",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-02-15",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.84,
+            "food": 0.93,
+            "stay": 0.7,
+            "transport": 0.96,
+            "visit_duration": 0.25,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.02,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.7,
+              "probabilities": {
+                "absent": 0.8,
+                "relevant": 0.05,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "unclear",
+              "confidence": 0.25,
+              "probabilities": {
+                "absent": 0.49,
+                "relevant": 0.01,
+                "unclear": 0.5
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:46.460917+00:00"
+        }
+      },
+      {
+        "id": "ev_6b4d00e42b504c8a",
+        "title": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！） ​​​",
+        "excerpt": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！）  ​​​",
+        "url": "https://weibo.com/5978888176/O0j9N71w9",
+        "publisher": "青柠芒果YM",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-02-12",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.71,
+            "stay": 0.97,
+            "transport": 0.84,
+            "visit_duration": 1,
+            "route_length": 0.77,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.71,
+              "probabilities": {
+                "absent": 0.8,
+                "relevant": 0.08,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.77,
+              "probabilities": {
+                "absent": 0.85,
+                "relevant": 0,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.01,
+                "unclear": 0.1
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:45.559711+00:00"
+        }
+      },
+      {
+        "id": "ev_c351c27820414329",
+        "title": "天目湖山水园",
+        "excerpt": "天目湖山水园,国家5A级景区。作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点。四面群山枕水、碧波荡漾，湖中岛屿散落、湖岸曲折通幽，以山绕水、以水映山而取胜。泛舟湖上，山重水复，松涛竞逐，禽飞兽走，带你进入梦游仙境的奇妙之旅。游船是景区的经典项目，可以满足千余人同时畅游天目湖。",
+        "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138952.html",
+        "publisher": "溧阳市人民政府",
+        "source_type": "official",
+        "place_name": "天目湖山水园",
+        "published_at": "2026-06-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.99
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:23.710017+00:00"
+        }
+      },
+      {
+        "id": "ev_5f43c0df5e134fa1",
+        "title": "天目湖山水园 走走赶赶停停～～ ​​​",
+        "excerpt": "天目湖山水园\n走走赶赶停停～～ ​​​",
+        "url": "https://weibo.com/2119329737/ObwdDxdT5",
+        "publisher": "F-泡泡屋-Love",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-04-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:54.169603+00:00"
+        }
+      },
+      {
+        "id": "ev_d31cee4515b84af2",
+        "title": "天目湖山水园！ACKNOWLEDGE ME! ​​​",
+        "excerpt": "天目湖山水园！ACKNOWLEDGE ME! ​​​",
+        "url": "https://weibo.com/7833875010/P0UD4jcbc",
+        "publisher": "阿华田炒鸡甜",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-11-18",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.98,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:39.954055+00:00"
+        }
+      },
+      {
+        "id": "ev_bf19326c1f6a422d",
+        "title": "溧阳天目湖，阴天也藏着很多层风景",
+        "excerpt": "走进天目湖山水园，先看到的是一座白色拱桥从山和水之间穿过去。阴天压低了远处的层次，桥的线条反而更醒目。\n\t\n湖面上的游船慢慢经过，到了高处再回望，近处的树林、湖中的小岛和远山一层层铺开。岸边还有醒目的路牌、巨大的茶壶和一片开得正亮的黄色花田，让原本安静的湖景多了几个可以记住的细节。\n\t\n天目湖好看的地方，不只在水面，也在一路上不断变化的视线。你对这里的第一印象，是那座桥，还是最后一片湖岸花田？\n\t\n#溧阳旅行  #天目湖  #天目湖山水园  #江南风景  #风景摄影",
+        "url": "https://www.xiaohongshu.com/explore/6aa75cb9000000002902e794",
+        "publisher": "一缕晨爔🎆",
+        "source_type": "xiaohongshu",
+        "place_name": "天目湖山水园",
+        "published_at": "2026-09-17",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.99,
+            "internal_transport": 0.99
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0.01,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:13.327761+00:00"
+        }
+      },
+      {
+        "id": "ev_4993e0df60004f93",
+        "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+        "excerpt": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+        "url": "https://weibo.com/2721991990/OAyDQ6xtr",
+        "publisher": "溧阳发布",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-10-08",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:49.553727+00:00"
+        }
+      },
+      {
+        "id": "ev_7928d1a4d70f49c2",
+        "title": "📍常州•天目湖 誉为“江南明珠”的天目湖，绝对值得一游，可谓之“观一湖而知江南”。天目湖山水园是国家5A级景区，作为天目湖的核心景区，山水园景区",
+        "excerpt": "📍常州•天目湖\n誉为“江南明珠”的天目湖，绝对值得一游，可谓之“观一湖而知江南”。天目湖山水园是国家5A级景区，作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点!溧阳·天目湖旅游度假区 ​​​",
+        "url": "https://weibo.com/5367756605/P0xdR3D5L",
+        "publisher": "王飛-F",
+        "source_type": "weibo",
+        "place_name": "天目湖山水园",
+        "published_at": "2024-11-16",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.99,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:38.971683+00:00"
+        }
+      },
+      {
+        "id": "ev_abd68c0495b54be7",
+        "title": "#常州·天目湖御水温泉景区[地点]# 冬天当然要和爱❤️的人一起去泡温泉啦 ​​​",
+        "excerpt": "#常州·天目湖御水温泉景区[地点]# \n冬天当然要和爱❤️的人一起去泡温泉啦  ​​​",
+        "url": "https://weibo.com/2896929492/P6GqtoLp8",
+        "publisher": "我和我的三岁",
+        "source_type": "weibo",
+        "place_name": "御水温泉",
+        "published_at": "2024-12-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 0.9,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.9,
+              "probabilities": {
+                "absent": 0.9299999999999999,
+                "relevant": 0.04,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:36.176273+00:00"
+        }
+      },
+      {
+        "id": "ev_80f9440e42be42ca",
+        "title": "天目湖御水温泉是国内极具特色的温泉度假目... 戳我看视频>>网页链接 (更多 @御水温泉竹溪谷酒店 sales 的视频都在小红书 立刻下载 A",
+        "excerpt": "天目湖御水温泉是国内极具特色的温泉度假目... 戳我看视频>>网页链接 (更多 @御水温泉竹溪谷酒店 sales 的视频都在小红书 立刻下载 APP：应用详情) ​​​",
+        "url": "https://weibo.com/6080173597/OuFMtmQMm",
+        "publisher": "御水温泉竹溪谷酒店",
+        "source_type": "weibo",
+        "place_name": "御水温泉",
+        "published_at": "2024-08-30",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.55,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.55,
+              "probabilities": {
+                "absent": 0.7,
+                "relevant": 0.12,
+                "unclear": 0.18
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:40.858013+00:00"
+        }
+      },
+      {
+        "id": "ev_521c50e1b0e14ffd",
+        "title": "御水温泉｜要论泡汤，御水温泉真的赢麻了#常州·天目湖御水温泉景区[地点]##雪天泡温泉##泡温泉囤脂肪小动物们花式过冬# 冷冷Lynn__的微博",
+        "excerpt": "御水温泉｜要论泡汤，御水温泉真的赢麻了#常州·天目湖御水温泉景区[地点]##雪天泡温泉##泡温泉囤脂肪小动物们花式过冬#  冷冷Lynn__的微博视频 ​​​",
+        "url": "https://weibo.com/5521484466/P6dbb0PkP",
+        "publisher": "冷冷Lynn__",
+        "source_type": "weibo",
+        "place_name": "御水温泉",
+        "published_at": "2024-12-23",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 0.91,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.91,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.03,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:35.223261+00:00"
+        }
+      },
+      {
+        "id": "ev_0cfece2cf6e14079",
+        "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+        "excerpt": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+        "url": "https://weibo.com/2721991990/OAyDQ6xtr",
+        "publisher": "溧阳发布",
+        "source_type": "weibo",
+        "place_name": "御水温泉",
+        "published_at": "2024-10-08",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:47.418008+00:00"
+        }
+      },
+      {
+        "id": "ev_223a3ac412af4917",
+        "title": "新四军江南指挥部纪念馆",
+        "excerpt": "新四军江南指挥部纪念馆,国家4A级景区。位于竹箦镇水西村内，依托新四军江南指挥部旧址而建。旧址系1939年11月至1940年6月新四军江南指挥部司令部驻地，陈毅、粟裕等老一辈革命家曾在此办公、住宿。 纪念馆现有司令部旧址、史料展览馆、纪念广场等六大景点，为全国红色旅游经典景区、全国爱国主义教育示范基地、全国重点文物保护单位、国家级抗战纪念设施遗址。",
+        "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138948.html",
+        "publisher": "溧阳市人民政府",
+        "source_type": "official",
+        "place_name": "新四军江南指挥部纪念馆",
+        "published_at": "2026-06-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.92,
+            "transport": 0.99,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0.04,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:20.012778+00:00"
+        }
+      },
+      {
+        "id": "ev_cfa63ebb278546f4",
+        "title": "曹山旅游度假区",
+        "excerpt": "曹山旅游度假区，2018年1月被江苏省人民政府批准为省级旅游度假区。曹山旅游度假区依托优良的生态环境、深厚的文化积淀、丰富的现代农业资源、优越的区位条件，以“七彩曹山”为主题，融生态农业、乡村文化、运动休闲、养生度假于一体，着力打造“养眼、养身、养心”三个层次的旅游产品体系，建设特色乡村旅游度假目的地。目前，曹山旅游度假区较好地将乡村旅游与体育赛事融为一体，全国性的舞龙舞狮赛、自行车赛、中国象棋赛、垂钓赛、广场舞比赛等赛事活动落户曹山；依托曹山现代农业示范园的产业，打造“最美赏花地，四季百果园”。 曹山旅游度假区内",
+        "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138949.html",
+        "publisher": "溧阳市人民政府",
+        "source_type": "official",
+        "place_name": "曹山旅游度假区",
+        "published_at": "2026-06-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.99,
+            "stay": 0.9,
+            "transport": 0.98,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.9,
+              "probabilities": {
+                "absent": 0.93,
+                "relevant": 0.01,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:20.946373+00:00"
+        }
+      },
+      {
+        "id": "ev_d28762da57fd40f4",
+        "title": "#发现极美常州# 【天目湖旅游度假区滨湖片区入选“国家级夜间文化和旅游消费集聚区”】1月25日，文化和旅游部公布第三批国家级夜间文化和旅游消费集",
+        "excerpt": "#发现极美常州# 【天目湖旅游度假区滨湖片区入选“国家级夜间文化和旅游消费集聚区”】1月25日，文化和旅游部公布第三批国家级夜间文化和旅游消费集聚区入选名单，全国共102个项目，其中，溧阳市天目湖旅游度假区滨湖片区位列其中，为我市唯一。天目湖旅游度假区滨湖片区总面积约2.5平方公里，东至天目路，南至沙河水库，西至桂林山，北至东麻路，整合区内山水园景区、水世界、集镇商业街、方所文化村、桂林村等文化和旅游资源，打造出以迎宾大道为轴线，串起沿线山水风情、小镇生活和乡村文化等主题消费体验场景的“一轴三组团”，形成了景镇村一体、主客共享的夜间文旅消费集聚空间。",
+        "url": "https://weibo.com/2616693703/NDDo63liw",
+        "publisher": "常州发布",
+        "source_type": "weibo",
+        "place_name": "溧阳",
+        "published_at": "2024-01-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.99,
+            "stay": 0.88,
+            "transport": 0.98,
+            "visit_duration": 1,
+            "route_length": 0.98,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.88,
+              "probabilities": {
+                "absent": 0.91,
+                "relevant": 0.04,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0.01,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:34.336388+00:00"
+        }
+      },
+      {
+        "id": "ev_3b3534029bcd4c5b",
+        "title": "#走遍中国/溧阳旅游日记（7） ​畅游龙兴岛、中国茶岛。 ​​昨天是入秋以来，最凉爽的一天：太阳不烈、微风轻拂。下船后，沿着天目湖 ，观赏龙兴岛",
+        "excerpt": "#走遍中国/溧阳旅游日记（7）\n​畅游龙兴岛、中国茶岛。\n\n​​昨天是入秋以来，最凉爽的一天：太阳不烈、微风轻拂。下船后，沿着天目湖 ，观赏龙兴岛和茶岛风光，可谓相适相宜，恰到好处，十分爽快。\n这样疗养般的休闲游览，十分符合我这个年龄段的康养者。\n​接下来的浙江丽水游，但愿也是如此。👍\n2026.9.18",
+        "url": "https://weibo.com/2706911802/RiGCI0tik",
+        "publisher": "王恩生HSW",
+        "source_type": "weibo",
+        "place_name": "溧阳",
+        "published_at": "2026-09-18",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 0.84,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.9,
+                "relevant": 0.01,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:10.660472+00:00"
+        }
+      },
+      {
+        "id": "ev_23c3898512764ad3",
+        "title": "9月19日，“椰号杯”不止骑2026·环溧阳天目湖骑游大会在天目湖旅游度假区举办。来自全国各地的近千名骑行爱好者齐聚天目湖畔，共同开启了一段沉浸",
+        "excerpt": "9月19日，“椰号杯”不止骑2026·环溧阳天目湖骑游大会在天目湖旅游度假区举办。来自全国各地的近千名骑行爱好者齐聚天目湖畔，共同开启了一段沉浸式的溧阳山水骑行之旅。 溧阳发布的微博视频 ​​​",
+        "url": "https://weibo.com/2721991990/RiWy5fDqw",
+        "publisher": "溧阳发布",
+        "source_type": "weibo",
+        "place_name": "溧阳",
+        "published_at": "2026-09-20",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:09.708026+00:00"
+        }
+      },
+      {
+        "id": "ev_edac0c9e0fb84917",
+        "title": "Lao乾媽超话#生活手记# 天目湖打卡，常超啊，怎么感觉哪儿都有你 ​​​",
+        "excerpt": "Lao乾媽超话#生活手记# 天目湖打卡，常超啊，怎么感觉哪儿都有你 ​​​",
+        "url": "https://weibo.com/7800134810/Q6W1ViWhd",
+        "publisher": "破茧成蝶_200006",
+        "source_type": "weibo",
+        "place_name": "溧阳",
+        "published_at": "2025-09-30",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.92,
+            "stay": 0.98,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:08.803891+00:00"
+        }
+      },
+      {
+        "id": "ev_7fcf8d1c96cc4f94",
+        "title": "手机摄影超话 天目如眸，碧水成诗；群山拥碧湖，一水洗尘心。【天目湖(三)】#微博旅行ing##城市巡游记##风景摄影##手机摄影﻿ ﻿##天然氧",
+        "excerpt": "手机摄影超话 天目如眸，碧水成诗；群山拥碧湖，一水洗尘心。【天目湖(三)】#微博旅行ing##城市巡游记##风景摄影##手机摄影﻿ ﻿##天然氧吧##随手拍#  ​​​",
+        "url": "https://weibo.com/1421408135/RiXvUDGtg",
+        "publisher": "半糖微语录",
+        "source_type": "weibo",
+        "place_name": "溧阳",
+        "published_at": "2026-09-20",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:09:12.475051+00:00"
+        }
+      },
+      {
+        "id": "ev_5f8f339f31e64b89",
+        "title": "竹林深处＋温泉♨＋鱼头汤 拜拜溧阳 ​​​",
+        "excerpt": "竹林深处＋温泉♨＋鱼头汤\n拜拜溧阳  ​​​",
+        "url": "https://weibo.com/6797582669/OsOZtvWwz",
+        "publisher": "若是Yuki欧尼喏",
+        "source_type": "weibo",
+        "place_name": "溧阳",
+        "published_at": "2024-08-18",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.84,
+            "stay": 0.91,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.04,
+                "unclear": 0.07
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.91,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.01,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-20T16:08:41.793141+00:00"
+        }
+      }
+    ],
+    "climate": {
+      "place_name": "溧阳",
+      "latitude": 31.4167,
+      "longitude": 119.4833,
+      "period": "1991-01-01/2020-12-31",
+      "label": "1991–2020 月平均气温（ERA5-Land 再分析）",
+      "method": "调用 Open-Meteo Historical Weather API，固定 models=era5_land、cell_selection=nearest、elevation=nan，并按 Asia/Shanghai 本地日取得逐日 2 米气温。mean_c 为统计期内同一日历月全部逐日均温的算术平均；mean_high_c 和 mean_low_c 分别为同一批日期逐日最高温、逐日最低温的算术平均。",
+      "unit": "°C",
+      "source": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.4167&longitude=119.4833&start_date=1991-01-01&end_date=2020-12-31&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min&timezone=Asia%2FShanghai&models=era5_land&cell_selection=nearest&elevation=nan",
+        "title": "Open-Meteo Historical Weather API — ERA5-Land daily 2 m temperature",
+        "publisher": "Open-Meteo；底层再分析数据为 ECMWF/Copernicus ERA5-Land",
+        "checked_at": "2026-09-20"
+      },
+      "months": [
+        {
+          "month": 1,
+          "mean_c": 3.86,
+          "mean_high_c": 8.01,
+          "mean_low_c": 0.22
+        },
+        {
+          "month": 2,
+          "mean_c": 6.07,
+          "mean_high_c": 10.45,
+          "mean_low_c": 2.06
+        },
+        {
+          "month": 3,
+          "mean_c": 10.37,
+          "mean_high_c": 15.01,
+          "mean_low_c": 6.03
+        },
+        {
+          "month": 4,
+          "mean_c": 16.19,
+          "mean_high_c": 20.98,
+          "mean_low_c": 11.59
+        },
+        {
+          "month": 5,
+          "mean_c": 21.22,
+          "mean_high_c": 25.63,
+          "mean_low_c": 17.05
+        },
+        {
+          "month": 6,
+          "mean_c": 24.61,
+          "mean_high_c": 28.34,
+          "mean_low_c": 21.23
+        },
+        {
+          "month": 7,
+          "mean_c": 28.34,
+          "mean_high_c": 31.88,
+          "mean_low_c": 25.31
+        },
+        {
+          "month": 8,
+          "mean_c": 27.91,
+          "mean_high_c": 31.4,
+          "mean_low_c": 25.08
+        },
+        {
+          "month": 9,
+          "mean_c": 23.74,
+          "mean_high_c": 27.43,
+          "mean_low_c": 20.53
+        },
+        {
+          "month": 10,
+          "mean_c": 18.41,
+          "mean_high_c": 22.58,
+          "mean_low_c": 14.71
+        },
+        {
+          "month": 11,
+          "mean_c": 12.37,
+          "mean_high_c": 16.76,
+          "mean_low_c": 8.48
+        },
+        {
+          "month": 12,
+          "mean_c": 6.02,
+          "mean_high_c": 10.35,
+          "mean_low_c": 2.19
+        }
+      ],
+      "notes": [
+        "这是溧阳城区请求点对应的 ERA5-Land 网格再分析估计，不是中国气象部门发布的溧阳地面站气候常年值。",
+        "请求点为 31.4167°N、119.4833°E；API 选中的最近 ERA5-Land 网格中心为 31.400002°N、119.5°E，网格平均海拔为 5 米。",
+        "ERA5-Land 空间分辨率为 0.1°（约 11 千米）；elevation=nan 用于关闭 Open-Meteo 的统计海拔降尺度，保留网格值口径。",
+        "1991–2020 共核验 10,958 条逐日记录，三个温度变量均无缺测。各月样本日数依次为 930、848、930、900、930、900、930、930、900、930、900、930。",
+        "mean_high_c 与 mean_low_c 是逐日最高温和逐日最低温的月平均，不是该月历史极端最高温或最低温。",
+        "方法与数据集说明：https://open-meteo.com/en/docs/historical-weather-api"
+      ]
+    },
+    "screening": {
+      "version": "practical-text-screen-v2",
+      "status": "ready",
+      "total_sources": 57,
+      "classified": 57,
+      "queued": 0,
+      "running": 0,
+      "failed": 0,
+      "unqueued": 0,
+      "category_counts": {
+        "clothing": 3,
+        "food": 9,
+        "stay": 2,
+        "transport": 4,
+        "visit_duration": 3,
+        "route_length": 4,
+        "internal_transport": 6
+      },
+      "failed_sources": [],
+      "config_errors": [],
+      "note": "自动分类只帮助定位相关原文，不生成事实，也不以置信度判断来源真伪。"
+    }
+  },
   "time_windows": {
     "historical_through_year": 2024,
     "recent_observation_years": [
@@ -2934,9 +9014,9 @@
       },
       {
         "month": 2,
-        "count": 3,
+        "count": 4,
         "observed_count": 0,
-        "publication_count": 3
+        "publication_count": 4
       },
       {
         "month": 3,
@@ -2964,9 +9044,9 @@
       },
       {
         "month": 7,
-        "count": 2,
+        "count": 3,
         "observed_count": 0,
-        "publication_count": 2
+        "publication_count": 3
       },
       {
         "month": 8,
@@ -2988,9 +9068,9 @@
       },
       {
         "month": 11,
-        "count": 2,
+        "count": 3,
         "observed_count": 0,
-        "publication_count": 2
+        "publication_count": 3
       },
       {
         "month": 12,
@@ -2999,7 +9079,7 @@
         "publication_count": 2
       }
     ],
-    "unknown_time": 43,
+    "unknown_time": 46,
     "unassigned_time": 6
   },
   "map": {
@@ -3031,14 +9111,6 @@
     "image_url": "/static/liyang-overview.svg",
     "transport_sources": [
       {
-        "label": "铁路班次与票价",
-        "url": "https://www.12306.cn/index/"
-      },
-      {
-        "label": "天目湖镇交通概况",
-        "url": "https://lystmhz.jszwfw.gov.cn/"
-      },
-      {
         "label": "地图来源与署名",
         "url": "https://www.openstreetmap.org/copyright"
       }
@@ -3052,8 +9124,8 @@
     "作者描述的月份与照片实拍日期分别记录；未知年份的材料不进入历年共识。",
     "班次、票价和道路时效请以出行当天官方查询为准。"
   ],
-  "updated_at": "2026-09-20T11:55:52.979300+00:00",
-  "total_evidence": 54,
+  "updated_at": "2026-09-20T16:04:18.323712+00:00",
+  "total_evidence": 57,
   "jobs": [],
   "source_capabilities": []
 }

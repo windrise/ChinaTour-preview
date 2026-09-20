@@ -614,3 +614,58 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px soli
   .photo-position { font-size: 9px; }
   .photo-control { width: 22px; height: 22px; font-size: 14px; }
 }
+
+/* Compact, source-backed travel essentials. */
+.travel-essentials { margin-top: 22px; }
+.essentials-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+.essential-button { display:flex; align-items:center; gap:13px; width:100%; text-align:left; border:0; border-right:1px solid var(--line); padding:18px; background:var(--paper); color:var(--ink); }
+.essential-button:last-child { border-right:0; }
+.essential-button.active,.essential-button:hover { background:var(--green-pale); }
+.essential-mark { font:400 25px var(--serif); color:var(--green); flex-shrink:0; }
+.essential-copy { display:grid; gap:6px; min-width:0; }
+.essential-copy strong { font-size:12px; font-weight:500; }
+.essential-copy small { color:var(--muted); font-size:10px; }
+.essential-arrow { margin-left:auto; color:var(--muted); }
+.essentials-panel { border:1px solid var(--line); border-radius:6px; margin-top:10px; padding:24px; background:var(--paper); }
+.essentials-heading { display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; }
+.essentials-heading h3,.drawer-practical h3 { margin:0; font:400 23px var(--serif); }
+.practical-facts-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.practical-fact { padding:18px; border:1px solid var(--line); border-radius:4px; }
+.practical-fact h4 { font-weight:500; font-size:14px; margin:5px 0 10px; }
+.practical-fact p,.practical-source-row p { font-size:12px; color:var(--ink-soft); line-height:1.9; white-space:pre-line; margin:0 0 8px; }
+.practical-place { color:var(--green); font-size:10px; }
+.practical-fact .practical-validity { color:var(--coral); font-size:10px; }
+.practical-meta,.practical-source p { font-size:11px; line-height:1.85; color:var(--muted); }
+.practical-source { margin-top:12px; font-size:11px; }
+.practical-source summary,.practical-related>summary { cursor:pointer; color:var(--green); line-height:1.8; }
+.practical-source blockquote { margin:14px 0; padding:0 12px; border-left:2px solid var(--line-dark); color:var(--muted); font-size:11px; line-height:1.9; }
+.practical-source .source-link,.practical-source-row .source-link { font-size:11px; display:block; margin-top:10px; overflow-wrap:anywhere; }
+.practical-related { margin-top:20px; border-top:1px solid var(--line); padding-top:16px; }
+.practical-related>summary { font-size:12px; }
+.practical-source-row { margin-top:14px; padding-bottom:12px; border-bottom:1px solid var(--line); }
+.practical-source-row>summary { cursor:pointer; font-size:12px; line-height:1.8; color:var(--ink-soft); }
+.practical-source-row>p { margin-top:12px; }
+.practical-source-row small { color:var(--muted); font-size:10px; }
+.climate-reading { display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; }
+.climate-reading strong { color:var(--green); font:400 42px var(--serif); }
+.climate-reading p { margin:0; font-size:13px; }
+.climate-reading span { font-size:12px; color:var(--muted); }
+.climate-chart { display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:12px; margin:25px 0; align-items:end; border-bottom:1px solid var(--line); padding-bottom:15px; }
+.climate-column { display:flex; flex-direction:column; align-items:center; gap:10px; font-size:10px; color:var(--muted); }
+.climate-column strong { font-size:11px; font-weight:400; }
+.climate-column i { display:block; width:100%; max-width:32px; background:var(--line-dark); border-radius:3px 3px 0 0; }
+.climate-column.selected { color:var(--green); }
+.climate-column.selected i { background:var(--green); }
+.climate-table { width:100%; margin-top:16px; border-collapse:collapse; text-align:left; font-size:11px; }
+.climate-table th,.climate-table td { padding:8px; border-bottom:1px solid var(--line); }
+.drawer-practical { margin:24px 0; }
+.drawer-practical h3 { margin-bottom:14px; font-size:19px; }
+.practical-drawer-row { border-bottom:1px solid var(--line); padding:12px 0; }
+.practical-drawer-row>summary { display:flex; justify-content:space-between; gap:20px; cursor:pointer; font-size:12px; list-style:none; }
+.practical-drawer-row>summary strong { font-weight:500; }
+.practical-drawer-row>summary span { color:var(--muted); font-size:10px; }
+.practical-drawer-row>summary::after { content:'+'; color:var(--green); }
+.practical-drawer-row[open]>summary::after { content:'−'; }
+.practical-drawer-row .practical-fact { border:0; border-top:1px solid var(--line); padding:15px 0 0; margin-top:14px; }
+@media(max-width:900px) { .essential-button { gap:9px; padding:14px 11px; } .essential-copy strong { font-size:11px; } .essential-copy small { font-size:9px; } .essential-mark { font-size:22px; } }
+@media(max-width:620px) { .essentials-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .essential-button { min-height:76px; } .essential-button:nth-child(2) { border-right:0; } .essential-button:nth-child(-n+2) { border-bottom:1px solid var(--line); } .essentials-panel { padding:16px; } .practical-facts-grid { grid-template-columns:1fr; } .climate-chart { gap:5px; } .climate-column strong { font-size:9px; } .climate-reading { gap:8px 14px; } .climate-reading span { width:100%; } }

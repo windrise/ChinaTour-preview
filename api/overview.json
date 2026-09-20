@@ -6,7 +6,7 @@
       "kind": "destination",
       "parent_id": null,
       "created_at": "2026-09-20T07:00:50.929487+00:00",
-      "evidence_count": 55,
+      "evidence_count": 58,
       "pending_count": 0
     },
     {
@@ -24,7 +24,7 @@
       "kind": "attraction",
       "parent_id": "liyang",
       "created_at": "2026-09-20T07:01:05.922930+00:00",
-      "evidence_count": 26,
+      "evidence_count": 27,
       "pending_count": 0
     },
     {
@@ -84,8 +84,8 @@
   ],
   "stats": {
     "places": 9,
-    "sources": 51,
-    "evidence": 55,
+    "sources": 54,
+    "evidence": 58,
     "pending": 0
   },
   "changes": [],

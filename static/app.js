@@ -8,7 +8,8 @@ const state = {
   placeId: window.CHINATOUR_PREVIEW_META?.defaultPlace || initialParams.get('place_id') || 'liyang',
   month: initialMonthNumber >= 1 && initialMonthNumber <= 12 ? String(initialMonthNumber) : String(defaultMonthNumber),
   mode: ['all', 'recent', 'historical'].includes(initialParams.get('mode')) ? initialParams.get('mode') : 'all',
-  monthScope: initialParams.get('collect_scope') === 'all' ? 'all' : 'selected',
+  monthScope: ['all', 'practical'].includes(initialParams.get('collect_scope')) ? initialParams.get('collect_scope') : 'selected',
+  practicalTab: null,
   query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null,
   requestVersion: 0, openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
 };
@@ -149,7 +150,7 @@ function updateUrl() {
   if (state.placeId) params.set('place_id', state.placeId);
   if (state.month) params.set('month', state.month);
   if (state.mode !== 'all') params.set('mode', state.mode);
-  if (state.monthScope === 'all') params.set('collect_scope', 'all');
+  if (state.monthScope !== 'selected') params.set('collect_scope', state.monthScope);
   if (new URLSearchParams(location.search).get('view') === 'destination') params.set('view', 'destination');
   const query = params.toString();
   const route = window.CHINATOUR_PREVIEW?.basePath || '/';
@@ -174,6 +175,7 @@ function normalizeDestination(raw) {
     jobs: Array.isArray(raw?.jobs) ? raw.jobs : [],
     coverage: raw?.coverage && typeof raw.coverage === 'object' ? raw.coverage : { months: [], unknown_time: 0 },
     map: raw?.map && typeof raw.map === 'object' ? raw.map : { bounds: [], hubs: [], roads: [], limitations: [] },
+    practical: raw?.practical || { facts: [], classified_sources: [], climate: null },
     limitations: Array.isArray(raw?.limitations) ? raw.limitations : [],
   };
 }
@@ -915,13 +917,13 @@ function renderSourceOptions() {
 }
 function selectedSources() { return Array.from(document.querySelectorAll('#source-options input:checked')).map((input) => input.value); }
 
-function campaignModeForState() { return state.mode === 'historical' ? 'baseline' : 'incremental'; }
-function campaignButtonText() { return state.monthScope === 'all' ? (state.mode === 'historical' ? '补充全年历史资料' : '补充全年近期资料') : state.mode === 'historical' ? '搜集历史基线' : '搜集当前月份'; }
+function campaignModeForState() { return state.monthScope === 'practical' ? 'incremental' : state.mode === 'historical' ? 'baseline' : 'incremental'; }
+function campaignButtonText() { return state.monthScope === 'practical' ? '搜集衣食住行资料' : state.monthScope === 'all' ? (state.mode === 'historical' ? '补充全年历史资料' : '补充全年近期资料') : state.mode === 'historical' ? '搜集历史基线' : '搜集当前月份'; }
 function renderCollectionScope() {
   const input = $('#collection-month-scope');
   if (input) input.value = state.monthScope;
   const note = $('#collection-scope-note');
-  if (note) note.textContent = state.monthScope === 'all'
+  if (note) note.textContent = state.monthScope === 'practical' ? '按美食街、住宿、站外交通、游览时长、路线和接驳车轮换关键词检索，原文自动进入 JeV 分类；不按发布月份限制。' : state.monthScope === 'all'
     ? '从全年缺少资料的月份中选择本批搜索，分散覆盖四季；每批最多 3 个目标，不表示一次完成全年。'
     : `围绕当前选择的 ${currentMonthNumber()} 月补充资料。切换为全年补缺，可自动寻找其他月份的缺口。`;
   const button = $('#campaign-button');
@@ -938,12 +940,12 @@ function jobMatchesContext(job, sources = contextSources()) {
   if (!job) return false;
   return String(job.place_id || '') === String(state.placeId || '')
     && (job.month_scope || 'selected') === state.monthScope
-    && (state.monthScope === 'all' || Number(job.month) === currentMonthNumber())
+    && (state.monthScope !== 'selected' || Number(job.month) === currentMonthNumber())
     && String(job.mode || '') === campaignModeForState()
     && JSON.stringify(normalizedSourceSet(job.sources)) === JSON.stringify(normalizedSourceSet(sources));
 }
 function contextKey(sources = contextSources()) {
-  return [String(state.placeId || ''), state.monthScope === 'all' ? 'all' : currentMonthNumber(), state.monthScope, campaignModeForState(), normalizedSourceSet(sources).join(',')].join('|');
+  return [String(state.placeId || ''), state.monthScope !== 'selected' ? state.monthScope : currentMonthNumber(), state.monthScope, campaignModeForState(), normalizedSourceSet(sources).join(',')].join('|');
 }
 function clearJobForContext(sources = contextSources()) {
   if (state.job && !jobMatchesContext(state.job, sources)) {
@@ -1074,8 +1076,8 @@ function renderJob(job = state.job) {
     const list = make('ul');
     for (const target of job.search_plan) {
       const item = make('li');
-      item.append(make('strong', '', `${target.name} · ${target.year} 年 ${target.month} 月`));
-      item.append(make('p', '', `${target.reason || '补充现场资料'}；规划时已有 ${integer(target.coverage_groups)} 组带时间依据的记录。`));
+      item.append(make('strong', '', target.focus === 'practical' ? `${target.name} · ${PRACTICAL_LABELS[target.category] || '实用信息'}` : `${target.name} · ${target.year} 年 ${target.month} 月`));
+      item.append(make('p', '', target.focus === 'practical' ? target.reason : `${target.reason || '补充现场资料'}；规划时已有 ${integer(target.coverage_groups)} 组带时间依据的记录。`));
       for (const [source, query] of Object.entries(target.source_queries || {})) {
         const executed = (sourceResults[source]?.executed_plan_ids || []).includes(target.id);
         const checkpoint = Array.isArray(browserExecutions[source]?.plans) ? browserExecutions[source].plans.find(plan => String(plan?.plan_id) === String(target.id)) : null;
@@ -1085,7 +1087,7 @@ function renderJob(job = state.job) {
       }
       list.append(item);
     }
-    plan.append(list, make('p', 'job-note', '搜索范围用于找资料；照片归入哪个月份，仍由原帖的现场时间依据决定。排队和登录检查不会记为已搜索。'));
+    plan.append(list, make('p', 'job-note', job.month_scope === 'practical' ? '关键词用于召回原文；JeV 归类后保留来源。实际班次、价格和游玩时长须核对原文适用条件。排队不计为已搜索。' : '搜索范围用于找资料；照片归入哪个月份，仍由原帖的现场时间依据决定。排队和登录检查不会记为已搜索。'));
     panel.append(plan);
   }
   const sourceRows = [...new Set([...Object.keys(sourceResults), ...Object.keys(browserExecutions)])].map(key => [key, sourceResults[key], browserExecutions[key]]);
@@ -1148,7 +1150,8 @@ async function startCampaign() {
   if (jobActive(state.job) && jobMatchesContext(state.job, sources)) { document.querySelector('#job-panel')?.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
   clearJobForContext(sources);
   if (!sources.length) { showNotice('当前还没有可用的自动搜集连接器。点击“连接平台账号”，或等待官网来源配置完成。', true); return; }
-  const campaignMode = state.mode === 'historical' ? 'baseline' : 'incremental';
+  if (state.monthScope === 'practical' && !sources.some(source => ['xiaohongshu', 'weibo'].includes(source))) { showNotice('衣食住行关键词检索需要选择小红书或微博；官网可一起补充。', true); return; }
+  const campaignMode = campaignModeForState();
   const button = $('#campaign-button'); if (button) { button.disabled = true; button.textContent = '正在创建任务…'; }
   hideNotice();
   try {
@@ -1171,7 +1174,7 @@ function toggleBrowserInfo() {
 }
 
 function renderAll() {
-  renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
+  renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderEssentials(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
   const collect = $('#collect-button'); if (collect) { const active = jobActive(state.job); collect.disabled = !state.placeId; collect.innerHTML = active ? '搜集进行中 <span aria-hidden="true">…</span>' : '自动搜集 <span aria-hidden="true">↗</span>'; }
   renderCollectionScope();
   document.dispatchEvent(new CustomEvent('chinatour:data', { detail: state.data }));
@@ -1283,6 +1286,7 @@ function populateDrawer(attraction) {
   const preferredUrls = new Set(preferred.map((entry) => entry.url));
   const entries = [...preferred, ...allEntries.filter((entry) => !preferredUrls.has(entry.url))];
   content.append(make('p', 'drawer-description', attraction.description || '暂无经核对的景点简介。'));
+  content.append(drawerPractical(attraction));
   const filterNote = make('p', 'drawer-photo-note', '照片保留原始来源；人物近景、低清和待审核图片不展示。按发布月份暂归档的照片，拍摄时间仍未知。'); content.append(filterNote);
   const localMap = drawerLocalMap(attraction); if (localMap) content.append(localMap);
   const galleryBlock = make('section', 'drawer-gallery-block');
@@ -1328,7 +1332,7 @@ $('#search-input')?.addEventListener('input', (event) => { state.query = event.t
 $('#collect-button')?.addEventListener('click', () => { const workbench = $('#collection-workbench'); workbench.open = true; workbench.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }); });
 $('#campaign-button')?.addEventListener('click', startCampaign);
 $('#collection-month-scope')?.addEventListener('change', (event) => {
-  state.monthScope = event.target.value === 'all' ? 'all' : 'selected';
+  state.monthScope = ['all', 'practical'].includes(event.target.value) ? event.target.value : 'selected';
   clearJobForContext(); syncJobFromDestination(); updateUrl(); renderCollectionScope(); renderJob();
   if (state.job && jobActive(state.job)) pollJob();
 });
@@ -1362,3 +1366,139 @@ async function initialize() {
   if (state.job && jobActive(state.job)) pollJob();
 }
 initialize();
+
+// Practical information stays compact until a visitor chooses a topic.
+const PRACTICAL_LABELS = { clothing: '天气与穿衣', food: '当地吃什么', stay: '住在哪里', transport: '从车站出发', visit_duration: '游玩时长', route_length: '游览路线与长度', internal_transport: '园内交通' };
+function practicalFacts(category, name = null) {
+  return (state.data?.practical?.facts || []).filter((item) => item.category === category && (!name || item.place_name === name || item.place_names?.includes(name)));
+}
+function practicalSources(categories, name = null) {
+  return (state.data?.practical?.classified_sources || []).filter((item) => (!name || item.place_name === name) && (item.categories || []).some((category) => categories.includes(category)));
+}
+function sourceDetails(source, note) {
+  const details = make('details', 'practical-source'); details.append(make('summary', '', '查看原文与适用时间'));
+  if (note) details.append(make('p', '', note));
+  if (source?.excerpt) details.append(make('blockquote', '', source.excerpt));
+  const meta = [source?.publisher, source?.published_at ? `发布 ${dateText(source.published_at)}` : '原文未标发布日期', source?.checked_at ? `读取 ${dateText(source.checked_at)}` : ''].filter(Boolean).join(' · ');
+  details.append(make('p', 'practical-meta', meta));
+  const href = safeUrl(source?.url);
+  if (href) { const link = make('a', 'source-link', `${source.title || '打开具体来源'} ↗`); link.href = href; link.target = '_blank'; link.rel = 'noopener noreferrer'; details.append(link); }
+  return details;
+}
+function practicalFactCard(fact) {
+  const card = make('article', 'practical-fact');
+  if (fact.place_name) card.append(make('span', 'practical-place', fact.place_name));
+  card.append(make('h4', '', fact.title), make('p', '', fact.text));
+  if (fact.timetable) {
+    const schedule = make('details', 'practical-source'); schedule.append(make('summary', '', '展开往返时刻表'));
+    for (const direction of ['outbound', 'inbound']) {
+      const table = make('table', 'climate-table'); const caption = make('caption', '', direction === 'outbound' ? '去程 · 工作日无 08:40、15:50 班次' : '返程 · 工作日无 10:00、16:00 班次'); table.append(caption);
+      const head = make('thead'); const row = make('tr');
+      for (const text of direction === 'outbound' ? ['溧阳站', '山水园', '南山竹海'] : ['南山竹海', '山水园', '溧阳站']) row.append(make('th', '', text));
+      head.append(row); table.append(head); const body = make('tbody');
+      for (const times of fact.timetable[direction] || []) { const tr = make('tr'); times.forEach((time) => tr.append(make('td', '', time))); body.append(tr); }
+      table.append(body); schedule.append(table);
+    }
+    card.append(schedule);
+  }
+  if (fact.time_note) card.append(make('p', 'practical-validity', fact.time_note));
+  card.append(sourceDetails(fact.source));
+  return card;
+}
+function classifiedSourceList(items) {
+  const group = make('details', 'practical-related');
+  group.append(make('summary', '', `JeV 找到的相关原文 · ${items.length} 条`));
+  group.append(make('p', 'practical-meta', '以下为自动归类的资料线索。价格、时长和路线仍是原作者的说法，未汇总成平均值，也未视为已核实事实。'));
+  for (const item of items) {
+    const row = make('details', 'practical-source-row');
+    row.append(make('summary', '', item.title || item.excerpt?.slice(0, 40) || '相关资料'));
+    row.append(make('p', '', item.excerpt || '请打开原文查看。'));
+    row.append(make('small', '', `${sourceText(item.source_type)} · ${item.publisher || '发布者未注明'} · ${item.published_at ? dateText(item.published_at) : '发布时间未提供'}`));
+    const href = safeUrl(item.url);
+    if (href) { const link = make('a', 'source-link', '查看原帖 ↗'); link.href = href; link.target = '_blank'; link.rel = 'noopener noreferrer'; row.append(link); }
+    group.append(row);
+  }
+  return group;
+}
+function temperature(value, unit = '°') { return Number.isFinite(value) ? `${value.toFixed(1)}${unit}` : '待补充'; }
+function climatePanel(climate) {
+  const block = make('div', 'climate-panel');
+  if (!climate?.months?.length) { block.append(make('p', '', '尚未取得有统计口径的月平均气温。')); return block; }
+  const current = climate.months.find((m) => m.month === currentMonthNumber());
+  if (current) {
+    const reading = make('div', 'climate-reading');
+    reading.append(make('strong', '', `${temperature(current.mean_c, '°C')}`), make('p', '', `${state.month} 月平均气温`), make('span', '', `平均日最低 ${temperature(current.mean_low_c, '°C')} / 最高 ${temperature(current.mean_high_c, '°C')}`)); block.append(reading);
+  }
+  block.append(make('p', 'practical-meta', `${climate.label} · 历史网格估计，非当月天气预报`));
+  const chart = make('div', 'climate-chart'); chart.setAttribute('aria-label', '12 个月平均气温');
+  for (const entry of climate.months) {
+    const col = make('div', `climate-column${entry.month === currentMonthNumber() ? ' selected' : ''}`);
+    const bar = make('i'); bar.style.height = `${Math.max(4, (entry.mean_c + 5) * 2.9)}px`;
+    col.append(make('strong', '', temperature(entry.mean_c)), bar, make('span', '', `${entry.month}月`));
+    chart.append(col);
+  }
+  block.append(chart);
+  const tableDetails = make('details', 'practical-source'); tableDetails.append(make('summary', '', '全年高低温与统计口径'));
+  const table = make('table', 'climate-table'); const head = make('thead'); const headRow = make('tr');
+  for (const label of ['月份', '平均气温', '平均日最低', '平均日最高']) headRow.append(make('th', '', label));
+  head.append(headRow); table.append(head); const body = make('tbody');
+  for (const entry of climate.months) { const row = make('tr'); [entry.month + '月', temperature(entry.mean_c, '°C'), temperature(entry.mean_low_c, '°C'), temperature(entry.mean_high_c, '°C')].forEach((value) => row.append(make('td', '', value))); body.append(row); }
+  table.append(body); tableDetails.append(table, make('p', '', climate.method));
+  for (const note of climate.notes || []) tableDetails.append(make('p', '', note));
+  tableDetails.append(sourceDetails(climate.source)); block.append(tableDetails);
+  return block;
+}
+function renderEssentials() {
+  const grid = clear($('#essentials-grid')); const panel = clear($('#essentials-panel')); if (!grid || !panel) return;
+  const data = state.data?.practical || {}; const current = data.climate?.months?.find((entry) => entry.month === currentMonthNumber());
+  const screening = data.screening || {}; const status = $('#practical-screening-note');
+  if (status) status.textContent = `实用原文分类：已完成 ${screening.classified || 0} / ${screening.total_sources || 0} 条；排队 ${screening.queued || 0}，处理中 ${screening.running || 0}，失败 ${screening.failed || 0}，尚未入队 ${screening.unqueued || 0}。分类用于找相关资料，不判断事实真伪。`;
+  const food = practicalFacts('food'); const stays = practicalFacts('stay'); const travel = practicalFacts('transport');
+  const tiles = [
+    { id: 'clothing', icon: '衣', title: current ? `${state.month} 月均温 ${temperature(current.mean_c, '°C')}` : '每月气温', subtitle: '看全年温度变化' },
+    { id: 'food', icon: '食', title: '小吃街与地方味', subtitle: food.length ? `${food.length} 条有来源的信息` : '从真实攻略找线索' },
+    { id: 'stay', icon: '住', title: '酒店与山间民宿', subtitle: stays.length ? `${stays.length} 条住宿资料` : '房型、价位与评级' },
+    { id: 'transport', icon: '行', title: state.placeId === 'liyang' ? '从溧阳站出发' : '如何抵达景点', subtitle: travel.length ? '公交线路 · 自驾路径' : '具体线路待补充' },
+  ];
+  for (const tile of tiles) {
+    const button = make('button', `essential-button${state.practicalTab === tile.id ? ' active' : ''}`); button.type = 'button'; button.id = `essential-${tile.id}`;
+    button.setAttribute('aria-expanded', String(state.practicalTab === tile.id)); button.setAttribute('aria-controls', 'essentials-panel');
+    const text = make('span', 'essential-copy'); text.append(make('strong', '', tile.title), make('small', '', tile.subtitle));
+    button.append(make('span', 'essential-mark', tile.icon), text, make('span', 'essential-arrow', state.practicalTab === tile.id ? '−' : '+'));
+    button.addEventListener('click', () => { state.practicalTab = state.practicalTab === tile.id ? null : tile.id; renderEssentials(); $(`#essential-${tile.id}`)?.focus(); }); grid.append(button);
+  }
+  panel.hidden = !state.practicalTab;
+  if (!state.practicalTab) return;
+  panel.setAttribute('role', 'region'); panel.setAttribute('aria-labelledby', `essential-${state.practicalTab}`);
+  const heading = make('div', 'essentials-heading'); heading.append(make('h3', '', PRACTICAL_LABELS[state.practicalTab]));
+  const close = make('button', 'button button-quiet', '收起 ×'); close.type = 'button'; close.addEventListener('click', () => { const id = state.practicalTab; state.practicalTab = null; renderEssentials(); $(`#essential-${id}`)?.focus(); }); heading.append(close); panel.append(heading);
+  if (state.practicalTab === 'clothing') {
+    panel.append(climatePanel(data.climate));
+    for (const fact of practicalFacts('clothing')) panel.append(practicalFactCard(fact));
+  }
+  else {
+    const facts = practicalFacts(state.practicalTab); const list = make('div', 'practical-facts-grid');
+    for (const fact of facts) list.append(practicalFactCard(fact));
+    if (!facts.length) list.append(make('p', 'practical-meta', '暂缺可直接使用的信息；下方保留相关原文，继续补充后再整理。'));
+    panel.append(list);
+    if (state.practicalTab === 'stay') panel.append(make('p', 'practical-meta', '房价只展示有日期、房型和价格口径的报价；暂无可比样本时，不计算“平均房价”。酒店星级与平台评分分别记录。'));
+    if (state.practicalTab === 'transport') panel.append(make('p', 'practical-meta', '以溧阳站作为本页出发点。尚未核实的地铁、班次、票价和车程不填估计值；具体线路留存原文的适用时间。'));
+  }
+  const related = practicalSources([state.practicalTab]); if (related.length) panel.append(classifiedSourceList(related));
+}
+function drawerPractical(attraction) {
+  const section = make('section', 'drawer-practical'); section.append(make('h3', '', '怎样安排这一次游览'));
+  const name = attraction.name;
+  for (const category of ['visit_duration', 'route_length', 'internal_transport', 'transport']) {
+    const facts = practicalFacts(category, name);
+    const details = make('details', 'practical-drawer-row'); const summary = make('summary');
+    summary.append(make('strong', '', category === 'transport' ? '如何抵达这里' : PRACTICAL_LABELS[category]), make('span', '', facts.length ? `${facts.length} 条来源信息` : '待补充'));
+    details.append(summary);
+    for (const fact of facts) details.append(practicalFactCard(fact));
+    if (!facts.length) details.append(make('p', 'practical-meta', category === 'visit_duration' ? '尚无可比较的全程游玩时长；不把交通耗时或排队时间当作游玩时长。' : '当前资料还没有提供可核对的具体信息。'));
+    section.append(details);
+  }
+  const related = practicalSources(['visit_duration', 'route_length', 'internal_transport', 'transport'], name);
+  if (related.length) section.append(classifiedSourceList(related));
+  return section;
+}
