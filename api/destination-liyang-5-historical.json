@@ -44,10 +44,10 @@
       "lon": 119.5200143,
       "description": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
-      "photo_url": "/api/media/4b2a8c0f10c2c15e4d082e1f",
-      "photo_credit": "keke_anvin",
-      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
-      "photo_source_url": "https://weibo.com/2152128042/OgShiw3Ph",
+      "photo_url": "/api/media/5385ee61d7849f7f7fad7997",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
       "evidence_count": 26,
       "months": [
         1,
@@ -237,6 +237,11 @@
         "total": 0,
         "scene_counts": {}
       },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
       "visual_analysis": {
         "media_total": 0,
         "analyzed_media": 0,
@@ -280,143 +285,7 @@
       "topics": [
         "竹林"
       ],
-      "media": [
-        {
-          "asset_id": "weibo:8046de2agy1hq925kq901j213u0tudov.jpg",
-          "id": "4b2a8c0f10c2c15e4d082e1f",
-          "ordinal": 1,
-          "url": "/api/media/4b2a8c0f10c2c15e4d082e1f",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.7314453125,
-            "scene_scores": {
-              "water": 0.42041015625,
-              "mountain": 0.7314453125
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:8046de2agy1hq925libjbj213u0tuh0l.jpg",
-          "id": "fca1dac9a42be51579b6b721",
-          "ordinal": 2,
-          "url": "/api/media/fca1dac9a42be51579b6b721",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.8330078125,
-            "scene_scores": {
-              "water": 0.494873046875,
-              "mountain": 0.8330078125
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:8046de2agy1hq925m4w9cj213u0tuqjg.jpg",
-          "id": "134df8497a453f69e9b8e03a",
-          "ordinal": 3,
-          "url": "/api/media/134df8497a453f69e9b8e03a",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.84326171875,
-            "scene_scores": {
-              "water": 0.66357421875,
-              "mountain": 0.84326171875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:8046de2agy1hq925mz4jpj213u0tu7p6.jpg",
-          "id": "f4c7c5b41f947feaa81c0483",
-          "ordinal": 4,
-          "url": "/api/media/f4c7c5b41f947feaa81c0483",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:8046de2agy1hq925nmlw2j20u01404j1.jpg",
-          "id": "c686992dd215cc916cae2497",
-          "ordinal": 5,
-          "url": "/api/media/c686992dd215cc916cae2497",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:8046de2agy1hq925oazyjj20tu13utrg.jpg",
-          "id": "a9451e9333661ed864d83943",
-          "ordinal": 6,
-          "url": "/api/media/a9451e9333661ed864d83943",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:8046de2agy1hq925owyt0j213u0tuqkt.jpg",
-          "id": "f79a373b76a1d46bf2d44071",
-          "ordinal": 7,
-          "url": "/api/media/f79a373b76a1d46bf2d44071",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:8046de2agy1hq925py8ahj20u01404e0.jpg",
-          "id": "957a8f9418bda5b2156311d4",
-          "ordinal": 8,
-          "url": "/api/media/957a8f9418bda5b2156311d4",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:8046de2agy1hq925jg2skj20tu13u4hb.jpg",
-          "id": "f735c5ae625fc12ea4e7c666",
-          "ordinal": 9,
-          "url": "/api/media/f735c5ae625fc12ea4e7c666",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2024-05-31",
@@ -431,6 +300,11 @@
         "scene_counts": {
           "mountain": 3
         }
+      },
+      "media_review": {
+        "original_count": 9,
+        "approved_count": 0,
+        "hidden_count": 9
       },
       "visual_analysis": {
         "media_total": 9,

@@ -80,10 +80,10 @@
       "lon": 119.5286808,
       "description": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
-      "photo_url": "/api/media/92635cea8c0505d0a9653851",
-      "photo_credit": "我和我的三岁",
-      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
-      "photo_source_url": "https://weibo.com/2896929492/P6GqtoLp8",
+      "photo_url": "/api/media/44848c483c5724c271432792",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
       "evidence_count": 6,
       "months": [
         8,
@@ -238,6 +238,11 @@
         "total": 0,
         "scene_counts": {}
       },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
       "visual_analysis": {
         "media_total": 0,
         "analyzed_media": 0,
@@ -282,84 +287,7 @@
         "温泉",
         "湖泊"
       ],
-      "media": [
-        {
-          "asset_id": "weibo:acaba2d4ly1hwylk52c6oj23402c0b2c.jpg",
-          "id": "92635cea8c0505d0a9653851",
-          "ordinal": 1,
-          "url": "/api/media/92635cea8c0505d0a9653851",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.5341945886611938,
-            "scene_scores": {
-              "vegetation": 0.5341945886611938
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:acaba2d4ly1hwylk8qbnoj23402c0qv6.jpg",
-          "id": "d16bcd4a08882566ec9045f9",
-          "ordinal": 2,
-          "url": "/api/media/d16bcd4a08882566ec9045f9",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:acaba2d4ly1hwylkd3to9j23402c0qv6.jpg",
-          "id": "5d2942c056b790d356aee7e3",
-          "ordinal": 3,
-          "url": "/api/media/5d2942c056b790d356aee7e3",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:acaba2d4ly1hwylkppof5j23342bckjl.jpg",
-          "id": "9d15457fe08691ebdbfb5fe5",
-          "ordinal": 4,
-          "url": "/api/media/9d15457fe08691ebdbfb5fe5",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:acaba2d4ly1hwylkr1l12j23342bckjl.jpg",
-          "id": "264c5265d743c0efccf69ab1",
-          "ordinal": 5,
-          "url": "/api/media/264c5265d743c0efccf69ab1",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2024-12-26",
@@ -374,6 +302,11 @@
         "scene_counts": {
           "vegetation": 1
         }
+      },
+      "media_review": {
+        "original_count": 5,
+        "approved_count": 0,
+        "hidden_count": 5
       },
       "visual_analysis": {
         "media_total": 5,

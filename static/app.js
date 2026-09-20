@@ -1283,7 +1283,7 @@ function populateDrawer(attraction) {
   const preferredUrls = new Set(preferred.map((entry) => entry.url));
   const entries = [...preferred, ...allEntries.filter((entry) => !preferredUrls.has(entry.url))];
   content.append(make('p', 'drawer-description', attraction.description || '暂无经核对的景点简介。'));
-  const filterNote = make('p', 'drawer-photo-note', '照片保留原始来源；按发布月份暂归档的图片，拍摄时间仍未知。'); content.append(filterNote);
+  const filterNote = make('p', 'drawer-photo-note', '照片保留原始来源；人物近景、低清和待审核图片不展示。按发布月份暂归档的照片，拍摄时间仍未知。'); content.append(filterNote);
   const localMap = drawerLocalMap(attraction); if (localMap) content.append(localMap);
   const galleryBlock = make('section', 'drawer-gallery-block');
   const galleryHeading = make('div', 'drawer-gallery-heading'); galleryHeading.append(make('h3', '', '这个月份的照片'), make('span', '', `${entries.length} 张 · 含标注的背景资料`)); galleryBlock.append(galleryHeading);
@@ -1296,7 +1296,7 @@ function populateDrawer(attraction) {
         const rest = make('div', 'drawer-gallery'); entries.slice(6).forEach((entry, index) => rest.append(drawerPhoto(entry, attraction, index + 6))); more.append(rest); more.dataset.loaded = 'true';
       }); galleryBlock.append(more);
     }
-  } else galleryBlock.append(emptyBlock('当前月份还没有照片', '已有文字资料保留在下方，可继续查看出处。'));
+  } else galleryBlock.append(emptyBlock('暂无合适的展示照片', '已有文字资料保留在下方，清晰的景色照片待补充。'));
   content.append(galleryBlock);
   const records = make('section', 'drawer-records');
   const heading = make('div', 'drawer-gallery-heading'); heading.append(make('h3', '', '相关真实资料'), make('span', '', `${related.length} 条`)); records.append(heading);

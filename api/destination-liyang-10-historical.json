@@ -80,10 +80,10 @@
       "lon": 119.5286808,
       "description": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
-      "photo_url": "/api/media/84adcd5bde1262a865532973",
-      "photo_credit": "萍子贝儿",
-      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
-      "photo_source_url": "https://weibo.com/2279339552/ODwF63EoY",
+      "photo_url": "/api/media/44848c483c5724c271432792",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
       "evidence_count": 6,
       "months": [
         8,
@@ -237,6 +237,11 @@
         "total": 0,
         "scene_counts": {}
       },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
       "visual_analysis": {
         "media_total": 0,
         "analyzed_media": 0,
@@ -293,6 +298,11 @@
         "analyzed": 0,
         "total": 0,
         "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
       },
       "visual_analysis": {
         "media_total": 0,
@@ -351,6 +361,11 @@
         "total": 0,
         "scene_counts": {}
       },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
       "visual_analysis": {
         "media_total": 0,
         "analyzed_media": 0,
@@ -394,126 +409,7 @@
       "topics": [
         "温泉"
       ],
-      "media": [
-        {
-          "asset_id": "weibo:87dbf620ly1hv19zmwu4tj22c0340qv6.jpg",
-          "id": "84adcd5bde1262a865532973",
-          "ordinal": 1,
-          "url": "/api/media/84adcd5bde1262a865532973",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.754806637763977,
-            "scene_scores": {
-              "vegetation": 0.754806637763977
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:87dbf620ly1hv19zi5qepj22c0340hdv.jpg",
-          "id": "8d3679e4783a9b57bc4bc59f",
-          "ordinal": 2,
-          "url": "/api/media/8d3679e4783a9b57bc4bc59f",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "grassland",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.8916015625,
-            "scene_scores": {
-              "vegetation": 0.7962843775749207,
-              "grassland": 0.8916015625
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:87dbf620ly1hv19zs847nj22c0340u0x.jpg",
-          "id": "0e548518d5070043285af2b4",
-          "ordinal": 3,
-          "url": "/api/media/0e548518d5070043285af2b4",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:87dbf620ly1hv1a5ynf55j20wi1ycb29.jpg",
-          "id": "7f98be5dcbd0504bffb0e9c4",
-          "ordinal": 4,
-          "url": "/api/media/7f98be5dcbd0504bffb0e9c4",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "food"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:87dbf620ly1hv1a6ekwl6j22c02qnqv6.jpg",
-          "id": "9716a6c40179f8b6f034e4a3",
-          "ordinal": 5,
-          "url": "/api/media/9716a6c40179f8b6f034e4a3",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:87dbf620ly1hv19zxenh0j22c03407wj.jpg",
-          "id": "87a83078eec0e2d5d935919b",
-          "ordinal": 6,
-          "url": "/api/media/87a83078eec0e2d5d935919b",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:87dbf620ly1hv1a043sobj22c0340npe.jpg",
-          "id": "6a14d097eac733ced64f3f35",
-          "ordinal": 7,
-          "url": "/api/media/6a14d097eac733ced64f3f35",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:87dbf620ly1hv1a07w7joj22c0340kjl.jpg",
-          "id": "b79a7cdcef022f18eac32bad",
-          "ordinal": 8,
-          "url": "/api/media/b79a7cdcef022f18eac32bad",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2024-10-27",
@@ -529,6 +425,11 @@
           "vegetation": 1,
           "grassland": 1
         }
+      },
+      "media_review": {
+        "original_count": 8,
+        "approved_count": 0,
+        "hidden_count": 8
       },
       "visual_analysis": {
         "media_total": 8,

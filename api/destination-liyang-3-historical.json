@@ -44,10 +44,10 @@
       "lon": 119.5200143,
       "description": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
-      "photo_url": "/api/media/5731f71bd68693389cf13093",
-      "photo_credit": "是萌萌的我呀",
-      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
-      "photo_source_url": "https://weibo.com/6395260399/O7yL6quW1",
+      "photo_url": "/api/media/5385ee61d7849f7f7fad7997",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
       "evidence_count": 26,
       "months": [
         1,
@@ -223,303 +223,7 @@
       "topics": [
         "竹林"
       ],
-      "media": [
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8jpinzcj31400u0drf.jpg",
-          "id": "c780c3b5928decbaccec78f7",
-          "ordinal": 1,
-          "url": "/api/media/c780c3b5928decbaccec78f7",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8jqfmctj30u01401ae.jpg",
-          "id": "3c6e58ecf11180f9e5949d6c",
-          "ordinal": 2,
-          "url": "/api/media/3c6e58ecf11180f9e5949d6c",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8jyik3wj30u0140qn9.jpg",
-          "id": "5731f71bd68693389cf13093",
-          "ordinal": 3,
-          "url": "/api/media/5731f71bd68693389cf13093",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.4489493668079376,
-            "scene_scores": {
-              "vegetation": 0.4489493668079376
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8jwi3p5j31400u0wu0.jpg",
-          "id": "b3d6e19c8776b38d69da5414",
-          "ordinal": 4,
-          "url": "/api/media/b3d6e19c8776b38d69da5414",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8jvuwqbj31400u0qli.jpg",
-          "id": "e6c3b7aad38bba082dd234ec",
-          "ordinal": 5,
-          "url": "/api/media/e6c3b7aad38bba082dd234ec",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.43744751811027527,
-            "scene_scores": {
-              "vegetation": 0.43744751811027527,
-              "grassland": 0.356201171875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8jz6wtmj30u014049p.jpg",
-          "id": "eba9f8fbb958ecb164dbdd39",
-          "ordinal": 6,
-          "url": "/api/media/eba9f8fbb958ecb164dbdd39",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k09843j31400u0jyx.jpg",
-          "id": "673814fbc5c150bebce32be4",
-          "ordinal": 7,
-          "url": "/api/media/673814fbc5c150bebce32be4",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.701171875,
-            "scene_scores": {
-              "mountain": 0.701171875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k0r8nnj30u0140k1x.jpg",
-          "id": "3fad4a4da4fba520c40ef06e",
-          "ordinal": 8,
-          "url": "/api/media/3fad4a4da4fba520c40ef06e",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k1oifpj31400u0ajq.jpg",
-          "id": "6d1df01fb7335e5d7234030b",
-          "ordinal": 9,
-          "url": "/api/media/6d1df01fb7335e5d7234030b",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "statue"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k17tqbj30u0140n2u.jpg",
-          "id": "88d8e3075e2957702b145e06",
-          "ordinal": 10,
-          "url": "/api/media/88d8e3075e2957702b145e06",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.78173828125,
-            "scene_scores": {
-              "mountain": 0.78173828125
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8jzv7urj31400u0aks.jpg",
-          "id": "80faba5a9d01643f8f4bb82b",
-          "ordinal": 11,
-          "url": "/api/media/80faba5a9d01643f8f4bb82b",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.755859375,
-            "scene_scores": {
-              "mountain": 0.755859375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k2jmzaj30u0140x02.jpg",
-          "id": "98bc843a1e2a206f8f959c96",
-          "ordinal": 12,
-          "url": "/api/media/98bc843a1e2a206f8f959c96",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.5248011350631714,
-            "scene_scores": {
-              "vegetation": 0.5248011350631714
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k32lp6j31400u0wpf.jpg",
-          "id": "1261be7e23df0f2719d0e358",
-          "ordinal": 13,
-          "url": "/api/media/1261be7e23df0f2719d0e358",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.8359375,
-            "scene_scores": {
-              "water": 0.72265625,
-              "mountain": 0.8359375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k554d9j30u014048e.jpg",
-          "id": "ab93808ffe7111322fb158a5",
-          "ordinal": 14,
-          "url": "/api/media/ab93808ffe7111322fb158a5",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.42434927821159363,
-            "scene_scores": {
-              "vegetation": 0.42434927821159363
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k4ly2yj31400u0wnt.jpg",
-          "id": "b29026e0bf379b73be5ab592",
-          "ordinal": 15,
-          "url": "/api/media/b29026e0bf379b73be5ab592",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.86279296875,
-            "scene_scores": {
-              "water": 0.794921875,
-              "mountain": 0.86279296875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k5ynhoj30u0140e0q.jpg",
-          "id": "1ac229f312590fff77999c7c",
-          "ordinal": 16,
-          "url": "/api/media/1ac229f312590fff77999c7c",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.7090217471122742,
-            "scene_scores": {
-              "vegetation": 0.7090217471122742
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:006YNRnhly1hoa8k3o7gfj31400u0qii.jpg",
-          "id": "d11a95e25f56215f0945616c",
-          "ordinal": 17,
-          "url": "/api/media/d11a95e25f56215f0945616c",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.90087890625,
-            "scene_scores": {
-              "water": 0.7392578125,
-              "mountain": 0.90087890625
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2024-03-31",
@@ -535,6 +239,11 @@
           "vegetation": 5,
           "mountain": 6
         }
+      },
+      "media_review": {
+        "original_count": 17,
+        "approved_count": 0,
+        "hidden_count": 17
       },
       "visual_analysis": {
         "media_total": 17,
@@ -733,163 +442,7 @@
       "topics": [
         "竹林"
       ],
-      "media": [
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaigduex8j23402c04qr.jpg",
-          "id": "b839d69f0e54496398ee42dd",
-          "ordinal": 1,
-          "url": "/api/media/b839d69f0e54496398ee42dd",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaifugj45j23402c0x6r.jpg",
-          "id": "726b72761c6af03609e756cc",
-          "ordinal": 2,
-          "url": "/api/media/726b72761c6af03609e756cc",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.84765625,
-            "scene_scores": {
-              "water": 0.748046875,
-              "mountain": 0.84765625
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaiggcw9gj23402c0kjn.jpg",
-          "id": "7398fedb74b5495d95a8b2a1",
-          "ordinal": 3,
-          "url": "/api/media/7398fedb74b5495d95a8b2a1",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "animal",
-              "bird"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaifzg0ygj23402c0x6q.jpg",
-          "id": "0936e7e7da829056c5693a9e",
-          "ordinal": 4,
-          "url": "/api/media/0936e7e7da829056c5693a9e",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "statue"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaig2pfbsj23402c0hdw.jpg",
-          "id": "81dcf4e36521b91570f2b7fe",
-          "ordinal": 5,
-          "url": "/api/media/81dcf4e36521b91570f2b7fe",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.3886187970638275,
-            "scene_scores": {
-              "vegetation": 0.3886187970638275
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaig6cfyjj23402c0e83.jpg",
-          "id": "1dd24c7d8c111913d6251e9a",
-          "ordinal": 6,
-          "url": "/api/media/1dd24c7d8c111913d6251e9a",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people",
-              "statue"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaig9321ij22c0340x6q.jpg",
-          "id": "b9bda9014f4decb7b0c1bb95",
-          "ordinal": 7,
-          "url": "/api/media/b9bda9014f4decb7b0c1bb95",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.74951171875,
-            "scene_scores": {
-              "mountain": 0.74951171875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaigimytfj23402c0qv6.jpg",
-          "id": "8afe5251c97a138df74f69cf",
-          "ordinal": 8,
-          "url": "/api/media/8afe5251c97a138df74f69cf",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.4310307204723358,
-            "scene_scores": {
-              "vegetation": 0.4310307204723358
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:ce768cd2ly1hoaifwugw5j22c03404qr.jpg",
-          "id": "5ba19e023967f894ae6ae75c",
-          "ordinal": 9,
-          "url": "/api/media/5ba19e023967f894ae6ae75c",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2024-03-31",
@@ -905,6 +458,11 @@
           "mountain": 2,
           "vegetation": 2
         }
+      },
+      "media_review": {
+        "original_count": 9,
+        "approved_count": 0,
+        "hidden_count": 9
       },
       "visual_analysis": {
         "media_total": 9,

@@ -12,10 +12,10 @@
       "lon": 119.4286978,
       "description": "天目湖山水园,国家5A级景区。作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138952.html",
-      "photo_url": "/api/media/0cc724b5d4c233460825bd65",
-      "photo_credit": "David独上西楼",
-      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
-      "photo_source_url": "https://weibo.com/7391638199/O0LhdwNkP",
+      "photo_url": "/api/media/9b5867f41595cc0469539061",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138952.html",
       "evidence_count": 11,
       "months": [
         2,
@@ -238,6 +238,11 @@
         "total": 0,
         "scene_counts": {}
       },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
       "visual_analysis": {
         "media_total": 0,
         "analyzed_media": 0,
@@ -296,6 +301,11 @@
         "total": 0,
         "scene_counts": {}
       },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
       "visual_analysis": {
         "media_total": 0,
         "analyzed_media": 0,
@@ -339,144 +349,7 @@
       "topics": [
         "湖泊"
       ],
-      "media": [
-        {
-          "asset_id": "weibo:0084eyKXly1hmujjrduspj32bc3347wj.jpg",
-          "id": "0cc724b5d4c233460825bd65",
-          "ordinal": 1,
-          "url": "/api/media/0cc724b5d4c233460825bd65",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:0084eyKXly1hmujjzrtwkj32bc334x6s.jpg",
-          "id": "a8413e3056b6fdc7bfb01334",
-          "ordinal": 2,
-          "url": "/api/media/a8413e3056b6fdc7bfb01334",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:0084eyKXly1hmujk54xr3j32bc334x6q.jpg",
-          "id": "27c864dbe2822d3bfb84989a",
-          "ordinal": 3,
-          "url": "/api/media/27c864dbe2822d3bfb84989a",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:0084eyKXly1hmujkbsmlyj32bc334npf.jpg",
-          "id": "7fe966055185632940b7ee67",
-          "ordinal": 4,
-          "url": "/api/media/7fe966055185632940b7ee67",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:0084eyKXly1hmujkipxnwj32bc334qv7.jpg",
-          "id": "d2d93f0f32e8bf5450dd1c9c",
-          "ordinal": 5,
-          "url": "/api/media/d2d93f0f32e8bf5450dd1c9c",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:0084eyKXly1hmujkqtaamj32bc334npg.jpg",
-          "id": "08803526e4802a429678480a",
-          "ordinal": 6,
-          "url": "/api/media/08803526e4802a429678480a",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "statue"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:0084eyKXly1hmujl9tyzqj30u11404hh.jpg",
-          "id": "53512036f578f8b56e2cfcc7",
-          "ordinal": 7,
-          "url": "/api/media/53512036f578f8b56e2cfcc7",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:0084eyKXly1hmujl8dja3j32bc334npg.jpg",
-          "id": "3f38f8c9380895ac5bfd020d",
-          "ordinal": 8,
-          "url": "/api/media/3f38f8c9380895ac5bfd020d",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people",
-              "statue"
-            ]
-          }
-        },
-        {
-          "asset_id": "weibo:0084eyKXly1hmujkwte09j32bc3341kz.jpg",
-          "id": "3f665d6bb60ab4098dfb8650",
-          "ordinal": 9,
-          "url": "/api/media/3f665d6bb60ab4098dfb8650",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2024-02-15",
@@ -489,6 +362,11 @@
         "analyzed": 9,
         "total": 9,
         "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 9,
+        "approved_count": 0,
+        "hidden_count": 9
       },
       "visual_analysis": {
         "media_total": 9,

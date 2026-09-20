@@ -44,10 +44,10 @@
       "lon": 119.5200143,
       "description": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
-      "photo_url": "/api/media/c662af6eea1f20f9ff9ee107",
-      "photo_credit": "李小兮的极简生活",
+      "photo_url": "/api/media/7694996a82a2c152ff707515",
+      "photo_credit": "璇璇没啤汽🍏",
       "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
-      "photo_source_url": "https://www.xiaohongshu.com/explore/6a8a7cea000000003302809f",
+      "photo_source_url": "https://www.xiaohongshu.com/explore/6a8d06af0000000029025484",
       "evidence_count": 26,
       "months": [
         1,
@@ -80,10 +80,10 @@
       "lon": 119.5286808,
       "description": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
-      "photo_url": "/api/media/df29b1362a18f995894cd453",
-      "photo_credit": "御水温泉竹溪谷酒店",
-      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
-      "photo_source_url": "https://weibo.com/6080173597/OuFMtmQMm",
+      "photo_url": "/api/media/44848c483c5724c271432792",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
       "evidence_count": 6,
       "months": [
         8,
@@ -224,26 +224,7 @@
         "温泉",
         "湖泊"
       ],
-      "media": [
-        {
-          "asset_id": "weibo:006DtMU5gy1ht5z45ts7ij30a007i0td.jpg",
-          "id": "df29b1362a18f995894cd453",
-          "ordinal": 1,
-          "url": "/api/media/df29b1362a18f995894cd453",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.8916015625,
-            "scene_scores": {
-              "mountain": 0.8916015625
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2024-08-30",
@@ -258,6 +239,11 @@
         "scene_counts": {
           "mountain": 1
         }
+      },
+      "media_review": {
+        "original_count": 1,
+        "approved_count": 0,
+        "hidden_count": 1
       },
       "visual_analysis": {
         "media_total": 1,
@@ -313,255 +299,7 @@
         "温泉",
         "竹林"
       ],
-      "media": [
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw82wu2gj32dc35s4qs.jpg",
-          "id": "18f16eb29ae5c62232fd06f5",
-          "ordinal": 1,
-          "url": "/api/media/18f16eb29ae5c62232fd06f5",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "grassland",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.90869140625,
-            "scene_scores": {
-              "grassland": 0.90869140625,
-              "mountain": 0.435546875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8c6qe6j32dc35s1l1.jpg",
-          "id": "9c783e027eda157782db5df7",
-          "ordinal": 2,
-          "url": "/api/media/9c783e027eda157782db5df7",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.4345703125,
-            "scene_scores": {
-              "grassland": 0.399658203125,
-              "mountain": 0.4345703125
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8fp1tcj32dc35shdw.jpg",
-          "id": "6239efdd1fe407164d31299a",
-          "ordinal": 3,
-          "url": "/api/media/6239efdd1fe407164d31299a",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.42184630036354065,
-            "scene_scores": {
-              "vegetation": 0.42184630036354065
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8mz8mhj32dc35sb2d.jpg",
-          "id": "117f36cc66f6688903b3aec9",
-          "ordinal": 4,
-          "url": "/api/media/117f36cc66f6688903b3aec9",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.3565273880958557,
-            "scene_scores": {
-              "vegetation": 0.3565273880958557
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8oyh66j333x2bhhdu.jpg",
-          "id": "3539717c98da124eb6f123f2",
-          "ordinal": 5,
-          "url": "/api/media/3539717c98da124eb6f123f2",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.62548828125,
-            "scene_scores": {
-              "mountain": 0.62548828125
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8rltkbj335s2dckjp.jpg",
-          "id": "15c0ed0ebb3a016fbe94d80d",
-          "ordinal": 6,
-          "url": "/api/media/15c0ed0ebb3a016fbe94d80d",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8uhqpjj316o1kwu0x.jpg",
-          "id": "6756997f2bd476a324a76efe",
-          "ordinal": 7,
-          "url": "/api/media/6756997f2bd476a324a76efe",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.8597431778907776,
-            "scene_scores": {
-              "vegetation": 0.8597431778907776
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8w3p4yj32dc35snpe.jpg",
-          "id": "119eed0d836b1be9fe902e3a",
-          "ordinal": 8,
-          "url": "/api/media/119eed0d836b1be9fe902e3a",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "mountain",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.8935546875,
-            "scene_scores": {
-              "mountain": 0.8935546875
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8y5ffmj32dc35snpf.jpg",
-          "id": "51623080b912e7274f53e211",
-          "ordinal": 9,
-          "url": "/api/media/51623080b912e7274f53e211",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.4593556821346283,
-            "scene_scores": {
-              "vegetation": 0.4593556821346283
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw8zn84dj316o1kwu0x.jpg",
-          "id": "5efb814042612c821dd31025",
-          "ordinal": 10,
-          "url": "/api/media/5efb814042612c821dd31025",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.6398801803588867,
-            "scene_scores": {
-              "vegetation": 0.6398801803588867
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw91of2ij32dc35s7wn.jpg",
-          "id": "0d834f093befef1f0a4f7200",
-          "ordinal": 11,
-          "url": "/api/media/0d834f093befef1f0a4f7200",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.5125938057899475,
-            "scene_scores": {
-              "vegetation": 0.5125938057899475
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw931fwjj32eo37kb2a.jpg",
-          "id": "4c9bf899657636e7ec4c24b5",
-          "ordinal": 12,
-          "url": "/api/media/4c9bf899657636e7ec4c24b5",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "vegetation",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.6665082573890686,
-            "scene_scores": {
-              "vegetation": 0.6665082573890686
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrw94ld6uj335s2dc4qr.jpg",
-          "id": "011c7d57fc9176a1c6036b71",
-          "ordinal": 13,
-          "url": "/api/media/011c7d57fc9176a1c6036b71",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": true,
-            "scene": "grassland",
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "score": 0.865234375,
-            "scene_scores": {
-              "grassland": 0.865234375
-            },
-            "reason": "scene_candidate",
-            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
-          }
-        },
-        {
-          "asset_id": "weibo:007q1XM9gy1hsrwcbm4hhj335s2dckjn.jpg",
-          "id": "63fe91fbb793a798d1afa8d0",
-          "ordinal": 14,
-          "url": "/api/media/63fe91fbb793a798d1afa8d0",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "food"
-            ]
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2024-08-18",
@@ -578,6 +316,11 @@
           "mountain": 3,
           "vegetation": 7
         }
+      },
+      "media_review": {
+        "original_count": 14,
+        "approved_count": 0,
+        "hidden_count": 14
       },
       "visual_analysis": {
         "media_total": 14,
@@ -750,60 +493,7 @@
         "漂流",
         "竹林"
       ],
-      "media": [
-        {
-          "asset_id": "1040g2sg3246trs6b0mdg5nir1mpg87mfv23q3fg",
-          "id": "c662af6eea1f20f9ff9ee107",
-          "ordinal": 1,
-          "url": "/api/media/c662af6eea1f20f9ff9ee107",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "not_analyzed"
-          }
-        },
-        {
-          "asset_id": "1040g2sg3246trs6b0md05nir1mpg87mfjb54cao",
-          "id": "1edd6e76e00e3b9d35523979",
-          "ordinal": 2,
-          "url": "/api/media/1edd6e76e00e3b9d35523979",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "not_analyzed"
-          }
-        },
-        {
-          "asset_id": "1040g2sg3246trs6b0mbg5nir1mpg87mf1hqdgcg",
-          "id": "4da93f9f6a16135e81318dc6",
-          "ordinal": 3,
-          "url": "/api/media/4da93f9f6a16135e81318dc6",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "not_analyzed"
-          }
-        },
-        {
-          "asset_id": "1040g2sg3246trs6b0mc05nir1mpg87mfp9lehho",
-          "id": "571469ccebcf4a0d480113b1",
-          "ordinal": 4,
-          "url": "/api/media/571469ccebcf4a0d480113b1",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "not_analyzed"
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2026-08-23",
@@ -816,6 +506,11 @@
         "analyzed": 0,
         "total": 4,
         "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 4,
+        "approved_count": 0,
+        "hidden_count": 4
       },
       "visual_analysis": {
         "media_total": 4,
@@ -905,6 +600,23 @@
           "id": "7694996a82a2c152ff707515",
           "ordinal": 1,
           "url": "/api/media/7694996a82a2c152ff707515",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "0448ac0f52f11cafb2f41c4400fdf9d8d968f410c948cdecd4c3b39573b6112b",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 5680.29,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.00781300850212574
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -918,6 +630,23 @@
           "id": "4bebf8c686b495bc69d83422",
           "ordinal": 2,
           "url": "/api/media/4bebf8c686b495bc69d83422",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "31c99b8f2bff3444bc0cb951927876dbb750240a0b1da9856f9ac9525a47e6dd",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 1833.64,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0036748466081917286
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -931,6 +660,23 @@
           "id": "607baaebb05c61dee421ab7b",
           "ordinal": 3,
           "url": "/api/media/607baaebb05c61dee421ab7b",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "0255658b251c9e8cbbf95aee8ff89d92bc0c0e9d783c64d3435b0c1ad118ebcb",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 1152.82,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0019533634185791016
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -944,6 +690,23 @@
           "id": "1ef4948939ec85a80d6c408d",
           "ordinal": 4,
           "url": "/api/media/1ef4948939ec85a80d6c408d",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "4284dffe554120c16bf830c16224841219c535183bec99d3aa51b3d15ce40cbf",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 5769.39,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.011720799840986729
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -957,6 +720,23 @@
           "id": "6320291e19ebac6d43ead5a9",
           "ordinal": 5,
           "url": "/api/media/6320291e19ebac6d43ead5a9",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "838cffa81cb667a5d3f32b688bf7f2a36b7706d2d1f9e14c5cdf6c0c21048224",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 4351.97,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.03160025551915169
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -970,6 +750,23 @@
           "id": "5cc02191f03caaa5e17dc9f6",
           "ordinal": 6,
           "url": "/api/media/5cc02191f03caaa5e17dc9f6",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "dcd1df8c309a86977a7eda2ad8ddd98a81c48ef3e7ec527d44ea8805ba4637a7",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 7959.53,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.00209217332303524
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -983,19 +780,23 @@
           "id": "9aac27e32b55a521b1e757b7",
           "ordinal": 7,
           "url": "/api/media/9aac27e32b55a521b1e757b7",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "not_analyzed"
-          }
-        },
-        {
-          "asset_id": "1040g3r03249d9lq3gm204957k6rkkl1sli5ukgg",
-          "id": "04aaa0f6250c262e91975fb6",
-          "ordinal": 8,
-          "url": "/api/media/04aaa0f6250c262e91975fb6",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "2a1489530d8ad3ac20d5154c1ef677e91e3862fec3523aa8cb8436005b9fe205",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 4163.84,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.013449931517243385
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1009,6 +810,23 @@
           "id": "70718db2ff4a449c349701ad",
           "ordinal": 9,
           "url": "/api/media/70718db2ff4a449c349701ad",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "a5ebff0c705789ed9a8ddfb58b561beee5ac0df4b7b94d0496d98b3912b621cd",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 3426.14,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.048829205334186554
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1022,6 +840,23 @@
           "id": "4ba72334705791d1727fdecb",
           "ordinal": 10,
           "url": "/api/media/4ba72334705791d1727fdecb",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "01838bff4b5fbcf34e70b92d591af217bb723d673150fcf7e252f9ac89ca3a7a",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 1728.48,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.24585172533988953
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1035,6 +870,23 @@
           "id": "b803df0d36942b621d354f5f",
           "ordinal": 11,
           "url": "/api/media/b803df0d36942b621d354f5f",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "a18f336278de3068150d85688c2055602bd91a97ec447e88f2ae85006d92178f",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 2466.44,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.04028340429067612
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1048,6 +900,23 @@
           "id": "5f99b996a3f739ffb414c6db",
           "ordinal": 12,
           "url": "/api/media/5f99b996a3f739ffb414c6db",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "ea1a6dc44ac87cb1dca8f8e8cc23585c8f5bfb16e229ab0d383dd9a0c957881d",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 613.53,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.009787711314857006
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1061,19 +930,23 @@
           "id": "6b15872fd5e99cc522672970",
           "ordinal": 13,
           "url": "/api/media/6b15872fd5e99cc522672970",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "not_analyzed"
-          }
-        },
-        {
-          "asset_id": "1040g3k03249be3fsn2504957k6rkkl1sb5jd5fo",
-          "id": "f2208a3f001e031f43edc1a0",
-          "ordinal": 14,
-          "url": "/api/media/f2208a3f001e031f43edc1a0",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "6b737711e77a5e795cacb560bdb7a36f9dc4a61c4a0f26ab578ed77955b880c3",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 522.06,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.015619906596839428
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1087,32 +960,23 @@
           "id": "84e840a07ef4fa3d0f46f5e0",
           "ordinal": 15,
           "url": "/api/media/84e840a07ef4fa3d0f46f5e0",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "not_analyzed"
-          }
-        },
-        {
-          "asset_id": "1040g3k03249be3fsn2604957k6rkkl1sdbcdbqg",
-          "id": "1702d070182737addd5c1e50",
-          "ordinal": 16,
-          "url": "/api/media/1702d070182737addd5c1e50",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "not_analyzed"
-          }
-        },
-        {
-          "asset_id": "1040g3k03249be3fsn26g4957k6rkkl1sr7vurj8",
-          "id": "2fc71151a2dbe45102bbf610",
-          "ordinal": 17,
-          "url": "/api/media/2fc71151a2dbe45102bbf610",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "bea476c85110834541d76e0a4c1dd351a4535a0c9dbf337f7bf83abe02c6a044",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 1901.14,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.02957274205982685
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1126,6 +990,23 @@
           "id": "ac8c6c5d08c8cb11f25e612f",
           "ordinal": 18,
           "url": "/api/media/ac8c6c5d08c8cb11f25e612f",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "ce682a8ce3378cb88d2e48a33accdfc57555ac5ce6c64f289c91448a90283cfc",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 2561.13,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.02466164343059063
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1147,6 +1028,11 @@
         "analyzed": 0,
         "total": 18,
         "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 18,
+        "approved_count": 14,
+        "hidden_count": 4
       },
       "visual_analysis": {
         "media_total": 18,
@@ -1358,6 +1244,23 @@
           "id": "3e383b880d771e60429f991c",
           "ordinal": 1,
           "url": "/api/media/3e383b880d771e60429f991c",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "acabd010f5729d3dfed01ab694f6192d68970e23a37eddf82f9d447514fb8439",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 532,
+              "sharpness": 4213.71,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.012941676191985607
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1371,6 +1274,23 @@
           "id": "8f275154d2d6e5fcb41c071f",
           "ordinal": 2,
           "url": "/api/media/8f275154d2d6e5fcb41c071f",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "b2731f64f77926681f54660c1a0b73a39e45fc851723dd006f7d50635d6ccd67",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 532,
+              "sharpness": 4039.6,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.014649184420704842
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1389,6 +1309,23 @@
           "id": "97cb08a88c2476f9b0869c0a",
           "ordinal": 3,
           "url": "/api/media/97cb08a88c2476f9b0869c0a",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "6469a21924c9ded05a4d14e46dc303d893bfa8f6d489bcf19a211aa36d675296",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 532,
+              "sharpness": 5232.79,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.009277756325900555
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1407,6 +1344,23 @@
           "id": "e1f8f88ba446bbdfef351e1c",
           "ordinal": 4,
           "url": "/api/media/e1f8f88ba446bbdfef351e1c",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "2bde3416997f11e6eeac0e0f13450e9bd4e59b0e7d521119ea3887fac4e11d20",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 532,
+              "sharpness": 3274.12,
+              "face_count": 0,
+              "human_count": 1,
+              "largest_face": 0,
+              "largest_human": 0.011128405043250815,
+              "people_score": 0.07226631790399551
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1420,6 +1374,23 @@
           "id": "7b572e528c0e28e52ac2c12a",
           "ordinal": 5,
           "url": "/api/media/7b572e528c0e28e52ac2c12a",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "58b926e6d2c3ee018366fe145cd916686002460d18591f02b29007c32cfa2ce2",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 532,
+              "sharpness": 1329.31,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.005143252667039633
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1443,6 +1414,11 @@
         "scene_counts": {
           "vegetation": 2
         }
+      },
+      "media_review": {
+        "original_count": 5,
+        "approved_count": 5,
+        "hidden_count": 0
       },
       "visual_analysis": {
         "media_total": 5,
@@ -1537,6 +1513,23 @@
           "id": "d35ea30773ed56115334501e",
           "ordinal": 1,
           "url": "/api/media/d35ea30773ed56115334501e",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "f7618f51e668877bfd95f935e7ac25184fe0f9077bc3d3ff2dbfe96a0ce167f4",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 1643.86,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.02002274990081787
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1556,6 +1549,23 @@
           "id": "7d29dec7c7a0a6da0c50b574",
           "ordinal": 2,
           "url": "/api/media/7d29dec7c7a0a6da0c50b574",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "d7100076c10e2454830a7683eb3a118ef5137dfc0841aa9bdd70bcf170700ac0",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 441,
+              "sharpness": 2278.17,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.01928786374628544
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1574,29 +1584,29 @@
           "id": "fd21eb7d9fa20f64cb380e1f",
           "ordinal": 3,
           "url": "/api/media/fd21eb7d9fa20f64cb380e1f",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "4036d9a5f7f744b5cdc4529d96c3f5ae5e6f48ff0274e37df341ab7f9f53168f",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 450,
+              "sharpness": 1080.26,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.03613479807972908
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
             "scene": null,
             "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
             "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165453_79831.jpg",
-          "id": "8091bb8bdaf0945afef5be70",
-          "ordinal": 4,
-          "url": "/api/media/8091bb8bdaf0945afef5be70",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people",
-              "statue"
-            ]
           }
         },
         {
@@ -1604,28 +1614,29 @@
           "id": "73a2958bf244b74f81e59e5c",
           "ordinal": 5,
           "url": "/api/media/73a2958bf244b74f81e59e5c",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "fc2d8270aeecc8e0ac487d353868ca8a905695820886c444df992218b76f9990",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 3637.42,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.00952280405908823
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
             "scene": null,
             "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
             "reason": "uncertain_scene"
-          }
-        },
-        {
-          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165453_89878.jpg",
-          "id": "ef85d0a6d931f4606da98833",
-          "ordinal": 6,
-          "url": "/api/media/ef85d0a6d931f4606da98833",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
           }
         }
       ],
@@ -1644,6 +1655,11 @@
           "grassland": 1,
           "vegetation": 1
         }
+      },
+      "media_review": {
+        "original_count": 6,
+        "approved_count": 4,
+        "hidden_count": 2
       },
       "visual_analysis": {
         "media_total": 6,
@@ -1747,6 +1763,23 @@
           "id": "f00aaef831c6ba8380ba4534",
           "ordinal": 1,
           "url": "/api/media/f00aaef831c6ba8380ba4534",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "fabed5a65643616369075de4bca2419eb91182aae73a7850246c4cfe36f8aecc",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 519,
+              "sharpness": 3859.2,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.019601132720708847
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1765,6 +1798,23 @@
           "id": "dfbe4363e42813243c07e1be",
           "ordinal": 2,
           "url": "/api/media/dfbe4363e42813243c07e1be",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "60594d6938dfc206c04e5b506068cc5626a00b5f94e3bf51c1b5fed96d0ff37e",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 440,
+              "sharpness": 7458.61,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.10034183412790298
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1783,6 +1833,23 @@
           "id": "47819fdd95b90207c9ad96d4",
           "ordinal": 3,
           "url": "/api/media/47819fdd95b90207c9ad96d4",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "b360a5ac0d6a21d603ffa4f88bff5ae32279ece78e9e6d374b3089915230e9d9",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 467,
+              "sharpness": 3717.17,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.024943135678768158
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1802,6 +1869,23 @@
           "id": "b3ca19a520a974c58dba1b8e",
           "ordinal": 4,
           "url": "/api/media/b3ca19a520a974c58dba1b8e",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "2229fbf0183a180fc862f7d82fe610f6164f7ae3c05eaa7a8adb8320b5f4f2a9",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 450,
+              "sharpness": 2674.38,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0339374840259552
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -1815,6 +1899,23 @@
           "id": "bbf6e0cd763c2c8f523bccc4",
           "ordinal": 5,
           "url": "/api/media/bbf6e0cd763c2c8f523bccc4",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "f28aca65682bc84009d23f5387a7678a6fc8eafaa474a6dc1700ebf61d8b2f85",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 523,
+              "sharpness": 8240.14,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.006837588269263506
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1833,6 +1934,23 @@
           "id": "74da84a311b4af461e1de06c",
           "ordinal": 6,
           "url": "/api/media/74da84a311b4af461e1de06c",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "bc08aab15e186c64a93a701ed8b9b3d388452a4f8abfb53d8e943690e772ac50",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 450,
+              "sharpness": 2124.54,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0027696494944393635
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1851,6 +1969,23 @@
           "id": "7ac2ce1e040d27708e6211f5",
           "ordinal": 7,
           "url": "/api/media/7ac2ce1e040d27708e6211f5",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "5c47c6aae5770333fc57fc278db292b386f755c91f24c7dd59342f291dad681c",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 2068.44,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0012365068541839719
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1869,6 +2004,23 @@
           "id": "a23e450e94bc924f3df311fb",
           "ordinal": 8,
           "url": "/api/media/a23e450e94bc924f3df311fb",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "df3c9adbce6c9c48641787f414ef42a894159a14bc8baf82f9f5797472b41c88",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 1267.35,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.003174328012391925
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1887,6 +2039,23 @@
           "id": "399eeb75c54c47986ffe53da",
           "ordinal": 9,
           "url": "/api/media/399eeb75c54c47986ffe53da",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "c13c03898892695af0ebc441b5b79a62d5242f167e9eb2701a213a47d9c9b267",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 451,
+              "sharpness": 2934.78,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0019534826278686523
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1906,6 +2075,23 @@
           "id": "edf6e9bdf264a6dcdd7c7fb0",
           "ordinal": 10,
           "url": "/api/media/edf6e9bdf264a6dcdd7c7fb0",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "66ce7cf6486fbc3acb764d8b9416ce2147764f2f71eb4a27e054f4fc391c7491",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 400,
+              "sharpness": 774.45,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0070970794185996056
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -1935,6 +2121,11 @@
           "grassland": 3,
           "mountain": 6
         }
+      },
+      "media_review": {
+        "original_count": 10,
+        "approved_count": 10,
+        "hidden_count": 0
       },
       "visual_analysis": {
         "media_total": 10,
@@ -2073,26 +2264,27 @@
       ],
       "media": [
         {
-          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165938_70554.jpg",
-          "id": "b455e0cccd9118748be247c9",
-          "ordinal": 1,
-          "url": "/api/media/b455e0cccd9118748be247c9",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "people"
-            ]
-          }
-        },
-        {
           "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165938_40304.jpg",
           "id": "d4b603259fdb50ce30efa7f3",
           "ordinal": 2,
           "url": "/api/media/d4b603259fdb50ce30efa7f3",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "95c8e4be5a1a0c206c1ca67943947b6367894db54fa748a1e438fcb424f6f294",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 600,
+              "sharpness": 4749.25,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.002933142939582467
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2106,6 +2298,23 @@
           "id": "f5046c3e6182f46fd1ecd21f",
           "ordinal": 3,
           "url": "/api/media/f5046c3e6182f46fd1ecd21f",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "5cfc051ae633fef0ace1f53533081dd78322350959e381e602a6fe148396c995",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 600,
+              "sharpness": 6834.49,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.017091965302824974
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2119,6 +2328,23 @@
           "id": "44848c483c5724c271432792",
           "ordinal": 4,
           "url": "/api/media/44848c483c5724c271432792",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "bc1dde0184296909728b18356f05522d755181c884d6ce14650de210e64fb426",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 3727.96,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.01660228706896305
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2137,6 +2363,23 @@
           "id": "dad83031f3596f9e8f74e5d9",
           "ordinal": 5,
           "url": "/api/media/dad83031f3596f9e8f74e5d9",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "33a0f6a4e4eb58867059a2f6580134fdb9a09eb523a9877fc06bd26d836cf90b",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 2747.69,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.013200994580984116
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2155,6 +2398,23 @@
           "id": "9ad53a8870fe09ce83c274b4",
           "ordinal": 6,
           "url": "/api/media/9ad53a8870fe09ce83c274b4",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "8032b5dc8f42f4ef74200a6c5b090bf28162af2b1a87f456a6e200124e036052",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 449,
+              "sharpness": 3796.73,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.014894365333020687
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2168,6 +2428,23 @@
           "id": "fd5f57f1d66deb39240500a1",
           "ordinal": 7,
           "url": "/api/media/fd5f57f1d66deb39240500a1",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "045daba2e34cf3aee0f6856dbc7ddb5329af02ccba1a993c78c2ec2656834368",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 6168.31,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.004150614142417908
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2186,6 +2463,23 @@
           "id": "f45bfc80dce17adede574dc6",
           "ordinal": 8,
           "url": "/api/media/f45bfc80dce17adede574dc6",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "64a90f2890570336abde2c57a46f77fbdf57a0cce3ba4a9e5ba48e1eb960bfe7",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 534,
+              "sharpness": 2010.11,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.025637352839112282
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2215,6 +2509,11 @@
           "vegetation": 3,
           "mountain": 1
         }
+      },
+      "media_review": {
+        "original_count": 8,
+        "approved_count": 7,
+        "hidden_count": 1
       },
       "visual_analysis": {
         "media_total": 8,
@@ -2335,26 +2634,27 @@
       ],
       "media": [
         {
-          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170117_40648.jpg",
-          "id": "5b09361ad8dbfdbc019905d9",
-          "ordinal": 1,
-          "url": "/api/media/5b09361ad8dbfdbc019905d9",
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "prominent_non_landscape_subject",
-            "subject_flags": [
-              "statue"
-            ]
-          }
-        },
-        {
           "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170236_19371.jpg",
           "id": "5385ee61d7849f7f7fad7997",
           "ordinal": 2,
           "url": "/api/media/5385ee61d7849f7f7fad7997",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "b9dbee38fa961412ccc29d8e4256d14681681ba1b1396f325e9160a8cc3a251c",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 2078.85,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.003173911478370428
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2373,6 +2673,23 @@
           "id": "b09c6de22ee6b175e5c34ab7",
           "ordinal": 3,
           "url": "/api/media/b09c6de22ee6b175e5c34ab7",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "af2200b3b8831d63f5f26a8b4273e0bce80f4480877bfa8282baa72e90c0a0f6",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 449,
+              "sharpness": 6594.42,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.002198687521740794
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2386,6 +2703,23 @@
           "id": "42f5f4a05c736e1a11a4eaf0",
           "ordinal": 4,
           "url": "/api/media/42f5f4a05c736e1a11a4eaf0",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "fcdd44c6765f52b9b9ad2d34295b9816ab7789a56b12b13dfcbdfb9cace1e3bb",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 450,
+              "sharpness": 2113.82,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0036621636245399714
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2399,6 +2733,23 @@
           "id": "613aeebb8de81e30f0ad1f9b",
           "ordinal": 5,
           "url": "/api/media/613aeebb8de81e30f0ad1f9b",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "fbad6468553dfe345050ec381dc694c5ff92171585c5b1941dceeb199a03ffd3",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 1617.37,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0009765625
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2418,6 +2769,23 @@
           "id": "95a0353b5d1f990f6208ab3e",
           "ordinal": 6,
           "url": "/api/media/95a0353b5d1f990f6208ab3e",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "9b87ca57b689cae539c1a922372edbb716fb50d7776472df2d8978f15f3fc9fa",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 534,
+              "sharpness": 2650.54,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.014486555010080338
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2450,6 +2818,11 @@
         "scene_counts": {
           "mountain": 2
         }
+      },
+      "media_review": {
+        "original_count": 6,
+        "approved_count": 5,
+        "hidden_count": 1
       },
       "visual_analysis": {
         "media_total": 6,
@@ -2555,6 +2928,23 @@
           "id": "88758e1ac70dd45b737f2234",
           "ordinal": 1,
           "url": "/api/media/88758e1ac70dd45b737f2234",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "825cce166d777ea2e4a13889221420f7e7a8ab5b1a9e4d53220d2de3ade79402",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 3623.58,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.01904415525496006
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2568,6 +2958,23 @@
           "id": "9b5867f41595cc0469539061",
           "ordinal": 2,
           "url": "/api/media/9b5867f41595cc0469539061",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "1c070d950b1ca281c7ecfb00bce9d2fbdebc46806c69811315cd14653e0901ba",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 533,
+              "sharpness": 1389.71,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.018799005076289177
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2587,6 +2994,23 @@
           "id": "c46cc8c238b27b2f1801966f",
           "ordinal": 3,
           "url": "/api/media/c46cc8c238b27b2f1801966f",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "f4b122a3b38e1e23793094ea4691f4e57f44421a83209562fd51423fefd6fff2",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 523,
+              "sharpness": 1124.47,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.005371197126805782
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2606,6 +3030,23 @@
           "id": "b084e898fb9631c4aa8c0797",
           "ordinal": 4,
           "url": "/api/media/b084e898fb9631c4aa8c0797",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "3c0a2751ace18f9bf8ce8665e5b4f74b2c7124e7ba3770039633433ddb6085e5",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 465,
+              "sharpness": 8472.41,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.008061178028583527
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2624,6 +3065,23 @@
           "id": "2a101b0975f07cf26b677f33",
           "ordinal": 5,
           "url": "/api/media/2a101b0975f07cf26b677f33",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "299fae1130efaf83f617da4152b63d84d008663e47d114467737db0ae9453476",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 450,
+              "sharpness": 412.66,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0890316292643547
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2643,6 +3101,23 @@
           "id": "62742ecebf539976e223ce5f",
           "ordinal": 6,
           "url": "/api/media/62742ecebf539976e223ce5f",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "17718ff3d7616d84e97a8be11ea0524a5c83f2d9f1073f5711798bec55b68495",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 599,
+              "sharpness": 2697.05,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.005859118886291981
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2656,6 +3131,23 @@
           "id": "b07a2ac5478fa2f081169e58",
           "ordinal": 7,
           "url": "/api/media/b07a2ac5478fa2f081169e58",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "7a43f28aa9535a82d99e5b91f7c44cdc862a7f443905e18b10700ed254e8a222",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 449,
+              "sharpness": 2772.25,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.001465126289986074
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": false,
@@ -2669,6 +3161,23 @@
           "id": "90df8b60abbeab2e1ca7c569",
           "ordinal": 8,
           "url": "/api/media/90df8b60abbeab2e1ca7c569",
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "9eb08c9834debd06506ff9dad98fb7a5442f6b3f0014facd495edd2ce8a5d917",
+            "reasons": [],
+            "metrics": {
+              "width": 800,
+              "height": 449,
+              "sharpness": 792.79,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0012593555729836226
+            }
+          },
+          "display_eligible": true,
           "scene_hint": {
             "rule_version": "representative-subject-gate-v1",
             "eligible": true,
@@ -2699,6 +3208,11 @@
           "mountain": 1,
           "water": 4
         }
+      },
+      "media_review": {
+        "original_count": 8,
+        "approved_count": 8,
+        "hidden_count": 0
       },
       "visual_analysis": {
         "media_total": 8,

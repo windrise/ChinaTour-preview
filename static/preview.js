@@ -29,7 +29,7 @@
       if (place !== meta.defaultPlace || !Number.isInteger(month) || month < 1 || month > 12 || !['all','recent','historical'].includes(mode)) return reply({detail:'此预览只包含溧阳的十二个月资料。'},404);
       filename = `api/destination-${place}-${month}-${mode}.json`;
     } else return reply({detail:'此功能仅在本机工作台提供。'},404);
-    const result = await fetch(assetUrl(filename));
+    const result = await fetch(assetUrl(filename) + '?v=' + encodeURIComponent(meta.snapshotAt));
     if (!result.ok) return reply({detail:'预览资料加载失败，请刷新重试。'},result.status);
     return reply(hydrate(await result.json()));
   }
