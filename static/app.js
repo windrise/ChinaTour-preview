@@ -349,9 +349,13 @@ function renderHeroMedia() {
   container.append(make('span', 'media-empty-mark', '景'), make('strong', '', '暂无可展示实景图'), make('small', '', '只有带地点与时间依据的图片，才会进入这里。'));
 }
 
-function monthCounts() {
+function monthCoverage() {
   const supplied = state.data?.coverage?.months;
-  if (Array.isArray(supplied) && supplied.length) return supplied.reduce((result, entry) => { result[integer(entry.month)] = integer(entry.count); return result; }, {});
+  return Array.isArray(supplied) ? supplied.reduce((result, entry) => { result[integer(entry.month)] = entry; return result; }, {}) : {};
+}
+function monthCounts() {
+  const supplied = monthCoverage();
+  if (Object.keys(supplied).length) return Object.fromEntries(Object.entries(supplied).map(([month, entry]) => [month, integer(entry.count)]));
   return (state.data?.evidence || []).reduce((result, item) => { const month = monthOf(item); if (month) result[month] = (result[month] || 0) + 1; return result; }, {});
 }
 function renderStats() {
@@ -369,14 +373,18 @@ function renderStats() {
 function renderMonths() {
   const container = clear($('#month-filter'));
   const counts = monthCounts();
+  const coverage = monthCoverage();
   for (let month = 1; month <= 12; month += 1) {
     const button = make('button', `month-button${state.month === String(month) ? ' active' : ''}`);
     button.type = 'button'; button.dataset.month = String(month); button.setAttribute('aria-pressed', String(state.month === String(month)));
-    button.append(make('span', '', `${month}`), make('small', '', '月'), make('b', '', counts[month] ? String(counts[month]) : '—'));
+    const photos = coverage[month]?.approved_photo_count;
+    const photoLabel = photos === undefined ? (counts[month] ? `${counts[month]} 条` : '—') : integer(photos) ? `${integer(photos)} 图` : '无当月图';
+    button.title = `${integer(counts[month])} 条来源资料 · ${photos === undefined ? '照片数待统计' : `${integer(photos)} 张可展示月份照片`}`;
+    button.append(make('span', '', `${month}`), make('small', '', '月'), make('b', '', photoLabel));
     button.addEventListener('click', () => chooseMonth(String(month)));
     container.append(button);
   }
-  $('#month-heading-note').textContent = '照片优先按现场月份展示；发布月份暂归档会单独标明。';
+  $('#month-heading-note').textContent = '现场月份与发布月份暂归档会分别标明；没有当月照片时留空，不用其他月份或背景图补位。';
 }
 function chooseMonth(month) {
   state.month = month || String(new Date().getMonth() + 1);
@@ -652,11 +660,9 @@ function attractionQueryMatch(attraction) {
 }
 function cardMediaEntries(attraction) {
   const all = attractionMediaEntries(attraction);
-  // Only this month's server-filtered records enter the card. Official images
-  // remain a labeled fallback when no month-associated photos have been found.
+  // Month cards fail closed: background photos with no month never fill gaps.
   const seasonal = all.filter((entry) => entry.monthMatched);
-  const pool = seasonal.length ? seasonal : all;
-  const ordered = [...pool].sort((a, b) => Number(b.landscape) - Number(a.landscape) || Number(b.observedMonth) - Number(a.observedMonth));
+  const ordered = [...seasonal].sort((a, b) => Number(b.observedMonth) - Number(a.observedMonth) || Number(b.landscape) - Number(a.landscape));
   const selected = [];
   const sourceUse = new Map();
   // Give distinct original records a turn before filling from one large album.
@@ -687,7 +693,7 @@ function startPhotoCycle() {
 }
 function createPhotoDeck(container, entries, attraction, card) {
   if (!entries.length) {
-    container.classList.add('media-empty'); container.append(make('span', '', '这个月份的实景图还在搜集')); return;
+    container.classList.add('media-empty'); container.append(make('span', '', '暂无当月可展示照片 · 背景资料仍可点开查看')); return;
   }
   const layers = [];
   const credit = make('span', 'image-credit');
@@ -1076,8 +1082,13 @@ function renderJob(job = state.job) {
     const list = make('ul');
     for (const target of job.search_plan) {
       const item = make('li');
-      item.append(make('strong', '', target.focus === 'practical' ? `${target.name} · ${PRACTICAL_LABELS[target.category] || '实用信息'}` : `${target.name} · ${target.year} 年 ${target.month} 月`));
-      item.append(make('p', '', target.focus === 'practical' ? target.reason : `${target.reason || '补充现场资料'}；规划时已有 ${integer(target.coverage_groups)} 组带时间依据的记录。`));
+      const stageLabel = {city_broad: '全域发现', attraction_broad: '景点发现', month: `${target.month} 月素材检索`}[target.query_stage];
+      item.append(make('strong', '', target.focus === 'practical'
+        ? `${target.name} · ${PRACTICAL_LABELS[target.category] || '实用信息'}`
+        : `${target.name} · ${stageLabel || `${target.year} 年 ${target.month} 月`}`));
+      item.append(make('p', '', target.focus === 'practical' || stageLabel
+        ? target.reason
+        : `${target.reason || '补充现场资料'}；规划时已有 ${integer(target.coverage_groups)} 组带时间依据的记录。`));
       for (const [source, query] of Object.entries(target.source_queries || {})) {
         const executed = (sourceResults[source]?.executed_plan_ids || []).includes(target.id);
         const checkpoint = Array.isArray(browserExecutions[source]?.plans) ? browserExecutions[source].plans.find(plan => String(plan?.plan_id) === String(target.id)) : null;
@@ -1204,6 +1215,10 @@ function attractionMediaEntries(attraction) {
     const time = item === attraction
       ? photoTimeText(attraction, attraction?.photo_time_basis || '未确认')
       : photoTimeText(item, timeBasis(item));
+    const observedMonth = item === attraction ? integer(attraction?.photo_month) === currentMonthNumber() : monthOf(item) === currentMonthNumber();
+    const monthMatched = item === attraction
+      ? integer(attraction?.photo_browse_month || attraction?.photo_month) === currentMonthNumber()
+      : integer(item?.browse_month || item?.month) === currentMonthNumber();
     entries.push({
       url,
       credit: (typeof candidate === 'object' && candidate?.credit) || item?.photo_credit || item?.publisher || (item === attraction ? attraction?.photo_credit : '') || sourceText(item?.source_type),
@@ -1213,8 +1228,8 @@ function attractionMediaEntries(attraction) {
       time,
       landscape: candidate?.scene_hint?.eligible === true,
       subjectExcluded: candidate?.scene_hint?.reason === 'prominent_non_landscape_subject',
-      observedMonth: monthOf(item) === currentMonthNumber(),
-      monthMatched: integer(item?.browse_month || item?.month) === currentMonthNumber(),
+      observedMonth,
+      monthMatched,
     });
   };
   attractionEvidence(attraction).forEach((item) => {
@@ -1284,13 +1299,13 @@ function populateDrawer(attraction) {
   const allEntries = attractionMediaEntries(attraction);
   const preferred = cardMediaEntries(attraction);
   const preferredUrls = new Set(preferred.map((entry) => entry.url));
-  const entries = [...preferred, ...allEntries.filter((entry) => !preferredUrls.has(entry.url))];
+  const entries = [...preferred, ...allEntries.filter((entry) => entry.monthMatched && !preferredUrls.has(entry.url))];
   content.append(make('p', 'drawer-description', attraction.description || '暂无经核对的景点简介。'));
   content.append(drawerPractical(attraction));
-  const filterNote = make('p', 'drawer-photo-note', '照片保留原始来源；人物近景、低清和待审核图片不展示。按发布月份暂归档的照片，拍摄时间仍未知。'); content.append(filterNote);
+  const filterNote = make('p', 'drawer-photo-note', '照片保留原始来源；人物近景、低清和待审核图片不展示。按发布月份暂归档的照片，拍摄时间仍未知；月份未知的背景图不混入这个月。'); content.append(filterNote);
   const localMap = drawerLocalMap(attraction); if (localMap) content.append(localMap);
   const galleryBlock = make('section', 'drawer-gallery-block');
-  const galleryHeading = make('div', 'drawer-gallery-heading'); galleryHeading.append(make('h3', '', '这个月份的照片'), make('span', '', `${entries.length} 张 · 含标注的背景资料`)); galleryBlock.append(galleryHeading);
+  const galleryHeading = make('div', 'drawer-gallery-heading'); galleryHeading.append(make('h3', '', '这个月份的照片'), make('span', '', entries.length ? `${entries.length} 张 · 现场月/发布月依据见图注` : '暂无当月照片 · 背景文字仍保留')); galleryBlock.append(galleryHeading);
   if (entries.length) {
     const gallery = make('div', 'drawer-gallery'); entries.slice(0, 6).forEach((entry, index) => gallery.append(drawerPhoto(entry, attraction, index))); galleryBlock.append(gallery);
     if (entries.length > 6) {
