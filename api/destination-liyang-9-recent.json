@@ -1,0 +1,5146 @@
+{
+  "destination": {
+    "id": "liyang",
+    "name": "溧阳",
+    "description": "沿着湖岸、竹林与山野，寻找这个月份值得出发的风景。"
+  },
+  "attractions": [
+    {
+      "id": "place_a56c09bc013d4921",
+      "name": "天目湖山水园",
+      "lat": 31.3037721,
+      "lon": 119.4286978,
+      "description": "天目湖山水园,国家5A级景区。作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138952.html",
+      "photo_url": "/api/media/53e479ef096f867b3b529df7",
+      "photo_credit": "八姑婆-",
+      "photo_time_basis": "作者明确日期 · 照片未独立核验",
+      "photo_source_url": "https://weibo.com/2275491451/OzefHgpl6",
+      "evidence_count": 11,
+      "months": [
+        2,
+        4,
+        9,
+        10,
+        11
+      ],
+      "map_source_url": "https://www.openstreetmap.org/way/334129142",
+      "coordinate_system": "WGS84",
+      "local_map": {
+        "title": "天目湖山水园 · 园内导览",
+        "image_url": "/static/maps/tmhtour-guide-2.jpg",
+        "source_url": "http://www.tmhtour.com/shows/17/208.html",
+        "source_label": "天目湖旅游官网",
+        "description": "官网导览图，版本日期未注明；线路与设施以现场开放情况为准。",
+        "retrieved_at": "2026-09-20",
+        "original_image_url": "http://www.tmhtour.com/uploads/images/20230604/923c03c08df7ba3f55807e748c470199.jpg",
+        "sha256": "9707f743b57c06e335daf71b648386370d6e0439804a435e9be8a63263506254"
+      }
+    },
+    {
+      "id": "place_e110a91eefb442ea",
+      "name": "南山竹海",
+      "lat": 31.1707134,
+      "lon": 119.5200143,
+      "description": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
+      "photo_url": "/api/media/5ead210ca9fd6b8f43dd8df9",
+      "photo_credit": "鹿宝妈妈_",
+      "photo_time_basis": "相对时间推算 · 现场日期未独立核验",
+      "photo_source_url": "https://weibo.com/7216240984/Ozgp5t6vt",
+      "evidence_count": 26,
+      "months": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "map_source_url": "https://www.openstreetmap.org/way/334129131",
+      "coordinate_system": "WGS84",
+      "local_map": {
+        "title": "南山竹海 · 园内导览",
+        "image_url": "/static/maps/tmhtour-guide-3.jpg",
+        "source_url": "http://www.tmhtour.com/shows/17/208.html",
+        "source_label": "天目湖旅游官网",
+        "description": "官网导览图，版本日期未注明；线路与设施以现场开放情况为准。",
+        "retrieved_at": "2026-09-20",
+        "original_image_url": "http://www.tmhtour.com/uploads/images/20230604/a3b019e9f43a4d62d7521b35816dedee.jpg",
+        "sha256": "941ac9e9862ce370d5d5427ae0408362c98d983608b87b5a018d361837feab44"
+      }
+    },
+    {
+      "id": "place_5cac37d1059a4eca",
+      "name": "御水温泉",
+      "lat": 31.1832902,
+      "lon": 119.5286808,
+      "description": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
+      "photo_url": "/api/media/44848c483c5724c271432792",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
+      "evidence_count": 6,
+      "months": [
+        8,
+        10,
+        12
+      ],
+      "map_source_url": "https://www.openstreetmap.org/way/377650120",
+      "coordinate_system": "WGS84",
+      "local_map": {
+        "title": "御水温泉 · 园内导览",
+        "image_url": "/static/maps/tmhtour-guide-4.jpg",
+        "source_url": "http://www.tmhtour.com/shows/17/208.html",
+        "source_label": "天目湖旅游官网",
+        "description": "官网导览图，版本日期未注明；线路与设施以现场开放情况为准。",
+        "retrieved_at": "2026-09-20",
+        "original_image_url": "http://www.tmhtour.com/uploads/images/20230604/cafade517736198a64148d92852bae2e.jpg",
+        "sha256": "794d5bf6ca198cfaa33e5acd9ca9e5f3fc816d302cde2b667e5693363c45c130"
+      }
+    },
+    {
+      "id": "place_c194c49525e140d0",
+      "name": "曹山旅游度假区",
+      "lat": null,
+      "lon": null,
+      "description": "曹山旅游度假区，2018年1月被江苏省人民政府批准为省级旅游度假区。曹山旅游度假区依托优良的生态环境、深厚的文化积淀、丰富的现代农业资源、优越的区位条件，以“七彩曹山”为主题，融生态农业、乡村文化、运动休闲、养生度假于一体，着力打造“养眼、养身、养心”三个层次的旅游产品体系，建设特色乡村旅游度假目的地。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138949.html",
+      "photo_url": "/api/media/f00aaef831c6ba8380ba4534",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138949.html",
+      "evidence_count": 1,
+      "months": [],
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_183ab381969345da",
+      "name": "新四军江南指挥部纪念馆",
+      "lat": 31.5096085,
+      "lon": 119.33798445,
+      "description": "新四军江南指挥部纪念馆,国家4A级景区。位于竹箦镇水西村内，依托新四军江南指挥部旧址而建。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138948.html",
+      "photo_url": "/api/media/d35ea30773ed56115334501e",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138948.html",
+      "evidence_count": 1,
+      "months": [],
+      "map_source_url": "https://www.openstreetmap.org/way/334129153",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_b056a5774794434a",
+      "name": "史侯祠",
+      "lat": null,
+      "lon": null,
+      "description": "史侯祠，国家3A级景区。位于埭头镇，始建于东汉初年，是为纪念东汉名将、溧阳侯史崇而建的祭祀建筑群，距今有2000多年历史。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138947.html",
+      "photo_url": "/api/media/8f275154d2d6e5fcb41c071f",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138947.html",
+      "evidence_count": 1,
+      "months": [],
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_7bf2baddf01440af",
+      "name": "松岭竹海漂流",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": "/api/media/6bf1614b73a0dfaeeb1e5f7c",
+      "photo_credit": "再来一杯杨枝甘露",
+      "photo_time_basis": "作者描述月份 · 年份待补证",
+      "photo_source_url": "https://www.xiaohongshu.com/explore/6a9e239400000000120025c2",
+      "evidence_count": 1,
+      "months": [
+        9
+      ],
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_0d84eaec06754413",
+      "name": "仙山十三岭",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": "/api/media/4a5a7ff5e847cb9907b17ae7",
+      "photo_credit": "DAYKNIGHT",
+      "photo_time_basis": "作者描述月份 · 年份待补证",
+      "photo_source_url": "https://www.xiaohongshu.com/explore/6aaf266b0000000025037bef",
+      "evidence_count": 1,
+      "months": [
+        9
+      ],
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_94313cc9590e48a6",
+      "place_id": "place_a56c09bc013d4921",
+      "title": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的",
+      "excerpt": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的乐趣，感受丰收的喜悦，蛮好溧阳·天目湖山水园 。 ​​​",
+      "published_at": null,
+      "fetched_at": "2026-09-20T10:47:44.200064+00:00",
+      "observed_start": "2024-09-28",
+      "observed_end": "2024-09-28",
+      "month": 9,
+      "year": 2024,
+      "kind": "observation",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/2275491451/OzefHgpl6",
+      "publisher": "八姑婆-",
+      "place_name": "天目湖山水园",
+      "media_count": 9,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "author_explicit_date",
+      "time_excerpt": "原帖开头日期与游览叙述「20240928。天目湖山水园现在多了个名字,宴夜天目湖,里面弄了个晒秋,让小朋友玩水的时候,了解秋天农家晒秋茶、晒秋收农作物,在茶村体验晒秋的乐趣,感受丰收的喜悦,蛮好溧阳·天目湖山水园 。 ​​​」；作者自注日期，照片日期未独立核验",
+      "published_label": "24-9-29 15:23",
+      "captured_at": "2026-09-20T10:47:44.200064+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lyzgr3oj21900u0dzf.jpg",
+          "id": "53e479ef096f867b3b529df7",
+          "ordinal": 1,
+          "url": "/api/media/53e479ef096f867b3b529df7",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lywh8z9j21900u0qfm.jpg",
+          "id": "8e692e494fc68ce77cc8a4ef",
+          "ordinal": 2,
+          "url": "/api/media/8e692e494fc68ce77cc8a4ef",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lytvmcvj21900u0tp3.jpg",
+          "id": "81c6e114e05bc45be85ca87d",
+          "ordinal": 3,
+          "url": "/api/media/81c6e114e05bc45be85ca87d",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lyt9ecij21900u017k.jpg",
+          "id": "21a32a74185b50eefb8f3764",
+          "ordinal": 4,
+          "url": "/api/media/21a32a74185b50eefb8f3764",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lyvkbucj22ve2aqkjm.jpg",
+          "id": "dabfd4086274b77d051a57c6",
+          "ordinal": 5,
+          "url": "/api/media/dabfd4086274b77d051a57c6",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lywxmgkj20sc14gn91.jpg",
+          "id": "d2cc5394d390c650ac7a0fb8",
+          "ordinal": 6,
+          "url": "/api/media/d2cc5394d390c650ac7a0fb8",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lyy74kjj20zm0u0qkk.jpg",
+          "id": "4b0b1c08901b80652310bba8",
+          "ordinal": 7,
+          "url": "/api/media/4b0b1c08901b80652310bba8",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lyyvsxlj21900u0wqo.jpg",
+          "id": "4d84b8dc483595d353643aca",
+          "ordinal": 8,
+          "url": "/api/media/4d84b8dc483595d353643aca",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:87a13e7bgy1hu4lysqarhj20u0186tks.jpg",
+          "id": "00fa4681e27c1efea3870edd",
+          "ordinal": 9,
+          "url": "/api/media/00fa4681e27c1efea3870edd",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "作者明确日期 · 照片未独立核验",
+      "material_date": "2024-09-29",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2024,
+      "browse_time_basis": "author_explicit_date",
+      "browse_time_label": "作者明确日期 · 照片未独立核验",
+      "visual_content": {
+        "analyzed": 9,
+        "total": 9,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 9,
+        "analyzed_media": 9,
+        "full_pixel_media": 9,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "53e479ef096f867b3b529df7",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "8e692e494fc68ce77cc8a4ef",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "81c6e114e05bc45be85ca87d",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "21a32a74185b50eefb8f3764",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "dabfd4086274b77d051a57c6",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "d2cc5394d390c650ac7a0fb8",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "4b0b1c08901b80652310bba8",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "4d84b8dc483595d353643aca",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "00fa4681e27c1efea3870edd",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_cf65df2319bf45ec",
+      "place_id": "place_e110a91eefb442ea",
+      "title": "2026.9.19常州溧阳南山竹海跑游",
+      "excerpt": "1. 整体感受：\n1. 跑了10公里，700米的爬升，训练旅游兼顾了，挺好；\n2. 没有想到常州有这么多连绵不断的人，以及这么漂亮的竹海；\n3. 都是铺装路面，越野的性能下降了一些；\n4. 台阶路比较多。刚进山有一段缓坡，上下坡跑的蛮舒服的。\n2. 上午环天目湖骑行100公里，中午围绕大溪水库转了一圈，也没能找到游泳的地方，就放弃，直接导航到南山竹林；在来之前就计划跑个山，就下载了20公里的南山轨迹；\n3. 只跑了景区这一段路，再想前没有看到路，不知道是不是被封了，不过两上两下，回到车那边天也已经黑了，如果按照轨迹跑，估计要在夜里跑个3个小时左右！\n#南山竹海#越野跑游",
+      "published_at": null,
+      "fetched_at": "2026-09-20T09:50:43.887825+00:00",
+      "observed_start": "2026-09-19",
+      "observed_end": "2026-09-19",
+      "month": 9,
+      "year": 2026,
+      "kind": "observation",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xiaohongshu.com/explore/6aaf9eb6000000002502f357",
+      "publisher": "RawFlow",
+      "place_name": "南山竹海",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "xiaohongshu",
+      "time_basis": "author_explicit_date",
+      "time_excerpt": "2026.9.19",
+      "published_label": "51分钟前",
+      "captured_at": "2026-09-20T09:50:43.887825+00:00",
+      "topics": [
+        "湖泊",
+        "竹林"
+      ],
+      "media": [],
+      "claims": [],
+      "confidence_label": "作者明确日期 · 照片未独立核验",
+      "material_date": "2026-09-20",
+      "material_time_basis": "根据相对发布时间估计，非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "author_explicit_date",
+      "browse_time_label": "作者明确日期 · 照片未独立核验",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_92d04cb36b08475b",
+      "place_id": "place_e110a91eefb442ea",
+      "title": "溧阳亲子游Day2 能让鹿宝全程没有喊累，还主动牵一路🐶可可的一天就是最到位的👏 为了方便大家参考，我把行程分两段写哈，今天早上10:00到下午",
+      "excerpt": "溧阳亲子游Day2\n\n能让鹿宝全程没有喊累，还主动牵一路🐶可可的一天就是最到位的👏\n\n为了方便大家参考，我把行程分两段写哈，今天早上10:00到下午14:00都是在南山竹海这个溧阳著名景点度过的逛下来我觉得非常适合亲子带娃，可逛性挺高的，不仅仅是单纯的一个风景秀丽的地方～\n\n1米4以下儿童免票，只需要买各种交通票就行，进景区之后先是乘坐小火车到寿星广场，这里分了两条线，一条坐地轨小火车（图3）去看大熊猫，一条坐高空缆车去登山，带娃果断选择熊猫🐼线～但是这条线不能带🐶所以鹿爸就在广场等我们。\n\n我以为熊猫线就是看个熊猫，没想到上去还有个古村落鸡鸣村，还能看舞狮表演，舞狮还跟迪士尼明星一样一个个小互动过去的～\n\n看完舞狮走几步又能去看熊猫，一丁点儿也不累，虽然也只有2只大熊猫啦！但是体验总比成都好点\n\n看完熊猫再坐地轨小火车返程回寿星广场，然后就一路步行到出口，这一路上还有个小鸟天堂，可以喂鸟，看剧场表演，观赏不同种类的鸟（就是比较可惜都是隔着玻璃或者笼子的）。\n\n而且这条路还是个溯溪线，道路两旁都是小溪流，想下水玩随时下去玩就行！想拍点好看的照片也有个溯溪咖啡馆可以拍拍。\n\n快到出口的地方可以坐竹筏，一问💰200，我想砍到150💰没成功就没坐这一趟下来其实挺累的，但是鹿宝非常沉浸，看鸟的时候根本不愿意错过任何一只鸟！是很开心的一站！\n\n唯一不太满意的地方，就是景区的饭实在太难吃28💰一份的酸辣粉我想着总不会出错吧，但凡给我个方便即食的都不会这么难吃咖喱牛肉饭也是非常一般💔大家可以带着点干粮，多带水！\n\n或者早上早点入园，争取饭点就逛完，从南山竹海出来有家“再回楼农家饭店”味道不错，我们今天晚上去吃的，133💰鱼头套餐！着实好吃到了😋\n#鹿旅记##微博旅行家##带着微博去旅行##快乐万岁##微博影像年#",
+      "published_at": null,
+      "fetched_at": "2026-09-20T09:42:39.942522+00:00",
+      "observed_start": "2024-09-29",
+      "observed_end": "2024-09-29",
+      "month": 9,
+      "year": 2024,
+      "kind": "observation",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/7216240984/Ozgp5t6vt",
+      "publisher": "鹿宝妈妈_",
+      "place_name": "南山竹海",
+      "media_count": 17,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "author_relative_date",
+      "time_excerpt": "推算 2024-09-29：正文「今天早上10:00到下午14:00都是在南山竹海这个溧阳著名景点度过的逛下来我觉得非常适合亲子带娃,可逛性挺高的,不仅仅是单纯的一个风景秀丽的地方~」；原帖日期 2024-09-29（页面未标注编辑）",
+      "published_label": "24-9-29 20:52",
+      "captured_at": "2026-09-20T09:42:39.942522+00:00",
+      "topics": [
+        "竹林"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4um816kfj32c0340e83.jpg",
+          "id": "9f000a26721d744fb2663084",
+          "ordinal": 1,
+          "url": "/api/media/9f000a26721d744fb2663084",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "animal",
+              "child",
+              "mammal",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4um9v6onj32c03404qs.jpg",
+          "id": "5ead210ca9fd6b8f43dd8df9",
+          "ordinal": 2,
+          "url": "/api/media/5ead210ca9fd6b8f43dd8df9",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.4499390125274658,
+            "scene_scores": {
+              "vegetation": 0.4499390125274658
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umc7kt9j32c0340npg.jpg",
+          "id": "9a43458dccef9d9abdf7ea6d",
+          "ordinal": 3,
+          "url": "/api/media/9a43458dccef9d9abdf7ea6d",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4um8v36qj31e81uze25.jpg",
+          "id": "faa44723a749d8f4eb968b55",
+          "ordinal": 4,
+          "url": "/api/media/faa44723a749d8f4eb968b55",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "animal",
+              "mammal"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4ume9slhj32c0340hdx.jpg",
+          "id": "31dbc2c5d407a03047c656be",
+          "ordinal": 5,
+          "url": "/api/media/31dbc2c5d407a03047c656be",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umfsf1xj32c03407wk.jpg",
+          "id": "c1911c3baafdf2cc29d3b90b",
+          "ordinal": 6,
+          "url": "/api/media/c1911c3baafdf2cc29d3b90b",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umh7p3zj32c0340b2b.jpg",
+          "id": "2b0e82a9cb5c53c2f802c1f9",
+          "ordinal": 7,
+          "url": "/api/media/2b0e82a9cb5c53c2f802c1f9",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people",
+              "statue"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umiqnnwj32c03401l2.jpg",
+          "id": "8377e6bd70e9e8ffd1677da9",
+          "ordinal": 8,
+          "url": "/api/media/8377e6bd70e9e8ffd1677da9",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umkgfcuj32c0340hdx.jpg",
+          "id": "f6a70ff26d141f3754a700f7",
+          "ordinal": 9,
+          "url": "/api/media/f6a70ff26d141f3754a700f7",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umlo1smj32c0340u0y.jpg",
+          "id": "221af10c71c904d10af4b420",
+          "ordinal": 10,
+          "url": "/api/media/221af10c71c904d10af4b420",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umniv5hj32c03407wm.jpg",
+          "id": "e1976cf78148a2e2b6fdcf40",
+          "ordinal": 11,
+          "url": "/api/media/e1976cf78148a2e2b6fdcf40",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umqavwqj34eo4ejb2e.jpg",
+          "id": "b966104c121c6488af58b4bb",
+          "ordinal": 12,
+          "url": "/api/media/b966104c121c6488af58b4bb",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "animal",
+              "mammal"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umri6jfj32c0340hdv.jpg",
+          "id": "71eba289dc2f9e27675dc118",
+          "ordinal": 13,
+          "url": "/api/media/71eba289dc2f9e27675dc118",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4uoo42orj30or0x1qbq.jpg",
+          "id": "226df2f7ca1601f9ca2e499f",
+          "ordinal": 14,
+          "url": "/api/media/226df2f7ca1601f9ca2e499f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umsv2chj32c0340e84.jpg",
+          "id": "13a0a083f62d4fe8e730d190",
+          "ordinal": 15,
+          "url": "/api/media/13a0a083f62d4fe8e730d190",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people",
+              "statue"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umug4rpj32c0340u11.jpg",
+          "id": "363ece838c05fe82a43a990c",
+          "ordinal": 16,
+          "url": "/api/media/363ece838c05fe82a43a990c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:007SmBVCgy1hu4umvzfvcj32c0340b2c.jpg",
+          "id": "1facad0ea82a88280adfd896",
+          "ordinal": 17,
+          "url": "/api/media/1facad0ea82a88280adfd896",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "相对时间推算 · 现场日期未独立核验",
+      "material_date": "2024-09-29",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2024,
+      "browse_time_basis": "author_relative_date",
+      "browse_time_label": "相对时间推算 · 现场日期未独立核验",
+      "visual_content": {
+        "analyzed": 17,
+        "total": 17,
+        "scene_counts": {
+          "vegetation": 1
+        }
+      },
+      "visual_analysis": {
+        "media_total": 17,
+        "analyzed_media": 17,
+        "full_pixel_media": 17,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "9f000a26721d744fb2663084",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "5ead210ca9fd6b8f43dd8df9",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "9a43458dccef9d9abdf7ea6d",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "faa44723a749d8f4eb968b55",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "31dbc2c5d407a03047c656be",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "c1911c3baafdf2cc29d3b90b",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "2b0e82a9cb5c53c2f802c1f9",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "8377e6bd70e9e8ffd1677da9",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "f6a70ff26d141f3754a700f7",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "221af10c71c904d10af4b420",
+            "ordinal": 10,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "e1976cf78148a2e2b6fdcf40",
+            "ordinal": 11,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b966104c121c6488af58b4bb",
+            "ordinal": 12,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "71eba289dc2f9e27675dc118",
+            "ordinal": 13,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "226df2f7ca1601f9ca2e499f",
+            "ordinal": 14,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "13a0a083f62d4fe8e730d190",
+            "ordinal": 15,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "363ece838c05fe82a43a990c",
+            "ordinal": 16,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "1facad0ea82a88280adfd896",
+            "ordinal": 17,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_0f87f74041b14132",
+      "place_id": "place_0d84eaec06754413",
+      "title": "9月19日 溧阳仙山十三岭",
+      "excerpt": "野菜不会认，🌰还能不认识嘛\n\t\n路况。仙山这里的路线还是蛮多的，原本选择15km的大环线，但走错一个路口，最终华为手表记录14km（两步路app才记录12km）。稍有难度，爬升集中在前面的8km，爬升比约1:100 ~怪不得觉得累啊不少路段提供了绳索使用，所以戴上手套会轻松很多。\n\t\n捡栗子。集中在前面的一公里，应该不算也板栗吧，感觉是集中种植的，但好像也没人管，适量采摘吧。板栗外壳太扎手了，务必准备周全！！看到其他有经验的人是拿了竹篮等篮子带下山慢慢开（塑料袋必然被扎的千疮百孔）。\n\t\n无痕山野。江南雪村的停车场去起点的路上有个游客服务中心，门面不大，别错过了。和里面的小姐姐登记信息就可以领垃圾袋了。礼物兑换是根据垃圾袋数量进阶的，所以能力够的话，多要几个，应该可以装的满（有种无奈呢）。总体没想象的多，但也不少。我们把塑料瓶都压扁都能放满3袋。如果真没有的话，可以捡路上设置的垃圾桶的吧，就是桶比较深\n\t\n柿柿如意。出了山，村子家家户户的院子都种了柿子。红彤彤的很是诱人。不过只有一家老奶奶是没有围墙的，人也特别好，让我们徒步佬可以随便摘（低处的都没有了，一定要拉上高个子的朋友啊）。\n\t\n补给。山上全程无补给。但是差不多8公里下山后就有厕所和补给点了，所以可以根据个人情况适当准备，2L水应该足够了。\n\t\n蚊子还是很多，隔着手套衣服都能狠狠扎进去，驱蚊水必不可少啊。\n\t\n#户外徒步 #每年就等这一口 #秋季去爬山",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:30:43.171014+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": 9,
+      "year": null,
+      "kind": "observation",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xiaohongshu.com/explore/6aaf266b0000000025037bef",
+      "publisher": "DAYKNIGHT",
+      "place_name": "仙山十三岭",
+      "media_count": 18,
+      "media_status": "link_only",
+      "source_type": "xiaohongshu",
+      "time_basis": "author_month_only",
+      "time_excerpt": "9月19日",
+      "published_label": "8小时前 上海",
+      "captured_at": "2026-09-20T08:30:43.171014+00:00",
+      "topics": [
+        "徒步"
+      ],
+      "media": [
+        {
+          "asset_id": "1040g2sg325amvo2ikqk0401fa67fn766g52hhfo",
+          "id": "4a5a7ff5e847cb9907b17ae7",
+          "ordinal": 1,
+          "url": "/api/media/4a5a7ff5e847cb9907b17ae7",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g3qg325amvo2h4e5g401fa67fn7667qo5048",
+          "id": "7d931c7e028812fd26ffb1af",
+          "ordinal": 2,
+          "url": "/api/media/7d931c7e028812fd26ffb1af",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqj0401fa67fn7662k8f8p0",
+          "id": "d5c23072993e8e7eb358a634",
+          "ordinal": 3,
+          "url": "/api/media/d5c23072993e8e7eb358a634",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325anlota500g401fa67fn766r2qfdeo",
+          "id": "17524563fef9a3ddd62dc056",
+          "ordinal": 4,
+          "url": "/api/media/17524563fef9a3ddd62dc056",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325anlota505g401fa67fn766rhkd9b0",
+          "id": "7eff4069ccff5b754b868693",
+          "ordinal": 5,
+          "url": "/api/media/7eff4069ccff5b754b868693",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325anlota5060401fa67fn766223ftsg",
+          "id": "7f1f2d26d6e99df52025582b",
+          "ordinal": 6,
+          "url": "/api/media/7f1f2d26d6e99df52025582b",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325anlota506g401fa67fn766rs4qvn0",
+          "id": "aca4b2cbfaa1f72812ba7a13",
+          "ordinal": 7,
+          "url": "/api/media/aca4b2cbfaa1f72812ba7a13",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqe0401fa67fn766so5g4b8",
+          "id": "3ba4da8aacf50e50d4123233",
+          "ordinal": 8,
+          "url": "/api/media/3ba4da8aacf50e50d4123233",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqeg401fa67fn766qeh0sm0",
+          "id": "68a5719a54335de72717c33c",
+          "ordinal": 9,
+          "url": "/api/media/68a5719a54335de72717c33c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqf0401fa67fn7668ok29q8",
+          "id": "4fd5aaff68b13f438daafc95",
+          "ordinal": 10,
+          "url": "/api/media/4fd5aaff68b13f438daafc95",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqjg401fa67fn766pbufrl0",
+          "id": "713f64503718f7ff01411346",
+          "ordinal": 11,
+          "url": "/api/media/713f64503718f7ff01411346",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqfg401fa67fn7665v285c0",
+          "id": "0e50edfc72cde720e9ac7969",
+          "ordinal": 12,
+          "url": "/api/media/0e50edfc72cde720e9ac7969",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqg0401fa67fn766j7oc00o",
+          "id": "ede6d380573efe1a062ad5c0",
+          "ordinal": 13,
+          "url": "/api/media/ede6d380573efe1a062ad5c0",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqh0401fa67fn766u7aaqn8",
+          "id": "f396c2aafbd42e5970abdf11",
+          "ordinal": 14,
+          "url": "/api/media/f396c2aafbd42e5970abdf11",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqi0401fa67fn76628eefko",
+          "id": "273490bb8c450221ccfc3f22",
+          "ordinal": 15,
+          "url": "/api/media/273490bb8c450221ccfc3f22",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqhg401fa67fn766jjespeo",
+          "id": "6f62497e5b55aedd676998c0",
+          "ordinal": 16,
+          "url": "/api/media/6f62497e5b55aedd676998c0",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqgg401fa67fn766557tfh8",
+          "id": "000773b326af3c43286805bc",
+          "ordinal": 17,
+          "url": "/api/media/000773b326af3c43286805bc",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g2sg325amvo2ikqig401fa67fn766no3asn8",
+          "id": "9a36e4c1a80ee5674c07ca39",
+          "ordinal": 18,
+          "url": "/api/media/9a36e4c1a80ee5674c07ca39",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "作者描述月份 · 年份待补证",
+      "material_date": "2026-09-20",
+      "material_time_basis": "根据相对发布时间估计，非拍摄日期",
+      "browse_month": 9,
+      "browse_year": null,
+      "browse_time_basis": "author_month_only",
+      "browse_time_label": "作者描述月份 · 年份待补证",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 18,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 18,
+        "analyzed_media": 18,
+        "full_pixel_media": 5,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "4a5a7ff5e847cb9907b17ae7",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7d931c7e028812fd26ffb1af",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "d5c23072993e8e7eb358a634",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "17524563fef9a3ddd62dc056",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7eff4069ccff5b754b868693",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7f1f2d26d6e99df52025582b",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "aca4b2cbfaa1f72812ba7a13",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "3ba4da8aacf50e50d4123233",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "68a5719a54335de72717c33c",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "4fd5aaff68b13f438daafc95",
+            "ordinal": 10,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "713f64503718f7ff01411346",
+            "ordinal": 11,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "0e50edfc72cde720e9ac7969",
+            "ordinal": 12,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "ede6d380573efe1a062ad5c0",
+            "ordinal": 13,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "f396c2aafbd42e5970abdf11",
+            "ordinal": 14,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "273490bb8c450221ccfc3f22",
+            "ordinal": 15,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "6f62497e5b55aedd676998c0",
+            "ordinal": 16,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "000773b326af3c43286805bc",
+            "ordinal": 17,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "9a36e4c1a80ee5674c07ca39",
+            "ordinal": 18,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_40452024d3a846d4",
+      "place_id": "place_7bf2baddf01440af",
+      "title": "9月溧阳松岭竹海漂流",
+      "excerpt": "🎫门票:198/双人\n必备:水瓢、防水手机套、棉签、洗发水、换洗衣物、毛巾、拖鞋\n:导航到终点停车场，有免费接驳车送到漂流起点，自己拿头盔和救生衣穿好检票。\n九月第一周周末，人不多，不需要排队等。漂流时长大概1.5h，途中有很多“服务区”卖装备小吃。\n\t\n水质不好，可以看到附近村里的生活用水排进来。水位也不高，有的地方明显感觉到石头硌屁股。水流不是很急，适合毛孩子和小朋友。打水仗的时候水进到耳朵和眼里会不舒服。\n\t\n洗澡热水很舒服，洗浴间外面有一排吹风机，也可以自带吹风机。\n🚗停车费:10元\n#玩水还松弛 #漂流 #松岭竹海漂流",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:18:23.539138+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": 9,
+      "year": null,
+      "kind": "observation",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xiaohongshu.com/explore/6a9e239400000000120025c2",
+      "publisher": "再来一杯杨枝甘露",
+      "place_name": "松岭竹海漂流",
+      "media_count": 5,
+      "media_status": "link_only",
+      "source_type": "xiaohongshu",
+      "time_basis": "author_month_only",
+      "time_excerpt": "9月",
+      "published_label": "09-07 江苏",
+      "captured_at": "2026-09-20T08:18:23.539138+00:00",
+      "topics": [
+        "漂流",
+        "竹林"
+      ],
+      "media": [
+        {
+          "asset_id": "1040g3k8324q3v3nl0s005n3v5to5nfcuj42j98g",
+          "id": "6bf1614b73a0dfaeeb1e5f7c",
+          "ordinal": 1,
+          "url": "/api/media/6bf1614b73a0dfaeeb1e5f7c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g3k8324q3v3ra74005n3v5to5nfcuqtav2dg",
+          "id": "d92287e97168ee81ab39a028",
+          "ordinal": 2,
+          "url": "/api/media/d92287e97168ee81ab39a028",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g3k8324q3v42fmu005n3v5to5nfcuna4rhgg",
+          "id": "0be1331169f7c4b19e64ec3c",
+          "ordinal": 3,
+          "url": "/api/media/0be1331169f7c4b19e64ec3c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g3k8324q36vbj1g7g5n3v5to5nfcu19sb3u0",
+          "id": "dfcfbd3d2c1e88d3c545c6d8",
+          "ordinal": 4,
+          "url": "/api/media/dfcfbd3d2c1e88d3c545c6d8",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g3k8324q36vbj1ga05n3v5to5nfcu58jun0g",
+          "id": "f27614cefc4e198f19440716",
+          "ordinal": 5,
+          "url": "/api/media/f27614cefc4e198f19440716",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "作者描述月份 · 年份待补证",
+      "material_date": "2026-09-07",
+      "material_time_basis": "发布日期年份由页面短日期推断，非拍摄年份",
+      "browse_month": 9,
+      "browse_year": null,
+      "browse_time_basis": "author_month_only",
+      "browse_time_label": "作者描述月份 · 年份待补证",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 5,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 5,
+        "analyzed_media": 5,
+        "full_pixel_media": 5,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "6bf1614b73a0dfaeeb1e5f7c",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "d92287e97168ee81ab39a028",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "0be1331169f7c4b19e64ec3c",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "dfcfbd3d2c1e88d3c545c6d8",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "f27614cefc4e198f19440716",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_a6c2a8d510d943ef",
+      "place_id": "place_e110a91eefb442ea",
+      "title": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～ 打卡溧阳南山竹海～的确是漫山遍野的竹",
+      "excerpt": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～\n\n打卡溧阳南山竹海～的确是漫山遍野的竹林，沿路栽种的桂花飘香，沉浸在大自然里的心旷神怡\n\n坐了轨道看起来很像过山车实际也就小火车速度的观光缆车，进了熊猫馆才后知后觉地发现这里的两只熊猫原来是星安和华丽我总在早上看他们的吃播，虽然看得津津有味但是一直不知道他们生活在哪个熊猫馆结果就有一种一不小心线下追到爱豆的兴奋～\n\n可惜只拍到星安，华丽睡得太香了",
+      "published_at": null,
+      "fetched_at": "2026-09-20T10:47:44.197561+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/2303852471/OzpTytTcv",
+      "publisher": "Bonnie加加油",
+      "place_name": "南山竹海",
+      "media_count": 9,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "24-9-30 21:02",
+      "captured_at": "2026-09-20T10:47:44.197561+00:00",
+      "topics": [
+        "竹林"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61i6sefpj21400u0dr1.jpg",
+          "id": "4e7fbcc006bd940040806e83",
+          "ordinal": 1,
+          "url": "/api/media/4e7fbcc006bd940040806e83",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.923828125,
+            "scene_scores": {
+              "water": 0.7939453125,
+              "mountain": 0.923828125
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61i77c3sj20u0140dry.jpg",
+          "id": "5f3fcf0c8911dc95c3a7167f",
+          "ordinal": 2,
+          "url": "/api/media/5f3fcf0c8911dc95c3a7167f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61i7wut5j20u014049s.jpg",
+          "id": "7292b8319aeb4423311cde38",
+          "ordinal": 3,
+          "url": "/api/media/7292b8319aeb4423311cde38",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61i8gfv8j20u0140doh.jpg",
+          "id": "5a0edfd852a8fd0894395b19",
+          "ordinal": 4,
+          "url": "/api/media/5a0edfd852a8fd0894395b19",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "child",
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61ia7mdej20u0140wu5.jpg",
+          "id": "0f5a8d3ad9445f6a65c06ed4",
+          "ordinal": 5,
+          "url": "/api/media/0f5a8d3ad9445f6a65c06ed4",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.7750297784805298,
+            "scene_scores": {
+              "vegetation": 0.7750297784805298
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61iasn2ej20u01hcdq7.jpg",
+          "id": "eaee2b7c34c066236bff9a4e",
+          "ordinal": 6,
+          "url": "/api/media/eaee2b7c34c066236bff9a4e",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "animal",
+              "mammal"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61ibroh2j20u01hctlk.jpg",
+          "id": "cfa048a8f031bec26425218c",
+          "ordinal": 7,
+          "url": "/api/media/cfa048a8f031bec26425218c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "animal",
+              "mammal"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61ichh6oj20u0140gv5.jpg",
+          "id": "532cc762a92af1b17136f634",
+          "ordinal": 8,
+          "url": "/api/media/532cc762a92af1b17136f634",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:8951ffb7gy1hu61i6cgukj20u0140jyv.jpg",
+          "id": "ad3f7b909fd6d289fa34d51b",
+          "ordinal": 9,
+          "url": "/api/media/ad3f7b909fd6d289fa34d51b",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2024-09-30",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2024,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 9,
+        "total": 9,
+        "scene_counts": {
+          "mountain": 1,
+          "vegetation": 1
+        }
+      },
+      "visual_analysis": {
+        "media_total": 9,
+        "analyzed_media": 9,
+        "full_pixel_media": 9,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "4e7fbcc006bd940040806e83",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "5f3fcf0c8911dc95c3a7167f",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7292b8319aeb4423311cde38",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "5a0edfd852a8fd0894395b19",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "0f5a8d3ad9445f6a65c06ed4",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "eaee2b7c34c066236bff9a4e",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "cfa048a8f031bec26425218c",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "532cc762a92af1b17136f634",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "ad3f7b909fd6d289fa34d51b",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_edac0c9e0fb84917",
+      "place_id": "liyang",
+      "title": "Lao乾媽超话#生活手记# 天目湖打卡，常超啊，怎么感觉哪儿都有你 ​​​",
+      "excerpt": "Lao乾媽超话#生活手记# 天目湖打卡，常超啊，怎么感觉哪儿都有你 ​​​",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:59:33.582748+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/7800134810/Q6W1ViWhd",
+      "publisher": "破茧成蝶_200006",
+      "place_name": "溧阳",
+      "media_count": 4,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "25-9-30 11:00",
+      "captured_at": "2026-09-20T08:59:33.582748+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:008vSznYgy1i5vjaval9sj31400u0gu8.jpg",
+          "id": "b5beb165592cb2eb06a4cdb8",
+          "ordinal": 1,
+          "url": "/api/media/b5beb165592cb2eb06a4cdb8",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2025-09-30",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2025,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 4,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 4,
+        "analyzed_media": 1,
+        "full_pixel_media": 1,
+        "missing_media_ids": [
+          "ed785682ba66953672da68fb",
+          "7b0a27bc0133994cc1a48d56",
+          "b49915ce5d6b2afb1b0de9f2"
+        ],
+        "coverage": 0.25,
+        "complete": false,
+        "media": [
+          {
+            "id": "b5beb165592cb2eb06a4cdb8",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "ed785682ba66953672da68fb",
+            "ordinal": 2,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "7b0a27bc0133994cc1a48d56",
+            "ordinal": 3,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "b49915ce5d6b2afb1b0de9f2",
+            "ordinal": 4,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "analysis_incomplete"
+      },
+      "visual_independence_pending": true
+    },
+    {
+      "id": "ev_23c3898512764ad3",
+      "place_id": "liyang",
+      "title": "9月19日，“椰号杯”不止骑2026·环溧阳天目湖骑游大会在天目湖旅游度假区举办。来自全国各地的近千名骑行爱好者齐聚天目湖畔，共同开启了一段沉浸",
+      "excerpt": "9月19日，“椰号杯”不止骑2026·环溧阳天目湖骑游大会在天目湖旅游度假区举办。来自全国各地的近千名骑行爱好者齐聚天目湖畔，共同开启了一段沉浸式的溧阳山水骑行之旅。 溧阳发布的微博视频 ​​​",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:59:33.582121+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/2721991990/RiWy5fDqw",
+      "publisher": "溧阳发布",
+      "place_name": "溧阳",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "26-9-20 09:07",
+      "captured_at": "2026-09-20T08:59:33.582121+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-20",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_3b3534029bcd4c5b",
+      "place_id": "liyang",
+      "title": "#走遍中国/溧阳旅游日记（7） ​畅游龙兴岛、中国茶岛。 ​​昨天是入秋以来，最凉爽的一天：太阳不烈、微风轻拂。下船后，沿着天目湖 ，观赏龙兴岛",
+      "excerpt": "#走遍中国/溧阳旅游日记（7）\n​畅游龙兴岛、中国茶岛。\n\n​​昨天是入秋以来，最凉爽的一天：太阳不烈、微风轻拂。下船后，沿着天目湖 ，观赏龙兴岛和茶岛风光，可谓相适相宜，恰到好处，十分爽快。\n这样疗养般的休闲游览，十分符合我这个年龄段的康养者。\n​接下来的浙江丽水游，但愿也是如此。👍\n2026.9.18",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:59:33.581481+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/2706911802/RiGCI0tik",
+      "publisher": "王恩生HSW",
+      "place_name": "溧阳",
+      "media_count": 9,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "26-9-18 16:35",
+      "captured_at": "2026-09-20T08:59:33.581481+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:a158323agy1ih7wr74jbej21z41hcwyj.jpg",
+          "id": "47c2926a5a83b7809dc70106",
+          "ordinal": 1,
+          "url": "/api/media/47c2926a5a83b7809dc70106",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-18",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 9,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 9,
+        "analyzed_media": 1,
+        "full_pixel_media": 1,
+        "missing_media_ids": [
+          "a1dbe6551556f2b26767c84f",
+          "0316ea444e7685194dc56951",
+          "66c66e92c8b0b720e5725151",
+          "0003fddf857edbd558dbd2de",
+          "4ebf0e5a54eacc4d2b004227",
+          "5c7d8756009f92141f4ea050",
+          "8c116c46bc167bfb38efa32e",
+          "b9246ac8aa244c7df952f826"
+        ],
+        "coverage": 0.1111111111111111,
+        "complete": false,
+        "media": [
+          {
+            "id": "47c2926a5a83b7809dc70106",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "a1dbe6551556f2b26767c84f",
+            "ordinal": 2,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "0316ea444e7685194dc56951",
+            "ordinal": 3,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "66c66e92c8b0b720e5725151",
+            "ordinal": 4,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "0003fddf857edbd558dbd2de",
+            "ordinal": 5,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "4ebf0e5a54eacc4d2b004227",
+            "ordinal": 6,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "5c7d8756009f92141f4ea050",
+            "ordinal": 7,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "8c116c46bc167bfb38efa32e",
+            "ordinal": 8,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "b9246ac8aa244c7df952f826",
+            "ordinal": 9,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "analysis_incomplete"
+      },
+      "visual_independence_pending": true
+    },
+    {
+      "id": "ev_7e9775cab0334168",
+      "place_id": "place_e110a91eefb442ea",
+      "title": "看过南山竹海满目青翠，吃过热气腾腾的天目湖砂锅鱼头。 不用赶行程的短途出行，溧阳的体验感很不错，值得再来✨ ​​​",
+      "excerpt": "看过南山竹海满目青翠，吃过热气腾腾的天目湖砂锅鱼头。\n不用赶行程的短途出行，溧阳的体验感很不错，值得再来✨  ​​​",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:59:33.580686+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/1924818861/RiSeo3RY6",
+      "publisher": "伊颜苒99",
+      "place_name": "南山竹海",
+      "media_count": 12,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "26-9-19 22:08",
+      "captured_at": "2026-09-20T08:59:33.580686+00:00",
+      "topics": [
+        "湖泊",
+        "竹林"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bv64va5j23b04eox6r.jpg",
+          "id": "e424138062d87be91c659374",
+          "ordinal": 1,
+          "url": "/api/media/e424138062d87be91c659374",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bv8bi42j25a03ylu0y.jpg",
+          "id": "be2d96c1c1018ce7d777c7a4",
+          "ordinal": 2,
+          "url": "/api/media/be2d96c1c1018ce7d777c7a4",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bvai26ij23402c0e81.jpg",
+          "id": "d55fa4b1839d4b678c531c4a",
+          "ordinal": 3,
+          "url": "/api/media/d55fa4b1839d4b678c531c4a",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bvh3gh2j23b04eob2g.jpg",
+          "id": "22cf1acece00ac3ac8dcd988",
+          "ordinal": 4,
+          "url": "/api/media/22cf1acece00ac3ac8dcd988",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bvj69b7j22bc334hdu.jpg",
+          "id": "4a4f384ae4e4d704bf61cbbb",
+          "ordinal": 5,
+          "url": "/api/media/4a4f384ae4e4d704bf61cbbb",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bvmp2j7j23b03vonph.jpg",
+          "id": "f06438b5ba28736203346e75",
+          "ordinal": 6,
+          "url": "/api/media/f06438b5ba28736203346e75",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bvu3uiqj23402c07wm.jpg",
+          "id": "b5860c9acbaf632e66319725",
+          "ordinal": 7,
+          "url": "/api/media/b5860c9acbaf632e66319725",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bvv73hvj21c01ese5m.jpg",
+          "id": "b0ed3b12e09fcda5624627b2",
+          "ordinal": 8,
+          "url": "/api/media/b0ed3b12e09fcda5624627b2",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bwa3bnpj22d92up4qt.jpg",
+          "id": "1b9907aa7d7c4ff39ea4c7ec",
+          "ordinal": 9,
+          "url": "/api/media/1b9907aa7d7c4ff39ea4c7ec",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bzd9c38j24eo3b0npf.jpg",
+          "id": "fd88bc410b22c39a1bd2769a",
+          "ordinal": 10,
+          "url": "/api/media/fd88bc410b22c39a1bd2769a",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bvnv4jjj23342bce81.jpg",
+          "id": "ed7fa223089c9ad3fc74f830",
+          "ordinal": 11,
+          "url": "/api/media/ed7fa223089c9ad3fc74f830",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "weibo:72ba67adgy1ih9bvpapllj22c0340qv5.jpg",
+          "id": "7530a9f47d628d9c6e801cc0",
+          "ordinal": 12,
+          "url": "/api/media/7530a9f47d628d9c6e801cc0",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "support_excerpt": "看过南山竹海满目青翠，吃过热气腾腾的天目湖砂锅鱼头。 不用赶",
+          "theme": "竹林色彩",
+          "value": "翠绿"
+        }
+      ],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-19",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 12,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 12,
+        "analyzed_media": 12,
+        "full_pixel_media": 12,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "e424138062d87be91c659374",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "be2d96c1c1018ce7d777c7a4",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "d55fa4b1839d4b678c531c4a",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "22cf1acece00ac3ac8dcd988",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "4a4f384ae4e4d704bf61cbbb",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "f06438b5ba28736203346e75",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b5860c9acbaf632e66319725",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b0ed3b12e09fcda5624627b2",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "1b9907aa7d7c4ff39ea4c7ec",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "fd88bc410b22c39a1bd2769a",
+            "ordinal": 10,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "ed7fa223089c9ad3fc74f830",
+            "ordinal": 11,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7530a9f47d628d9c6e801cc0",
+            "ordinal": 12,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_7fcf8d1c96cc4f94",
+      "place_id": "liyang",
+      "title": "手机摄影超话 天目如眸，碧水成诗；群山拥碧湖，一水洗尘心。【天目湖(三)】#微博旅行ing##城市巡游记##风景摄影##手机摄影﻿ ﻿##天然氧",
+      "excerpt": "手机摄影超话 天目如眸，碧水成诗；群山拥碧湖，一水洗尘心。【天目湖(三)】#微博旅行ing##城市巡游记##风景摄影##手机摄影﻿ ﻿##天然氧吧##随手拍#  ​​​",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:59:33.579708+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/1421408135/RiXvUDGtg",
+      "publisher": "半糖微语录",
+      "place_name": "溧阳",
+      "media_count": 9,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "26-9-20 11:35 已编辑",
+      "captured_at": "2026-09-20T08:59:33.579708+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:54b8f787gy1ih9zbxvo4hj22dc35su12.jpg",
+          "id": "530a3ba8f2a63e0b744c4e63",
+          "ordinal": 1,
+          "url": "/api/media/530a3ba8f2a63e0b744c4e63",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-20",
+      "material_time_basis": "页面短年份编辑日期（按2000年代解析），非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 9,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 9,
+        "analyzed_media": 1,
+        "full_pixel_media": 1,
+        "missing_media_ids": [
+          "85fa0c28d34064b6f9e372a9",
+          "95d59e7bb0a6b051f5fc6d78",
+          "a27103e769d89845d929b850",
+          "2b8f2b46250c589be7ccb9e2",
+          "a020139c012bee6f5f3abf95",
+          "9225ae22aa17fabd4fa23d3c",
+          "84333718b34f99a0afd9c56c",
+          "c2dc0248797053738d269b36"
+        ],
+        "coverage": 0.1111111111111111,
+        "complete": false,
+        "media": [
+          {
+            "id": "530a3ba8f2a63e0b744c4e63",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "85fa0c28d34064b6f9e372a9",
+            "ordinal": 2,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "95d59e7bb0a6b051f5fc6d78",
+            "ordinal": 3,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "a27103e769d89845d929b850",
+            "ordinal": 4,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "2b8f2b46250c589be7ccb9e2",
+            "ordinal": 5,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "a020139c012bee6f5f3abf95",
+            "ordinal": 6,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "9225ae22aa17fabd4fa23d3c",
+            "ordinal": 7,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "84333718b34f99a0afd9c56c",
+            "ordinal": 8,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          },
+          {
+            "id": "c2dc0248797053738d269b36",
+            "ordinal": 9,
+            "analyzed": false,
+            "file_hash_available": false,
+            "full_pixel_hash_available": false,
+            "animated": false,
+            "feature_version": null
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "analysis_incomplete"
+      },
+      "visual_independence_pending": true
+    },
+    {
+      "id": "ev_bf19326c1f6a422d",
+      "place_id": "place_a56c09bc013d4921",
+      "title": "溧阳天目湖，阴天也藏着很多层风景",
+      "excerpt": "走进天目湖山水园，先看到的是一座白色拱桥从山和水之间穿过去。阴天压低了远处的层次，桥的线条反而更醒目。\n\t\n湖面上的游船慢慢经过，到了高处再回望，近处的树林、湖中的小岛和远山一层层铺开。岸边还有醒目的路牌、巨大的茶壶和一片开得正亮的黄色花田，让原本安静的湖景多了几个可以记住的细节。\n\t\n天目湖好看的地方，不只在水面，也在一路上不断变化的视线。你对这里的第一印象，是那座桥，还是最后一片湖岸花田？\n\t\n#溧阳旅行  #天目湖  #天目湖山水园  #江南风景  #风景摄影",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:30:43.173441+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xiaohongshu.com/explore/6aa75cb9000000002902e794",
+      "publisher": "一缕晨爔🎆",
+      "place_name": "天目湖山水园",
+      "media_count": 6,
+      "media_status": "link_only",
+      "source_type": "xiaohongshu",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "3天前 浙江",
+      "captured_at": "2026-09-20T08:30:43.173441+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [
+        {
+          "asset_id": "1040g0k0325348ld940004buqbncc16hhplr717g",
+          "id": "9ebf7cd99493f16fd212f03f",
+          "ordinal": 1,
+          "url": "/api/media/9ebf7cd99493f16fd212f03f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g0k0325348ld9400g4buqbncc16hhheonufo",
+          "id": "df8ca43152203c391c24f7ea",
+          "ordinal": 2,
+          "url": "/api/media/df8ca43152203c391c24f7ea",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g0k0325348ld940104buqbncc16hht20emcg",
+          "id": "22a2266a0b899d1a72593df4",
+          "ordinal": 3,
+          "url": "/api/media/22a2266a0b899d1a72593df4",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g0k0325348ld9401g4buqbncc16hhp2ih3l0",
+          "id": "e2df68c17fe915bf33b44a87",
+          "ordinal": 4,
+          "url": "/api/media/e2df68c17fe915bf33b44a87",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g0k0325348ld940204buqbncc16hha06g2pg",
+          "id": "d3550d7585abe15adef402c4",
+          "ordinal": 5,
+          "url": "/api/media/d3550d7585abe15adef402c4",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        },
+        {
+          "asset_id": "1040g0k0325348ld9402g4buqbncc16hha4a5ek8",
+          "id": "6d8620f342d8e984d9cdb9ec",
+          "ordinal": 6,
+          "url": "/api/media/6d8620f342d8e984d9cdb9ec",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "not_analyzed"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-17",
+      "material_time_basis": "根据相对发布时间估计，非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 6,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 6,
+        "analyzed_media": 6,
+        "full_pixel_media": 6,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "9ebf7cd99493f16fd212f03f",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "df8ca43152203c391c24f7ea",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "22a2266a0b899d1a72593df4",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "e2df68c17fe915bf33b44a87",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "d3550d7585abe15adef402c4",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "6d8620f342d8e984d9cdb9ec",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_6aab69d8af2843f3",
+      "place_id": "place_e110a91eefb442ea",
+      "title": "约个日常 | 南山竹海",
+      "excerpt": "今年江南的九月，凉意来得比往年早一些，却也刚刚好，热乎乎的风里能感受到丝丝缕缕的凉风滑过皮肤。\n溧阳的南山竹海，春天的时候，大熊猫在那儿实现了新鲜竹笋的自由；而到了秋天，山里的风景换了副模样，空气清清爽爽的，吸一口，满肺都是草木的味道。\n今年是江南最舒服的季节了，最留念的季节。山色温柔，风也温柔。周末带上家人，或者约上三两好友，去山里走走，刚刚好。\n#溧阳 #南山竹海 #熊猫",
+      "published_at": null,
+      "fetched_at": "2026-09-20T08:30:43.172937+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xiaohongshu.com/explore/6aabd34a000000002502c279",
+      "publisher": "ZHAO ZHAO",
+      "place_name": "南山竹海",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "xiaohongshu",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "编辑于 2天前 浙江",
+      "captured_at": "2026-09-20T08:30:43.172937+00:00",
+      "topics": [
+        "竹林"
+      ],
+      "media": [],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-18",
+      "material_time_basis": "根据相对发布时间估计，非拍摄日期",
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_421ddb1f75824ef2",
+      "place_id": "place_b056a5774794434a",
+      "title": "史侯祠",
+      "excerpt": "史侯祠，国家3A级景区。位于埭头镇，始建于东汉初年，是为纪念东汉名将、溧阳侯史崇而建的祭祀建筑群，距今有2000多年历史。重建的史侯祠内有中国族谱博物馆、史氏名人艺术馆、清廉堂等景点。",
+      "published_at": "2026-06-01",
+      "fetched_at": "2026-09-20T07:56:12.923266+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138947.html",
+      "publisher": "溧阳市人民政府",
+      "place_name": "史侯祠",
+      "media_count": 5,
+      "media_status": "link_only",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-06-01",
+      "captured_at": "2026-09-20T07:56:12.923266+00:00",
+      "topics": [],
+      "media": [
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165323_59387.jpg",
+          "id": "3e383b880d771e60429f991c",
+          "ordinal": 1,
+          "url": "/api/media/3e383b880d771e60429f991c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165323_26995.jpg",
+          "id": "8f275154d2d6e5fcb41c071f",
+          "ordinal": 2,
+          "url": "/api/media/8f275154d2d6e5fcb41c071f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.46417003870010376,
+            "scene_scores": {
+              "vegetation": 0.46417003870010376
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165323_44635.jpg",
+          "id": "97cb08a88c2476f9b0869c0a",
+          "ordinal": 3,
+          "url": "/api/media/97cb08a88c2476f9b0869c0a",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.6962971687316895,
+            "scene_scores": {
+              "vegetation": 0.6962971687316895
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165323_55566.jpg",
+          "id": "e1f8f88ba446bbdfef351e1c",
+          "ordinal": 4,
+          "url": "/api/media/e1f8f88ba446bbdfef351e1c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165323_55706.jpg",
+          "id": "7b572e528c0e28e52ac2c12a",
+          "ordinal": 5,
+          "url": "/api/media/7b572e528c0e28e52ac2c12a",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-06-01",
+      "material_time_basis": "页面明确发布日期",
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 5,
+        "total": 5,
+        "scene_counts": {
+          "vegetation": 2
+        }
+      },
+      "visual_analysis": {
+        "media_total": 5,
+        "analyzed_media": 5,
+        "full_pixel_media": 5,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "3e383b880d771e60429f991c",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "8f275154d2d6e5fcb41c071f",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "97cb08a88c2476f9b0869c0a",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "e1f8f88ba446bbdfef351e1c",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7b572e528c0e28e52ac2c12a",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_223a3ac412af4917",
+      "place_id": "place_183ab381969345da",
+      "title": "新四军江南指挥部纪念馆",
+      "excerpt": "新四军江南指挥部纪念馆,国家4A级景区。位于竹箦镇水西村内，依托新四军江南指挥部旧址而建。旧址系1939年11月至1940年6月新四军江南指挥部司令部驻地，陈毅、粟裕等老一辈革命家曾在此办公、住宿。 纪念馆现有司令部旧址、史料展览馆、纪念广场等六大景点，为全国红色旅游经典景区、全国爱国主义教育示范基地、全国重点文物保护单位、国家级抗战纪念设施遗址。",
+      "published_at": "2026-06-01",
+      "fetched_at": "2026-09-20T07:56:12.498189+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138948.html",
+      "publisher": "溧阳市人民政府",
+      "place_name": "新四军江南指挥部纪念馆",
+      "media_count": 6,
+      "media_status": "link_only",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-06-01",
+      "captured_at": "2026-09-20T07:56:12.498189+00:00",
+      "topics": [],
+      "media": [
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165528_83141.jpg",
+          "id": "d35ea30773ed56115334501e",
+          "ordinal": 1,
+          "url": "/api/media/d35ea30773ed56115334501e",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "grassland",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.50048828125,
+            "scene_scores": {
+              "vegetation": 0.4932027757167816,
+              "grassland": 0.50048828125
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165452_46012.jpg",
+          "id": "7d29dec7c7a0a6da0c50b574",
+          "ordinal": 2,
+          "url": "/api/media/7d29dec7c7a0a6da0c50b574",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.7934571504592896,
+            "scene_scores": {
+              "vegetation": 0.7934571504592896
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165452_33486.jpg",
+          "id": "fd21eb7d9fa20f64cb380e1f",
+          "ordinal": 3,
+          "url": "/api/media/fd21eb7d9fa20f64cb380e1f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165453_79831.jpg",
+          "id": "8091bb8bdaf0945afef5be70",
+          "ordinal": 4,
+          "url": "/api/media/8091bb8bdaf0945afef5be70",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people",
+              "statue"
+            ]
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165453_71969.jpg",
+          "id": "73a2958bf244b74f81e59e5c",
+          "ordinal": 5,
+          "url": "/api/media/73a2958bf244b74f81e59e5c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165453_89878.jpg",
+          "id": "ef85d0a6d931f4606da98833",
+          "ordinal": 6,
+          "url": "/api/media/ef85d0a6d931f4606da98833",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-06-01",
+      "material_time_basis": "页面明确发布日期",
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 6,
+        "total": 6,
+        "scene_counts": {
+          "grassland": 1,
+          "vegetation": 1
+        }
+      },
+      "visual_analysis": {
+        "media_total": 6,
+        "analyzed_media": 6,
+        "full_pixel_media": 6,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "d35ea30773ed56115334501e",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7d29dec7c7a0a6da0c50b574",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "fd21eb7d9fa20f64cb380e1f",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "8091bb8bdaf0945afef5be70",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "73a2958bf244b74f81e59e5c",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "ef85d0a6d931f4606da98833",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_cfa63ebb278546f4",
+      "place_id": "place_c194c49525e140d0",
+      "title": "曹山旅游度假区",
+      "excerpt": "曹山旅游度假区，2018年1月被江苏省人民政府批准为省级旅游度假区。曹山旅游度假区依托优良的生态环境、深厚的文化积淀、丰富的现代农业资源、优越的区位条件，以“七彩曹山”为主题，融生态农业、乡村文化、运动休闲、养生度假于一体，着力打造“养眼、养身、养心”三个层次的旅游产品体系，建设特色乡村旅游度假目的地。目前，曹山旅游度假区较好地将乡村旅游与体育赛事融为一体，全国性的舞龙舞狮赛、自行车赛、中国象棋赛、垂钓赛、广场舞比赛等赛事活动落户曹山；依托曹山现代农业示范园的产业，打造“最美赏花地，四季百果园”。 曹山旅游度假区内",
+      "published_at": "2026-06-01",
+      "fetched_at": "2026-09-20T07:56:12.194979+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138949.html",
+      "publisher": "溧阳市人民政府",
+      "place_name": "曹山旅游度假区",
+      "media_count": 10,
+      "media_status": "link_only",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-06-01",
+      "captured_at": "2026-09-20T07:56:12.194979+00:00",
+      "topics": [],
+      "media": [
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165755_39386.jpg",
+          "id": "f00aaef831c6ba8380ba4534",
+          "ordinal": 1,
+          "url": "/api/media/f00aaef831c6ba8380ba4534",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "grassland",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.77734375,
+            "scene_scores": {
+              "grassland": 0.77734375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165755_43569.jpg",
+          "id": "dfbe4363e42813243c07e1be",
+          "ordinal": 2,
+          "url": "/api/media/dfbe4363e42813243c07e1be",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "grassland",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.85888671875,
+            "scene_scores": {
+              "grassland": 0.85888671875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165755_57285.jpg",
+          "id": "47819fdd95b90207c9ad96d4",
+          "ordinal": 3,
+          "url": "/api/media/47819fdd95b90207c9ad96d4",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.79052734375,
+            "scene_scores": {
+              "grassland": 0.6103515625,
+              "mountain": 0.79052734375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165755_64887.jpg",
+          "id": "b3ca19a520a974c58dba1b8e",
+          "ordinal": 4,
+          "url": "/api/media/b3ca19a520a974c58dba1b8e",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165755_34382.jpg",
+          "id": "bbf6e0cd763c2c8f523bccc4",
+          "ordinal": 5,
+          "url": "/api/media/bbf6e0cd763c2c8f523bccc4",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.414306640625,
+            "scene_scores": {
+              "mountain": 0.414306640625
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165756_68924.jpg",
+          "id": "74da84a311b4af461e1de06c",
+          "ordinal": 6,
+          "url": "/api/media/74da84a311b4af461e1de06c",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.45654296875,
+            "scene_scores": {
+              "mountain": 0.45654296875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165756_82663.jpg",
+          "id": "7ac2ce1e040d27708e6211f5",
+          "ordinal": 7,
+          "url": "/api/media/7ac2ce1e040d27708e6211f5",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "grassland",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.8466796875,
+            "scene_scores": {
+              "grassland": 0.8466796875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165756_83851.jpg",
+          "id": "a23e450e94bc924f3df311fb",
+          "ordinal": 8,
+          "url": "/api/media/a23e450e94bc924f3df311fb",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.73291015625,
+            "scene_scores": {
+              "mountain": 0.73291015625
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165756_89969.jpg",
+          "id": "399eeb75c54c47986ffe53da",
+          "ordinal": 9,
+          "url": "/api/media/399eeb75c54c47986ffe53da",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.71435546875,
+            "scene_scores": {
+              "grassland": 0.64794921875,
+              "mountain": 0.71435546875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165756_18016.jpg",
+          "id": "edf6e9bdf264a6dcdd7c7fb0",
+          "ordinal": 10,
+          "url": "/api/media/edf6e9bdf264a6dcdd7c7fb0",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.8427734375,
+            "scene_scores": {
+              "mountain": 0.8427734375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-06-01",
+      "material_time_basis": "页面明确发布日期",
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 10,
+        "total": 10,
+        "scene_counts": {
+          "grassland": 3,
+          "mountain": 6
+        }
+      },
+      "visual_analysis": {
+        "media_total": 10,
+        "analyzed_media": 10,
+        "full_pixel_media": 10,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "f00aaef831c6ba8380ba4534",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "dfbe4363e42813243c07e1be",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "47819fdd95b90207c9ad96d4",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b3ca19a520a974c58dba1b8e",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "bbf6e0cd763c2c8f523bccc4",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "74da84a311b4af461e1de06c",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7ac2ce1e040d27708e6211f5",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "a23e450e94bc924f3df311fb",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "399eeb75c54c47986ffe53da",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "edf6e9bdf264a6dcdd7c7fb0",
+            "ordinal": 10,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_f676a60fb4b8473e",
+      "place_id": "place_5cac37d1059a4eca",
+      "title": "御水温泉",
+      "excerpt": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。御水温泉是华东地区稀缺的碳酸氢钙型温泉，其热量可产生医疗作用，可饮可浴，对神经系统疾病、运动系统疾病、皮肤科疾病等都具有独特的理疗作用。经常浸泡，可爽身润肤、缓解疲劳，是休闲度假、焕发身心健康、美容养颜的天然矿泉。",
+      "published_at": "2026-06-01",
+      "fetched_at": "2026-09-20T07:01:06.124652+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
+      "publisher": "溧阳市人民政府",
+      "place_name": "御水温泉",
+      "media_count": 8,
+      "media_status": "link_only",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-06-01",
+      "captured_at": "2026-09-20T07:01:06.124652+00:00",
+      "topics": [
+        "温泉",
+        "竹林"
+      ],
+      "media": [
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165938_70554.jpg",
+          "id": "b455e0cccd9118748be247c9",
+          "ordinal": 1,
+          "url": "/api/media/b455e0cccd9118748be247c9",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165938_40304.jpg",
+          "id": "d4b603259fdb50ce30efa7f3",
+          "ordinal": 2,
+          "url": "/api/media/d4b603259fdb50ce30efa7f3",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165939_19258.jpg",
+          "id": "f5046c3e6182f46fd1ecd21f",
+          "ordinal": 3,
+          "url": "/api/media/f5046c3e6182f46fd1ecd21f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165939_61875.jpg",
+          "id": "44848c483c5724c271432792",
+          "ordinal": 4,
+          "url": "/api/media/44848c483c5724c271432792",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.5619394779205322,
+            "scene_scores": {
+              "vegetation": 0.5619394779205322
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165939_44017.jpg",
+          "id": "dad83031f3596f9e8f74e5d9",
+          "ordinal": 5,
+          "url": "/api/media/dad83031f3596f9e8f74e5d9",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.6774545907974243,
+            "scene_scores": {
+              "vegetation": 0.6774545907974243
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165939_23027.jpg",
+          "id": "9ad53a8870fe09ce83c274b4",
+          "ordinal": 6,
+          "url": "/api/media/9ad53a8870fe09ce83c274b4",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165939_94367.jpg",
+          "id": "fd5f57f1d66deb39240500a1",
+          "ordinal": 7,
+          "url": "/api/media/fd5f57f1d66deb39240500a1",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.71923828125,
+            "scene_scores": {
+              "mountain": 0.71923828125
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710165939_68731.jpg",
+          "id": "f45bfc80dce17adede574dc6",
+          "ordinal": 8,
+          "url": "/api/media/f45bfc80dce17adede574dc6",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.4681919813156128,
+            "scene_scores": {
+              "vegetation": 0.4681919813156128
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-06-01",
+      "material_time_basis": "页面明确发布日期",
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 8,
+        "total": 8,
+        "scene_counts": {
+          "vegetation": 3,
+          "mountain": 1
+        }
+      },
+      "visual_analysis": {
+        "media_total": 8,
+        "analyzed_media": 8,
+        "full_pixel_media": 8,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "b455e0cccd9118748be247c9",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "d4b603259fdb50ce30efa7f3",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "f5046c3e6182f46fd1ecd21f",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "44848c483c5724c271432792",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "dad83031f3596f9e8f74e5d9",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "9ad53a8870fe09ce83c274b4",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "fd5f57f1d66deb39240500a1",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "f45bfc80dce17adede574dc6",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_6fd5c12669d245c0",
+      "place_id": "place_e110a91eefb442ea",
+      "title": "南山竹海",
+      "excerpt": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。有静湖娱乐区、竹文化博物馆、古官道、长寿文化区、南山寿翁、吴越弟一峰、鸡鸣村、熊猫馆、竹文园等景点 。南山竹海深蕴着青山绿水的诗意和神韵，是一处风景如画的风雅之地，故有“天堂南山，梦幻竹海”之美誉。 寿星广场上矗立着中国第一寿星，头部高近十三米，纯铜打造，以山体为身、以山峰为臂，寿翁笑容可掬、慈祥亲切。寿翁后方照壁上有100种不同字体的寿字，集寿书法之大成。到寿星广场，看石雕猴子悟养生之道，逛寿文化长廊得养生知识，感受“世界长寿之乡”之独特内",
+      "published_at": "2026-06-01",
+      "fetched_at": "2026-09-20T07:01:05.921587+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
+      "publisher": "溧阳市人民政府",
+      "place_name": "南山竹海",
+      "media_count": 6,
+      "media_status": "link_only",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-06-01",
+      "captured_at": "2026-09-20T07:01:05.921587+00:00",
+      "topics": [
+        "湖泊",
+        "竹林"
+      ],
+      "media": [
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170117_40648.jpg",
+          "id": "5b09361ad8dbfdbc019905d9",
+          "ordinal": 1,
+          "url": "/api/media/5b09361ad8dbfdbc019905d9",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "statue"
+            ]
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170236_19371.jpg",
+          "id": "5385ee61d7849f7f7fad7997",
+          "ordinal": 2,
+          "url": "/api/media/5385ee61d7849f7f7fad7997",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.53466796875,
+            "scene_scores": {
+              "mountain": 0.53466796875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170327_79372.jpg",
+          "id": "b09c6de22ee6b175e5c34ab7",
+          "ordinal": 3,
+          "url": "/api/media/b09c6de22ee6b175e5c34ab7",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170327_89917.jpg",
+          "id": "42f5f4a05c736e1a11a4eaf0",
+          "ordinal": 4,
+          "url": "/api/media/42f5f4a05c736e1a11a4eaf0",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170327_37354.jpg",
+          "id": "613aeebb8de81e30f0ad1f9b",
+          "ordinal": 5,
+          "url": "/api/media/613aeebb8de81e30f0ad1f9b",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.92822265625,
+            "scene_scores": {
+              "water": 0.56298828125,
+              "mountain": 0.92822265625
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170345_40239.jpg",
+          "id": "95a0353b5d1f990f6208ab3e",
+          "ordinal": 6,
+          "url": "/api/media/95a0353b5d1f990f6208ab3e",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "statue"
+            ]
+          }
+        }
+      ],
+      "claims": [
+        {
+          "support_excerpt": ".5万亩翠竹。有静湖娱乐区、竹文化博物馆、古官道、长",
+          "theme": "竹林色彩",
+          "value": "翠绿"
+        }
+      ],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-06-01",
+      "material_time_basis": "页面明确发布日期",
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 6,
+        "total": 6,
+        "scene_counts": {
+          "mountain": 2
+        }
+      },
+      "visual_analysis": {
+        "media_total": 6,
+        "analyzed_media": 6,
+        "full_pixel_media": 6,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "5b09361ad8dbfdbc019905d9",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "5385ee61d7849f7f7fad7997",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b09c6de22ee6b175e5c34ab7",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "42f5f4a05c736e1a11a4eaf0",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "613aeebb8de81e30f0ad1f9b",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "95a0353b5d1f990f6208ab3e",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_c351c27820414329",
+      "place_id": "place_a56c09bc013d4921",
+      "title": "天目湖山水园",
+      "excerpt": "天目湖山水园,国家5A级景区。作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点。四面群山枕水、碧波荡漾，湖中岛屿散落、湖岸曲折通幽，以山绕水、以水映山而取胜。泛舟湖上，山重水复，松涛竞逐，禽飞兽走，带你进入梦游仙境的奇妙之旅。游船是景区的经典项目，可以满足千余人同时畅游天目湖。",
+      "published_at": "2026-06-01",
+      "fetched_at": "2026-09-20T07:01:05.703205+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138952.html",
+      "publisher": "溧阳市人民政府",
+      "place_name": "天目湖山水园",
+      "media_count": 8,
+      "media_status": "link_only",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-06-01",
+      "captured_at": "2026-09-20T07:01:05.703205+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170513_16447.jpg",
+          "id": "88758e1ac70dd45b737f2234",
+          "ordinal": 1,
+          "url": "/api/media/88758e1ac70dd45b737f2234",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170513_51399.jpg",
+          "id": "9b5867f41595cc0469539061",
+          "ordinal": 2,
+          "url": "/api/media/9b5867f41595cc0469539061",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.7236328125,
+            "scene_scores": {
+              "water": 0.6279296875,
+              "mountain": 0.7236328125
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170513_58678.jpg",
+          "id": "c46cc8c238b27b2f1801966f",
+          "ordinal": 3,
+          "url": "/api/media/c46cc8c238b27b2f1801966f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "water",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.8076171875,
+            "scene_scores": {
+              "water": 0.8076171875,
+              "mountain": 0.490966796875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170514_67325.jpg",
+          "id": "b084e898fb9631c4aa8c0797",
+          "ordinal": 4,
+          "url": "/api/media/b084e898fb9631c4aa8c0797",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "water",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.52978515625,
+            "scene_scores": {
+              "water": 0.52978515625
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170514_66748.jpg",
+          "id": "2a101b0975f07cf26b677f33",
+          "ordinal": 5,
+          "url": "/api/media/2a101b0975f07cf26b677f33",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "water",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.607421875,
+            "scene_scores": {
+              "water": 0.607421875,
+              "mountain": 0.60595703125
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170514_53783.jpg",
+          "id": "62742ecebf539976e223ce5f",
+          "ordinal": 6,
+          "url": "/api/media/62742ecebf539976e223ce5f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170514_12586.jpg",
+          "id": "b07a2ac5478fa2f081169e58",
+          "ordinal": 7,
+          "url": "/api/media/b07a2ac5478fa2f081169e58",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "https://www.liyang.gov.cn/uploadfile/czly/2020/0710/20200710170514_65642.jpg",
+          "id": "90df8b60abbeab2e1ca7c569",
+          "ordinal": 8,
+          "url": "/api/media/90df8b60abbeab2e1ca7c569",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "water",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.56884765625,
+            "scene_scores": {
+              "water": 0.56884765625,
+              "mountain": 0.560546875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-06-01",
+      "material_time_basis": "页面明确发布日期",
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 8,
+        "total": 8,
+        "scene_counts": {
+          "mountain": 1,
+          "water": 4
+        }
+      },
+      "visual_analysis": {
+        "media_total": 8,
+        "analyzed_media": 8,
+        "full_pixel_media": 8,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "88758e1ac70dd45b737f2234",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "9b5867f41595cc0469539061",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "c46cc8c238b27b2f1801966f",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b084e898fb9631c4aa8c0797",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "2a101b0975f07cf26b677f33",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "62742ecebf539976e223ce5f",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b07a2ac5478fa2f081169e58",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "90df8b60abbeab2e1ca7c569",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    }
+  ],
+  "baselines": [
+    {
+      "place_id": "place_a56c09bc013d4921",
+      "place_name": "天目湖山水园",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 1,
+      "summary": "已有现场记录，缺少可比较的明确景观描述"
+    },
+    {
+      "place_id": "place_e110a91eefb442ea",
+      "place_name": "南山竹海",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 5,
+      "summary": "已有现场记录，缺少可比较的明确景观描述"
+    },
+    {
+      "place_id": "place_5cac37d1059a4eca",
+      "place_name": "御水温泉",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_c194c49525e140d0",
+      "place_name": "曹山旅游度假区",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_183ab381969345da",
+      "place_name": "新四军江南指挥部纪念馆",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_b056a5774794434a",
+      "place_name": "史侯祠",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_7bf2baddf01440af",
+      "place_name": "松岭竹海漂流",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_0d84eaec06754413",
+      "place_name": "仙山十三岭",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    }
+  ],
+  "changes": [
+    {
+      "id": "f4c8724772a9bc867d540b2f474380cd909087693632f697d5a373a4b26da440",
+      "title": "#发现极美常州# 【天目湖旅游度假区滨湖片区入选“国家级夜间文化和旅游消费集聚区”】1月25日，文化和旅游部公布第三批国家级夜间文化和旅游消费集",
+      "created_at": "2026-09-20T11:55:52.979904+00:00",
+      "before_value": null,
+      "after_value": "#发现极美常州# 【天目湖旅游度假区滨湖片区入选“国家级夜间文化和旅游消费集聚区”】1月25日，文化和旅游部公布第三批国家级夜间文化和旅游消费集聚区入选名单，全国共102个项目，其中，溧阳市天目湖旅游度假区滨湖片区位列其中，为我市唯一。天目湖旅游度假区滨湖片区总面积约2.5平方公里，东至天目路，南至沙河水库，西至桂林山，北至东麻路，整合区内山水园景区、水世界",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2616693703/NDDo63liw",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "0bc50b0d4bec5a58bf6dcb4471cb5edf8b3412cf457c1f7c7aec2490515ea0d5",
+      "title": "御水温泉｜要论泡汤，御水温泉真的赢麻了#常州·天目湖御水温泉景区[地点]##雪天泡温泉##泡温泉囤脂肪小动物们花式过冬# 冷冷Lynn__的微博",
+      "created_at": "2026-09-20T11:49:24.873372+00:00",
+      "before_value": null,
+      "after_value": "御水温泉｜要论泡汤，御水温泉真的赢麻了#常州·天目湖御水温泉景区[地点]##雪天泡温泉##泡温泉囤脂肪小动物们花式过冬#  冷冷Lynn__的微博视频 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5521484466/P6dbb0PkP",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7550dd9953b78170eea03c081525ee3a2b0dcc91712f81158edcfa983083cc12",
+      "title": "#常州·天目湖御水温泉景区[地点]# 冬天当然要和爱❤️的人一起去泡温泉啦 ​​​",
+      "created_at": "2026-09-20T11:49:24.871767+00:00",
+      "before_value": null,
+      "after_value": "#常州·天目湖御水温泉景区[地点]# \n冬天当然要和爱❤️的人一起去泡温泉啦  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2896929492/P6GqtoLp8",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "859ce991e611bc031afc5dad18d368aa1ba8f73764385af8b47e92e94bd0fa0b",
+      "title": "🌈南山竹海🎋🎋 这个山是爬不了一点，全程地轨+索道 早上还在下雨☔️ 下山了天才放晴emmm ​​​",
+      "created_at": "2026-09-20T11:49:24.869934+00:00",
+      "before_value": null,
+      "after_value": "🌈南山竹海🎋🎋\n这个山是爬不了一点，全程地轨+索道\n早上还在下雨☔️ 下山了天才放晴emmm  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/6395260399/O7yL6quW1",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3f19fd98e72c1dde1892f1be7e6467d312d1b21cae15125f71400660018c497c",
+      "title": "继续踏青 南山竹海 寿比南山 轻松登顶 吴越弟一峰 508米 ​​​",
+      "created_at": "2026-09-20T11:49:24.868282+00:00",
+      "before_value": null,
+      "after_value": "继续踏青 南山竹海 \n寿比南山 轻松登顶\n吴越弟一峰 508米  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/3463875794/O7B09fqVA",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "e0c94645114d60298b7769db097ca7db3467b6af638ea1ca6897d3168aa28e61",
+      "title": "📍常州•天目湖 誉为“江南明珠”的天目湖，绝对值得一游，可谓之“观一湖而知江南”。天目湖山水园是国家5A级景区，作为天目湖的核心景区，山水园景区",
+      "created_at": "2026-09-20T11:49:24.866454+00:00",
+      "before_value": null,
+      "after_value": "📍常州•天目湖\n誉为“江南明珠”的天目湖，绝对值得一游，可谓之“观一湖而知江南”。天目湖山水园是国家5A级景区，作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点!溧阳·天目湖旅游度假区 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5367756605/P0xdR3D5L",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "9a8ff9d67e17ce308e665ad5a5c30195db6e53212823b64c3b678b62c2826fe3",
+      "title": "天目湖山水园！ACKNOWLEDGE ME! ​​​",
+      "created_at": "2026-09-20T11:49:24.864351+00:00",
+      "before_value": null,
+      "after_value": "天目湖山水园！ACKNOWLEDGE ME! ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/7833875010/P0UD4jcbc",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "b4c489d0bbe1568f7c37fcf4c7f8ebfbd9fdcaaf8b233bed756e20a4b39a9c83",
+      "title": "天目湖御水温泉是国内极具特色的温泉度假目... 戳我看视频>>网页链接 (更多 @御水温泉竹溪谷酒店 sales 的视频都在小红书 立刻下载 A",
+      "created_at": "2026-09-20T11:46:45.408623+00:00",
+      "before_value": null,
+      "after_value": "天目湖御水温泉是国内极具特色的温泉度假目... 戳我看视频>>网页链接 (更多 @御水温泉竹溪谷酒店 sales 的视频都在小红书 立刻下载 APP：应用详情) ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/6080173597/OuFMtmQMm",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "202dd4c1117542996fd6b53db5a52d3431907e2ac7ee7612f144cddd0129cdf0",
+      "title": "竹林深处＋温泉♨＋鱼头汤 拜拜溧阳 ​​​",
+      "created_at": "2026-09-20T11:46:45.407136+00:00",
+      "before_value": null,
+      "after_value": "竹林深处＋温泉♨＋鱼头汤\n拜拜溧阳  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/6797582669/OsOZtvWwz",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "e513ec206a46cd8f989458b2a24e6dfc2a51dd81a4468e1414490ff138737afa",
+      "title": "十一年前来南山竹海是下雨天 今天又是下雨天☔️ ​​​",
+      "created_at": "2026-09-20T11:46:45.405250+00:00",
+      "before_value": null,
+      "after_value": "十一年前来南山竹海是下雨天\n今天又是下雨天☔️  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2118836720/OgOgdd1cD",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7875e3beb11a0a48d7359591e949749d08c2adf742e53d96bf794c3c8cb281ba",
+      "title": "这个季节包邮区的天气就是不讲信用，说好的早上雨就停了，但是淅淅沥沥一直下到下午。 周五的景区，游客很少，风景也很美。 5/31之溧阳南山竹海 ​",
+      "created_at": "2026-09-20T11:46:45.402914+00:00",
+      "before_value": null,
+      "after_value": "这个季节包邮区的天气就是不讲信用，说好的早上雨就停了，但是淅淅沥沥一直下到下午。\n周五的景区，游客很少，风景也很美。\n5/31之溧阳南山竹海  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2152128042/OgShiw3Ph",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "be236a79d487136d82aa27326ffba9491d016e98da20464edbdda947e29965a1",
+      "title": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！） ​​​",
+      "created_at": "2026-09-20T11:46:45.401359+00:00",
+      "before_value": null,
+      "after_value": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！）  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5978888176/O0j9N71w9",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "1567a69531aa28130585eb136b03a16a6be86bd1ca2a0b8dbc33e125b88809b4",
+      "title": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！） ​​​",
+      "created_at": "2026-09-20T11:46:45.400912+00:00",
+      "before_value": null,
+      "after_value": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！）  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5978888176/O0j9N71w9",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "b85511972e46cf9503a163da94ae8506210e75acf43b98556024bac7e142a441",
+      "title": "「天目湖景区·溧阳」 今天刮风又下雨 温度降得厉害 下午4点30分 进入天目湖景区 但湖边实在是冷 匆匆玩了会儿 就回酒店吃饭休息了 #春节摄影",
+      "created_at": "2026-09-20T11:46:45.399152+00:00",
+      "before_value": null,
+      "after_value": "「天目湖景区·溧阳」\n今天刮风又下雨\n温度降得厉害\n下午4点30分\n进入天目湖景区\n但湖边实在是冷\n匆匆玩了会儿\n就回酒店吃饭休息了\n#春节摄影大赛##溧阳##天目湖山水园景区##春节旅游##红米手机#手机摄影超话  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/7391638199/O0LhdwNkP",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "9f393a56e60f9d1dc4e3f3ed351c3a9b5b7a4dd25212bd22e80b1244f6db53a9",
+      "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "created_at": "2026-09-20T11:41:50.965453+00:00",
+      "before_value": null,
+      "after_value": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2721991990/OAyDQ6xtr",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7fe820e798eecbe8187e07664d0f8bda10b50c4764b74912dcc7476077941dc7",
+      "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "created_at": "2026-09-20T11:41:50.965106+00:00",
+      "before_value": null,
+      "after_value": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2721991990/OAyDQ6xtr",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "27c260613ae44c871bf3aeed82dad8c52718e54d0d67c559996832a333b2967e",
+      "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "created_at": "2026-09-20T11:41:50.964755+00:00",
+      "before_value": null,
+      "after_value": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2721991990/OAyDQ6xtr",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "0a2d883982c920e856c58b5d2138c7379b8e1ba9225d481f663c4f7f9fba5552",
+      "title": "早餐后打车去报恩禅寺。雨下得挺大，几乎没有游人。听着旅途随身听的介绍了解了寺庙的历史和建筑。走在菩提路上，内心“净、静、境”。打卡了方所文化村，",
+      "created_at": "2026-09-20T11:41:50.963500+00:00",
+      "before_value": null,
+      "after_value": "早餐后打车去报恩禅寺。雨下得挺大，几乎没有游人。听着旅途随身听的介绍了解了寺庙的历史和建筑。走在菩提路上，内心“净、静、境”。打卡了方所文化村，特别喜欢天目书塔。又去了者里一仓文创店。中午去吃了必吃榜鱼头汤，较昨晚的鱼头汤更清淡，还吃到了溧阳特产白芹和乌米饭。下午去御水温泉泡汤，直到晩上。山间的日景夜景一览无遗～～～\n带着微博去旅行超话",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2279339552/ODwF63EoY",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "59c2a5d14c723e952da51cea73539bb5f0c8f79722ec8c183b100b56f5c5623e",
+      "title": "说走就走 溧阳 南山竹海 40度的下午坐了小火车，缆车，空中轨道，登顶了弟一峰！全程不需要排队，太爽了！ 最后下山的小溪走不动了，没玩成，水枪白",
+      "created_at": "2026-09-20T11:41:50.961940+00:00",
+      "before_value": null,
+      "after_value": "说走就走 溧阳 南山竹海\n40度的下午坐了小火车，缆车，空中轨道，登顶了弟一峰！全程不需要排队，太爽了！\n最后下山的小溪走不动了，没玩成，水枪白背了！  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/1229466912/OpYo5l6VE",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f1922ff4304c3d555c51ae7c303f410695a4c85ad3422154a9637ee35745fc6f",
+      "title": "南山竹海是大自然赋予的天然氧吧 ​​​",
+      "created_at": "2026-09-20T11:41:50.960500+00:00",
+      "before_value": null,
+      "after_value": "南山竹海是大自然赋予的天然氧吧  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2959361992/OpZWYj4PR",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "901b571d7abf4db0b84823e8da3aa05632a44d0dc4c6b585901bb26097923e57",
+      "title": "分会组织天目湖山水园一日游，原来天气预报要一直下雨，每人都带了雨伞，直到游玩结束也没下雨，很幸运 ​​​",
+      "created_at": "2026-09-20T11:41:50.958820+00:00",
+      "before_value": null,
+      "after_value": "分会组织天目湖山水园一日游，原来天气预报要一直下雨，每人都带了雨伞，直到游玩结束也没下雨，很幸运  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/1457799632/O9I4hadj4",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3afe8ab7cdca112a5d9804d82e1b17736b3ea3eef5f07ca2b7aaaaff45b8b8f3",
+      "title": "天目湖山水园 走走赶赶停停～～ ​​​",
+      "created_at": "2026-09-20T11:41:50.957453+00:00",
+      "before_value": null,
+      "after_value": "天目湖山水园\n走走赶赶停停～～ ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2119329737/ObwdDxdT5",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f9de01a9daef045c24627984ad4fbb87a83e150ab9bd8843cb861ba27dcca94b",
+      "title": "今天常州溧阳这边下起了小雨微风送凉，很是舒适趁着雨后清新，早饭后驾车前往“天目湖山水园”湖边散步吹着微风，呼吸着新鲜的空气真是太惬意了喝一杯“天",
+      "created_at": "2026-09-20T10:47:44.202332+00:00",
+      "before_value": null,
+      "after_value": "今天常州溧阳这边下起了小雨微风送凉，很是舒适趁着雨后清新，早饭后驾车前往“天目湖山水园”湖边散步吹着微风，呼吸着新鲜的空气真是太惬意了喝一杯“天目湖啤酒”🍺再品尝一份鲜美的“天目湖鱼头”那是相当的舒坦\n\n#随手拍##天目湖##记录美好##湖光山色##今日分享#常州旅游超话  壹夜寒风的微博视频",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/1377774282/OwuF6neTj",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3b81bb7897633d0c743007811a9b6d30e4671dd1cec46bde2e6973fc155001d4",
+      "title": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的",
+      "created_at": "2026-09-20T10:47:44.200394+00:00",
+      "before_value": null,
+      "after_value": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的乐趣，感受丰收的喜悦，蛮好溧阳·天目湖山水园 。 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2275491451/OzefHgpl6",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f84d2f1fbcfdbee32cb18496d02824fcb1eff4126745258f2c8e95c80fa41a54",
+      "title": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～ 打卡溧阳南山竹海～的确是漫山遍野的竹",
+      "created_at": "2026-09-20T10:47:44.198077+00:00",
+      "before_value": null,
+      "after_value": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～\n\n打卡溧阳南山竹海～的确是漫山遍野的竹林，沿路栽种的桂花飘香，沉浸在大自然里的心旷神怡\n\n坐了轨道看起来很像过山车实际也就小火车速度的观光缆车，进了熊猫馆才后知后觉地发现这里的两只熊猫原来是星安和华丽我总在早上看他们的吃播，虽然看得津津有味但是一直不知",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2303852471/OzpTytTcv",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "76d262d306c55bb3c5cbb8499e7020d8db0318f9c4dc6f94eda5931453a76ed0",
+      "title": "今天去的南山竹海，2017年公司旅游去过，对我来说，这就是个纯练体力的5A景区，但小朋友玩的还是蛮开心的 ​​​",
+      "created_at": "2026-09-20T10:11:38.348769+00:00",
+      "before_value": null,
+      "after_value": "今天去的南山竹海，2017年公司旅游去过，对我来说，这就是个纯练体力的5A景区，但小朋友玩的还是蛮开心的  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2284418264/M5i2Kyjtv",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f5fdf0b7256a3348ecd0ac46c092fa8e1fcf5cb5fd8a02feb78eda323db696e6",
+      "title": "中秋🥮南山竹海 坐了人生第一次的架空索道 超稳的，回来还两人包车了 超开心 今天也终于见到了胖达 真的好懒 晚上吃的饭也好好吃 溧阳鱼汤👍 ​​",
+      "created_at": "2026-09-20T10:11:38.347368+00:00",
+      "before_value": null,
+      "after_value": "中秋🥮南山竹海\n坐了人生第一次的架空索道\n超稳的，回来还两人包车了\n超开心\n今天也终于见到了胖达\n真的好懒\n晚上吃的饭也好好吃\n溧阳鱼汤👍 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/3718923893/M5iIDlsFC",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "24eed87ac28ff36b82f1dc25b464780d42566444e0b232a6aa682cbeefeb01a0",
+      "title": "#被溧阳治愈的秋天#今天刚去了南山竹海，开心 ​​​",
+      "created_at": "2026-09-20T10:11:38.345422+00:00",
+      "before_value": null,
+      "after_value": "#被溧阳治愈的秋天#今天刚去了南山竹海，开心 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/6580230813/M6kz4zeZv",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "d6b9f9f9df0d023481d50f8e3166687632e310bc392c8fccf8481dad4d492f3b",
+      "title": "2022.6.4南山竹海 ​​​",
+      "created_at": "2026-09-20T10:11:38.343071+00:00",
+      "before_value": null,
+      "after_value": "2022.6.4南山竹海 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5880383994/M7QRfxYcA",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7b900c93b4b82837a3f15482c73c2a41f80d1d6f900a456e4c25b553b1d18a2a",
+      "title": "下雪的溧阳南山竹海实在美丽",
+      "created_at": "2026-09-20T09:50:43.889924+00:00",
+      "before_value": null,
+      "after_value": "#冬日里的雪景",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/69707c8d000000002103fb48",
+      "parent_id": null,
+      "kind": "discovery"
+    }
+  ],
+  "landscape_updates": [],
+  "visual_cohorts": [
+    {
+      "place_id": "place_e110a91eefb442ea",
+      "place_name": "南山竹海",
+      "month": 9,
+      "window": "historical",
+      "scene": "mountain",
+      "scene_label": "山地景观",
+      "status": "insufficient",
+      "sample_support": 1.0,
+      "groups": 1,
+      "total_groups": 1,
+      "years": [
+        2022
+      ],
+      "representative": {
+        "evidence_id": "ev_0c1938055fdb4ed7",
+        "media_id": "00e3b48de287744ea99b03a0",
+        "method": "cosine_medoid",
+        "visual_medoid_verified": true,
+        "note": "仅验证选取算法；不证明输入特征、地点、时间或展示条件正确",
+        "source_url": "https://weibo.com/2284418264/M5i2Kyjtv",
+        "publisher": "Mike卫",
+        "time_basis": "author_relative_date",
+        "time_excerpt": "推算 2022-09-11：正文「今天去的南山竹海,2017年公司旅游去过,对我来说,这就是个纯练体力的5A景区,但小朋友玩的还是蛮开心的  ​​​」；原帖日期 2022-09-11（页面未标注编辑）",
+        "observed_start": "2022-09-11",
+        "year": 2022,
+        "month": 9,
+        "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+      },
+      "representative_url": "/api/media/00e3b48de287744ea99b03a0",
+      "evidence_links": [
+        {
+          "evidence_id": "ev_0c1938055fdb4ed7",
+          "title": "今天去的南山竹海，2017年公司旅游去过，对我来说，这就是个纯练体力的5A景区，但小朋友玩的还是蛮开心的 ​​​",
+          "url": "https://weibo.com/2284418264/M5i2Kyjtv",
+          "year": 2022,
+          "time_basis": "author_relative_date"
+        }
+      ],
+      "coverage": {
+        "dated_records": 5,
+        "eligible_records": 1,
+        "excluded": {
+          "no_eligible_landscape": 2,
+          "scene_confidence_insufficient": 2
+        }
+      },
+      "rule_version": "dated-photo-scenes-v1",
+      "subject_rule_version": "representative-subject-gate-v1",
+      "scene_score_threshold": 0.65,
+      "calibration": "engineering_defaults_not_validated",
+      "interpretation": "按年份平衡的照片场景出现率；一组照片可同时出现多种景色，比例不必相加为100%。只描述已采集且可比较的景观相册，不证明季节状态、作者独立性或景色出现概率。"
+    },
+    {
+      "place_id": "place_e110a91eefb442ea",
+      "place_name": "南山竹海",
+      "month": 9,
+      "window": "historical",
+      "scene": "water",
+      "scene_label": "水面景观",
+      "status": "insufficient",
+      "sample_support": 1.0,
+      "groups": 1,
+      "total_groups": 1,
+      "years": [
+        2022
+      ],
+      "representative": {
+        "evidence_id": "ev_0c1938055fdb4ed7",
+        "media_id": "0805db4be6712bdac0f48d97",
+        "method": "cosine_medoid",
+        "visual_medoid_verified": true,
+        "note": "仅验证选取算法；不证明输入特征、地点、时间或展示条件正确",
+        "source_url": "https://weibo.com/2284418264/M5i2Kyjtv",
+        "publisher": "Mike卫",
+        "time_basis": "author_relative_date",
+        "time_excerpt": "推算 2022-09-11：正文「今天去的南山竹海,2017年公司旅游去过,对我来说,这就是个纯练体力的5A景区,但小朋友玩的还是蛮开心的  ​​​」；原帖日期 2022-09-11（页面未标注编辑）",
+        "observed_start": "2022-09-11",
+        "year": 2022,
+        "month": 9,
+        "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+      },
+      "representative_url": "/api/media/0805db4be6712bdac0f48d97",
+      "evidence_links": [
+        {
+          "evidence_id": "ev_0c1938055fdb4ed7",
+          "title": "今天去的南山竹海，2017年公司旅游去过，对我来说，这就是个纯练体力的5A景区，但小朋友玩的还是蛮开心的 ​​​",
+          "url": "https://weibo.com/2284418264/M5i2Kyjtv",
+          "year": 2022,
+          "time_basis": "author_relative_date"
+        }
+      ],
+      "coverage": {
+        "dated_records": 5,
+        "eligible_records": 1,
+        "excluded": {
+          "no_eligible_landscape": 2,
+          "scene_confidence_insufficient": 2
+        }
+      },
+      "rule_version": "dated-photo-scenes-v1",
+      "subject_rule_version": "representative-subject-gate-v1",
+      "scene_score_threshold": 0.65,
+      "calibration": "engineering_defaults_not_validated",
+      "interpretation": "按年份平衡的照片场景出现率；一组照片可同时出现多种景色，比例不必相加为100%。只描述已采集且可比较的景观相册，不证明季节状态、作者独立性或景色出现概率。"
+    }
+  ],
+  "time_windows": {
+    "historical_through_year": 2024,
+    "recent_observation_years": [
+      2025,
+      2026
+    ]
+  },
+  "coverage": {
+    "months": [
+      {
+        "month": 1,
+        "count": 3,
+        "observed_count": 1,
+        "publication_count": 2
+      },
+      {
+        "month": 2,
+        "count": 3,
+        "observed_count": 0,
+        "publication_count": 3
+      },
+      {
+        "month": 3,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 4,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 5,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 6,
+        "count": 1,
+        "observed_count": 1,
+        "publication_count": 0
+      },
+      {
+        "month": 7,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 8,
+        "count": 4,
+        "observed_count": 0,
+        "publication_count": 4
+      },
+      {
+        "month": 9,
+        "count": 21,
+        "observed_count": 9,
+        "publication_count": 12
+      },
+      {
+        "month": 10,
+        "count": 4,
+        "observed_count": 0,
+        "publication_count": 4
+      },
+      {
+        "month": 11,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 12,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      }
+    ],
+    "unknown_time": 43,
+    "unassigned_time": 6
+  },
+  "map": {
+    "bounds": [
+      31.1350205,
+      119.1168516,
+      31.7035233,
+      119.6300975
+    ],
+    "hubs": [
+      {
+        "id": "liyang-station",
+        "name": "溧阳站",
+        "type": "高铁站",
+        "lat": 31.3879681,
+        "lon": 119.4977038,
+        "source_url": "https://www.openstreetmap.org/way/335219629"
+      },
+      {
+        "id": "wawushan-station",
+        "name": "瓦屋山站",
+        "type": "高铁站",
+        "lat": 31.5607825,
+        "lon": 119.2689861,
+        "source_url": "https://www.openstreetmap.org/way/339381197"
+      }
+    ],
+    "roads": [],
+    "image_url": "/static/liyang-overview.svg",
+    "transport_sources": [
+      {
+        "label": "铁路班次与票价",
+        "url": "https://www.12306.cn/index/"
+      },
+      {
+        "label": "天目湖镇交通概况",
+        "url": "https://lystmhz.jszwfw.gov.cn/"
+      },
+      {
+        "label": "地图来源与署名",
+        "url": "https://www.openstreetmap.org/copyright"
+      }
+    ],
+    "limitations": [
+      "区域图与城区放大图可点击查看细节；道路与区划来自OpenStreetMap，数据读取于2026年9月20日。",
+      "用于理解位置分布；不代表实时路况，部分景点尚未取得可靠地图位置。"
+    ]
+  },
+  "limitations": [
+    "作者描述的月份与照片实拍日期分别记录；未知年份的材料不进入历年共识。",
+    "班次、票价和道路时效请以出行当天官方查询为准。"
+  ],
+  "updated_at": "2026-09-20T11:55:52.979300+00:00",
+  "total_evidence": 54,
+  "jobs": [],
+  "source_capabilities": []
+}

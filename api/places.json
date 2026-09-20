@@ -1,0 +1,83 @@
+[
+  {
+    "id": "liyang",
+    "name": "溧阳",
+    "kind": "destination",
+    "parent_id": null,
+    "created_at": "2026-09-20T07:00:50.929487+00:00",
+    "evidence_count": 55,
+    "pending_count": 0
+  },
+  {
+    "id": "place_a56c09bc013d4921",
+    "name": "天目湖山水园",
+    "kind": "attraction",
+    "parent_id": "liyang",
+    "created_at": "2026-09-20T07:01:05.704494+00:00",
+    "evidence_count": 11,
+    "pending_count": 0
+  },
+  {
+    "id": "place_e110a91eefb442ea",
+    "name": "南山竹海",
+    "kind": "attraction",
+    "parent_id": "liyang",
+    "created_at": "2026-09-20T07:01:05.922930+00:00",
+    "evidence_count": 26,
+    "pending_count": 0
+  },
+  {
+    "id": "place_5cac37d1059a4eca",
+    "name": "御水温泉",
+    "kind": "attraction",
+    "parent_id": "liyang",
+    "created_at": "2026-09-20T07:01:06.125959+00:00",
+    "evidence_count": 6,
+    "pending_count": 0
+  },
+  {
+    "id": "place_c194c49525e140d0",
+    "name": "曹山旅游度假区",
+    "kind": "attraction",
+    "parent_id": "liyang",
+    "created_at": "2026-09-20T07:56:12.194909+00:00",
+    "evidence_count": 1,
+    "pending_count": 0
+  },
+  {
+    "id": "place_183ab381969345da",
+    "name": "新四军江南指挥部纪念馆",
+    "kind": "attraction",
+    "parent_id": "liyang",
+    "created_at": "2026-09-20T07:56:12.498125+00:00",
+    "evidence_count": 1,
+    "pending_count": 0
+  },
+  {
+    "id": "place_b056a5774794434a",
+    "name": "史侯祠",
+    "kind": "attraction",
+    "parent_id": "liyang",
+    "created_at": "2026-09-20T07:56:12.923159+00:00",
+    "evidence_count": 1,
+    "pending_count": 0
+  },
+  {
+    "id": "place_7bf2baddf01440af",
+    "name": "松岭竹海漂流",
+    "kind": "attraction",
+    "parent_id": "liyang",
+    "created_at": "2026-09-20T08:18:23.538454+00:00",
+    "evidence_count": 1,
+    "pending_count": 0
+  },
+  {
+    "id": "place_0d84eaec06754413",
+    "name": "仙山十三岭",
+    "kind": "attraction",
+    "parent_id": "liyang",
+    "created_at": "2026-09-20T08:18:23.539808+00:00",
+    "evidence_count": 2,
+    "pending_count": 0
+  }
+]

@@ -1,0 +1,1348 @@
+{
+  "destination": {
+    "id": "liyang",
+    "name": "溧阳",
+    "description": "沿着湖岸、竹林与山野，寻找这个月份值得出发的风景。"
+  },
+  "attractions": [
+    {
+      "id": "place_a56c09bc013d4921",
+      "name": "天目湖山水园",
+      "lat": 31.3037721,
+      "lon": 119.4286978,
+      "description": "天目湖山水园,国家5A级景区。作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138952.html",
+      "photo_url": "/api/media/44c754999ec6c3bd3742a5e1",
+      "photo_credit": "王飛-F",
+      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
+      "photo_source_url": "https://weibo.com/5367756605/P0xdR3D5L",
+      "evidence_count": 11,
+      "months": [
+        2,
+        4,
+        9,
+        10,
+        11
+      ],
+      "map_source_url": "https://www.openstreetmap.org/way/334129142",
+      "coordinate_system": "WGS84",
+      "local_map": {
+        "title": "天目湖山水园 · 园内导览",
+        "image_url": "/static/maps/tmhtour-guide-2.jpg",
+        "source_url": "http://www.tmhtour.com/shows/17/208.html",
+        "source_label": "天目湖旅游官网",
+        "description": "官网导览图，版本日期未注明；线路与设施以现场开放情况为准。",
+        "retrieved_at": "2026-09-20",
+        "original_image_url": "http://www.tmhtour.com/uploads/images/20230604/923c03c08df7ba3f55807e748c470199.jpg",
+        "sha256": "9707f743b57c06e335daf71b648386370d6e0439804a435e9be8a63263506254"
+      }
+    },
+    {
+      "id": "place_e110a91eefb442ea",
+      "name": "南山竹海",
+      "lat": 31.1707134,
+      "lon": 119.5200143,
+      "description": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
+      "photo_url": "/api/media/5385ee61d7849f7f7fad7997",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
+      "evidence_count": 26,
+      "months": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "map_source_url": "https://www.openstreetmap.org/way/334129131",
+      "coordinate_system": "WGS84",
+      "local_map": {
+        "title": "南山竹海 · 园内导览",
+        "image_url": "/static/maps/tmhtour-guide-3.jpg",
+        "source_url": "http://www.tmhtour.com/shows/17/208.html",
+        "source_label": "天目湖旅游官网",
+        "description": "官网导览图，版本日期未注明；线路与设施以现场开放情况为准。",
+        "retrieved_at": "2026-09-20",
+        "original_image_url": "http://www.tmhtour.com/uploads/images/20230604/a3b019e9f43a4d62d7521b35816dedee.jpg",
+        "sha256": "941ac9e9862ce370d5d5427ae0408362c98d983608b87b5a018d361837feab44"
+      }
+    },
+    {
+      "id": "place_5cac37d1059a4eca",
+      "name": "御水温泉",
+      "lat": 31.1832902,
+      "lon": 119.5286808,
+      "description": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
+      "photo_url": "/api/media/44848c483c5724c271432792",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
+      "evidence_count": 6,
+      "months": [
+        8,
+        10,
+        12
+      ],
+      "map_source_url": "https://www.openstreetmap.org/way/377650120",
+      "coordinate_system": "WGS84",
+      "local_map": {
+        "title": "御水温泉 · 园内导览",
+        "image_url": "/static/maps/tmhtour-guide-4.jpg",
+        "source_url": "http://www.tmhtour.com/shows/17/208.html",
+        "source_label": "天目湖旅游官网",
+        "description": "官网导览图，版本日期未注明；线路与设施以现场开放情况为准。",
+        "retrieved_at": "2026-09-20",
+        "original_image_url": "http://www.tmhtour.com/uploads/images/20230604/cafade517736198a64148d92852bae2e.jpg",
+        "sha256": "794d5bf6ca198cfaa33e5acd9ca9e5f3fc816d302cde2b667e5693363c45c130"
+      }
+    },
+    {
+      "id": "place_c194c49525e140d0",
+      "name": "曹山旅游度假区",
+      "lat": null,
+      "lon": null,
+      "description": "曹山旅游度假区，2018年1月被江苏省人民政府批准为省级旅游度假区。曹山旅游度假区依托优良的生态环境、深厚的文化积淀、丰富的现代农业资源、优越的区位条件，以“七彩曹山”为主题，融生态农业、乡村文化、运动休闲、养生度假于一体，着力打造“养眼、养身、养心”三个层次的旅游产品体系，建设特色乡村旅游度假目的地。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138949.html",
+      "photo_url": "/api/media/f00aaef831c6ba8380ba4534",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138949.html",
+      "evidence_count": 1,
+      "months": [],
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_183ab381969345da",
+      "name": "新四军江南指挥部纪念馆",
+      "lat": 31.5096085,
+      "lon": 119.33798445,
+      "description": "新四军江南指挥部纪念馆,国家4A级景区。位于竹箦镇水西村内，依托新四军江南指挥部旧址而建。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138948.html",
+      "photo_url": "/api/media/d35ea30773ed56115334501e",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138948.html",
+      "evidence_count": 1,
+      "months": [],
+      "map_source_url": "https://www.openstreetmap.org/way/334129153",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_b056a5774794434a",
+      "name": "史侯祠",
+      "lat": null,
+      "lon": null,
+      "description": "史侯祠，国家3A级景区。位于埭头镇，始建于东汉初年，是为纪念东汉名将、溧阳侯史崇而建的祭祀建筑群，距今有2000多年历史。",
+      "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138947.html",
+      "photo_url": "/api/media/8f275154d2d6e5fcb41c071f",
+      "photo_credit": "溧阳市人民政府",
+      "photo_time_basis": "官方背景资料",
+      "photo_source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138947.html",
+      "evidence_count": 1,
+      "months": [],
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_7bf2baddf01440af",
+      "name": "松岭竹海漂流",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "evidence_count": 1,
+      "months": [
+        9
+      ],
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_0d84eaec06754413",
+      "name": "仙山十三岭",
+      "lat": null,
+      "lon": null,
+      "description": "资料正在汇集",
+      "source_url": null,
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "evidence_count": 1,
+      "months": [
+        9
+      ],
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_7928d1a4d70f49c2",
+      "place_id": "place_a56c09bc013d4921",
+      "title": "📍常州•天目湖 誉为“江南明珠”的天目湖，绝对值得一游，可谓之“观一湖而知江南”。天目湖山水园是国家5A级景区，作为天目湖的核心景区，山水园景区",
+      "excerpt": "📍常州•天目湖\n誉为“江南明珠”的天目湖，绝对值得一游，可谓之“观一湖而知江南”。天目湖山水园是国家5A级景区，作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点!溧阳·天目湖旅游度假区 ​​​",
+      "published_at": null,
+      "fetched_at": "2026-09-20T11:49:24.865911+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/5367756605/P0xdR3D5L",
+      "publisher": "王飛-F",
+      "place_name": "天目湖山水园",
+      "media_count": 9,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "24-11-16 10:05",
+      "captured_at": "2026-09-20T11:49:24.865911+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuor8ay6j30x617mtqk.jpg",
+          "id": "44c754999ec6c3bd3742a5e1",
+          "ordinal": 1,
+          "url": "/api/media/44c754999ec6c3bd3742a5e1",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "water",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.84228515625,
+            "scene_scores": {
+              "water": 0.84228515625,
+              "mountain": 0.83935546875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuonwo3yj30x717oe5u.jpg",
+          "id": "988d981a84d40c3d32dbf14e",
+          "ordinal": 2,
+          "url": "/api/media/988d981a84d40c3d32dbf14e",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuolmm7qj30wv178nn3.jpg",
+          "id": "29475c9a56f8efba13125391",
+          "ordinal": 3,
+          "url": "/api/media/29475c9a56f8efba13125391",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.4788161814212799,
+            "scene_scores": {
+              "vegetation": 0.4788161814212799
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuoovevdj30x917q4qp.jpg",
+          "id": "7f7739fb2a3bb656ca6bfde0",
+          "ordinal": 4,
+          "url": "/api/media/7f7739fb2a3bb656ca6bfde0",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuon9u7oj30xj184wya.jpg",
+          "id": "9f2ef3206b204651426bff23",
+          "ordinal": 5,
+          "url": "/api/media/9f2ef3206b204651426bff23",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.5810546875,
+            "scene_scores": {
+              "mountain": 0.5810546875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuoqk2g8j30x617mx3g.jpg",
+          "id": "7d72247262aacddf57a5af97",
+          "ordinal": 6,
+          "url": "/api/media/7d72247262aacddf57a5af97",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.8623046875,
+            "scene_scores": {
+              "vegetation": 0.6147584915161133,
+              "mountain": 0.8623046875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuommzlpj30x417k4qp.jpg",
+          "id": "a2a58fe3af38c8215143bf91",
+          "ordinal": 7,
+          "url": "/api/media/a2a58fe3af38c8215143bf91",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "grassland",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.37451171875,
+            "scene_scores": {
+              "grassland": 0.37451171875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuopmq0sj30xd17whbx.jpg",
+          "id": "8b5a762e5ca9c30faf17b83e",
+          "ordinal": 8,
+          "url": "/api/media/8b5a762e5ca9c30faf17b83e",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "prominent_non_landscape_subject",
+            "subject_flags": [
+              "people"
+            ]
+          }
+        },
+        {
+          "asset_id": "weibo:005RgyHrly1hvnuos8m64j30xe17x1kx.jpg",
+          "id": "b4008810279cc206fa659c5a",
+          "ordinal": 9,
+          "url": "/api/media/b4008810279cc206fa659c5a",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.6492899656295776,
+            "scene_scores": {
+              "vegetation": 0.6492899656295776
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2024-11-16",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 11,
+      "browse_year": 2024,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 9,
+        "total": 9,
+        "scene_counts": {
+          "water": 1,
+          "vegetation": 2,
+          "mountain": 2,
+          "grassland": 1
+        }
+      },
+      "visual_analysis": {
+        "media_total": 9,
+        "analyzed_media": 9,
+        "full_pixel_media": 9,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "44c754999ec6c3bd3742a5e1",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "988d981a84d40c3d32dbf14e",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "29475c9a56f8efba13125391",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7f7739fb2a3bb656ca6bfde0",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "9f2ef3206b204651426bff23",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7d72247262aacddf57a5af97",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "a2a58fe3af38c8215143bf91",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "8b5a762e5ca9c30faf17b83e",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b4008810279cc206fa659c5a",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_d31cee4515b84af2",
+      "place_id": "place_a56c09bc013d4921",
+      "title": "天目湖山水园！ACKNOWLEDGE ME! ​​​",
+      "excerpt": "天目湖山水园！ACKNOWLEDGE ME! ​​​",
+      "published_at": null,
+      "fetched_at": "2026-09-20T11:49:24.863483+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/7833875010/P0UD4jcbc",
+      "publisher": "阿华田炒鸡甜",
+      "place_name": "天目湖山水园",
+      "media_count": 9,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "24-11-18 21:40",
+      "captured_at": "2026-09-20T11:49:24.863483+00:00",
+      "topics": [
+        "湖泊"
+      ],
+      "media": [
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq0ur6ebj31uo18gqq5.jpg",
+          "id": "3958cd4dab8a88d761707951",
+          "ordinal": 1,
+          "url": "/api/media/3958cd4dab8a88d761707951",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq0vmhuhj31e00xcdxo.jpg",
+          "id": "ab27c36fc731602be9a78d49",
+          "ordinal": 2,
+          "url": "/api/media/ab27c36fc731602be9a78d49",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "grassland",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.49755859375,
+            "scene_scores": {
+              "vegetation": 0.4496470093727112,
+              "grassland": 0.49755859375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq0w7zbwj31uo18g48v.jpg",
+          "id": "7ed6a61880f7b94f50e93ef8",
+          "ordinal": 3,
+          "url": "/api/media/7ed6a61880f7b94f50e93ef8",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "water",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.64599609375,
+            "scene_scores": {
+              "water": 0.64599609375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq0wxjkrj31uo18gnbb.jpg",
+          "id": "b30c0b2973a106c53cc589a6",
+          "ordinal": 4,
+          "url": "/api/media/b30c0b2973a106c53cc589a6",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "water",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.6455078125,
+            "scene_scores": {
+              "water": 0.6455078125
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq0xipplj31uo18gai9.jpg",
+          "id": "80ad1eaf4eac23cbc03d8ddd",
+          "ordinal": 5,
+          "url": "/api/media/80ad1eaf4eac23cbc03d8ddd",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq0y338uj31uo18g43c.jpg",
+          "id": "26d4de5beb6300cbb0b27548",
+          "ordinal": 6,
+          "url": "/api/media/26d4de5beb6300cbb0b27548",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq0yty8zj31uo18gtnu.jpg",
+          "id": "cc2815a84461679da00ed903",
+          "ordinal": 7,
+          "url": "/api/media/cc2815a84461679da00ed903",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "water",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.72509765625,
+            "scene_scores": {
+              "water": 0.72509765625
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq0zpf6hj31uo18g19v.jpg",
+          "id": "c49c083c962762ce9cfb805f",
+          "ordinal": 8,
+          "url": "/api/media/c49c083c962762ce9cfb805f",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.3506382405757904,
+            "scene_scores": {
+              "vegetation": 0.3506382405757904
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:008ya8KKly1hvqq105ze9j31uo18gad5.jpg",
+          "id": "25bcbac405a4469b325b8960",
+          "ordinal": 9,
+          "url": "/api/media/25bcbac405a4469b325b8960",
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2024-11-18",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "browse_month": 11,
+      "browse_year": 2024,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 9,
+        "total": 9,
+        "scene_counts": {
+          "grassland": 1,
+          "water": 3,
+          "vegetation": 1
+        }
+      },
+      "visual_analysis": {
+        "media_total": 9,
+        "analyzed_media": 9,
+        "full_pixel_media": 9,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "3958cd4dab8a88d761707951",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "ab27c36fc731602be9a78d49",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7ed6a61880f7b94f50e93ef8",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b30c0b2973a106c53cc589a6",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "80ad1eaf4eac23cbc03d8ddd",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "26d4de5beb6300cbb0b27548",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "cc2815a84461679da00ed903",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "c49c083c962762ce9cfb805f",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "25bcbac405a4469b325b8960",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    }
+  ],
+  "baselines": [
+    {
+      "place_id": "place_a56c09bc013d4921",
+      "place_name": "天目湖山水园",
+      "month": 11,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_e110a91eefb442ea",
+      "place_name": "南山竹海",
+      "month": 11,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_5cac37d1059a4eca",
+      "place_name": "御水温泉",
+      "month": 11,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_c194c49525e140d0",
+      "place_name": "曹山旅游度假区",
+      "month": 11,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_183ab381969345da",
+      "place_name": "新四军江南指挥部纪念馆",
+      "month": 11,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_b056a5774794434a",
+      "place_name": "史侯祠",
+      "month": 11,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_7bf2baddf01440af",
+      "place_name": "松岭竹海漂流",
+      "month": 11,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_0d84eaec06754413",
+      "place_name": "仙山十三岭",
+      "month": 11,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    }
+  ],
+  "changes": [
+    {
+      "id": "f4c8724772a9bc867d540b2f474380cd909087693632f697d5a373a4b26da440",
+      "title": "#发现极美常州# 【天目湖旅游度假区滨湖片区入选“国家级夜间文化和旅游消费集聚区”】1月25日，文化和旅游部公布第三批国家级夜间文化和旅游消费集",
+      "created_at": "2026-09-20T11:55:52.979904+00:00",
+      "before_value": null,
+      "after_value": "#发现极美常州# 【天目湖旅游度假区滨湖片区入选“国家级夜间文化和旅游消费集聚区”】1月25日，文化和旅游部公布第三批国家级夜间文化和旅游消费集聚区入选名单，全国共102个项目，其中，溧阳市天目湖旅游度假区滨湖片区位列其中，为我市唯一。天目湖旅游度假区滨湖片区总面积约2.5平方公里，东至天目路，南至沙河水库，西至桂林山，北至东麻路，整合区内山水园景区、水世界",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2616693703/NDDo63liw",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "0bc50b0d4bec5a58bf6dcb4471cb5edf8b3412cf457c1f7c7aec2490515ea0d5",
+      "title": "御水温泉｜要论泡汤，御水温泉真的赢麻了#常州·天目湖御水温泉景区[地点]##雪天泡温泉##泡温泉囤脂肪小动物们花式过冬# 冷冷Lynn__的微博",
+      "created_at": "2026-09-20T11:49:24.873372+00:00",
+      "before_value": null,
+      "after_value": "御水温泉｜要论泡汤，御水温泉真的赢麻了#常州·天目湖御水温泉景区[地点]##雪天泡温泉##泡温泉囤脂肪小动物们花式过冬#  冷冷Lynn__的微博视频 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5521484466/P6dbb0PkP",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7550dd9953b78170eea03c081525ee3a2b0dcc91712f81158edcfa983083cc12",
+      "title": "#常州·天目湖御水温泉景区[地点]# 冬天当然要和爱❤️的人一起去泡温泉啦 ​​​",
+      "created_at": "2026-09-20T11:49:24.871767+00:00",
+      "before_value": null,
+      "after_value": "#常州·天目湖御水温泉景区[地点]# \n冬天当然要和爱❤️的人一起去泡温泉啦  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2896929492/P6GqtoLp8",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "859ce991e611bc031afc5dad18d368aa1ba8f73764385af8b47e92e94bd0fa0b",
+      "title": "🌈南山竹海🎋🎋 这个山是爬不了一点，全程地轨+索道 早上还在下雨☔️ 下山了天才放晴emmm ​​​",
+      "created_at": "2026-09-20T11:49:24.869934+00:00",
+      "before_value": null,
+      "after_value": "🌈南山竹海🎋🎋\n这个山是爬不了一点，全程地轨+索道\n早上还在下雨☔️ 下山了天才放晴emmm  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/6395260399/O7yL6quW1",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3f19fd98e72c1dde1892f1be7e6467d312d1b21cae15125f71400660018c497c",
+      "title": "继续踏青 南山竹海 寿比南山 轻松登顶 吴越弟一峰 508米 ​​​",
+      "created_at": "2026-09-20T11:49:24.868282+00:00",
+      "before_value": null,
+      "after_value": "继续踏青 南山竹海 \n寿比南山 轻松登顶\n吴越弟一峰 508米  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/3463875794/O7B09fqVA",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "e0c94645114d60298b7769db097ca7db3467b6af638ea1ca6897d3168aa28e61",
+      "title": "📍常州•天目湖 誉为“江南明珠”的天目湖，绝对值得一游，可谓之“观一湖而知江南”。天目湖山水园是国家5A级景区，作为天目湖的核心景区，山水园景区",
+      "created_at": "2026-09-20T11:49:24.866454+00:00",
+      "before_value": null,
+      "after_value": "📍常州•天目湖\n誉为“江南明珠”的天目湖，绝对值得一游，可谓之“观一湖而知江南”。天目湖山水园是国家5A级景区，作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点!溧阳·天目湖旅游度假区 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5367756605/P0xdR3D5L",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "9a8ff9d67e17ce308e665ad5a5c30195db6e53212823b64c3b678b62c2826fe3",
+      "title": "天目湖山水园！ACKNOWLEDGE ME! ​​​",
+      "created_at": "2026-09-20T11:49:24.864351+00:00",
+      "before_value": null,
+      "after_value": "天目湖山水园！ACKNOWLEDGE ME! ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/7833875010/P0UD4jcbc",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "b4c489d0bbe1568f7c37fcf4c7f8ebfbd9fdcaaf8b233bed756e20a4b39a9c83",
+      "title": "天目湖御水温泉是国内极具特色的温泉度假目... 戳我看视频>>网页链接 (更多 @御水温泉竹溪谷酒店 sales 的视频都在小红书 立刻下载 A",
+      "created_at": "2026-09-20T11:46:45.408623+00:00",
+      "before_value": null,
+      "after_value": "天目湖御水温泉是国内极具特色的温泉度假目... 戳我看视频>>网页链接 (更多 @御水温泉竹溪谷酒店 sales 的视频都在小红书 立刻下载 APP：应用详情) ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/6080173597/OuFMtmQMm",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "202dd4c1117542996fd6b53db5a52d3431907e2ac7ee7612f144cddd0129cdf0",
+      "title": "竹林深处＋温泉♨＋鱼头汤 拜拜溧阳 ​​​",
+      "created_at": "2026-09-20T11:46:45.407136+00:00",
+      "before_value": null,
+      "after_value": "竹林深处＋温泉♨＋鱼头汤\n拜拜溧阳  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/6797582669/OsOZtvWwz",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "e513ec206a46cd8f989458b2a24e6dfc2a51dd81a4468e1414490ff138737afa",
+      "title": "十一年前来南山竹海是下雨天 今天又是下雨天☔️ ​​​",
+      "created_at": "2026-09-20T11:46:45.405250+00:00",
+      "before_value": null,
+      "after_value": "十一年前来南山竹海是下雨天\n今天又是下雨天☔️  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2118836720/OgOgdd1cD",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7875e3beb11a0a48d7359591e949749d08c2adf742e53d96bf794c3c8cb281ba",
+      "title": "这个季节包邮区的天气就是不讲信用，说好的早上雨就停了，但是淅淅沥沥一直下到下午。 周五的景区，游客很少，风景也很美。 5/31之溧阳南山竹海 ​",
+      "created_at": "2026-09-20T11:46:45.402914+00:00",
+      "before_value": null,
+      "after_value": "这个季节包邮区的天气就是不讲信用，说好的早上雨就停了，但是淅淅沥沥一直下到下午。\n周五的景区，游客很少，风景也很美。\n5/31之溧阳南山竹海  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2152128042/OgShiw3Ph",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "be236a79d487136d82aa27326ffba9491d016e98da20464edbdda947e29965a1",
+      "title": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！） ​​​",
+      "created_at": "2026-09-20T11:46:45.401359+00:00",
+      "before_value": null,
+      "after_value": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！）  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5978888176/O0j9N71w9",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "1567a69531aa28130585eb136b03a16a6be86bd1ca2a0b8dbc33e125b88809b4",
+      "title": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！） ​​​",
+      "created_at": "2026-09-20T11:46:45.400912+00:00",
+      "before_value": null,
+      "after_value": "准备前往南山竹海，看着导航红彤彤，直接改去天目湖山水园。数不清的台阶，没有回头路，硬着头皮往上走（ps：鱼丸好吃！）  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5978888176/O0j9N71w9",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "b85511972e46cf9503a163da94ae8506210e75acf43b98556024bac7e142a441",
+      "title": "「天目湖景区·溧阳」 今天刮风又下雨 温度降得厉害 下午4点30分 进入天目湖景区 但湖边实在是冷 匆匆玩了会儿 就回酒店吃饭休息了 #春节摄影",
+      "created_at": "2026-09-20T11:46:45.399152+00:00",
+      "before_value": null,
+      "after_value": "「天目湖景区·溧阳」\n今天刮风又下雨\n温度降得厉害\n下午4点30分\n进入天目湖景区\n但湖边实在是冷\n匆匆玩了会儿\n就回酒店吃饭休息了\n#春节摄影大赛##溧阳##天目湖山水园景区##春节旅游##红米手机#手机摄影超话  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/7391638199/O0LhdwNkP",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "9f393a56e60f9d1dc4e3f3ed351c3a9b5b7a4dd25212bd22e80b1244f6db53a9",
+      "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "created_at": "2026-09-20T11:41:50.965453+00:00",
+      "before_value": null,
+      "after_value": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2721991990/OAyDQ6xtr",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7fe820e798eecbe8187e07664d0f8bda10b50c4764b74912dcc7476077941dc7",
+      "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "created_at": "2026-09-20T11:41:50.965106+00:00",
+      "before_value": null,
+      "after_value": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2721991990/OAyDQ6xtr",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "27c260613ae44c871bf3aeed82dad8c52718e54d0d67c559996832a333b2967e",
+      "title": "溧阳市国庆假期旅游活动亮点纷呈 国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "created_at": "2026-09-20T11:41:50.964755+00:00",
+      "before_value": null,
+      "after_value": "溧阳市国庆假期旅游活动亮点纷呈\n\n国庆假期，天目湖山水园、南山竹海、御水温泉等景区推出精彩纷呈的活动，为游客带来丰富的游玩体验。 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2721991990/OAyDQ6xtr",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "0a2d883982c920e856c58b5d2138c7379b8e1ba9225d481f663c4f7f9fba5552",
+      "title": "早餐后打车去报恩禅寺。雨下得挺大，几乎没有游人。听着旅途随身听的介绍了解了寺庙的历史和建筑。走在菩提路上，内心“净、静、境”。打卡了方所文化村，",
+      "created_at": "2026-09-20T11:41:50.963500+00:00",
+      "before_value": null,
+      "after_value": "早餐后打车去报恩禅寺。雨下得挺大，几乎没有游人。听着旅途随身听的介绍了解了寺庙的历史和建筑。走在菩提路上，内心“净、静、境”。打卡了方所文化村，特别喜欢天目书塔。又去了者里一仓文创店。中午去吃了必吃榜鱼头汤，较昨晚的鱼头汤更清淡，还吃到了溧阳特产白芹和乌米饭。下午去御水温泉泡汤，直到晩上。山间的日景夜景一览无遗～～～\n带着微博去旅行超话",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2279339552/ODwF63EoY",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "59c2a5d14c723e952da51cea73539bb5f0c8f79722ec8c183b100b56f5c5623e",
+      "title": "说走就走 溧阳 南山竹海 40度的下午坐了小火车，缆车，空中轨道，登顶了弟一峰！全程不需要排队，太爽了！ 最后下山的小溪走不动了，没玩成，水枪白",
+      "created_at": "2026-09-20T11:41:50.961940+00:00",
+      "before_value": null,
+      "after_value": "说走就走 溧阳 南山竹海\n40度的下午坐了小火车，缆车，空中轨道，登顶了弟一峰！全程不需要排队，太爽了！\n最后下山的小溪走不动了，没玩成，水枪白背了！  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/1229466912/OpYo5l6VE",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f1922ff4304c3d555c51ae7c303f410695a4c85ad3422154a9637ee35745fc6f",
+      "title": "南山竹海是大自然赋予的天然氧吧 ​​​",
+      "created_at": "2026-09-20T11:41:50.960500+00:00",
+      "before_value": null,
+      "after_value": "南山竹海是大自然赋予的天然氧吧  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2959361992/OpZWYj4PR",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "901b571d7abf4db0b84823e8da3aa05632a44d0dc4c6b585901bb26097923e57",
+      "title": "分会组织天目湖山水园一日游，原来天气预报要一直下雨，每人都带了雨伞，直到游玩结束也没下雨，很幸运 ​​​",
+      "created_at": "2026-09-20T11:41:50.958820+00:00",
+      "before_value": null,
+      "after_value": "分会组织天目湖山水园一日游，原来天气预报要一直下雨，每人都带了雨伞，直到游玩结束也没下雨，很幸运  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/1457799632/O9I4hadj4",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3afe8ab7cdca112a5d9804d82e1b17736b3ea3eef5f07ca2b7aaaaff45b8b8f3",
+      "title": "天目湖山水园 走走赶赶停停～～ ​​​",
+      "created_at": "2026-09-20T11:41:50.957453+00:00",
+      "before_value": null,
+      "after_value": "天目湖山水园\n走走赶赶停停～～ ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2119329737/ObwdDxdT5",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f9de01a9daef045c24627984ad4fbb87a83e150ab9bd8843cb861ba27dcca94b",
+      "title": "今天常州溧阳这边下起了小雨微风送凉，很是舒适趁着雨后清新，早饭后驾车前往“天目湖山水园”湖边散步吹着微风，呼吸着新鲜的空气真是太惬意了喝一杯“天",
+      "created_at": "2026-09-20T10:47:44.202332+00:00",
+      "before_value": null,
+      "after_value": "今天常州溧阳这边下起了小雨微风送凉，很是舒适趁着雨后清新，早饭后驾车前往“天目湖山水园”湖边散步吹着微风，呼吸着新鲜的空气真是太惬意了喝一杯“天目湖啤酒”🍺再品尝一份鲜美的“天目湖鱼头”那是相当的舒坦\n\n#随手拍##天目湖##记录美好##湖光山色##今日分享#常州旅游超话  壹夜寒风的微博视频",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/1377774282/OwuF6neTj",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3b81bb7897633d0c743007811a9b6d30e4671dd1cec46bde2e6973fc155001d4",
+      "title": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的",
+      "created_at": "2026-09-20T10:47:44.200394+00:00",
+      "before_value": null,
+      "after_value": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的乐趣，感受丰收的喜悦，蛮好溧阳·天目湖山水园 。 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2275491451/OzefHgpl6",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f84d2f1fbcfdbee32cb18496d02824fcb1eff4126745258f2c8e95c80fa41a54",
+      "title": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～ 打卡溧阳南山竹海～的确是漫山遍野的竹",
+      "created_at": "2026-09-20T10:47:44.198077+00:00",
+      "before_value": null,
+      "after_value": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～\n\n打卡溧阳南山竹海～的确是漫山遍野的竹林，沿路栽种的桂花飘香，沉浸在大自然里的心旷神怡\n\n坐了轨道看起来很像过山车实际也就小火车速度的观光缆车，进了熊猫馆才后知后觉地发现这里的两只熊猫原来是星安和华丽我总在早上看他们的吃播，虽然看得津津有味但是一直不知",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2303852471/OzpTytTcv",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "76d262d306c55bb3c5cbb8499e7020d8db0318f9c4dc6f94eda5931453a76ed0",
+      "title": "今天去的南山竹海，2017年公司旅游去过，对我来说，这就是个纯练体力的5A景区，但小朋友玩的还是蛮开心的 ​​​",
+      "created_at": "2026-09-20T10:11:38.348769+00:00",
+      "before_value": null,
+      "after_value": "今天去的南山竹海，2017年公司旅游去过，对我来说，这就是个纯练体力的5A景区，但小朋友玩的还是蛮开心的  ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/2284418264/M5i2Kyjtv",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f5fdf0b7256a3348ecd0ac46c092fa8e1fcf5cb5fd8a02feb78eda323db696e6",
+      "title": "中秋🥮南山竹海 坐了人生第一次的架空索道 超稳的，回来还两人包车了 超开心 今天也终于见到了胖达 真的好懒 晚上吃的饭也好好吃 溧阳鱼汤👍 ​​",
+      "created_at": "2026-09-20T10:11:38.347368+00:00",
+      "before_value": null,
+      "after_value": "中秋🥮南山竹海\n坐了人生第一次的架空索道\n超稳的，回来还两人包车了\n超开心\n今天也终于见到了胖达\n真的好懒\n晚上吃的饭也好好吃\n溧阳鱼汤👍 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/3718923893/M5iIDlsFC",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "24eed87ac28ff36b82f1dc25b464780d42566444e0b232a6aa682cbeefeb01a0",
+      "title": "#被溧阳治愈的秋天#今天刚去了南山竹海，开心 ​​​",
+      "created_at": "2026-09-20T10:11:38.345422+00:00",
+      "before_value": null,
+      "after_value": "#被溧阳治愈的秋天#今天刚去了南山竹海，开心 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/6580230813/M6kz4zeZv",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "d6b9f9f9df0d023481d50f8e3166687632e310bc392c8fccf8481dad4d492f3b",
+      "title": "2022.6.4南山竹海 ​​​",
+      "created_at": "2026-09-20T10:11:38.343071+00:00",
+      "before_value": null,
+      "after_value": "2022.6.4南山竹海 ​​​",
+      "reason": "首次自动采集",
+      "source_url": "https://weibo.com/5880383994/M7QRfxYcA",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7b900c93b4b82837a3f15482c73c2a41f80d1d6f900a456e4c25b553b1d18a2a",
+      "title": "下雪的溧阳南山竹海实在美丽",
+      "created_at": "2026-09-20T09:50:43.889924+00:00",
+      "before_value": null,
+      "after_value": "#冬日里的雪景",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/69707c8d000000002103fb48",
+      "parent_id": null,
+      "kind": "discovery"
+    }
+  ],
+  "landscape_updates": [],
+  "visual_cohorts": [],
+  "time_windows": {
+    "historical_through_year": 2024,
+    "recent_observation_years": [
+      2025,
+      2026
+    ]
+  },
+  "coverage": {
+    "months": [
+      {
+        "month": 1,
+        "count": 3,
+        "observed_count": 1,
+        "publication_count": 2
+      },
+      {
+        "month": 2,
+        "count": 3,
+        "observed_count": 0,
+        "publication_count": 3
+      },
+      {
+        "month": 3,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 4,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 5,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 6,
+        "count": 1,
+        "observed_count": 1,
+        "publication_count": 0
+      },
+      {
+        "month": 7,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 8,
+        "count": 4,
+        "observed_count": 0,
+        "publication_count": 4
+      },
+      {
+        "month": 9,
+        "count": 21,
+        "observed_count": 9,
+        "publication_count": 12
+      },
+      {
+        "month": 10,
+        "count": 4,
+        "observed_count": 0,
+        "publication_count": 4
+      },
+      {
+        "month": 11,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      },
+      {
+        "month": 12,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2
+      }
+    ],
+    "unknown_time": 43,
+    "unassigned_time": 6
+  },
+  "map": {
+    "bounds": [
+      31.1350205,
+      119.1168516,
+      31.7035233,
+      119.6300975
+    ],
+    "hubs": [
+      {
+        "id": "liyang-station",
+        "name": "溧阳站",
+        "type": "高铁站",
+        "lat": 31.3879681,
+        "lon": 119.4977038,
+        "source_url": "https://www.openstreetmap.org/way/335219629"
+      },
+      {
+        "id": "wawushan-station",
+        "name": "瓦屋山站",
+        "type": "高铁站",
+        "lat": 31.5607825,
+        "lon": 119.2689861,
+        "source_url": "https://www.openstreetmap.org/way/339381197"
+      }
+    ],
+    "roads": [],
+    "image_url": "/static/liyang-overview.svg",
+    "transport_sources": [
+      {
+        "label": "铁路班次与票价",
+        "url": "https://www.12306.cn/index/"
+      },
+      {
+        "label": "天目湖镇交通概况",
+        "url": "https://lystmhz.jszwfw.gov.cn/"
+      },
+      {
+        "label": "地图来源与署名",
+        "url": "https://www.openstreetmap.org/copyright"
+      }
+    ],
+    "limitations": [
+      "区域图与城区放大图可点击查看细节；道路与区划来自OpenStreetMap，数据读取于2026年9月20日。",
+      "用于理解位置分布；不代表实时路况，部分景点尚未取得可靠地图位置。"
+    ]
+  },
+  "limitations": [
+    "作者描述的月份与照片实拍日期分别记录；未知年份的材料不进入历年共识。",
+    "班次、票价和道路时效请以出行当天官方查询为准。"
+  ],
+  "updated_at": "2026-09-20T11:55:52.979300+00:00",
+  "total_evidence": 54,
+  "jobs": [],
+  "source_capabilities": []
+}
