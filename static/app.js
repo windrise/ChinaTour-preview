@@ -225,6 +225,7 @@ function normalizeDestination(raw) {
     visualCohorts: Array.isArray(raw?.visual_cohorts) ? raw.visual_cohorts : [],
     landscapeUpdates: Array.isArray(raw?.landscape_updates) ? raw.landscape_updates : [],
     timeWindows: raw?.time_windows || {},
+    visitor_seasonality: raw?.visitor_seasonality || null,
     changes: Array.isArray(raw?.changes) ? raw.changes : [],
     jobs: Array.isArray(raw?.jobs) ? raw.jobs : [],
     coverage: raw?.coverage && typeof raw.coverage === 'object' ? raw.coverage : { months: [], unknown_time: 0 },

@@ -25293,6 +25293,20 @@
       "note": "自动分类只帮助定位相关原文，不生成事实，也不以置信度判断来源真伪。"
     }
   },
+  "visitor_seasonality": {
+    "schema_version": "visitor-seasonality-v1",
+    "destination_id": "liyang",
+    "enabled": false,
+    "years": [],
+    "default_year": null,
+    "attractions": [],
+    "monthly": [],
+    "records": [],
+    "validation": {
+      "discarded_records": 0
+    },
+    "notes": []
+  },
   "route_guides": {
     "items": [
       {

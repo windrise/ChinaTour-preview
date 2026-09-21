@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-09-20T21:53:38Z",
+  "snapshotAt": "2026-09-21T07:36:21Z",
   "place": "liyang",
   "places": [
     {
@@ -9,6 +9,14 @@
     {
       "id": "dalian",
       "name": "大连"
+    },
+    {
+      "id": "suzhou",
+      "name": "苏州"
+    },
+    {
+      "id": "nanjing",
+      "name": "南京"
     }
   ],
   "months": [
@@ -30,11 +38,12 @@
     "recent",
     "historical"
   ],
-  "destinationFiles": 72,
-  "destinationEvidenceRecords": 924,
-  "mediaReferences": 854,
-  "mediaCopied": 431,
-  "missingMedia": 570,
-  "missingMediaReferences": 2157,
+  "destinationFiles": 144,
+  "destinationEvidenceRecords": 1664,
+  "mediaReferences": 1332,
+  "mediaCopied": 670,
+  "mediaRecoveredFromArchive": 374,
+  "missingMedia": 1055,
+  "missingMediaReferences": 4005,
   "withheldMedia": 0
 }

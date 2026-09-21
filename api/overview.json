@@ -2,255 +2,360 @@
   "places": [
     {
       "id": "liyang",
-      "name": "溧阳",
-      "kind": "destination",
-      "parent_id": null,
-      "created_at": "2026-09-20T07:00:50.929487+00:00",
-      "evidence_count": 201,
-      "pending_count": 0
-    },
-    {
-      "id": "place_a56c09bc013d4921",
-      "name": "天目湖山水园",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T07:01:05.704494+00:00",
-      "evidence_count": 30,
-      "pending_count": 0
-    },
-    {
-      "id": "place_e110a91eefb442ea",
-      "name": "南山竹海",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T07:01:05.922930+00:00",
-      "evidence_count": 80,
-      "pending_count": 0
-    },
-    {
-      "id": "place_5cac37d1059a4eca",
-      "name": "御水温泉",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T07:01:06.125959+00:00",
-      "evidence_count": 30,
-      "pending_count": 0
-    },
-    {
-      "id": "place_c194c49525e140d0",
-      "name": "曹山旅游度假区",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T07:56:12.194909+00:00",
-      "evidence_count": 1,
-      "pending_count": 0
-    },
-    {
-      "id": "place_183ab381969345da",
-      "name": "新四军江南指挥部纪念馆",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T07:56:12.498125+00:00",
-      "evidence_count": 5,
-      "pending_count": 0
-    },
-    {
-      "id": "place_b056a5774794434a",
-      "name": "史侯祠",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T07:56:12.923159+00:00",
-      "evidence_count": 3,
-      "pending_count": 0
-    },
-    {
-      "id": "place_7bf2baddf01440af",
-      "name": "松岭竹海漂流",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T08:18:23.538454+00:00",
-      "evidence_count": 1,
-      "pending_count": 0
-    },
-    {
-      "id": "place_0d84eaec06754413",
-      "name": "仙山十三岭",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T08:18:23.539808+00:00",
-      "evidence_count": 2,
-      "pending_count": 0
-    },
-    {
-      "id": "place_cdd0a2463fb24cd4",
-      "name": "溧阳1号公路",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T16:20:02.958408+00:00",
-      "evidence_count": 10,
-      "pending_count": 0
-    },
-    {
-      "id": "place_64fc604c88c741b1",
-      "name": "加顺农场",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T16:20:02.960751+00:00",
-      "evidence_count": 6,
-      "pending_count": 0
-    },
-    {
-      "id": "place_285c56e412c74d63",
-      "name": "京林禅寺",
-      "kind": "attraction",
-      "parent_id": "liyang",
-      "created_at": "2026-09-20T17:06:57.378295+00:00",
-      "evidence_count": 3,
-      "pending_count": 0
+      "name": "溧阳"
     },
     {
       "id": "dalian",
-      "name": "大连",
-      "kind": "destination",
-      "parent_id": null,
-      "created_at": "2026-09-20T21:34:23.397628+00:00",
-      "evidence_count": 170,
-      "pending_count": 0
+      "name": "大连"
     },
     {
-      "id": "place_37140c302d0b447c",
-      "name": "星海广场",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.713392+00:00",
-      "evidence_count": 21,
-      "pending_count": 0
+      "id": "suzhou",
+      "name": "苏州"
     },
     {
-      "id": "place_2bd46f8a66714aa6",
-      "name": "莲花山观景台",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.751523+00:00",
-      "evidence_count": 12,
-      "pending_count": 0
-    },
-    {
-      "id": "place_17486492fdb84076",
-      "name": "中山广场",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.751553+00:00",
-      "evidence_count": 11,
-      "pending_count": 0
-    },
-    {
-      "id": "place_2c970d42b87642a2",
-      "name": "星海公园",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.756754+00:00",
-      "evidence_count": 12,
-      "pending_count": 0
-    },
-    {
-      "id": "place_861a0e4e2dfd4883",
-      "name": "大连森林动物园",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.764351+00:00",
-      "evidence_count": 13,
-      "pending_count": 0
-    },
-    {
-      "id": "place_a9bf2d379c6b4b51",
-      "name": "老虎滩海洋公园",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.772085+00:00",
-      "evidence_count": 10,
-      "pending_count": 0
-    },
-    {
-      "id": "place_0b85b8622805447b",
-      "name": "东方威尼斯水城",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.772107+00:00",
-      "evidence_count": 12,
-      "pending_count": 0
-    },
-    {
-      "id": "place_3f49f3cb05d448b2",
-      "name": "俄罗斯风情街",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.772118+00:00",
-      "evidence_count": 9,
-      "pending_count": 0
-    },
-    {
-      "id": "place_aa57b66ae60a48a2",
-      "name": "棒棰岛",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:34:37.786032+00:00",
-      "evidence_count": 16,
-      "pending_count": 0
-    },
-    {
-      "id": "place_3af4f542fe654d74",
-      "name": "海之韵公园",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:35:13.522310+00:00",
-      "evidence_count": 8,
-      "pending_count": 0
-    },
-    {
-      "id": "place_696feba19a9b4090",
-      "name": "东港音乐喷泉广场",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:35:50.935986+00:00",
-      "evidence_count": 11,
-      "pending_count": 0
-    },
-    {
-      "id": "place_48f07543c9334993",
-      "name": "金石滩",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:38:16.311335+00:00",
-      "evidence_count": 10,
-      "pending_count": 0
-    },
-    {
-      "id": "place_264ef5ea3d884497",
-      "name": "白玉山",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:38:16.378047+00:00",
-      "evidence_count": 10,
-      "pending_count": 0
-    },
-    {
-      "id": "place_bb2a9e407fce4c8a",
-      "name": "旅顺博物馆",
-      "kind": "attraction",
-      "parent_id": "dalian",
-      "created_at": "2026-09-20T21:38:16.378059+00:00",
-      "evidence_count": 12,
-      "pending_count": 0
+      "id": "nanjing",
+      "name": "南京"
     }
   ],
   "stats": {
-    "places": 27,
-    "sources": 292,
-    "evidence": 371,
-    "pending": 0
+    "places": 4,
+    "sources": 526,
+    "evidence": 661,
+    "pending": 0,
+    "scope": "exported_snapshots"
   },
-  "changes": [],
+  "changes": [
+    {
+      "id": "f54695a26d3d2db5629006ea9da6a6add0f76bd6e071c271dacb7cf26cbc56c3",
+      "title": "虎丘山风景免费停车攻略",
+      "created_at": "2026-09-21T06:56:27.759509+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a24f822000000001503de79",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "a60bb8abf30344de46320811495816b51130aac2c9ec577cd5bbde7fb0543268",
+      "title": "虎丘带娃避雷",
+      "created_at": "2026-09-21T06:56:27.737476+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a9ec318000000001103325c",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "8db11b9f090a32a6ca89d4fb1d27bc4f1626e382610325c8374856492d576f97",
+      "title": "苏州虎丘山保姆级攻略｜不走回头路✅",
+      "created_at": "2026-09-21T06:56:27.715026+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/69ca72a100000000230149dc",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "c3e0ad4826f8f99868ed716cf0b07c5e97613efec9b90865303d3b94e0934893",
+      "title": "苏州虎丘山保姆级攻略｜不走回头路✅",
+      "created_at": "2026-09-21T06:56:27.705474+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/69ca72a100000000230149dc",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3447c126b2b97104376f3ca13eac1873da3e8ac83546eacca5b338bc3fa2125d",
+      "title": "1.5 小时速通虎丘｜不走回头路，抄作业就行",
+      "created_at": "2026-09-21T06:56:27.682946+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a8ae4ca00000000140241b0",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "89d562562646b94794d387f6906e5bd3bf06c706430a7b45450ce6f2a21e4be3",
+      "title": "1.5 小时速通虎丘｜不走回头路，抄作业就行",
+      "created_at": "2026-09-21T06:56:27.674699+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a8ae4ca00000000140241b0",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "8d1ee6a794a924acbaef5224a24fc1d6097e0664bfe81e09b8912ee2b36b38a4",
+      "title": "遛娃🍂被低估的虎丘！轻松不累超适合小朋友",
+      "created_at": "2026-09-21T06:56:27.653076+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6ab096bf000000002802e5e9",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "b2ffc14ad27639ed8eea5825f7b7c44ab3ab7ceda4abb23cccbf7af0fd4bf295",
+      "title": "虎丘山懒人攻略！2小时逛完不踩雷🍃",
+      "created_at": "2026-09-21T06:56:27.630891+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6aa6a61b0000000029010d85",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "729682e2ece65be5b643e657657fbbe006496155710836fa45900e98054728ac",
+      "title": "网师园攻略：小园极则，宅园合一，非常推荐",
+      "created_at": "2026-09-21T06:56:27.608734+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a76ea6000000000280338bd",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "e94cc5122744aeaa460d26ab50e16b3a46704064ff4312688f22be3fff2bab9d",
+      "title": "如果下次再去网师园，我想我会这样走一遍",
+      "created_at": "2026-09-21T06:56:27.587327+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a0565d3000000003601af83",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "907fa6e26a632f23fe8dfdb79b549813d799bb9028030dfa348c768a423498a6",
+      "title": "网师园夜花园保姆式攻略🔥",
+      "created_at": "2026-09-21T06:56:27.566888+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a8fac62000000000700429c",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "7bcb4c0e374614cfdfb20f70349875db4817406a33b22df70efd3a3a9bf94d55",
+      "title": "南京老门东完整游玩攻略｜避开人潮，白天逛",
+      "created_at": "2026-09-21T06:57:54.546158+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a4118240000000022016b19",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "420a86ec2cdd49e0d3ddf1ea78214be4f2346df6db0d4848d2c8c136fc72f00a",
+      "title": "南京老门东｜下午逛到夜晚，偶遇一场演出",
+      "created_at": "2026-09-21T06:57:54.526399+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/693bee07000000001e0234a3",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "363b1d9a49ccc9d8e90d54a1c481bd550b669acf506c962ca7fcae291e10736d",
+      "title": "南京半日citywalk✨老门东+夫子庙+秦淮河",
+      "created_at": "2026-09-21T06:57:54.505477+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a472f15000000001100688b",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "05811813816e0f7c66caf97e6c876f1e994c0ac5eb69a52476f6c91f2e9f51fc",
+      "title": "南京半日citywalk✨老门东+夫子庙+秦淮河",
+      "created_at": "2026-09-21T06:57:54.497324+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a472f15000000001100688b",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "925accac6c315e34735e6b919958737bdfbf6e718251294dedeefe19ea3edd0d",
+      "title": "本J人精心做的老门东逛吃篇。。。",
+      "created_at": "2026-09-21T06:57:54.475998+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a5dd5ec000000001d00f70a",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "6096319bbee02a0b41bcf5f66b10a9ee5e4ead6bbb4201f59a1059a2e0f35c9f",
+      "title": "南京老门东攻略",
+      "created_at": "2026-09-21T06:57:54.454398+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/69f19556000000003701cd39",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3e1e47e57352bf923a049f011500099dd85f3cb486f6b0c5f3b3a9691ee06089",
+      "title": "南京老门东｜超全店铺分享！看这一篇就够了🔥",
+      "created_at": "2026-09-21T06:57:54.434133+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/68ef8e3700000000070141b6",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "beaa8a21f60837ca1d2d820beddbb690be9d76df8d5f5fe16cdcde1827c4e503",
+      "title": "全网最详细保姆级夫子庙秦淮河旅游攻略来啦",
+      "created_at": "2026-09-21T06:57:54.413133+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/689c5db0000000001d026e50",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "d2469e4a4a4fc74a26eff89e387f2f7cdaa853104271c3b54b481e3c0272bcaf",
+      "title": "国庆❗️1.1km深度游夫子庙（图文版攻略",
+      "created_at": "2026-09-21T06:57:54.393290+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/68db8881000000000700d963",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "5cdc5fa84b772bc6a5a11bf6647e5bc31d985e673f3b67a95ed385867d5ec8ab",
+      "title": "南京夫子庙真实攻略🏮别再被网络流水文误导",
+      "created_at": "2026-09-21T06:57:54.373069+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a64a3da000000000f01ca6e",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "577c00c93e1fc1878c2b49aa883ae13656671da7baa4d8fa522e2f7634201516",
+      "title": "南京夫子庙“避坑+美食”保姆级攻略",
+      "created_at": "2026-09-21T06:57:54.352051+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/69eb35ae0000000013030802",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "8af6f0d2519e32bdce6bd06610a35c1e3f4bdd05fb12999fd198b756efaeffe3",
+      "title": "夜逛秦淮|极限一小时打卡",
+      "created_at": "2026-09-21T06:57:54.331298+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a032d19000000000602028f",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "ff1e76d9d1f8f088b13113182d3d7f9786a1980e4e2e8e5bbf17ba2c9106e55f",
+      "title": "南京夫子庙旅游攻略",
+      "created_at": "2026-09-21T06:57:54.310523+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a6c8edd0000000022015eed",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "aac895ed252d08065b149036a0e3b5295ba588cd0341f193d6c256bf08b1fde5",
+      "title": "南京玄武湖citywalk🌊不走回头路拍照路线……",
+      "created_at": "2026-09-21T06:57:54.290825+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/69f17ffe000000001f0066f5",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3e7856f89aed9d4d56afec796d97e1f8062349cdfd60e1ef8b83c7e8204a9bb3",
+      "title": "玄武湖超全赏秋🍁懒人打卡攻略（6个机位",
+      "created_at": "2026-09-21T06:57:54.270074+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/69202b44000000001e034873",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "e325132c39a2aa545029b0ec95b4dd07fbf4256fe3180f9666f13c3745fc5456",
+      "title": "以为玄武湖是个湖，进去发现错了",
+      "created_at": "2026-09-21T06:57:54.249121+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a4b462f0000000022017738",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "13ab4f3660a80645ebcdac33880ecc6a9a3e0999ce20fe7fb2eb1c7fd3385965",
+      "title": "来南京一定要去玄武湖！附打卡点位全攻略",
+      "created_at": "2026-09-21T06:57:54.227209+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6aaa3ad600000000280371b8",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "84523e517ade1d8d866a31ad3afb5d98c8841409661f6d928a25b550ae792886",
+      "title": "鸡鸣寺和玄武湖，踩雷总结的攻略+避坑list",
+      "created_at": "2026-09-21T06:57:54.206859+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a6337ad000000000101ccdd",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "648a093e1b9c8fae475e9ee1a1c9542fd2044646fd8d1195eed3742cedf126c3",
+      "title": "玄武湖不走回头路游玩路线",
+      "created_at": "2026-09-21T06:57:54.186416+00:00",
+      "before_value": null,
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xiaohongshu.com/explore/6a5d7e2e0000000001032061",
+      "parent_id": null,
+      "kind": "discovery"
+    }
+  ],
   "limitations": [
     "公开目录自动采集可用；小红书和微博通过当前 Codex 任务的内置浏览器执行有界采集，登录与页面可用性按平台核验。",
     "目的地界面使用月份证据与静态道路概览；背景资料不证明景区实时状态。"

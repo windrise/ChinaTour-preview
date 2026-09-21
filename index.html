@@ -6,12 +6,14 @@
   <meta name="theme-color" content="#080f14">
   <meta name="description" content="行知：按月份认识一个地方，循着真实照片找到想去的景点。">
   <title>行知 · 中国旅行</title>
-  <link rel="stylesheet" href="./static/style.css?v=9ead0e5b0cf3">
-  <link rel="stylesheet" href="./static/atlas.css?v=9ead0e5b0cf3">
-  <script defer src='./preview-config.js?v=9ead0e5b0cf3'></script>
-  <script defer src='./static/preview.js?v=9ead0e5b0cf3'></script>
-  <script defer src="./static/app.js?v=9ead0e5b0cf3"></script>
-  <script defer src="./static/atlas.js?v=9ead0e5b0cf3"></script>
+  <link rel="stylesheet" href="./static/style.css?v=d73a19710b0d">
+  <link rel="stylesheet" href="./static/atlas.css?v=d73a19710b0d">
+  <link rel="stylesheet" href="./static/visitation.css?v=d73a19710b0d">
+  <script defer src="./static/visitation.js?v=d73a19710b0d"></script>
+  <script defer src='./preview-config.js?v=d73a19710b0d'></script>
+  <script defer src='./static/preview.js?v=d73a19710b0d'></script>
+  <script defer src="./static/app.js?v=d73a19710b0d"></script>
+  <script defer src="./static/atlas.js?v=d73a19710b0d"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
@@ -54,6 +56,7 @@
         <div class="month-heading-row"><h2 id="month-heading">你想几月去？</h2><label class="destination-picker"><span class="sr-only">选择目的地</span><select id="place-picker" aria-label="选择目的地"></select></label></div>
         <div id="month-filter" class="month-ruler" role="group" aria-label="选择月份"></div>
         <div class="month-controls-row"><div id="mode-filter" class="mode-switch" role="group" aria-label="资料时间范围"><button type="button" data-mode="all" class="active" aria-pressed="true">全部资料</button><button type="button" data-mode="recent" aria-pressed="false">近两年发布</button><button type="button" data-mode="historical" aria-pressed="false">历年同月</button></div><p id="month-heading-note" class="heading-note">照片的时间依据会随图标注。</p></div>
+        <div id="visitor-seasonality"></div>
       </section>
 
       <section id="travel-essentials" class="travel-essentials" aria-label="衣食住行">

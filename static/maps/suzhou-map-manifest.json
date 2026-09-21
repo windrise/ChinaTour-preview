@@ -1,0 +1,335 @@
+{
+  "destination": {
+    "name": "苏州",
+    "attractions": [
+      {
+        "name": "拙政园",
+        "configured_name": "拙政园",
+        "lat": 31.3264725,
+        "lon": 120.6247266,
+        "map_source_url": "https://www.openstreetmap.org/way/468359738",
+        "source_name": "拙政园",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "留园",
+        "configured_name": "留园",
+        "lat": 31.3176233,
+        "lon": 120.5882673,
+        "map_source_url": "https://www.openstreetmap.org/way/420034522",
+        "source_name": "留园",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "狮子林",
+        "configured_name": "狮子林",
+        "lat": 31.3231111,
+        "lon": 120.6248316,
+        "map_source_url": "https://www.openstreetmap.org/way/44679451",
+        "source_name": "狮子林",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "网师园",
+        "configured_name": "网师园",
+        "lat": 31.3004105,
+        "lon": 120.6297906,
+        "map_source_url": "https://www.openstreetmap.org/way/44679452",
+        "source_name": "网师园",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "虎丘",
+        "configured_name": "虎丘山风景名胜区",
+        "lat": 31.3375463,
+        "lon": 120.5764425,
+        "map_source_url": "https://www.openstreetmap.org/way/161416532",
+        "source_name": "虎丘山风景区",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "平江历史街区",
+        "configured_name": "平江历史文化街区",
+        "lat": 31.3149294,
+        "lon": 120.6296912,
+        "map_source_url": "https://www.openstreetmap.org/node/12104035258",
+        "source_name": "平江路",
+        "coordinate_basis": "OSM原始节点",
+        "map_note": "采用OSM平江路地区节点，表示平江历史文化街区的区域位置，不表示边界或入口。"
+      },
+      {
+        "name": "山塘街",
+        "configured_name": "山塘街",
+        "lat": 31.3201022,
+        "lon": 120.59745,
+        "map_source_url": "https://www.openstreetmap.org/node/5151296022",
+        "source_name": "山塘街",
+        "coordinate_basis": "OSM原始节点",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "金鸡湖",
+        "configured_name": "金鸡湖景区",
+        "lat": 31.3136311,
+        "lon": 120.6954491,
+        "map_source_url": "https://www.openstreetmap.org/relation/6819705",
+        "source_name": "金鸡湖",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "采用金鸡湖水体几何代表点，表示湖区相对分布，非景区入口或推荐停靠点。"
+      },
+      {
+        "name": "苏州博物馆本馆",
+        "configured_name": "苏州博物馆本馆",
+        "lat": 31.3254217,
+        "lon": 120.623497,
+        "map_source_url": "https://www.openstreetmap.org/way/542534202",
+        "source_name": "苏州博物馆",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "同里古镇",
+        "configured_name": "同里古镇",
+        "lat": 31.1591573,
+        "lon": 120.7142896,
+        "map_source_url": "https://www.openstreetmap.org/way/807940510",
+        "source_name": "同里古镇游览区",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "周庄古镇",
+        "configured_name": "周庄古镇",
+        "lat": 31.1152718,
+        "lon": 120.8455794,
+        "map_source_url": "https://www.openstreetmap.org/way/807944466",
+        "source_name": "周庄古镇景区",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "木渎古镇",
+        "configured_name": "木渎古镇",
+        "lat": 31.2530116,
+        "lon": 120.5067399,
+        "map_source_url": "https://www.openstreetmap.org/way/1202226767",
+        "source_name": "木渎古镇",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      }
+    ],
+    "hubs": [
+      {
+        "name": "苏州站",
+        "kind": "railway",
+        "lat": 31.3318292,
+        "lon": 120.6067687,
+        "map_source_url": "https://www.openstreetmap.org/relation/7640348",
+        "source_name": "苏州站",
+        "coordinate_basis": "OSM geometry representative; not entry gate",
+        "id": "suzhou-station",
+        "type": "火车站",
+        "source_url": "https://www.openstreetmap.org/relation/7640348"
+      },
+      {
+        "name": "苏州北站",
+        "kind": "railway",
+        "lat": 31.4236727,
+        "lon": 120.6388824,
+        "map_source_url": "https://www.openstreetmap.org/way/476958172",
+        "source_name": "苏州北站",
+        "coordinate_basis": "OSM geometry representative; not entry gate",
+        "id": "suzhou-north-station",
+        "type": "火车站",
+        "source_url": "https://www.openstreetmap.org/way/476958172"
+      }
+    ]
+  },
+  "retrieved_at": "2026-09-21",
+  "selected_poi_refs": [
+    "way/468359738",
+    "way/420034522",
+    "way/44679451",
+    "way/44679452",
+    "way/161416532",
+    "node/12104035258",
+    "node/5151296022",
+    "relation/6819705",
+    "way/542534202",
+    "way/807940510",
+    "way/807944466",
+    "way/1202226767",
+    "relation/7640348",
+    "way/476958172",
+    "way/407521211",
+    "way/473795346"
+  ],
+  "context_names": [
+    "苏州大学",
+    "苏州中心",
+    "苏州公园",
+    "桂花公园",
+    "中央公园"
+  ],
+  "road_labels": [
+    "人民路",
+    "干将东路",
+    "干将西路",
+    "东环路",
+    "西环路",
+    "北环路",
+    "南环东路",
+    "金鸡湖大道",
+    "独墅湖大道",
+    "星湖街",
+    "星港街",
+    "京沪高速",
+    "沪常高速",
+    "常台高速",
+    "G2",
+    "G15W"
+  ],
+  "panels": [
+    {
+      "bounds": [
+        31.282,
+        120.557,
+        31.353,
+        120.722
+      ],
+      "title": "古城与金鸡湖",
+      "description": "园林、历史街区与湖区的相对分布；区界、主路、高校、公园和选取轨道采用真实地图几何。",
+      "show_attraction_labels": false,
+      "show_context": true,
+      "scale_km": 2,
+      "water_labels": [],
+      "admin_names": [
+        "姑苏区"
+      ],
+      "output": "chinatour/static/maps/suzhou-urban.svg",
+      "marker_offsets": {
+        "1": [
+          16,
+          -19
+        ],
+        "9": [
+          -21,
+          0
+        ],
+        "3": [
+          13,
+          18
+        ]
+      }
+    },
+    {
+      "bounds": [
+        31.077,
+        120.442,
+        31.455,
+        120.915
+      ],
+      "title": "城区与水乡古镇",
+      "description": "苏州站、苏州北站与同里、周庄、木渎；城区密集点请配合古城图查看。",
+      "attraction_numbers": [
+        5,
+        8,
+        10,
+        11,
+        12
+      ],
+      "show_attraction_labels": true,
+      "show_context": false,
+      "scale_km": 5,
+      "water_labels": [],
+      "admin_names": [
+        "吴中区",
+        "相城区",
+        "吴江区",
+        "昆山市"
+      ],
+      "output": "chinatour/static/maps/suzhou-region.svg"
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/onboarding/suzhou-map/pois.json",
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "query": "[out:json][timeout:60];nwr(31.02,120.35,31.5,121.05)[\"name\"~\"拙政园|留园|狮子林|网师园|虎丘|平江|山塘|金鸡湖|苏州博物馆|同里|周庄|木渎|苏州站|苏州北站|苏州园区站|苏州新区站|苏州大学|独墅湖|中心商场|苏州中心\"];out center tags;",
+      "selected_only": true
+    },
+    {
+      "path": "data/onboarding/suzhou-map/admins.json",
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "query": "[out:json][timeout:60];rel(31.02,120.35,31.5,121.05)[\"boundary\"=\"administrative\"][\"admin_level\"=\"6\"][\"name\"~\"^(姑苏区|吴中区|虎丘区|相城区|吴江区|昆山市)$\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/suzhou-map/metro.json",
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "query": "[out:json][timeout:80];rel(31.02,120.35,31.5,121.05)[\"route\"=\"subway\"][\"ref\"~\"^(1|2|3|4|5|6)$\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/suzhou-map/water.json",
+      "endpoint": "https://overpass.kumi.systems/api/interpreter",
+      "query": "[out:json][timeout:60];nwr(31.245,120.5,31.39,120.8)[\"natural\"=\"water\"][\"name\"~\"金鸡湖|独墅湖|护城河\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/suzhou-map/roads-urban.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:35];way(31.245,120.50,31.385,120.78)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/suzhou-map/roads-region.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:35];way(31.07,120.46,31.46,120.91)[\"highway\"~\"^(motorway|trunk)$\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/suzhou-map/parks-small.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:35];(way(31.27,120.53,31.36,120.77)[\"leisure\"=\"park\"][\"name\"];way(31.27,120.53,31.36,120.77)[\"amenity\"=\"university\"][\"name\"];);out body geom;"
+    },
+    {
+      "path": "data/onboarding/suzhou-map/selected-geometry.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:45];(way(468359738);way(420034522);way(44679451);way(44679452);way(161416532);relation(6819705);way(542534202);way(807940510);way(807944466);way(1202226767);relation(7640348);way(476958172);way(407521211);way(473795346););out body geom;"
+    }
+  ],
+  "notes": [
+    "OSM公开数据截至2026-09-21读取；反映地图快照，不承诺道路或轨道即时运营状态。",
+    "WGS84统一等比例局部投影；与全国入口DataV供应商边界分离，未做坐标系混叠。",
+    "仅展示有完整闭合几何的区界、水域、公园和高校；不以矩形补齐缺失边界。",
+    "轨道只选6条数字编号线，不是完整现行线网，不包含班次、价格和导航路径。",
+    "编号与城市配置12景点顺序一致；区域点不是入口，精确来源名称见attractions。",
+    "密集点编号使用短引线避让；引线末端的小点是原始位置，编号圆心不作导航坐标。",
+    "线网按城市归属过滤；剔除宽bbox命中的无锡3号线及已归入7号线的旧4号线木里支线，详见exclusions。"
+  ],
+  "excluded_osm_refs": [
+    "relation/11798334",
+    "relation/11798335",
+    "relation/8439220",
+    "relation/8439221"
+  ],
+  "exclusions": [
+    {
+      "refs": [
+        "relation/11798334",
+        "relation/11798335"
+      ],
+      "reason": "OSM network=无锡地铁，不属于苏州选取线网；宽bbox因硕放机场附近数据命中。",
+      "source_url": "https://www.openstreetmap.org/relation/11798334"
+    },
+    {
+      "refs": [
+        "relation/8439220",
+        "relation/8439221"
+      ],
+      "reason": "OSM仍名4号线至木里旧支线；2024年12月官方已说明原支线贯入7号线。本overview未选择7号线，故不把旧支线以4号线画出。",
+      "source_url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202412/77e8fba2427f4d2ab11ef05de5374069.shtml"
+    }
+  ]
+}

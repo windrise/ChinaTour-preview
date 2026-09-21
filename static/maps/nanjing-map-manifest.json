@@ -1,0 +1,339 @@
+{
+  "destination": {
+    "name": "南京",
+    "attractions": [
+      {
+        "name": "中山陵",
+        "configured_name": "中山陵",
+        "lat": 32.0614329,
+        "lon": 118.8484339,
+        "map_source_url": "https://www.openstreetmap.org/relation/18303735",
+        "source_name": "中山陵",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "明孝陵",
+        "configured_name": "明孝陵",
+        "lat": 32.0620825,
+        "lon": 118.8346749,
+        "map_source_url": "https://www.openstreetmap.org/way/380923041",
+        "source_name": "明孝陵",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "玄武湖",
+        "configured_name": "玄武湖",
+        "lat": 32.0749157,
+        "lon": 118.7950605,
+        "map_source_url": "https://www.openstreetmap.org/way/62354287",
+        "source_name": "玄武湖公园",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "夫子庙—秦淮风光带",
+        "configured_name": "夫子庙—秦淮风光带景区",
+        "lat": 32.0227354,
+        "lon": 118.7836028,
+        "map_source_url": "https://www.openstreetmap.org/way/1531638749",
+        "source_name": "南京夫子庙",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "采用南京夫子庙景点几何中心作为秦淮风光带的区域代表，不表示整条风光带边界。"
+      },
+      {
+        "name": "老门东",
+        "configured_name": "老门东",
+        "lat": 32.0135433,
+        "lon": 118.7823005,
+        "map_source_url": "https://www.openstreetmap.org/way/948332291",
+        "source_name": "老门东历史文化街区",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "南京博物院",
+        "configured_name": "南京博物院",
+        "lat": 32.0429527,
+        "lon": 118.8193491,
+        "map_source_url": "https://www.openstreetmap.org/way/319998727",
+        "source_name": "南京博物院",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "总统府景区",
+        "configured_name": "南京中国近代史遗址博物馆（总统府景区）",
+        "lat": 32.0462202,
+        "lon": 118.7922569,
+        "map_source_url": "https://www.openstreetmap.org/way/62353727",
+        "source_name": "总统府",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "牛首山",
+        "configured_name": "牛首山文化旅游区",
+        "lat": 31.907369,
+        "lon": 118.740772,
+        "map_source_url": "https://www.openstreetmap.org/relation/4293790",
+        "source_name": "牛首山",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "采用OSM牛首山林地区域代表点，非景区入口；东入口游客中心另有OSM way/1160624655。"
+      },
+      {
+        "name": "栖霞山",
+        "configured_name": "栖霞山风景区",
+        "lat": 32.1571012,
+        "lon": 118.9631604,
+        "map_source_url": "https://www.openstreetmap.org/way/89925772",
+        "source_name": "栖霞山",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "采用OSM栖霞山林地区域代表点，非售票口。"
+      },
+      {
+        "name": "红山森林动物园",
+        "configured_name": "红山森林动物园",
+        "lat": 32.0939529,
+        "lon": 118.7966766,
+        "map_source_url": "https://www.openstreetmap.org/way/62344632",
+        "source_name": "红山森林动物园",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "中华门瓮城",
+        "configured_name": "中华门瓮城",
+        "lat": 32.0145171,
+        "lon": 118.7763911,
+        "map_source_url": "https://www.openstreetmap.org/relation/11308636",
+        "source_name": "中华门",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "此点仅显示地点相对分布，未核验入口位置。"
+      },
+      {
+        "name": "大报恩寺遗址公园",
+        "configured_name": "大报恩寺遗址公园景区",
+        "lat": 32.0111707,
+        "lon": 118.7780361,
+        "map_source_url": "https://www.openstreetmap.org/way/859565692",
+        "source_name": "大报恩寺",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "采用OSM大报恩寺考古遗址代表点，不表示整个公园边界。"
+      }
+    ],
+    "hubs": [
+      {
+        "name": "南京站",
+        "kind": "railway",
+        "lat": 32.0887235,
+        "lon": 118.7917463,
+        "map_source_url": "https://www.openstreetmap.org/node/267225237",
+        "source_name": "南京",
+        "coordinate_basis": "OSM station node",
+        "id": "nanjing-station",
+        "type": "火车站",
+        "source_url": "https://www.openstreetmap.org/node/267225237"
+      },
+      {
+        "name": "南京南站",
+        "kind": "railway",
+        "lat": 31.970797,
+        "lon": 118.7930516,
+        "map_source_url": "https://www.openstreetmap.org/node/2483530943",
+        "source_name": "南京南",
+        "coordinate_basis": "OSM station node",
+        "id": "nanjing-south-station",
+        "type": "火车站",
+        "source_url": "https://www.openstreetmap.org/node/2483530943"
+      },
+      {
+        "name": "禄口国际机场",
+        "kind": "airport",
+        "lat": 31.7318524,
+        "lon": 118.863455,
+        "map_source_url": "https://www.openstreetmap.org/relation/1903184",
+        "source_name": "南京禄口国际机场",
+        "coordinate_basis": "OSM geometry representative; not entry gate",
+        "id": "nanjing-airport",
+        "type": "机场",
+        "source_url": "https://www.openstreetmap.org/relation/1903184"
+      }
+    ]
+  },
+  "retrieved_at": "2026-09-21",
+  "selected_poi_refs": [
+    "relation/18303735",
+    "way/380923041",
+    "way/62354287",
+    "way/1531638749",
+    "way/948332291",
+    "way/319998727",
+    "way/62353727",
+    "relation/4293790",
+    "way/89925772",
+    "way/62344632",
+    "relation/11308636",
+    "way/859565692",
+    "node/267225237",
+    "node/2483530943",
+    "relation/1903184",
+    "way/147223223",
+    "way/155883034"
+  ],
+  "context_names": [
+    "德基广场",
+    "新街口广场",
+    "南京大学(鼓楼校区)",
+    "南京林业大学",
+    "莫愁湖公园",
+    "白鹭洲公园"
+  ],
+  "road_labels": [
+    "中山路",
+    "中山东路",
+    "中山北路",
+    "北京东路",
+    "汉中路",
+    "中华路",
+    "龙蟠中路",
+    "玄武大道",
+    "应天大街",
+    "江东中路",
+    "宁丹路",
+    "机场高速",
+    "宁洛高速",
+    "沪蓉高速",
+    "G42",
+    "G36",
+    "S55"
+  ],
+  "panels": [
+    {
+      "bounds": [
+        31.996,
+        118.728,
+        32.119,
+        118.878
+      ],
+      "title": "城中景点与钟山",
+      "description": "玄武湖、钟山与秦淮沿线；叠加真实区界、主路、公园高校和选取轨道走向。",
+      "show_attraction_labels": false,
+      "show_context": true,
+      "scale_km": 2,
+      "water_labels": [],
+      "admin_names": [
+        "鼓楼区",
+        "玄武区",
+        "秦淮区"
+      ],
+      "output": "chinatour/static/maps/nanjing-urban.svg",
+      "marker_offsets": {
+        "11": [
+          -17,
+          0
+        ],
+        "12": [
+          12,
+          13
+        ]
+      },
+      "label_offsets": {
+        "秦淮区": [
+          45,
+          48
+        ]
+      }
+    },
+    {
+      "bounds": [
+        31.69,
+        118.56,
+        32.2,
+        119.04
+      ],
+      "title": "城区、近郊与机场",
+      "description": "南京站、南京南站、禄口机场与牛首山、栖霞山；城区密集点请配合城中图查看。",
+      "attraction_numbers": [
+        1,
+        3,
+        8,
+        9
+      ],
+      "show_attraction_labels": true,
+      "show_context": false,
+      "scale_km": 5,
+      "water_labels": [],
+      "admin_names": [
+        "浦口区",
+        "鼓楼区",
+        "栖霞区",
+        "江宁区"
+      ],
+      "output": "chinatour/static/maps/nanjing-region.svg"
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/onboarding/nanjing-map/pois.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:60];nwr(31.68,118.45,32.28,119.15)[\"name\"~\"中山陵|明孝陵|灵谷|玄武湖|夫子庙|老门东|南京博物院|总统府|鸡鸣寺|牛首山|栖霞山|阅江楼|南京站|南京南站|禄口国际机场|南京大学|东南大学|新街口|德基广场\"];out center tags;",
+      "selected_only": true
+    },
+    {
+      "path": "data/onboarding/nanjing-map/admins.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:60];rel(31.68,118.45,32.28,119.15)[\"boundary\"=\"administrative\"][\"admin_level\"=\"6\"][\"name\"~\"^(鼓楼区|玄武区|秦淮区|建邺区|雨花台区|栖霞区|江宁区|浦口区|六合区|溧水区)$\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/nanjing-map/roads.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:80];(way(31.68,118.45,32.28,119.15)[\"highway\"~\"^(motorway|trunk)$\"];way(31.68,118.45,32.28,119.15)[\"highway\"][\"name\"~\"中山|北京|汉中|中华|龙蟠|玄武大道|应天|江东|长江|绕城|宁洛|沪蓉|宁芜|机场|江宁大道|宁丹|岱山|建宁|纬七|凤台|扬子江\"];);out body geom;"
+    },
+    {
+      "path": "data/onboarding/nanjing-map/metro.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:80];rel(31.68,118.45,32.28,119.15)[\"route\"=\"subway\"][\"ref\"~\"^(1|2|3|4|5|10)$\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/nanjing-map/water.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:60];nwr(31.93,118.63,32.155,118.965)[\"natural\"=\"water\"][\"name\"~\"玄武湖|秦淮河|长江\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/nanjing-map/parks.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:60];(nwr(31.93,118.63,32.155,118.965)[\"leisure\"=\"park\"][\"name\"];nwr(31.93,118.63,32.155,118.965)[\"amenity\"=\"university\"][\"name\"];);out body geom;"
+    },
+    {
+      "path": "data/onboarding/nanjing-map/river.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:35];way(31.94,118.60,32.18,118.85)[\"natural\"=\"water\"];out body geom;"
+    },
+    {
+      "path": "data/onboarding/nanjing-map/extra-pois.json",
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "query": "[out:json][timeout:45];(nwr(31.9,118.65,32.16,118.96)[\"name\"~\"红山森林动物园|大报恩寺|中华门\"];nwr(31.9,118.65,32.16,118.96)[\"railway\"=\"station\"][\"name\"~\"^(南京|南京南)$\"];);out center tags;",
+      "selected_only": true
+    },
+    {
+      "path": "data/onboarding/nanjing-map/selected-geometry.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:45];(relation(18303735);way(380923041);way(62354287);way(1531638749);way(948332291);way(319998727);way(62353727);relation(4293790);way(89925772);way(62344632);relation(11308636);way(859565692);relation(1903184);way(147223223);way(155883034););out body geom;"
+    },
+    {
+      "path": "data/onboarding/nanjing-map/river-relations.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:40];(rel(31.94,118.60,32.18,118.85)[\"natural\"=\"water\"];rel(31.94,118.60,32.18,118.85)[\"waterway\"=\"riverbank\"];);out body geom;"
+    }
+  ],
+  "notes": [
+    "OSM公开数据截至2026-09-21读取；反映地图快照，不承诺道路或轨道即时运营状态。",
+    "WGS84统一等比例局部投影；与全国入口DataV供应商边界分离，未做坐标系混叠。",
+    "仅展示有完整闭合几何的区界、水域、公园和高校；不以矩形补齐缺失边界。",
+    "轨道只选6条数字编号线，不是完整现行线网，不包含班次、价格和导航路径。",
+    "编号与城市配置12景点顺序一致；区域点不是入口，精确来源名称见attractions。",
+    "密集点编号使用短引线避让；引线末端的小点是原始位置，编号圆心不作导航坐标。"
+  ]
+}

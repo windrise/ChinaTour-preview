@@ -1,0 +1,26 @@
+.visitation { margin-top:18px; border:1px solid var(--line); border-radius:6px; background:var(--paper); color:var(--ink); }
+.visitation > summary { padding:14px 16px; cursor:pointer; font-weight:500; }
+.visitation-body { padding:0 16px 16px; }
+.visitation-note,.visitation-empty { color:var(--ink-soft); font-size:12px; line-height:1.8; }
+.visitation-year { display:flex; gap:10px; align-items:center; margin:15px 0; }
+.visitation select { color:var(--ink); background:var(--paper); border:1px solid var(--line-dark); border-radius:4px; padding:7px 12px; }
+.visitation-scroll { overflow:auto; max-width:100%; border:1px solid var(--line); border-radius:4px; }
+.visitation-table { border-collapse:separate; border-spacing:4px; width:100%; font-size:11px; }
+.visitation-table caption { text-align:left; padding:10px; color:var(--ink-soft); }
+.visitation-table th { padding:8px; font-weight:500; white-space:nowrap; }
+.visitation-table tbody th { position:sticky; left:0; background:var(--paper); z-index:1; white-space:normal; min-width:105px; max-width:150px; text-align:left; }
+.visitation-cell { min-width:70px; min-height:48px; width:100%; padding:6px; border:1px solid var(--line-dark); border-radius:4px; background:var(--cream); color:var(--ink-soft); font-size:11px; line-height:1.5; }
+.visitation-cell[data-level="1"] { background:#dce9dd; color:#173b32; }
+.visitation-cell[data-level="2"] { background:#aacbbb; color:#173b32; }
+.visitation-cell[data-level="3"] { background:#36745e; color:#fff; }
+.visitation-cell[data-level="4"] { background:#174934; color:#fff; }
+.visitation :focus-visible { outline:3px solid var(--coral); outline-offset:2px; }
+.visitation-cell[aria-pressed="true"] { outline:3px solid var(--coral); outline-offset:1px; }
+.visitation h3 { font-size:14px; margin:16px 0 8px; }
+.visitation-source-panel { padding:2px 12px; background:var(--cream); border-left:2px solid var(--line-dark); font-size:12px; }
+.visitation-records { list-style:none; padding:0; margin:0; }
+.visitation-record { padding:12px 0; border-bottom:1px solid var(--line); overflow-wrap:anywhere; }
+.visitation-record p { font-size:12px; color:var(--ink-soft); margin:5px 0; }
+.visitation-record a { text-decoration:underline; text-underline-offset:3px; }
+.visitation-more summary { cursor:pointer; padding:12px 0; }
+@media(max-width:620px) { .visitation-body { padding:0 10px 12px; } .visitation-table tbody th { min-width:88px; max-width:105px; } }
