@@ -6,21 +6,29 @@
   <meta name="theme-color" content="#080f14">
   <meta name="description" content="行知：按月份认识一个地方，循着真实照片找到想去的景点。">
   <title>行知 · 中国旅行</title>
-  <link rel="stylesheet" href="./static/style.css?v=9b86fb9e07f4">
-  <link rel="stylesheet" href="./static/atlas.css?v=9b86fb9e07f4">
-  <link rel="stylesheet" href="./static/visitation.css?v=9b86fb9e07f4">
-  <script defer src="./static/visitation.js?v=9b86fb9e07f4"></script>
-  <script defer src='./preview-config.js?v=9b86fb9e07f4'></script>
-  <script defer src='./static/preview.js?v=9b86fb9e07f4'></script>
-  <script defer src="./static/app.js?v=9b86fb9e07f4"></script>
-  <script defer src="./static/atlas.js?v=9b86fb9e07f4"></script>
+  <link rel="stylesheet" href="./static/style.css?v=9ea2fea40c13">
+  <link rel="stylesheet" href="./static/atlas.css?v=9ea2fea40c13">
+  <link rel="stylesheet" href="./static/visitation.css?v=9ea2fea40c13">
+  <script defer src="./static/visitation.js?v=9ea2fea40c13"></script>
+  <script defer src='./preview-config.js?v=9ea2fea40c13'></script>
+  <script defer src='./static/preview.js?v=9ea2fea40c13'></script>
+  <script defer src="./static/app.js?v=9ea2fea40c13"></script>
+  <script defer src="./static/atlas.js?v=9ea2fea40c13"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
     <header class="site-header">
       <a class="brand" href="./" aria-label="行知首页"><span class="brand-seal" aria-hidden="true">行</span><span class="brand-copy"><strong>行知</strong><em>FIELD NOTES · CHINA</em></span></a>
       <nav class="header-nav" aria-label="主导航"><button type="button" id="atlas-home" class="nav-link active">山河图鉴</button><a class="nav-link" href="#month-explorer">四季发现</a><a class="nav-link" href="#destination-map">目的地地图</a></nav>
-      <div class="header-actions"><span id="connection-indicator" class="connection-indicator"><i></i> 本地资料</span><button id="login-button" class="button button-quiet" type="button" aria-expanded="false">内置浏览器</button><button id="collect-button" class="button button-primary" type="button" aria-controls="collection-workbench">自动搜集 <span aria-hidden="true">↗</span></button></div>
+      <div class="header-actions"><span id="connection-indicator" class="connection-indicator"><i></i> 本地资料</span><button id="login-button" class="button button-quiet" type="button" aria-expanded="false">内置浏览器</button><button id="open-place-search" class="button button-primary" type="button" aria-expanded="false" aria-controls="place-search-panel">搜索 / 搜集 <span aria-hidden="true">↗</span></button></div>
+      <section id="place-search-panel" class="global-search-panel" aria-labelledby="place-search-title" hidden>
+        <div class="global-search-heading"><div><p class="eyebrow">DISCOVER ANYWHERE</p><h2 id="place-search-title">想去哪里？</h2></div><button id="close-place-search" class="global-search-close" type="button" aria-label="关闭全站搜索">×</button></div>
+        <p class="global-search-intro">搜城市，也搜小众地点。还没收录的地方，从这里开始搜集。</p>
+        <form id="place-search-form" class="global-search-form"><label class="sr-only" for="place-query">全站地点名称</label><input id="place-query" type="search" maxlength="60" minlength="2" placeholder="输入城市或地点，如：霞浦、江郎山" autocomplete="off" required><label class="global-search-month">月份<select id="place-search-month" aria-label="检索月份"></select></label><button id="place-search-button" class="button button-primary" type="submit">搜索 ↗</button></form>
+        <p id="place-search-note" class="global-search-note"></p>
+        <div id="place-search-results" class="global-search-results" aria-live="polite"></div>
+        <div id="place-search-status" class="global-search-status" role="status" aria-live="polite"></div>
+      </section>
     </header>
     <div id="browser-info" class="browser-info" hidden></div>
     <section id="atlas-entry" class="atlas-entry" aria-labelledby="atlas-title" data-stage="china">
@@ -60,9 +68,8 @@
       </section>
 
       <section id="attractions-section" class="section-block attractions-section" aria-labelledby="attractions-heading">
-        <div class="section-heading split-heading"><div><p class="eyebrow">PLACES TO NOTICE</p><h2 id="attractions-heading">值得先看的景点</h2></div><div class="attraction-controls"><form id="place-search-form" class="place-search-form"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">搜索景点或输入小众地点名称</span><input id="search-input" type="search" maxlength="60" placeholder="找景点，也可输入小众地名" autocomplete="off" aria-describedby="place-search-note"></label><button id="place-search-button" class="text-button" type="submit" hidden>搜集这个地点 ↗</button></form><span id="attractions-count" class="section-count">—</span></div></div>
+        <div class="section-heading split-heading"><div><p class="eyebrow">PLACES TO NOTICE</p><h2 id="attractions-heading">值得先看的景点</h2></div><div class="attraction-controls"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">筛选当前城市景点</span><input id="search-input" type="search" maxlength="60" placeholder="筛选当前城市景点" autocomplete="off"></label><span id="attractions-count" class="section-count">—</span></div></div>
         <p id="attractions-context" class="section-intro">点开感兴趣的景点，查看照片、路线与真实资料。</p>
-        <div id="place-search-panel" class="place-search-panel" hidden><p id="place-search-note"></p><div id="place-search-status" role="status" aria-live="polite"></div></div>
         <div id="region-filter" class="region-filter" role="group" aria-label="按地区筛选景点" hidden></div>
         <div id="attractions-grid" class="attractions-grid" aria-live="polite"></div>
         <details id="attraction-directory-panel" class="attraction-directory-panel"><summary id="attraction-directory-summary">全部景点与待补资料</summary><nav id="attraction-directory" class="attraction-directory" aria-label="景点目录"></nav></details>

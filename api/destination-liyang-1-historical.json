@@ -1443,7 +1443,7 @@
         "month": 1,
         "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
       },
-      "representative_url": null,
+      "representative_url": "/api/media/9fd9fd7de0fb45357d4f64ab",
       "evidence_links": [
         {
           "evidence_id": "ev_3b798cd9ea05421d",
@@ -1507,7 +1507,7 @@
         "month": 1,
         "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
       },
-      "representative_url": null,
+      "representative_url": "/api/media/208873cc6ae2dbfcc3846507",
       "evidence_links": [
         {
           "evidence_id": "ev_494b44c6c7634b18",
@@ -22067,9 +22067,9 @@
         "count": 10,
         "observed_count": 4,
         "publication_count": 6,
-        "observed_photo_count": 1,
-        "publication_photo_count": 1,
-        "approved_photo_count": 2
+        "observed_photo_count": 5,
+        "publication_photo_count": 3,
+        "approved_photo_count": 8
       },
       {
         "month": 2,

@@ -22,6 +22,7 @@
     let filename;
     if (url.pathname === '/api/overview') filename = 'api/overview.json';
     else if (url.pathname === '/api/places') filename = 'api/places.json';
+    else if (url.pathname === '/api/place-index') filename = 'api/place-index.json';
     else if (url.pathname === '/api/destination') {
       const place = url.searchParams.get('place_id') || meta.defaultPlace;
       const month = Number(url.searchParams.get('month') || meta.defaultMonth);

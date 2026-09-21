@@ -73,7 +73,7 @@
       "lon": 119.5200143,
       "description": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
-      "photo_url": null,
+      "photo_url": "/api/media/208873cc6ae2dbfcc3846507",
       "photo_credit": "噜啦啦噜啦啦噜啦噜啦嘞",
       "photo_time_basis": "作者明确日期 · 照片未独立核验",
       "photo_source_url": "https://www.xiaohongshu.com/explore/695741ae000000001f00b891",
@@ -110,7 +110,7 @@
         },
         "unknown": {
           "evidence_count": 7,
-          "photo_count": 1,
+          "photo_count": 6,
           "evidence_ids": [
             "ev_494b44c6c7634b18",
             "ev_3b798cd9ea05421d",
@@ -121,6 +121,106 @@
             "ev_6fd5c12669d245c0"
           ],
           "photos": [
+            {
+              "asset_id": "1040g2sg31qqra42b0a7g4a691impqk30adbqr40",
+              "id": "208873cc6ae2dbfcc3846507",
+              "ordinal": 1,
+              "url": "/api/media/208873cc6ae2dbfcc3846507",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/695741ae000000001f00b891"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "db18e5e53b9735568fe207a5dc4fad9f9df35d43922b951f1a90c9464993808f",
+                "reasons": [],
+                "metrics": {
+                  "width": 1295,
+                  "height": 1080,
+                  "sharpness": 785.25,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.006347718648612499,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "mountain",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.8974609375,
+                "scene_scores": {
+                  "water": 0.75244140625,
+                  "mountain": 0.8974609375
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/695741ae000000001f00b891",
+              "publisher": "噜啦啦噜啦啦噜啦噜啦嘞",
+              "title": "新年的第一天，飘雪的南山竹海也太浪漫了",
+              "evidence_id": "ev_494b44c6c7634b18",
+              "time_label": "作者明确日期 · 照片未独立核验",
+              "material_date": "2026-02-03"
+            },
+            {
+              "asset_id": "1040g2sg31qqra42b0aag4a691impqk30sgdegag",
+              "id": "dc9950625f778c18a7baa04b",
+              "ordinal": 2,
+              "url": "/api/media/dc9950625f778c18a7baa04b",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/695741ae000000001f00b891"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "cc2fd3bde5b343e8134b20b75add6c89794dea31aefb840520af64a3f4d769d2",
+                "reasons": [],
+                "metrics": {
+                  "width": 1080,
+                  "height": 1561,
+                  "sharpness": 6856.46,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.007080325856804848,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": false,
+                "scene": null,
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "reason": "uncertain_scene"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/695741ae000000001f00b891",
+              "publisher": "噜啦啦噜啦啦噜啦噜啦嘞",
+              "title": "新年的第一天，飘雪的南山竹海也太浪漫了",
+              "evidence_id": "ev_494b44c6c7634b18",
+              "time_label": "作者明确日期 · 照片未独立核验",
+              "material_date": "2026-02-03"
+            },
             {
               "asset_id": "1040g3r031qqv0lvk7u5g437vc60t0rnla7a5b5g",
               "id": "37748d4d5e63d9e4cda56cdc",
@@ -172,6 +272,163 @@
               "evidence_id": "ev_3b798cd9ea05421d",
               "time_label": "作者明确日期 · 照片未独立核验",
               "material_date": "2026-01-02"
+            },
+            {
+              "asset_id": "1040g3r031qqv0lvk7u1g437vc60t0rnllj6m4jg",
+              "id": "0177e062b17982fc8cef7a67",
+              "ordinal": 5,
+              "url": "/api/media/0177e062b17982fc8cef7a67",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/69575c22000000002202c40d"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "d45d25193e0dce7a090ded0fd1148e79b209dff0e009a615cf1a3bb347a8e9ba",
+                "reasons": [],
+                "metrics": {
+                  "width": 1080,
+                  "height": 1440,
+                  "sharpness": 3751.99,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.003174328012391925,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "mountain",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.60595703125,
+                "scene_scores": {
+                  "mountain": 0.60595703125
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/69575c22000000002202c40d",
+              "publisher": "晓曦♋",
+              "title": "南山竹海，来了！",
+              "evidence_id": "ev_3b798cd9ea05421d",
+              "time_label": "作者明确日期 · 照片未独立核验",
+              "material_date": "2026-01-02"
+            },
+            {
+              "asset_id": "1040g3r831safi0ln629g4blvqlgfqvegtmti9v8",
+              "id": "9fd9fd7de0fb45357d4f64ab",
+              "ordinal": 1,
+              "url": "/api/media/9fd9fd7de0fb45357d4f64ab",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/6987fbe9000000001a02feee"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "b1e2a66344baa80e0b23bacf2885bf0ae3435f1ce7a7ef502c5c67a4a71c976f",
+                "reasons": [],
+                "metrics": {
+                  "width": 1440,
+                  "height": 1080,
+                  "sharpness": 543.97,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.001465126289986074,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "mountain",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.7529296875,
+                "scene_scores": {
+                  "water": 0.6806640625,
+                  "mountain": 0.7529296875
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/6987fbe9000000001a02feee",
+              "publisher": "东游西荡",
+              "title": "南山竹海2026.1.31❄️｜避坑指南",
+              "evidence_id": "ev_9f9f22abc9584d65",
+              "time_label": "作者明确日期 · 照片未独立核验",
+              "material_date": "2026-02-08"
+            },
+            {
+              "asset_id": "1040g3k031qsm2aelga0g5o8u4tl0858hqtcvmpg",
+              "id": "8fedba955b19667bd89c64d2",
+              "ordinal": 2,
+              "url": "/api/media/8fedba955b19667bd89c64d2",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/6959156a000000002200bf1a"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "36d23a60681160efeecde9bbbb4af9afed4f8f16d342cc8bf253b3de7bc19172",
+                "reasons": [],
+                "metrics": {
+                  "width": 1921,
+                  "height": 1080,
+                  "sharpness": 1997.46,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.024659976363182068,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "mountain",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.6240234375,
+                "scene_scores": {
+                  "mountain": 0.6240234375
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/6959156a000000002200bf1a",
+              "publisher": "手可摘星陳",
+              "title": "12.27南山竹海攻略！",
+              "evidence_id": "ev_e9dbc37d35644e0a",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-01-03"
             }
           ]
         }
@@ -232,7 +489,7 @@
         },
         "unknown": {
           "evidence_count": 3,
-          "photo_count": 1,
+          "photo_count": 2,
           "evidence_ids": [
             "ev_94aeef7a2f754aed",
             "ev_560df1edc24b4245",
@@ -280,6 +537,59 @@
                 "score": 0.6787109375,
                 "scene_scores": {
                   "mountain": 0.6787109375
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/696cee06000000002202208b",
+              "publisher": "香菜曲奇",
+              "title": "御水温泉泡池总结",
+              "evidence_id": "ev_560df1edc24b4245",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-01-18"
+            },
+            {
+              "asset_id": "1040g3r831rg1l7hd00505pcuigf83pmeh64vg6g",
+              "id": "5c347265cff1a8db2db04577",
+              "ordinal": 3,
+              "url": "/api/media/5c347265cff1a8db2db04577",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/696cee06000000002202208b"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "e5c7bb25e28c661feceb314c4f30aef1d24db1825eb4e162977c66914d1dbcb4",
+                "reasons": [],
+                "metrics": {
+                  "width": 1440,
+                  "height": 1080,
+                  "sharpness": 737.93,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.011474628932774067,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "mountain",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.82275390625,
+                "scene_scores": {
+                  "water": 0.79541015625,
+                  "mountain": 0.82275390625
                 },
                 "reason": "scene_candidate",
                 "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
@@ -895,7 +1205,96 @@
         "湖泊",
         "竹林"
       ],
-      "media": [],
+      "media": [
+        {
+          "asset_id": "1040g2sg31qqra42b0a7g4a691impqk30adbqr40",
+          "id": "208873cc6ae2dbfcc3846507",
+          "ordinal": 1,
+          "url": "/api/media/208873cc6ae2dbfcc3846507",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/695741ae000000001f00b891"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "db18e5e53b9735568fe207a5dc4fad9f9df35d43922b951f1a90c9464993808f",
+            "reasons": [],
+            "metrics": {
+              "width": 1295,
+              "height": 1080,
+              "sharpness": 785.25,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.006347718648612499,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.8974609375,
+            "scene_scores": {
+              "water": 0.75244140625,
+              "mountain": 0.8974609375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "1040g2sg31qqra42b0aag4a691impqk30sgdegag",
+          "id": "dc9950625f778c18a7baa04b",
+          "ordinal": 2,
+          "url": "/api/media/dc9950625f778c18a7baa04b",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/695741ae000000001f00b891"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "cc2fd3bde5b343e8134b20b75add6c89794dea31aefb840520af64a3f4d769d2",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1561,
+              "sharpness": 6856.46,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.007080325856804848,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        }
+      ],
       "claims": [
         {
           "support_excerpt": "点击原帖查看作者正文与完整说明。",
@@ -1072,6 +1471,52 @@
             "score": 0.55078125,
             "scene_scores": {
               "mountain": 0.55078125
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "1040g3r031qqv0lvk7u1g437vc60t0rnllj6m4jg",
+          "id": "0177e062b17982fc8cef7a67",
+          "ordinal": 5,
+          "url": "/api/media/0177e062b17982fc8cef7a67",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/69575c22000000002202c40d"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "d45d25193e0dce7a090ded0fd1148e79b209dff0e009a615cf1a3bb347a8e9ba",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 3751.99,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.003174328012391925,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.60595703125,
+            "scene_scores": {
+              "mountain": 0.60595703125
             },
             "reason": "scene_candidate",
             "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
@@ -1317,7 +1762,55 @@
         "温泉",
         "竹林"
       ],
-      "media": [],
+      "media": [
+        {
+          "asset_id": "1040g3r831safi0ln629g4blvqlgfqvegtmti9v8",
+          "id": "9fd9fd7de0fb45357d4f64ab",
+          "ordinal": 1,
+          "url": "/api/media/9fd9fd7de0fb45357d4f64ab",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/6987fbe9000000001a02feee"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "b1e2a66344baa80e0b23bacf2885bf0ae3435f1ce7a7ef502c5c67a4a71c976f",
+            "reasons": [],
+            "metrics": {
+              "width": 1440,
+              "height": 1080,
+              "sharpness": 543.97,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.001465126289986074,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.7529296875,
+            "scene_scores": {
+              "water": 0.6806640625,
+              "mountain": 0.7529296875
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        }
+      ],
       "claims": [],
       "confidence_label": "作者明确日期 · 照片未独立核验",
       "material_date": "2026-02-08",
@@ -1899,6 +2392,53 @@
             "reason": "scene_candidate",
             "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
           }
+        },
+        {
+          "asset_id": "1040g3r831rg1l7hd00505pcuigf83pmeh64vg6g",
+          "id": "5c347265cff1a8db2db04577",
+          "ordinal": 3,
+          "url": "/api/media/5c347265cff1a8db2db04577",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/696cee06000000002202208b"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "e5c7bb25e28c661feceb314c4f30aef1d24db1825eb4e162977c66914d1dbcb4",
+            "reasons": [],
+            "metrics": {
+              "width": 1440,
+              "height": 1080,
+              "sharpness": 737.93,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.011474628932774067,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.82275390625,
+            "scene_scores": {
+              "water": 0.79541015625,
+              "mountain": 0.82275390625
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
         }
       ],
       "claims": [],
@@ -2003,7 +2543,54 @@
         "湖泊",
         "竹林"
       ],
-      "media": [],
+      "media": [
+        {
+          "asset_id": "1040g3k031qsm2aelga0g5o8u4tl0858hqtcvmpg",
+          "id": "8fedba955b19667bd89c64d2",
+          "ordinal": 2,
+          "url": "/api/media/8fedba955b19667bd89c64d2",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/6959156a000000002200bf1a"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "36d23a60681160efeecde9bbbb4af9afed4f8f16d342cc8bf253b3de7bc19172",
+            "reasons": [],
+            "metrics": {
+              "width": 1921,
+              "height": 1080,
+              "sharpness": 1997.46,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.024659976363182068,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.6240234375,
+            "scene_scores": {
+              "mountain": 0.6240234375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        }
+      ],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2026-01-03",
@@ -3821,7 +4408,7 @@
         "month": 1,
         "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
       },
-      "representative_url": null,
+      "representative_url": "/api/media/9fd9fd7de0fb45357d4f64ab",
       "evidence_links": [
         {
           "evidence_id": "ev_3b798cd9ea05421d",
@@ -3885,7 +4472,7 @@
         "month": 1,
         "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
       },
-      "representative_url": null,
+      "representative_url": "/api/media/208873cc6ae2dbfcc3846507",
       "evidence_links": [
         {
           "evidence_id": "ev_494b44c6c7634b18",
@@ -24445,9 +25032,9 @@
         "count": 10,
         "observed_count": 4,
         "publication_count": 6,
-        "observed_photo_count": 1,
-        "publication_photo_count": 1,
-        "approved_photo_count": 2
+        "observed_photo_count": 5,
+        "publication_photo_count": 3,
+        "approved_photo_count": 8
       },
       {
         "month": 2,

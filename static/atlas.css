@@ -9,7 +9,7 @@ body.atlas-mode {
 }
 body.atlas-mode::before { display:none; }
 .preview-badge { color:#8da499; font-size:10px; padding:10px 0; border-bottom:1px solid #ffffff0a; }
-.preview-mode #collect-button,.preview-mode #login-button { display:none; }
+.preview-mode #login-button { display:none; }
 .preview-mode .atlas-entry { height:calc(100svh - 127px); }
 .atlas-mode .site-shell { width:min(1360px,calc(100% - 96px)); }
 .atlas-mode .site-header { min-height:94px; gap:55px; border-color:#ffffff13; }
@@ -20,6 +20,7 @@ body.atlas-mode::before { display:none; }
 .atlas-mode .nav-link.active { color:#d6e9df; }
 .atlas-mode .nav-link.active::after { background:#b8eedc; bottom:0; }
 .atlas-mode .header-actions .button-primary { background:#b8eedc; color:#11231f; border-color:#b8eedc; border-radius:3px; padding:9px 17px; }
+.atlas-mode .global-search-form .button-primary { color:#11231f; }
 .atlas-mode .button-quiet { background:transparent; color:#a6bcb7; }
 .atlas-mode .connection-indicator { display:none; }
 .atlas-mode #login-button { display:none; }
@@ -28,7 +29,6 @@ body.atlas-mode::before { display:none; }
 .atlas-entry { position:relative; min-height:760px; height:calc(100svh - 94px); max-height:1040px; isolation:isolate; }
 .atlas-mode:not(.atlas-landing) .atlas-entry { display:none; }
 .atlas-landing #destination-view { display:none; }
-.atlas-landing #collect-button { visibility:hidden; }
 .atlas-topline { display:flex; align-items:center; justify-content:space-between; padding-top:31px; position:relative; z-index:2; }
 .atlas-live { color:#8fa7a1; font:9px var(--mono); letter-spacing:.22em; display:flex; align-items:center; gap:11px; }
 .atlas-live i { width:5px; height:5px; background:#b8eedc; border-radius:50%; box-shadow:0 0 12px #b8eedc55; }
@@ -184,4 +184,15 @@ body.atlas-mode::before { display:none; }
  .atlas-city-selector select{max-width:190px}
  .atlas-pick-label{grid-row:2}.atlas-enter{grid-row:2 / 4}.atlas-destination-pick p{grid-row:3}
  .atlas-skip{top:700px}.atlas-visual{bottom:330px}
+}
+
+/* Global discovery remains reachable on the atlas, preview and small screens. */
+@media (max-width:760px) {
+ .atlas-mode .header-actions { display:flex; margin-left:auto; flex-shrink:0; }
+ .atlas-mode .site-header { gap:14px; }
+ .atlas-mode .header-nav { order:initial; width:auto; margin-left:auto; margin-right:0; }
+ .atlas-mode .header-actions .button-primary { padding:9px 11px; font-size:11px; }
+}
+@media (max-width:560px) {
+ .atlas-mode .header-nav a { display:none; }
 }

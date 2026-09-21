@@ -15,6 +15,7 @@ const state = {
   query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null, mapAssetIndex: 0,
   requestVersion: 0, openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
   placeSearch: null, placeSearchTimer: null, placeSearchBusy: false, placeSearchError: '',
+  placeSearchQuery: '', placeSearchMonth: initialMonthNumber >= 1 && initialMonthNumber <= 12 ? initialMonthNumber : defaultMonthNumber, placeSearchResults: null, placeSearchVersion: 0,
 };
 
 const READY_SOURCE_STATUS = new Set(['public_read_verified', 'available', 'enabled', 'active', 'public', 'supported']);
@@ -1256,7 +1257,7 @@ function jobStatsText(stats) {
 }
 function renderJob(job = state.job) {
   const panel = $('#job-panel'); if (!panel) return;
-  if (!job) { panel.hidden = true; $('#collection-summary').textContent = '选择来源，补充当前月份或全年资料'; const collect = $('#collect-button'); if (collect) { collect.disabled = !state.placeId; collect.innerHTML = '自动搜集 <span aria-hidden="true">↗</span>'; } return; }
+  if (!job) { panel.hidden = true; $('#collection-summary').textContent = '选择来源，补充当前月份或全年资料'; return; }
   panel.hidden = false; clear(panel);
   $('#collection-summary').textContent = `${jobLabel(job)} · 点开查看搜索与整理进度`;
   const progress = progressPercent(job.progress, job.status);
@@ -1312,7 +1313,6 @@ function renderJob(job = state.job) {
   }
   const jobError = errorText(job.error || job.errors);
   if (jobError) panel.append(make('p', 'job-error', jobError));
-  const active = jobActive(job); const collect = $('#collect-button'); if (collect) { collect.disabled = !state.placeId; collect.innerHTML = active ? '搜集进行中 <span aria-hidden="true">…</span>' : '自动搜集 <span aria-hidden="true">↗</span>'; }
   const label = jobLabel(job);
   const note = active ? label === '等待内置浏览器采集' ? '采集由当前 Codex 任务执行；各平台分别检查登录。对话结束后不会自动执行新任务。' : '任务仍在运行；页面会继续读取目的地接口获取最新进度。' : label === '搜集完成' ? '新资料会先保留为候选，时间和来源依据仍会显示在资料卡上。' : label === '部分完成' ? '只有返回成功的来源会进入资料；未连接的平台会保留为未就绪。' : label === '等待连接器' ? '请连接对应平台，或先选择已经配置好的官网来源。' : label === '预览就绪' ? '预览资料已准备好，来源和图片仍按当前筛选展示。' : label === '预览失败' ? '预览没有准备完成，失败原因已保留。' : '可以稍后重试，失败原因已保留。'; panel.append(make('p', 'job-note', note));
 }
@@ -1373,64 +1373,115 @@ function toggleBrowserInfo() {
   renderSourceOptions();
 }
 
+let placeIndexPromise = null;
+function loadPlaceIndex() {
+  if (!placeIndexPromise) placeIndexPromise = request('/api/place-index').then(items => {
+    if (!Array.isArray(items)) throw new Error('地点索引格式无效');
+    return items;
+  }).catch(error => { placeIndexPromise = null; throw error; });
+  return placeIndexPromise;
+}
+function globalPlaceMatches(index, query) {
+  const terms = query.normalize('NFKC').trim().toLowerCase().split(/\s+/);
+  return index.filter(item => {
+    const names = [item.name, ...(item.aliases || [])];
+    const text = [...names, item.destination_name, ...names.map(name => `${item.destination_name}${name}`)].join(' ').normalize('NFKC').toLowerCase();
+    return terms.every(term => text.includes(term));
+  }).sort((a, b) => Number(b.name === query) - Number(a.name === query));
+}
+function placeResultUrl(item) {
+  const params = new URLSearchParams({ place_id: item.destination_id, month: String(state.placeSearchMonth), view: 'destination' });
+  if (item.kind === 'attraction') params.set('attraction', item.name);
+  return `${window.CHINATOUR_PREVIEW?.basePath || '/'}?${params}#month-explorer`;
+}
+function togglePlaceSearch(open) {
+  const panel = $('#place-search-panel'); if (!panel) return;
+  panel.hidden = !open; $('#open-place-search')?.setAttribute('aria-expanded', String(open));
+  if (open) { renderPlaceSearch(); $('#place-query')?.focus(); }
+  else $('#open-place-search')?.focus();
+}
 function renderPlaceSearch() {
   const panel = $('#place-search-panel'); const button = $('#place-search-button');
   if (!panel || !button) return;
-  const query = state.query.trim(); const item = state.placeSearch;
-  panel.hidden = !query && !item && !state.placeSearchError;
-  button.hidden = !query;
-  button.disabled = !!window.CHINATOUR_PREVIEW || state.placeSearchBusy || query.length < 2;
-  button.textContent = state.placeSearchBusy ? '正在创建…' : '搜集这个地点 ↗';
-  const city = state.data?.destination?.name || state.places.find(p => p.id === state.placeId)?.name || '当前城市';
+  const item = state.placeSearch;
+  button.disabled = state.placeSearchBusy;
+  button.textContent = state.placeSearchBusy ? '查找中…' : '搜索 ↗';
+  const month = $('#place-search-month');
+  if (month && !month.children.length) for (let n = 1; n <= 12; n++) {
+    const option = make('option', '', `${n}月`); option.value = String(n); month.append(option);
+  }
+  if (month) month.value = String(state.placeSearchMonth);
   $('#place-search-note').textContent = window.CHINATOUR_PREVIEW
-    ? '这里可搜索已收录资料。在线预览暂不能启动新地点采集；该功能已接入本地工作台，接入服务器后才能远程提交。'
-    : `在${city}范围内查找。已有资料即时筛选；点击搜集后先采一小批原帖，核对地点并审核后再展示。浏览器采集需当前 Codex 任务执行，遇登录会提示。`;
+    ? '搜索所有已发布城市。未收录地点可在本地工作台发起搜集；在线预览暂不能远程创建采集任务。'
+    : '先搜索所有已收录城市；没有匹配时，自动启动该地点的首轮搜集。无需先把地点加进库。';
+  const results = $('#place-search-results'); results.replaceChildren();
+  if (state.placeSearchResults !== null) {
+    const matches = state.placeSearchResults;
+    results.append(make('p', 'global-search-result-count', matches.length ? `找到 ${matches.length} 处 · 点击查看资料` : `尚未收录「${state.placeSearchQuery}」`));
+    for (const match of matches.slice(0, 30)) {
+      const link = make('a', 'global-search-result'); link.href = placeResultUrl(match);
+      link.append(make('strong', '', match.name), make('span', '', `${match.destination_name} · ${match.kind === 'destination' ? '目的地' : '景点'} ↗`)); results.append(link);
+    }
+    if (matches.length > 30) results.append(make('p', '', '已显示前30处，可输入更完整的地名。'));
+    if (matches.length && !window.CHINATOUR_PREVIEW) {
+      const more = make('button', 'text-button', '资料不够？继续搜集这个地点 ↗'); more.type = 'button'; more.disabled = state.placeSearchBusy;
+      more.addEventListener('click', () => startPlaceSearch({ collect: true })); results.append(more);
+    }
+  }
   const status = $('#place-search-status'); status.replaceChildren();
   if (state.placeSearchError) status.append(make('p', 'search-error', state.placeSearchError));
   if (item) {
     status.append(make('p', '', `${item.query} · ${item.month} 月 · ${item.label} · 已读取 ${item.document_count || 0} 篇`));
+    status.append(make('p', 'global-search-note', '首轮最多6篇原帖；核对地点、时间和图片后再展示。浏览器采集由当前 Codex 任务执行，需要登录会提示。'));
     const refresh = make('button', 'text-button', '刷新任务状态'); refresh.type = 'button';
-    refresh.addEventListener('click', () => pollPlaceSearch(item.id, item.destination_id)); status.append(refresh);
+    refresh.addEventListener('click', () => pollPlaceSearch(item.id)); status.append(refresh);
   }
 }
-async function startPlaceSearch() {
-  const query = state.query.trim(); const destinationId = state.placeId;
-  if (window.CHINATOUR_PREVIEW || state.placeSearchBusy || query.length < 2) return;
-  state.placeSearchBusy = true; state.placeSearchError = ''; renderPlaceSearch();
+async function startPlaceSearch({ collect = false } = {}) {
+  const query = state.placeSearchQuery.trim();
+  if (state.placeSearchBusy || query.length < 2) return;
+  const version = ++state.placeSearchVersion;
+  const month = state.placeSearchMonth;
+  state.placeSearchBusy = true; state.placeSearchError = ''; state.placeSearchResults = null; renderPlaceSearch();
   try {
-    const item = await post('/api/place-search', { destination_id: destinationId, query, month: currentMonthNumber() });
-    if (state.placeId !== destinationId) return;
-    clearTimeout(state.placeSearchTimer); state.placeSearch = item;
-    schedulePlaceSearch(item);
+    const matches = globalPlaceMatches(await loadPlaceIndex(), query);
+    if (version !== state.placeSearchVersion) return;
+    state.placeSearchResults = matches;
+    if ((matches.length && !collect) || window.CHINATOUR_PREVIEW) return;
+    const item = await post('/api/place-search', { query, month });
+    if (version !== state.placeSearchVersion) return;
+    clearTimeout(state.placeSearchTimer); state.placeSearch = item; schedulePlaceSearch(item);
   } catch (error) {
-    if (state.placeId === destinationId) state.placeSearchError = `暂未创建任务：${readableError(error)}`;
+    if (version === state.placeSearchVersion) state.placeSearchError = `搜索未完成：${readableError(error)}`;
   } finally {
-    if (state.placeId === destinationId) { state.placeSearchBusy = false; renderPlaceSearch(); }
+    if (version === state.placeSearchVersion) { state.placeSearchBusy = false; renderPlaceSearch(); }
   }
 }
 function schedulePlaceSearch(item) {
   clearTimeout(state.placeSearchTimer);
-  if (['queued', 'running', 'awaiting_browser'].includes(item.status)) state.placeSearchTimer = setTimeout(() => pollPlaceSearch(item.id, item.destination_id), 5000);
+  if (['queued', 'running', 'awaiting_browser'].includes(item.status)) state.placeSearchTimer = setTimeout(() => pollPlaceSearch(item.id), 5000);
 }
-async function pollPlaceSearch(id, destinationId) {
-  if (window.CHINATOUR_PREVIEW || state.placeId !== destinationId || state.placeSearch?.id !== id) return;
+async function pollPlaceSearch(id) {
+  if (window.CHINATOUR_PREVIEW || state.placeSearch?.id !== id) return;
   try {
     const item = await request(`/api/place-search/${encodeURIComponent(id)}`);
-    if (state.placeId !== destinationId || state.placeSearch?.id !== id) return;
+    if (state.placeSearch?.id !== id) return;
     const changed = state.placeSearch.status !== item.status;
     state.placeSearch = item; state.placeSearchError = ''; renderPlaceSearch(); schedulePlaceSearch(item);
-    if (changed && item.status === 'processed') loadDestination({ silent: true });
+    if (changed && item.status === 'processed') {
+      placeIndexPromise = null;
+      if ((item.resolved_destination_id || item.destination_id) === state.placeId) loadDestination({ silent: true });
+    }
   } catch (error) {
-    if (state.placeId !== destinationId || state.placeSearch?.id !== id) return;
+    if (state.placeSearch?.id !== id) return;
     state.placeSearchError = `状态刷新失败：${readableError(error)}`; renderPlaceSearch();
   }
 }
 async function loadPlaceSearch() {
   if (window.CHINATOUR_PREVIEW) return;
-  const destinationId = state.placeId;
   try {
-    const items = await request(`/api/place-search?destination_id=${encodeURIComponent(destinationId)}`);
-    if (destinationId !== state.placeId || state.placeSearch) return;
+    const items = await request('/api/place-search');
+    if (state.placeSearch) return;
     state.placeSearch = items[0] || null; renderPlaceSearch();
     if (state.placeSearch) schedulePlaceSearch(state.placeSearch);
   } catch (_) { /* Browsing remains available if task status is unavailable. */ }
@@ -1438,7 +1489,6 @@ async function loadPlaceSearch() {
 
 function renderAll() {
   renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderEssentials(); renderRouteGuides(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderNearby(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
-  const collect = $('#collect-button'); if (collect) { const active = jobActive(state.job); collect.disabled = !state.placeId; collect.innerHTML = active ? '搜集进行中 <span aria-hidden="true">…</span>' : '自动搜集 <span aria-hidden="true">↗</span>'; }
   renderCollectionScope();
   renderPlaceSearch();
   refreshOpenDrawer();
@@ -1686,15 +1736,14 @@ function selectDestination(placeId, { update = true, regionId = 'all' } = {}) {
   if (!placeId || String(placeId) === state.placeId) return;
   closeDrawer(); state.placeId = String(placeId); state.attractionLimit = 6; state.mapAssetIndex = 0;
   state.query = ''; $('#search-input').value = ''; state.practicalTab = null;
-  clearTimeout(state.placeSearchTimer); state.placeSearch = null; state.placeSearchError = ''; state.placeSearchBusy = false;
   state.routeTheme = 'all'; state.routePeriod = 'all'; state.routeLimit = 3; state.openRouteId = null;
   state.regionId = regionId; state.nearbyExpanded = false;
   state.data = null; clearJobForContext();
   if (update) updateUrl();
   document.dispatchEvent(new CustomEvent('chinatour:place-selected', { detail: { placeId: state.placeId } }));
   loadDestination();
-  loadPlaceSearch();
 }
+
 $('#place-picker')?.addEventListener('change', (event) => selectDestination(event.target.value));
 document.addEventListener('chinatour:select-place', (event) => selectDestination(event.detail?.placeId));
 window.addEventListener('popstate', () => {
@@ -1708,10 +1757,13 @@ window.addEventListener('popstate', () => {
   else loadDestination();
 });
 $('#mode-filter')?.addEventListener('click', (event) => { const button = event.target.closest('[data-mode]'); if (!button) return; state.mode = button.dataset.mode; state.attractionLimit = 6; clearJobForContext(); updateUrl(); renderMode(); loadDestination(); });
-$('#search-input')?.addEventListener('input', (event) => { state.query = event.target.value || ''; state.attractionLimit = 6; state.placeSearchError = ''; renderAttractions(); renderPlaceSearch(); });
+$('#search-input')?.addEventListener('input', (event) => { state.query = event.target.value || ''; state.attractionLimit = 6; renderAttractions(); });
+$('#open-place-search')?.addEventListener('click', () => togglePlaceSearch($('#place-search-panel').hidden));
+$('#close-place-search')?.addEventListener('click', () => togglePlaceSearch(false));
+$('#place-query')?.addEventListener('input', event => { state.placeSearchQuery = event.target.value; state.placeSearchVersion++; state.placeSearchBusy = false; state.placeSearchResults = null; state.placeSearchError = ''; renderPlaceSearch(); });
+$('#place-search-month')?.addEventListener('change', event => { state.placeSearchMonth = integer(event.target.value, currentMonthNumber()); state.placeSearchVersion++; state.placeSearchBusy = false; renderPlaceSearch(); });
 $('#place-search-form')?.addEventListener('submit', (event) => { event.preventDefault(); startPlaceSearch(); });
 $('#nearby-more')?.addEventListener('click', () => { state.nearbyExpanded = !state.nearbyExpanded; renderNearby(); });
-$('#collect-button')?.addEventListener('click', () => { const workbench = $('#collection-workbench'); workbench.open = true; workbench.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }); });
 $('#campaign-button')?.addEventListener('click', startCampaign);
 $('#collection-month-scope')?.addEventListener('change', (event) => {
   state.monthScope = ['all', 'practical'].includes(event.target.value) ? event.target.value : 'selected';
@@ -1722,7 +1774,7 @@ $('#login-button')?.addEventListener('click', toggleBrowserInfo);
 $('#close-drawer')?.addEventListener('click', closeDrawer);
 document.querySelector('[data-close-drawer]')?.addEventListener('click', closeDrawer);
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') closeDrawer();
+  if (event.key === 'Escape') { closeDrawer(); if (!$('#place-search-panel').hidden) togglePlaceSearch(false); }
   if (event.key !== 'Tab' || !state.openAttractionId) return;
   const focusable = [...$('#detail-drawer').querySelectorAll('button, a[href], summary, [tabindex="0"]')].filter((element) => element.getClientRects().length && !element.disabled);
   const first = focusable[0]; const last = focusable[focusable.length - 1];
@@ -1742,6 +1794,9 @@ async function initialize() {
     state.browserTimer = setInterval(() => loadBrowserStatus(), 30000);
   }
   await loadDestination();
+  const linkedParams = new URLSearchParams(location.search);
+  const linkedPlace = linkedParams.get('view') === 'destination' && (state.data?.attractions || []).find(item => item.name === linkedParams.get('attraction'));
+  if (linkedPlace) openDrawer(linkedPlace);
   await loadPlaceSearch();
   syncJobFromDestination();
   renderJob();
