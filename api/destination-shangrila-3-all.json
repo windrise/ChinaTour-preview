@@ -1,0 +1,5494 @@
+{
+  "destination": {
+    "id": "shangrila",
+    "name": "香格里拉",
+    "description": "从独克宗古城出发，探索香格里拉的寺院、湿地与高原山谷。"
+  },
+  "attractions": [
+    {
+      "id": "place_012120a31fae458f",
+      "name": "独克宗古城",
+      "lat": 27.8105688,
+      "lon": 99.7059703,
+      "description": "香格里拉古城，也是官方景区直通车资料中的集散点。",
+      "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 4,
+      "months": [
+        9
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 2,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_1df69911d99d41e8",
+            "ev_eca046c97dde4112"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/763318050",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_4cba65cce48d4dee",
+      "name": "松赞林寺",
+      "lat": 27.8635702,
+      "lon": 99.704412,
+      "description": "香格里拉的藏传佛教寺院与文化景区。",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 5,
+      "months": [
+        6,
+        9
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 2,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_66dfb1af8f0d48db",
+            "ev_62fb4ba6bfd8454b"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/187166845",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_46ca7a46e48847d7",
+      "name": "普达措国家公园",
+      "lat": 27.9137543,
+      "lon": 99.9214922,
+      "description": "以高原湖泊、森林与湿地为主要景观的景区。",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 4,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 4,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_c9135a735d1f4cda",
+            "ev_a382f616112e4691",
+            "ev_b0b472cd1dea45cb",
+            "ev_772214fd6f6d4e3d"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/832323147",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_b4b96ab1068b455a",
+      "name": "纳帕海",
+      "lat": 27.8588132,
+      "lon": 99.6500108,
+      "description": "香格里拉市附近的高原湿地与草原片区。",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 6,
+      "months": [
+        8,
+        9
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 4,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_151564a39a73447e",
+            "ev_fc40bc940de94632",
+            "ev_4bfb6a8fab9843c9",
+            "ev_6d1443ba80f342b3"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/36897816",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_f76fc4c6a8c14bdc",
+      "name": "白水台",
+      "lat": 27.5021285,
+      "lon": 100.0335941,
+      "description": "与东巴文化相关的自然景区。",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 3,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 3,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_b7f13bb5d28a4d43",
+            "ev_81c30aae7d764607",
+            "ev_03e6519cb69d4db3"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/459808345",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_17541dbf9a514d77",
+      "name": "巴拉格宗",
+      "lat": 28.3471922,
+      "lon": 99.4398954,
+      "description": "香格里拉的高山峡谷景区。",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_0f14ce5d1e93439c"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1479523252",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_3a8d4884ee0b462c",
+      "name": "石卡雪山",
+      "lat": 27.7974054,
+      "lon": 99.5902684,
+      "description": "香格里拉的高山景区，运营情况另行核对。",
+      "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_facc90987be548c2"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/4691879389",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_ccea42fb9fb54eaf",
+      "name": "尼汝",
+      "lat": 27.9511092,
+      "lon": 100.0689018,
+      "description": "香格里拉的山地村落与森林片区。",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 2,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 2,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_4ba797f9d8ac468b",
+            "ev_b5f7fccb7307423d"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/2968810953",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_51fcfee3aee341c8",
+      "name": "虎跳峡",
+      "lat": 27.2044019,
+      "lon": 100.1206446,
+      "description": "金沙江峡谷景区；观景台与高路、中虎跳徒步需分别核对路线和开放状态。",
+      "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 3,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 3,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_e87d4ec43f154e4f",
+            "ev_3d37f5e2adf84cd6",
+            "ev_00976a9b428147c0"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/774523525",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_4ba797f9d8ac468b",
+      "place_id": "place_ccea42fb9fb54eaf",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+      "published_at": "2026-03-11",
+      "fetched_at": "2026-09-21T16:16:17.230083+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "尼汝",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-03-11",
+      "captured_at": "2026-09-21T16:16:17.230083+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-03-11",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_facc90987be548c2",
+      "place_id": "place_3a8d4884ee0b462c",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+      "published_at": "2026-03-11",
+      "fetched_at": "2026-09-21T16:16:17.218396+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "石卡雪山",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-03-11",
+      "captured_at": "2026-09-21T16:16:17.218396+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-03-11",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_151564a39a73447e",
+      "place_id": "place_b4b96ab1068b455a",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+      "published_at": "2026-03-11",
+      "fetched_at": "2026-09-21T16:16:17.206859+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "纳帕海",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-03-11",
+      "captured_at": "2026-09-21T16:16:17.206859+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-03-11",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_c9135a735d1f4cda",
+      "place_id": "place_46ca7a46e48847d7",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+      "published_at": "2026-03-11",
+      "fetched_at": "2026-09-21T16:16:17.195856+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "普达措国家公园",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-03-11",
+      "captured_at": "2026-09-21T16:16:17.195856+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-03-11",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_1df69911d99d41e8",
+      "place_id": "place_012120a31fae458f",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+      "published_at": "2026-03-11",
+      "fetched_at": "2026-09-21T16:16:17.185010+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "独克宗古城",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-03-11",
+      "captured_at": "2026-09-21T16:16:17.185010+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-03-11",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_e87d4ec43f154e4f",
+      "place_id": "place_51fcfee3aee341c8",
+      "title": "旅游资源",
+      "excerpt": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千湖三碧海等近300个清幽、宁静、神秘的高山湖泊点缀其间；中国最大的冷泉华奇观白水台以及夏给温泉、天生桥彩泉构成一幅幅名泉溪流图；5～9月，雪山草原，莽莽林海，200多种山花竞相开放，到处都是花的海洋，绿的世界，山美水美，胜景叠出。 香格里拉境内从旧石器时代以来就有人类活动，新石器时期即有人类定居；由于地处甘、青、川、藏、滇民族走廊的交汇部，各种民族在这里南来北往，东进西出，使这里的民族结构十分复杂；25个民族中，至今已在这里居住了百年以上，世居民族有藏族、纳西族、彝族、傈僳族、白族、回族、苗族、普米族。世居的9种民族，能操7种语言、会写5种文字；各民族都保持了既相对独立又和谐发展的传统习俗。有琳琅满目的民族服饰、民族歌舞、各具特色的民居；有多种民族特色饮食、民俗风情、婚俗礼仪、传统节日。",
+      "published_at": "2025-06-25",
+      "fetched_at": "2026-09-21T16:16:17.143933+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "publisher": "香格里拉市人民政府",
+      "place_name": "虎跳峡",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-06-25",
+      "captured_at": "2026-09-21T16:16:17.143933+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-06-25",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_b7f13bb5d28a4d43",
+      "place_id": "place_f76fc4c6a8c14bdc",
+      "title": "旅游资源",
+      "excerpt": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千湖三碧海等近300个清幽、宁静、神秘的高山湖泊点缀其间；中国最大的冷泉华奇观白水台以及夏给温泉、天生桥彩泉构成一幅幅名泉溪流图；5～9月，雪山草原，莽莽林海，200多种山花竞相开放，到处都是花的海洋，绿的世界，山美水美，胜景叠出。 香格里拉境内从旧石器时代以来就有人类活动，新石器时期即有人类定居；由于地处甘、青、川、藏、滇民族走廊的交汇部，各种民族在这里南来北往，东进西出，使这里的民族结构十分复杂；25个民族中，至今已在这里居住了百年以上，世居民族有藏族、纳西族、彝族、傈僳族、白族、回族、苗族、普米族。世居的9种民族，能操7种语言、会写5种文字；各民族都保持了既相对独立又和谐发展的传统习俗。有琳琅满目的民族服饰、民族歌舞、各具特色的民居；有多种民族特色饮食、民俗风情、婚俗礼仪、传统节日。",
+      "published_at": "2025-06-25",
+      "fetched_at": "2026-09-21T16:16:17.133142+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "publisher": "香格里拉市人民政府",
+      "place_name": "白水台",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-06-25",
+      "captured_at": "2026-09-21T16:16:17.133142+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-06-25",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_fc40bc940de94632",
+      "place_id": "place_b4b96ab1068b455a",
+      "title": "旅游资源",
+      "excerpt": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千湖三碧海等近300个清幽、宁静、神秘的高山湖泊点缀其间；中国最大的冷泉华奇观白水台以及夏给温泉、天生桥彩泉构成一幅幅名泉溪流图；5～9月，雪山草原，莽莽林海，200多种山花竞相开放，到处都是花的海洋，绿的世界，山美水美，胜景叠出。 香格里拉境内从旧石器时代以来就有人类活动，新石器时期即有人类定居；由于地处甘、青、川、藏、滇民族走廊的交汇部，各种民族在这里南来北往，东进西出，使这里的民族结构十分复杂；25个民族中，至今已在这里居住了百年以上，世居民族有藏族、纳西族、彝族、傈僳族、白族、回族、苗族、普米族。世居的9种民族，能操7种语言、会写5种文字；各民族都保持了既相对独立又和谐发展的传统习俗。有琳琅满目的民族服饰、民族歌舞、各具特色的民居；有多种民族特色饮食、民俗风情、婚俗礼仪、传统节日。",
+      "published_at": "2025-06-25",
+      "fetched_at": "2026-09-21T16:16:17.121974+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "publisher": "香格里拉市人民政府",
+      "place_name": "纳帕海",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-06-25",
+      "captured_at": "2026-09-21T16:16:17.121974+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-06-25",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_a382f616112e4691",
+      "place_id": "place_46ca7a46e48847d7",
+      "title": "旅游资源",
+      "excerpt": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千湖三碧海等近300个清幽、宁静、神秘的高山湖泊点缀其间；中国最大的冷泉华奇观白水台以及夏给温泉、天生桥彩泉构成一幅幅名泉溪流图；5～9月，雪山草原，莽莽林海，200多种山花竞相开放，到处都是花的海洋，绿的世界，山美水美，胜景叠出。 香格里拉境内从旧石器时代以来就有人类活动，新石器时期即有人类定居；由于地处甘、青、川、藏、滇民族走廊的交汇部，各种民族在这里南来北往，东进西出，使这里的民族结构十分复杂；25个民族中，至今已在这里居住了百年以上，世居民族有藏族、纳西族、彝族、傈僳族、白族、回族、苗族、普米族。世居的9种民族，能操7种语言、会写5种文字；各民族都保持了既相对独立又和谐发展的传统习俗。有琳琅满目的民族服饰、民族歌舞、各具特色的民居；有多种民族特色饮食、民俗风情、婚俗礼仪、传统节日。",
+      "published_at": "2025-06-25",
+      "fetched_at": "2026-09-21T16:16:17.111076+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "publisher": "香格里拉市人民政府",
+      "place_name": "普达措国家公园",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-06-25",
+      "captured_at": "2026-09-21T16:16:17.111076+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-06-25",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_3d37f5e2adf84cd6",
+      "place_id": "place_51fcfee3aee341c8",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "published_at": "2024-08-30",
+      "fetched_at": "2026-09-21T15:57:38.281271+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "publisher": "迪庆州人民政府（香格里拉网）",
+      "place_name": "虎跳峡",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2024-08-30",
+      "captured_at": "2026-09-21T15:57:38.281271+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2024-08-30",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_81c30aae7d764607",
+      "place_id": "place_f76fc4c6a8c14bdc",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "published_at": "2024-08-30",
+      "fetched_at": "2026-09-21T15:57:38.270646+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "publisher": "迪庆州人民政府（香格里拉网）",
+      "place_name": "白水台",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2024-08-30",
+      "captured_at": "2026-09-21T15:57:38.270646+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2024-08-30",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_4bfb6a8fab9843c9",
+      "place_id": "place_b4b96ab1068b455a",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "published_at": "2024-08-30",
+      "fetched_at": "2026-09-21T15:57:38.260475+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "publisher": "迪庆州人民政府（香格里拉网）",
+      "place_name": "纳帕海",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2024-08-30",
+      "captured_at": "2026-09-21T15:57:38.260475+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2024-08-30",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_b0b472cd1dea45cb",
+      "place_id": "place_46ca7a46e48847d7",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "published_at": "2024-08-30",
+      "fetched_at": "2026-09-21T15:57:38.249871+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "publisher": "迪庆州人民政府（香格里拉网）",
+      "place_name": "普达措国家公园",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2024-08-30",
+      "captured_at": "2026-09-21T15:57:38.249871+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2024-08-30",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_66dfb1af8f0d48db",
+      "place_id": "place_4cba65cce48d4dee",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "published_at": "2024-08-30",
+      "fetched_at": "2026-09-21T15:57:38.239593+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "publisher": "迪庆州人民政府（香格里拉网）",
+      "place_name": "松赞林寺",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2024-08-30",
+      "captured_at": "2026-09-21T15:57:38.239593+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2024-08-30",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_eca046c97dde4112",
+      "place_id": "place_012120a31fae458f",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "published_at": "2024-08-30",
+      "fetched_at": "2026-09-21T15:57:38.226436+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "publisher": "迪庆州人民政府（香格里拉网）",
+      "place_name": "独克宗古城",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2024-08-30",
+      "captured_at": "2026-09-21T15:57:38.226436+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2024-08-30",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_00976a9b428147c0",
+      "place_id": "place_51fcfee3aee341c8",
+      "title": "旅游资源",
+      "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+      "published_at": "2026-07-27",
+      "fetched_at": "2026-09-21T15:57:38.180707+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "虎跳峡",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-07-27",
+      "captured_at": "2026-09-21T15:57:38.180707+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-07-27",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_b5f7fccb7307423d",
+      "place_id": "place_ccea42fb9fb54eaf",
+      "title": "旅游资源",
+      "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+      "published_at": "2026-07-27",
+      "fetched_at": "2026-09-21T15:57:38.161446+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "尼汝",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-07-27",
+      "captured_at": "2026-09-21T15:57:38.161446+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-07-27",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_0f14ce5d1e93439c",
+      "place_id": "place_17541dbf9a514d77",
+      "title": "旅游资源",
+      "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+      "published_at": "2026-07-27",
+      "fetched_at": "2026-09-21T15:57:38.150013+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "巴拉格宗",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-07-27",
+      "captured_at": "2026-09-21T15:57:38.150013+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-07-27",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_03e6519cb69d4db3",
+      "place_id": "place_f76fc4c6a8c14bdc",
+      "title": "旅游资源",
+      "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+      "published_at": "2026-07-27",
+      "fetched_at": "2026-09-21T15:57:38.139289+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "白水台",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-07-27",
+      "captured_at": "2026-09-21T15:57:38.139289+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-07-27",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_6d1443ba80f342b3",
+      "place_id": "place_b4b96ab1068b455a",
+      "title": "旅游资源",
+      "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+      "published_at": "2026-07-27",
+      "fetched_at": "2026-09-21T15:57:38.128366+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "纳帕海",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-07-27",
+      "captured_at": "2026-09-21T15:57:38.128366+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-07-27",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_772214fd6f6d4e3d",
+      "place_id": "place_46ca7a46e48847d7",
+      "title": "旅游资源",
+      "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+      "published_at": "2026-07-27",
+      "fetched_at": "2026-09-21T15:57:38.117433+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "普达措国家公园",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-07-27",
+      "captured_at": "2026-09-21T15:57:38.117433+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-07-27",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_62fb4ba6bfd8454b",
+      "place_id": "place_4cba65cce48d4dee",
+      "title": "旅游资源",
+      "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+      "published_at": "2026-07-27",
+      "fetched_at": "2026-09-21T15:57:38.106379+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "publisher": "迪庆州人民政府",
+      "place_name": "松赞林寺",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2026-07-27",
+      "captured_at": "2026-09-21T15:57:38.106379+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2026-07-27",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    }
+  ],
+  "baselines": [
+    {
+      "place_id": "place_012120a31fae458f",
+      "place_name": "独克宗古城",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_4cba65cce48d4dee",
+      "place_name": "松赞林寺",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_b4b96ab1068b455a",
+      "place_name": "纳帕海",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_46ca7a46e48847d7",
+      "place_name": "普达措国家公园",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_f76fc4c6a8c14bdc",
+      "place_name": "白水台",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_17541dbf9a514d77",
+      "place_name": "巴拉格宗",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_ccea42fb9fb54eaf",
+      "place_name": "尼汝",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_51fcfee3aee341c8",
+      "place_name": "虎跳峡",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_3a8d4884ee0b462c",
+      "place_name": "石卡雪山",
+      "month": 3,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    }
+  ],
+  "changes": [
+    {
+      "id": "49f6e1db8080a46dcac98033aa8366d2c4607fa26566dd214bbd228ca261b63f",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "created_at": "2026-09-21T16:16:17.240713+00:00",
+      "before_value": null,
+      "after_value": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "1813db59eaf0f44a892fa1947cef19dd750c15a2202172db0bad3a93677fec58",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "created_at": "2026-09-21T16:16:17.228996+00:00",
+      "before_value": null,
+      "after_value": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3bd3935a42a4e5bdd5c61f8fed0270c6b6f63ba5c8439fdc11f28e27ac0b9f21",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "created_at": "2026-09-21T16:16:17.217629+00:00",
+      "before_value": null,
+      "after_value": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "3115e6087f050cc296051a2827669bcf48908d6398a82ee2d4bed588e10f6f23",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "created_at": "2026-09-21T16:16:17.206241+00:00",
+      "before_value": null,
+      "after_value": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "ee388c20867c9ecd45bf6ecb89de2d5bdce400656f2acd87b15ba79841308f35",
+      "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+      "created_at": "2026-09-21T16:16:17.195301+00:00",
+      "before_value": null,
+      "after_value": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "b52546358a27f6aecde766ef58e840ae0c245a3eafb83ff5e517ca733c3afe19",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T16:16:17.154278+00:00",
+      "before_value": null,
+      "after_value": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "1e30fb2dd97498f1b04e94fbe27950b367a0624998b3c3545e2d8c7023f69757",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T16:16:17.143452+00:00",
+      "before_value": null,
+      "after_value": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "4aab214d0e30d2ce3e8d8088af4c1a465d6285e1f6d09aa2ba4dc59fb7635eb5",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T16:16:17.132788+00:00",
+      "before_value": null,
+      "after_value": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "8a27df52ecd41e56976b2dfc135e4c98472b0ff55dedf98b0ea328edca6351c9",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T16:16:17.121334+00:00",
+      "before_value": null,
+      "after_value": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千",
+      "reason": "首次自动采集",
+      "source_url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "cca5ba5a8d94620833c0325eca60100477d6e6b1f24ccd2d6fde4773c10fe3c8",
+      "title": "独克宗古城，美妙的香格里拉。 ​​​",
+      "created_at": "2026-09-21T16:09:06.351559+00:00",
+      "before_value": "来源正文版本已保留在本地工作台。",
+      "after_value": "来源正文版本已保留在本地工作台。",
+      "reason": "来源内容更新",
+      "source_url": "https://weibo.com/3965666367/RhXeEb3NH",
+      "parent_id": "a43ee3168bb0f0e9e0bae5c057fe4f0ac6d05d4d5409565329c95de190adabe7",
+      "kind": "source_revision"
+    },
+    {
+      "id": "e333aae83551ce69b35a16f2c46ef475dcdf9a74a3bad50de85e8c40d8646019",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "created_at": "2026-09-21T15:57:38.291258+00:00",
+      "before_value": null,
+      "after_value": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "0fc7a38ded1e5faa92ebd9faf3025b2772e51cc029ceb340ae7e3a8c691089f5",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "created_at": "2026-09-21T15:57:38.281176+00:00",
+      "before_value": null,
+      "after_value": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "4ee32c9cdfe8e91e84a3fe399e65dfa6e8603de20d3e680998ca036b2658f159",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "created_at": "2026-09-21T15:57:38.270547+00:00",
+      "before_value": null,
+      "after_value": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "d72777fb480ff887fd73c99441c3cedc91a712ab28f4bb1fc6ed088b5fc6c5c5",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "created_at": "2026-09-21T15:57:38.260369+00:00",
+      "before_value": null,
+      "after_value": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "9a6e976a2baaf3c6a0e49a10a196b0be3cd90d3d1cb28d3298daf57c2b003d39",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "created_at": "2026-09-21T15:57:38.249771+00:00",
+      "before_value": null,
+      "after_value": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "99c35fa362d2fda4506a9366ad4b5a7daaeca5cc7e414133165844c507c590f3",
+      "title": "香格里拉景区直通车现已开通多景区线路",
+      "created_at": "2026-09-21T15:57:38.239497+00:00",
+      "before_value": null,
+      "after_value": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "0d4a70e4ff805e24b4b3ae06384119c1e72d7e4f8ed01495c2757bbb19a7f6d4",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.196832+00:00",
+      "before_value": null,
+      "after_value": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "0453230a67200b15e1316ce31c1e1b5ddea3ae63038a52df893dc95c9e200ce6",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.180167+00:00",
+      "before_value": null,
+      "after_value": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "f7e8552682f2e155c2270876171b31bdaa9de802e0d3cbc419dbf6cd223e46a2",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.160778+00:00",
+      "before_value": null,
+      "after_value": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "68ca1726a29cbae6560093485ac478da097b9c84677e2a47f1dc1983475164f2",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.149520+00:00",
+      "before_value": null,
+      "after_value": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "2eaa2a275d2fb9c63e924451a5a84d7826a69644ebb00353e3d286565871f53d",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.138929+00:00",
+      "before_value": null,
+      "after_value": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "c23b59224c292f8cfd501d38d3ae196e55f1bcc1cf2017021cfb47d4005fae4f",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.127693+00:00",
+      "before_value": null,
+      "after_value": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "ff32035c853cd2a915b4bed9d422ee8792cb115ca574e18d1a12e058a3facf70",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.116923+00:00",
+      "before_value": null,
+      "after_value": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的",
+      "reason": "首次自动采集",
+      "source_url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+      "parent_id": null,
+      "kind": "discovery"
+    }
+  ],
+  "landscape_updates": [],
+  "visual_cohorts": [],
+  "practical": {
+    "facts": [
+      {
+        "id": "shangrila-regional-food",
+        "category": "food",
+        "title": "迪庆地方饮食：酥油茶、糌粑与牦牛肉",
+        "text": "迪庆州政府的特色饮食介绍列有酥油茶、奶渣、糌粑、荞粑粑、牦牛肉和琵琶肉；其中琵琶肉采用当地藏族传统腌肉工艺。可作为了解地方风味的菜食品类参考。",
+        "source": {
+          "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+          "title": "旅游资源",
+          "publisher": "迪庆藏族自治州人民政府办公室",
+          "published_at": "2026-07-27",
+          "checked_at": "2026-09-22",
+          "excerpt": "迪庆特色风味饮食有酥油茶、奶渣、糌粑、荞粑粑、水汽粑粑、苦荞酒、青稞酒、牦牛肉、琵琶肉等",
+          "source_sha256": "9a3e12b622f575e7c10d60a1abc283ce693c4ca10eadae9b8a6e6a7f67bc1ee6"
+        }
+      },
+      {
+        "id": "shangrila-direct-bus-history",
+        "category": "transport",
+        "title": "独克宗出发的景区直通车：2024年接驳记录",
+        "text": "2024年8月报道记录了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区和纳帕海的景区直通车线路，并列出“香格里拉景区直通车”微信公众号作为预订入口。",
+        "source": {
+          "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+          "title": "香格里拉景区直通车现已开通多景区线路",
+          "publisher": "香格里拉网（迪庆州政府转载）",
+          "published_at": "2024-08-30",
+          "checked_at": "2026-09-22",
+          "excerpt": "香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。",
+          "source_sha256": "f3af92693a52a91cc0ef12e9c02483df3c8fd904749a13507e1077e7cddbd449"
+        },
+        "time_note": "这是2024年的接驳背景；当前开行线路、时刻及票务需在该运营入口核对。",
+        "place_names": [
+          "独克宗古城",
+          "普达措国家公园",
+          "虎跳峡",
+          "白水台",
+          "松赞林寺",
+          "纳帕海"
+        ]
+      }
+    ],
+    "origin_label": null,
+    "classified_sources": [
+      {
+        "id": "ev_4ba797f9d8ac468b",
+        "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+        "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+        "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "尼汝",
+        "published_at": "2026-03-11",
+        "categories": [
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.93,
+            "stay": 0.77,
+            "transport": 0.43,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0.02,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.77,
+              "probabilities": {
+                "absent": 0.85,
+                "relevant": 0.04,
+                "unclear": 0.11
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.43,
+              "probabilities": {
+                "absent": 0.24,
+                "relevant": 0.62,
+                "unclear": 0.14
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:28.461987+00:00"
+        }
+      },
+      {
+        "id": "ev_b0b472cd1dea45cb",
+        "title": "香格里拉景区直通车现已开通多景区线路",
+        "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+        "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+        "publisher": "迪庆州人民政府（香格里拉网）",
+        "source_type": "official",
+        "place_name": "普达措国家公园",
+        "published_at": "2024-08-30",
+        "categories": [
+          "transport",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.93,
+            "transport": 0.61,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.89
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.89,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.93,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0.03,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.61,
+              "probabilities": {
+                "absent": 0.11,
+                "relevant": 0.74,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:21.151417+00:00"
+        }
+      },
+      {
+        "id": "ev_5b2e4f4085c1404f",
+        "title": "秋日独克宗，在月光城邂逅一场高原的温柔｜ 当秋风掠过滇西北的群山，香格里拉便换上了秋日限定的鎏金盛装。而独克宗古城，这座藏语里叫“月光城”的地方",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/1897261013/RiAOA2ezu",
+        "publisher": "帽帽moer",
+        "source_type": "weibo",
+        "place_name": "松赞林寺",
+        "published_at": "2026-09-18",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.95,
+            "food": 0.45,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.01,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.45,
+              "probabilities": {
+                "absent": 0.17,
+                "relevant": 0.63,
+                "unclear": 0.2
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:55:49.119329+00:00"
+        }
+      },
+      {
+        "id": "ev_66dfb1af8f0d48db",
+        "title": "香格里拉景区直通车现已开通多景区线路",
+        "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+        "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+        "publisher": "迪庆州人民政府（香格里拉网）",
+        "source_type": "official",
+        "place_name": "松赞林寺",
+        "published_at": "2024-08-30",
+        "categories": [
+          "transport",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.93,
+            "transport": 0.57,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.87
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.87,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.91,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0.03,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.57,
+              "probabilities": {
+                "absent": 0.13,
+                "relevant": 0.71,
+                "unclear": 0.16
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:20.235303+00:00"
+        }
+      },
+      {
+        "id": "ev_d66a2667ea55433b",
+        "title": "秋日独克宗，在月光城邂逅一场高原的温柔｜ 当秋风掠过滇西北的群山，香格里拉便换上了秋日限定的鎏金盛装。而独克宗古城，这座藏语里叫“月光城”的地方",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/1897261013/RiAOA2ezu",
+        "publisher": "帽帽moer",
+        "source_type": "weibo",
+        "place_name": "独克宗古城",
+        "published_at": "2026-09-18",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.96,
+            "food": 0.49,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.49,
+              "probabilities": {
+                "absent": 0.17,
+                "relevant": 0.66,
+                "unclear": 0.17
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:55:47.351493+00:00"
+        }
+      },
+      {
+        "id": "ev_1df69911d99d41e8",
+        "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+        "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+        "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "独克宗古城",
+        "published_at": "2026-03-11",
+        "categories": [
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.89,
+            "stay": 0.73,
+            "transport": 0.47,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.89,
+              "probabilities": {
+                "absent": 0.93,
+                "relevant": 0.04,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.73,
+              "probabilities": {
+                "absent": 0.82,
+                "relevant": 0.06,
+                "unclear": 0.12
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.47,
+              "probabilities": {
+                "absent": 0.21,
+                "relevant": 0.65,
+                "unclear": 0.14
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:23.911572+00:00"
+        }
+      },
+      {
+        "id": "ev_eca046c97dde4112",
+        "title": "香格里拉景区直通车现已开通多景区线路",
+        "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+        "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+        "publisher": "迪庆州人民政府（香格里拉网）",
+        "source_type": "official",
+        "place_name": "独克宗古城",
+        "published_at": "2024-08-30",
+        "categories": [
+          "transport",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.95,
+            "transport": 0.6,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.86
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.86,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.91,
+                "unclear": 0.07
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.6,
+              "probabilities": {
+                "absent": 0.12,
+                "relevant": 0.73,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:19.380302+00:00"
+        }
+      },
+      {
+        "id": "ev_81c30aae7d764607",
+        "title": "香格里拉景区直通车现已开通多景区线路",
+        "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+        "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+        "publisher": "迪庆州人民政府（香格里拉网）",
+        "source_type": "official",
+        "place_name": "白水台",
+        "published_at": "2024-08-30",
+        "categories": [
+          "transport",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.93,
+            "transport": 0.64,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.88
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.88,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.92,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0.03,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.64,
+              "probabilities": {
+                "absent": 0.1,
+                "relevant": 0.76,
+                "unclear": 0.14
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:22.905202+00:00"
+        }
+      },
+      {
+        "id": "ev_facc90987be548c2",
+        "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+        "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+        "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "石卡雪山",
+        "published_at": "2026-03-11",
+        "categories": [
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.97,
+            "food": 0.9,
+            "stay": 0.73,
+            "transport": 0.46,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.9,
+              "probabilities": {
+                "absent": 0.9299999999999999,
+                "relevant": 0.03,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.73,
+              "probabilities": {
+                "absent": 0.82,
+                "relevant": 0.05,
+                "unclear": 0.13
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.46,
+              "probabilities": {
+                "absent": 0.23,
+                "relevant": 0.64,
+                "unclear": 0.13
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:27.353953+00:00"
+        }
+      },
+      {
+        "id": "ev_151564a39a73447e",
+        "title": "迪庆州州长张卫东：香格里拉国家公园建设正在推进",
+        "excerpt": "香格里拉闻名海内外，迪庆州的自然风貌、民族风情吸引着中外游客。在今年全国两会上，全国人大代表、云南省迪庆藏族自治州州长张卫东在接受新京报记者专访时表示，正在推进建设香格里拉国家公园，建成后将对促进世界珍稀濒危物种基因保护、保持生态系统稳定起到重要作用。 全国人大代表、云南省迪庆藏族自治州州长张卫东。受访者供图 建好国家公园 促进世界珍稀濒危物种基因保护 新京报：迪庆州深受中外游客欢迎，如何打好文旅产业这张牌？ 张卫东：近年来，迪庆州紧扣世界的“香格里拉”核心品牌，践行“有一种叫云南的生活”品牌理念，持续推动文旅产业高质量发展，实现游客接待量和旅游总花费双双领跑全省。 我们连续举办三届世界的“香格里拉”文化旅游节，常态化开展赛马节、弦子节等民俗节庆，打造“今生情定G214”文旅品牌。推动17个A级以上景区提质升级，盘活石卡雪山等资源，打造全域观光文旅项目。培育非遗体验工坊，开发唐卡、黑陶等文创产品，推出松茸、牦牛肉等高原伴手礼，发展研学、徒步、民宿旅居等新业态，推动从单一观光向复合型旅游转型。 持续开展旅游服务创优提质行动和旅游乱象综合治理，2025年查办涉旅案件56件，同比增长180%，旅游投诉量同比下降42%，游客退货满意率达99.57%。加快完善旅游基础设施，推进香格里拉机场改扩建、新香维高速等骨干路网建设，同时启动迪庆数智旅游平台建设，打破部门数据壁垒建立统一旅游数据资源库，依托“一部手机游云南”平台实现游客投诉高效处置。 新京报：目前，迪庆州创建香格里拉国家公园进展如何？将给当地居民和游客哪些变化？ 张卫东：2022年以来，香格里拉国家公园创建取得阶段性成效，目前，《香格里拉国家公园设立方案》已通过省政府常务会议，正式行文上报国务院。多项工作正在稳步推进。 规划方面，拟建设的香格里拉国家公园有1477.13平方公里，已实施香格里拉普达措国家公园总体规划（2019-2025年）。在生态系统保护和修复方面，通过整体保护与重点保护相结合，使国家公园内重要的生态系统保持其完整性和原真性，系统内的物质循环、能量流动、信息传递将保持相对稳定的平衡状态，物种多样性、遗传多样性和生态多样性将得到有效保护。生态体验和社区发展的加强，增进了普达措国家公园和地方的关系，地区经济的发展也将更好地为国家公园建设和维护提供良好环境，使普达措国家公园的生态建设步入良性循环的发展轨道。 创建国家公园，对于当地居民是一条通过生态补偿、产业引导和优先就业实现的生活富裕之路；对于游客来说，则是一扇通过科普教育、生态体验和志愿服务打开的人与自然和谐之门。同时，建设好国家公园，对促进世界珍稀濒危物种基因保护、保持生态系统稳定、保护公园自身丰富的动植物资源、开展该区域功能价值研究、维护云南生态安全和社会经济可持续发展有着重大意义。 实施“三江并流”核心区 生物多样性保护计划 新京报：保护好迪庆",
+        "url": "https://www.diqing.gov.cn/xwzx/dqyw/202603/20260311_238904.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "纳帕海",
+        "published_at": "2026-03-11",
+        "categories": [
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.97,
+            "food": 0.88,
+            "stay": 0.7,
+            "transport": 0.48,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.88,
+              "probabilities": {
+                "absent": 0.92,
+                "relevant": 0.03,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.7,
+              "probabilities": {
+                "absent": 0.8,
+                "relevant": 0.06,
+                "unclear": 0.14
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.48,
+              "probabilities": {
+                "absent": 0.21,
+                "relevant": 0.65,
+                "unclear": 0.14
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:26.200833+00:00"
+        }
+      },
+      {
+        "id": "ev_4bfb6a8fab9843c9",
+        "title": "香格里拉景区直通车现已开通多景区线路",
+        "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+        "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+        "publisher": "迪庆州人民政府（香格里拉网）",
+        "source_type": "official",
+        "place_name": "纳帕海",
+        "published_at": "2024-08-30",
+        "categories": [
+          "transport",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.96,
+            "transport": 0.67,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.87
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.87,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.91,
+                "unclear": 0.07
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.67,
+              "probabilities": {
+                "absent": 0.09,
+                "relevant": 0.78,
+                "unclear": 0.13
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:22.032783+00:00"
+        }
+      },
+      {
+        "id": "ev_3d37f5e2adf84cd6",
+        "title": "香格里拉景区直通车现已开通多景区线路",
+        "excerpt": "香格里拉景区直通车以全新的面貌、更优质完善的服务、更便捷的预订体验迎接每一位游客的到来，您可以通过香格里拉景区直通车微信公众号预订，自由选择线路及出行时间。 香格里拉景区直通车现已开通了独克宗古城往返普达措国家公园、虎跳峡、白水台、松赞林景区、纳帕海、梅里雪山飞来寺的线路。 坐上香格里拉景区直通车，尽情欣赏云端上的风景，享受净土上的风情，一站直达这里的神韵！",
+        "url": "https://www.diqing.gov.cn/xwzx/xsqkx/202408/20240830_215419.html",
+        "publisher": "迪庆州人民政府（香格里拉网）",
+        "source_type": "official",
+        "place_name": "虎跳峡",
+        "published_at": "2024-08-30",
+        "categories": [
+          "transport",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.91,
+            "transport": 0.58,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 0.87
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.87,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.92,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.91,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.04,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.58,
+              "probabilities": {
+                "absent": 0.11,
+                "relevant": 0.72,
+                "unclear": 0.17
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:23.829351+00:00"
+        }
+      },
+      {
+        "id": "ev_b5f7fccb7307423d",
+        "title": "旅游资源",
+        "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+        "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "尼汝",
+        "published_at": "2026-07-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:17.659425+00:00"
+        }
+      },
+      {
+        "id": "ev_0f14ce5d1e93439c",
+        "title": "旅游资源",
+        "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+        "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "巴拉格宗",
+        "published_at": "2026-07-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:16.748715+00:00"
+        }
+      },
+      {
+        "id": "ev_772214fd6f6d4e3d",
+        "title": "旅游资源",
+        "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+        "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "普达措国家公园",
+        "published_at": "2026-07-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:14.176995+00:00"
+        }
+      },
+      {
+        "id": "ev_a382f616112e4691",
+        "title": "旅游资源",
+        "excerpt": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千湖三碧海等近300个清幽、宁静、神秘的高山湖泊点缀其间；中国最大的冷泉华奇观白水台以及夏给温泉、天生桥彩泉构成一幅幅名泉溪流图；5～9月，雪山草原，莽莽林海，200多种山花竞相开放，到处都是花的海洋，绿的世界，山美水美，胜景叠出。 香格里拉境内从旧石器时代以来就有人类活动，新石器时期即有人类定居；由于地处甘、青、川、藏、滇民族走廊的交汇部，各种民族在这里南来北往，东进西出，使这里的民族结构十分复杂；25个民族中，至今已在这里居住了百年以上，世居民族有藏族、纳西族、彝族、傈僳族、白族、回族、苗族、普米族。世居的9种民族，能操7种语言、会写5种文字；各民族都保持了既相对独立又和谐发展的传统习俗。有琳琅满目的民族服饰、民族歌舞、各具特色的民居；有多种民族特色饮食、民俗风情、婚俗礼仪、传统节日。",
+        "url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+        "publisher": "香格里拉市人民政府",
+        "source_type": "official",
+        "place_name": "普达措国家公园",
+        "published_at": "2025-06-25",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.97,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:20.006920+00:00"
+        }
+      },
+      {
+        "id": "ev_164745870f454581",
+        "title": "#微博旅行ING##盛夏追光之旅# 在云南香格里拉的松赞林寺这片神秘的土地上，我收获了太多的美好与感动。刚踏入寺院广场，一位头戴红帽的觉姆便向我",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/1303379825/R2scy2K5N",
+        "publisher": "Anry-Young",
+        "source_type": "weibo",
+        "place_name": "松赞林寺",
+        "published_at": "2026-06-03",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.97,
+            "food": 0.64,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.64,
+              "probabilities": {
+                "absent": 0.75,
+                "relevant": 0.12,
+                "unclear": 0.13
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:55:54.389743+00:00"
+        }
+      },
+      {
+        "id": "ev_62fb4ba6bfd8454b",
+        "title": "旅游资源",
+        "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+        "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "松赞林寺",
+        "published_at": "2026-07-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:13.315885+00:00"
+        }
+      },
+      {
+        "id": "ev_6769dcc672324ccf",
+        "title": "香格里拉真的是一个缺氧但是不缺信阳的地方 松赞林寺值得一去 via——vivoX300svivo超话 ​​​",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2352428635/Rg5sur6Q3",
+        "publisher": "顾拜蛋蛋",
+        "source_type": "weibo",
+        "place_name": "松赞林寺",
+        "published_at": "2026-09-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.96,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:55:52.565632+00:00"
+        }
+      },
+      {
+        "id": "ev_612e1f82936d429c",
+        "title": "独克宗古城，美妙的香格里拉。 ​​​",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/3965666367/RhXeEb3NH",
+        "publisher": "花蓬同源",
+        "source_type": "weibo",
+        "place_name": "独克宗古城",
+        "published_at": "2026-09-13",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:09:07.257810+00:00"
+        }
+      },
+      {
+        "id": "ev_03e6519cb69d4db3",
+        "title": "旅游资源",
+        "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+        "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "白水台",
+        "published_at": "2026-07-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:15.897637+00:00"
+        }
+      },
+      {
+        "id": "ev_b7f13bb5d28a4d43",
+        "title": "旅游资源",
+        "excerpt": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千湖三碧海等近300个清幽、宁静、神秘的高山湖泊点缀其间；中国最大的冷泉华奇观白水台以及夏给温泉、天生桥彩泉构成一幅幅名泉溪流图；5～9月，雪山草原，莽莽林海，200多种山花竞相开放，到处都是花的海洋，绿的世界，山美水美，胜景叠出。 香格里拉境内从旧石器时代以来就有人类活动，新石器时期即有人类定居；由于地处甘、青、川、藏、滇民族走廊的交汇部，各种民族在这里南来北往，东进西出，使这里的民族结构十分复杂；25个民族中，至今已在这里居住了百年以上，世居民族有藏族、纳西族、彝族、傈僳族、白族、回族、苗族、普米族。世居的9种民族，能操7种语言、会写5种文字；各民族都保持了既相对独立又和谐发展的传统习俗。有琳琅满目的民族服饰、民族歌舞、各具特色的民居；有多种民族特色饮食、民俗风情、婚俗礼仪、传统节日。",
+        "url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+        "publisher": "香格里拉市人民政府",
+        "source_type": "official",
+        "place_name": "白水台",
+        "published_at": "2025-06-25",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.97,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:21.831003+00:00"
+        }
+      },
+      {
+        "id": "ev_8c3535e5210948c2",
+        "title": "【#闯入纳帕海油画般的夏天#】近日，云南迪庆纳帕海，油菜花在高原湿地边随风摇曳，金黄色花田与湛蓝湖水、辽阔草甸相映成画↓↓#被夏日限定纳帕海治愈",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2803301701/RbEPZeCWF",
+        "publisher": "人民日报",
+        "source_type": "weibo",
+        "place_name": "纳帕海",
+        "published_at": "2026-08-03",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:55:56.218999+00:00"
+        }
+      },
+      {
+        "id": "ev_6d1443ba80f342b3",
+        "title": "旅游资源",
+        "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+        "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "纳帕海",
+        "published_at": "2026-07-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:15.040748+00:00"
+        }
+      },
+      {
+        "id": "ev_fc40bc940de94632",
+        "title": "旅游资源",
+        "excerpt": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千湖三碧海等近300个清幽、宁静、神秘的高山湖泊点缀其间；中国最大的冷泉华奇观白水台以及夏给温泉、天生桥彩泉构成一幅幅名泉溪流图；5～9月，雪山草原，莽莽林海，200多种山花竞相开放，到处都是花的海洋，绿的世界，山美水美，胜景叠出。 香格里拉境内从旧石器时代以来就有人类活动，新石器时期即有人类定居；由于地处甘、青、川、藏、滇民族走廊的交汇部，各种民族在这里南来北往，东进西出，使这里的民族结构十分复杂；25个民族中，至今已在这里居住了百年以上，世居民族有藏族、纳西族、彝族、傈僳族、白族、回族、苗族、普米族。世居的9种民族，能操7种语言、会写5种文字；各民族都保持了既相对独立又和谐发展的传统习俗。有琳琅满目的民族服饰、民族歌舞、各具特色的民居；有多种民族特色饮食、民俗风情、婚俗礼仪、传统节日。",
+        "url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+        "publisher": "香格里拉市人民政府",
+        "source_type": "official",
+        "place_name": "纳帕海",
+        "published_at": "2025-06-25",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.97,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:20.864956+00:00"
+        }
+      },
+      {
+        "id": "ev_adb67f703a0f4430",
+        "title": "走进纳帕海，用一袭民族服饰打开夏末初秋的静谧时光。 如果你来到香格里拉，一定不要错过纳帕海。这里一半碧水，一半草甸，远处的雪山，近处的骏马，无论",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2189376695/Rgj76y8Pa",
+        "publisher": "刘运泽的旅行故事",
+        "source_type": "weibo",
+        "place_name": "纳帕海",
+        "published_at": "2026-09-03",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.21,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.21,
+              "probabilities": {
+                "absent": 0.47,
+                "relevant": 0.3,
+                "unclear": 0.23
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:55:57.913316+00:00"
+        }
+      },
+      {
+        "id": "ev_00976a9b428147c0",
+        "title": "旅游资源",
+        "excerpt": "【旅游资源】  迪庆，藏语意为“吉祥如意的地方”，拥有“香格里拉”“三江并流”等世界级旅游品牌，被誉为云南旅游皇冠上的明珠，是大滇西旅游环线的引爆点。独特的地理位置、悬殊的海拔高度、多元敏感的自然环境，复杂多样的气候环境，造就了迪庆丰富的自然生态旅游资源。境内有气势磅礴的雪山冰川，世界自然遗产“三江并流”，风采迷人的湖泊草甸，丰富多样的珍稀动植物资源。独特的自然景观与人文景观交相辉映、相得益彰，有神秘深邃的民族宗教文化、美不胜收的歌舞节庆、风格迥异的民族风俗，叹为观止的民族工艺等等。迪庆融自然与人文、宁静与深邃、优雅与壮阔、古朴与现代等和谐统一、风韵天成的旅游资源，尤其是历经自然和历史的沧桑熔铸而成的多元民族文化沉淀，蕴藏着十分丰富的内涵，对国内外不同层次的旅游者都具有经久不衰的吸引力。境内主要景区景点有作为迪庆旅游“封面”的梅里雪山、险峻奇崛的虎跳峡、东巴文化的发祥地“仙人遗田”白水台、中国纬度最低的现代冰川明永冰川、普达措国家公园、康藏十三林之一的松赞林寺，还有碧壤峡谷、哈巴雪山、萨马阁、千湖山、纳帕海湿地、依拉草原、尼汝林区、茨中天主教堂、达摩祖师洞、长江第一湾、巴拉格宗大峡谷等一大批已开发和待开发的旅游景区景点。多年以来，迪庆州坚持把旅游业作为带动全州经济社会发展的主引擎，以世界的“香格里拉”品牌为核心，以“三江并流”世界自然遗产生态旅游资源为依托，以多元民族文化相互融合为特征的旅游开发框架初步形成，并呈现出健康发展的良好态势。",
+        "url": "https://www.diqing.gov.cn/dqgk/lyzy.html",
+        "publisher": "迪庆州人民政府",
+        "source_type": "official",
+        "place_name": "虎跳峡",
+        "published_at": "2026-07-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:18.553997+00:00"
+        }
+      },
+      {
+        "id": "ev_e87d4ec43f154e4f",
+        "title": "旅游资源",
+        "excerpt": "香格里拉地处举世闻名的“三江并流”风景区腹地，有地质史上最奇特的长江第一湾，江上普陀鸡公石；“一线中分天作堑，两山夹斗石为门”的世界著名峡谷虎跳峡与西北部翁水河流域的香格里拉峡谷群是境内“V”型谷的典型代表；在雪山深处，草原腹地及茫茫林海之中，有由高原明珠碧塔海、属都湖、高原牧场等组成的普达措国家森林公园，是国家5A旅游风景区，还有黑颈鹤的乐园纳帕海，神女千湖三碧海等近300个清幽、宁静、神秘的高山湖泊点缀其间；中国最大的冷泉华奇观白水台以及夏给温泉、天生桥彩泉构成一幅幅名泉溪流图；5～9月，雪山草原，莽莽林海，200多种山花竞相开放，到处都是花的海洋，绿的世界，山美水美，胜景叠出。 香格里拉境内从旧石器时代以来就有人类活动，新石器时期即有人类定居；由于地处甘、青、川、藏、滇民族走廊的交汇部，各种民族在这里南来北往，东进西出，使这里的民族结构十分复杂；25个民族中，至今已在这里居住了百年以上，世居民族有藏族、纳西族、彝族、傈僳族、白族、回族、苗族、普米族。世居的9种民族，能操7种语言、会写5种文字；各民族都保持了既相对独立又和谐发展的传统习俗。有琳琅满目的民族服饰、民族歌舞、各具特色的民居；有多种民族特色饮食、民俗风情、婚俗礼仪、传统节日。",
+        "url": "https://www.xianggelila.gov.cn/dqgk/lyzy.html",
+        "publisher": "香格里拉市人民政府",
+        "source_type": "official",
+        "place_name": "虎跳峡",
+        "published_at": "2025-06-25",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.96,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:22.861441+00:00"
+        }
+      }
+    ],
+    "climate": {
+      "place_name": "香格里拉",
+      "latitude": 27.8105688,
+      "longitude": 99.7059703,
+      "period": "1991-01-01/2020-12-31",
+      "label": "1991–2020 月平均气温（ERA5-Land 再分析）",
+      "method": "通过Open-Meteo Historical Weather API，固定ERA5-Land、nearest网格、elevation=nan与Asia/Shanghai日界。对1991–2020每个日历月内全部逐日均温、最高温、最低温分别取算术平均。",
+      "unit": "°C",
+      "source": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=27.8105688&longitude=99.7059703&start_date=1991-01-01&end_date=2020-12-31&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min&timezone=Asia%2FShanghai&models=era5_land&cell_selection=nearest&elevation=nan",
+        "title": "Open-Meteo Historical Weather API — ERA5-Land daily 2 m temperature",
+        "publisher": "Open-Meteo；ECMWF/Copernicus ERA5-Land",
+        "checked_at": "2026-09-22",
+        "sha256": "8e4788ca48ffc6d873bff86b12b49de51821c0e1646b915278c388b103296a80"
+      },
+      "months": [
+        {
+          "month": 1,
+          "mean_c": -4.5,
+          "mean_high_c": 0.66,
+          "mean_low_c": -8.94
+        },
+        {
+          "month": 2,
+          "mean_c": -3.48,
+          "mean_high_c": 1.28,
+          "mean_low_c": -7.87
+        },
+        {
+          "month": 3,
+          "mean_c": -0.16,
+          "mean_high_c": 4.48,
+          "mean_low_c": -4.1
+        },
+        {
+          "month": 4,
+          "mean_c": 3.87,
+          "mean_high_c": 8.93,
+          "mean_low_c": -0.32
+        },
+        {
+          "month": 5,
+          "mean_c": 8.33,
+          "mean_high_c": 13.2,
+          "mean_low_c": 4.23
+        },
+        {
+          "month": 6,
+          "mean_c": 11.37,
+          "mean_high_c": 15.56,
+          "mean_low_c": 8.24
+        },
+        {
+          "month": 7,
+          "mean_c": 11.81,
+          "mean_high_c": 15.54,
+          "mean_low_c": 9.21
+        },
+        {
+          "month": 8,
+          "mean_c": 11.67,
+          "mean_high_c": 15.57,
+          "mean_low_c": 8.86
+        },
+        {
+          "month": 9,
+          "mean_c": 10.24,
+          "mean_high_c": 14.05,
+          "mean_low_c": 7.54
+        },
+        {
+          "month": 10,
+          "mean_c": 6.63,
+          "mean_high_c": 11.0,
+          "mean_low_c": 3.13
+        },
+        {
+          "month": 11,
+          "mean_c": 1.97,
+          "mean_high_c": 6.9,
+          "mean_low_c": -2.05
+        },
+        {
+          "month": 12,
+          "mean_c": -1.63,
+          "mean_high_c": 3.52,
+          "mean_low_c": -5.63
+        }
+      ],
+      "notes": [
+        "请求坐标取独克宗古城附近的OSM区域代表点（https://www.openstreetmap.org/way/763318050），气温为附近网格再分析估计，不是气象站常年值。",
+        "实际返回网格中心27.800003°N、99.70001°E，网格海拔3608.0米。",
+        "1991–2020共10958条唯一逐日记录，三个变量无缺测。",
+        "云南山地高差大；此图不代表雪山、高海拔徒步线路或整个湖区微气候。",
+        "日最高/最低温的月平均不是极端温度；月均温不是天气预报。",
+        "方法说明：https://open-meteo.com/en/docs/historical-weather-api"
+      ]
+    },
+    "screening": {
+      "version": "practical-text-screen-v2",
+      "status": "partial",
+      "total_sources": 29,
+      "classified": 28,
+      "queued": 0,
+      "running": 0,
+      "failed": 1,
+      "unqueued": 0,
+      "category_counts": {
+        "clothing": 0,
+        "food": 2,
+        "stay": 0,
+        "transport": 10,
+        "visit_duration": 0,
+        "route_length": 0,
+        "internal_transport": 6
+      },
+      "failed_sources": [
+        {
+          "id": "ev_c9135a735d1f4cda",
+          "error": "实用信息分类概率总和或最大类别不一致"
+        }
+      ],
+      "config_errors": [],
+      "note": "自动分类只帮助定位相关原文，不生成事实，也不以置信度判断来源真伪。"
+    }
+  },
+  "visitor_seasonality": {
+    "schema_version": "visitor-seasonality-v1",
+    "destination_id": "shangrila",
+    "enabled": false,
+    "years": [],
+    "default_year": null,
+    "attractions": [],
+    "monthly": [],
+    "records": [],
+    "validation": {
+      "discarded_records": 0
+    },
+    "notes": []
+  },
+  "route_guides": {
+    "items": [],
+    "available_themes": [],
+    "note": "当前为已收录攻略精选，不是全网热度排行",
+    "visit_period_counts": {
+      "ordinary": 0,
+      "holiday": 0,
+      "unknown": 0
+    }
+  },
+  "nearby": {
+    "origin": {
+      "destination_id": "shangrila",
+      "name": "香格里拉站",
+      "anchor_label": "香格里拉站",
+      "lat": 27.8134165,
+      "lon": 99.6885811,
+      "source_url": "https://www.openstreetmap.org/way/1007688235",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口"
+    },
+    "distance_kind": "straight_line",
+    "max_distance_km": 150,
+    "limit": 3,
+    "items": [
+      {
+        "destination_id": "lijiang",
+        "name": "丽江",
+        "anchor_label": "丽江站",
+        "lat": 26.8143271,
+        "lon": 100.2512118,
+        "source_url": "https://www.openstreetmap.org/node/1530613773",
+        "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+        "id": "destination-lijiang",
+        "destination_name": "丽江",
+        "category": "destination",
+        "description": "漫步古城和纳西古镇，再向玉龙雪山、蓝月谷与湖泊湿地延伸。",
+        "attraction_ids": [
+          "place_b0a746452e5d4443",
+          "place_1be58a24ea514f90",
+          "place_da2f75a08f154fd0",
+          "place_635106c788164cd3",
+          "place_48359ee6a1724917",
+          "place_f3d4bd198b9443aa",
+          "place_a2b508f6a6dd44a2",
+          "place_d8e0dc61156140b3"
+        ],
+        "attraction_names": [
+          "丽江古城",
+          "玉龙雪山",
+          "蓝月谷",
+          "黑龙潭公园",
+          "束河古镇",
+          "白沙古镇",
+          "拉市海湿地",
+          "东巴谷"
+        ],
+        "distance_km": 124.2,
+        "distance_kind": "straight_line"
+      }
+    ],
+    "regions": [],
+    "note": "按有出处的代表点估算直线距离，并非驾车里程或车程；区域包含已配置景点，不代表资料已齐全。"
+  },
+  "time_windows": {
+    "historical_through_year": 2024,
+    "recent_observation_years": [
+      2025,
+      2026
+    ]
+  },
+  "coverage": {
+    "months": [
+      {
+        "month": 1,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 2,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 3,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 4,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 5,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 6,
+        "count": 1,
+        "observed_count": 0,
+        "publication_count": 1,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 7,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 8,
+        "count": 1,
+        "observed_count": 0,
+        "publication_count": 1,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 9,
+        "count": 5,
+        "observed_count": 0,
+        "publication_count": 5,
+        "observed_photo_count": 0,
+        "publication_photo_count": 4,
+        "approved_photo_count": 4
+      },
+      {
+        "month": 10,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 11,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 12,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      }
+    ],
+    "unknown_time": 29,
+    "unassigned_time": 22
+  },
+  "map": {
+    "bounds": [
+      27.12,
+      99.38,
+      28.4,
+      100.22
+    ],
+    "hubs": [
+      {
+        "id": "shangrila-station",
+        "name": "香格里拉站",
+        "kind": "railway",
+        "type": "火车站",
+        "lat": 27.8134165,
+        "lon": 99.6885811,
+        "map_source_url": "https://www.openstreetmap.org/way/1007688235",
+        "source_name": "香格里拉站",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/way/1007688235"
+      },
+      {
+        "id": "shangrila-airport",
+        "name": "迪庆香格里拉机场",
+        "kind": "airport",
+        "type": "机场",
+        "lat": 27.7920107,
+        "lon": 99.6782239,
+        "map_source_url": "https://www.openstreetmap.org/way/163714636",
+        "source_name": "迪庆香格里拉机场",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/way/163714636"
+      }
+    ],
+    "roads": [],
+    "image_url": "/static/maps/shangrila-urban.svg",
+    "assets": [
+      {
+        "title": "城区、纳帕海与普达措",
+        "description": "独克宗、寺院、湖区与机场火车站；远郊景点见区域图。",
+        "image_url": "/static/maps/shangrila-urban.svg",
+        "source_url": "https://www.openstreetmap.org/copyright",
+        "source_label": "© OpenStreetMap contributors"
+      },
+      {
+        "title": "区域景点分布",
+        "description": "尼汝、巴拉格宗、白水台和虎跳峡；真实道路几何不等于可通行导航。",
+        "image_url": "/static/maps/shangrila-region.svg",
+        "source_url": "https://www.openstreetmap.org/copyright",
+        "source_label": "© OpenStreetMap contributors"
+      }
+    ],
+    "transport_sources": [],
+    "limitations": [
+      "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+      "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+      "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+      "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+      "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+      "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。"
+    ]
+  },
+  "limitations": [
+    "作者描述的月份与照片实拍日期分别记录；未知年份的材料不进入历年共识。",
+    "班次、票价和道路时效请以出行当天官方查询为准。"
+  ],
+  "updated_at": "2026-09-21T16:16:17.230083+00:00",
+  "total_evidence": 29,
+  "jobs": [],
+  "source_capabilities": []
+}

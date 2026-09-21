@@ -14,5 +14,25 @@
   {
     "id": "nanjing",
     "name": "南京"
+  },
+  {
+    "id": "kunming",
+    "name": "昆明"
+  },
+  {
+    "id": "fuxianhu",
+    "name": "抚仙湖"
+  },
+  {
+    "id": "lijiang",
+    "name": "丽江"
+  },
+  {
+    "id": "dali",
+    "name": "大理"
+  },
+  {
+    "id": "shangrila",
+    "name": "香格里拉"
   }
 ]

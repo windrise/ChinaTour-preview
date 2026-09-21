@@ -1,0 +1,231 @@
+{
+  "destination": "dali",
+  "coordinate_system": "WGS84",
+  "retrieved_at": "2026-09-21",
+  "script": "scripts/build_manifest_context_maps.py",
+  "sources": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:50];nwr(25.4,99.8,26.15,100.45)[\"name\"~\"大理古城|苍山|洱海|喜洲|双廊|龙龛|小普陀|南诏风情|罗荃|龙尾关|崇圣寺|三塔|大理站|大理.*机场\"];out center tags;",
+      "retrieved_at": "2026-09-21T15:49:19.061359+00:00",
+      "path": "data/onboarding/yunnan/dali-pois.json",
+      "sha256": "3134b99b882081b978ed9bdbc0b0837f77dbea94c737bdcb52224913d999b4bd",
+      "bytes": 80491,
+      "element_count": 213,
+      "osm_base_timestamp": "2026-09-21T15:47:45Z",
+      "status": "complete"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:55];(way(25.56,100.0,25.98,100.36)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];nwr(25.56,100.0,25.98,100.36)[\"natural\"=\"water\"][\"name\"];way(25.56,100.0,25.98,100.36)[\"leisure\"=\"park\"][\"name\"];);out body geom;",
+      "retrieved_at": "2026-09-21T15:52:23.436713+00:00",
+      "path": "data/onboarding/yunnan/dali-context.json",
+      "sha256": "964859f836c658eddeb4f8623699fd887f464e3fa8a66635d69060001b860a9a",
+      "bytes": 2353995,
+      "element_count": 998,
+      "osm_base_timestamp": "2026-09-21T15:50:51Z",
+      "status": "complete"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:30];(nwr(24.64,102.40,25.18,103.05)[\"railway\"=\"station\"][\"name\"~\"^昆明$|^昆明南$\"];nwr(25.55,100.20,25.66,100.34)[\"railway\"=\"station\"][\"name\"~\"^大理$\"];nwr(26.6,100.15,26.95,100.4)[\"railway\"=\"station\"][\"name\"~\"^丽江$\"];);out center tags;",
+      "retrieved_at": "2026-09-21T15:53:21.865491+00:00",
+      "path": "data/onboarding/yunnan/hubs.json",
+      "sha256": "a83c342ccf79c616f8f3f48e4ab36919712aaa45f57f620b3aa51a02c4a1260f",
+      "bytes": 3270,
+      "element_count": 4,
+      "osm_base_timestamp": "2026-09-21T15:51:51Z",
+      "status": "complete"
+    }
+  ],
+  "attractions": [
+    {
+      "name": "大理古城",
+      "lat": 25.6981637,
+      "lon": 100.1628305,
+      "map_source_url": "https://www.openstreetmap.org/way/767449039",
+      "source_name": "大理古城",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "苍山",
+      "lat": 25.7615448,
+      "lon": 100.0967198,
+      "map_source_url": "https://www.openstreetmap.org/way/791076409",
+      "source_name": "苍山山脉",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "洱海",
+      "lat": 25.7829149,
+      "lon": 100.191954,
+      "map_source_url": "https://www.openstreetmap.org/relation/254433",
+      "source_name": "洱海",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "喜洲古镇",
+      "lat": 25.8566557,
+      "lon": 100.1303465,
+      "map_source_url": "https://www.openstreetmap.org/way/1528337500",
+      "source_name": "喜洲古镇",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "双廊古镇",
+      "lat": 25.9134683,
+      "lon": 100.1937688,
+      "map_source_url": "https://www.openstreetmap.org/relation/20964490",
+      "source_name": "双廊镇",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "采用OSM双廊镇住宅聚落范围代表点；不表示古镇景区边界或入口。"
+    },
+    {
+      "name": "龙龛码头",
+      "lat": 25.7010643,
+      "lon": 100.2056408,
+      "map_source_url": "https://www.openstreetmap.org/way/298035384",
+      "source_name": "龙龛码头",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "小普陀",
+      "lat": 25.8106151,
+      "lon": 100.221913,
+      "map_source_url": "https://www.openstreetmap.org/way/310515894",
+      "source_name": "小普陀",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "南诏风情岛",
+      "lat": 25.9050219,
+      "lon": 100.1898019,
+      "map_source_url": "https://www.openstreetmap.org/way/24426778",
+      "source_name": "南诏风情岛",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "罗荃半岛",
+      "lat": 25.710183,
+      "lon": 100.2363716,
+      "map_source_url": "https://www.openstreetmap.org/way/1136461842",
+      "source_name": "罗荃半岛旅游区",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "龙尾关",
+      "lat": 25.5935422,
+      "lon": 100.2111408,
+      "map_source_url": "https://www.openstreetmap.org/way/1083278287",
+      "source_name": "龙尾关",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "崇圣寺三塔",
+      "lat": 25.7086408,
+      "lon": 100.1465644,
+      "map_source_url": "https://www.openstreetmap.org/node/7651326585",
+      "source_name": "崇圣寺三塔",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    }
+  ],
+  "hubs": [
+    {
+      "id": "dali-station",
+      "name": "大理站",
+      "kind": "railway",
+      "type": "火车站",
+      "lat": 25.5919445,
+      "lon": 100.2485243,
+      "map_source_url": "https://www.openstreetmap.org/node/2215381943",
+      "source_name": "大理",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/node/2215381943"
+    },
+    {
+      "id": "dali-airport",
+      "name": "大理凤仪机场",
+      "kind": "airport",
+      "type": "机场",
+      "lat": 25.649768,
+      "lon": 100.3198055,
+      "map_source_url": "https://www.openstreetmap.org/way/142382433",
+      "source_name": "大理凤仪机场",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/way/142382433"
+    }
+  ],
+  "notes": [
+    "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+    "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+    "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+    "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+    "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+    "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。"
+  ],
+  "panels": [
+    {
+      "title": "洱海、古镇与交通",
+      "description": "湖区真实水体与主路；苍山为山脉代表点，古镇点不表示入口。",
+      "bounds": [
+        25.56,
+        100.0,
+        25.98,
+        100.36
+      ],
+      "scale_km": 5,
+      "show_attraction_labels": true,
+      "show_context": false,
+      "water_labels": [
+        {
+          "name": "洱海",
+          "point": [
+            25.7829149,
+            100.191954
+          ]
+        }
+      ],
+      "output": "chinatour/static/maps/dali-overview.svg",
+      "marker_offsets": {
+        "1": [
+          0,
+          13
+        ],
+        "11": [
+          -15,
+          -9
+        ],
+        "5": [
+          10,
+          -13
+        ],
+        "8": [
+          -13,
+          6
+        ]
+      },
+      "label_offsets": {
+        "龙龛码头": [
+          0,
+          20
+        ],
+        "罗荃半岛": [
+          0,
+          15
+        ]
+      }
+    }
+  ]
+}

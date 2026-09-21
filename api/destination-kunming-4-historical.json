@@ -1,0 +1,3899 @@
+{
+  "destination": {
+    "id": "kunming",
+    "name": "昆明",
+    "description": "云南省会，按城区人文、滇池湖岸与近郊分别查看资料。"
+  },
+  "attractions": [
+    {
+      "id": "place_9d6ea55af5e64d32",
+      "name": "翠湖公园",
+      "lat": 25.0514737,
+      "lon": 102.7025838,
+      "description": "湖滨公园，周边串联学府与历史街巷。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 8,
+      "months": [
+        8,
+        9
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/24044964",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_93e1cc695174489b",
+      "name": "云南陆军讲武堂",
+      "lat": 25.0507979,
+      "lon": 102.6990026,
+      "description": "翠湖附近的历史文化参访点。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/24046825",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_c37d061e5a3a4d7c",
+      "name": "海埂大坝",
+      "lat": 24.9759724,
+      "lon": 102.6494902,
+      "description": "滇池草海岸边的观景步道，与西山隔水相望。",
+      "source_url": "https://www.kmxishan.com/info/339",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 5,
+      "months": [
+        8,
+        9
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1019939632",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_9e2dfff4c9654045",
+      "name": "西山风景区",
+      "lat": 24.9682241,
+      "lon": 102.6260635,
+      "description": "滇池湖畔的山地森林游览区，步道串联华亭寺、太华寺等节点，可从山间眺望滇池。",
+      "source_url": "https://tyj.yn.gov.cn/tyzx/qzty/202410/t20241016_3415641.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/36808771",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_0ad5e374c1934bc0",
+      "name": "云南民族村",
+      "lat": 24.969157,
+      "lon": 102.6594697,
+      "description": "昆明滇池周边的民族文化景区。",
+      "source_url": "https://www.ynxc.gov.cn/html/2026/jjlb_0126/3031812.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/39585364",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_5bbc38ddb7474635",
+      "name": "大观公园",
+      "lat": 25.0245168,
+      "lon": 102.6711076,
+      "description": "昆明的湖滨文化公园。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 2,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/relation/13751688",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_8bc9ed36cbc344d8",
+      "name": "斗南花市",
+      "lat": 24.9054792,
+      "lon": 102.7864413,
+      "description": "以花卉交易和逛花市体验为特色的街区。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 2,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1167253062",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_4b2ac0bd50424ed8",
+      "name": "官渡古镇",
+      "lat": 24.9583673,
+      "lon": 102.7539924,
+      "description": "昆明传统街巷与地方饮食体验点。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 2,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1354812529",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_90a62785a4394985",
+      "name": "昆明老街",
+      "lat": 25.042789,
+      "lon": 102.706613,
+      "description": "昆明核心城区的历史街区。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/245760335",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_d218c963c24b483a",
+      "name": "云南省博物馆",
+      "lat": 24.952239,
+      "lon": 102.7521982,
+      "description": "了解云南历史文化的博物馆。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/631619836",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_f281416b8dcf4573",
+      "name": "捞渔河湿地公园",
+      "lat": null,
+      "lon": null,
+      "description": "滇池东岸湿地游览点。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_0142d15bb3af4b42",
+      "name": "海晏村",
+      "lat": 24.8119133,
+      "lon": 102.7676518,
+      "description": "滇池沿线村落，列入昆明文旅线路。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/6873539365",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "configured_78db39a34b5028f35c26",
+      "name": "石林风景区",
+      "lat": 24.8162558,
+      "lon": 103.3225322,
+      "description": "位于石林县的喀斯特地貌景区。",
+      "source_url": "https://www.ynxc.gov.cn/html/2026/jjlb_0126/3031812.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/732651541",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_0cab218c26b94b19",
+      "name": "轿子雪山",
+      "lat": 26.0896886,
+      "lon": 102.8520455,
+      "description": "昆明北部的高山景区。",
+      "source_url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 2,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1144268623",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    }
+  ],
+  "evidence": [],
+  "baselines": [
+    {
+      "place_id": "place_9d6ea55af5e64d32",
+      "place_name": "翠湖公园",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_90a62785a4394985",
+      "place_name": "昆明老街",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_8bc9ed36cbc344d8",
+      "place_name": "斗南花市",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_c37d061e5a3a4d7c",
+      "place_name": "海埂大坝",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_93e1cc695174489b",
+      "place_name": "云南陆军讲武堂",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_5bbc38ddb7474635",
+      "place_name": "大观公园",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_4b2ac0bd50424ed8",
+      "place_name": "官渡古镇",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_d218c963c24b483a",
+      "place_name": "云南省博物馆",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_f281416b8dcf4573",
+      "place_name": "捞渔河湿地公园",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_0142d15bb3af4b42",
+      "place_name": "海晏村",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_0cab218c26b94b19",
+      "place_name": "轿子雪山",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_0ad5e374c1934bc0",
+      "place_name": "云南民族村",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_9e2dfff4c9654045",
+      "place_name": "西山风景区",
+      "month": 4,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    }
+  ],
+  "changes": [
+    {
+      "id": "82300cbeaac513a1dfbcbc4bc7e5522dd7a68585ce109f95a607f897c751cd4e",
+      "title": "用脚步丈量昆明西山千年古韵！奔跑彩云南名城名镇领跑赛第五站举行",
+      "created_at": "2026-09-21T16:18:21.742969+00:00",
+      "before_value": null,
+      "after_value": "10月13日，2024奔跑彩云南名城名镇领跑赛第五站在昆明西山脚下拉开序幕。此次赛事共吸引了来自全省各地的2000余名跑步爱好者踊跃参与，用奔跑传递着积极健康的生活理念，用脚步丈量着西山历经千年的古韵风貌。 本次赛事由云南省社会体育指导中心、昆明市教育体育局主办，西山区教育体育局、西山风景区管理局承办，云南省路跑协会协办，云南行知探索体育文旅产业有限公司策划",
+      "reason": "首次自动采集",
+      "source_url": "https://tyj.yn.gov.cn/tyzx/qzty/202410/t20241016_3415641.html",
+      "parent_id": null,
+      "kind": "discovery"
+    }
+  ],
+  "landscape_updates": [],
+  "visual_cohorts": [],
+  "practical": {
+    "facts": [
+      {
+        "id": "kunming-markets-night-food",
+        "category": "food",
+        "title": "逛农贸市场与夜市的四个方向",
+        "text": "昆明市文旅局2026年暑期“市井寻味”线路列出东华新迎农贸市场、五里多农博广场，以及南强街巷、双桥夜市，可作为寻找本土饮食的市场与街区方向。",
+        "source": {
+          "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+          "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+          "publisher": "昆明信息港（昆明日报，报道昆明市文化和旅游局发布线路）",
+          "published_at": "2026-05-27",
+          "checked_at": "2026-09-22",
+          "excerpt": "市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市",
+          "source_sha256": "fd8a8118fb11df7876dff9491bf63d2f04994cfc48b60d3952653e0ef663f09d"
+        },
+        "time_note": "来源为2026年暑期线路介绍；具体商户与营业时间按到访时信息确认。"
+      },
+      {
+        "id": "kunming-cuihu-coffee-streets",
+        "category": "food",
+        "title": "翠湖周边的咖啡街巷",
+        "text": "同一批文旅线路以“文艺街巷咖啡慢享”为主题，列出文林街、先生坡、文化巷、翠湖步道和黄公东街。逛翠湖时可据此选择街巷与咖啡休憩方向。",
+        "source": {
+          "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+          "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+          "publisher": "昆明信息港（昆明日报，报道昆明市文化和旅游局发布线路）",
+          "published_at": "2026-05-27",
+          "checked_at": "2026-09-22",
+          "excerpt": "翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街",
+          "source_sha256": "fd8a8118fb11df7876dff9491bf63d2f04994cfc48b60d3952653e0ef663f09d"
+        },
+        "place_names": [
+          "翠湖公园"
+        ]
+      }
+    ],
+    "origin_label": null,
+    "classified_sources": [
+      {
+        "id": "ev_e17835246cd346db",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "云南省博物馆",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.31,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.85,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.31,
+              "probabilities": {
+                "absent": 0.54,
+                "relevant": 0.36,
+                "unclear": 0.1
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.85,
+              "probabilities": {
+                "absent": 0.07,
+                "relevant": 0.9,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:45.537460+00:00"
+        }
+      },
+      {
+        "id": "ev_b65a279d36484bf2",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "云南陆军讲武堂",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.3,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.87,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.3,
+              "probabilities": {
+                "absent": 0.54,
+                "relevant": 0.38,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.87,
+              "probabilities": {
+                "absent": 0.06,
+                "relevant": 0.91,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:40.235785+00:00"
+        }
+      },
+      {
+        "id": "ev_f9579f842af04dc9",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "大观公园",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.41,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.82,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.41,
+              "probabilities": {
+                "absent": 0.61,
+                "relevant": 0.31,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.82,
+              "probabilities": {
+                "absent": 0.09,
+                "relevant": 0.88,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:42.080137+00:00"
+        }
+      },
+      {
+        "id": "ev_d25bda8dc3ac4ab3",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "官渡古镇",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.24,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.84,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.24,
+              "probabilities": {
+                "absent": 0.49,
+                "relevant": 0.44,
+                "unclear": 0.07
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.08,
+                "relevant": 0.89,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:43.796953+00:00"
+        }
+      },
+      {
+        "id": "ev_558268ab88a34383",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "捞渔河湿地公园",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.32,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.84,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.32,
+              "probabilities": {
+                "absent": 0.55,
+                "relevant": 0.37,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.08,
+                "relevant": 0.89,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:46.396186+00:00"
+        }
+      },
+      {
+        "id": "ev_a14ae767af044ddf",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "斗南花市",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.31,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.82,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.31,
+              "probabilities": {
+                "absent": 0.54,
+                "relevant": 0.39,
+                "unclear": 0.07
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.82,
+              "probabilities": {
+                "absent": 0.09,
+                "relevant": 0.88,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:42.935436+00:00"
+        }
+      },
+      {
+        "id": "ev_c59eb18ee4454f0d",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "昆明老街",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.35,
+            "stay": 0.95,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.81,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.35,
+              "probabilities": {
+                "absent": 0.5599999999999999,
+                "relevant": 0.34,
+                "unclear": 0.1
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.81,
+              "probabilities": {
+                "absent": 0.1,
+                "relevant": 0.87,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.01,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:44.693207+00:00"
+        }
+      },
+      {
+        "id": "ev_212b6e8ce2934397",
+        "title": "一个人去海埂大坝，差点被风吹进滇池",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6aa2a113000000002700862e",
+        "publisher": "高柠浅在流浪",
+        "source_type": "xiaohongshu",
+        "place_name": "海埂大坝",
+        "published_at": "2026-09-10",
+        "categories": [
+          "clothing",
+          "transport",
+          "route_length",
+          "internal_transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.83,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 0.7,
+            "route_length": 1,
+            "internal_transport": 0.98
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.83,
+              "probabilities": {
+                "absent": 0.88,
+                "relevant": 0.11,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "relevant",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.98,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0.01,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.7,
+              "probabilities": {
+                "absent": 0.8,
+                "relevant": 0.05,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:21.100134+00:00"
+        }
+      },
+      {
+        "id": "ev_956739e5cfa04827",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "海埂大坝",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.25,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.81,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.25,
+              "probabilities": {
+                "absent": 0.51,
+                "relevant": 0.39,
+                "unclear": 0.1
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.81,
+              "probabilities": {
+                "absent": 0.09,
+                "relevant": 0.88,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:41.197546+00:00"
+        }
+      },
+      {
+        "id": "ev_ec1f84f049204b20",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "海晏村",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.28,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.79,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.28,
+              "probabilities": {
+                "absent": 0.52,
+                "relevant": 0.39,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.79,
+              "probabilities": {
+                "absent": 0.1,
+                "relevant": 0.87,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:47.249026+00:00"
+        }
+      },
+      {
+        "id": "ev_f60c4b090f7241e4",
+        "title": "在翠湖吸氧半天，我辞职的心都有了",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6aa79b770000000027008e05",
+        "publisher": "高柠浅在流浪",
+        "source_type": "xiaohongshu",
+        "place_name": "翠湖公园",
+        "published_at": "2026-09-14",
+        "categories": [
+          "clothing",
+          "visit_duration"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.8,
+            "food": 0.98,
+            "stay": 0.99,
+            "transport": 0.77,
+            "visit_duration": 1,
+            "route_length": 0.44,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 0.8,
+              "probabilities": {
+                "absent": 0.12,
+                "relevant": 0.87,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.44,
+              "probabilities": {
+                "absent": 0.63,
+                "relevant": 0.16,
+                "unclear": 0.21
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0.01,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.77,
+              "probabilities": {
+                "absent": 0.85,
+                "relevant": 0.12,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:06.849629+00:00"
+        }
+      },
+      {
+        "id": "ev_0845712ffd334cc6",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "翠湖公园",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.3,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.78,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.3,
+              "probabilities": {
+                "absent": 0.54,
+                "relevant": 0.4,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.78,
+              "probabilities": {
+                "absent": 0.11,
+                "relevant": 0.85,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:39.384590+00:00"
+        }
+      },
+      {
+        "id": "ev_ee9b4371026b46fb",
+        "title": "被小红书骗来的翠湖公园，结果……真香了！",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6a7dd4640000000032023b68",
+        "publisher": "青禾",
+        "source_type": "xiaohongshu",
+        "place_name": "翠湖公园",
+        "published_at": "2026-08-13",
+        "categories": [
+          "clothing",
+          "transport",
+          "visit_duration"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.24,
+            "stay": 0.97,
+            "transport": 0.99,
+            "visit_duration": 1,
+            "route_length": 0.86,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.99,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.24,
+              "probabilities": {
+                "absent": 0.5,
+                "relevant": 0.27,
+                "unclear": 0.23
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.86,
+              "probabilities": {
+                "absent": 0.91,
+                "relevant": 0,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.99,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:12.819315+00:00"
+        }
+      },
+      {
+        "id": "ev_a57fe9abd8b848f1",
+        "title": "📍昆明 翠湖公园真的被低估了",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6aae9c440000000025037abe",
+        "publisher": "是泽宝啊",
+        "source_type": "xiaohongshu",
+        "place_name": "翠湖公园",
+        "published_at": "2026-09-19",
+        "categories": [
+          "clothing",
+          "food",
+          "visit_duration"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.99,
+            "stay": 0.91,
+            "transport": 0.65,
+            "visit_duration": 1,
+            "route_length": 0.97,
+            "internal_transport": 0.98
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.99,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.91,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.65,
+              "probabilities": {
+                "absent": 0.77,
+                "relevant": 0.13,
+                "unclear": 0.1
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:04.561305+00:00"
+        }
+      },
+      {
+        "id": "ev_c7e304098ac94220",
+        "title": "用脚步丈量昆明西山千年古韵！奔跑彩云南名城名镇领跑赛第五站举行",
+        "excerpt": "10月13日，2024奔跑彩云南名城名镇领跑赛第五站在昆明西山脚下拉开序幕。此次赛事共吸引了来自全省各地的2000余名跑步爱好者踊跃参与，用奔跑传递着积极健康的生活理念，用脚步丈量着西山历经千年的古韵风貌。 本次赛事由云南省社会体育指导中心、昆明市教育体育局主办，西山区教育体育局、西山风景区管理局承办，云南省路跑协会协办，云南行知探索体育文旅产业有限公司策划运营。西山区公安局、西山区卫生健康局以及西山区应急管理局也派出工作人员，以维护现场秩序和保障参赛选手们的安全。 本次赛事选手们从西山公园地铁站出发，沿西山风景区步道行进，途中经过具有900余年历史、昆明现存最大的寺庙——华亭寺，之后继续前行抵达太华寺。在此处可俯瞰昆明万家灯火、滇池波光粼粼之景，最后原路折返完成比赛。“碧鸡西望水天虚，漠漠秋光画不如。”在郁郁葱葱的山间林木中进行一场酣畅淋漓的有氧跑，全长8公里的赛道既能欣赏森林风光，又能在奔跑中分泌多巴胺，让选手们在尽情挥洒汗水的同时，深切地感受到运动带来的愉悦与满足，亲身领略运动的魅力所在。 昆明从来都是一座让人流连忘返的城市，不仅天气讨人喜，城中的景点、美食更能让人沉醉其中。在市中心一颗“明珠”嵌入其中，春赏柳夏观花，秋看残荷冬嬉鸥，作为昆明人的精神家园，翠湖有着说不清、道不明的浪漫。环沿翠湖city walk，讲武堂、酒杯楼映入眼帘，这座城市用建筑诉说着曾经的风霜，金马坊、东寺街、西寺巷藏匿着老一辈昆明人的生活踪迹。“春城无处不飞花”无论是在昆明赏花还是在这里品花都别有一番风情。春天的山茶花、初夏的蓝花楹或者是冬天的早樱，四季的花朵皆是昆明的代言，金雀花、棠梨花、鲜花饼、玫瑰宴，采花入食是昆明人对待生活的细腻。 本次活动举办地昆明西山，古称碧鸡山，立于滇池湖畔，风景清幽，景致极佳，古语曾言其有“滇中第一佳境”的美誉。作为闹市中的森林氧吧，西山森林资源丰富、花草繁盛且多奇珍异草。站在西山山巅则能与有着高原明珠之称的滇池隔空对望。值得一提的是，从昆明城东南眺望，西山宛如一位少女卧在滇池两岸。粼粼湖面倒映着少女的身影，显得风姿绰约，所以西山又被称为“睡美人”，吸引着不少游客纷至沓来。 本次比赛选址西山风景区，既展现了西山风貌特色，也带动跑者了解西山、爱上西山。借助体育赛事，推动西山区体育事业高质量发展，助力“体文旅”融合。据悉，西山区积极响应国家体育总局、商务部、文化和旅游部联合印发的《关于开展“体育赛事进景区、进街区、进商圈”活动的通知》，深入景区举办全民健身活动，创新形式，提供多元体验。未来，西山区将继续举办体育活动，为城市文化繁荣发展贡献力量。 在热闹非凡的比赛现场，社会体育指导员们忙碌的身影成为比赛中一道亮丽的风景线。比赛前期，他们便早早地投入到紧张的准备工作中。仔细确认比赛线路，确保赛道无误，为参赛选手提供准确的指引。认真检查补给站，确保在选手们",
+        "url": "https://tyj.yn.gov.cn/tyzx/qzty/202410/t20241016_3415641.html",
+        "publisher": "云南省体育局（都市时报）",
+        "source_type": "official",
+        "place_name": "西山风景区",
+        "published_at": "2024-10-25",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.81,
+            "stay": 0.99,
+            "transport": 0.7,
+            "visit_duration": 0.9,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.81,
+              "probabilities": {
+                "absent": 0.88,
+                "relevant": 0.03,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.7,
+              "probabilities": {
+                "absent": 0.8,
+                "relevant": 0.14,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.9,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.01,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:18:59.531183+00:00"
+        }
+      },
+      {
+        "id": "ev_4f21bc86bdde4892",
+        "title": "昆明发布暑期十大主题线路 来“湖滨春城、山水花都”好在一夏",
+        "excerpt": "昆明信息港（昆明日报 记者李思凡 ） 5月26日，昆明市文化和旅游局发布暑期十大主题线路，邀游客来“湖滨春城、山水花都”避暑旅居，过一个有故事、有山水、有烟火的夏天，深度体验“好在昆明”。 十大主题线路是翠湖弦歌·百年学府人文精神研学线：翠湖→云南大学东陆校区→西南联合大学旧址→“一二·一”运动四烈士墓→闻一多殉难处→聂耳故居→云南陆军讲武堂；万物共生·春城生物多样性密码探索线：昆明植物园扶荔宫→昆明动物博物馆→宝丰湿地→云南野生动物园；高原明珠·滇池108公里绿道生态观光漫游线：海埂大坝→开合浮桥→滇池后海→福保小三亚→宝丰湿地→王官湿地→斗南湿地→卧龙古渔村→薰衣草庄园→捞渔河湿地→海晏村→南滇池国家湿地公园；花都物语·山水花海游赏线：斗南花市→斗南湿地公园→大观公园→捞渔河国家湿地公园→薰衣草庄园→渔浦寒泉森林生态湿地公园→潘祥记梦橙花园→海晏村；食菌季·昆明烟火专享线：大观篆新农贸市场→云南木水花野生菌交易中心→关上野生菌一条街→官渡古镇→昆明老街→昆明剧院；青铜密码·古滇文明双面解码线：云南省博物馆→石寨山考古遗址公园→郑和公园→小渔村→沙堤村→福安村→古滇欢乐世界；翠湖漫步·文艺街巷咖啡慢享线：文林街→先生坡→文化巷→翠湖步道→黄公东街；市井寻味·农贸夜市本土寻味线：东华新迎农贸市场/五里多农博广场→南强街巷/双桥夜市；老城新韵·昆明核心商圈城市风情线：金马碧鸡坊→南强街巷→昆明老街→正义坊→昆明文庙→盘龙江夜游；北部野趣·高山草甸自然探险线：轿子雪山风景区→转龙古镇，东川红土地→东川游览。 昆明持续擦亮“观鸥、赏花、避暑、食菌”四季文旅IP，将锚定“湖滨春城、山水花都”定位，从生态、文化、融合、服务四方面发力，加快建设国际旅游目的地和高品质旅居城市，打造“有一种叫云南的生活”核心体验地。",
+        "url": "https://www.kunming.cn/news/c/2026-05-27/14044910.shtml",
+        "publisher": "昆明信息港",
+        "source_type": "official",
+        "place_name": "轿子雪山",
+        "published_at": "2026-05-27",
+        "categories": [
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.29,
+            "stay": 0.97,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.82,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.29,
+              "probabilities": {
+                "absent": 0.53,
+                "relevant": 0.38,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.82,
+              "probabilities": {
+                "absent": 0.09,
+                "relevant": 0.88,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:48.139347+00:00"
+        }
+      },
+      {
+        "id": "ev_d974a7c7e1fa48dd",
+        "title": "来春城过花年！昆明2026迎新春系列文旅活动发布",
+        "excerpt": "1月24日，由昆明市文化和旅游局、昆明市商务局、昆明市园林绿化局联合主办的“神骏踏春至昆明过花年”——昆明2026迎新春系列文旅活动发布会，在昆明市体育场举办。 此次发布会借滇超联赛第二场昆明主场开赛契机，以体育赛事为纽带，深度融合文旅资源、消费福利与城市景观，全面推介昆明新春文旅亮点，生动展现“湖滨春城山水花都”的独特魅力，为即将到来的丙午马年新春营造热烈氛围。发布会现场年味盎然、亮点纷呈，滇超赛事的激情与新春的暖意相互交融，《翠湖》剧组助力、书法家送福、迎财神巡游等活动轮番上演，让市民游客在感受体育活力的同时，提前浸润浓郁年俗氛围。 文旅赋能：多维体验绘就春城春景 围绕“神骏踏春至昆明过花年”主题，昆明文旅多点发力营造浓情年味。斗南花市打造“蹦花迪”“抬花轿”等花漾互动体验；黑龙潭、捞渔河、海埂公园等景区春花绽放，推出“赏花地图”打卡活动。商圈方面，恒隆、同德、融创滇池后海等开展舞狮巡游、非遗展演、元宵灯节等特色活动。街区则以文庙新春雅集、南屏街非遗贺春、南强街鲜花美食为代表，再现传统年味与市井烟火气。 覆盖文娱演出、民俗庙会、体育赛事的超200项活动，让游客在烟火气中感受文化魅力。更力荐尝花宴、眠花宿等多重服务邀请游客体验。 昆明文旅在推出逛翠湖、登金殿、游大坝、观海鸥的沿着昆明经典景区游花海寻年味儿的3日体验线路的同时，也邀请游客在安宁温泉与油菜花田的惬意包围下感受田园暖意，在东川彝族人家篝火与欢歌中同庆新年，在石林奇峰与花海间夜赴电音狂欢，在丰泽源八万株山茶花海中呼吸春天，在轿子山白雪与杜鹃间拥抱新年朝阳，在官渡古镇尝一顿热腾腾的长街宴。在一天里徜徉不同意境的春色花海。 从标注花景花路的“新春活动智慧地图”一码通，到“昆明滇超消费券”特惠，覆盖全域的特色活动、定制化旅行产品，再到一落地长水机场就能享受的全方位公共服务保障，昆明已备好满满诚意，诚邀全国游客赴昆，共度新春、共赴春约。 商务助力：消费惠民激活新春市场 发布会上，昆明市商务局就春节期间消费促进相关举措进行发布，通过多元消费场景搭建、惠民福利发放等方式，进一步激活春节消费市场，让市民游客在畅享文旅盛宴的同时，感受昆明浓厚的消费活力。 2026年春节，昆明联动各县区、行业协会及重点企业，精心策划53项专项促消费活动，打造全域消费盛宴。官渡区新春购物博览会汇集万种好物实现“购全球、品全国”，东川年货节搭建农特产品产销平台，滇池度假区“鸥遇生活节”以“观鸥+消费+体验”模式点亮冬日消费。 全市重点商超、购物中心同步推出春节福利，京东MALL、砂之船奥莱等通过消费券、团券优惠等让利于民；苏宁易购等联动“滇超”赛事推出球迷专属福利，以“赛事流量+节日消费”双轮驱动激活实体消费潜力。 商文旅融合与夜间消费持续升级，云南民族村民族年货节、大观公园沉浸式活动注入文化内涵，官渡古镇IP主题活动丰富多元体验；南",
+        "url": "https://www.ynxc.gov.cn/html/2026/jjlb_0126/3031812.html",
+        "publisher": "云南网·云南省政府门户转载",
+        "source_type": "official",
+        "place_name": "云南民族村",
+        "published_at": "2026-01-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.08,
+            "stay": 0.75,
+            "transport": 0.85,
+            "visit_duration": 0.84,
+            "route_length": 0.99,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.08,
+              "probabilities": {
+                "absent": 0.39,
+                "relevant": 0.3,
+                "unclear": 0.31
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.75,
+              "probabilities": {
+                "absent": 0.83,
+                "relevant": 0.02,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.85,
+              "probabilities": {
+                "absent": 0.9,
+                "relevant": 0.04,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.84,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.08,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:50.260340+00:00"
+        }
+      },
+      {
+        "id": "ev_e73ac74683624d02",
+        "title": "来春城过花年！昆明2026迎新春系列文旅活动发布",
+        "excerpt": "1月24日，由昆明市文化和旅游局、昆明市商务局、昆明市园林绿化局联合主办的“神骏踏春至昆明过花年”——昆明2026迎新春系列文旅活动发布会，在昆明市体育场举办。 此次发布会借滇超联赛第二场昆明主场开赛契机，以体育赛事为纽带，深度融合文旅资源、消费福利与城市景观，全面推介昆明新春文旅亮点，生动展现“湖滨春城山水花都”的独特魅力，为即将到来的丙午马年新春营造热烈氛围。发布会现场年味盎然、亮点纷呈，滇超赛事的激情与新春的暖意相互交融，《翠湖》剧组助力、书法家送福、迎财神巡游等活动轮番上演，让市民游客在感受体育活力的同时，提前浸润浓郁年俗氛围。 文旅赋能：多维体验绘就春城春景 围绕“神骏踏春至昆明过花年”主题，昆明文旅多点发力营造浓情年味。斗南花市打造“蹦花迪”“抬花轿”等花漾互动体验；黑龙潭、捞渔河、海埂公园等景区春花绽放，推出“赏花地图”打卡活动。商圈方面，恒隆、同德、融创滇池后海等开展舞狮巡游、非遗展演、元宵灯节等特色活动。街区则以文庙新春雅集、南屏街非遗贺春、南强街鲜花美食为代表，再现传统年味与市井烟火气。 覆盖文娱演出、民俗庙会、体育赛事的超200项活动，让游客在烟火气中感受文化魅力。更力荐尝花宴、眠花宿等多重服务邀请游客体验。 昆明文旅在推出逛翠湖、登金殿、游大坝、观海鸥的沿着昆明经典景区游花海寻年味儿的3日体验线路的同时，也邀请游客在安宁温泉与油菜花田的惬意包围下感受田园暖意，在东川彝族人家篝火与欢歌中同庆新年，在石林奇峰与花海间夜赴电音狂欢，在丰泽源八万株山茶花海中呼吸春天，在轿子山白雪与杜鹃间拥抱新年朝阳，在官渡古镇尝一顿热腾腾的长街宴。在一天里徜徉不同意境的春色花海。 从标注花景花路的“新春活动智慧地图”一码通，到“昆明滇超消费券”特惠，覆盖全域的特色活动、定制化旅行产品，再到一落地长水机场就能享受的全方位公共服务保障，昆明已备好满满诚意，诚邀全国游客赴昆，共度新春、共赴春约。 商务助力：消费惠民激活新春市场 发布会上，昆明市商务局就春节期间消费促进相关举措进行发布，通过多元消费场景搭建、惠民福利发放等方式，进一步激活春节消费市场，让市民游客在畅享文旅盛宴的同时，感受昆明浓厚的消费活力。 2026年春节，昆明联动各县区、行业协会及重点企业，精心策划53项专项促消费活动，打造全域消费盛宴。官渡区新春购物博览会汇集万种好物实现“购全球、品全国”，东川年货节搭建农特产品产销平台，滇池度假区“鸥遇生活节”以“观鸥+消费+体验”模式点亮冬日消费。 全市重点商超、购物中心同步推出春节福利，京东MALL、砂之船奥莱等通过消费券、团券优惠等让利于民；苏宁易购等联动“滇超”赛事推出球迷专属福利，以“赛事流量+节日消费”双轮驱动激活实体消费潜力。 商文旅融合与夜间消费持续升级，云南民族村民族年货节、大观公园沉浸式活动注入文化内涵，官渡古镇IP主题活动丰富多元体验；南",
+        "url": "https://www.ynxc.gov.cn/html/2026/jjlb_0126/3031812.html",
+        "publisher": "云南网·云南省政府门户转载",
+        "source_type": "official",
+        "place_name": "大观公园",
+        "published_at": "2026-01-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.09,
+            "stay": 0.73,
+            "transport": 0.86,
+            "visit_duration": 0.8,
+            "route_length": 0.99,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.09,
+              "probabilities": {
+                "absent": 0.39,
+                "relevant": 0.32,
+                "unclear": 0.29
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.73,
+              "probabilities": {
+                "absent": 0.82,
+                "relevant": 0.03,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.86,
+              "probabilities": {
+                "absent": 0.91,
+                "relevant": 0.05,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.8,
+              "probabilities": {
+                "absent": 0.86,
+                "relevant": 0.09,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:51.342242+00:00"
+        }
+      },
+      {
+        "id": "ev_cd493034e84b4681",
+        "title": "来春城过花年！昆明2026迎新春系列文旅活动发布",
+        "excerpt": "1月24日，由昆明市文化和旅游局、昆明市商务局、昆明市园林绿化局联合主办的“神骏踏春至昆明过花年”——昆明2026迎新春系列文旅活动发布会，在昆明市体育场举办。 此次发布会借滇超联赛第二场昆明主场开赛契机，以体育赛事为纽带，深度融合文旅资源、消费福利与城市景观，全面推介昆明新春文旅亮点，生动展现“湖滨春城山水花都”的独特魅力，为即将到来的丙午马年新春营造热烈氛围。发布会现场年味盎然、亮点纷呈，滇超赛事的激情与新春的暖意相互交融，《翠湖》剧组助力、书法家送福、迎财神巡游等活动轮番上演，让市民游客在感受体育活力的同时，提前浸润浓郁年俗氛围。 文旅赋能：多维体验绘就春城春景 围绕“神骏踏春至昆明过花年”主题，昆明文旅多点发力营造浓情年味。斗南花市打造“蹦花迪”“抬花轿”等花漾互动体验；黑龙潭、捞渔河、海埂公园等景区春花绽放，推出“赏花地图”打卡活动。商圈方面，恒隆、同德、融创滇池后海等开展舞狮巡游、非遗展演、元宵灯节等特色活动。街区则以文庙新春雅集、南屏街非遗贺春、南强街鲜花美食为代表，再现传统年味与市井烟火气。 覆盖文娱演出、民俗庙会、体育赛事的超200项活动，让游客在烟火气中感受文化魅力。更力荐尝花宴、眠花宿等多重服务邀请游客体验。 昆明文旅在推出逛翠湖、登金殿、游大坝、观海鸥的沿着昆明经典景区游花海寻年味儿的3日体验线路的同时，也邀请游客在安宁温泉与油菜花田的惬意包围下感受田园暖意，在东川彝族人家篝火与欢歌中同庆新年，在石林奇峰与花海间夜赴电音狂欢，在丰泽源八万株山茶花海中呼吸春天，在轿子山白雪与杜鹃间拥抱新年朝阳，在官渡古镇尝一顿热腾腾的长街宴。在一天里徜徉不同意境的春色花海。 从标注花景花路的“新春活动智慧地图”一码通，到“昆明滇超消费券”特惠，覆盖全域的特色活动、定制化旅行产品，再到一落地长水机场就能享受的全方位公共服务保障，昆明已备好满满诚意，诚邀全国游客赴昆，共度新春、共赴春约。 商务助力：消费惠民激活新春市场 发布会上，昆明市商务局就春节期间消费促进相关举措进行发布，通过多元消费场景搭建、惠民福利发放等方式，进一步激活春节消费市场，让市民游客在畅享文旅盛宴的同时，感受昆明浓厚的消费活力。 2026年春节，昆明联动各县区、行业协会及重点企业，精心策划53项专项促消费活动，打造全域消费盛宴。官渡区新春购物博览会汇集万种好物实现“购全球、品全国”，东川年货节搭建农特产品产销平台，滇池度假区“鸥遇生活节”以“观鸥+消费+体验”模式点亮冬日消费。 全市重点商超、购物中心同步推出春节福利，京东MALL、砂之船奥莱等通过消费券、团券优惠等让利于民；苏宁易购等联动“滇超”赛事推出球迷专属福利，以“赛事流量+节日消费”双轮驱动激活实体消费潜力。 商文旅融合与夜间消费持续升级，云南民族村民族年货节、大观公园沉浸式活动注入文化内涵，官渡古镇IP主题活动丰富多元体验；南",
+        "url": "https://www.ynxc.gov.cn/html/2026/jjlb_0126/3031812.html",
+        "publisher": "云南网·云南省政府门户转载",
+        "source_type": "official",
+        "place_name": "官渡古镇",
+        "published_at": "2026-01-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.06,
+            "stay": 0.75,
+            "transport": 0.9,
+            "visit_duration": 0.85,
+            "route_length": 0.99,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.06,
+              "probabilities": {
+                "absent": 0.38,
+                "relevant": 0.3,
+                "unclear": 0.32
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.75,
+              "probabilities": {
+                "absent": 0.84,
+                "relevant": 0.02,
+                "unclear": 0.14
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.9,
+              "probabilities": {
+                "absent": 0.93,
+                "relevant": 0.03,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.85,
+              "probabilities": {
+                "absent": 0.91,
+                "relevant": 0.05,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:53.444766+00:00"
+        }
+      },
+      {
+        "id": "ev_c5910000549e44c0",
+        "title": "来春城过花年！昆明2026迎新春系列文旅活动发布",
+        "excerpt": "1月24日，由昆明市文化和旅游局、昆明市商务局、昆明市园林绿化局联合主办的“神骏踏春至昆明过花年”——昆明2026迎新春系列文旅活动发布会，在昆明市体育场举办。 此次发布会借滇超联赛第二场昆明主场开赛契机，以体育赛事为纽带，深度融合文旅资源、消费福利与城市景观，全面推介昆明新春文旅亮点，生动展现“湖滨春城山水花都”的独特魅力，为即将到来的丙午马年新春营造热烈氛围。发布会现场年味盎然、亮点纷呈，滇超赛事的激情与新春的暖意相互交融，《翠湖》剧组助力、书法家送福、迎财神巡游等活动轮番上演，让市民游客在感受体育活力的同时，提前浸润浓郁年俗氛围。 文旅赋能：多维体验绘就春城春景 围绕“神骏踏春至昆明过花年”主题，昆明文旅多点发力营造浓情年味。斗南花市打造“蹦花迪”“抬花轿”等花漾互动体验；黑龙潭、捞渔河、海埂公园等景区春花绽放，推出“赏花地图”打卡活动。商圈方面，恒隆、同德、融创滇池后海等开展舞狮巡游、非遗展演、元宵灯节等特色活动。街区则以文庙新春雅集、南屏街非遗贺春、南强街鲜花美食为代表，再现传统年味与市井烟火气。 覆盖文娱演出、民俗庙会、体育赛事的超200项活动，让游客在烟火气中感受文化魅力。更力荐尝花宴、眠花宿等多重服务邀请游客体验。 昆明文旅在推出逛翠湖、登金殿、游大坝、观海鸥的沿着昆明经典景区游花海寻年味儿的3日体验线路的同时，也邀请游客在安宁温泉与油菜花田的惬意包围下感受田园暖意，在东川彝族人家篝火与欢歌中同庆新年，在石林奇峰与花海间夜赴电音狂欢，在丰泽源八万株山茶花海中呼吸春天，在轿子山白雪与杜鹃间拥抱新年朝阳，在官渡古镇尝一顿热腾腾的长街宴。在一天里徜徉不同意境的春色花海。 从标注花景花路的“新春活动智慧地图”一码通，到“昆明滇超消费券”特惠，覆盖全域的特色活动、定制化旅行产品，再到一落地长水机场就能享受的全方位公共服务保障，昆明已备好满满诚意，诚邀全国游客赴昆，共度新春、共赴春约。 商务助力：消费惠民激活新春市场 发布会上，昆明市商务局就春节期间消费促进相关举措进行发布，通过多元消费场景搭建、惠民福利发放等方式，进一步激活春节消费市场，让市民游客在畅享文旅盛宴的同时，感受昆明浓厚的消费活力。 2026年春节，昆明联动各县区、行业协会及重点企业，精心策划53项专项促消费活动，打造全域消费盛宴。官渡区新春购物博览会汇集万种好物实现“购全球、品全国”，东川年货节搭建农特产品产销平台，滇池度假区“鸥遇生活节”以“观鸥+消费+体验”模式点亮冬日消费。 全市重点商超、购物中心同步推出春节福利，京东MALL、砂之船奥莱等通过消费券、团券优惠等让利于民；苏宁易购等联动“滇超”赛事推出球迷专属福利，以“赛事流量+节日消费”双轮驱动激活实体消费潜力。 商文旅融合与夜间消费持续升级，云南民族村民族年货节、大观公园沉浸式活动注入文化内涵，官渡古镇IP主题活动丰富多元体验；南",
+        "url": "https://www.ynxc.gov.cn/html/2026/jjlb_0126/3031812.html",
+        "publisher": "云南网·云南省政府门户转载",
+        "source_type": "official",
+        "place_name": "斗南花市",
+        "published_at": "2026-01-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.1,
+            "stay": 0.74,
+            "transport": 0.86,
+            "visit_duration": 0.83,
+            "route_length": 0.99,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.1,
+              "probabilities": {
+                "absent": 0.4,
+                "relevant": 0.28,
+                "unclear": 0.32
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.74,
+              "probabilities": {
+                "absent": 0.82,
+                "relevant": 0.03,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.86,
+              "probabilities": {
+                "absent": 0.91,
+                "relevant": 0.05,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.83,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.07,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:52.377176+00:00"
+        }
+      },
+      {
+        "id": "ev_f05f36858f21448e",
+        "title": "赴一场滇池与鸥的预定",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6aaea4a6000000002900f08d",
+        "publisher": "李尤米",
+        "source_type": "xiaohongshu",
+        "place_name": "海埂大坝",
+        "published_at": "2026-09-19",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:16.896583+00:00"
+        }
+      },
+      {
+        "id": "ev_01e20b743c944d5c",
+        "title": "🌇海埂大坝的日落，是昆明独有的浪漫",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6aa7d8ad000000002601806d",
+        "publisher": "若木光",
+        "source_type": "xiaohongshu",
+        "place_name": "海埂大坝",
+        "published_at": "2026-09-14",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.88,
+            "stay": 0.99,
+            "transport": 0.99,
+            "visit_duration": 0.87,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.88,
+              "probabilities": {
+                "absent": 0.91,
+                "relevant": 0.05,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.87,
+              "probabilities": {
+                "absent": 0.91,
+                "relevant": 0.01,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:18.951908+00:00"
+        }
+      },
+      {
+        "id": "ev_57413f33a5584d1f",
+        "title": "📍昆明海埂大坝",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6a910c400000000007007b7b",
+        "publisher": "小月",
+        "source_type": "xiaohongshu",
+        "place_name": "海埂大坝",
+        "published_at": "2026-08-28",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 1,
+            "stay": 0.95,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:23.174829+00:00"
+        }
+      },
+      {
+        "id": "ev_33b44ce2f181485c",
+        "title": "去翠湖公园遛遛",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6aaa94530000000028000417",
+        "publisher": "八月啃老咸鱼",
+        "source_type": "xiaohongshu",
+        "place_name": "翠湖公园",
+        "published_at": "2026-09-16",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.69,
+            "food": 0.95,
+            "stay": 0.92,
+            "transport": 0.21,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.69,
+              "probabilities": {
+                "absent": 0.79,
+                "relevant": 0.04,
+                "unclear": 0.17
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.01,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.01,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.21,
+              "probabilities": {
+                "absent": 0.48,
+                "relevant": 0.15,
+                "unclear": 0.37
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:14.890824+00:00"
+        }
+      },
+      {
+        "id": "ev_f19a1706bdef4795",
+        "title": "昆明翠湖🍃一脚踏进汪曾祺笔下的人间草木",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6a96a189000000000b000740",
+        "publisher": "放娃娘",
+        "source_type": "xiaohongshu",
+        "place_name": "翠湖公园",
+        "published_at": "2026-09-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:08.788067+00:00"
+        }
+      },
+      {
+        "id": "ev_1efc0b9ed0834e41",
+        "title": "来春城过花年！昆明2026迎新春系列文旅活动发布",
+        "excerpt": "1月24日，由昆明市文化和旅游局、昆明市商务局、昆明市园林绿化局联合主办的“神骏踏春至昆明过花年”——昆明2026迎新春系列文旅活动发布会，在昆明市体育场举办。 此次发布会借滇超联赛第二场昆明主场开赛契机，以体育赛事为纽带，深度融合文旅资源、消费福利与城市景观，全面推介昆明新春文旅亮点，生动展现“湖滨春城山水花都”的独特魅力，为即将到来的丙午马年新春营造热烈氛围。发布会现场年味盎然、亮点纷呈，滇超赛事的激情与新春的暖意相互交融，《翠湖》剧组助力、书法家送福、迎财神巡游等活动轮番上演，让市民游客在感受体育活力的同时，提前浸润浓郁年俗氛围。 文旅赋能：多维体验绘就春城春景 围绕“神骏踏春至昆明过花年”主题，昆明文旅多点发力营造浓情年味。斗南花市打造“蹦花迪”“抬花轿”等花漾互动体验；黑龙潭、捞渔河、海埂公园等景区春花绽放，推出“赏花地图”打卡活动。商圈方面，恒隆、同德、融创滇池后海等开展舞狮巡游、非遗展演、元宵灯节等特色活动。街区则以文庙新春雅集、南屏街非遗贺春、南强街鲜花美食为代表，再现传统年味与市井烟火气。 覆盖文娱演出、民俗庙会、体育赛事的超200项活动，让游客在烟火气中感受文化魅力。更力荐尝花宴、眠花宿等多重服务邀请游客体验。 昆明文旅在推出逛翠湖、登金殿、游大坝、观海鸥的沿着昆明经典景区游花海寻年味儿的3日体验线路的同时，也邀请游客在安宁温泉与油菜花田的惬意包围下感受田园暖意，在东川彝族人家篝火与欢歌中同庆新年，在石林奇峰与花海间夜赴电音狂欢，在丰泽源八万株山茶花海中呼吸春天，在轿子山白雪与杜鹃间拥抱新年朝阳，在官渡古镇尝一顿热腾腾的长街宴。在一天里徜徉不同意境的春色花海。 从标注花景花路的“新春活动智慧地图”一码通，到“昆明滇超消费券”特惠，覆盖全域的特色活动、定制化旅行产品，再到一落地长水机场就能享受的全方位公共服务保障，昆明已备好满满诚意，诚邀全国游客赴昆，共度新春、共赴春约。 商务助力：消费惠民激活新春市场 发布会上，昆明市商务局就春节期间消费促进相关举措进行发布，通过多元消费场景搭建、惠民福利发放等方式，进一步激活春节消费市场，让市民游客在畅享文旅盛宴的同时，感受昆明浓厚的消费活力。 2026年春节，昆明联动各县区、行业协会及重点企业，精心策划53项专项促消费活动，打造全域消费盛宴。官渡区新春购物博览会汇集万种好物实现“购全球、品全国”，东川年货节搭建农特产品产销平台，滇池度假区“鸥遇生活节”以“观鸥+消费+体验”模式点亮冬日消费。 全市重点商超、购物中心同步推出春节福利，京东MALL、砂之船奥莱等通过消费券、团券优惠等让利于民；苏宁易购等联动“滇超”赛事推出球迷专属福利，以“赛事流量+节日消费”双轮驱动激活实体消费潜力。 商文旅融合与夜间消费持续升级，云南民族村民族年货节、大观公园沉浸式活动注入文化内涵，官渡古镇IP主题活动丰富多元体验；南",
+        "url": "https://www.ynxc.gov.cn/html/2026/jjlb_0126/3031812.html",
+        "publisher": "云南网·云南省政府门户转载",
+        "source_type": "official",
+        "place_name": "翠湖公园",
+        "published_at": "2026-01-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.06,
+            "stay": 0.77,
+            "transport": 0.83,
+            "visit_duration": 0.79,
+            "route_length": 0.99,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.06,
+              "probabilities": {
+                "absent": 0.38,
+                "relevant": 0.3,
+                "unclear": 0.32
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.77,
+              "probabilities": {
+                "absent": 0.85,
+                "relevant": 0.02,
+                "unclear": 0.13
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.83,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.05,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.79,
+              "probabilities": {
+                "absent": 0.86,
+                "relevant": 0.09,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:49.172557+00:00"
+        }
+      },
+      {
+        "id": "ev_9fa3953c381a4091",
+        "title": "来翠湖了 昆明人好幸福 去过最美的公园",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://www.xiaohongshu.com/explore/6aa9d013000000002902db58",
+        "publisher": "xy瑾予",
+        "source_type": "xiaohongshu",
+        "place_name": "翠湖公园",
+        "published_at": "2026-09-16",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:49:10.805751+00:00"
+        }
+      },
+      {
+        "id": "ev_108664750c444536",
+        "title": "来春城过花年！昆明2026迎新春系列文旅活动发布",
+        "excerpt": "1月24日，由昆明市文化和旅游局、昆明市商务局、昆明市园林绿化局联合主办的“神骏踏春至昆明过花年”——昆明2026迎新春系列文旅活动发布会，在昆明市体育场举办。 此次发布会借滇超联赛第二场昆明主场开赛契机，以体育赛事为纽带，深度融合文旅资源、消费福利与城市景观，全面推介昆明新春文旅亮点，生动展现“湖滨春城山水花都”的独特魅力，为即将到来的丙午马年新春营造热烈氛围。发布会现场年味盎然、亮点纷呈，滇超赛事的激情与新春的暖意相互交融，《翠湖》剧组助力、书法家送福、迎财神巡游等活动轮番上演，让市民游客在感受体育活力的同时，提前浸润浓郁年俗氛围。 文旅赋能：多维体验绘就春城春景 围绕“神骏踏春至昆明过花年”主题，昆明文旅多点发力营造浓情年味。斗南花市打造“蹦花迪”“抬花轿”等花漾互动体验；黑龙潭、捞渔河、海埂公园等景区春花绽放，推出“赏花地图”打卡活动。商圈方面，恒隆、同德、融创滇池后海等开展舞狮巡游、非遗展演、元宵灯节等特色活动。街区则以文庙新春雅集、南屏街非遗贺春、南强街鲜花美食为代表，再现传统年味与市井烟火气。 覆盖文娱演出、民俗庙会、体育赛事的超200项活动，让游客在烟火气中感受文化魅力。更力荐尝花宴、眠花宿等多重服务邀请游客体验。 昆明文旅在推出逛翠湖、登金殿、游大坝、观海鸥的沿着昆明经典景区游花海寻年味儿的3日体验线路的同时，也邀请游客在安宁温泉与油菜花田的惬意包围下感受田园暖意，在东川彝族人家篝火与欢歌中同庆新年，在石林奇峰与花海间夜赴电音狂欢，在丰泽源八万株山茶花海中呼吸春天，在轿子山白雪与杜鹃间拥抱新年朝阳，在官渡古镇尝一顿热腾腾的长街宴。在一天里徜徉不同意境的春色花海。 从标注花景花路的“新春活动智慧地图”一码通，到“昆明滇超消费券”特惠，覆盖全域的特色活动、定制化旅行产品，再到一落地长水机场就能享受的全方位公共服务保障，昆明已备好满满诚意，诚邀全国游客赴昆，共度新春、共赴春约。 商务助力：消费惠民激活新春市场 发布会上，昆明市商务局就春节期间消费促进相关举措进行发布，通过多元消费场景搭建、惠民福利发放等方式，进一步激活春节消费市场，让市民游客在畅享文旅盛宴的同时，感受昆明浓厚的消费活力。 2026年春节，昆明联动各县区、行业协会及重点企业，精心策划53项专项促消费活动，打造全域消费盛宴。官渡区新春购物博览会汇集万种好物实现“购全球、品全国”，东川年货节搭建农特产品产销平台，滇池度假区“鸥遇生活节”以“观鸥+消费+体验”模式点亮冬日消费。 全市重点商超、购物中心同步推出春节福利，京东MALL、砂之船奥莱等通过消费券、团券优惠等让利于民；苏宁易购等联动“滇超”赛事推出球迷专属福利，以“赛事流量+节日消费”双轮驱动激活实体消费潜力。 商文旅融合与夜间消费持续升级，云南民族村民族年货节、大观公园沉浸式活动注入文化内涵，官渡古镇IP主题活动丰富多元体验；南",
+        "url": "https://www.ynxc.gov.cn/html/2026/jjlb_0126/3031812.html",
+        "publisher": "云南网·云南省政府门户转载",
+        "source_type": "official",
+        "place_name": "轿子雪山",
+        "published_at": "2026-01-26",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.98,
+            "food": 0.13,
+            "stay": 0.73,
+            "transport": 0.86,
+            "visit_duration": 0.83,
+            "route_length": 0.99,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.13,
+              "probabilities": {
+                "absent": 0.41,
+                "relevant": 0.28,
+                "unclear": 0.31
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.73,
+              "probabilities": {
+                "absent": 0.8099999999999999,
+                "relevant": 0.03,
+                "unclear": 0.16
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.86,
+              "probabilities": {
+                "absent": 0.91,
+                "relevant": 0.04,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.83,
+              "probabilities": {
+                "absent": 0.89,
+                "relevant": 0.07,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:57:54.487700+00:00"
+        }
+      }
+    ],
+    "climate": {
+      "place_name": "昆明",
+      "latitude": 25.0514737,
+      "longitude": 102.7025838,
+      "period": "1991-01-01/2020-12-31",
+      "label": "1991–2020 月平均气温（ERA5-Land 再分析）",
+      "method": "通过Open-Meteo Historical Weather API，固定ERA5-Land、nearest网格、elevation=nan与Asia/Shanghai日界。对1991–2020每个日历月内全部逐日均温、最高温、最低温分别取算术平均。",
+      "unit": "°C",
+      "source": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.0514737&longitude=102.7025838&start_date=1991-01-01&end_date=2020-12-31&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min&timezone=Asia%2FShanghai&models=era5_land&cell_selection=nearest&elevation=nan",
+        "title": "Open-Meteo Historical Weather API — ERA5-Land daily 2 m temperature",
+        "publisher": "Open-Meteo；ECMWF/Copernicus ERA5-Land",
+        "checked_at": "2026-09-21",
+        "sha256": "d5d955f62c8e0ee1d90b9f9774343f68777852ad89e1b2b425d9009f0a2f7fb8"
+      },
+      "months": [
+        {
+          "month": 1,
+          "mean_c": 8.74,
+          "mean_high_c": 13.98,
+          "mean_low_c": 4.41
+        },
+        {
+          "month": 2,
+          "mean_c": 11.27,
+          "mean_high_c": 16.9,
+          "mean_low_c": 6.29
+        },
+        {
+          "month": 3,
+          "mean_c": 14.99,
+          "mean_high_c": 20.78,
+          "mean_low_c": 9.6
+        },
+        {
+          "month": 4,
+          "mean_c": 17.63,
+          "mean_high_c": 23.38,
+          "mean_low_c": 12.2
+        },
+        {
+          "month": 5,
+          "mean_c": 18.88,
+          "mean_high_c": 23.92,
+          "mean_low_c": 14.29
+        },
+        {
+          "month": 6,
+          "mean_c": 19.14,
+          "mean_high_c": 23.29,
+          "mean_low_c": 15.88
+        },
+        {
+          "month": 7,
+          "mean_c": 18.93,
+          "mean_high_c": 22.8,
+          "mean_low_c": 16.07
+        },
+        {
+          "month": 8,
+          "mean_c": 18.79,
+          "mean_high_c": 22.86,
+          "mean_low_c": 15.67
+        },
+        {
+          "month": 9,
+          "mean_c": 17.35,
+          "mean_high_c": 21.24,
+          "mean_low_c": 14.37
+        },
+        {
+          "month": 10,
+          "mean_c": 14.89,
+          "mean_high_c": 18.77,
+          "mean_low_c": 11.83
+        },
+        {
+          "month": 11,
+          "mean_c": 11.66,
+          "mean_high_c": 16.14,
+          "mean_low_c": 8.0
+        },
+        {
+          "month": 12,
+          "mean_c": 8.59,
+          "mean_high_c": 13.43,
+          "mean_low_c": 4.7
+        }
+      ],
+      "notes": [
+        "请求坐标取翠湖公园附近的OSM区域代表点（https://www.openstreetmap.org/way/24044964），气温为附近网格再分析估计，不是气象站常年值。",
+        "实际返回网格中心25.099998°N、102.70001°E，网格海拔2032.0米。",
+        "1991–2020共10958条唯一逐日记录，三个变量无缺测。",
+        "云南山地高差大；此图不代表雪山、高海拔徒步线路或整个湖区微气候。",
+        "日最高/最低温的月平均不是极端温度；月均温不是天气预报。",
+        "方法说明：https://open-meteo.com/en/docs/historical-weather-api"
+      ]
+    },
+    "screening": {
+      "version": "practical-text-screen-v2",
+      "status": "ready",
+      "total_sources": 28,
+      "classified": 28,
+      "queued": 0,
+      "running": 0,
+      "failed": 0,
+      "unqueued": 0,
+      "category_counts": {
+        "clothing": 4,
+        "food": 1,
+        "stay": 0,
+        "transport": 2,
+        "visit_duration": 3,
+        "route_length": 13,
+        "internal_transport": 1
+      },
+      "failed_sources": [],
+      "config_errors": [],
+      "note": "自动分类只帮助定位相关原文，不生成事实，也不以置信度判断来源真伪。"
+    }
+  },
+  "visitor_seasonality": {
+    "schema_version": "visitor-seasonality-v1",
+    "destination_id": "kunming",
+    "enabled": false,
+    "years": [],
+    "default_year": null,
+    "attractions": [],
+    "monthly": [],
+    "records": [],
+    "validation": {
+      "discarded_records": 0
+    },
+    "notes": []
+  },
+  "route_guides": {
+    "items": [],
+    "available_themes": [],
+    "note": "当前为已收录攻略精选，不是全网热度排行",
+    "visit_period_counts": {
+      "ordinary": 0,
+      "holiday": 0,
+      "unknown": 0
+    }
+  },
+  "nearby": {
+    "origin": {
+      "destination_id": "kunming",
+      "name": "昆明站",
+      "anchor_label": "昆明站",
+      "lat": 25.0186616,
+      "lon": 102.720287,
+      "source_url": "https://www.openstreetmap.org/node/9176075104",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口"
+    },
+    "distance_kind": "straight_line",
+    "max_distance_km": 150,
+    "limit": 3,
+    "items": [],
+    "regions": [],
+    "note": "按有出处的代表点估算直线距离，并非驾车里程或车程；区域包含已配置景点，不代表资料已齐全。"
+  },
+  "time_windows": {
+    "historical_through_year": 2024,
+    "recent_observation_years": [
+      2025,
+      2026
+    ]
+  },
+  "coverage": {
+    "months": [
+      {
+        "month": 1,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 2,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 3,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 4,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 5,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 6,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 7,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 8,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2,
+        "observed_photo_count": 0,
+        "publication_photo_count": 5,
+        "approved_photo_count": 5
+      },
+      {
+        "month": 9,
+        "count": 8,
+        "observed_count": 0,
+        "publication_count": 8,
+        "observed_photo_count": 0,
+        "publication_photo_count": 48,
+        "approved_photo_count": 48
+      },
+      {
+        "month": 10,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 11,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 12,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      }
+    ],
+    "unknown_time": 28,
+    "unassigned_time": 18
+  },
+  "map": {
+    "bounds": [
+      24.64,
+      102.4,
+      26.16,
+      103.46
+    ],
+    "hubs": [
+      {
+        "id": "kunming-station",
+        "name": "昆明站",
+        "kind": "railway",
+        "type": "火车站",
+        "lat": 25.0186616,
+        "lon": 102.720287,
+        "map_source_url": "https://www.openstreetmap.org/node/9176075104",
+        "source_name": "昆明",
+        "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/node/9176075104"
+      },
+      {
+        "id": "kunming-south",
+        "name": "昆明南站",
+        "kind": "railway",
+        "type": "火车站",
+        "lat": 24.8733628,
+        "lon": 102.8603804,
+        "map_source_url": "https://www.openstreetmap.org/node/2865839196",
+        "source_name": "昆明南",
+        "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/node/2865839196"
+      },
+      {
+        "id": "kunming-airport",
+        "name": "昆明长水国际机场",
+        "kind": "airport",
+        "type": "机场",
+        "lat": 25.1087531,
+        "lon": 102.9391513,
+        "map_source_url": "https://www.openstreetmap.org/way/481151584",
+        "source_name": "昆明长水国际机场",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/way/481151584"
+      }
+    ],
+    "roads": [],
+    "image_url": "/static/maps/kunming-urban.svg",
+    "assets": [
+      {
+        "title": "城区与滇池北岸",
+        "description": "城区、湖岸景点与交通枢纽；轿子雪山、石林见区域图。",
+        "image_url": "/static/maps/kunming-urban.svg",
+        "source_url": "https://www.openstreetmap.org/copyright",
+        "source_label": "© OpenStreetMap contributors"
+      },
+      {
+        "title": "石林与轿子雪山",
+        "description": "主城区、石林、轿子雪山及已核实交通枢纽的相对分布。",
+        "image_url": "/static/maps/kunming-region.svg",
+        "source_url": "https://www.openstreetmap.org/copyright",
+        "source_label": "© OpenStreetMap contributors"
+      }
+    ],
+    "transport_sources": [],
+    "limitations": [
+      "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+      "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+      "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+      "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+      "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+      "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。"
+    ]
+  },
+  "limitations": [
+    "作者描述的月份与照片实拍日期分别记录；未知年份的材料不进入历年共识。",
+    "班次、票价和道路时效请以出行当天官方查询为准。"
+  ],
+  "updated_at": "2026-09-21T16:18:21.731386+00:00",
+  "total_evidence": 28,
+  "jobs": [],
+  "source_capabilities": []
+}

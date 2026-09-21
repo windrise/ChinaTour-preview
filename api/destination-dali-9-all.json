@@ -1,0 +1,4341 @@
+{
+  "destination": {
+    "id": "dali",
+    "name": "大理",
+    "description": "沿苍山、洱海与古城街巷，探索大理市的湖光山色和白族古镇。"
+  },
+  "attractions": [
+    {
+      "id": "place_b6dbcd980d7c4a60",
+      "name": "大理古城",
+      "lat": 25.6981637,
+      "lon": 100.1628305,
+      "description": "大理的历史文化街区。",
+      "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 4,
+      "months": [
+        6,
+        8,
+        11
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_e62229e509e0473b"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/767449039",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_bc7fcc1146254f50",
+      "name": "苍山",
+      "lat": 25.7615448,
+      "lon": 100.0967198,
+      "description": "洱海西侧的山地风景区，索道与步道是不同游览方式。",
+      "source_url": "https://www.dali.gov.cn/dlzrmzf/c101724/pc/content/1968887167324360704/content_1968887167324360704.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 3,
+      "months": [
+        6,
+        8
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_f451bdfe3e2f4e6d"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/791076409",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_1b4b542d427847c3",
+      "name": "洱海",
+      "lat": 25.7829149,
+      "lon": 100.191954,
+      "description": "大理高原湖泊；泛指湖面照片仍需核对具体拍摄位置。",
+      "source_url": "https://www.dali.gov.cn/dlzrmzf/c101724/pc/content/1968886945315655680/content_1968886945315655680.html",
+      "photo_url": "/api/media/6e8453d18fcd595ed9b25420",
+      "photo_credit": "清新bot",
+      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
+      "photo_source_url": "https://weibo.com/5773725507/RgqT8EgSm",
+      "photo_month": null,
+      "photo_browse_month": 9,
+      "evidence_count": 4,
+      "months": [
+        6,
+        9,
+        11
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 2,
+          "photo_count": 4,
+          "evidence_ids": [
+            "ev_806d56d4d3494795",
+            "ev_fec861f8fe284f6a"
+          ],
+          "photos": [
+            {
+              "asset_id": "weibo:005NekE1ly1hr5iw53rwvj31hc1z47wi.jpg",
+              "id": "6e8453d18fcd595ed9b25420",
+              "ordinal": 1,
+              "ordinal_basis": "legacy_dom_order",
+              "url": "/api/media/6e8453d18fcd595ed9b25420",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "9ee85730573fef14e7b2e964f0434b7b1f7dd79a5f2054f2b69afcd72988a0bc",
+                "reasons": [],
+                "metrics": {
+                  "width": 1920,
+                  "height": 2560,
+                  "sharpness": 5298.52,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.014162404462695122,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "vegetation",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.5282658338546753,
+                "scene_scores": {
+                  "vegetation": 0.5282658338546753
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://weibo.com/5773725507/RgqT8EgSm",
+              "publisher": "清新bot",
+              "title": "洱海的浪漫 ​​​",
+              "evidence_id": "ev_fec861f8fe284f6a",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-09-03"
+            },
+            {
+              "asset_id": "weibo:005NekE1ly1hr5iw5mlglj31hc1z4x6e.jpg",
+              "id": "3373009ae67f99e73476a9dd",
+              "ordinal": 2,
+              "ordinal_basis": "legacy_dom_order",
+              "url": "/api/media/3373009ae67f99e73476a9dd",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "f238b9903308655986fcec2615fa07bd91e7fd7c17f5cd793fad55e831dd8bb1",
+                "reasons": [],
+                "metrics": {
+                  "width": 1920,
+                  "height": 2560,
+                  "sharpness": 1280.13,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.0061035193502902985,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "mountain",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.7177734375,
+                "scene_scores": {
+                  "water": 0.509765625,
+                  "mountain": 0.7177734375
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://weibo.com/5773725507/RgqT8EgSm",
+              "publisher": "清新bot",
+              "title": "洱海的浪漫 ​​​",
+              "evidence_id": "ev_fec861f8fe284f6a",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-09-03"
+            },
+            {
+              "asset_id": "weibo:005NekE1ly1hr5iw4e6v2j31hc1z4e81.jpg",
+              "id": "f0fa3aca8a79e103c1cb32ae",
+              "ordinal": 3,
+              "ordinal_basis": "legacy_dom_order",
+              "url": "/api/media/f0fa3aca8a79e103c1cb32ae",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "900b628b1333ee14bd108f02455590d901260084baa95f867cb0110e7ce5bafb",
+                "reasons": [],
+                "metrics": {
+                  "width": 1920,
+                  "height": 2560,
+                  "sharpness": 3319.83,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.0024424432776868343,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": false,
+                "scene": null,
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "reason": "uncertain_scene"
+              },
+              "source_url": "https://weibo.com/5773725507/RgqT8EgSm",
+              "publisher": "清新bot",
+              "title": "洱海的浪漫 ​​​",
+              "evidence_id": "ev_fec861f8fe284f6a",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-09-03"
+            },
+            {
+              "asset_id": "weibo:005NekE1ly1hr5iw61lbfj31hc1z47wh.jpg",
+              "id": "705e3c9e4c80e293da4dff9b",
+              "ordinal": 4,
+              "ordinal_basis": "legacy_dom_order",
+              "url": "/api/media/705e3c9e4c80e293da4dff9b",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "3e55481aaf3a8b5b965151b53a76a0a1ca2087e0b9b439c9c522e6598b71623b",
+                "reasons": [],
+                "metrics": {
+                  "width": 1920,
+                  "height": 2560,
+                  "sharpness": 2110.82,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.013457280583679676,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "vegetation",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.7454573512077332,
+                "scene_scores": {
+                  "vegetation": 0.7454573512077332,
+                  "water": 0.5771484375
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://weibo.com/5773725507/RgqT8EgSm",
+              "publisher": "清新bot",
+              "title": "洱海的浪漫 ​​​",
+              "evidence_id": "ev_fec861f8fe284f6a",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-09-03"
+            }
+          ]
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/relation/254433",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_e81edf5f3c1b409a",
+      "name": "喜洲古镇",
+      "lat": 25.8566557,
+      "lon": 100.1303465,
+      "description": "大理市的历史文化古镇。",
+      "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "photo_url": "/api/media/01a801643d0063354e8fd726",
+      "photo_credit": "-TakeIteasy",
+      "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
+      "photo_source_url": "https://weibo.com/2562864177/RimQdtlrJ",
+      "photo_month": null,
+      "photo_browse_month": 9,
+      "evidence_count": 3,
+      "months": [
+        9,
+        11
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 2,
+          "photo_count": 3,
+          "evidence_ids": [
+            "ev_c323f24dcc7b4ede",
+            "ev_355cc73e152f48f4"
+          ],
+          "photos": [
+            {
+              "asset_id": "weibo:98c23431gy1ih5gqshlqwj226c39j7wj.jpg",
+              "id": "3b27c2844a8f2cf45294ee02",
+              "ordinal": 1,
+              "ordinal_basis": "legacy_dom_order",
+              "url": "/api/media/3b27c2844a8f2cf45294ee02",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://weibo.com/2562864177/RimQdtlrJ"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "15ef7285e578ff8ccbcba31eca12e4dc3093f8157dc47c624d1833add59c7ad0",
+                "reasons": [],
+                "metrics": {
+                  "width": 2000,
+                  "height": 3001,
+                  "sharpness": 2881.21,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.004166434984654188,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": false,
+                "scene": null,
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "reason": "uncertain_scene"
+              },
+              "source_url": "https://weibo.com/2562864177/RimQdtlrJ",
+              "publisher": "-TakeIteasy",
+              "title": "📍喜洲古镇 刚进古镇和其他商业化古镇没有区别 一路走入 一路是商家给你推销试吃试用的东西 两个i 人有被吓到 太热情了 其实古镇不算大 不过越往",
+              "evidence_id": "ev_355cc73e152f48f4",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-09-16"
+            },
+            {
+              "asset_id": "weibo:98c23431gy1ih5gqntq3pj22a83fdkjo.jpg",
+              "id": "01a801643d0063354e8fd726",
+              "ordinal": 2,
+              "ordinal_basis": "legacy_dom_order",
+              "url": "/api/media/01a801643d0063354e8fd726",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://weibo.com/2562864177/RimQdtlrJ"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "a15198b660eb21afa4437c0ca20d16d56bc9f1625810088d1261ae415cfd28bb",
+                "reasons": [],
+                "metrics": {
+                  "width": 2000,
+                  "height": 3001,
+                  "sharpness": 3222.49,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.15682189166545868,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "vegetation",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.6788579821586609,
+                "scene_scores": {
+                  "vegetation": 0.6788579821586609
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://weibo.com/2562864177/RimQdtlrJ",
+              "publisher": "-TakeIteasy",
+              "title": "📍喜洲古镇 刚进古镇和其他商业化古镇没有区别 一路走入 一路是商家给你推销试吃试用的东西 两个i 人有被吓到 太热情了 其实古镇不算大 不过越往",
+              "evidence_id": "ev_355cc73e152f48f4",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-09-16"
+            },
+            {
+              "asset_id": "weibo:98c23431gy1ih5gql5c6zj22vk4bc7wk.jpg",
+              "id": "f0816cc8e5d61dfe1e767710",
+              "ordinal": 3,
+              "ordinal_basis": "legacy_dom_order",
+              "url": "/api/media/f0816cc8e5d61dfe1e767710",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://weibo.com/2562864177/RimQdtlrJ"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "3004ee9d8cdd7cd0e94d00dd909815a3528dcf012fa0c10afa3644945833c700",
+                "reasons": [],
+                "metrics": {
+                  "width": 2000,
+                  "height": 3000,
+                  "sharpness": 1021.91,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.010993204079568386,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": false,
+                "scene": null,
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "reason": "uncertain_scene"
+              },
+              "source_url": "https://weibo.com/2562864177/RimQdtlrJ",
+              "publisher": "-TakeIteasy",
+              "title": "📍喜洲古镇 刚进古镇和其他商业化古镇没有区别 一路走入 一路是商家给你推销试吃试用的东西 两个i 人有被吓到 太热情了 其实古镇不算大 不过越往",
+              "evidence_id": "ev_355cc73e152f48f4",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-09-16"
+            }
+          ]
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1528337500",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_cf5850b5cbdd454f",
+      "name": "双廊古镇",
+      "lat": 25.9134683,
+      "lon": 100.1937688,
+      "description": "洱海东北岸的湖滨古镇。",
+      "source_url": "https://www.dali.gov.cn/dlzrmzf/c101724/pc/content/1968886945315655680/content_1968886945315655680.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [
+        11
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/relation/20964490",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "configured_bb2db10088251c699c91",
+      "name": "龙龛码头",
+      "lat": 25.7010643,
+      "lon": 100.2056408,
+      "description": "大理古城附近的洱海码头与湖岸。",
+      "source_url": "https://www.dali.gov.cn/dlzrmzf/c101724/pc/content/1968886945315655680/content_1968886945315655680.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/298035384",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_3d261dbd95f74e5b",
+      "name": "小普陀",
+      "lat": 25.8106151,
+      "lon": 100.221913,
+      "description": "洱海东岸附近的小岛景点。",
+      "source_url": "https://www.dali.gov.cn/dlzrmzf/c101724/pc/content/1968886945315655680/content_1968886945315655680.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [
+        11
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/310515894",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "configured_385a022d1a0592e5da5c",
+      "name": "南诏风情岛",
+      "lat": 25.9050219,
+      "lon": 100.1898019,
+      "description": "洱海双廊附近的岛屿景区。",
+      "source_url": "https://www.dali.gov.cn/dlzrmzf/c101724/pc/content/1968886945315655680/content_1968886945315655680.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/24426778",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "configured_d3ed7e3b8e2c29f59318",
+      "name": "罗荃半岛",
+      "lat": 25.710183,
+      "lon": 100.2363716,
+      "description": "洱海东岸的半岛景区。",
+      "source_url": "https://www.dali.gov.cn/dlzrmzf/c101724/pc/content/1968886945315655680/content_1968886945315655680.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1136461842",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_48178e5191e74032",
+      "name": "龙尾关",
+      "lat": 25.5935422,
+      "lon": 100.2111408,
+      "description": "下关的历史文化街区。",
+      "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_218441a222264798"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1083278287",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "configured_30c0d73354606b7a1391",
+      "name": "崇圣寺三塔",
+      "lat": 25.7086408,
+      "lon": 100.1465644,
+      "description": "位于大理古城西北部、苍山与洱海之间的三塔文化景区。",
+      "source_url": "https://www.ynxc.gov.cn/uploadfile/s61/2024/0419/20240419094718599.pdf",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/7651326585",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_218441a222264798",
+      "place_id": "place_48178e5191e74032",
+      "title": "旅游资源",
+      "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+      "published_at": "2025-11-05",
+      "fetched_at": "2026-09-21T15:57:38.066151+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "publisher": "大理市人民政府",
+      "place_name": "龙尾关",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-11-05",
+      "captured_at": "2026-09-21T15:57:38.066151+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-11-05",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_c323f24dcc7b4ede",
+      "place_id": "place_e81edf5f3c1b409a",
+      "title": "旅游资源",
+      "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+      "published_at": "2025-11-05",
+      "fetched_at": "2026-09-21T15:57:38.054458+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "publisher": "大理市人民政府",
+      "place_name": "喜洲古镇",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-11-05",
+      "captured_at": "2026-09-21T15:57:38.054458+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-11-05",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_806d56d4d3494795",
+      "place_id": "place_1b4b542d427847c3",
+      "title": "旅游资源",
+      "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+      "published_at": "2025-11-05",
+      "fetched_at": "2026-09-21T15:57:38.043265+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "publisher": "大理市人民政府",
+      "place_name": "洱海",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-11-05",
+      "captured_at": "2026-09-21T15:57:38.043265+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-11-05",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_f451bdfe3e2f4e6d",
+      "place_id": "place_bc7fcc1146254f50",
+      "title": "旅游资源",
+      "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+      "published_at": "2025-11-05",
+      "fetched_at": "2026-09-21T15:57:38.032203+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "publisher": "大理市人民政府",
+      "place_name": "苍山",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-11-05",
+      "captured_at": "2026-09-21T15:57:38.032203+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-11-05",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_e62229e509e0473b",
+      "place_id": "place_b6dbcd980d7c4a60",
+      "title": "旅游资源",
+      "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+      "published_at": "2025-11-05",
+      "fetched_at": "2026-09-21T15:57:38.021484+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "publisher": "大理市人民政府",
+      "place_name": "大理古城",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-11-05",
+      "captured_at": "2026-09-21T15:57:38.021484+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-11-05",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_355cc73e152f48f4",
+      "place_id": "place_e81edf5f3c1b409a",
+      "title": "📍喜洲古镇 刚进古镇和其他商业化古镇没有区别 一路走入 一路是商家给你推销试吃试用的东西 两个i 人有被吓到 太热情了 其实古镇不算大 不过越往",
+      "excerpt": "点击原帖查看作者正文与完整说明。",
+      "published_at": null,
+      "fetched_at": "2026-09-21T15:54:18.157565+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/2562864177/RimQdtlrJ",
+      "publisher": "-TakeIteasy",
+      "place_name": "喜洲古镇",
+      "media_count": 18,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "26-9-16 14:13",
+      "captured_at": "2026-09-21T15:54:18.157565+00:00",
+      "topics": [],
+      "media": [
+        {
+          "asset_id": "weibo:98c23431gy1ih5gqshlqwj226c39j7wj.jpg",
+          "id": "3b27c2844a8f2cf45294ee02",
+          "ordinal": 1,
+          "ordinal_basis": "legacy_dom_order",
+          "url": "/api/media/3b27c2844a8f2cf45294ee02",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://weibo.com/2562864177/RimQdtlrJ"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "15ef7285e578ff8ccbcba31eca12e4dc3093f8157dc47c624d1833add59c7ad0",
+            "reasons": [],
+            "metrics": {
+              "width": 2000,
+              "height": 3001,
+              "sharpness": 2881.21,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.004166434984654188,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:98c23431gy1ih5gqntq3pj22a83fdkjo.jpg",
+          "id": "01a801643d0063354e8fd726",
+          "ordinal": 2,
+          "ordinal_basis": "legacy_dom_order",
+          "url": "/api/media/01a801643d0063354e8fd726",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://weibo.com/2562864177/RimQdtlrJ"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "a15198b660eb21afa4437c0ca20d16d56bc9f1625810088d1261ae415cfd28bb",
+            "reasons": [],
+            "metrics": {
+              "width": 2000,
+              "height": 3001,
+              "sharpness": 3222.49,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.15682189166545868,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.6788579821586609,
+            "scene_scores": {
+              "vegetation": 0.6788579821586609
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:98c23431gy1ih5gql5c6zj22vk4bc7wk.jpg",
+          "id": "f0816cc8e5d61dfe1e767710",
+          "ordinal": 3,
+          "ordinal_basis": "legacy_dom_order",
+          "url": "/api/media/f0816cc8e5d61dfe1e767710",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://weibo.com/2562864177/RimQdtlrJ"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "3004ee9d8cdd7cd0e94d00dd909815a3528dcf012fa0c10afa3644945833c700",
+            "reasons": [],
+            "metrics": {
+              "width": 2000,
+              "height": 3000,
+              "sharpness": 1021.91,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.010993204079568386,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-16",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "unconfirmed",
+        "support_excerpt": "",
+        "basis_label": "原文未确认到访时段",
+        "source_url": "https://weibo.com/2562864177/RimQdtlrJ"
+      },
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 18,
+        "total": 18,
+        "scene_counts": {
+          "vegetation": 2,
+          "grassland": 4,
+          "mountain": 1
+        }
+      },
+      "media_review": {
+        "original_count": 18,
+        "approved_count": 3,
+        "hidden_count": 15
+      },
+      "visual_analysis": {
+        "media_total": 18,
+        "analyzed_media": 18,
+        "full_pixel_media": 18,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "3b27c2844a8f2cf45294ee02",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "01a801643d0063354e8fd726",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "f0816cc8e5d61dfe1e767710",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "f683bd89a719f15dab39b2dc",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "47651a75ee9696d7815c3992",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b9c296cae48c542b050bc82f",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7162431dbc383120afa711d7",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b9b46a094a418bab5720a01a",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "5162dd9a70c4a04c0cc49eb4",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "d6701e103f95bec2eaa3e623",
+            "ordinal": 10,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "5d75aad2930a5a946d6eb05a",
+            "ordinal": 11,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "db3e16d15500ae91786e28e4",
+            "ordinal": 12,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "52048e663e3af6ab620e09bd",
+            "ordinal": 13,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "3e4db47c20ad23095ae6bd72",
+            "ordinal": 14,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "875194828e2600282b400912",
+            "ordinal": 15,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "de5721f33e4a896953d5683d",
+            "ordinal": 16,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "369cf26a7672c4fcb8d56d71",
+            "ordinal": 17,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "19795e6b0411a3becc7b806a",
+            "ordinal": 18,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_cfc19c511f81400a",
+      "place_id": "dali",
+      "title": "风吹麦浪 ​​​",
+      "excerpt": "点击原帖查看作者正文与完整说明。",
+      "published_at": null,
+      "fetched_at": "2026-09-21T15:54:18.131842+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/6364002966/RiHnQy4AH",
+      "publisher": "雷曜森",
+      "place_name": "大理",
+      "media_count": 8,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "26-9-18 18:31",
+      "captured_at": "2026-09-21T15:54:18.131842+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-18",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "unconfirmed",
+        "support_excerpt": "",
+        "basis_label": "原文未确认到访时段",
+        "source_url": "https://weibo.com/6364002966/RiHnQy4AH"
+      },
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 8,
+        "total": 8,
+        "scene_counts": {
+          "grassland": 1
+        }
+      },
+      "media_review": {
+        "original_count": 8,
+        "approved_count": 0,
+        "hidden_count": 8
+      },
+      "visual_analysis": {
+        "media_total": 8,
+        "analyzed_media": 8,
+        "full_pixel_media": 8,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "eb55dad91cf53f73d4906949",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "defb1a17af928535dca43d20",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "6c6426ba616449d6d71b56a4",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "7716783e567df0edc00d33eb",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "92c5d3053ea509f92cbdc3f6",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "2ec06062893234ce846155e4",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "2601ea5b6fb39cd9a31d4dee",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "21085e7c39067ab8783bf58c",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_fec861f8fe284f6a",
+      "place_id": "place_1b4b542d427847c3",
+      "title": "洱海的浪漫 ​​​",
+      "excerpt": "点击原帖查看作者正文与完整说明。",
+      "published_at": null,
+      "fetched_at": "2026-09-21T15:54:18.039717+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://weibo.com/5773725507/RgqT8EgSm",
+      "publisher": "清新bot",
+      "place_name": "洱海",
+      "media_count": 9,
+      "media_status": "link_only",
+      "source_type": "weibo",
+      "time_basis": "unknown",
+      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
+      "published_label": "26-9-3 20:51",
+      "captured_at": "2026-09-21T15:54:18.039717+00:00",
+      "topics": [],
+      "media": [
+        {
+          "asset_id": "weibo:005NekE1ly1hr5iw53rwvj31hc1z47wi.jpg",
+          "id": "6e8453d18fcd595ed9b25420",
+          "ordinal": 1,
+          "ordinal_basis": "legacy_dom_order",
+          "url": "/api/media/6e8453d18fcd595ed9b25420",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "9ee85730573fef14e7b2e964f0434b7b1f7dd79a5f2054f2b69afcd72988a0bc",
+            "reasons": [],
+            "metrics": {
+              "width": 1920,
+              "height": 2560,
+              "sharpness": 5298.52,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.014162404462695122,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.5282658338546753,
+            "scene_scores": {
+              "vegetation": 0.5282658338546753
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:005NekE1ly1hr5iw5mlglj31hc1z4x6e.jpg",
+          "id": "3373009ae67f99e73476a9dd",
+          "ordinal": 2,
+          "ordinal_basis": "legacy_dom_order",
+          "url": "/api/media/3373009ae67f99e73476a9dd",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "f238b9903308655986fcec2615fa07bd91e7fd7c17f5cd793fad55e831dd8bb1",
+            "reasons": [],
+            "metrics": {
+              "width": 1920,
+              "height": 2560,
+              "sharpness": 1280.13,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0061035193502902985,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "mountain",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.7177734375,
+            "scene_scores": {
+              "water": 0.509765625,
+              "mountain": 0.7177734375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "weibo:005NekE1ly1hr5iw4e6v2j31hc1z4e81.jpg",
+          "id": "f0fa3aca8a79e103c1cb32ae",
+          "ordinal": 3,
+          "ordinal_basis": "legacy_dom_order",
+          "url": "/api/media/f0fa3aca8a79e103c1cb32ae",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "900b628b1333ee14bd108f02455590d901260084baa95f867cb0110e7ce5bafb",
+            "reasons": [],
+            "metrics": {
+              "width": 1920,
+              "height": 2560,
+              "sharpness": 3319.83,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.0024424432776868343,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "weibo:005NekE1ly1hr5iw61lbfj31hc1z47wh.jpg",
+          "id": "705e3c9e4c80e293da4dff9b",
+          "ordinal": 4,
+          "ordinal_basis": "legacy_dom_order",
+          "url": "/api/media/705e3c9e4c80e293da4dff9b",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "3e55481aaf3a8b5b965151b53a76a0a1ca2087e0b9b439c9c522e6598b71623b",
+            "reasons": [],
+            "metrics": {
+              "width": 1920,
+              "height": 2560,
+              "sharpness": 2110.82,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.013457280583679676,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.7454573512077332,
+            "scene_scores": {
+              "vegetation": 0.7454573512077332,
+              "water": 0.5771484375
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        }
+      ],
+      "claims": [],
+      "confidence_label": "拍摄时间未知",
+      "material_date": "2026-09-03",
+      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "unconfirmed",
+        "support_excerpt": "",
+        "basis_label": "原文未确认到访时段",
+        "source_url": "https://weibo.com/5773725507/RgqT8EgSm"
+      },
+      "browse_month": 9,
+      "browse_year": 2026,
+      "browse_time_basis": "publication_month",
+      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 9,
+        "total": 9,
+        "scene_counts": {
+          "vegetation": 3,
+          "mountain": 3,
+          "water": 1
+        }
+      },
+      "media_review": {
+        "original_count": 9,
+        "approved_count": 4,
+        "hidden_count": 5
+      },
+      "visual_analysis": {
+        "media_total": 9,
+        "analyzed_media": 9,
+        "full_pixel_media": 9,
+        "missing_media_ids": [],
+        "coverage": 1.0,
+        "complete": true,
+        "media": [
+          {
+            "id": "6e8453d18fcd595ed9b25420",
+            "ordinal": 1,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "3373009ae67f99e73476a9dd",
+            "ordinal": 2,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "f0fa3aca8a79e103c1cb32ae",
+            "ordinal": 3,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "705e3c9e4c80e293da4dff9b",
+            "ordinal": 4,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "ff8e11e59560789eee1170c1",
+            "ordinal": 5,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "efa78596a968e41ac48eae0f",
+            "ordinal": 6,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "e4bb6372c74876912aead0a0",
+            "ordinal": 7,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "b0abd9162d427515ff360789",
+            "ordinal": 8,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          },
+          {
+            "id": "a5d6db922872866c4f8da640",
+            "ordinal": 9,
+            "analyzed": true,
+            "file_hash_available": true,
+            "full_pixel_hash_available": true,
+            "animated": false,
+            "feature_version": "full-pixels-v2"
+          }
+        ],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_exact_overlap_found"
+      },
+      "visual_independence_pending": false
+    }
+  ],
+  "baselines": [
+    {
+      "place_id": "place_b6dbcd980d7c4a60",
+      "place_name": "大理古城",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_bc7fcc1146254f50",
+      "place_name": "苍山",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_1b4b542d427847c3",
+      "place_name": "洱海",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_e81edf5f3c1b409a",
+      "place_name": "喜洲古镇",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_cf5850b5cbdd454f",
+      "place_name": "双廊古镇",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_3d261dbd95f74e5b",
+      "place_name": "小普陀",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_48178e5191e74032",
+      "place_name": "龙尾关",
+      "month": 9,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    }
+  ],
+  "changes": [
+    {
+      "id": "092519411bf65348cb1371fcb67fddae0f20fc394d3793a33321d3323b394fff",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.076429+00:00",
+      "before_value": null,
+      "after_value": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单",
+      "reason": "首次自动采集",
+      "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "0c129c1291acf50fe6933c0053f2e4179d14da8d9c7d302ab8b76b14a1d3f7c8",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.065851+00:00",
+      "before_value": null,
+      "after_value": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单",
+      "reason": "首次自动采集",
+      "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "57b6e4f64c5aab2b31696556e8edc252a03bfaf618b6448f1e25ef94d4e05b17",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.053986+00:00",
+      "before_value": null,
+      "after_value": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单",
+      "reason": "首次自动采集",
+      "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "parent_id": null,
+      "kind": "discovery"
+    },
+    {
+      "id": "14b02c937e97821e33bf6d5e2aa84f3e6a9c8eead5ca55614f29a9d7c4cb08a3",
+      "title": "旅游资源",
+      "created_at": "2026-09-21T15:57:38.042931+00:00",
+      "before_value": null,
+      "after_value": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单",
+      "reason": "首次自动采集",
+      "source_url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+      "parent_id": null,
+      "kind": "discovery"
+    }
+  ],
+  "landscape_updates": [],
+  "visual_cohorts": [],
+  "practical": {
+    "facts": [],
+    "origin_label": null,
+    "classified_sources": [
+      {
+        "id": "ev_94e37bd06a274c1f",
+        "title": "二刷大理的攻略来啦！ 【游玩路线】 大理围绕洱海，分为海东和海西两条线。 海东主要是双廊古镇、小普陀、文笔村、理想邦 海西主要是喜洲古镇、生态长",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/7574311384/Qf9WRrPiB",
+        "publisher": "骑狮子的羊宝",
+        "source_type": "weibo",
+        "place_name": "双廊古镇",
+        "published_at": "2025-11-23",
+        "categories": [
+          "clothing",
+          "food",
+          "stay",
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 0.88,
+            "visit_duration": 0.41,
+            "route_length": 0.56,
+            "internal_transport": 0.95
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.56,
+              "probabilities": {
+                "absent": 0.71,
+                "relevant": 0.01,
+                "unclear": 0.28
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.88,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.92,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.41,
+              "probabilities": {
+                "absent": 0.6,
+                "relevant": 0.2,
+                "unclear": 0.2
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:37.812598+00:00"
+        }
+      },
+      {
+        "id": "ev_ea598f1304014bcb",
+        "title": "二刷大理的攻略来啦！ 【游玩路线】 大理围绕洱海，分为海东和海西两条线。 海东主要是双廊古镇、小普陀、文笔村、理想邦 海西主要是喜洲古镇、生态长",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/7574311384/Qf9WRrPiB",
+        "publisher": "骑狮子的羊宝",
+        "source_type": "weibo",
+        "place_name": "喜洲古镇",
+        "published_at": "2025-11-23",
+        "categories": [
+          "clothing",
+          "food",
+          "stay",
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 0.85,
+            "visit_duration": 0.38,
+            "route_length": 0.59,
+            "internal_transport": 0.96
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.59,
+              "probabilities": {
+                "absent": 0.73,
+                "relevant": 0.01,
+                "unclear": 0.26
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.85,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.89,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.38,
+              "probabilities": {
+                "absent": 0.59,
+                "relevant": 0.21,
+                "unclear": 0.2
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:35.949672+00:00"
+        }
+      },
+      {
+        "id": "ev_355cc73e152f48f4",
+        "title": "📍喜洲古镇 刚进古镇和其他商业化古镇没有区别 一路走入 一路是商家给你推销试吃试用的东西 两个i 人有被吓到 太热情了 其实古镇不算大 不过越往",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2562864177/RimQdtlrJ",
+        "publisher": "-TakeIteasy",
+        "source_type": "weibo",
+        "place_name": "喜洲古镇",
+        "published_at": "2026-09-16",
+        "categories": [
+          "visit_duration"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.16,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 0.9,
+            "route_length": 0.43,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.16,
+              "probabilities": {
+                "absent": 0.44,
+                "relevant": 0.23,
+                "unclear": 0.33
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.43,
+              "probabilities": {
+                "absent": 0.62,
+                "relevant": 0.08,
+                "unclear": 0.3
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "relevant",
+              "confidence": 0.9,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.94,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:43.164473+00:00"
+        }
+      },
+      {
+        "id": "ev_42688bb5f7364529",
+        "title": "二刷大理的攻略来啦！ 【游玩路线】 大理围绕洱海，分为海东和海西两条线。 海东主要是双廊古镇、小普陀、文笔村、理想邦 海西主要是喜洲古镇、生态长",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/7574311384/Qf9WRrPiB",
+        "publisher": "骑狮子的羊宝",
+        "source_type": "weibo",
+        "place_name": "大理古城",
+        "published_at": "2025-11-23",
+        "categories": [
+          "clothing",
+          "food",
+          "stay",
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 0.83,
+            "visit_duration": 0.39,
+            "route_length": 0.51,
+            "internal_transport": 0.97
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.51,
+              "probabilities": {
+                "absent": 0.68,
+                "relevant": 0.01,
+                "unclear": 0.31
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.83,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.88,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.39,
+              "probabilities": {
+                "absent": 0.6,
+                "relevant": 0.21,
+                "unclear": 0.19
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:31.998628+00:00"
+        }
+      },
+      {
+        "id": "ev_17af50499634493a",
+        "title": "大理古城逛吃逛买太上头🥧 整条街巷全是惊喜，一路被各类小吃勾住脚步。现烤鲜花饼酥到掉渣，酸甜开胃的凉鸡米线，还有各式特色果脯、菌子小吃，边走边吃",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2034715395/R59mQo6Ow",
+        "publisher": "笔下花花",
+        "source_type": "weibo",
+        "place_name": "大理古城",
+        "published_at": "2026-06-21",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.65,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.65,
+              "probabilities": {
+                "absent": 0.15,
+                "relevant": 0.76,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:24.696077+00:00"
+        }
+      },
+      {
+        "id": "ev_ac7d7485b47c446d",
+        "title": "二刷大理的攻略来啦！ 【游玩路线】 大理围绕洱海，分为海东和海西两条线。 海东主要是双廊古镇、小普陀、文笔村、理想邦 海西主要是喜洲古镇、生态长",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/7574311384/Qf9WRrPiB",
+        "publisher": "骑狮子的羊宝",
+        "source_type": "weibo",
+        "place_name": "小普陀",
+        "published_at": "2025-11-23",
+        "categories": [
+          "clothing",
+          "food",
+          "stay",
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 0.82,
+            "visit_duration": 0.47,
+            "route_length": 0.59,
+            "internal_transport": 0.96
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.02,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.59,
+              "probabilities": {
+                "absent": 0.72,
+                "relevant": 0.01,
+                "unclear": 0.27
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.82,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.89,
+                "unclear": 0.08
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.47,
+              "probabilities": {
+                "absent": 0.64,
+                "relevant": 0.17,
+                "unclear": 0.19
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:39.529245+00:00"
+        }
+      },
+      {
+        "id": "ev_1baa98e6c2844eee",
+        "title": "二刷大理的攻略来啦！ 【游玩路线】 大理围绕洱海，分为海东和海西两条线。 海东主要是双廊古镇、小普陀、文笔村、理想邦 海西主要是喜洲古镇、生态长",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/7574311384/Qf9WRrPiB",
+        "publisher": "骑狮子的羊宝",
+        "source_type": "weibo",
+        "place_name": "洱海",
+        "published_at": "2025-11-23",
+        "categories": [
+          "clothing",
+          "food",
+          "stay",
+          "transport"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 0.87,
+            "visit_duration": 0.32,
+            "route_length": 0.57,
+            "internal_transport": 0.97
+          },
+          "answers": {
+            "clothing": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.57,
+              "probabilities": {
+                "absent": 0.72,
+                "relevant": 0.01,
+                "unclear": 0.27
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 1,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.87,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.92,
+                "unclear": 0.06
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.32,
+              "probabilities": {
+                "absent": 0.55,
+                "relevant": 0.22,
+                "unclear": 0.23
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:33.966276+00:00"
+        }
+      },
+      {
+        "id": "ev_92ced4da63754d37",
+        "title": "大理古城逛吃逛买太上头🥧 整条街巷全是惊喜，一路被各类小吃勾住脚步。现烤鲜花饼酥到掉渣，酸甜开胃的凉鸡米线，还有各式特色果脯、菌子小吃，边走边吃",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2034715395/R59mQo6Ow",
+        "publisher": "笔下花花",
+        "source_type": "weibo",
+        "place_name": "洱海",
+        "published_at": "2026-06-21",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.53,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.53,
+              "probabilities": {
+                "absent": 0.19,
+                "relevant": 0.6799999999999999,
+                "unclear": 0.13
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:28.403697+00:00"
+        }
+      },
+      {
+        "id": "ev_c098ef95bbc14789",
+        "title": "大理古城逛吃逛买太上头🥧 整条街巷全是惊喜，一路被各类小吃勾住脚步。现烤鲜花饼酥到掉渣，酸甜开胃的凉鸡米线，还有各式特色果脯、菌子小吃，边走边吃",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2034715395/R59mQo6Ow",
+        "publisher": "笔下花花",
+        "source_type": "weibo",
+        "place_name": "苍山",
+        "published_at": "2026-06-21",
+        "categories": [
+          "food"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.64,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "relevant",
+              "confidence": 0.64,
+              "probabilities": {
+                "absent": 0.15,
+                "relevant": 0.76,
+                "unclear": 0.09
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:26.648536+00:00"
+        }
+      },
+      {
+        "id": "ev_c323f24dcc7b4ede",
+        "title": "旅游资源",
+        "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+        "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+        "publisher": "大理市人民政府",
+        "source_type": "official",
+        "place_name": "喜洲古镇",
+        "published_at": "2025-11-05",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:11.515364+00:00"
+        }
+      },
+      {
+        "id": "ev_cfc19c511f81400a",
+        "title": "风吹麦浪 ​​​",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/6364002966/RiHnQy4AH",
+        "publisher": "雷曜森",
+        "source_type": "weibo",
+        "place_name": "大理",
+        "published_at": "2026-09-18",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.98,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.98,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:41.252993+00:00"
+        }
+      },
+      {
+        "id": "ev_0b368995f3084439",
+        "title": "总要为大理的温柔，奔赴一次人间烟火🍃 终于懂了为什么所有人都爱大理✨ 这里没有城市的快节奏，只有慢悠悠的风 温柔的云和治愈的烟火人间 漫步大理古",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/5246311483/RfeM51dky",
+        "publisher": "锦上先生",
+        "source_type": "weibo",
+        "place_name": "大理古城",
+        "published_at": "2026-08-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 0.96,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:20.013629+00:00"
+        }
+      },
+      {
+        "id": "ev_e62229e509e0473b",
+        "title": "旅游资源",
+        "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+        "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+        "publisher": "大理市人民政府",
+        "source_type": "official",
+        "place_name": "大理古城",
+        "published_at": "2025-11-05",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:08.779104+00:00"
+        }
+      },
+      {
+        "id": "ev_806d56d4d3494795",
+        "title": "旅游资源",
+        "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+        "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+        "publisher": "大理市人民政府",
+        "source_type": "official",
+        "place_name": "洱海",
+        "published_at": "2025-11-05",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:10.626733+00:00"
+        }
+      },
+      {
+        "id": "ev_fec861f8fe284f6a",
+        "title": "洱海的浪漫 ​​​",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/5773725507/RgqT8EgSm",
+        "publisher": "清新bot",
+        "source_type": "weibo",
+        "place_name": "洱海",
+        "published_at": "2026-09-03",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:30.192569+00:00"
+        }
+      },
+      {
+        "id": "ev_99f828b312e8494a",
+        "title": "总要为大理的温柔，奔赴一次人间烟火🍃 终于懂了为什么所有人都爱大理✨ 这里没有城市的快节奏，只有慢悠悠的风 温柔的云和治愈的烟火人间 漫步大理古",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/5246311483/RfeM51dky",
+        "publisher": "锦上先生",
+        "source_type": "weibo",
+        "place_name": "苍山",
+        "published_at": "2026-08-27",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.96,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:54:22.836347+00:00"
+        }
+      },
+      {
+        "id": "ev_f451bdfe3e2f4e6d",
+        "title": "旅游资源",
+        "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+        "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+        "publisher": "大理市人民政府",
+        "source_type": "official",
+        "place_name": "苍山",
+        "published_at": "2025-11-05",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:09.638583+00:00"
+        }
+      },
+      {
+        "id": "ev_218441a222264798",
+        "title": "旅游资源",
+        "excerpt": "大理市自然风光秀丽，人文历史悠久，旅游资源十分丰富，素有“高原明珠”“东方瑞士”之美誉，是国内外著名的旅游城市。境内苍山、洱海是国家级风景名胜区和自然保护区，苍山同时是世界地质公园。大理市有著名历史文化街区——大理古城、喜洲古镇、龙尾关街区，有A级旅游景区11家，境内还有全国重点文物保护单位9处，省级文物保护单位17处，州级文物保护单位33处，市级文物保护单位43处，共有各级文物保护单位102处。境内民族风情浓郁，名胜古迹众多，吸引着中外旅游者不远万里纷至沓来。",
+        "url": "https://www.yndali.gov.cn/dlsrmzf/c103380/pc/content/1985989376943951872/content_1985989376943951872.html",
+        "publisher": "大理市人民政府",
+        "source_type": "official",
+        "place_name": "龙尾关",
+        "published_at": "2025-11-05",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:12.389657+00:00"
+        }
+      }
+    ],
+    "climate": {
+      "place_name": "大理",
+      "latitude": 25.6981637,
+      "longitude": 100.1628305,
+      "period": "1991-01-01/2020-12-31",
+      "label": "1991–2020 月平均气温（ERA5-Land 再分析）",
+      "method": "通过Open-Meteo Historical Weather API，固定ERA5-Land、nearest网格、elevation=nan与Asia/Shanghai日界。对1991–2020每个日历月内全部逐日均温、最高温、最低温分别取算术平均。",
+      "unit": "°C",
+      "source": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.6981637&longitude=100.1628305&start_date=1991-01-01&end_date=2020-12-31&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min&timezone=Asia%2FShanghai&models=era5_land&cell_selection=nearest&elevation=nan",
+        "title": "Open-Meteo Historical Weather API — ERA5-Land daily 2 m temperature",
+        "publisher": "Open-Meteo；ECMWF/Copernicus ERA5-Land",
+        "checked_at": "2026-09-22",
+        "sha256": "684aea1d3e6a8848a5807525f0081f65fb3207b21be3d12d0d87285424f83a90"
+      },
+      "months": [
+        {
+          "month": 1,
+          "mean_c": 8.3,
+          "mean_high_c": 13.03,
+          "mean_low_c": 4.43
+        },
+        {
+          "month": 2,
+          "mean_c": 10.06,
+          "mean_high_c": 15.3,
+          "mean_low_c": 5.47
+        },
+        {
+          "month": 3,
+          "mean_c": 13.19,
+          "mean_high_c": 18.8,
+          "mean_low_c": 8.14
+        },
+        {
+          "month": 4,
+          "mean_c": 15.93,
+          "mean_high_c": 21.59,
+          "mean_low_c": 10.85
+        },
+        {
+          "month": 5,
+          "mean_c": 17.95,
+          "mean_high_c": 23.01,
+          "mean_low_c": 13.6
+        },
+        {
+          "month": 6,
+          "mean_c": 18.92,
+          "mean_high_c": 22.93,
+          "mean_low_c": 15.93
+        },
+        {
+          "month": 7,
+          "mean_c": 18.44,
+          "mean_high_c": 21.88,
+          "mean_low_c": 16.15
+        },
+        {
+          "month": 8,
+          "mean_c": 18.41,
+          "mean_high_c": 21.99,
+          "mean_low_c": 15.91
+        },
+        {
+          "month": 9,
+          "mean_c": 17.35,
+          "mean_high_c": 20.85,
+          "mean_low_c": 14.89
+        },
+        {
+          "month": 10,
+          "mean_c": 15.31,
+          "mean_high_c": 18.82,
+          "mean_low_c": 12.65
+        },
+        {
+          "month": 11,
+          "mean_c": 11.95,
+          "mean_high_c": 15.8,
+          "mean_low_c": 8.83
+        },
+        {
+          "month": 12,
+          "mean_c": 9.11,
+          "mean_high_c": 13.33,
+          "mean_low_c": 5.71
+        }
+      ],
+      "notes": [
+        "请求坐标取大理古城附近的OSM区域代表点（https://www.openstreetmap.org/way/767449039），气温为附近网格再分析估计，不是气象站常年值。",
+        "实际返回网格中心25.700005°N、100.20001°E，网格海拔2169.0米。",
+        "1991–2020共10958条唯一逐日记录，三个变量无缺测。",
+        "云南山地高差大；此图不代表雪山、高海拔徒步线路或整个湖区微气候。",
+        "日最高/最低温的月平均不是极端温度；月均温不是天气预报。",
+        "方法说明：https://open-meteo.com/en/docs/historical-weather-api"
+      ]
+    },
+    "screening": {
+      "version": "practical-text-screen-v2",
+      "status": "ready",
+      "total_sources": 18,
+      "classified": 18,
+      "queued": 0,
+      "running": 0,
+      "failed": 0,
+      "unqueued": 0,
+      "category_counts": {
+        "clothing": 5,
+        "food": 8,
+        "stay": 5,
+        "transport": 5,
+        "visit_duration": 1,
+        "route_length": 0,
+        "internal_transport": 0
+      },
+      "failed_sources": [],
+      "config_errors": [],
+      "note": "自动分类只帮助定位相关原文，不生成事实，也不以置信度判断来源真伪。"
+    }
+  },
+  "visitor_seasonality": {
+    "schema_version": "visitor-seasonality-v1",
+    "destination_id": "dali",
+    "enabled": false,
+    "years": [],
+    "default_year": null,
+    "attractions": [],
+    "monthly": [],
+    "records": [],
+    "validation": {
+      "discarded_records": 0
+    },
+    "notes": []
+  },
+  "route_guides": {
+    "items": [],
+    "available_themes": [],
+    "note": "当前为已收录攻略精选，不是全网热度排行",
+    "visit_period_counts": {
+      "ordinary": 0,
+      "holiday": 0,
+      "unknown": 0
+    }
+  },
+  "nearby": {
+    "origin": {
+      "destination_id": "dali",
+      "name": "大理站",
+      "anchor_label": "大理站",
+      "lat": 25.5919445,
+      "lon": 100.2485243,
+      "source_url": "https://www.openstreetmap.org/node/2215381943",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口"
+    },
+    "distance_kind": "straight_line",
+    "max_distance_km": 150,
+    "limit": 3,
+    "items": [
+      {
+        "destination_id": "lijiang",
+        "name": "丽江",
+        "anchor_label": "丽江站",
+        "lat": 26.8143271,
+        "lon": 100.2512118,
+        "source_url": "https://www.openstreetmap.org/node/1530613773",
+        "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+        "id": "destination-lijiang",
+        "destination_name": "丽江",
+        "category": "destination",
+        "description": "漫步古城和纳西古镇，再向玉龙雪山、蓝月谷与湖泊湿地延伸。",
+        "attraction_ids": [
+          "place_b0a746452e5d4443",
+          "place_1be58a24ea514f90",
+          "place_da2f75a08f154fd0",
+          "place_635106c788164cd3",
+          "place_48359ee6a1724917",
+          "place_f3d4bd198b9443aa",
+          "place_a2b508f6a6dd44a2",
+          "place_d8e0dc61156140b3"
+        ],
+        "attraction_names": [
+          "丽江古城",
+          "玉龙雪山",
+          "蓝月谷",
+          "黑龙潭公园",
+          "束河古镇",
+          "白沙古镇",
+          "拉市海湿地",
+          "东巴谷"
+        ],
+        "distance_km": 135.9,
+        "distance_kind": "straight_line"
+      }
+    ],
+    "regions": [],
+    "note": "按有出处的代表点估算直线距离，并非驾车里程或车程；区域包含已配置景点，不代表资料已齐全。"
+  },
+  "time_windows": {
+    "historical_through_year": 2024,
+    "recent_observation_years": [
+      2025,
+      2026
+    ]
+  },
+  "coverage": {
+    "months": [
+      {
+        "month": 1,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 2,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 3,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 4,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 5,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 6,
+        "count": 3,
+        "observed_count": 0,
+        "publication_count": 3,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 7,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 8,
+        "count": 2,
+        "observed_count": 0,
+        "publication_count": 2,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 9,
+        "count": 3,
+        "observed_count": 0,
+        "publication_count": 3,
+        "observed_photo_count": 0,
+        "publication_photo_count": 7,
+        "approved_photo_count": 7
+      },
+      {
+        "month": 10,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 11,
+        "count": 5,
+        "observed_count": 0,
+        "publication_count": 5,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 12,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      }
+    ],
+    "unknown_time": 18,
+    "unassigned_time": 5
+  },
+  "map": {
+    "bounds": [
+      25.56,
+      100.0,
+      25.98,
+      100.36
+    ],
+    "hubs": [
+      {
+        "id": "dali-station",
+        "name": "大理站",
+        "kind": "railway",
+        "type": "火车站",
+        "lat": 25.5919445,
+        "lon": 100.2485243,
+        "map_source_url": "https://www.openstreetmap.org/node/2215381943",
+        "source_name": "大理",
+        "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/node/2215381943"
+      },
+      {
+        "id": "dali-airport",
+        "name": "大理凤仪机场",
+        "kind": "airport",
+        "type": "机场",
+        "lat": 25.649768,
+        "lon": 100.3198055,
+        "map_source_url": "https://www.openstreetmap.org/way/142382433",
+        "source_name": "大理凤仪机场",
+        "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/way/142382433"
+      }
+    ],
+    "roads": [],
+    "image_url": "/static/maps/dali-overview.svg",
+    "assets": [
+      {
+        "title": "洱海、古镇与交通",
+        "description": "湖区真实水体与主路；苍山为山脉代表点，古镇点不表示入口。",
+        "image_url": "/static/maps/dali-overview.svg",
+        "source_url": "https://www.openstreetmap.org/copyright",
+        "source_label": "© OpenStreetMap contributors"
+      }
+    ],
+    "transport_sources": [],
+    "limitations": [
+      "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+      "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+      "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+      "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+      "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+      "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。"
+    ]
+  },
+  "limitations": [
+    "作者描述的月份与照片实拍日期分别记录；未知年份的材料不进入历年共识。",
+    "班次、票价和道路时效请以出行当天官方查询为准。"
+  ],
+  "updated_at": "2026-09-21T15:57:38.066151+00:00",
+  "total_evidence": 18,
+  "jobs": [],
+  "source_capabilities": []
+}

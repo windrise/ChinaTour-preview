@@ -1,0 +1,195 @@
+{
+  "destination": "shangrila",
+  "coordinate_system": "WGS84",
+  "retrieved_at": "2026-09-21",
+  "script": "scripts/build_manifest_context_maps.py",
+  "sources": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:50];nwr(27.05,99.25,28.45,100.4)[\"name\"~\"独克宗|松赞林|普达措|纳帕海|白水台|巴拉格宗|石卡|尼汝|虎跳峡|香格里拉站|迪庆.*机场|香格里拉.*机场\"];out center tags;",
+      "retrieved_at": "2026-09-21T15:49:23.908050+00:00",
+      "path": "data/onboarding/yunnan/shangrila-pois.json",
+      "sha256": "43d30252d7a5493a997fb3304b7e3c77a1ccce883f16a6136f6132a76089f0f2",
+      "bytes": 20033,
+      "element_count": 68,
+      "osm_base_timestamp": "2026-09-21T15:47:45Z",
+      "status": "complete"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:20];(way(26.60,99.96,27.24,100.36)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];way(27.12,99.38,28.40,100.22)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];relation(4033213);way(1068747565);way(43625312);nwr(24.30,102.74,24.76,103.04)[\"amenity\"=\"bus_station\"];);out body geom;",
+      "retrieved_at": "2026-09-21T15:57:20.392774+00:00",
+      "path": "data/onboarding/yunnan/mountain-context.json",
+      "sha256": "ade72cf13616ee0eadb0d0bd7016084c78a7663ed7f7f5d7bccc119a7339d444",
+      "bytes": 5370064,
+      "element_count": 1759,
+      "osm_base_timestamp": "2026-09-21T15:55:51Z",
+      "status": "complete"
+    }
+  ],
+  "attractions": [
+    {
+      "name": "独克宗古城",
+      "lat": 27.8105688,
+      "lon": 99.7059703,
+      "map_source_url": "https://www.openstreetmap.org/way/763318050",
+      "source_name": "独克宗古城",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "松赞林寺",
+      "lat": 27.8635702,
+      "lon": 99.704412,
+      "map_source_url": "https://www.openstreetmap.org/way/187166845",
+      "source_name": "噶丹松赞林",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "普达措国家公园",
+      "lat": 27.9137543,
+      "lon": 99.9214922,
+      "map_source_url": "https://www.openstreetmap.org/way/832323147",
+      "source_name": "普达措国家公园",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "纳帕海",
+      "lat": 27.8588132,
+      "lon": 99.6500108,
+      "map_source_url": "https://www.openstreetmap.org/way/36897816",
+      "source_name": "纳帕海",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "白水台",
+      "lat": 27.5021285,
+      "lon": 100.0335941,
+      "map_source_url": "https://www.openstreetmap.org/way/459808345",
+      "source_name": "白水台",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "巴拉格宗",
+      "lat": 28.3471922,
+      "lon": 99.4398954,
+      "map_source_url": "https://www.openstreetmap.org/way/1479523252",
+      "source_name": "巴拉格宗",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "石卡雪山",
+      "lat": 27.7974054,
+      "lon": 99.5902684,
+      "map_source_url": "https://www.openstreetmap.org/node/4691879389",
+      "source_name": "石卡雪山",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "尼汝",
+      "lat": 27.9511092,
+      "lon": 100.0689018,
+      "map_source_url": "https://www.openstreetmap.org/node/2968810953",
+      "source_name": "尼汝村",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "虎跳峡",
+      "lat": 27.2044019,
+      "lon": 100.1206446,
+      "map_source_url": "https://www.openstreetmap.org/node/774523525",
+      "source_name": "虎跳峡",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    }
+  ],
+  "hubs": [
+    {
+      "id": "shangrila-station",
+      "name": "香格里拉站",
+      "kind": "railway",
+      "type": "火车站",
+      "lat": 27.8134165,
+      "lon": 99.6885811,
+      "map_source_url": "https://www.openstreetmap.org/way/1007688235",
+      "source_name": "香格里拉站",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/way/1007688235"
+    },
+    {
+      "id": "shangrila-airport",
+      "name": "迪庆香格里拉机场",
+      "kind": "airport",
+      "type": "机场",
+      "lat": 27.7920107,
+      "lon": 99.6782239,
+      "map_source_url": "https://www.openstreetmap.org/way/163714636",
+      "source_name": "迪庆香格里拉机场",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/way/163714636"
+    }
+  ],
+  "notes": [
+    "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+    "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+    "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+    "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+    "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+    "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。",
+    "早期宽图层查询曾返回504或429；最终采用20秒预算的主干道路及指定湖泊查询，成功返回的1759对象共享源按每幅地图范围裁取，不绘制未取得的其他图层。"
+  ],
+  "panels": [
+    {
+      "title": "城区、纳帕海与普达措",
+      "description": "独克宗、寺院、湖区与机场火车站；远郊景点见区域图。",
+      "bounds": [
+        27.76,
+        99.55,
+        27.99,
+        100.04
+      ],
+      "scale_km": 5,
+      "show_attraction_labels": true,
+      "show_context": false,
+      "water_labels": [],
+      "output": "chinatour/static/maps/shangrila-urban.svg",
+      "attraction_numbers": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "title": "区域景点分布",
+      "description": "尼汝、巴拉格宗、白水台和虎跳峡；真实道路几何不等于可通行导航。",
+      "bounds": [
+        27.12,
+        99.38,
+        28.4,
+        100.22
+      ],
+      "scale_km": 20,
+      "show_attraction_labels": true,
+      "show_context": false,
+      "water_labels": [],
+      "output": "chinatour/static/maps/shangrila-region.svg",
+      "attraction_numbers": [
+        5,
+        6,
+        8,
+        9
+      ]
+    }
+  ]
+}

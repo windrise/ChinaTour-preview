@@ -10,7 +10,7 @@
       "name": "天目湖山水园",
       "lat": 31.3037721,
       "lon": 119.4286978,
-      "description": "天目湖山水园,国家5A级景区。作为天目湖的核心景区，山水园景区是天目湖诗意天成的精华所在，拥有慈孝文化园、状元文化区、奇石馆、精灵国、彩蝶谷、中国茶岛等景点。",
+      "description": "湖岛景观与游船。地图标记为景区区域位置。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138952.html",
       "photo_url": null,
       "photo_credit": "®王小貝儿〰",
@@ -122,7 +122,7 @@
       "name": "南山竹海",
       "lat": 31.1707134,
       "lon": 119.5200143,
-      "description": "南山竹海，国家5A级景区。景区以竹文化和寿文化为主题，坐拥3.5万亩翠竹。",
+      "description": "竹林、静湖与山地景观。地图标记为景区区域位置。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138951.html",
       "photo_url": null,
       "photo_credit": null,
@@ -191,7 +191,7 @@
       "name": "御水温泉",
       "lat": 31.1832902,
       "lon": 119.5286808,
-      "description": "御水温泉，国内最具特色的温泉度假目的地，国家5A级景区，2011年3月被评为“中国十大温泉”之一，位于江苏省常州市溧阳市南山景区管委会、戴埠镇李家园村888号。御水温泉群山环绕，置身于万亩竹海之中，天然氧吧，一天之中隐隐有四季变化，无论何时，御水温泉都是您泡汤休闲的好去处。",
+      "description": "南山竹海附近的温泉景区。地图标记为建筑区域位置。",
       "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKNFQEKH_0710/138950.html",
       "photo_url": "/api/media/43d8ee146304b8d9e6981604",
       "photo_credit": "兔兔",
@@ -23758,8 +23758,8 @@
         "observed_count": 0,
         "publication_count": 9,
         "observed_photo_count": 0,
-        "publication_photo_count": 3,
-        "approved_photo_count": 3
+        "publication_photo_count": 17,
+        "approved_photo_count": 17
       }
     ],
     "unknown_time": 174,

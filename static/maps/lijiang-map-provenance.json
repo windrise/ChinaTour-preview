@@ -1,0 +1,197 @@
+{
+  "destination": "lijiang",
+  "coordinate_system": "WGS84",
+  "retrieved_at": "2026-09-21",
+  "script": "scripts/build_manifest_context_maps.py",
+  "sources": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:35];nwr(26.55,99.80,27.30,100.50)[\"name\"~\"丽江古城|大研|玉龙雪山|蓝月谷|黑龙潭|束河|白沙|拉市海|东巴谷|丽江站|丽江三义|丽江机场\"];out center tags;",
+      "retrieved_at": "2026-09-21T15:52:02.450502+00:00",
+      "path": "data/onboarding/yunnan/lijiang-pois.json",
+      "sha256": "eade7003868037b58b21cc5bb7ffadd60019c2990e8954033f7da1c842dce1bf",
+      "bytes": 65704,
+      "element_count": 214,
+      "osm_base_timestamp": "2026-09-21T15:50:51Z",
+      "status": "complete"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:30];(nwr(24.64,102.40,25.18,103.05)[\"railway\"=\"station\"][\"name\"~\"^昆明$|^昆明南$\"];nwr(25.55,100.20,25.66,100.34)[\"railway\"=\"station\"][\"name\"~\"^大理$\"];nwr(26.6,100.15,26.95,100.4)[\"railway\"=\"station\"][\"name\"~\"^丽江$\"];);out center tags;",
+      "retrieved_at": "2026-09-21T15:53:21.865491+00:00",
+      "path": "data/onboarding/yunnan/hubs.json",
+      "sha256": "a83c342ccf79c616f8f3f48e4ab36919712aaa45f57f620b3aa51a02c4a1260f",
+      "bytes": 3270,
+      "element_count": 4,
+      "osm_base_timestamp": "2026-09-21T15:51:51Z",
+      "status": "complete"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:20];(way(26.60,99.96,27.24,100.36)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];way(27.12,99.38,28.40,100.22)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];relation(4033213);way(1068747565);way(43625312);nwr(24.30,102.74,24.76,103.04)[\"amenity\"=\"bus_station\"];);out body geom;",
+      "retrieved_at": "2026-09-21T15:57:20.392774+00:00",
+      "path": "data/onboarding/yunnan/mountain-context.json",
+      "sha256": "ade72cf13616ee0eadb0d0bd7016084c78a7663ed7f7f5d7bccc119a7339d444",
+      "bytes": 5370064,
+      "element_count": 1759,
+      "osm_base_timestamp": "2026-09-21T15:55:51Z",
+      "status": "complete"
+    }
+  ],
+  "attractions": [
+    {
+      "name": "丽江古城",
+      "lat": 26.8738919,
+      "lon": 100.2357103,
+      "map_source_url": "https://www.openstreetmap.org/way/995072106",
+      "source_name": "丽江古城",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "玉龙雪山",
+      "lat": 27.0984141,
+      "lon": 100.1767026,
+      "map_source_url": "https://www.openstreetmap.org/node/298460509",
+      "source_name": "玉龙雪山",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "采用OSM玉龙雪山山峰节点，表示山体位置，不是景区入口、索道站或登山路线。"
+    },
+    {
+      "name": "蓝月谷",
+      "lat": 27.1293933,
+      "lon": 100.241924,
+      "map_source_url": "https://www.openstreetmap.org/way/1000077392",
+      "source_name": "蓝月谷",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "黑龙潭公园",
+      "lat": 26.8921969,
+      "lon": 100.2404701,
+      "map_source_url": "https://www.openstreetmap.org/way/43625312",
+      "source_name": "黑龙潭公园",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "束河古镇",
+      "lat": 26.923488,
+      "lon": 100.2039308,
+      "map_source_url": "https://www.openstreetmap.org/way/995077673",
+      "source_name": "束河古镇",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "白沙古镇",
+      "lat": 26.9565052,
+      "lon": 100.2149315,
+      "map_source_url": "https://www.openstreetmap.org/way/1000077589",
+      "source_name": "白沙古镇",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "拉市海湿地",
+      "lat": 26.8646762,
+      "lon": 100.1380643,
+      "map_source_url": "https://www.openstreetmap.org/way/602685431",
+      "source_name": "拉市海湿地公园",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "东巴谷",
+      "lat": 27.0114354,
+      "lon": 100.2609904,
+      "map_source_url": "https://www.openstreetmap.org/way/1000081087",
+      "source_name": "东巴谷",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    }
+  ],
+  "hubs": [
+    {
+      "id": "lijiang-station",
+      "name": "丽江站",
+      "kind": "railway",
+      "type": "火车站",
+      "lat": 26.8143271,
+      "lon": 100.2512118,
+      "map_source_url": "https://www.openstreetmap.org/node/1530613773",
+      "source_name": "丽江",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/node/1530613773"
+    },
+    {
+      "id": "lijiang-airport",
+      "name": "丽江三义国际机场",
+      "kind": "airport",
+      "type": "机场",
+      "lat": 26.6747606,
+      "lon": 100.2438323,
+      "map_source_url": "https://www.openstreetmap.org/way/163787957",
+      "source_name": "丽江三义国际机场",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/way/163787957"
+    }
+  ],
+  "notes": [
+    "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+    "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+    "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+    "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+    "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+    "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。",
+    "早期宽图层查询曾返回504或429；最终采用20秒预算的主干道路及指定湖泊查询，成功返回的1759对象共享源按每幅地图范围裁取，不绘制未取得的其他图层。"
+  ],
+  "panels": [
+    {
+      "title": "古城、束河与白沙",
+      "description": "古城、湿地、古镇与丽江站；雪山、蓝月谷及机场见区域图。",
+      "bounds": [
+        26.79,
+        100.08,
+        27.025,
+        100.32
+      ],
+      "scale_km": 3,
+      "show_attraction_labels": true,
+      "show_context": false,
+      "water_labels": [],
+      "output": "chinatour/static/maps/lijiang-urban.svg",
+      "attraction_numbers": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "title": "雪山、古城与机场",
+      "description": "玉龙雪山采用OSM山峰节点；代表山体位置，不是索道或景区入口。",
+      "bounds": [
+        26.6,
+        99.96,
+        27.24,
+        100.36
+      ],
+      "scale_km": 10,
+      "show_attraction_labels": true,
+      "show_context": false,
+      "water_labels": [],
+      "output": "chinatour/static/maps/lijiang-region.svg",
+      "attraction_numbers": [
+        2,
+        3,
+        8
+      ]
+    }
+  ]
+}

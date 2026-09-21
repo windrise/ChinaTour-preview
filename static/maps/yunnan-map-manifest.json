@@ -1,0 +1,890 @@
+{
+  "schema_version": "osm-overview-manifest-v1",
+  "retrieved_at": "2026-09-21",
+  "coordinate_system": "WGS84",
+  "notes": [
+    "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+    "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+    "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+    "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+    "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+    "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。"
+  ],
+  "destinations": {
+    "kunming": {
+      "bounds": [
+        24.64,
+        102.4,
+        26.16,
+        103.46
+      ],
+      "attractions": {
+        "翠湖公园": {
+          "osm_ref": "way/24044964",
+          "source_name": "翠湖公园"
+        },
+        "云南陆军讲武堂": {
+          "osm_ref": "way/24046825",
+          "source_name": "云南陆军讲武堂历史博物馆"
+        },
+        "海埂大坝": {
+          "osm_ref": "way/1019939632",
+          "source_name": "海埂大坝"
+        },
+        "西山风景区": {
+          "osm_ref": "way/36808771",
+          "source_name": "西山风景区",
+          "note": "OSM源对象注明边界大致，采用包围盒中心仅示意区域分布，不用作景区边界或入口。"
+        },
+        "云南民族村": {
+          "osm_ref": "way/39585364",
+          "source_name": "云南民族村"
+        },
+        "大观公园": {
+          "osm_ref": "relation/13751688",
+          "source_name": "大观公园"
+        },
+        "斗南花市": {
+          "osm_ref": "way/1167253062",
+          "source_name": "斗南花卉市场"
+        },
+        "官渡古镇": {
+          "osm_ref": "way/1354812529",
+          "source_name": "官渡古镇"
+        },
+        "昆明老街": {
+          "osm_ref": "way/245760335",
+          "source_name": "昆明老街"
+        },
+        "云南省博物馆": {
+          "osm_ref": "way/631619836",
+          "source_name": "云南省博物馆新馆"
+        },
+        "海晏村": {
+          "osm_ref": "node/6873539365",
+          "source_name": "海晏村"
+        },
+        "石林风景区": {
+          "osm_ref": "way/732651541",
+          "source_name": "石林风景区"
+        },
+        "轿子雪山": {
+          "osm_ref": "way/1144268623",
+          "source_name": "轿子山风景区"
+        }
+      },
+      "hubs": [
+        {
+          "osm_ref": "node/9176075104",
+          "source_name": "昆明",
+          "id": "kunming-station",
+          "name": "昆明站",
+          "kind": "railway",
+          "type": "火车站"
+        },
+        {
+          "osm_ref": "node/2865839196",
+          "source_name": "昆明南",
+          "id": "kunming-south",
+          "name": "昆明南站",
+          "kind": "railway",
+          "type": "火车站"
+        },
+        {
+          "osm_ref": "way/481151584",
+          "source_name": "昆明长水国际机场",
+          "id": "kunming-airport",
+          "name": "昆明长水国际机场",
+          "kind": "airport",
+          "type": "机场"
+        }
+      ],
+      "panels": [
+        {
+          "title": "城区与滇池北岸",
+          "description": "城区、湖岸景点与交通枢纽；轿子雪山、石林见区域图。",
+          "bounds": [
+            24.78,
+            102.56,
+            25.16,
+            103.02
+          ],
+          "scale_km": 5,
+          "show_attraction_labels": false,
+          "show_context": false,
+          "water_labels": [
+            {
+              "name": "滇池",
+              "point": [
+                24.8465852,
+                102.6914915
+              ]
+            }
+          ],
+          "output": "chinatour/static/maps/kunming-urban.svg",
+          "attraction_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "marker_offsets": {
+            "1": [
+              0,
+              -16
+            ],
+            "2": [
+              -21,
+              9
+            ],
+            "9": [
+              21,
+              10
+            ],
+            "8": [
+              17,
+              -12
+            ],
+            "10": [
+              -13,
+              13
+            ]
+          }
+        },
+        {
+          "title": "石林与轿子雪山",
+          "description": "主城区、石林、轿子雪山及已核实交通枢纽的相对分布。",
+          "bounds": [
+            24.64,
+            102.4,
+            26.16,
+            103.46
+          ],
+          "scale_km": 20,
+          "show_attraction_labels": true,
+          "show_context": false,
+          "water_labels": [],
+          "output": "chinatour/static/maps/kunming-region.svg",
+          "attraction_numbers": [
+            13,
+            14
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:50];nwr(24.65,102.3,26.2,103.65)[\"name\"~\"翠湖|讲武堂|海埂|西山|民族村|大观公园|斗南|官渡古镇|昆明老街|云南省博物馆|捞渔河|海晏村|石林|轿子|昆明站|昆明南|长水|滇池\"];out center tags;",
+          "retrieved_at": "2026-09-21T15:48:59.859823+00:00",
+          "path": "data/onboarding/yunnan/kunming-pois.json",
+          "sha256": "25c2073117fa67736e265044ffaa4d6eeafc9348c6e0d810ef4dc139e5d93293",
+          "bytes": 307118,
+          "element_count": 823,
+          "osm_base_timestamp": "2026-09-21T15:47:45Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:55];(way(24.64,102.4,26.16,103.46)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];nwr(24.64,102.4,26.16,103.46)[\"natural\"=\"water\"][\"name\"];way(24.64,102.4,26.16,103.46)[\"leisure\"=\"park\"][\"name\"];);out body geom;",
+          "retrieved_at": "2026-09-21T15:53:23.983864+00:00",
+          "path": "data/onboarding/yunnan/kunming-context.json",
+          "sha256": "26c53a8f338d54eac82512fd3c9968699ead45bdcf0e2e6d6c61281e957e9db1",
+          "bytes": 16417579,
+          "element_count": 11030,
+          "osm_base_timestamp": "2026-09-21T15:51:51Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:30];(nwr(24.64,102.40,25.18,103.05)[\"railway\"=\"station\"][\"name\"~\"^昆明$|^昆明南$\"];nwr(25.55,100.20,25.66,100.34)[\"railway\"=\"station\"][\"name\"~\"^大理$\"];nwr(26.6,100.15,26.95,100.4)[\"railway\"=\"station\"][\"name\"~\"^丽江$\"];);out center tags;",
+          "retrieved_at": "2026-09-21T15:53:21.865491+00:00",
+          "path": "data/onboarding/yunnan/hubs.json",
+          "sha256": "a83c342ccf79c616f8f3f48e4ab36919712aaa45f57f620b3aa51a02c4a1260f",
+          "bytes": 3270,
+          "element_count": 4,
+          "osm_base_timestamp": "2026-09-21T15:51:51Z",
+          "status": "complete"
+        }
+      ],
+      "road_labels": [
+        "S101",
+        "S215",
+        "轿钱线",
+        "G248",
+        "团云公路",
+        "S308",
+        "功待线",
+        "乌雪公路",
+        "XA32",
+        "肖九线",
+        "柯鸡线",
+        "麦大线",
+        "北京 - 昆明",
+        "板大线",
+        "巴金线",
+        "乐律路",
+        "X011",
+        "S209"
+      ],
+      "notes": []
+    },
+    "fuxianhu": {
+      "bounds": [
+        24.3,
+        102.74,
+        24.76,
+        103.04
+      ],
+      "attractions": {
+        "禄充风景区": {
+          "osm_ref": "node/12925898846",
+          "source_name": "禄充风景区"
+        },
+        "月亮湾湿地公园": {
+          "osm_ref": "way/1147820092",
+          "source_name": "月亮湾湿地公园"
+        },
+        "樱花谷": {
+          "osm_ref": "node/6517032785",
+          "source_name": "抚仙湖畔樱花谷"
+        }
+      },
+      "hubs": [
+        {
+          "id": "chengjiang-bus-station",
+          "name": "澄江汽车客运站",
+          "kind": "bus",
+          "type": "汽车客运站",
+          "osm_ref": "node/1621372444",
+          "source_name": "澄江汽车客运站"
+        },
+        {
+          "id": "jiangcheng-bus-station",
+          "name": "江城客运站",
+          "kind": "bus",
+          "type": "汽车客运站",
+          "osm_ref": "node/1818525315",
+          "source_name": "江城客运站"
+        }
+      ],
+      "panels": [
+        {
+          "title": "湖区与已定位景点",
+          "description": "抚仙湖真实水体与道路；五处未核实坐标的景点仅列索引。",
+          "bounds": [
+            24.3,
+            102.74,
+            24.76,
+            103.04
+          ],
+          "scale_km": 5,
+          "show_attraction_labels": true,
+          "show_context": false,
+          "water_labels": [
+            {
+              "name": "抚仙湖",
+              "point": [
+                24.4938791,
+                102.8891317
+              ]
+            }
+          ],
+          "output": "chinatour/static/maps/fuxianhu-overview.svg"
+        }
+      ],
+      "sources": [
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:35];nwr(24.20,102.60,24.85,103.15)[\"name\"~\"禄充|月亮湾|樱花谷|太阳山|广龙|小湾|化石|帽天山|明星|抚仙湖|澄江客运\"];out center tags;",
+          "retrieved_at": "2026-09-21T15:52:02.450165+00:00",
+          "path": "data/onboarding/yunnan/fuxianhu-pois.json",
+          "sha256": "a8cf39f9a378fbe331018851d2a255ecc4f5faa2d283e430dffe9f149b08c34f",
+          "bytes": 5897,
+          "element_count": 22,
+          "osm_base_timestamp": "2026-09-21T15:50:51Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:55];(way(24.3,102.74,24.76,103.04)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];nwr(24.3,102.74,24.76,103.04)[\"natural\"=\"water\"][\"name\"];way(24.3,102.74,24.76,103.04)[\"leisure\"=\"park\"][\"name\"];);out body geom;",
+          "retrieved_at": "2026-09-21T15:54:04.147338+00:00",
+          "path": "data/onboarding/yunnan/fuxianhu-context.json",
+          "sha256": "74c38356983ca6a0007390c5bb0432c58385d687182218c4baafa4546363e6b0",
+          "bytes": 1280978,
+          "element_count": 608,
+          "osm_base_timestamp": "2026-09-21T15:52:51Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:20];(way(26.60,99.96,27.24,100.36)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];way(27.12,99.38,28.40,100.22)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];relation(4033213);way(1068747565);way(43625312);nwr(24.30,102.74,24.76,103.04)[\"amenity\"=\"bus_station\"];);out body geom;",
+          "retrieved_at": "2026-09-21T15:57:20.392774+00:00",
+          "path": "data/onboarding/yunnan/mountain-context.json",
+          "sha256": "ade72cf13616ee0eadb0d0bd7016084c78a7663ed7f7f5d7bccc119a7339d444",
+          "bytes": 5370064,
+          "element_count": 1759,
+          "osm_base_timestamp": "2026-09-21T15:55:51Z",
+          "status": "complete"
+        }
+      ],
+      "road_labels": [
+        "巴金线",
+        "S212",
+        "XF075",
+        "XF24",
+        "XFJ4",
+        "S214",
+        "澄川高速",
+        "G245",
+        "帽天山地质公园路",
+        "XF38",
+        "XF22",
+        "昆磨高速",
+        "江孤公路",
+        "X311",
+        "兴业街",
+        "XFA7",
+        "老晋思线",
+        "梁王大道"
+      ],
+      "notes": [
+        "澄江化石地博物馆未被用作澄江化石地坐标；太阳山、广龙小镇、小湾村、澄江化石地、明星鱼洞仍待核。"
+      ]
+    },
+    "lijiang": {
+      "bounds": [
+        26.6,
+        99.96,
+        27.24,
+        100.36
+      ],
+      "attractions": {
+        "丽江古城": {
+          "osm_ref": "way/995072106",
+          "source_name": "丽江古城"
+        },
+        "玉龙雪山": {
+          "osm_ref": "node/298460509",
+          "source_name": "玉龙雪山",
+          "note": "采用OSM玉龙雪山山峰节点，表示山体位置，不是景区入口、索道站或登山路线。"
+        },
+        "蓝月谷": {
+          "osm_ref": "way/1000077392",
+          "source_name": "蓝月谷"
+        },
+        "黑龙潭公园": {
+          "osm_ref": "way/43625312",
+          "source_name": "黑龙潭公园"
+        },
+        "束河古镇": {
+          "osm_ref": "way/995077673",
+          "source_name": "束河古镇"
+        },
+        "白沙古镇": {
+          "osm_ref": "way/1000077589",
+          "source_name": "白沙古镇"
+        },
+        "拉市海湿地": {
+          "osm_ref": "way/602685431",
+          "source_name": "拉市海湿地公园"
+        },
+        "东巴谷": {
+          "osm_ref": "way/1000081087",
+          "source_name": "东巴谷"
+        }
+      },
+      "hubs": [
+        {
+          "osm_ref": "node/1530613773",
+          "source_name": "丽江",
+          "id": "lijiang-station",
+          "name": "丽江站",
+          "kind": "railway",
+          "type": "火车站"
+        },
+        {
+          "osm_ref": "way/163787957",
+          "source_name": "丽江三义国际机场",
+          "id": "lijiang-airport",
+          "name": "丽江三义国际机场",
+          "kind": "airport",
+          "type": "机场"
+        }
+      ],
+      "panels": [
+        {
+          "title": "古城、束河与白沙",
+          "description": "古城、湿地、古镇与丽江站；雪山、蓝月谷及机场见区域图。",
+          "bounds": [
+            26.79,
+            100.08,
+            27.025,
+            100.32
+          ],
+          "scale_km": 3,
+          "show_attraction_labels": true,
+          "show_context": false,
+          "water_labels": [],
+          "output": "chinatour/static/maps/lijiang-urban.svg",
+          "attraction_numbers": [
+            1,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "title": "雪山、古城与机场",
+          "description": "玉龙雪山采用OSM山峰节点；代表山体位置，不是索道或景区入口。",
+          "bounds": [
+            26.6,
+            99.96,
+            27.24,
+            100.36
+          ],
+          "scale_km": 10,
+          "show_attraction_labels": true,
+          "show_context": false,
+          "water_labels": [],
+          "output": "chinatour/static/maps/lijiang-region.svg",
+          "attraction_numbers": [
+            2,
+            3,
+            8
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:35];nwr(26.55,99.80,27.30,100.50)[\"name\"~\"丽江古城|大研|玉龙雪山|蓝月谷|黑龙潭|束河|白沙|拉市海|东巴谷|丽江站|丽江三义|丽江机场\"];out center tags;",
+          "retrieved_at": "2026-09-21T15:52:02.450502+00:00",
+          "path": "data/onboarding/yunnan/lijiang-pois.json",
+          "sha256": "eade7003868037b58b21cc5bb7ffadd60019c2990e8954033f7da1c842dce1bf",
+          "bytes": 65704,
+          "element_count": 214,
+          "osm_base_timestamp": "2026-09-21T15:50:51Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:30];(nwr(24.64,102.40,25.18,103.05)[\"railway\"=\"station\"][\"name\"~\"^昆明$|^昆明南$\"];nwr(25.55,100.20,25.66,100.34)[\"railway\"=\"station\"][\"name\"~\"^大理$\"];nwr(26.6,100.15,26.95,100.4)[\"railway\"=\"station\"][\"name\"~\"^丽江$\"];);out center tags;",
+          "retrieved_at": "2026-09-21T15:53:21.865491+00:00",
+          "path": "data/onboarding/yunnan/hubs.json",
+          "sha256": "a83c342ccf79c616f8f3f48e4ab36919712aaa45f57f620b3aa51a02c4a1260f",
+          "bytes": 3270,
+          "element_count": 4,
+          "osm_base_timestamp": "2026-09-21T15:51:51Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:20];(way(26.60,99.96,27.24,100.36)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];way(27.12,99.38,28.40,100.22)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];relation(4033213);way(1068747565);way(43625312);nwr(24.30,102.74,24.76,103.04)[\"amenity\"=\"bus_station\"];);out body geom;",
+          "retrieved_at": "2026-09-21T15:57:20.392774+00:00",
+          "path": "data/onboarding/yunnan/mountain-context.json",
+          "sha256": "ade72cf13616ee0eadb0d0bd7016084c78a7663ed7f7f5d7bccc119a7339d444",
+          "bytes": 5370064,
+          "element_count": 1759,
+          "osm_base_timestamp": "2026-09-21T15:55:51Z",
+          "status": "complete"
+        }
+      ],
+      "road_labels": [
+        "S223",
+        "X281",
+        "大具路",
+        "S280",
+        "宁德 - 贡山",
+        "西澜线",
+        "G674;S223",
+        "高美古路",
+        "XP84",
+        "G348",
+        "维巨公路",
+        "丽维公路",
+        "S230",
+        "洛美路",
+        "玉峰寺路",
+        "G214",
+        "金江线",
+        "大丽线",
+        "东环线",
+        "G348;G353",
+        "机场一级公路",
+        "南口路"
+      ],
+      "notes": [
+        "早期宽图层查询曾返回504或429；最终采用20秒预算的主干道路及指定湖泊查询，成功返回的1759对象共享源按每幅地图范围裁取，不绘制未取得的其他图层。"
+      ]
+    },
+    "dali": {
+      "bounds": [
+        25.56,
+        100.0,
+        25.98,
+        100.36
+      ],
+      "attractions": {
+        "大理古城": {
+          "osm_ref": "way/767449039",
+          "source_name": "大理古城"
+        },
+        "苍山": {
+          "osm_ref": "way/791076409",
+          "source_name": "苍山山脉"
+        },
+        "洱海": {
+          "osm_ref": "relation/254433",
+          "source_name": "洱海"
+        },
+        "喜洲古镇": {
+          "osm_ref": "way/1528337500",
+          "source_name": "喜洲古镇"
+        },
+        "双廊古镇": {
+          "osm_ref": "relation/20964490",
+          "source_name": "双廊镇",
+          "note": "采用OSM双廊镇住宅聚落范围代表点；不表示古镇景区边界或入口。"
+        },
+        "龙龛码头": {
+          "osm_ref": "way/298035384",
+          "source_name": "龙龛码头"
+        },
+        "小普陀": {
+          "osm_ref": "way/310515894",
+          "source_name": "小普陀"
+        },
+        "南诏风情岛": {
+          "osm_ref": "way/24426778",
+          "source_name": "南诏风情岛"
+        },
+        "罗荃半岛": {
+          "osm_ref": "way/1136461842",
+          "source_name": "罗荃半岛旅游区"
+        },
+        "龙尾关": {
+          "osm_ref": "way/1083278287",
+          "source_name": "龙尾关"
+        },
+        "崇圣寺三塔": {
+          "osm_ref": "node/7651326585",
+          "source_name": "崇圣寺三塔"
+        }
+      },
+      "hubs": [
+        {
+          "osm_ref": "node/2215381943",
+          "source_name": "大理",
+          "id": "dali-station",
+          "name": "大理站",
+          "kind": "railway",
+          "type": "火车站"
+        },
+        {
+          "osm_ref": "way/142382433",
+          "source_name": "大理凤仪机场",
+          "id": "dali-airport",
+          "name": "大理凤仪机场",
+          "kind": "airport",
+          "type": "机场"
+        }
+      ],
+      "panels": [
+        {
+          "title": "洱海、古镇与交通",
+          "description": "湖区真实水体与主路；苍山为山脉代表点，古镇点不表示入口。",
+          "bounds": [
+            25.56,
+            100.0,
+            25.98,
+            100.36
+          ],
+          "scale_km": 5,
+          "show_attraction_labels": true,
+          "show_context": false,
+          "water_labels": [
+            {
+              "name": "洱海",
+              "point": [
+                25.7829149,
+                100.191954
+              ]
+            }
+          ],
+          "output": "chinatour/static/maps/dali-overview.svg",
+          "marker_offsets": {
+            "1": [
+              0,
+              13
+            ],
+            "11": [
+              -15,
+              -9
+            ],
+            "5": [
+              10,
+              -13
+            ],
+            "8": [
+              -13,
+              6
+            ]
+          },
+          "label_offsets": {
+            "龙龛码头": [
+              0,
+              20
+            ],
+            "罗荃半岛": [
+              0,
+              15
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:50];nwr(25.4,99.8,26.15,100.45)[\"name\"~\"大理古城|苍山|洱海|喜洲|双廊|龙龛|小普陀|南诏风情|罗荃|龙尾关|崇圣寺|三塔|大理站|大理.*机场\"];out center tags;",
+          "retrieved_at": "2026-09-21T15:49:19.061359+00:00",
+          "path": "data/onboarding/yunnan/dali-pois.json",
+          "sha256": "3134b99b882081b978ed9bdbc0b0837f77dbea94c737bdcb52224913d999b4bd",
+          "bytes": 80491,
+          "element_count": 213,
+          "osm_base_timestamp": "2026-09-21T15:47:45Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:55];(way(25.56,100.0,25.98,100.36)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];nwr(25.56,100.0,25.98,100.36)[\"natural\"=\"water\"][\"name\"];way(25.56,100.0,25.98,100.36)[\"leisure\"=\"park\"][\"name\"];);out body geom;",
+          "retrieved_at": "2026-09-21T15:52:23.436713+00:00",
+          "path": "data/onboarding/yunnan/dali-context.json",
+          "sha256": "964859f836c658eddeb4f8623699fd887f464e3fa8a66635d69060001b860a9a",
+          "bytes": 2353995,
+          "element_count": 998,
+          "osm_base_timestamp": "2026-09-21T15:50:51Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:30];(nwr(24.64,102.40,25.18,103.05)[\"railway\"=\"station\"][\"name\"~\"^昆明$|^昆明南$\"];nwr(25.55,100.20,25.66,100.34)[\"railway\"=\"station\"][\"name\"~\"^大理$\"];nwr(26.6,100.15,26.95,100.4)[\"railway\"=\"station\"][\"name\"~\"^丽江$\"];);out center tags;",
+          "retrieved_at": "2026-09-21T15:53:21.865491+00:00",
+          "path": "data/onboarding/yunnan/hubs.json",
+          "sha256": "a83c342ccf79c616f8f3f48e4ab36919712aaa45f57f620b3aa51a02c4a1260f",
+          "bytes": 3270,
+          "element_count": 4,
+          "osm_base_timestamp": "2026-09-21T15:51:51Z",
+          "status": "complete"
+        }
+      ],
+      "road_labels": [
+        "环海东路",
+        "光明生态园线",
+        "塔龙线",
+        "康盒线",
+        "塔盘山线",
+        "向阳公路",
+        "老关宾线",
+        "关宾路",
+        "挖茹线",
+        "上关公路",
+        "花茹公路",
+        "大凤路",
+        "上阳线",
+        "X928",
+        "芝天线",
+        "G215;G320",
+        "宾挖线",
+        "武大线"
+      ],
+      "notes": []
+    },
+    "shangrila": {
+      "bounds": [
+        27.12,
+        99.38,
+        28.4,
+        100.22
+      ],
+      "attractions": {
+        "独克宗古城": {
+          "osm_ref": "way/763318050",
+          "source_name": "独克宗古城"
+        },
+        "松赞林寺": {
+          "osm_ref": "way/187166845",
+          "source_name": "噶丹松赞林"
+        },
+        "普达措国家公园": {
+          "osm_ref": "way/832323147",
+          "source_name": "普达措国家公园"
+        },
+        "纳帕海": {
+          "osm_ref": "way/36897816",
+          "source_name": "纳帕海"
+        },
+        "白水台": {
+          "osm_ref": "way/459808345",
+          "source_name": "白水台"
+        },
+        "巴拉格宗": {
+          "osm_ref": "way/1479523252",
+          "source_name": "巴拉格宗"
+        },
+        "石卡雪山": {
+          "osm_ref": "node/4691879389",
+          "source_name": "石卡雪山"
+        },
+        "尼汝": {
+          "osm_ref": "node/2968810953",
+          "source_name": "尼汝村"
+        },
+        "虎跳峡": {
+          "osm_ref": "node/774523525",
+          "source_name": "虎跳峡"
+        }
+      },
+      "hubs": [
+        {
+          "osm_ref": "way/1007688235",
+          "source_name": "香格里拉站",
+          "id": "shangrila-station",
+          "name": "香格里拉站",
+          "kind": "railway",
+          "type": "火车站"
+        },
+        {
+          "osm_ref": "way/163714636",
+          "source_name": "迪庆香格里拉机场",
+          "id": "shangrila-airport",
+          "name": "迪庆香格里拉机场",
+          "kind": "airport",
+          "type": "机场"
+        }
+      ],
+      "panels": [
+        {
+          "title": "城区、纳帕海与普达措",
+          "description": "独克宗、寺院、湖区与机场火车站；远郊景点见区域图。",
+          "bounds": [
+            27.76,
+            99.55,
+            27.99,
+            100.04
+          ],
+          "scale_km": 5,
+          "show_attraction_labels": true,
+          "show_context": false,
+          "water_labels": [],
+          "output": "chinatour/static/maps/shangrila-urban.svg",
+          "attraction_numbers": [
+            1,
+            2,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "title": "区域景点分布",
+          "description": "尼汝、巴拉格宗、白水台和虎跳峡；真实道路几何不等于可通行导航。",
+          "bounds": [
+            27.12,
+            99.38,
+            28.4,
+            100.22
+          ],
+          "scale_km": 20,
+          "show_attraction_labels": true,
+          "show_context": false,
+          "water_labels": [],
+          "output": "chinatour/static/maps/shangrila-region.svg",
+          "attraction_numbers": [
+            5,
+            6,
+            8,
+            9
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:50];nwr(27.05,99.25,28.45,100.4)[\"name\"~\"独克宗|松赞林|普达措|纳帕海|白水台|巴拉格宗|石卡|尼汝|虎跳峡|香格里拉站|迪庆.*机场|香格里拉.*机场\"];out center tags;",
+          "retrieved_at": "2026-09-21T15:49:23.908050+00:00",
+          "path": "data/onboarding/yunnan/shangrila-pois.json",
+          "sha256": "43d30252d7a5493a997fb3304b7e3c77a1ccce883f16a6136f6132a76089f0f2",
+          "bytes": 20033,
+          "element_count": 68,
+          "osm_base_timestamp": "2026-09-21T15:47:45Z",
+          "status": "complete"
+        },
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:20];(way(26.60,99.96,27.24,100.36)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];way(27.12,99.38,28.40,100.22)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];relation(4033213);way(1068747565);way(43625312);nwr(24.30,102.74,24.76,103.04)[\"amenity\"=\"bus_station\"];);out body geom;",
+          "retrieved_at": "2026-09-21T15:57:20.392774+00:00",
+          "path": "data/onboarding/yunnan/mountain-context.json",
+          "sha256": "ade72cf13616ee0eadb0d0bd7016084c78a7663ed7f7f5d7bccc119a7339d444",
+          "bytes": 5370064,
+          "element_count": 1759,
+          "osm_base_timestamp": "2026-09-21T15:55:51Z",
+          "status": "complete"
+        }
+      ],
+      "road_labels": [
+        "S223",
+        "S229",
+        "达摩祖师洞公路",
+        "S230",
+        "G664",
+        "S231",
+        "大具路",
+        "S280",
+        "S368",
+        "奔其公路",
+        "G674;S223",
+        "维巨公路",
+        "XP84",
+        "G674",
+        "G215",
+        "S367",
+        "丽维公路",
+        "洛美路",
+        "G214",
+        "东环线",
+        "S463",
+        "西澜线"
+      ],
+      "notes": [
+        "早期宽图层查询曾返回504或429；最终采用20秒预算的主干道路及指定湖泊查询，成功返回的1759对象共享源按每幅地图范围裁取，不绘制未取得的其他图层。"
+      ]
+    }
+  },
+  "failed_requests": [
+    {
+      "query_scope": "fuxianhu-pois / lijiang-pois initial wide name query",
+      "error": "HTTP 504",
+      "final_outcome": "complete after bounded retry"
+    },
+    {
+      "query_scope": "hubs / kunming-context / fuxianhu-context",
+      "error": "HTTP 429",
+      "final_outcome": "complete after sequential delayed retry"
+    },
+    {
+      "query_scope": "lijiang-context / shangrila-context wide layers",
+      "error": "HTTP 429 / HTTP 504",
+      "final_outcome": "superseded by successful mountain-context roads and selected water query"
+    }
+  ]
+}

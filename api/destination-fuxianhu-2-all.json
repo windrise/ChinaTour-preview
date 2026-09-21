@@ -1,0 +1,2584 @@
+{
+  "destination": {
+    "id": "fuxianhu",
+    "name": "抚仙湖",
+    "description": "沿澄江、江川与华宁的湖岸，探索抚仙湖的村落、湿地和亲水景点。"
+  },
+  "attractions": [
+    {
+      "id": "place_5024110ef0aa443e",
+      "name": "禄充风景区",
+      "lat": 24.5604694,
+      "lon": 102.8389898,
+      "description": "抚仙湖西岸的湖滨村落与山水景区。",
+      "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_c280d5cd45904c70"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/12925898846",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_ef640d6a189a4fcb",
+      "name": "月亮湾湿地公园",
+      "lat": 24.6244496,
+      "lon": 102.944744,
+      "description": "抚仙湖东北岸的湿地与湖滨游览点。",
+      "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_0368a8f428dd475e"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/way/1147820092",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_ebe6a1cb7cf74870",
+      "name": "樱花谷",
+      "lat": 24.6079492,
+      "lon": 102.9507924,
+      "description": "抚仙湖东北岸的湖滨游览片区。",
+      "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_409b32d5e6dd4c9d"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/6517032785",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "place_20639e47eda74534",
+      "name": "太阳山",
+      "lat": null,
+      "lon": null,
+      "description": "抚仙湖东岸的度假片区。",
+      "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_d8481f7bf5234449"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_9b34e9193f86485c",
+      "name": "广龙小镇",
+      "lat": null,
+      "lon": null,
+      "description": "抚仙湖北岸的旅游小镇。",
+      "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_132746c913be4d3e"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "configured_b1479bbff22939315c02",
+      "name": "小湾村",
+      "lat": null,
+      "lon": null,
+      "description": "抚仙湖东岸的民宿村落。",
+      "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_764f9bb91a1e49a2",
+      "name": "澄江化石地",
+      "lat": null,
+      "lon": null,
+      "description": "以早寒武纪化石为核心的世界自然遗产地。",
+      "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 1,
+      "months": [],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_4f581e162aff42dc"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    },
+    {
+      "id": "place_4e95fccdbab74973",
+      "name": "明星鱼洞",
+      "lat": null,
+      "lon": null,
+      "description": "抚仙湖西岸的渔耕文化与湖滨游览景区。",
+      "source_url": "https://www.yuxi.gov.cn/yxs/cjs/20250618/1607654.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 3,
+      "months": [
+        7,
+        9
+      ],
+      "collection_status": "has_sources",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 1,
+          "photo_count": 0,
+          "evidence_ids": [
+            "ev_4ff3a1c56a884024"
+          ],
+          "photos": []
+        }
+      },
+      "map_source_url": null,
+      "coordinate_system": null,
+      "local_map": null
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_4ff3a1c56a884024",
+      "place_id": "place_4e95fccdbab74973",
+      "title": "文旅+体育宣传推广活动在明星鱼洞景区举行",
+      "excerpt": "近日， “有一种叫云南的生活·百马行动”文旅+体育宣传推广活动在抚仙湖明星鱼洞景区举行，吸引了来自全国各地的100余名户外运动爱好者积极参与。 推广活动中，全省户外运动达人和旅游爱好者齐聚抚仙湖畔，通过跑步、徒步、骑行、皮划艇、滑翔伞等多样化运动形式，结合抖音、小红书等新媒体平台，全方位展示云南宜居宜游的环境。作为系列活动的第八站，抚仙湖站通过户外运动、非遗体验、美食品鉴等方式，深度展现抚仙湖的慢生活魅力。 “在这里，大家既能体验皮划艇、帆板、帆船等水上运动，参与跑步、骑行，还能感受古老的车水捕鱼，了解抚仙湖独特的渔耕文化。”云南省政协委员、知名探险家金飞豹介绍，抚仙湖是极具吸引力的旅居目的地，游客在此可品尝特色风味美食，打卡网红咖啡，尽情享受大自然馈赠的旅居生活资源。 近年来，凭借优越的自然禀赋，澄江市将清澈湖水与周边山地资源完美结合，创新发展了独具特色的高原湖泊户外运动产业，先后打造了马拉松、自行车、帆船等多项品牌体育赛事，为游客提供丰富多元的运动休闲方式。这场融合体育活力与文化底蕴的推广活动，不仅让参与者亲身感受到 “有一种叫云南的生活”的闲适与惬意，更通过新媒体传播将抚仙湖的绮丽山水画卷展现给全国游客。 接下来，澄江市将持续深化 “体育+文旅”融合发展模式，以品牌赛事为引领，以生态保护为前提，打造更多元化的旅游体验产品，让每一位来到抚仙湖的游客都能找到属于自己的诗意栖居方式。 “通过‘体育+文旅’的深度融合，我们将全力推进澄江经济高质量发展，在科学规划的基础上，实现生态保护与经济发展、体育产业发展与生态文明建设协同共进。”澄江市政协委员、市政协教科卫体委主任杨进书表示。 （通讯员 符亚娟 师颖）",
+      "published_at": "2025-06-18",
+      "fetched_at": "2026-09-21T16:16:16.347306+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yuxi.gov.cn/yxs/cjs/20250618/1607654.html",
+      "publisher": "玉溪市人民政府",
+      "place_name": "明星鱼洞",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2025-06-18",
+      "captured_at": "2026-09-21T16:16:16.347306+00:00",
+      "topics": [
+        "徒步",
+        "湖泊"
+      ],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2025-06-18",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yuxi.gov.cn/yxs/cjs/20250618/1607654.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_4f581e162aff42dc",
+      "place_id": "place_764f9bb91a1e49a2",
+      "title": "抚仙湖旅游度假区",
+      "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+      "published_at": "2019-05-15",
+      "fetched_at": "2026-09-21T15:57:37.988485+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "publisher": "澄江市人民政府",
+      "place_name": "澄江化石地",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2019-05-15",
+      "captured_at": "2026-09-21T15:57:37.988485+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2019-05-15",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_132746c913be4d3e",
+      "place_id": "place_9b34e9193f86485c",
+      "title": "抚仙湖旅游度假区",
+      "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+      "published_at": "2019-05-15",
+      "fetched_at": "2026-09-21T15:57:37.976422+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "publisher": "澄江市人民政府",
+      "place_name": "广龙小镇",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2019-05-15",
+      "captured_at": "2026-09-21T15:57:37.976422+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2019-05-15",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_d8481f7bf5234449",
+      "place_id": "place_20639e47eda74534",
+      "title": "抚仙湖旅游度假区",
+      "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+      "published_at": "2019-05-15",
+      "fetched_at": "2026-09-21T15:57:37.965193+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "publisher": "澄江市人民政府",
+      "place_name": "太阳山",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2019-05-15",
+      "captured_at": "2026-09-21T15:57:37.965193+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2019-05-15",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_409b32d5e6dd4c9d",
+      "place_id": "place_ebe6a1cb7cf74870",
+      "title": "抚仙湖旅游度假区",
+      "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+      "published_at": "2019-05-15",
+      "fetched_at": "2026-09-21T15:57:37.953833+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "publisher": "澄江市人民政府",
+      "place_name": "樱花谷",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2019-05-15",
+      "captured_at": "2026-09-21T15:57:37.953833+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2019-05-15",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_0368a8f428dd475e",
+      "place_id": "place_ef640d6a189a4fcb",
+      "title": "抚仙湖旅游度假区",
+      "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+      "published_at": "2019-05-15",
+      "fetched_at": "2026-09-21T15:57:37.941838+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "publisher": "澄江市人民政府",
+      "place_name": "月亮湾湿地公园",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2019-05-15",
+      "captured_at": "2026-09-21T15:57:37.941838+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2019-05-15",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    },
+    {
+      "id": "ev_c280d5cd45904c70",
+      "place_id": "place_5024110ef0aa443e",
+      "title": "抚仙湖旅游度假区",
+      "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+      "published_at": "2019-05-15",
+      "fetched_at": "2026-09-21T15:57:37.929589+00:00",
+      "observed_start": null,
+      "observed_end": null,
+      "month": null,
+      "year": null,
+      "kind": "background",
+      "aspect": null,
+      "value": null,
+      "valid_until": null,
+      "status": "accepted",
+      "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+      "publisher": "澄江市人民政府",
+      "place_name": "禄充风景区",
+      "media_count": 0,
+      "media_status": "none",
+      "source_type": "official",
+      "time_basis": "background",
+      "time_excerpt": "景区介绍；未提供拍摄时间",
+      "published_label": "2019-05-15",
+      "captured_at": "2026-09-21T15:57:37.929589+00:00",
+      "topics": [],
+      "media": [],
+      "claims": [],
+      "confidence_label": "官方背景资料",
+      "material_date": "2019-05-15",
+      "material_time_basis": "页面明确发布日期",
+      "visit_period": {
+        "kind": "unknown",
+        "id": "unknown",
+        "holiday": null,
+        "label": "时间待确认",
+        "basis": "background_material",
+        "support_excerpt": "",
+        "basis_label": "背景资料未确认照片到访时段",
+        "source_url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html"
+      },
+      "browse_month": null,
+      "browse_year": null,
+      "browse_time_basis": "unknown",
+      "browse_time_label": "月份未归档 · 拍摄时间未知",
+      "visual_content": {
+        "analyzed": 0,
+        "total": 0,
+        "scene_counts": {}
+      },
+      "media_review": {
+        "original_count": 0,
+        "approved_count": 0,
+        "hidden_count": 0
+      },
+      "visual_analysis": {
+        "media_total": 0,
+        "analyzed_media": 0,
+        "full_pixel_media": 0,
+        "missing_media_ids": [],
+        "coverage": 0,
+        "complete": false,
+        "media": [],
+        "exact_album_peers": [],
+        "partial_shared_peers": [],
+        "independence_status": "no_visual_evidence"
+      },
+      "visual_independence_pending": false
+    }
+  ],
+  "baselines": [
+    {
+      "place_id": "place_4e95fccdbab74973",
+      "place_name": "明星鱼洞",
+      "month": 2,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_5024110ef0aa443e",
+      "place_name": "禄充风景区",
+      "month": 2,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_ef640d6a189a4fcb",
+      "place_name": "月亮湾湿地公园",
+      "month": 2,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_ebe6a1cb7cf74870",
+      "place_name": "樱花谷",
+      "month": 2,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_20639e47eda74534",
+      "place_name": "太阳山",
+      "month": 2,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_9b34e9193f86485c",
+      "place_name": "广龙小镇",
+      "month": 2,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "place_764f9bb91a1e49a2",
+      "place_name": "澄江化石地",
+      "month": 2,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    }
+  ],
+  "changes": [
+    {
+      "id": "b4c0406948ab17931a345d5f2fd6f7e0c7531752e10deab12eae32c654cb2d68",
+      "title": "文旅+体育宣传推广活动在明星鱼洞景区举行",
+      "created_at": "2026-09-21T16:16:17.081085+00:00",
+      "before_value": null,
+      "after_value": "近日， “有一种叫云南的生活·百马行动”文旅+体育宣传推广活动在抚仙湖明星鱼洞景区举行，吸引了来自全国各地的100余名户外运动爱好者积极参与。 推广活动中，全省户外运动达人和旅游爱好者齐聚抚仙湖畔，通过跑步、徒步、骑行、皮划艇、滑翔伞等多样化运动形式，结合抖音、小红书等新媒体平台，全方位展示云南宜居宜游的环境。作为系列活动的第八站，抚仙湖站通过户外运动、非遗",
+      "reason": "首次自动采集",
+      "source_url": "https://www.yuxi.gov.cn/yxs/cjs/20250618/1607654.html",
+      "parent_id": null,
+      "kind": "discovery"
+    }
+  ],
+  "landscape_updates": [],
+  "visual_cohorts": [],
+  "practical": {
+    "facts": [
+      {
+        "id": "fuxianhu-shore-distance-reference",
+        "category": "route_length",
+        "title": "湖岸选点与县城距离参考",
+        "text": "2019年度假区介绍记载，禄充位于抚仙湖西岸，月亮湾与樱花谷位于东北岸；三处距文中“澄江县县城”分别为19、11、15公里。",
+        "source": {
+          "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+          "title": "抚仙湖旅游度假区",
+          "publisher": "澄江新闻网（澄江市政府信息公开页面转载）",
+          "published_at": "2019-05-15",
+          "checked_at": "2026-09-22",
+          "excerpt": "抚仙湖西岸风光最秀丽的一个景区，距澄江县县城19公里",
+          "source_sha256": "f7dbf6133a175046a5930cf6b5179ebc2c8427c444883bbd006c415ba9abd0cd"
+        },
+        "time_note": "原文未说明测距方式或具体起终点；这里保留历史距离尺度，不换算为导航里程或车程。",
+        "place_names": [
+          "禄充风景区",
+          "月亮湾湿地公园",
+          "樱花谷"
+        ]
+      }
+    ],
+    "origin_label": null,
+    "classified_sources": [
+      {
+        "id": "ev_d8481f7bf5234449",
+        "title": "抚仙湖旅游度假区",
+        "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+        "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+        "publisher": "澄江市人民政府",
+        "source_type": "official",
+        "place_name": "太阳山",
+        "published_at": "2019-05-15",
+        "categories": [
+          "stay",
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.95,
+            "food": 0.65,
+            "stay": 0.73,
+            "transport": 0.31,
+            "visit_duration": 1,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.01,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.65,
+              "probabilities": {
+                "absent": 0.76,
+                "relevant": 0.04,
+                "unclear": 0.2
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.98,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 0.73,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.82,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.31,
+              "probabilities": {
+                "absent": 0.54,
+                "relevant": 0.21,
+                "unclear": 0.25
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:05.741186+00:00"
+        }
+      },
+      {
+        "id": "ev_132746c913be4d3e",
+        "title": "抚仙湖旅游度假区",
+        "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+        "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+        "publisher": "澄江市人民政府",
+        "source_type": "official",
+        "place_name": "广龙小镇",
+        "published_at": "2019-05-15",
+        "categories": [
+          "stay",
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.93,
+            "food": 0.66,
+            "stay": 0.73,
+            "transport": 0.42,
+            "visit_duration": 0.99,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0.01,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.66,
+              "probabilities": {
+                "absent": 0.77,
+                "relevant": 0.03,
+                "unclear": 0.2
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.98,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 0.73,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.82,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.42,
+              "probabilities": {
+                "absent": 0.62,
+                "relevant": 0.16,
+                "unclear": 0.22
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:06.815089+00:00"
+        }
+      },
+      {
+        "id": "ev_a63a47045a3c485b",
+        "title": "“琉璃万顷”抚仙湖，环湖百公里自驾，走走停停，遇到彩虹～🌈 高原断陷深水湖，一类水质，独占云南九大高原湖泊70%以上淡水资源，湖底沉睡着约2.4",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2171812950/Rjbciv9qB",
+        "publisher": "夏雨雪",
+        "source_type": "weibo",
+        "place_name": "抚仙湖",
+        "published_at": "2026-09-21",
+        "categories": [
+          "transport",
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 1,
+            "stay": 0.97,
+            "transport": 0.23,
+            "visit_duration": 0.91,
+            "route_length": 0.88,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.88,
+              "probabilities": {
+                "absent": 0.01,
+                "relevant": 0.92,
+                "unclear": 0.07
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0.98,
+                "relevant": 0.01,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "relevant",
+              "confidence": 0.23,
+              "probabilities": {
+                "absent": 0.28,
+                "relevant": 0.49,
+                "unclear": 0.23
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.91,
+              "probabilities": {
+                "absent": 0.94,
+                "relevant": 0.01,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:51:01.569566+00:00"
+        }
+      },
+      {
+        "id": "ev_0368a8f428dd475e",
+        "title": "抚仙湖旅游度假区",
+        "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+        "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+        "publisher": "澄江市人民政府",
+        "source_type": "official",
+        "place_name": "月亮湾湿地公园",
+        "published_at": "2019-05-15",
+        "categories": [
+          "stay",
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.94,
+            "food": 0.63,
+            "stay": 0.74,
+            "transport": 0.4,
+            "visit_duration": 1,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.94,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.01,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.63,
+              "probabilities": {
+                "absent": 0.75,
+                "relevant": 0.04,
+                "unclear": 0.21
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.98,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 0.74,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.82,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.4,
+              "probabilities": {
+                "absent": 0.61,
+                "relevant": 0.16,
+                "unclear": 0.23
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:03.625028+00:00"
+        }
+      },
+      {
+        "id": "ev_409b32d5e6dd4c9d",
+        "title": "抚仙湖旅游度假区",
+        "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+        "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+        "publisher": "澄江市人民政府",
+        "source_type": "official",
+        "place_name": "樱花谷",
+        "published_at": "2019-05-15",
+        "categories": [
+          "stay",
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.95,
+            "food": 0.63,
+            "stay": 0.67,
+            "transport": 0.38,
+            "visit_duration": 1,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.01,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.63,
+              "probabilities": {
+                "absent": 0.75,
+                "relevant": 0.04,
+                "unclear": 0.21
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.98,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 0.67,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.78,
+                "unclear": 0.19
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.38,
+              "probabilities": {
+                "absent": 0.59,
+                "relevant": 0.18,
+                "unclear": 0.23
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:04.684703+00:00"
+        }
+      },
+      {
+        "id": "ev_4f581e162aff42dc",
+        "title": "抚仙湖旅游度假区",
+        "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+        "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+        "publisher": "澄江市人民政府",
+        "source_type": "official",
+        "place_name": "澄江化石地",
+        "published_at": "2019-05-15",
+        "categories": [
+          "stay",
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.93,
+            "food": 0.68,
+            "stay": 0.74,
+            "transport": 0.35,
+            "visit_duration": 1,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0.01,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.68,
+              "probabilities": {
+                "absent": 0.78,
+                "relevant": 0.03,
+                "unclear": 0.19
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.98,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 0.74,
+              "probabilities": {
+                "absent": 0.03,
+                "relevant": 0.82,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.35,
+              "probabilities": {
+                "absent": 0.57,
+                "relevant": 0.18,
+                "unclear": 0.25
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:07.832087+00:00"
+        }
+      },
+      {
+        "id": "ev_c280d5cd45904c70",
+        "title": "抚仙湖旅游度假区",
+        "excerpt": "抚仙湖水域面积 216 平方公里，蓄水量 206 亿立方米，平均水深 95.2 米，最深处 158.9 米，透明度平均为 8 米，水质清澈纯净，总体保持一类水质，最大可达 12.5 米，是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖旅游度假区位于玉溪市澄江县辖区内，东西两侧以湖岸线以上 1 公里范围作为边界，东南抵海口镇，西南达立昌社区，北至澄江县城凤翔路，东至帽天山国家地质公园，辖区面积 47.8 平方公里，资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个（澄江化石地世界自然遗产）， A 级景区 4 个。以独特的高原湖泊景观和古生物遗迹为主题核心吸引力，形成“生态观光”、“休闲度假”、“健康疗养”、“户外运动”和“地学旅游”五大产品体系，重点打造生态康养净地和主题游乐源地两大品牌，强化“湖泊文化”“渔文化”“饮食文化”等地方特色元素。 1993 年 6 月，云南省人民政府正式批复设立玉溪抚仙湖省级旅游度假区，抚仙湖度假区成为全省第五家旅游度假区。 2001 年 7 月，云南省人民政府正式发文设立“云南省玉溪抚仙湖旅游度假示范区管理委员会”，为正处级行政管理机构，主要负责度假区规划控制、开发建设和运营管理等工作。 旅游资源 抚仙湖旅游度假区辖区面积 48.7 平方公里，属于湖泊型旅游度假目的地。目前，度假区范围内有世界自然遗产 1 个， A 级景区 4 个。 抚仙湖旅游度假区资源类型丰富，囊括了资源分类表中的 7 大主类、 19 个亚类和 44 个基本类型、 100 个资源单体。 拥有“纯净神秘抚仙湖”和“世界遗产帽天山”两大高品位资源，规模大、产品组合度高，在区域内具有唯一性。 抚仙湖是中国内陆淡水湖中水质最好的湖泊之一，也是我国最大的深水型淡水湖泊、重要的战略备用水资源和珠江源头第一大湖，占云南九大高原湖泊总蓄水量的 72.8% ，水底有一座 2.5 平方公里尚未解开谜底的古城。 帽天山是国家地质公园和世界自然遗产地，埋藏着距今 5.3 亿年，涵盖 40 多个门类、 200 余种的早期寒武纪珍稀动植物化石，是迄今为止地球上发现的种类最丰富、保存最完整的早寒武世动物化石群，是地球生命寒武纪大爆发理论最有力的实物例证。 自然与人文环境 抚仙湖的形成，大约起始于地质年代第三纪末，是云贵高原抬升过程中形成的断陷型深水湖泊。约 300 万年前，因地壳大变动，喜马拉雅山脉的突起，引起了一系列断层贮水及岩石熔蚀，造成了云南高原群山中众多的湖泊，抚仙湖就是那时形成的湖泊。在历史，抚",
+        "url": "https://www.yncj.gov.cn/cjxzfxxgk/cjswhhlyj/20190515/1045468.html",
+        "publisher": "澄江市人民政府",
+        "source_type": "official",
+        "place_name": "禄充风景区",
+        "published_at": "2019-05-15",
+        "categories": [
+          "stay",
+          "route_length"
+        ],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.95,
+            "food": 0.67,
+            "stay": 0.74,
+            "transport": 0.31,
+            "visit_duration": 1,
+            "route_length": 0.97,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.95,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.01,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.67,
+              "probabilities": {
+                "absent": 0.78,
+                "relevant": 0.03,
+                "unclear": 0.19
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "relevant",
+              "confidence": 0.97,
+              "probabilities": {
+                "absent": 0,
+                "relevant": 0.98,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "relevant",
+              "confidence": 0.74,
+              "probabilities": {
+                "absent": 0.02,
+                "relevant": 0.83,
+                "unclear": 0.15
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.31,
+              "probabilities": {
+                "absent": 0.55,
+                "relevant": 0.18,
+                "unclear": 0.27
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:58:02.571104+00:00"
+        }
+      },
+      {
+        "id": "ev_0b2d434046ae4366",
+        "title": "抚仙湖，中国第3深湖，深度155-157米。第一长白山天池，第二是喀纳斯湖，第三抚仙湖。 传说湖里有神秘古城、站着的尸体、大金字塔。 今儿带家人",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/1192966660/OzwDpmB4j",
+        "publisher": "韩路",
+        "source_type": "weibo",
+        "place_name": "抚仙湖",
+        "published_at": "2024-10-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.93,
+            "food": 1,
+            "stay": 0.94,
+            "transport": 1,
+            "visit_duration": 0.99,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.93,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.02,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.94,
+              "probabilities": {
+                "absent": 0.96,
+                "relevant": 0.01,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:50:55.502611+00:00"
+        }
+      },
+      {
+        "id": "ev_1c665bea497c47b3",
+        "title": "抚仙湖，仙人守望的最后一池净水！ ​ ​​​",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2137741580/Rg4yNrDIV",
+        "publisher": "背囊友",
+        "source_type": "weibo",
+        "place_name": "抚仙湖",
+        "published_at": "2026-09-01",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 1,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:50:53.389710+00:00"
+        }
+      },
+      {
+        "id": "ev_319e85a1bec64cf1",
+        "title": "随手拍超话 漫步抚仙湖（45） 天上的云在飘，水中的云在走，夏天的抚仙湖，美的不只有湖水，还有湖上空的云。 夏季气温高，湖面水汽蒸发旺盛，天空多",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/3880943511/RjaqccKEj",
+        "publisher": "xys1966",
+        "source_type": "weibo",
+        "place_name": "抚仙湖",
+        "published_at": "2026-09-21",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:51:03.558673+00:00"
+        }
+      },
+      {
+        "id": "ev_a8dd9a24d6a242a9",
+        "title": "#秋日抚仙湖浪漫绝美瞬间#【航拍云南抚仙湖：碧波荡漾帆影间】秋日，云南省玉溪市抚仙湖西岸的明星鱼洞景区风光秀美。高空俯瞰，湖面碧波荡漾；延时摄影",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/2810373291/RixGCxAuI",
+        "publisher": "新华网",
+        "source_type": "weibo",
+        "place_name": "明星鱼洞",
+        "published_at": "2026-09-17",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 1,
+            "food": 1,
+            "stay": 0.99,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:50:59.503859+00:00"
+        }
+      },
+      {
+        "id": "ev_bb32a5e3855d40ac",
+        "title": "抚仙湖明星鱼洞🐟 seain coffee 窗景真的太好拍了 湖水、远山和帆船凑在一起，像一幅画 明星鱼洞在抚仙湖西岸 有帆船、皮划艇和潜水项目",
+        "excerpt": "点击原帖查看作者正文与完整说明。",
+        "url": "https://weibo.com/1594654930/R8HjnhhDE",
+        "publisher": "Wolentour",
+        "source_type": "weibo",
+        "place_name": "明星鱼洞",
+        "published_at": "2026-07-14",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.9,
+            "stay": 0.81,
+            "transport": 0.99,
+            "visit_duration": 1,
+            "route_length": 1,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.9,
+              "probabilities": {
+                "absent": 0.93,
+                "relevant": 0.04,
+                "unclear": 0.03
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.81,
+              "probabilities": {
+                "absent": 0.87,
+                "relevant": 0.09,
+                "unclear": 0.04
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T15:50:57.514447+00:00"
+        }
+      },
+      {
+        "id": "ev_4ff3a1c56a884024",
+        "title": "文旅+体育宣传推广活动在明星鱼洞景区举行",
+        "excerpt": "近日， “有一种叫云南的生活·百马行动”文旅+体育宣传推广活动在抚仙湖明星鱼洞景区举行，吸引了来自全国各地的100余名户外运动爱好者积极参与。 推广活动中，全省户外运动达人和旅游爱好者齐聚抚仙湖畔，通过跑步、徒步、骑行、皮划艇、滑翔伞等多样化运动形式，结合抖音、小红书等新媒体平台，全方位展示云南宜居宜游的环境。作为系列活动的第八站，抚仙湖站通过户外运动、非遗体验、美食品鉴等方式，深度展现抚仙湖的慢生活魅力。 “在这里，大家既能体验皮划艇、帆板、帆船等水上运动，参与跑步、骑行，还能感受古老的车水捕鱼，了解抚仙湖独特的渔耕文化。”云南省政协委员、知名探险家金飞豹介绍，抚仙湖是极具吸引力的旅居目的地，游客在此可品尝特色风味美食，打卡网红咖啡，尽情享受大自然馈赠的旅居生活资源。 近年来，凭借优越的自然禀赋，澄江市将清澈湖水与周边山地资源完美结合，创新发展了独具特色的高原湖泊户外运动产业，先后打造了马拉松、自行车、帆船等多项品牌体育赛事，为游客提供丰富多元的运动休闲方式。这场融合体育活力与文化底蕴的推广活动，不仅让参与者亲身感受到 “有一种叫云南的生活”的闲适与惬意，更通过新媒体传播将抚仙湖的绮丽山水画卷展现给全国游客。 接下来，澄江市将持续深化 “体育+文旅”融合发展模式，以品牌赛事为引领，以生态保护为前提，打造更多元化的旅游体验产品，让每一位来到抚仙湖的游客都能找到属于自己的诗意栖居方式。 “通过‘体育+文旅’的深度融合，我们将全力推进澄江经济高质量发展，在科学规划的基础上，实现生态保护与经济发展、体育产业发展与生态文明建设协同共进。”澄江市政协委员、市政协教科卫体委主任杨进书表示。 （通讯员 符亚娟 师颖）",
+        "url": "https://www.yuxi.gov.cn/yxs/cjs/20250618/1607654.html",
+        "publisher": "玉溪市人民政府",
+        "source_type": "official",
+        "place_name": "明星鱼洞",
+        "published_at": "2025-06-18",
+        "categories": [],
+        "classification": {
+          "model": "jev-1.13.0",
+          "version": "practical-text-screen-v2",
+          "confidence": {
+            "clothing": 0.99,
+            "food": 0.92,
+            "stay": 0.96,
+            "transport": 1,
+            "visit_duration": 1,
+            "route_length": 0.99,
+            "internal_transport": 1
+          },
+          "answers": {
+            "clothing": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "food": {
+              "choice": "absent",
+              "confidence": 0.92,
+              "probabilities": {
+                "absent": 0.95,
+                "relevant": 0,
+                "unclear": 0.05
+              },
+              "type": "choice"
+            },
+            "internal_transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "route_length": {
+              "choice": "absent",
+              "confidence": 0.99,
+              "probabilities": {
+                "absent": 0.99,
+                "relevant": 0,
+                "unclear": 0.01
+              },
+              "type": "choice"
+            },
+            "stay": {
+              "choice": "absent",
+              "confidence": 0.96,
+              "probabilities": {
+                "absent": 0.97,
+                "relevant": 0.01,
+                "unclear": 0.02
+              },
+              "type": "choice"
+            },
+            "transport": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            },
+            "visit_duration": {
+              "choice": "absent",
+              "confidence": 1,
+              "probabilities": {
+                "absent": 1,
+                "relevant": 0,
+                "unclear": 0
+              },
+              "type": "choice"
+            }
+          },
+          "screened_at": "2026-09-21T16:16:18.911212+00:00"
+        }
+      }
+    ],
+    "climate": {
+      "place_name": "抚仙湖",
+      "latitude": 24.5604694,
+      "longitude": 102.8389898,
+      "period": "1991-01-01/2020-12-31",
+      "label": "1991–2020 月平均气温（ERA5-Land 再分析）",
+      "method": "通过Open-Meteo Historical Weather API，固定ERA5-Land、nearest网格、elevation=nan与Asia/Shanghai日界。对1991–2020每个日历月内全部逐日均温、最高温、最低温分别取算术平均。",
+      "unit": "°C",
+      "source": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=24.5604694&longitude=102.8389898&start_date=1991-01-01&end_date=2020-12-31&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min&timezone=Asia%2FShanghai&models=era5_land&cell_selection=nearest&elevation=nan",
+        "title": "Open-Meteo Historical Weather API — ERA5-Land daily 2 m temperature",
+        "publisher": "Open-Meteo；ECMWF/Copernicus ERA5-Land",
+        "checked_at": "2026-09-21",
+        "sha256": "71a65dc336e931d15791d6d5c9d074558b43294df136eb207f786f6edbfc9890"
+      },
+      "months": [
+        {
+          "month": 1,
+          "mean_c": 9.36,
+          "mean_high_c": 14.34,
+          "mean_low_c": 5.48
+        },
+        {
+          "month": 2,
+          "mean_c": 11.55,
+          "mean_high_c": 17.12,
+          "mean_low_c": 6.88
+        },
+        {
+          "month": 3,
+          "mean_c": 15.1,
+          "mean_high_c": 20.94,
+          "mean_low_c": 9.82
+        },
+        {
+          "month": 4,
+          "mean_c": 17.71,
+          "mean_high_c": 23.43,
+          "mean_low_c": 12.45
+        },
+        {
+          "month": 5,
+          "mean_c": 19.0,
+          "mean_high_c": 23.86,
+          "mean_low_c": 14.75
+        },
+        {
+          "month": 6,
+          "mean_c": 19.42,
+          "mean_high_c": 23.34,
+          "mean_low_c": 16.47
+        },
+        {
+          "month": 7,
+          "mean_c": 19.2,
+          "mean_high_c": 22.72,
+          "mean_low_c": 16.69
+        },
+        {
+          "month": 8,
+          "mean_c": 19.05,
+          "mean_high_c": 22.65,
+          "mean_low_c": 16.41
+        },
+        {
+          "month": 9,
+          "mean_c": 17.76,
+          "mean_high_c": 21.26,
+          "mean_low_c": 15.1
+        },
+        {
+          "month": 10,
+          "mean_c": 15.41,
+          "mean_high_c": 18.94,
+          "mean_low_c": 12.66
+        },
+        {
+          "month": 11,
+          "mean_c": 12.33,
+          "mean_high_c": 16.48,
+          "mean_low_c": 9.02
+        },
+        {
+          "month": 12,
+          "mean_c": 9.4,
+          "mean_high_c": 13.84,
+          "mean_low_c": 5.95
+        }
+      ],
+      "notes": [
+        "请求坐标取禄充风景区附近的OSM区域代表点（https://www.openstreetmap.org/node/12925898846），气温为附近网格再分析估计，不是气象站常年值。",
+        "实际返回网格中心24.599998°N、102.80002°E，网格海拔1995.0米。",
+        "1991–2020共10958条唯一逐日记录，三个变量无缺测。",
+        "云南山地高差大；此图不代表雪山、高海拔徒步线路或整个湖区微气候。",
+        "日最高/最低温的月平均不是极端温度；月均温不是天气预报。",
+        "方法说明：https://open-meteo.com/en/docs/historical-weather-api"
+      ]
+    },
+    "screening": {
+      "version": "practical-text-screen-v2",
+      "status": "ready",
+      "total_sources": 13,
+      "classified": 13,
+      "queued": 0,
+      "running": 0,
+      "failed": 0,
+      "unqueued": 0,
+      "category_counts": {
+        "clothing": 0,
+        "food": 0,
+        "stay": 6,
+        "transport": 1,
+        "visit_duration": 0,
+        "route_length": 7,
+        "internal_transport": 0
+      },
+      "failed_sources": [],
+      "config_errors": [],
+      "note": "自动分类只帮助定位相关原文，不生成事实，也不以置信度判断来源真伪。"
+    }
+  },
+  "visitor_seasonality": {
+    "schema_version": "visitor-seasonality-v1",
+    "destination_id": "fuxianhu",
+    "enabled": false,
+    "years": [],
+    "default_year": null,
+    "attractions": [],
+    "monthly": [],
+    "records": [],
+    "validation": {
+      "discarded_records": 0
+    },
+    "notes": []
+  },
+  "route_guides": {
+    "items": [],
+    "available_themes": [],
+    "note": "当前为已收录攻略精选，不是全网热度排行",
+    "visit_period_counts": {
+      "ordinary": 0,
+      "holiday": 0,
+      "unknown": 0
+    }
+  },
+  "nearby": {
+    "origin": null,
+    "distance_kind": "straight_line",
+    "max_distance_km": 150,
+    "limit": 3,
+    "items": [],
+    "regions": [],
+    "note": "按有出处的代表点估算直线距离，并非驾车里程或车程；区域包含已配置景点，不代表资料已齐全。"
+  },
+  "time_windows": {
+    "historical_through_year": 2024,
+    "recent_observation_years": [
+      2025,
+      2026
+    ]
+  },
+  "coverage": {
+    "months": [
+      {
+        "month": 1,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 2,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 3,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 4,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 5,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 6,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 7,
+        "count": 1,
+        "observed_count": 0,
+        "publication_count": 1,
+        "observed_photo_count": 0,
+        "publication_photo_count": 5,
+        "approved_photo_count": 5
+      },
+      {
+        "month": 8,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 9,
+        "count": 4,
+        "observed_count": 0,
+        "publication_count": 4,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 10,
+        "count": 1,
+        "observed_count": 0,
+        "publication_count": 1,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 11,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      },
+      {
+        "month": 12,
+        "count": 0,
+        "observed_count": 0,
+        "publication_count": 0,
+        "observed_photo_count": 0,
+        "publication_photo_count": 0,
+        "approved_photo_count": 0
+      }
+    ],
+    "unknown_time": 13,
+    "unassigned_time": 7
+  },
+  "map": {
+    "bounds": [
+      24.3,
+      102.74,
+      24.76,
+      103.04
+    ],
+    "hubs": [
+      {
+        "id": "chengjiang-bus-station",
+        "name": "澄江汽车客运站",
+        "kind": "bus",
+        "type": "汽车客运站",
+        "lat": 24.6763582,
+        "lon": 102.9098625,
+        "map_source_url": "https://www.openstreetmap.org/node/1621372444",
+        "source_name": "澄江汽车客运站",
+        "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/node/1621372444"
+      },
+      {
+        "id": "jiangcheng-bus-station",
+        "name": "江城客运站",
+        "kind": "bus",
+        "type": "汽车客运站",
+        "lat": 24.424806,
+        "lon": 102.8113543,
+        "map_source_url": "https://www.openstreetmap.org/node/1818525315",
+        "source_name": "江城客运站",
+        "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+        "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+        "source_url": "https://www.openstreetmap.org/node/1818525315"
+      }
+    ],
+    "roads": [],
+    "image_url": "/static/maps/fuxianhu-overview.svg",
+    "assets": [
+      {
+        "title": "湖区与已定位景点",
+        "description": "抚仙湖真实水体与道路；五处未核实坐标的景点仅列索引。",
+        "image_url": "/static/maps/fuxianhu-overview.svg",
+        "source_url": "https://www.openstreetmap.org/copyright",
+        "source_label": "© OpenStreetMap contributors"
+      }
+    ],
+    "transport_sources": [],
+    "limitations": [
+      "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+      "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+      "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+      "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+      "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+      "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。",
+      "澄江化石地博物馆未被用作澄江化石地坐标；太阳山、广龙小镇、小湾村、澄江化石地、明星鱼洞仍待核。"
+    ]
+  },
+  "limitations": [
+    "作者描述的月份与照片实拍日期分别记录；未知年份的材料不进入历年共识。",
+    "班次、票价和道路时效请以出行当天官方查询为准。"
+  ],
+  "updated_at": "2026-09-21T16:16:16.347306+00:00",
+  "total_evidence": 13,
+  "jobs": [],
+  "source_capabilities": []
+}

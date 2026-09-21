@@ -1,0 +1,296 @@
+{
+  "destination": "kunming",
+  "coordinate_system": "WGS84",
+  "retrieved_at": "2026-09-21",
+  "script": "scripts/build_manifest_context_maps.py",
+  "sources": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:50];nwr(24.65,102.3,26.2,103.65)[\"name\"~\"翠湖|讲武堂|海埂|西山|民族村|大观公园|斗南|官渡古镇|昆明老街|云南省博物馆|捞渔河|海晏村|石林|轿子|昆明站|昆明南|长水|滇池\"];out center tags;",
+      "retrieved_at": "2026-09-21T15:48:59.859823+00:00",
+      "path": "data/onboarding/yunnan/kunming-pois.json",
+      "sha256": "25c2073117fa67736e265044ffaa4d6eeafc9348c6e0d810ef4dc139e5d93293",
+      "bytes": 307118,
+      "element_count": 823,
+      "osm_base_timestamp": "2026-09-21T15:47:45Z",
+      "status": "complete"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:55];(way(24.64,102.4,26.16,103.46)[\"highway\"~\"^(motorway|trunk|primary|secondary)$\"];nwr(24.64,102.4,26.16,103.46)[\"natural\"=\"water\"][\"name\"];way(24.64,102.4,26.16,103.46)[\"leisure\"=\"park\"][\"name\"];);out body geom;",
+      "retrieved_at": "2026-09-21T15:53:23.983864+00:00",
+      "path": "data/onboarding/yunnan/kunming-context.json",
+      "sha256": "26c53a8f338d54eac82512fd3c9968699ead45bdcf0e2e6d6c61281e957e9db1",
+      "bytes": 16417579,
+      "element_count": 11030,
+      "osm_base_timestamp": "2026-09-21T15:51:51Z",
+      "status": "complete"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:30];(nwr(24.64,102.40,25.18,103.05)[\"railway\"=\"station\"][\"name\"~\"^昆明$|^昆明南$\"];nwr(25.55,100.20,25.66,100.34)[\"railway\"=\"station\"][\"name\"~\"^大理$\"];nwr(26.6,100.15,26.95,100.4)[\"railway\"=\"station\"][\"name\"~\"^丽江$\"];);out center tags;",
+      "retrieved_at": "2026-09-21T15:53:21.865491+00:00",
+      "path": "data/onboarding/yunnan/hubs.json",
+      "sha256": "a83c342ccf79c616f8f3f48e4ab36919712aaa45f57f620b3aa51a02c4a1260f",
+      "bytes": 3270,
+      "element_count": 4,
+      "osm_base_timestamp": "2026-09-21T15:51:51Z",
+      "status": "complete"
+    }
+  ],
+  "attractions": [
+    {
+      "name": "翠湖公园",
+      "lat": 25.0514737,
+      "lon": 102.7025838,
+      "map_source_url": "https://www.openstreetmap.org/way/24044964",
+      "source_name": "翠湖公园",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "云南陆军讲武堂",
+      "lat": 25.0507979,
+      "lon": 102.6990026,
+      "map_source_url": "https://www.openstreetmap.org/way/24046825",
+      "source_name": "云南陆军讲武堂历史博物馆",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "海埂大坝",
+      "lat": 24.9759724,
+      "lon": 102.6494902,
+      "map_source_url": "https://www.openstreetmap.org/way/1019939632",
+      "source_name": "海埂大坝",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "西山风景区",
+      "lat": 24.9682241,
+      "lon": 102.6260635,
+      "map_source_url": "https://www.openstreetmap.org/way/36808771",
+      "source_name": "西山风景区",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "OSM源对象注明边界大致，采用包围盒中心仅示意区域分布，不用作景区边界或入口。"
+    },
+    {
+      "name": "云南民族村",
+      "lat": 24.969157,
+      "lon": 102.6594697,
+      "map_source_url": "https://www.openstreetmap.org/way/39585364",
+      "source_name": "云南民族村",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "大观公园",
+      "lat": 25.0245168,
+      "lon": 102.6711076,
+      "map_source_url": "https://www.openstreetmap.org/relation/13751688",
+      "source_name": "大观公园",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "斗南花市",
+      "lat": 24.9054792,
+      "lon": 102.7864413,
+      "map_source_url": "https://www.openstreetmap.org/way/1167253062",
+      "source_name": "斗南花卉市场",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "官渡古镇",
+      "lat": 24.9583673,
+      "lon": 102.7539924,
+      "map_source_url": "https://www.openstreetmap.org/way/1354812529",
+      "source_name": "官渡古镇",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "昆明老街",
+      "lat": 25.042789,
+      "lon": 102.706613,
+      "map_source_url": "https://www.openstreetmap.org/way/245760335",
+      "source_name": "昆明老街",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "云南省博物馆",
+      "lat": 24.952239,
+      "lon": 102.7521982,
+      "map_source_url": "https://www.openstreetmap.org/way/631619836",
+      "source_name": "云南省博物馆新馆",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "捞渔河湿地公园",
+      "lat": null,
+      "lon": null,
+      "map_source_url": null,
+      "map_note": "本轮OSM查询未核实对应对象，保留空坐标。"
+    },
+    {
+      "name": "海晏村",
+      "lat": 24.8119133,
+      "lon": 102.7676518,
+      "map_source_url": "https://www.openstreetmap.org/node/6873539365",
+      "source_name": "海晏村",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "石林风景区",
+      "lat": 24.8162558,
+      "lon": 103.3225322,
+      "map_source_url": "https://www.openstreetmap.org/way/732651541",
+      "source_name": "石林风景区",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    },
+    {
+      "name": "轿子雪山",
+      "lat": 26.0896886,
+      "lon": 102.8520455,
+      "map_source_url": "https://www.openstreetmap.org/way/1144268623",
+      "source_name": "轿子山风景区",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。"
+    }
+  ],
+  "hubs": [
+    {
+      "id": "kunming-station",
+      "name": "昆明站",
+      "kind": "railway",
+      "type": "火车站",
+      "lat": 25.0186616,
+      "lon": 102.720287,
+      "map_source_url": "https://www.openstreetmap.org/node/9176075104",
+      "source_name": "昆明",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/node/9176075104"
+    },
+    {
+      "id": "kunming-south",
+      "name": "昆明南站",
+      "kind": "railway",
+      "type": "火车站",
+      "lat": 24.8733628,
+      "lon": 102.8603804,
+      "map_source_url": "https://www.openstreetmap.org/node/2865839196",
+      "source_name": "昆明南",
+      "coordinate_basis": "OSM原始节点；位置代表点，不是已核实入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/node/2865839196"
+    },
+    {
+      "id": "kunming-airport",
+      "name": "昆明长水国际机场",
+      "kind": "airport",
+      "type": "机场",
+      "lat": 25.1087531,
+      "lon": 102.9391513,
+      "map_source_url": "https://www.openstreetmap.org/way/481151584",
+      "source_name": "昆明长水国际机场",
+      "coordinate_basis": "OSM对象包围盒中心；区域代表点，不是入口",
+      "map_note": "仅表示OSM对象的相对位置；未核实景区入口或可通行路线。",
+      "source_url": "https://www.openstreetmap.org/way/481151584"
+    }
+  ],
+  "notes": [
+    "坐标及所绘几何来自OpenStreetMap公开数据，读取日期2026-09-21；保留对象引用、查询文本、快照时间与文件SHA256。",
+    "采用WGS84局部等比例投影，与全国入口DataV边界坐标分开；未混叠GCJ02边界。",
+    "图中地点是OSM节点或对象包围盒中心，不是已核实入口；山峰、山脉与湖泊的代表点不表示游览服务设施。",
+    "仅绘制成功返回的真实道路、水体、公园几何，缺失不补画；不声称完整覆盖或实时运营，也不推断车程、价格和班次。",
+    "地图中灰色景点索引表示本轮尚无核验坐标；多图中的景点编号与目的地配置顺序一致。",
+    "图中有偏移编号时，短引线末端小点为原始位置；编号圆心不能作导航坐标。"
+  ],
+  "panels": [
+    {
+      "title": "城区与滇池北岸",
+      "description": "城区、湖岸景点与交通枢纽；轿子雪山、石林见区域图。",
+      "bounds": [
+        24.78,
+        102.56,
+        25.16,
+        103.02
+      ],
+      "scale_km": 5,
+      "show_attraction_labels": false,
+      "show_context": false,
+      "water_labels": [
+        {
+          "name": "滇池",
+          "point": [
+            24.8465852,
+            102.6914915
+          ]
+        }
+      ],
+      "output": "chinatour/static/maps/kunming-urban.svg",
+      "attraction_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "marker_offsets": {
+        "1": [
+          0,
+          -16
+        ],
+        "2": [
+          -21,
+          9
+        ],
+        "9": [
+          21,
+          10
+        ],
+        "8": [
+          17,
+          -12
+        ],
+        "10": [
+          -13,
+          13
+        ]
+      }
+    },
+    {
+      "title": "石林与轿子雪山",
+      "description": "主城区、石林、轿子雪山及已核实交通枢纽的相对分布。",
+      "bounds": [
+        24.64,
+        102.4,
+        26.16,
+        103.46
+      ],
+      "scale_km": 20,
+      "show_attraction_labels": true,
+      "show_context": false,
+      "water_labels": [],
+      "output": "chinatour/static/maps/kunming-region.svg",
+      "attraction_numbers": [
+        13,
+        14
+      ]
+    }
+  ]
+}

@@ -502,5 +502,390 @@
     "name": "瞻园",
     "kind": "attraction",
     "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "昆明",
+    "kind": "destination",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "翠湖公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "云南陆军讲武堂",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "海埂大坝",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "西山风景区",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "云南民族村",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "大观公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "斗南花市",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "官渡古镇",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "昆明老街",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "云南省博物馆",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "捞渔河湿地公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "海晏村",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "石林风景区",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "kunming",
+    "destination_name": "昆明",
+    "name": "轿子雪山",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "抚仙湖",
+    "kind": "destination",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "禄充风景区",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "月亮湾湿地公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "樱花谷",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "太阳山",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "广龙小镇",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "小湾村",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "澄江化石地",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "fuxianhu",
+    "destination_name": "抚仙湖",
+    "name": "明星鱼洞",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "丽江",
+    "kind": "destination",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "丽江古城",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "玉龙雪山",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "蓝月谷",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "黑龙潭公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "束河古镇",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "白沙古镇",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "拉市海湿地",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "lijiang",
+    "destination_name": "丽江",
+    "name": "东巴谷",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "大理",
+    "kind": "destination",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "大理古城",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "苍山",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "洱海",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "喜洲古镇",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "双廊古镇",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "龙龛码头",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "小普陀",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "南诏风情岛",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "罗荃半岛",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "龙尾关",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dali",
+    "destination_name": "大理",
+    "name": "崇圣寺三塔",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "香格里拉",
+    "kind": "destination",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "独克宗古城",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "松赞林寺",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "普达措国家公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "纳帕海",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "白水台",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "巴拉格宗",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "石卡雪山",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "尼汝",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "shangrila",
+    "destination_name": "香格里拉",
+    "name": "虎跳峡",
+    "kind": "attraction",
+    "aliases": []
   }
 ]

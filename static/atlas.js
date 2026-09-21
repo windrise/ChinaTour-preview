@@ -22,7 +22,7 @@
     const p = destination();
     if (level === 'china') return { chapter:'01 / 从中国出发', title:['山河有时，','去见此刻。'], description:['把散落的真实风景，放回地图与四季。','从一个月份，找到你想去的地方。'], caption:`中国 · 选择${p.name}，沿地图逐级抵达`, location:`这一站 · ${p.province_name}`, note:p.tagline || '循着地图，走进真实风景。' };
     if (level === 'province') return { chapter:`02 / 放大${p.province_name}`, title:[`沿着${p.province_name}，`,'找到这一站。'], description:[p.province_description || `在${p.province_name}的地图里，找到${p.name}。`,'先认清方位，再慢慢走近。'], caption:`${p.province_name} · ${p.name}的地理位置`, location:p.province_name, note:`下一站，走进${p.name}。` };
-    return { chapter:`03 / 抵达${p.name}`, title:[`走进${p.name}，`,'四时有景。'], description:[p.description || p.tagline || '跟着真实资料，认识这个地方。',`用有出处的照片，认识这个月份的${p.name}。`], caption:`${p.name} · 开始查看月份与景点`, location:'目的地已抵达', note:'打开实景、园内导览与真实资料。' };
+    return { chapter:`03 / 抵达${p.name}`, title:[`走进${p.name}，`,'四时有景。'], description:[p.description || p.tagline || '跟着真实资料，认识这个地方。',`用有出处的照片，认识这个月份的${p.name}。`], caption:p.local_caption || `${p.name} · 开始查看月份与景点`, location:'目的地已抵达', note:p.local_note || '打开实景、园内导览与真实资料。' };
   }
   function el(tag, attrs = {}, text) {
     const node = document.createElementNS(ns,tag);
@@ -58,7 +58,7 @@
   function textAt(x,y,text,cls='atlas-dot-text') { return el('text',{x,y,class:cls},text); }
   function build() {
     const place = destination();
-    svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':`中国省界、${place.province_name}市界与${place.name}轮廓`});
+    svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':`中国省界、${place.province_name}州、市界与${place.local_label || `${place.name}轮廓`}`});
     const defs=el('defs');
     const pattern=el('pattern',{id:'atlas-grain',width:5,height:5,patternUnits:'userSpaceOnUse'});
     pattern.append(el('circle',{cx:1,cy:1,r:.4,fill:'#9bbaaa',opacity:.22}));defs.append(pattern);svg.append(defs);
@@ -93,13 +93,13 @@
     const place=destination(); const center=centerOf(place);
     if(stage==='china') {
       [['西藏',[88,31]],['新疆',[86,42]],['四川',[102,30]],['内蒙古',[112,44]]].forEach(([name,p])=>{const [x,y]=toScreen(p);labels.append(textAt(x,y,name,'atlas-city-label'));});
-      destinations.forEach(item=>pin(centerOf(item),item.name,`${item.province_name} / ${item.latin || item.id.toUpperCase()}`,'travel',item.id));
+      destinations.forEach(item=>pin(centerOf(item),item.pin_label || item.name,`${item.province_name} / ${item.latin || item.id.toUpperCase()}`,'travel',item.id));
       labels.append(textAt(815,580,'南海诸岛','atlas-city-label'));
     } else if(stage==='province') {
       featuresFor('province').forEach(f=>{if(Number(f.properties.adcode)===Number(place.city_adcode))return;const p=f.properties.centroid||f.properties.center;if(!p)return;const [x,y]=toScreen(p);if(y>20&&y<H-20)labels.append(textAt(x,y,String(f.properties.name || '').replace('市',''),'atlas-city-label'));});
-      pin(center,place.name,place.latin || place.id.toUpperCase(),'travel');
+      pin(center,place.pin_label || place.name,place.center_label || place.latin || place.id.toUpperCase(),'travel');
     } else {
-      pin(center,place.name,'EXPLORE THE SEASONS','browse');
+      pin(center,place.pin_label || place.name,place.center_label || 'EXPLORE THE SEASONS','browse');
       if (center) { const [x,y]=toScreen(center);labels.append(textAt(x,y+120,place.latin || place.id.toUpperCase(),'atlas-map-watermark')); }
     }
     inset.style.display=stage==='china'?'':'none';
@@ -117,8 +117,8 @@
     $a('#atlas-skip').replaceChildren(document.createTextNode(`直接浏览${place.name}资料 `));$a('#atlas-skip').append(document.createTextNode('→'));
     $a('[data-atlas-stage="province"]>span').textContent=place.province_name;$a('[data-atlas-stage="local"]>span').textContent=place.name;
     $a('#atlas-place-picker').value=selectedId;
-    const center=centerOf(place);$a('#atlas-coordinate').textContent=center?`${Math.abs(center[1]).toFixed(2)}° ${center[1]>=0?'N':'S'} / ${Math.abs(center[0]).toFixed(2)}° ${center[0]>=0?'E':'W'}`:'';
-    $a('#atlas-map-mount').setAttribute('aria-label',`中国、${place.province_name}与${place.name}的地理层级地图`);
+    const center=centerOf(place);$a('#atlas-coordinate').textContent=center?`${Math.abs(center[1]).toFixed(2)}° ${center[1]>=0?'N':'S'} / ${Math.abs(center[0]).toFixed(2)}° ${center[0]>=0?'E':'W'}${place.center_label ? ` · ${place.center_label}` : ''}`:'';
+    $a('#atlas-map-mount').setAttribute('aria-label',`中国、${place.province_name}与${place.local_label || place.name}的地理层级地图`);
   }
   function changeStage(next,animate=true) {
     if(!['china','province','local'].includes(next))return Promise.resolve();
