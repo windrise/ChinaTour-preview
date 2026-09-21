@@ -483,6 +483,12 @@ main { padding-bottom: 20px; }
 .section-intro { margin: 0 0 20px; color: var(--muted); font-size: 11px; }
 .attraction-controls { display: flex; align-items: center; gap: 20px; }
 .search-box input { width: 170px; font-size: 11px; }
+.place-search-form { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.place-search-form .search-box input { width: 210px; }
+.place-search-panel { margin: 0 0 22px; padding: 12px 16px; border-left: 2px solid var(--green); background: rgba(113, 149, 138, .06); color: var(--muted); font-size: 12px; line-height: 1.8; }
+.place-search-panel p { margin: 3px 0; }
+.place-search-panel .text-button, .place-search-form .text-button { font-size: 12px; }
+.place-search-panel .search-error { color: var(--coral); }
 .attraction-card { position: relative; min-width: 0; min-height: 0; overflow: hidden; border-radius: 8px; }
 .attraction-card:focus-within { box-shadow: 0 0 0 3px rgba(28, 93, 75, .2); }
 .attraction-media { height: 230px; min-height: 230px; }
@@ -615,7 +621,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px soli
   .month-controls-row .mode-switch { width: auto; }
   .month-button { min-height: 56px; }
   .attractions-section { padding-top: 30px; }
-  .attraction-controls { justify-content: space-between; width: 100%; }
+  .attraction-controls { justify-content: space-between; width: 100%; flex-wrap: wrap; gap: 10px; }
   .attractions-section .split-heading { gap: 12px; }
   .attractions-section .section-intro { margin-top: 10px; font-size: 10px; }
   .attractions-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
@@ -815,6 +821,20 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px soli
 }
 @media(prefers-reduced-motion:reduce) { .route-guide-card { transition:none; } }
 
-.attraction-directory { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0 24px; }
-.directory-link { border:1px solid var(--line, #334744); background:transparent; color:inherit; border-radius:20px; padding:7px 12px; font:inherit; font-size:13px; cursor:pointer; }
+.attraction-directory-panel { margin-top:24px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.attraction-directory-panel>summary { padding:18px 0; cursor:pointer; color:var(--muted); font-size:14px; }
+.attraction-directory { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:0 0 20px; }
+.directory-link { display:flex; flex-direction:column; align-items:flex-start; gap:5px; text-align:left; border:1px solid var(--line, #334744); background:transparent; color:inherit; border-radius:8px; padding:10px 12px; font:inherit; font-size:14px; cursor:pointer; }
+.directory-link small { color:var(--muted); font-size:11px; }
 .directory-link:hover, .directory-link:focus-visible { background:#24423d; border-color:#98b7a6; }
+.drawer-head { display:grid; grid-template-columns:minmax(0,1fr) auto; }
+.drawer-month-filter { grid-column:1/-1; display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:5px; }
+.drawer-month-button { min-height:35px; padding:7px 0; color:inherit; border:1px solid var(--line); background:transparent; border-radius:5px; cursor:pointer; font:inherit; font-size:12px; }
+.drawer-month-button.active { background:#c4e5d7; color:#173d32; border-color:#c4e5d7; font-weight:700; }
+.drawer-month-button:hover { border-color:currentColor; }
+.drawer-more-info { margin:12px 0; border-bottom:1px solid var(--line); }
+.drawer-more-info>summary { padding:12px 0; cursor:pointer; font-size:14px; }
+@media(max-width:560px) {
+  .drawer-month-filter { grid-template-columns:repeat(6,minmax(0,1fr)); }
+  .attraction-directory { grid-template-columns:1fr; }
+}

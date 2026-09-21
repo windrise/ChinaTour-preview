@@ -855,60 +855,12 @@
         },
         "unknown": {
           "evidence_count": 2,
-          "photo_count": 9,
+          "photo_count": 8,
           "evidence_ids": [
             "ev_753e70216f304a6b",
             "ev_ad885487dd2e4eb1"
           ],
           "photos": [
-            {
-              "asset_id": "1040g00831ul8r46p2q405o3qe7s0828qavvgusg",
-              "id": "9d2f5110ec28af865ee7e6ca",
-              "ordinal": 9,
-              "ordinal_basis": "verified_dom_index",
-              "url": "/api/media/9d2f5110ec28af865ee7e6ca",
-              "visit_period": {
-                "kind": "unknown",
-                "id": "unknown",
-                "holiday": null,
-                "label": "时间待确认",
-                "basis": "unconfirmed",
-                "support_excerpt": "",
-                "basis_label": "原文未确认到访时段",
-                "source_url": "https://www.xiaohongshu.com/explore/69d49072000000002301f9da"
-              },
-              "publication_review": {
-                "status": "approved",
-                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-                "input_sha256": "87f65a777f25e7ae4dde6c22f2157a226cbbb113a05ef2bc52fc09962dc3c573",
-                "reasons": [],
-                "metrics": {
-                  "width": 1080,
-                  "height": 1440,
-                  "sharpness": 3972.91,
-                  "face_count": 0,
-                  "human_count": 0,
-                  "largest_face": 0,
-                  "largest_human": 0,
-                  "people_score": 0.11109185963869095,
-                  "override": null
-                }
-              },
-              "display_eligible": true,
-              "scene_hint": {
-                "rule_version": "representative-subject-gate-v1",
-                "eligible": false,
-                "scene": null,
-                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-                "reason": "uncertain_scene"
-              },
-              "source_url": "https://www.xiaohongshu.com/explore/69d49072000000002301f9da",
-              "publisher": "王麦麦Mandy",
-              "title": "高淳老街逛吃攻略（接地气版）",
-              "evidence_id": "ev_753e70216f304a6b",
-              "time_label": "拍摄时间未知",
-              "material_date": "2026-04-07"
-            },
             {
               "asset_id": "1040g00831uirmod0ii5g5oneebl7qp9ftd6urd8",
               "id": "f30c5ec4185db0e9a7a20ef7",
@@ -2438,50 +2390,7 @@
       "published_label": "04-07",
       "captured_at": "2026-09-21T08:40:46.137865+00:00",
       "topics": [],
-      "media": [
-        {
-          "asset_id": "1040g00831ul8r46p2q405o3qe7s0828qavvgusg",
-          "id": "9d2f5110ec28af865ee7e6ca",
-          "ordinal": 9,
-          "ordinal_basis": "verified_dom_index",
-          "url": "/api/media/9d2f5110ec28af865ee7e6ca",
-          "visit_period": {
-            "kind": "unknown",
-            "id": "unknown",
-            "holiday": null,
-            "label": "时间待确认",
-            "basis": "unconfirmed",
-            "support_excerpt": "",
-            "basis_label": "原文未确认到访时段",
-            "source_url": "https://www.xiaohongshu.com/explore/69d49072000000002301f9da"
-          },
-          "publication_review": {
-            "status": "approved",
-            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
-            "input_sha256": "87f65a777f25e7ae4dde6c22f2157a226cbbb113a05ef2bc52fc09962dc3c573",
-            "reasons": [],
-            "metrics": {
-              "width": 1080,
-              "height": 1440,
-              "sharpness": 3972.91,
-              "face_count": 0,
-              "human_count": 0,
-              "largest_face": 0,
-              "largest_human": 0,
-              "people_score": 0.11109185963869095,
-              "override": null
-            }
-          },
-          "display_eligible": true,
-          "scene_hint": {
-            "rule_version": "representative-subject-gate-v1",
-            "eligible": false,
-            "scene": null,
-            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
-            "reason": "uncertain_scene"
-          }
-        }
-      ],
+      "media": [],
       "claims": [],
       "confidence_label": "拍摄时间未知",
       "material_date": "2026-04-07",
@@ -35634,8 +35543,8 @@
         "observed_count": 0,
         "publication_count": 13,
         "observed_photo_count": 0,
-        "publication_photo_count": 16,
-        "approved_photo_count": 16
+        "publication_photo_count": 15,
+        "approved_photo_count": 15
       },
       {
         "month": 5,
@@ -35670,8 +35579,8 @@
         "observed_count": 0,
         "publication_count": 55,
         "observed_photo_count": 0,
-        "publication_photo_count": 74,
-        "approved_photo_count": 74
+        "publication_photo_count": 79,
+        "approved_photo_count": 79
       },
       {
         "month": 9,

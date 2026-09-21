@@ -14,6 +14,7 @@ const state = {
   regionId: initialParams.get('region') || 'all', nearbyExpanded: false,
   query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null, mapAssetIndex: 0,
   requestVersion: 0, openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
+  placeSearch: null, placeSearchTimer: null, placeSearchBusy: false, placeSearchError: '',
 };
 
 const READY_SOURCE_STATUS = new Set(['public_read_verified', 'available', 'enabled', 'active', 'public', 'supported']);
@@ -902,47 +903,62 @@ function renderNearby() {
   more.textContent = state.nearbyExpanded ? '收起' : `再看 ${Math.min(24, items.length) - limit} 处`;
   more.setAttribute('aria-expanded', String(state.nearbyExpanded));
 }
+function attractionPresentation(attraction) {
+  const photos = attractionMediaEntries(attraction).filter(entry => entry.monthMatched);
+  const related = attractionEvidence(attraction);
+  const seasonal = related.filter(item => integer(item.browse_month || item.month) === currentMonthNumber());
+  return { attraction, photos, related, seasonal, observed: photos.filter(entry => entry.observedMonth).length,
+    sources: new Set(photos.map(entry => entry.sourceUrl).filter(Boolean)).size };
+}
 function renderAttractions() {
-  stopPhotoCycle(); photoDecks.clear();
-  renderRegionFilters();
+  stopPhotoCycle(); photoDecks.clear(); renderRegionFilters();
   const grid = clear($('#attractions-grid'));
   const region = selectedRegion();
   const regionIds = region ? new Set(region.attraction_ids) : null;
-  const attractions = (state.data?.attractions || []).filter(item => !regionIds || regionIds.has(String(item.id || item.place_id))).filter(attractionQueryMatch).sort((a, b) => {
-    const monthItems = (item) => attractionEvidence(item).filter((evidence) => integer(evidence.browse_month || evidence.month) === currentMonthNumber()).length;
-    return monthItems(b) - monthItems(a);
-  });
+  const exactName = (state.data?.attractions || []).some(item => String(item.name || '').toLowerCase() === state.query.trim().toLowerCase());
+  const items = (state.data?.attractions || [])
+    .filter(item => !regionIds || regionIds.has(String(item.id || item.place_id)))
+    .filter(item => !exactName || String(item.name || '').toLowerCase() === state.query.trim().toLowerCase())
+    .filter(attractionQueryMatch).map(attractionPresentation)
+    .sort((a, b) => Number(Boolean(b.photos.length)) - Number(Boolean(a.photos.length))
+      || Number(Boolean(b.observed)) - Number(Boolean(a.observed))
+      || b.sources - a.sources || Math.min(b.photos.length, 5) - Math.min(a.photos.length, 5));
+  const ready = items.filter(item => item.photos.length);
   const total = (state.data?.attractions || []).length;
-  $('#attractions-count').textContent = region || state.query ? `当前 ${attractions.length} / 全市 ${total} 个景点` : `全市 ${total} 个景点`;
+  $('#attractions-count').textContent = `${state.month} 月有图 ${ready.length} 处 · ${region || state.query ? `当前目录 ${items.length} / ` : ''}全市 ${total} 处`;
   const directory = clear($('#attraction-directory'));
-  for (const attraction of attractions) {
-    const link = make('button', 'directory-link', attraction.name); link.type = 'button';
-    link.addEventListener('click', () => openDrawer(attraction)); directory.append(link);
+  for (const item of items) {
+    const link = make('button', `directory-link${item.photos.length ? ' has-photos' : ''}`); link.type = 'button';
+    link.append(make('span', '', item.attraction.name), make('small', '', item.photos.length
+      ? `${state.month}月 ${item.photos.length}图` : item.related.length ? '本月待补图 · 可看资料' : '本月待补充'));
+    link.addEventListener('click', () => openDrawer(item.attraction)); directory.append(link);
   }
+  const directoryPanel = $('#attraction-directory-panel');
+  directoryPanel.hidden = !items.length; directoryPanel.open = Boolean(state.query);
+  $('#attraction-directory-summary').textContent = `全部景点与资料 · ${items.length} 处，其中 ${items.length - ready.length} 处本月待补图`;
   const regionLabel = region ? ` · ${region.name}` : '';
-  $('#attractions-context').textContent = state.query
-    ? `${state.month} 月${regionLabel} · 搜索「${state.query}」；点开景点查看命中的原始记录。`
-    : `${state.month} 月${regionLabel} · 点开感兴趣的景点，查看照片、路线与真实资料。`;
-  if (!attractions.length) { grid.append(emptyBlock(state.query ? '没有找到匹配的景点' : '景点资料还在形成中', state.query ? '试试其他景点名或资料关键词。' : '选择其他月份，或展开自动搜集工作台补充资料。')); return; }
-  attractions.slice(0, state.attractionLimit).forEach((attraction) => {
+  $('#attractions-context').textContent = `${state.month} 月${regionLabel}${state.query ? ` · 搜索「${state.query}」` : ''} · 先看有照片的 ${ready.length} 处；${ready.filter(item => item.observed).length} 处有现场月份依据，其余按发布月份参考。`;
+  if (!ready.length) {
+    grid.append(emptyBlock(state.query && !items.length ? '没有找到匹配的景点' : `${state.month} 月的照片还在补充`,
+      items.length ? '可以在下方目录打开景点，在详情里切换月份，或查看已有文字资料。' : '试试其他景点名或资料关键词。'));
+    return;
+  }
+  ready.slice(0, state.attractionLimit).forEach((item) => {
+    const attraction = item.attraction;
     const card = make('article', 'attraction-card');
     const media = make('div', 'attraction-media');
-    const entries = cardMediaEntries(attraction);
-    createPhotoDeck(media, entries, attraction, card);
-    card.append(media);
+    createPhotoDeck(media, cardMediaEntries(attraction), attraction, card); card.append(media);
     const body = make('div', 'attraction-body');
-    const related = attractionEvidence(attraction);
-    const seasonal = related.filter((item) => integer(item.browse_month || item.month) === currentMonthNumber());
     const eyebrow = make('div', 'card-eyebrow');
-    eyebrow.append(make('span', '', seasonal.length ? `${state.month} 月 · ${seasonal.length} 条相关记录` : '景点背景资料'), make('span', '', `${attractionMediaEntries(attraction).length} 张图`)); body.append(eyebrow);
+    eyebrow.append(make('span', '', `${state.month} 月 · ${item.sources} 个照片来源`), make('span', '', `${item.photos.length} 张图`)); body.append(eyebrow);
     const heading = make('h3'); const open = make('button', 'attraction-open', attraction.name || '未命名景点'); open.type = 'button'; open.setAttribute('aria-label', `查看${attraction.name || '景点'}的照片与真实资料`); open.addEventListener('click', () => openDrawer(attraction)); heading.append(open); body.append(heading);
     body.append(make('p', 'attraction-description', attraction.description || '点开查看已有照片与原始记录。'));
     body.append(make('span', 'card-detail-link', '照片与资料'), make('span', 'card-detail-arrow', '↗'));
     card.append(body); grid.append(card);
   });
-  if (attractions.length > state.attractionLimit) {
-    const more = make('button', 'more-attractions', `再看 ${attractions.length - state.attractionLimit} 个景点 ↓`); more.type = 'button';
-    more.addEventListener('click', () => { const nextIndex = state.attractionLimit; state.attractionLimit = attractions.length; renderAttractions(); $('#attractions-grid').querySelectorAll('.attraction-open')[nextIndex]?.focus(); });
+  if (ready.length > state.attractionLimit) {
+    const more = make('button', 'more-attractions', `再看 ${ready.length - state.attractionLimit} 个有图景点 ↓`); more.type = 'button';
+    more.addEventListener('click', () => { const nextIndex = state.attractionLimit; state.attractionLimit = ready.length; renderAttractions(); $('#attractions-grid').querySelectorAll('.attraction-open')[nextIndex]?.focus(); });
     grid.append(more);
   }
   startPhotoCycle();
@@ -1357,10 +1373,75 @@ function toggleBrowserInfo() {
   renderSourceOptions();
 }
 
+function renderPlaceSearch() {
+  const panel = $('#place-search-panel'); const button = $('#place-search-button');
+  if (!panel || !button) return;
+  const query = state.query.trim(); const item = state.placeSearch;
+  panel.hidden = !query && !item && !state.placeSearchError;
+  button.hidden = !query;
+  button.disabled = !!window.CHINATOUR_PREVIEW || state.placeSearchBusy || query.length < 2;
+  button.textContent = state.placeSearchBusy ? '正在创建…' : '搜集这个地点 ↗';
+  const city = state.data?.destination?.name || state.places.find(p => p.id === state.placeId)?.name || '当前城市';
+  $('#place-search-note').textContent = window.CHINATOUR_PREVIEW
+    ? '这里可搜索已收录资料。在线预览暂不能启动新地点采集；该功能已接入本地工作台，接入服务器后才能远程提交。'
+    : `在${city}范围内查找。已有资料即时筛选；点击搜集后先采一小批原帖，核对地点并审核后再展示。浏览器采集需当前 Codex 任务执行，遇登录会提示。`;
+  const status = $('#place-search-status'); status.replaceChildren();
+  if (state.placeSearchError) status.append(make('p', 'search-error', state.placeSearchError));
+  if (item) {
+    status.append(make('p', '', `${item.query} · ${item.month} 月 · ${item.label} · 已读取 ${item.document_count || 0} 篇`));
+    const refresh = make('button', 'text-button', '刷新任务状态'); refresh.type = 'button';
+    refresh.addEventListener('click', () => pollPlaceSearch(item.id, item.destination_id)); status.append(refresh);
+  }
+}
+async function startPlaceSearch() {
+  const query = state.query.trim(); const destinationId = state.placeId;
+  if (window.CHINATOUR_PREVIEW || state.placeSearchBusy || query.length < 2) return;
+  state.placeSearchBusy = true; state.placeSearchError = ''; renderPlaceSearch();
+  try {
+    const item = await post('/api/place-search', { destination_id: destinationId, query, month: currentMonthNumber() });
+    if (state.placeId !== destinationId) return;
+    clearTimeout(state.placeSearchTimer); state.placeSearch = item;
+    schedulePlaceSearch(item);
+  } catch (error) {
+    if (state.placeId === destinationId) state.placeSearchError = `暂未创建任务：${readableError(error)}`;
+  } finally {
+    if (state.placeId === destinationId) { state.placeSearchBusy = false; renderPlaceSearch(); }
+  }
+}
+function schedulePlaceSearch(item) {
+  clearTimeout(state.placeSearchTimer);
+  if (['queued', 'running', 'awaiting_browser'].includes(item.status)) state.placeSearchTimer = setTimeout(() => pollPlaceSearch(item.id, item.destination_id), 5000);
+}
+async function pollPlaceSearch(id, destinationId) {
+  if (window.CHINATOUR_PREVIEW || state.placeId !== destinationId || state.placeSearch?.id !== id) return;
+  try {
+    const item = await request(`/api/place-search/${encodeURIComponent(id)}`);
+    if (state.placeId !== destinationId || state.placeSearch?.id !== id) return;
+    const changed = state.placeSearch.status !== item.status;
+    state.placeSearch = item; state.placeSearchError = ''; renderPlaceSearch(); schedulePlaceSearch(item);
+    if (changed && item.status === 'processed') loadDestination({ silent: true });
+  } catch (error) {
+    if (state.placeId !== destinationId || state.placeSearch?.id !== id) return;
+    state.placeSearchError = `状态刷新失败：${readableError(error)}`; renderPlaceSearch();
+  }
+}
+async function loadPlaceSearch() {
+  if (window.CHINATOUR_PREVIEW) return;
+  const destinationId = state.placeId;
+  try {
+    const items = await request(`/api/place-search?destination_id=${encodeURIComponent(destinationId)}`);
+    if (destinationId !== state.placeId || state.placeSearch) return;
+    state.placeSearch = items[0] || null; renderPlaceSearch();
+    if (state.placeSearch) schedulePlaceSearch(state.placeSearch);
+  } catch (_) { /* Browsing remains available if task status is unavailable. */ }
+}
+
 function renderAll() {
   renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderEssentials(); renderRouteGuides(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderNearby(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
   const collect = $('#collect-button'); if (collect) { const active = jobActive(state.job); collect.disabled = !state.placeId; collect.innerHTML = active ? '搜集进行中 <span aria-hidden="true">…</span>' : '自动搜集 <span aria-hidden="true">↗</span>'; }
   renderCollectionScope();
+  renderPlaceSearch();
+  refreshOpenDrawer();
   document.dispatchEvent(new CustomEvent('chinatour:data', { detail: state.data }));
   window.CHINATOUR_PREVIEW?.render();
 }
@@ -1482,8 +1563,44 @@ function drawerPeriodDefinitions(entries, records) {
     .filter((period) => period.id !== 'other_holiday' || counts.get(period.id).photos || counts.get(period.id).records)
     .map((period) => ({ ...period, ...counts.get(period.id) }));
 }
+function renderDrawerMonths() {
+  const container = $('#drawer-month-filter'); if (!container) return;
+  if (!container.children.length) {
+    for (let month = 1; month <= 12; month += 1) {
+      const button = make('button', 'drawer-month-button', `${month}月`); button.type = 'button';
+      button.dataset.month = String(month); button.setAttribute('aria-controls', 'drawer-content');
+      button.addEventListener('click', () => chooseDrawerMonth(String(month))); container.append(button);
+    }
+  }
+  container.querySelectorAll('[data-month]').forEach(button => {
+    const active = button.dataset.month === String(state.month);
+    button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active));
+  });
+}
+async function chooseDrawerMonth(month) {
+  if (!state.openAttractionId || !/^(?:[1-9]|1[0-2])$/.test(String(month))) return;
+  state.month = String(month); state.attractionLimit = 6; updateUrl(); renderMonths(); renderDrawerMonths();
+  $('#drawer-kicker').textContent = `${state.data?.destination?.name || '目的地'} · ${state.month} 月 · ${MODE_LABELS[state.mode] || '全部资料'}`;
+  const content = clear($('#drawer-content')); content.setAttribute('aria-busy', 'true');
+  content.append(make('p', 'drawer-photo-note', `正在读取 ${state.month} 月的照片与资料…`));
+  $('.drawer-panel', $('#detail-drawer')).scrollTop = 0;
+  // loadDestination discards stale responses. Closing the drawer while loading
+  // clears its ID, so a completed request cannot reopen it.
+  await loadDestination({ silent: true });
+}
+function refreshOpenDrawer() {
+  if (!state.openAttractionId) return;
+  const attraction = state.data?.attractions?.find(item => String(item.id || item.place_id) === state.openAttractionId);
+  if (attraction) populateDrawer(attraction);
+  else {
+    const content = clear($('#drawer-content')); content.setAttribute('aria-busy', 'false');
+    content.append(make('p', 'drawer-photo-note', '这个月份的资料暂时无法读取，请点击月份重试。'));
+  }
+}
 function populateDrawer(attraction) {
   const content = clear($('#drawer-content')); if (!content || !attraction) return;
+  content.setAttribute('aria-busy', 'false');
+  renderDrawerMonths();
   $('#drawer-title').textContent = attraction.name || '景点详情';
   $('#drawer-kicker').textContent = `${state.data?.destination?.name || '目的地'} · ${state.month} 月 · ${MODE_LABELS[state.mode] || '全部资料'}`;
   const related = attractionEvidence(attraction);
@@ -1492,8 +1609,10 @@ function populateDrawer(attraction) {
   const preferredUrls = new Set(preferred.map((entry) => entry.url));
   const entries = [...preferred, ...allEntries.filter((entry) => entry.monthMatched && !preferredUrls.has(entry.url))];
   content.append(make('p', 'drawer-description', attraction.description || '暂无经核对的景点简介。'));
-  content.append(drawerPractical(attraction));
-  const localMap = drawerLocalMap(attraction); if (localMap) content.append(localMap);
+  const practical = make('details', 'drawer-more-info');
+  practical.append(make('summary', '', '游览时长、路线与交通'), drawerPractical(attraction)); content.append(practical);
+  const localMap = drawerLocalMap(attraction);
+  if (localMap) { const mapDetails = make('details', 'drawer-more-info'); mapDetails.append(make('summary', '', '景区游览图'), localMap); content.append(mapDetails); }
   const periodSection = make('section', 'drawer-period-section');
   const periodHeading = make('div', 'drawer-period-heading');
   const headingCopy = make('div'); headingCopy.append(make('p', 'eyebrow', 'WHEN TO GO'), make('h3', '', '平时与节假日实景'));
@@ -1567,12 +1686,14 @@ function selectDestination(placeId, { update = true, regionId = 'all' } = {}) {
   if (!placeId || String(placeId) === state.placeId) return;
   closeDrawer(); state.placeId = String(placeId); state.attractionLimit = 6; state.mapAssetIndex = 0;
   state.query = ''; $('#search-input').value = ''; state.practicalTab = null;
+  clearTimeout(state.placeSearchTimer); state.placeSearch = null; state.placeSearchError = ''; state.placeSearchBusy = false;
   state.routeTheme = 'all'; state.routePeriod = 'all'; state.routeLimit = 3; state.openRouteId = null;
   state.regionId = regionId; state.nearbyExpanded = false;
   state.data = null; clearJobForContext();
   if (update) updateUrl();
   document.dispatchEvent(new CustomEvent('chinatour:place-selected', { detail: { placeId: state.placeId } }));
   loadDestination();
+  loadPlaceSearch();
 }
 $('#place-picker')?.addEventListener('change', (event) => selectDestination(event.target.value));
 document.addEventListener('chinatour:select-place', (event) => selectDestination(event.detail?.placeId));
@@ -1587,7 +1708,8 @@ window.addEventListener('popstate', () => {
   else loadDestination();
 });
 $('#mode-filter')?.addEventListener('click', (event) => { const button = event.target.closest('[data-mode]'); if (!button) return; state.mode = button.dataset.mode; state.attractionLimit = 6; clearJobForContext(); updateUrl(); renderMode(); loadDestination(); });
-$('#search-input')?.addEventListener('input', (event) => { state.query = event.target.value || ''; state.attractionLimit = 6; renderAttractions(); });
+$('#search-input')?.addEventListener('input', (event) => { state.query = event.target.value || ''; state.attractionLimit = 6; state.placeSearchError = ''; renderAttractions(); renderPlaceSearch(); });
+$('#place-search-form')?.addEventListener('submit', (event) => { event.preventDefault(); startPlaceSearch(); });
 $('#nearby-more')?.addEventListener('click', () => { state.nearbyExpanded = !state.nearbyExpanded; renderNearby(); });
 $('#collect-button')?.addEventListener('click', () => { const workbench = $('#collection-workbench'); workbench.open = true; workbench.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }); });
 $('#campaign-button')?.addEventListener('click', startCampaign);
@@ -1609,7 +1731,7 @@ document.addEventListener('keydown', (event) => {
 });
 document.addEventListener('visibilitychange', () => { if (document.hidden) stopPhotoCycle(); else startPhotoCycle(); });
 reducedMotion.addEventListener('change', () => { for (const deck of photoDecks) deck.updateMotion(); startPhotoCycle(); });
-window.addEventListener('beforeunload', () => { clearTimeout(state.pollTimer); clearInterval(state.browserTimer); stopPhotoCycle(); });
+window.addEventListener('beforeunload', () => { clearTimeout(state.pollTimer); clearTimeout(state.placeSearchTimer); clearInterval(state.browserTimer); stopPhotoCycle(); });
 
 async function initialize() {
   renderAll();
@@ -1620,6 +1742,7 @@ async function initialize() {
     state.browserTimer = setInterval(() => loadBrowserStatus(), 30000);
   }
   await loadDestination();
+  await loadPlaceSearch();
   syncJobFromDestination();
   renderJob();
   window.CHINATOUR_PREVIEW?.render();

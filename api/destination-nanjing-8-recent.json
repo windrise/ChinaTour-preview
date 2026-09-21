@@ -722,7 +722,7 @@
       "lon": 118.7763911,
       "description": "南京明代都城城门，设三道内瓮城与藏兵洞，位于老城南内外秦淮河之间。",
       "source_url": "https://wlj.nanjing.gov.cn/ztzl/mcq/gzqk/202302/t20230228_3838766.html",
-      "photo_url": null,
+      "photo_url": "/api/media/ed71393455f3f19b63dff66f",
       "photo_credit": "上庄北路",
       "photo_time_basis": "按发布月份暂归档 · 拍摄时间未知",
       "photo_source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb",
@@ -750,11 +750,266 @@
         },
         "unknown": {
           "evidence_count": 1,
-          "photo_count": 1,
+          "photo_count": 6,
           "evidence_ids": [
             "ev_6cea90fee6884801"
           ],
           "photos": [
+            {
+              "asset_id": "1040g3qo324c59kd0godg5omk267jhle3cs5qtvo",
+              "id": "ed71393455f3f19b63dff66f",
+              "ordinal": 1,
+              "ordinal_basis": "verified_dom_index",
+              "url": "/api/media/ed71393455f3f19b63dff66f",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "c0a47acf41638dd36ec6d5bb3fc1ed88bf398df4b9fc2b488961d5a063f240c9",
+                "reasons": [],
+                "metrics": {
+                  "width": 1440,
+                  "height": 1080,
+                  "sharpness": 3464.02,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.11377136409282684,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "vegetation",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.74223792552948,
+                "scene_scores": {
+                  "vegetation": 0.74223792552948
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb",
+              "publisher": "上庄北路",
+              "title": "南京：中华门，黄昏时刻别有洞天",
+              "evidence_id": "ev_6cea90fee6884801",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-08-27"
+            },
+            {
+              "asset_id": "1040g3qo324c59kd0gocg5omk267jhle3560m6p8",
+              "id": "906f5b26c27198f05abb5f1e",
+              "ordinal": 2,
+              "ordinal_basis": "verified_dom_index",
+              "url": "/api/media/906f5b26c27198f05abb5f1e",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "04e2cf20fe47f46c40916287c248476946092e21e59b445c6fc56deb2a6f3136",
+                "reasons": [],
+                "metrics": {
+                  "width": 1440,
+                  "height": 1080,
+                  "sharpness": 1599.95,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.014161447994410992,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "vegetation",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.38453713059425354,
+                "scene_scores": {
+                  "vegetation": 0.38453713059425354
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb",
+              "publisher": "上庄北路",
+              "title": "南京：中华门，黄昏时刻别有洞天",
+              "evidence_id": "ev_6cea90fee6884801",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-08-27"
+            },
+            {
+              "asset_id": "1040g3qo324c59kd0go8g5omk267jhle37rnbtd8",
+              "id": "a731aeccb0257c174736fc5d",
+              "ordinal": 3,
+              "ordinal_basis": "verified_dom_index",
+              "url": "/api/media/a731aeccb0257c174736fc5d",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "a098ee5f920513a1cc0a6d65323f8392c549845ca0ec62f7ed3b8088ad5e4cd0",
+                "reasons": [],
+                "metrics": {
+                  "width": 1440,
+                  "height": 1080,
+                  "sharpness": 2002.53,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.009827625937759876,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": false,
+                "scene": null,
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "reason": "uncertain_scene"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb",
+              "publisher": "上庄北路",
+              "title": "南京：中华门，黄昏时刻别有洞天",
+              "evidence_id": "ev_6cea90fee6884801",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-08-27"
+            },
+            {
+              "asset_id": "1040g3qo324c59kd0gob05omk267jhle3ldg5ei8",
+              "id": "5ee48991e116e3e852fce991",
+              "ordinal": 4,
+              "ordinal_basis": "verified_dom_index",
+              "url": "/api/media/5ee48991e116e3e852fce991",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "b5d490d613f81860d94fdc0197d9692a8742388d0128d6eda5f909e1651d5faa",
+                "reasons": [],
+                "metrics": {
+                  "width": 1440,
+                  "height": 1080,
+                  "sharpness": 1374.1,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.017581559717655182,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": false,
+                "scene": null,
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "reason": "uncertain_scene"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb",
+              "publisher": "上庄北路",
+              "title": "南京：中华门，黄昏时刻别有洞天",
+              "evidence_id": "ev_6cea90fee6884801",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-08-27"
+            },
+            {
+              "asset_id": "1040g3qo324c59kd0god05omk267jhle3c261tmo",
+              "id": "01045b06636ba43ec62b71c9",
+              "ordinal": 5,
+              "ordinal_basis": "verified_dom_index",
+              "url": "/api/media/01045b06636ba43ec62b71c9",
+              "visit_period": {
+                "kind": "unknown",
+                "id": "unknown",
+                "holiday": null,
+                "label": "时间待确认",
+                "basis": "unconfirmed",
+                "support_excerpt": "",
+                "basis_label": "原文未确认到访时段",
+                "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+              },
+              "publication_review": {
+                "status": "approved",
+                "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+                "input_sha256": "59628cb7a2b9fe4b29c21af02cbf9e330332e929e6666c4c7016105cf45e884c",
+                "reasons": [],
+                "metrics": {
+                  "width": 1080,
+                  "height": 1440,
+                  "sharpness": 1691.93,
+                  "face_count": 0,
+                  "human_count": 0,
+                  "largest_face": 0,
+                  "largest_human": 0,
+                  "people_score": 0.013920186087489128,
+                  "override": null
+                }
+              },
+              "display_eligible": true,
+              "scene_hint": {
+                "rule_version": "representative-subject-gate-v1",
+                "eligible": true,
+                "scene": "vegetation",
+                "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+                "score": 0.4978063404560089,
+                "scene_scores": {
+                  "vegetation": 0.4978063404560089
+                },
+                "reason": "scene_candidate",
+                "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+              },
+              "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb",
+              "publisher": "上庄北路",
+              "title": "南京：中华门，黄昏时刻别有洞天",
+              "evidence_id": "ev_6cea90fee6884801",
+              "time_label": "拍摄时间未知",
+              "material_date": "2026-08-27"
+            },
             {
               "asset_id": "1040g3qo324c59kd0gobg5omk267jhle3ht02h50",
               "id": "f903fb93cf6658df1f87d953",
@@ -12334,6 +12589,231 @@
       "captured_at": "2026-09-21T06:51:12.944076+00:00",
       "topics": [],
       "media": [
+        {
+          "asset_id": "1040g3qo324c59kd0godg5omk267jhle3cs5qtvo",
+          "id": "ed71393455f3f19b63dff66f",
+          "ordinal": 1,
+          "ordinal_basis": "verified_dom_index",
+          "url": "/api/media/ed71393455f3f19b63dff66f",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "c0a47acf41638dd36ec6d5bb3fc1ed88bf398df4b9fc2b488961d5a063f240c9",
+            "reasons": [],
+            "metrics": {
+              "width": 1440,
+              "height": 1080,
+              "sharpness": 3464.02,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.11377136409282684,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.74223792552948,
+            "scene_scores": {
+              "vegetation": 0.74223792552948
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "1040g3qo324c59kd0gocg5omk267jhle3560m6p8",
+          "id": "906f5b26c27198f05abb5f1e",
+          "ordinal": 2,
+          "ordinal_basis": "verified_dom_index",
+          "url": "/api/media/906f5b26c27198f05abb5f1e",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "04e2cf20fe47f46c40916287c248476946092e21e59b445c6fc56deb2a6f3136",
+            "reasons": [],
+            "metrics": {
+              "width": 1440,
+              "height": 1080,
+              "sharpness": 1599.95,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.014161447994410992,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.38453713059425354,
+            "scene_scores": {
+              "vegetation": 0.38453713059425354
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
+        {
+          "asset_id": "1040g3qo324c59kd0go8g5omk267jhle37rnbtd8",
+          "id": "a731aeccb0257c174736fc5d",
+          "ordinal": 3,
+          "ordinal_basis": "verified_dom_index",
+          "url": "/api/media/a731aeccb0257c174736fc5d",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "a098ee5f920513a1cc0a6d65323f8392c549845ca0ec62f7ed3b8088ad5e4cd0",
+            "reasons": [],
+            "metrics": {
+              "width": 1440,
+              "height": 1080,
+              "sharpness": 2002.53,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.009827625937759876,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "1040g3qo324c59kd0gob05omk267jhle3ldg5ei8",
+          "id": "5ee48991e116e3e852fce991",
+          "ordinal": 4,
+          "ordinal_basis": "verified_dom_index",
+          "url": "/api/media/5ee48991e116e3e852fce991",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "b5d490d613f81860d94fdc0197d9692a8742388d0128d6eda5f909e1651d5faa",
+            "reasons": [],
+            "metrics": {
+              "width": 1440,
+              "height": 1080,
+              "sharpness": 1374.1,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.017581559717655182,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": false,
+            "scene": null,
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "reason": "uncertain_scene"
+          }
+        },
+        {
+          "asset_id": "1040g3qo324c59kd0god05omk267jhle3c261tmo",
+          "id": "01045b06636ba43ec62b71c9",
+          "ordinal": 5,
+          "ordinal_basis": "verified_dom_index",
+          "url": "/api/media/01045b06636ba43ec62b71c9",
+          "visit_period": {
+            "kind": "unknown",
+            "id": "unknown",
+            "holiday": null,
+            "label": "时间待确认",
+            "basis": "unconfirmed",
+            "support_excerpt": "",
+            "basis_label": "原文未确认到访时段",
+            "source_url": "https://www.xiaohongshu.com/explore/6a8fd7c0000000001803f0eb"
+          },
+          "publication_review": {
+            "status": "approved",
+            "rule_version": "publication-review-v1:ef6373ea5d8722daefcc",
+            "input_sha256": "59628cb7a2b9fe4b29c21af02cbf9e330332e929e6666c4c7016105cf45e884c",
+            "reasons": [],
+            "metrics": {
+              "width": 1080,
+              "height": 1440,
+              "sharpness": 1691.93,
+              "face_count": 0,
+              "human_count": 0,
+              "largest_face": 0,
+              "largest_human": 0,
+              "people_score": 0.013920186087489128,
+              "override": null
+            }
+          },
+          "display_eligible": true,
+          "scene_hint": {
+            "rule_version": "representative-subject-gate-v1",
+            "eligible": true,
+            "scene": "vegetation",
+            "note": "自动主体分类仅辅助选图，不证明季节、地点或独立拍摄",
+            "score": 0.4978063404560089,
+            "scene_scores": {
+              "vegetation": 0.4978063404560089
+            },
+            "reason": "scene_candidate",
+            "model_version": "apple-vision-subject-v1:53b0217545cdd634d9558ae8:revision=2"
+          }
+        },
         {
           "asset_id": "1040g3qo324c59kd0gobg5omk267jhle3ht02h50",
           "id": "f903fb93cf6658df1f87d953",
@@ -45928,8 +46408,8 @@
         "observed_count": 0,
         "publication_count": 13,
         "observed_photo_count": 0,
-        "publication_photo_count": 16,
-        "approved_photo_count": 16
+        "publication_photo_count": 15,
+        "approved_photo_count": 15
       },
       {
         "month": 5,
@@ -45964,8 +46444,8 @@
         "observed_count": 0,
         "publication_count": 55,
         "observed_photo_count": 0,
-        "publication_photo_count": 74,
-        "approved_photo_count": 74
+        "publication_photo_count": 79,
+        "approved_photo_count": 79
       },
       {
         "month": 9,

@@ -6,14 +6,14 @@
   <meta name="theme-color" content="#080f14">
   <meta name="description" content="行知：按月份认识一个地方，循着真实照片找到想去的景点。">
   <title>行知 · 中国旅行</title>
-  <link rel="stylesheet" href="./static/style.css?v=c6940c2e6088">
-  <link rel="stylesheet" href="./static/atlas.css?v=c6940c2e6088">
-  <link rel="stylesheet" href="./static/visitation.css?v=c6940c2e6088">
-  <script defer src="./static/visitation.js?v=c6940c2e6088"></script>
-  <script defer src='./preview-config.js?v=c6940c2e6088'></script>
-  <script defer src='./static/preview.js?v=c6940c2e6088'></script>
-  <script defer src="./static/app.js?v=c6940c2e6088"></script>
-  <script defer src="./static/atlas.js?v=c6940c2e6088"></script>
+  <link rel="stylesheet" href="./static/style.css?v=9b86fb9e07f4">
+  <link rel="stylesheet" href="./static/atlas.css?v=9b86fb9e07f4">
+  <link rel="stylesheet" href="./static/visitation.css?v=9b86fb9e07f4">
+  <script defer src="./static/visitation.js?v=9b86fb9e07f4"></script>
+  <script defer src='./preview-config.js?v=9b86fb9e07f4'></script>
+  <script defer src='./static/preview.js?v=9b86fb9e07f4'></script>
+  <script defer src="./static/app.js?v=9b86fb9e07f4"></script>
+  <script defer src="./static/atlas.js?v=9b86fb9e07f4"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
@@ -60,11 +60,12 @@
       </section>
 
       <section id="attractions-section" class="section-block attractions-section" aria-labelledby="attractions-heading">
-        <div class="section-heading split-heading"><div><p class="eyebrow">PLACES TO NOTICE</p><h2 id="attractions-heading">值得先看的景点</h2></div><div class="attraction-controls"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">搜索景点或资料关键词</span><input id="search-input" type="search" placeholder="找景点、搜关键词" autocomplete="off"></label><span id="attractions-count" class="section-count">—</span></div></div>
+        <div class="section-heading split-heading"><div><p class="eyebrow">PLACES TO NOTICE</p><h2 id="attractions-heading">值得先看的景点</h2></div><div class="attraction-controls"><form id="place-search-form" class="place-search-form"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">搜索景点或输入小众地点名称</span><input id="search-input" type="search" maxlength="60" placeholder="找景点，也可输入小众地名" autocomplete="off" aria-describedby="place-search-note"></label><button id="place-search-button" class="text-button" type="submit" hidden>搜集这个地点 ↗</button></form><span id="attractions-count" class="section-count">—</span></div></div>
         <p id="attractions-context" class="section-intro">点开感兴趣的景点，查看照片、路线与真实资料。</p>
+        <div id="place-search-panel" class="place-search-panel" hidden><p id="place-search-note"></p><div id="place-search-status" role="status" aria-live="polite"></div></div>
         <div id="region-filter" class="region-filter" role="group" aria-label="按地区筛选景点" hidden></div>
-        <nav id="attraction-directory" class="attraction-directory" aria-label="景点目录"></nav>
         <div id="attractions-grid" class="attractions-grid" aria-live="polite"></div>
+        <details id="attraction-directory-panel" class="attraction-directory-panel"><summary id="attraction-directory-summary">全部景点与待补资料</summary><nav id="attraction-directory" class="attraction-directory" aria-label="景点目录"></nav></details>
       </section>
 
       <section id="travel-essentials" class="travel-essentials" aria-label="衣食住行">
@@ -118,7 +119,7 @@
       <footer class="site-footer"><span>行知 · FIELD NOTES / CHINA</span><span>让资料有来处，让选择有依据。</span></footer>
     </main>
   </div>
-  <aside id="detail-drawer" class="detail-drawer" aria-labelledby="drawer-title" aria-hidden="true"><div class="drawer-scrim" data-close-drawer></div><div class="drawer-panel" role="dialog" aria-modal="true" tabindex="-1"><div class="drawer-head"><div><p id="drawer-kicker" class="eyebrow">PLACE DETAIL</p><h2 id="drawer-title">景点详情</h2></div><button id="close-drawer" class="round-button" type="button" aria-label="关闭详情">×</button></div><div id="drawer-content" class="drawer-content"></div></div></aside>
+  <aside id="detail-drawer" class="detail-drawer" aria-labelledby="drawer-title" aria-hidden="true"><div class="drawer-scrim" data-close-drawer></div><div class="drawer-panel" role="dialog" aria-modal="true" tabindex="-1"><div class="drawer-head"><div><p id="drawer-kicker" class="eyebrow">PLACE DETAIL</p><h2 id="drawer-title">景点详情</h2></div><button id="close-drawer" class="round-button" type="button" aria-label="关闭详情">×</button><div id="drawer-month-filter" class="drawer-month-filter" role="group" aria-label="切换当前景点的月份"></div></div><div id="drawer-content" class="drawer-content" aria-live="polite"></div></div></aside>
   <div id="toast" class="toast" role="status" hidden></div>
 </body>
 </html>
