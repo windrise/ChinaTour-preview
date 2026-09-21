@@ -850,8 +850,8 @@ function renderRegionFilters() {
   if (state.data && state.regionId !== 'all' && !regions.some(item => item.id === state.regionId)) state.regionId = 'all';
   container.hidden = !regions.length;
   if (!regions.length) return;
-  for (const region of [{ id: 'all', name: '全部地区' }, ...regions]) {
-    const button = make('button', `region-chip${region.id === state.regionId ? ' active' : ''}`, region.name);
+  for (const region of [{ id: 'all', name: `全部${state.data?.destination?.name || '地区'} · ${(state.data?.attractions || []).length}` }, ...regions]) {
+    const button = make('button', `region-chip${region.id === state.regionId ? ' active' : ''}`, region.id === 'all' ? region.name : `${region.name} · ${region.attraction_ids.length}`);
     button.type = 'button'; button.dataset.region = region.id; button.setAttribute('aria-pressed', String(region.id === state.regionId));
     button.addEventListener('click', () => chooseRegion(region.id)); container.append(button);
   }
@@ -912,7 +912,13 @@ function renderAttractions() {
     const monthItems = (item) => attractionEvidence(item).filter((evidence) => integer(evidence.browse_month || evidence.month) === currentMonthNumber()).length;
     return monthItems(b) - monthItems(a);
   });
-  $('#attractions-count').textContent = attractions.length ? `${attractions.length} 个景点` : '暂无匹配';
+  const total = (state.data?.attractions || []).length;
+  $('#attractions-count').textContent = region || state.query ? `当前 ${attractions.length} / 全市 ${total} 个景点` : `全市 ${total} 个景点`;
+  const directory = clear($('#attraction-directory'));
+  for (const attraction of attractions) {
+    const link = make('button', 'directory-link', attraction.name); link.type = 'button';
+    link.addEventListener('click', () => openDrawer(attraction)); directory.append(link);
+  }
   const regionLabel = region ? ` · ${region.name}` : '';
   $('#attractions-context').textContent = state.query
     ? `${state.month} 月${regionLabel} · 搜索「${state.query}」；点开景点查看命中的原始记录。`

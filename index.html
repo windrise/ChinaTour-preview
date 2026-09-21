@@ -6,14 +6,14 @@
   <meta name="theme-color" content="#080f14">
   <meta name="description" content="行知：按月份认识一个地方，循着真实照片找到想去的景点。">
   <title>行知 · 中国旅行</title>
-  <link rel="stylesheet" href="./static/style.css?v=7e035a48e59a">
-  <link rel="stylesheet" href="./static/atlas.css?v=7e035a48e59a">
-  <link rel="stylesheet" href="./static/visitation.css?v=7e035a48e59a">
-  <script defer src="./static/visitation.js?v=7e035a48e59a"></script>
-  <script defer src='./preview-config.js?v=7e035a48e59a'></script>
-  <script defer src='./static/preview.js?v=7e035a48e59a'></script>
-  <script defer src="./static/app.js?v=7e035a48e59a"></script>
-  <script defer src="./static/atlas.js?v=7e035a48e59a"></script>
+  <link rel="stylesheet" href="./static/style.css?v=c6940c2e6088">
+  <link rel="stylesheet" href="./static/atlas.css?v=c6940c2e6088">
+  <link rel="stylesheet" href="./static/visitation.css?v=c6940c2e6088">
+  <script defer src="./static/visitation.js?v=c6940c2e6088"></script>
+  <script defer src='./preview-config.js?v=c6940c2e6088'></script>
+  <script defer src='./static/preview.js?v=c6940c2e6088'></script>
+  <script defer src="./static/app.js?v=c6940c2e6088"></script>
+  <script defer src="./static/atlas.js?v=c6940c2e6088"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
@@ -59,6 +59,14 @@
         <div id="visitor-seasonality"></div>
       </section>
 
+      <section id="attractions-section" class="section-block attractions-section" aria-labelledby="attractions-heading">
+        <div class="section-heading split-heading"><div><p class="eyebrow">PLACES TO NOTICE</p><h2 id="attractions-heading">值得先看的景点</h2></div><div class="attraction-controls"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">搜索景点或资料关键词</span><input id="search-input" type="search" placeholder="找景点、搜关键词" autocomplete="off"></label><span id="attractions-count" class="section-count">—</span></div></div>
+        <p id="attractions-context" class="section-intro">点开感兴趣的景点，查看照片、路线与真实资料。</p>
+        <div id="region-filter" class="region-filter" role="group" aria-label="按地区筛选景点" hidden></div>
+        <nav id="attraction-directory" class="attraction-directory" aria-label="景点目录"></nav>
+        <div id="attractions-grid" class="attractions-grid" aria-live="polite"></div>
+      </section>
+
       <section id="travel-essentials" class="travel-essentials" aria-label="衣食住行">
         <div id="essentials-grid" class="essentials-grid"></div>
         <div id="essentials-panel" class="essentials-panel" hidden></div>
@@ -79,12 +87,7 @@
         <div id="nearby-grid" class="nearby-grid"></div>
       </section>
 
-      <section id="attractions-section" class="section-block attractions-section" aria-labelledby="attractions-heading">
-        <div class="section-heading split-heading"><div><p class="eyebrow">PLACES TO NOTICE</p><h2 id="attractions-heading">值得先看的景点</h2></div><div class="attraction-controls"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">搜索景点或资料关键词</span><input id="search-input" type="search" placeholder="找景点、搜关键词" autocomplete="off"></label><span id="attractions-count" class="section-count">—</span></div></div>
-        <p id="attractions-context" class="section-intro">点开感兴趣的景点，查看照片、路线与真实资料。</p>
-        <div id="region-filter" class="region-filter" role="group" aria-label="按地区筛选景点" hidden></div>
-        <div id="attractions-grid" class="attractions-grid" aria-live="polite"></div>
-      </section>
+
 
       <section id="destination-map" class="section-block map-section" aria-labelledby="map-heading">
         <div class="section-heading split-heading"><div><p class="eyebrow">GET YOUR BEARINGS</p><h2 id="map-heading">先看全貌</h2></div><span class="section-stamp">点图放大</span></div>
