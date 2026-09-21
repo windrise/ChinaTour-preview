@@ -2097,129 +2097,7 @@
       "summary": "这个月份还缺少有时间依据的独立观察"
     }
   ],
-  "changes": [
-    {
-      "id": "f54695a26d3d2db5629006ea9da6a6add0f76bd6e071c271dacb7cf26cbc56c3",
-      "title": "虎丘山风景免费停车攻略",
-      "created_at": "2026-09-21T06:56:27.759509+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a24f822000000001503de79",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "a60bb8abf30344de46320811495816b51130aac2c9ec577cd5bbde7fb0543268",
-      "title": "虎丘带娃避雷",
-      "created_at": "2026-09-21T06:56:27.737476+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a9ec318000000001103325c",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "8db11b9f090a32a6ca89d4fb1d27bc4f1626e382610325c8374856492d576f97",
-      "title": "苏州虎丘山保姆级攻略｜不走回头路✅",
-      "created_at": "2026-09-21T06:56:27.715026+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69ca72a100000000230149dc",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "c3e0ad4826f8f99868ed716cf0b07c5e97613efec9b90865303d3b94e0934893",
-      "title": "苏州虎丘山保姆级攻略｜不走回头路✅",
-      "created_at": "2026-09-21T06:56:27.705474+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/69ca72a100000000230149dc",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "3447c126b2b97104376f3ca13eac1873da3e8ac83546eacca5b338bc3fa2125d",
-      "title": "1.5 小时速通虎丘｜不走回头路，抄作业就行",
-      "created_at": "2026-09-21T06:56:27.682946+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a8ae4ca00000000140241b0",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "89d562562646b94794d387f6906e5bd3bf06c706430a7b45450ce6f2a21e4be3",
-      "title": "1.5 小时速通虎丘｜不走回头路，抄作业就行",
-      "created_at": "2026-09-21T06:56:27.674699+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a8ae4ca00000000140241b0",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "8d1ee6a794a924acbaef5224a24fc1d6097e0664bfe81e09b8912ee2b36b38a4",
-      "title": "遛娃🍂被低估的虎丘！轻松不累超适合小朋友",
-      "created_at": "2026-09-21T06:56:27.653076+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6ab096bf000000002802e5e9",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "b2ffc14ad27639ed8eea5825f7b7c44ab3ab7ceda4abb23cccbf7af0fd4bf295",
-      "title": "虎丘山懒人攻略！2小时逛完不踩雷🍃",
-      "created_at": "2026-09-21T06:56:27.630891+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6aa6a61b0000000029010d85",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "729682e2ece65be5b643e657657fbbe006496155710836fa45900e98054728ac",
-      "title": "网师园攻略：小园极则，宅园合一，非常推荐",
-      "created_at": "2026-09-21T06:56:27.608734+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a76ea6000000000280338bd",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "e94cc5122744aeaa460d26ab50e16b3a46704064ff4312688f22be3fff2bab9d",
-      "title": "如果下次再去网师园，我想我会这样走一遍",
-      "created_at": "2026-09-21T06:56:27.587327+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a0565d3000000003601af83",
-      "parent_id": null,
-      "kind": "discovery"
-    },
-    {
-      "id": "907fa6e26a632f23fe8dfdb79b549813d799bb9028030dfa348c768a423498a6",
-      "title": "网师园夜花园保姆式攻略🔥",
-      "created_at": "2026-09-21T06:56:27.566888+00:00",
-      "before_value": null,
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "首次自动采集",
-      "source_url": "https://www.xiaohongshu.com/explore/6a8fac62000000000700429c",
-      "parent_id": null,
-      "kind": "discovery"
-    }
-  ],
+  "changes": [],
   "landscape_updates": [],
   "visual_cohorts": [],
   "practical": {
@@ -13573,6 +13451,75 @@
       "holiday": 0,
       "unknown": 3
     }
+  },
+  "nearby": {
+    "origin": {
+      "destination_id": "suzhou",
+      "name": "苏州站",
+      "anchor_label": "苏州站",
+      "lat": 31.3318292,
+      "lon": 120.6067687,
+      "source_url": "https://www.openstreetmap.org/relation/7640348",
+      "coordinate_basis": "OSM geometry representative; not entry gate"
+    },
+    "distance_kind": "straight_line",
+    "max_distance_km": 150,
+    "limit": 3,
+    "items": [
+      {
+        "destination_id": "liyang",
+        "name": "溧阳",
+        "anchor_label": "溧阳站",
+        "lat": 31.3879681,
+        "lon": 119.4977038,
+        "source_url": "https://www.openstreetmap.org/way/335219629",
+        "coordinate_basis": "configured_railway_hub",
+        "id": "destination-liyang",
+        "destination_name": "溧阳",
+        "category": "destination",
+        "description": "沿着湖岸、竹林与山野，寻找这个月份值得出发的风景。",
+        "attraction_ids": [
+          "place_a56c09bc013d4921",
+          "place_e110a91eefb442ea",
+          "place_5cac37d1059a4eca",
+          "place_7bf2baddf01440af",
+          "place_0d84eaec06754413",
+          "place_cdd0a2463fb24cd4",
+          "configured_652b4b9215cf8737628a",
+          "configured_609ef45c8982f218b0d1",
+          "place_285c56e412c74d63",
+          "configured_6c7837fbe7f9199cb4c0",
+          "configured_ac8a7fd189faf5e1c272",
+          "place_64fc604c88c741b1",
+          "configured_7bc32401b48517f9c07e",
+          "place_183ab381969345da",
+          "place_c194c49525e140d0",
+          "place_b056a5774794434a"
+        ],
+        "attraction_names": [
+          "天目湖山水园",
+          "南山竹海",
+          "御水温泉",
+          "松岭竹海漂流",
+          "仙山十三岭",
+          "溧阳1号公路",
+          "天目湖国家湿地公园",
+          "长荡湖国家湿地公园",
+          "京林禅寺",
+          "姜下鹅村",
+          "美岕山野温泉度假村",
+          "加顺农场",
+          "至外面包",
+          "新四军江南指挥部纪念馆",
+          "曹山旅游度假区",
+          "史侯祠"
+        ],
+        "distance_km": 105.5,
+        "distance_kind": "straight_line"
+      }
+    ],
+    "regions": [],
+    "note": "按有出处的代表点估算直线距离，并非驾车里程或车程；区域包含已配置景点，不代表资料已齐全。"
   },
   "time_windows": {
     "historical_through_year": 2024,

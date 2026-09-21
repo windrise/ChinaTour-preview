@@ -20657,6 +20657,23 @@
       "unknown": 4
     }
   },
+  "nearby": {
+    "origin": {
+      "destination_id": "dalian",
+      "name": "大连站",
+      "anchor_label": "大连站",
+      "lat": 38.9226346,
+      "lon": 121.6282328,
+      "source_url": "https://www.openstreetmap.org/way/1496795036",
+      "coordinate_basis": "configured_railway_hub"
+    },
+    "distance_kind": "straight_line",
+    "max_distance_km": 150,
+    "limit": 3,
+    "items": [],
+    "regions": [],
+    "note": "按有出处的代表点估算直线距离，并非驾车里程或车程；区域包含已配置景点，不代表资料已齐全。"
+  },
   "time_windows": {
     "historical_through_year": 2024,
     "recent_observation_years": [

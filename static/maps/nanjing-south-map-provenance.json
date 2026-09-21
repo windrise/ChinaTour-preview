@@ -1,0 +1,179 @@
+{
+  "destination": "nanjing",
+  "region": "溧水与高淳",
+  "coordinate_system": "WGS84",
+  "retrieved_at": "2026-09-21",
+  "script": "scripts/build_nanjing_south_map.py",
+  "sources": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:60];rel(31.68,118.45,32.28,119.15)[\"boundary\"=\"administrative\"][\"admin_level\"=\"6\"][\"name\"~\"^(鼓楼区|玄武区|秦淮区|建邺区|雨花台区|栖霞区|江宁区|浦口区|六合区|溧水区)$\"];out body geom;",
+      "selected_names": [
+        "江宁区",
+        "溧水区"
+      ],
+      "original_local_source": "data/onboarding/nanjing-map/admins.json",
+      "cache_name": "admins-north.json",
+      "sha256": "5f2ee3a8ef6eb1387c00c9d019de80210509fdecc597c83a27cac62b0f69f208",
+      "bytes": 891596,
+      "osm_base_timestamp": "2026-09-21T06:18:18Z",
+      "element_count": 10
+    },
+    {
+      "cache_name": "gaochun-nominatim.json",
+      "format": "nominatim_geojson",
+      "endpoint": "https://nominatim.openstreetmap.org/search?q=Gaochun+District+Nanjing&format=jsonv2&polygon_geojson=1&limit=1",
+      "osm_ref": "relation/2147644",
+      "note": "OSM真实MultiPolygon经Nominatim取得；仅重排GeoJSON经纬顺序给共享渲染器，不以bounds矩形补边界。此服务未提供底库timestamp。",
+      "sha256": "4f82c9f2d1a1053f61881b6cee14fa8c995eb913b3c45ee3b22521713f534fec",
+      "bytes": 69892,
+      "osm_base_timestamp": null,
+      "element_count": 1
+    },
+    {
+      "cache_name": "base.json",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:40];(way(31.18,118.45,32.02,119.38)[\"highway\"~\"^(motorway|trunk|primary)$\"];nwr(31.18,118.45,32.02,119.38)[\"natural\"=\"water\"][\"name\"~\"石臼湖|固城湖|秦淮|永圣湖|无想湖|天池|中山湖\"];way(1289261657);way(884941870);way(1408293964);way(909515703);way(1283645512);relation(1903184););out body geom;",
+      "sha256": "c4478a38adbdc678cb951c5f9af12e0ec18bdc07d85295f7464342a27a845a5b",
+      "bytes": 4262955,
+      "osm_base_timestamp": "2026-09-21T08:38:35Z",
+      "element_count": 3975
+    }
+  ],
+  "attractions": [
+    {
+      "name": "高淳老街",
+      "configured_name": "高淳老街历史文化景区",
+      "district": "高淳区",
+      "lat": 31.3218966,
+      "lon": 118.8643709,
+      "map_source_url": "https://www.openstreetmap.org/way/1289261657",
+      "source_name": "高淳老街历史文化景区",
+      "coordinate_basis": "osm_area_bounding_box_center",
+      "map_note": "景区区域包围盒中心，不代表入口。",
+      "official_source_url": "https://www.njgclj.cn/mobile/aboutinfo.asp?id=1"
+    },
+    {
+      "name": "固城湖水慢城",
+      "configured_name": "固城湖水慢城",
+      "district": "高淳区",
+      "lat": 31.2935273,
+      "lon": 118.8882102,
+      "map_source_url": "https://www.openstreetmap.org/way/884941870",
+      "source_name": "固城湖水慢城",
+      "coordinate_basis": "osm_area_bounding_box_center",
+      "map_note": "公园区域包围盒中心，不代表入口。",
+      "official_source_url": "https://sports.nanjing.gov.cn/ztzl/njtyxfxcj/tyxx/202307/t20230725_3970700.html"
+    },
+    {
+      "name": "桠溪国际慢城",
+      "configured_name": "桠溪国际慢城",
+      "district": "高淳区",
+      "lat": null,
+      "lon": null,
+      "map_source_url": null,
+      "source_name": null,
+      "coordinate_basis": "unverified",
+      "map_note": "有界OSM查询未取得精确匹配对象；不使用街道中心或猜测入口。",
+      "official_source_url": "https://www.njgc.gov.cn/gjmc/tkgc/202604/t20260414_5823451.html"
+    },
+    {
+      "name": "漆桥古村落",
+      "configured_name": "漆桥古村落文化街区",
+      "district": "高淳区",
+      "lat": null,
+      "lon": null,
+      "map_source_url": null,
+      "source_name": null,
+      "coordinate_basis": "unverified",
+      "map_note": "有界OSM查询仅有漆桥街道等较大行政地物，未取得古村落精确对象。",
+      "official_source_url": "https://www.njgc.gov.cn/gjmc/tkgc/202604/t20260414_5823475.html"
+    },
+    {
+      "name": "天生桥景区",
+      "configured_name": "天生桥景区",
+      "district": "溧水区",
+      "lat": 31.6465998,
+      "lon": 118.9816488,
+      "map_source_url": "https://www.openstreetmap.org/way/1408293964",
+      "source_name": "天生桥景区",
+      "coordinate_basis": "osm_area_bounding_box_center",
+      "map_note": "景区区域包围盒中心，不代表天生桥桥体或入口。",
+      "official_source_url": "https://sports.nanjing.gov.cn/ztzl/njtyxfxcj/tyxx/202307/t20230725_3970547.html"
+    },
+    {
+      "name": "无想山景区",
+      "configured_name": "无想山景区",
+      "district": "溧水区",
+      "lat": 31.5825799,
+      "lon": 119.0397875,
+      "map_source_url": "https://www.openstreetmap.org/way/909515703",
+      "source_name": "南京市无想山国家森林公园",
+      "coordinate_basis": "osm_area_bounding_box_center",
+      "map_note": "OSM国家森林公园区域包围盒中心；景区与森林公园口径可能不同，不代表登山入口。",
+      "official_source_url": "https://www.njls.gov.cn/zjls/qqjj/201806/t20180614_1173572.html"
+    },
+    {
+      "name": "无想水镇",
+      "configured_name": "无想水镇",
+      "district": "溧水区",
+      "lat": 31.6245153,
+      "lon": 119.0319919,
+      "map_source_url": "https://www.openstreetmap.org/way/1283645512",
+      "source_name": "无想水镇",
+      "coordinate_basis": "osm_area_bounding_box_center",
+      "map_note": "景区区域包围盒中心，不代表入口。",
+      "official_source_url": "https://www.njls.gov.cn/zwgk/qzxta/zxsyjschy/202411/t20241106_5001964.html"
+    },
+    {
+      "name": "石臼湖·张许村栈桥",
+      "configured_name": "石臼湖·张许村栈桥",
+      "district": "溧水区",
+      "lat": null,
+      "lon": null,
+      "map_source_url": null,
+      "source_name": null,
+      "coordinate_basis": "unverified",
+      "map_note": "官方正文明确张许自然村栈桥，但OSM未取得该栈桥精确对象；不以石臼湖中心、村中心或其他村替代。",
+      "official_source_url": "https://www.nanjing.gov.cn/zgnjsjb/jrtt/202608/t20260817_5894512.html"
+    }
+  ],
+  "hubs": [
+    {
+      "name": "南京南站",
+      "kind": "railway",
+      "lat": 31.970797,
+      "lon": 118.7930516,
+      "map_source_url": "https://www.openstreetmap.org/node/2483530943",
+      "source_name": "南京南",
+      "coordinate_basis": "OSM station node",
+      "id": "nanjing-south-station",
+      "type": "火车站",
+      "source_url": "https://www.openstreetmap.org/node/2483530943"
+    },
+    {
+      "name": "禄口国际机场",
+      "kind": "airport",
+      "lat": 31.7318524,
+      "lon": 118.863455,
+      "map_source_url": "https://www.openstreetmap.org/relation/1903184",
+      "source_name": "南京禄口国际机场",
+      "coordinate_basis": "OSM geometry representative; not entry gate",
+      "id": "nanjing-airport",
+      "type": "机场",
+      "source_url": "https://www.openstreetmap.org/relation/1903184"
+    }
+  ],
+  "notes": [
+    "本图独立1–8编号，仅5处已核坐标绘点；第3、4、8处仅在索引列出，不画假坐标。",
+    "OSM WGS84等比例局部投影；区界、水域、公园与道路来自实际几何，未补造缺失图层。",
+    "景区点为OSM区域包围盒中心，南京南站为原始station节点，均不是已核出入口。",
+    "不包含地铁图层，未将S7/S9误归为数字线；没有计算导航、车程、班次、票价或客流。",
+    "石臼湖面上的文字只是湖名标签，不是张许村栈桥的位置。湖名标签位置用于排版，不可作为目的地坐标。",
+    "地方官方介绍及名称核对见data/onboarding/nanjing-nearby/research.json；所有采集来源/日期/实景月份判断独立于地图。",
+    "原始地理响应默认保存在/tmp/chinatour-nanjing-south，随系统清理可用manifest中的公开查询重取；现有南京admin输入的原始来源路径保留在source记录。",
+    "高淳区boundary relation/2147644由Nominatim实际MultiPolygon提供；Overpass行政区查询超时不计作成功资料。"
+  ],
+  "output_sha256": "1669f255d46cf55ceb12851761216c6dbc779034ae629d2acbce53294c51ea50",
+  "rebuild": "uv run python scripts/build_nanjing_south_map.py --fetch"
+}

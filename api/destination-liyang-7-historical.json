@@ -21524,6 +21524,121 @@
       "unknown": 6
     }
   },
+  "nearby": {
+    "origin": {
+      "destination_id": "liyang",
+      "name": "溧阳站",
+      "anchor_label": "溧阳站",
+      "lat": 31.3879681,
+      "lon": 119.4977038,
+      "source_url": "https://www.openstreetmap.org/way/335219629",
+      "coordinate_basis": "configured_railway_hub"
+    },
+    "distance_kind": "straight_line",
+    "max_distance_km": 150,
+    "limit": 3,
+    "items": [
+      {
+        "anchor_label": "天生桥景区",
+        "lat": 31.6465998,
+        "lon": 118.9816488,
+        "source_url": "https://www.openstreetmap.org/way/1408293964",
+        "coordinate_basis": "first_attributed_attraction",
+        "id": "nanjing-lishui",
+        "name": "溧水",
+        "destination_id": "nanjing",
+        "description": "山林步道、水镇与湖畔观景点。",
+        "attraction_ids": [
+          "place_a04dd1ee6f4c4f70",
+          "place_e9830b0768994d05",
+          "place_c900db83cc364a36",
+          "place_3622305b60934a13"
+        ],
+        "attraction_names": [
+          "天生桥景区",
+          "无想山景区",
+          "无想水镇",
+          "石臼湖·张许村栈桥"
+        ],
+        "destination_name": "南京",
+        "category": "region",
+        "distance_km": 56.7,
+        "distance_kind": "straight_line"
+      },
+      {
+        "anchor_label": "高淳老街历史文化景区",
+        "lat": 31.3218966,
+        "lon": 118.8643709,
+        "source_url": "https://www.openstreetmap.org/way/1289261657",
+        "coordinate_basis": "first_attributed_attraction",
+        "id": "nanjing-gaochun",
+        "name": "高淳",
+        "destination_id": "nanjing",
+        "description": "老街、古村与慢城，按兴趣分段逛。",
+        "attraction_ids": [
+          "place_382b68e9ebd8451e",
+          "place_b5a5dbe52fbc430a",
+          "place_2461109b48b14e81",
+          "place_4b5211feaa424d60"
+        ],
+        "attraction_names": [
+          "高淳老街历史文化景区",
+          "固城湖水慢城",
+          "桠溪国际慢城",
+          "漆桥古村落文化街区"
+        ],
+        "destination_name": "南京",
+        "category": "region",
+        "distance_km": 60.6,
+        "distance_kind": "straight_line"
+      },
+      {
+        "destination_id": "suzhou",
+        "name": "苏州",
+        "anchor_label": "苏州站",
+        "lat": 31.3318292,
+        "lon": 120.6067687,
+        "source_url": "https://www.openstreetmap.org/relation/7640348",
+        "coordinate_basis": "OSM geometry representative; not entry gate",
+        "id": "destination-suzhou",
+        "destination_name": "苏州",
+        "category": "destination",
+        "description": "在古城园林、河街与湖岸之间，按月份寻找想停留的地方。",
+        "attraction_ids": [
+          "place_4f716ad781e94bdc",
+          "place_1344eacbcaf247c9",
+          "place_5a1ab30e3dd249f1",
+          "place_77c7773b6de14e9a",
+          "place_dd31877c46254d97",
+          "place_b27020754ec3482c",
+          "place_b60f579ea22048af",
+          "place_002e36e0a0ea4495",
+          "place_1fa3f169481945a2",
+          "place_a82684f02d0949e3",
+          "place_05e953bef5c94b5b",
+          "place_e4977cda1ec24bc4"
+        ],
+        "attraction_names": [
+          "拙政园",
+          "留园",
+          "狮子林",
+          "网师园",
+          "虎丘山风景名胜区",
+          "平江历史文化街区",
+          "山塘街",
+          "金鸡湖景区",
+          "苏州博物馆本馆",
+          "同里古镇",
+          "周庄古镇",
+          "木渎古镇"
+        ],
+        "distance_km": 105.5,
+        "distance_kind": "straight_line"
+      }
+    ],
+    "regions": [],
+    "note": "按有出处的代表点估算直线距离，并非驾车里程或车程；区域包含已配置景点，不代表资料已齐全。"
+  },
   "time_windows": {
     "historical_through_year": 2024,
     "recent_observation_years": [
@@ -21602,8 +21717,8 @@
         "observed_count": 0,
         "publication_count": 15,
         "observed_photo_count": 0,
-        "publication_photo_count": 4,
-        "approved_photo_count": 4
+        "publication_photo_count": 20,
+        "approved_photo_count": 20
       },
       {
         "month": 9,

@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-09-21T07:36:21Z",
+  "snapshotAt": "2026-09-21T08:58:57Z",
   "place": "liyang",
   "places": [
     {
@@ -39,11 +39,11 @@
     "historical"
   ],
   "destinationFiles": 144,
-  "destinationEvidenceRecords": 1664,
-  "mediaReferences": 1332,
-  "mediaCopied": 670,
-  "mediaRecoveredFromArchive": 374,
-  "missingMedia": 1055,
-  "missingMediaReferences": 4005,
+  "destinationEvidenceRecords": 1840,
+  "mediaReferences": 1734,
+  "mediaCopied": 854,
+  "mediaRecoveredFromArchive": 506,
+  "missingMedia": 1036,
+  "missingMediaReferences": 3921,
   "withheldMedia": 0
 }

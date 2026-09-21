@@ -11,6 +11,7 @@ const state = {
   monthScope: ['all', 'practical'].includes(initialParams.get('collect_scope')) ? initialParams.get('collect_scope') : 'selected',
   practicalTab: null,
   routeTheme: 'all', routePeriod: 'all', routeLimit: 3, openRouteId: null,
+  regionId: initialParams.get('region') || 'all', nearbyExpanded: false,
   query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null, mapAssetIndex: 0,
   requestVersion: 0, openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
 };
@@ -203,6 +204,7 @@ function updateUrl() {
   if (state.placeId) params.set('place_id', state.placeId);
   if (state.month) params.set('month', state.month);
   if (state.mode !== 'all') params.set('mode', state.mode);
+  if (state.regionId !== 'all') params.set('region', state.regionId);
   if (state.monthScope !== 'selected') params.set('collect_scope', state.monthScope);
   if (new URLSearchParams(location.search).get('view') === 'destination') params.set('view', 'destination');
   const query = params.toString();
@@ -232,6 +234,7 @@ function normalizeDestination(raw) {
     map: raw?.map && typeof raw.map === 'object' ? raw.map : { bounds: [], hubs: [], roads: [], limitations: [] },
     practical: raw?.practical || { facts: [], classified_sources: [], climate: null },
     route_guides: raw?.route_guides && typeof raw.route_guides === 'object' ? raw.route_guides : { items: [], available_themes: [] },
+    nearby: raw?.nearby && typeof raw.nearby === 'object' ? raw.nearby : { items: [], regions: [] },
     limitations: Array.isArray(raw?.limitations) ? raw.limitations : [],
   };
 }
@@ -811,17 +814,109 @@ function createPhotoDeck(container, entries, attraction, card) {
   deck.updateMotion = updatePause;
   photoDecks.add(deck);
 }
+function nearbyRegions() {
+  const nearby = state.data?.nearby || {};
+  const attractionIds = new Set((state.data?.attractions || []).map(item => String(item.id || item.place_id)));
+  const unique = new Map();
+  const configured = Array.isArray(nearby.regions) ? nearby.regions : [];
+  const cards = Array.isArray(nearby.items) ? nearby.items.filter(item => item?.category === 'region') : [];
+  for (const item of [...configured, ...cards]) {
+    if (!item?.id || !item.name || String(item.destination_id) !== state.placeId) continue;
+    const ids = (Array.isArray(item.attraction_ids) ? item.attraction_ids : []).map(String).filter(id => attractionIds.has(id));
+    if (ids.length && !unique.has(String(item.id))) unique.set(String(item.id), { ...item, id: String(item.id), attraction_ids: ids });
+  }
+  return [...unique.values()];
+}
+function selectedRegion() { return nearbyRegions().find(item => item.id === state.regionId) || null; }
+function chooseRegion(regionId, { fromCard = false } = {}) {
+  state.regionId = String(regionId || 'all');
+  state.attractionLimit = 6;
+  if (fromCard) { state.query = ''; $('#search-input').value = ''; }
+  updateUrl();
+  renderAttractions();
+  renderNearby();
+  if (fromCard) {
+    const heading = $('#attractions-heading');
+    heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true });
+    $('#attractions-section').scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' });
+  } else {
+    [...$('#region-filter').querySelectorAll('button')].find(button => button.dataset.region === state.regionId)?.focus({ preventScroll: true });
+  }
+}
+function renderRegionFilters() {
+  const container = clear($('#region-filter'));
+  if (!container) return;
+  const regions = nearbyRegions();
+  if (state.data && state.regionId !== 'all' && !regions.some(item => item.id === state.regionId)) state.regionId = 'all';
+  container.hidden = !regions.length;
+  if (!regions.length) return;
+  for (const region of [{ id: 'all', name: '全部地区' }, ...regions]) {
+    const button = make('button', `region-chip${region.id === state.regionId ? ' active' : ''}`, region.name);
+    button.type = 'button'; button.dataset.region = region.id; button.setAttribute('aria-pressed', String(region.id === state.regionId));
+    button.addEventListener('click', () => chooseRegion(region.id)); container.append(button);
+  }
+}
+function nearbyDestinationUrl(destinationId, regionId = '') {
+  const params = new URLSearchParams({ place_id: destinationId, month: state.month, mode: state.mode, view: 'destination' });
+  if (regionId) params.set('region', regionId);
+  return `${window.CHINATOUR_PREVIEW?.basePath || '/'}?${params.toString()}#month-explorer`;
+}
+function renderNearby() {
+  const section = $('#nearby-section'); const grid = clear($('#nearby-grid'));
+  if (!section || !grid) return;
+  const nearby = state.data?.nearby || {};
+  const regions = nearbyRegions();
+  const published = Array.isArray(window.CHINATOUR_PREVIEW_META?.places)
+    ? window.CHINATOUR_PREVIEW_META.places.map(item => String(typeof item === 'string' ? item : item.id))
+    : state.places.map(item => String(item.id));
+  const items = (Array.isArray(nearby.items) ? nearby.items : []).filter(item => item?.id && item.name && (
+    item.category === 'region'
+      ? (String(item.destination_id) === state.placeId ? regions.some(region => region.id === String(item.id)) : published.includes(String(item.destination_id)))
+      : item.category === 'destination' && String(item.destination_id) !== state.placeId && published.includes(String(item.destination_id))
+  ));
+  section.hidden = !items.length;
+  if (!items.length) return;
+  const origin = nearby.origin?.anchor_label || nearby.origin?.name;
+  const hasDistance = nearby.distance_kind === 'straight_line' && Boolean(origin);
+  $('#nearby-note').textContent = hasDistance ? `以${origin}为起点，比较周边目的地。直线距离仅供方位参考，非驾车里程。` : '换个方向，看看周边的景点与目的地。';
+  const limit = Math.min(3, Math.max(1, integer(nearby.limit, 3)));
+  for (const item of items.slice(0, state.nearbyExpanded ? 24 : limit)) {
+    const local = item.category === 'region' && String(item.destination_id) === state.placeId;
+    const card = make(local ? 'button' : 'a', `nearby-card${local && String(item.id) === state.regionId ? ' active' : ''}`);
+    if (local) {
+      card.type = 'button'; card.setAttribute('aria-pressed', String(item.id) === state.regionId ? 'true' : 'false');
+      card.addEventListener('click', () => chooseRegion(item.id, { fromCard: true }));
+    } else card.href = nearbyDestinationUrl(String(item.destination_id), item.category === 'region' ? String(item.id) : '');
+    card.setAttribute('aria-label', `${local ? '查看' : '前往'}${item.name}${local ? '的景点' : '目的地'}资料`);
+    const title = make('span', 'nearby-card-title'); title.append(make('strong', '', item.name), make('span', 'nearby-card-arrow', local ? '↓' : '↗')); card.append(title);
+    if (item.description) card.append(make('span', 'nearby-description', item.description));
+    if (hasDistance && item.distance_km !== null && item.distance_km !== undefined && Number.isFinite(Number(item.distance_km)) && Number(item.distance_km) >= 0 && item.anchor_label) {
+      const distance = make('span', 'nearby-distance');
+      distance.append(make('span', 'nearby-distance-origin', `${origin} → ${item.anchor_label}`), make('b', '', `直线约 ${Math.round(Number(item.distance_km))} 公里`)); card.append(distance);
+    }
+    const names = (Array.isArray(item.attraction_names) ? item.attraction_names : []).filter(Boolean).slice(0, 3);
+    if (names.length) { const tags = make('span', 'nearby-tags'); names.forEach(name => tags.append(make('span', '', name))); card.append(tags); }
+    grid.append(card);
+  }
+  const more = $('#nearby-more'); more.hidden = items.length <= limit;
+  more.textContent = state.nearbyExpanded ? '收起' : `再看 ${Math.min(24, items.length) - limit} 处`;
+  more.setAttribute('aria-expanded', String(state.nearbyExpanded));
+}
 function renderAttractions() {
   stopPhotoCycle(); photoDecks.clear();
+  renderRegionFilters();
   const grid = clear($('#attractions-grid'));
-  const attractions = (state.data?.attractions || []).filter(attractionQueryMatch).sort((a, b) => {
+  const region = selectedRegion();
+  const regionIds = region ? new Set(region.attraction_ids) : null;
+  const attractions = (state.data?.attractions || []).filter(item => !regionIds || regionIds.has(String(item.id || item.place_id))).filter(attractionQueryMatch).sort((a, b) => {
     const monthItems = (item) => attractionEvidence(item).filter((evidence) => integer(evidence.browse_month || evidence.month) === currentMonthNumber()).length;
     return monthItems(b) - monthItems(a);
   });
   $('#attractions-count').textContent = attractions.length ? `${attractions.length} 个景点` : '暂无匹配';
+  const regionLabel = region ? ` · ${region.name}` : '';
   $('#attractions-context').textContent = state.query
-    ? `在 ${state.month} 月资料中搜索「${state.query}」；点开景点查看命中的原始记录。`
-    : `${state.month} 月 · 点开感兴趣的景点，查看照片、路线与真实资料。`;
+    ? `${state.month} 月${regionLabel} · 搜索「${state.query}」；点开景点查看命中的原始记录。`
+    : `${state.month} 月${regionLabel} · 点开感兴趣的景点，查看照片、路线与真实资料。`;
   if (!attractions.length) { grid.append(emptyBlock(state.query ? '没有找到匹配的景点' : '景点资料还在形成中', state.query ? '试试其他景点名或资料关键词。' : '选择其他月份，或展开自动搜集工作台补充资料。')); return; }
   attractions.slice(0, state.attractionLimit).forEach((attraction) => {
     const card = make('article', 'attraction-card');
@@ -1257,7 +1352,7 @@ function toggleBrowserInfo() {
 }
 
 function renderAll() {
-  renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderEssentials(); renderRouteGuides(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
+  renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderEssentials(); renderRouteGuides(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderNearby(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
   const collect = $('#collect-button'); if (collect) { const active = jobActive(state.job); collect.disabled = !state.placeId; collect.innerHTML = active ? '搜集进行中 <span aria-hidden="true">…</span>' : '自动搜集 <span aria-hidden="true">↗</span>'; }
   renderCollectionScope();
   document.dispatchEvent(new CustomEvent('chinatour:data', { detail: state.data }));
@@ -1462,11 +1557,12 @@ function closeDrawer() {
   state.drawerReturnFocus = null; startPhotoCycle();
 }
 
-function selectDestination(placeId, { update = true } = {}) {
+function selectDestination(placeId, { update = true, regionId = 'all' } = {}) {
   if (!placeId || String(placeId) === state.placeId) return;
   closeDrawer(); state.placeId = String(placeId); state.attractionLimit = 6; state.mapAssetIndex = 0;
   state.query = ''; $('#search-input').value = ''; state.practicalTab = null;
   state.routeTheme = 'all'; state.routePeriod = 'all'; state.routeLimit = 3; state.openRouteId = null;
+  state.regionId = regionId; state.nearbyExpanded = false;
   state.data = null; clearJobForContext();
   if (update) updateUrl();
   document.dispatchEvent(new CustomEvent('chinatour:place-selected', { detail: { placeId: state.placeId } }));
@@ -1480,11 +1576,13 @@ window.addEventListener('popstate', () => {
   const month = integer(params.get('month'), defaultMonthNumber);
   state.month = String(month >= 1 && month <= 12 ? month : defaultMonthNumber);
   state.mode = ['all', 'recent', 'historical'].includes(params.get('mode')) ? params.get('mode') : 'all';
-  if (placeId !== state.placeId) selectDestination(placeId, { update: false });
+  state.regionId = params.get('region') || 'all';
+  if (placeId !== state.placeId) selectDestination(placeId, { update: false, regionId: state.regionId });
   else loadDestination();
 });
 $('#mode-filter')?.addEventListener('click', (event) => { const button = event.target.closest('[data-mode]'); if (!button) return; state.mode = button.dataset.mode; state.attractionLimit = 6; clearJobForContext(); updateUrl(); renderMode(); loadDestination(); });
 $('#search-input')?.addEventListener('input', (event) => { state.query = event.target.value || ''; state.attractionLimit = 6; renderAttractions(); });
+$('#nearby-more')?.addEventListener('click', () => { state.nearbyExpanded = !state.nearbyExpanded; renderNearby(); });
 $('#collect-button')?.addEventListener('click', () => { const workbench = $('#collection-workbench'); workbench.open = true; workbench.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' }); });
 $('#campaign-button')?.addEventListener('click', startCampaign);
 $('#collection-month-scope')?.addEventListener('change', (event) => {
