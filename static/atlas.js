@@ -207,7 +207,9 @@
   });
   $a('#destination-title').setAttribute('tabindex','-1');
   if(new URLSearchParams(location.search).get('view')==='destination')showDestination(location.hash||'#month-explorer',false);
-  fetch(window.CHINATOUR_PREVIEW?window.CHINATOUR_PREVIEW.assetUrl('/static/atlas-geography.json'):'/static/atlas-geography.json').then(r=>{if(!r.ok)throw new Error('map');return r.json();}).then(data=>{
+  const mapUrl=window.CHINATOUR_PREVIEW?window.CHINATOUR_PREVIEW.assetUrl('/static/atlas-geography.json'):'/static/atlas-geography.json';
+  const mapVersion=window.CHINATOUR_PREVIEW_META?.snapshotAt;
+  fetch(mapUrl+(mapVersion?'?v='+encodeURIComponent(mapVersion):''),{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('map');return r.json();}).then(data=>{
     geometry=data;
     const available=window.CHINATOUR_PREVIEW_META?.places?.map(item=>typeof item==='string'?item:item.id);
     destinations=Object.entries(data.destinations||{}).map(([id,item])=>({...item,id})).filter(item=>(!available||available.includes(item.id))&&data[item.province_key]?.features?.length&&data[item.local_key]?.features?.length);
