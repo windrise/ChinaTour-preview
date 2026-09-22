@@ -853,3 +853,19 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px soli
   .drawer-month-filter { grid-template-columns:repeat(6,minmax(0,1fr)); }
   .attraction-directory { grid-template-columns:1fr; }
 }
+
+/* Regional albums remain separate from the counted attraction directory. */
+.area-album[hidden] { display: none; }
+.area-album-card { position: relative; display: grid; grid-template-columns: 220px minmax(0, 1fr); overflow: hidden; margin-bottom: 22px; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); }
+.area-album .area-album-card .attraction-media { height: 160px; min-height: 160px; border-radius: 0; }
+.area-album .area-album-card .attraction-body { align-self: center; padding: 16px 20px; }
+.area-album .area-album-card .attraction-body h3 { margin: 6px 0; font-size: 20px; }
+.area-album .area-album-card .attraction-description { min-height: 0; margin: 0; }
+.area-album .area-album-card .card-detail-link { margin-top: 10px; }
+@media (max-width: 560px) {
+  .area-album-card { grid-template-columns: 125px minmax(0, 1fr); }
+  .area-album .area-album-card .attraction-media { height: 180px; min-height: 180px; }
+  .area-album .area-album-card .attraction-body { padding: 12px; }
+  .area-album .area-album-card .attraction-body h3 { font-size: 17px; }
+  .area-album .area-album-card .attraction-description { display: block; font-size: 11px; }
+}

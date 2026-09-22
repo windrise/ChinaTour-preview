@@ -625,6 +625,7 @@
       "local_map": null
     }
   ],
+  "area_album": null,
   "evidence": [
     {
       "id": "ev_fca3689b960d4a2f",
@@ -1676,19 +1677,7 @@
       "summary": "这个月份还缺少有时间依据的独立观察"
     }
   ],
-  "changes": [
-    {
-      "id": "8f189c94b5691928c4967d0134d576cadd2f405a4c06497349b4c03456d4d9a3",
-      "title": "蓝月谷是真的美 不同光线下颜色也会不同 有时是蓝色有时是绿色 拍的时候努力还原它本身的样子 但还是不如亲眼所见 ​​​",
-      "created_at": "2026-09-21T16:08:52.739511+00:00",
-      "before_value": "来源正文版本已保留在本地工作台。",
-      "after_value": "来源正文版本已保留在本地工作台。",
-      "reason": "来源内容更新",
-      "source_url": "https://weibo.com/6223779819/RiPhSjqj2",
-      "parent_id": "f56fc8911418238565dcd194c5b70c098278a6063c4de4081a70d89bd9fd7239",
-      "kind": "source_revision"
-    }
-  ],
+  "changes": [],
   "landscape_updates": [],
   "visual_cohorts": [],
   "practical": {

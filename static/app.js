@@ -224,6 +224,8 @@ function normalizeDestination(raw) {
       description: destination.description || destination.summary || '',
     },
     attractions: Array.isArray(raw?.attractions) ? raw.attractions : [],
+    area_album: raw?.area_album?.kind === 'area_album' && String(raw.area_album.id || '') === String(destination.id || state.placeId)
+      ? raw.area_album : null,
     evidence: Array.isArray(raw?.evidence) ? raw.evidence : [],
     baselines: Array.isArray(raw?.baselines) ? raw.baselines : [],
     visualCohorts: Array.isArray(raw?.visual_cohorts) ? raw.visual_cohorts : [],
@@ -439,9 +441,11 @@ function renderMonths() {
   for (let month = 1; month <= 12; month += 1) {
     const button = make('button', `month-button${state.month === String(month) ? ' active' : ''}`);
     button.type = 'button'; button.dataset.month = String(month); button.setAttribute('aria-pressed', String(state.month === String(month)));
-    const photos = coverage[month]?.approved_photo_count;
+    const photos = coverage[month]?.browse_photo_count ?? coverage[month]?.approved_photo_count;
     const photoLabel = photos === undefined ? (counts[month] ? `${counts[month]} 条` : '—') : integer(photos) ? `${integer(photos)} 图` : '无当月图';
-    button.title = `${integer(counts[month])} 条来源资料 · ${photos === undefined ? '照片数待统计' : `${integer(photos)} 张可展示月份照片`}`;
+    const areaPhotos = coverage[month]?.area_approved_photo_count;
+    const areaNote = areaPhotos === undefined ? '' : ` · 其中区域相册 ${integer(areaPhotos)} 张（具体地点未确定）`;
+    button.title = `${integer(counts[month])} 条来源资料 · ${photos === undefined ? '照片数待统计' : `${integer(photos)} 张可展示月份照片`}${areaNote}`;
     button.append(make('span', '', `${month}`), make('small', '', '月'), make('b', '', photoLabel));
     button.addEventListener('click', () => chooseMonth(String(month)));
     container.append(button);
@@ -911,8 +915,31 @@ function attractionPresentation(attraction) {
   return { attraction, photos, related, seasonal, observed: photos.filter(entry => entry.observedMonth).length,
     sources: new Set(photos.map(entry => entry.sourceUrl).filter(Boolean)).size };
 }
+function renderAreaAlbum() {
+  const container = clear($('#area-album'));
+  if (!container) return;
+  const album = state.data?.area_album;
+  container.hidden = !album || Boolean(selectedRegion()) || !attractionQueryMatch(album);
+  if (container.hidden) return;
+  const item = attractionPresentation(album);
+  // Keep the album identity in data for an open drawer's month switch, but
+  // avoid putting an empty regional card ahead of the actual scenic photos.
+  container.hidden = item.photos.length === 0;
+  if (container.hidden) return;
+  const card = make('article', 'area-album-card');
+  const media = make('div', 'attraction-media');
+  createPhotoDeck(media, cardMediaEntries(album), album, card); card.append(media);
+  const body = make('div', 'attraction-body');
+  body.append(make('p', 'card-eyebrow', `${state.month} 月 · 区域相册 · ${item.photos.length} 张图`));
+  const heading = make('h3');
+  const open = make('button', 'attraction-open', album.name); open.type = 'button';
+  open.addEventListener('click', () => openDrawer(album)); heading.append(open); body.append(heading);
+  body.append(make('p', 'attraction-description', album.description));
+  body.append(make('span', 'card-detail-link', item.photos.length ? '查看照片与来源' : '本月暂无照片 · 查看资料或切换月份'));
+  card.append(body); container.append(card);
+}
 function renderAttractions() {
-  stopPhotoCycle(); photoDecks.clear(); renderRegionFilters();
+  stopPhotoCycle(); photoDecks.clear(); renderRegionFilters(); renderAreaAlbum();
   const grid = clear($('#attractions-grid'));
   const region = selectedRegion();
   const regionIds = region ? new Set(region.attraction_ids) : null;
@@ -942,7 +969,7 @@ function renderAttractions() {
   if (!ready.length) {
     grid.append(emptyBlock(state.query && !items.length ? '没有找到匹配的景点' : `${state.month} 月的照片还在补充`,
       items.length ? '可以在下方目录打开景点，在详情里切换月份，或查看已有文字资料。' : '试试其他景点名或资料关键词。'));
-    return;
+    startPhotoCycle(); return;
   }
   ready.slice(0, state.attractionLimit).forEach((item) => {
     const attraction = item.attraction;
@@ -1028,7 +1055,7 @@ function confidenceClass(item) {
 }
 function renderEvidence() {
   if (!state.openAttractionId) return;
-  const attraction = (state.data?.attractions || []).find((item) => String(item.id || item.place_id) === state.openAttractionId);
+  const attraction = openAlbum();
   if (attraction) populateDrawer(attraction);
   else closeDrawer();
 }
@@ -1496,13 +1523,18 @@ function renderAll() {
   window.CHINATOUR_PREVIEW?.render();
 }
 const MODE_LABELS = { all: '全部资料', recent: '近两年发布', historical: '历年同月' };
+function openAlbum() {
+  const area = state.data?.area_album;
+  if (area && String(area.id) === state.openAttractionId) return area;
+  return (state.data?.attractions || []).find(item => String(item.id || item.place_id) === state.openAttractionId);
+}
 function attractionEvidence(attraction) {
   const id = String(attraction?.id || attraction?.place_id || '');
   const name = String(attraction?.name || '').trim().toLowerCase();
   return (state.data?.evidence || []).filter((item) => {
     const itemId = String(item?.place_id || item?.attraction_id || '');
     const itemName = String(item?.place_name || '').trim().toLowerCase();
-    return (id && itemId === id) || (name && itemName === name);
+    return (id && itemId === id) || (attraction?.kind !== 'area_album' && name && itemName === name);
   });
 }
 function attractionMediaEntries(attraction) {
@@ -1640,7 +1672,7 @@ async function chooseDrawerMonth(month) {
 }
 function refreshOpenDrawer() {
   if (!state.openAttractionId) return;
-  const attraction = state.data?.attractions?.find(item => String(item.id || item.place_id) === state.openAttractionId);
+  const attraction = openAlbum();
   if (attraction) populateDrawer(attraction);
   else {
     const content = clear($('#drawer-content')); content.setAttribute('aria-busy', 'false');
@@ -1659,9 +1691,11 @@ function populateDrawer(attraction) {
   const preferredUrls = new Set(preferred.map((entry) => entry.url));
   const entries = [...preferred, ...allEntries.filter((entry) => entry.monthMatched && !preferredUrls.has(entry.url))];
   content.append(make('p', 'drawer-description', attraction.description || '暂无经核对的景点简介。'));
-  const practical = make('details', 'drawer-more-info');
-  practical.append(make('summary', '', '游览时长、路线与交通'), drawerPractical(attraction)); content.append(practical);
-  const localMap = drawerLocalMap(attraction);
+  if (attraction.kind !== 'area_album') {
+    const practical = make('details', 'drawer-more-info');
+    practical.append(make('summary', '', '游览时长、路线与交通'), drawerPractical(attraction)); content.append(practical);
+  }
+  const localMap = attraction.kind === 'area_album' ? null : drawerLocalMap(attraction);
   if (localMap) { const mapDetails = make('details', 'drawer-more-info'); mapDetails.append(make('summary', '', '景区游览图'), localMap); content.append(mapDetails); }
   const periodSection = make('section', 'drawer-period-section');
   const periodHeading = make('div', 'drawer-period-heading');

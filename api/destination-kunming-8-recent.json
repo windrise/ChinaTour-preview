@@ -866,6 +866,7 @@
       "local_map": null
     }
   ],
+  "area_album": null,
   "evidence": [
     {
       "id": "ev_c7e304098ac94220",
@@ -2792,19 +2793,7 @@
       "summary": "这个月份还缺少有时间依据的独立观察"
     }
   ],
-  "changes": [
-    {
-      "id": "82300cbeaac513a1dfbcbc4bc7e5522dd7a68585ce109f95a607f897c751cd4e",
-      "title": "用脚步丈量昆明西山千年古韵！奔跑彩云南名城名镇领跑赛第五站举行",
-      "created_at": "2026-09-21T16:18:21.742969+00:00",
-      "before_value": null,
-      "after_value": "10月13日，2024奔跑彩云南名城名镇领跑赛第五站在昆明西山脚下拉开序幕。此次赛事共吸引了来自全省各地的2000余名跑步爱好者踊跃参与，用奔跑传递着积极健康的生活理念，用脚步丈量着西山历经千年的古韵风貌。 本次赛事由云南省社会体育指导中心、昆明市教育体育局主办，西山区教育体育局、西山风景区管理局承办，云南省路跑协会协办，云南行知探索体育文旅产业有限公司策划",
-      "reason": "首次自动采集",
-      "source_url": "https://tyj.yn.gov.cn/tyzx/qzty/202410/t20241016_3415641.html",
-      "parent_id": null,
-      "kind": "discovery"
-    }
-  ],
+  "changes": [],
   "landscape_updates": [],
   "visual_cohorts": [],
   "practical": {
