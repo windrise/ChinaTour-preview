@@ -887,5 +887,208 @@
     "name": "虎跳峡",
     "kind": "attraction",
     "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安",
+    "kind": "destination",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "秦始皇帝陵博物院",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "华清宫",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安城墙",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安钟楼",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安鼓楼",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "大雁塔·大慈恩寺",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "大唐不夜城",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "大唐芙蓉园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "陕西历史博物馆本馆",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安博物院（小雁塔）",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安碑林博物馆",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "大明宫国家遗址公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安青龙寺遗址景区",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "大兴善寺",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "兴庆宫公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安植物园（新园区）",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "曲江池遗址公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安浐灞国家湿地公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安世博园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "西安秦岭野生动物园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "陕西翠华山国家地质公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "南五台景区",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "陕西太平国家森林公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "朱雀国家森林公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "古观音禅寺",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "回民街",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "永兴坊",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "xian",
+    "destination_name": "西安",
+    "name": "汉长安城未央宫国家遗址公园",
+    "kind": "attraction",
+    "aliases": []
   }
 ]

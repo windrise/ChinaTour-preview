@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-09-22T03:49:42Z",
+  "snapshotAt": "2026-09-22T07:31:00Z",
   "place": "liyang",
   "places": [
     {
@@ -37,6 +37,10 @@
     {
       "id": "shangrila",
       "name": "香格里拉"
+    },
+    {
+      "id": "xian",
+      "name": "西安"
     }
   ],
   "months": [
@@ -58,11 +62,11 @@
     "recent",
     "historical"
   ],
-  "destinationFiles": 324,
-  "destinationEvidenceRecords": 3567,
-  "mediaReferences": 2622,
-  "mediaCopied": 1298,
-  "mediaRecoveredFromArchive": 1156,
+  "destinationFiles": 360,
+  "destinationEvidenceRecords": 3757,
+  "mediaReferences": 2690,
+  "mediaCopied": 1332,
+  "mediaRecoveredFromArchive": 1298,
   "missingMedia": 1011,
   "missingMediaReferences": 3803,
   "withheldMedia": 0

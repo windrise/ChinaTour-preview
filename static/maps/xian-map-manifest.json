@@ -1,0 +1,666 @@
+{
+  "schema_version": "osm-overview-manifest-v1",
+  "retrieved_at": "2026-09-22",
+  "coordinate_system": "WGS84",
+  "notes": [
+    "坐标及所绘几何来自OpenStreetMap公开数据；保留对象引用、查询文本、快照时间与SHA256。",
+    "全国入口DataV行政几何单独展示；本图只采用WGS84 OSM数据，不混合坐标框架。",
+    "两图沿用完整目的地目录的固定编号；每图侧栏仅列该图选取项目，不表示全城只有这些景点。",
+    "区域代表点不是入口；不补画道路、游线或接驳，也不推断班次、票价、通行状态。",
+    "公园、大学、商业与水体仅显示本轮已取得图层，缺失不等于当地不存在。",
+    "机场位于咸阳；本轮未把华山、秦汉馆等城外景区归入西安。",
+    "编号避让时，短引线末端小点为原始位置；编号圆心不能作导航坐标。"
+  ],
+  "failed_requests": [
+    {
+      "name": "urban-context",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "admin",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "hubs",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "admin-delayed-retry",
+      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)>"
+    },
+    {
+      "name": "admin-ssl-recovery",
+      "error": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)>"
+    },
+    {
+      "name": "urban-context",
+      "error": "The read operation timed out"
+    },
+    {
+      "name": "extra-pois",
+      "error": "HTTP Error 504: Gateway Timeout"
+    },
+    {
+      "name": "hubs",
+      "error": "HTTP Error 504: Gateway Timeout"
+    }
+  ],
+  "destinations": {
+    "xian": {
+      "bounds": [
+        33.7,
+        107.7,
+        34.75,
+        109.85
+      ],
+      "attractions": {
+        "秦始皇帝陵博物院": {
+          "osm_ref": "way/71235670",
+          "source_name": "秦始皇兵马俑博物馆",
+          "note": "仅以兵马俑博物馆片区作位置参照；丽山园另一区域不由此中心代表。"
+        },
+        "华清宫": {
+          "osm_ref": "way/88216827",
+          "source_name": "华清宫"
+        },
+        "西安城墙": {
+          "osm_ref": "relation/3450809",
+          "source_name": "西安城墙",
+          "note": "闭合城墙整体包围盒中心，不代表任何登城入口或城墙某段。"
+        },
+        "西安钟楼": {
+          "osm_ref": "way/254488435",
+          "source_name": "钟楼",
+          "note": "核对为西安钟楼历史建筑，不是同名地铁站或咸阳钟楼。"
+        },
+        "西安鼓楼": {
+          "osm_ref": "way/254488437",
+          "source_name": "西安鼓楼"
+        },
+        "大雁塔·大慈恩寺": {
+          "osm_ref": "way/92223044",
+          "source_name": "大雁塔",
+          "note": "大雁塔建筑代表点；寺院入口与周边广场不由此点代表。"
+        },
+        "大唐不夜城": {
+          "osm_ref": "relation/18459164",
+          "source_name": "大唐不夜城",
+          "note": "步行街区实际OSM面对象中心，不采用同名地铁站。"
+        },
+        "大唐芙蓉园": {
+          "osm_ref": "relation/18399358",
+          "source_name": "大唐芙蓉园"
+        },
+        "陕西历史博物馆本馆": {
+          "osm_ref": "way/1419575277",
+          "source_name": "陕西历史博物馆",
+          "note": "小寨东路本馆对象；不采用位于咸阳的秦汉馆。"
+        },
+        "西安博物院（小雁塔）": {
+          "osm_ref": "relation/16767834",
+          "source_name": "小雁塔·西安博物院"
+        },
+        "西安碑林博物馆": {
+          "osm_ref": "way/256711574",
+          "source_name": "西安碑林博物馆"
+        },
+        "大明宫国家遗址公园": {
+          "osm_ref": "way/152429838",
+          "source_name": "大明宫国家遗址公园"
+        },
+        "西安青龙寺遗址景区": {
+          "osm_ref": "way/245402102",
+          "source_name": "青龙寺遗址公园",
+          "note": "遗址公园对象，不采用同名地铁站。"
+        },
+        "兴庆宫公园": {
+          "osm_ref": "way/252867154",
+          "source_name": "兴庆宫公园"
+        },
+        "曲江池遗址公园": {
+          "osm_ref": "way/402061867",
+          "source_name": "曲江池遗址公园"
+        },
+        "西安浐灞国家湿地公园": {
+          "osm_ref": "relation/13957684",
+          "source_name": "浐灞湿地公园",
+          "note": "选择启源三路北部浐灞湿地公园；不使用同名的东南部面对象。"
+        },
+        "西安秦岭野生动物园": {
+          "osm_ref": "way/256930203",
+          "source_name": "西安秦岭野生动物园"
+        },
+        "陕西翠华山国家地质公园": {
+          "osm_ref": "node/3995724828",
+          "source_name": "翠华山",
+          "note": "山峰原始节点仅作山岳方位参照，不代表景区入口、天池或登山游线。"
+        },
+        "永兴坊": {
+          "osm_ref": "way/376248518",
+          "source_name": "永兴坊"
+        },
+        "大兴善寺": {
+          "osm_ref": "way/972281883",
+          "source_name": "大兴善寺"
+        },
+        "西安植物园（新园区）": {
+          "osm_ref": "way/675892052",
+          "source_name": "西安植物园",
+          "note": "曲江新园区面对象；不采用翠华南路老园区。"
+        },
+        "西安世博园": {
+          "osm_ref": "way/252885702",
+          "source_name": "西安世博公园"
+        },
+        "南五台景区": {
+          "osm_ref": "node/10313079757",
+          "source_name": "南五台",
+          "note": "山峰原始节点只表示山岳方位，不表示景区入口或登山游线。"
+        },
+        "古观音禅寺": {
+          "osm_ref": "way/1049105052",
+          "source_name": "古观音禅寺"
+        },
+        "回民街": {
+          "osm_ref": "way/164554515",
+          "source_name": "北院门",
+          "note": "OSM北院门步行街对象，alt_name包含回民街；作为核心街巷参照，不代表整个回坊边界或全部餐饮街巷。"
+        },
+        "汉长安城未央宫国家遗址公园": {
+          "osm_ref": "relation/21251434",
+          "source_name": "汉长安城未央宫国家考古遗址公园"
+        }
+      },
+      "hubs": [
+        {
+          "osm_ref": "node/9620122767",
+          "source_name": "西安",
+          "id": "xian-station",
+          "name": "西安站",
+          "kind": "railway",
+          "type": "火车站"
+        },
+        {
+          "osm_ref": "node/4185074601",
+          "source_name": "西安北",
+          "id": "xian-north-station",
+          "name": "西安北站",
+          "kind": "railway",
+          "type": "高铁站"
+        },
+        {
+          "osm_ref": "way/1377770481",
+          "source_name": "西安咸阳国际机场",
+          "id": "xian-xianyang-airport",
+          "name": "西安咸阳国际机场（咸阳）",
+          "kind": "airport",
+          "type": "机场",
+          "note": "机场位于咸阳，作为西安城外交通枢纽；区域代表点不是航站楼或接驳站。"
+        }
+      ],
+      "sources": [
+        {
+          "name": "pois",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:55];nwr(33.70,108.20,34.65,109.55)[\"name\"~\"兵马俑|秦始皇帝陵|华清|骊山|大雁塔|大唐芙蓉园|大唐不夜城|城墙|钟楼|鼓楼|回民街|陕西历史博物馆|碑林|小雁塔|西安博物院|大明宫|青龙寺|广仁寺|兴庆|曲江池|长安十二时辰|华山|西安北|西安站|咸阳国际机场|浐灞|西安交通大学|西北工业大学|西北大学|陕西师范大学|西安建筑科技大学|大唐西市|赛格|洒金桥|永兴坊|诗经里|昆明池|汉城湖|西安秦岭野生动物园|终南山|翠华山|楼观台|鄠邑|太平国家森林|朱雀国家森林\"];out center tags;",
+          "path": "data/onboarding/xian/maps/pois.json",
+          "sha256": "462b4a59a17c6a2acb2dea865d60a5ff3ea7bf1dec355c79939dbdef2e981271",
+          "bytes": 505209,
+          "element_count": 1465,
+          "status": "complete",
+          "osm_base_timestamp": "2026-09-22T06:40:48Z",
+          "retrieved_at": "2026-09-22T06:42:44.222955+00:00"
+        },
+        {
+          "name": "roads",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "query": "[out:json][timeout:70];way(33.85,108.40,34.58,109.40)[\"highway\"~\"^(motorway|trunk|primary)$\"];out body geom;",
+          "path": "data/onboarding/xian/maps/roads.json",
+          "sha256": "080c6a200d8d55224d05b30846783f2bb42918ef0fd1135e14e5c86b65586c5b",
+          "bytes": 5073415,
+          "element_count": 4897,
+          "status": "complete",
+          "osm_base_timestamp": "2026-09-22T06:41:51Z",
+          "retrieved_at": "2026-09-22T06:42:56.820441+00:00"
+        },
+        {
+          "name": "admin",
+          "endpoint": "https://overpass.private.coffee/api/interpreter",
+          "query": "[out:json][timeout:75];relation(33.85,108.40,34.58,109.40)[\"boundary\"=\"administrative\"][\"admin_level\"=\"6\"][\"name\"~\"^西安市$|^新城区$|^碑林区$|^莲湖区$|^灞桥区$|^未央区$|^雁塔区$|^长安区$|^临潼区$|^鄠邑区$|^高陵区$|^蓝田县$|^周至县$|^阎良区$|^渭城区$|^秦都区$|^泾阳县$|^三原县$|^兴平市$\"];out body geom;",
+          "path": "data/onboarding/xian/maps/admin.json",
+          "sha256": "d74b55b81308f4288298668e89e11dc62fe290965b880cf2980d05b5e0235163",
+          "bytes": 2389871,
+          "element_count": 17,
+          "status": "complete",
+          "osm_base_timestamp": "2026-07-24T11:04:51Z",
+          "retrieved_at": "2026-09-22T06:47:14.520711+00:00"
+        },
+        {
+          "name": "selected-api-geometry",
+          "path": "data/onboarding/xian/maps/selected-api-geometry.json",
+          "sha256": "37749e9418f92a117eb21af45b973bb998ec17bd64948f61463d1006c7ddd3ec",
+          "bytes": 654342,
+          "element_count": 2378,
+          "status": "complete",
+          "method": "OSM primary API /full.json, resolving original node references in original order",
+          "raw_sources": [
+            {
+              "osm_ref": "way/177231509",
+              "url": "https://api.openstreetmap.org/api/0.6/way/177231509/full.json",
+              "path": "data/onboarding/xian/maps/api-way-177231509.json",
+              "sha256": "d4560b19d80c5f30af8a543bf3a41120f39363b30625d1ffd353bf872d3ac49a",
+              "bytes": 5023,
+              "retrieved_at": "2026-09-22T06:51:43.518985+00:00"
+            },
+            {
+              "osm_ref": "way/246287800",
+              "url": "https://api.openstreetmap.org/api/0.6/way/246287800/full.json",
+              "path": "data/onboarding/xian/maps/api-way-246287800.json",
+              "sha256": "7a1c59ced58ae40355dd5c8e42a5b3b1f767d5cc8ef82728bb7c6c9b4b534386",
+              "bytes": 8711,
+              "retrieved_at": "2026-09-22T06:51:43.519502+00:00"
+            },
+            {
+              "osm_ref": "way/287278027",
+              "url": "https://api.openstreetmap.org/api/0.6/way/287278027/full.json",
+              "path": "data/onboarding/xian/maps/api-way-287278027.json",
+              "sha256": "44c69ffa290a12b69fb52d366fd1cfc730033597e74fff4827a7f336799e5f47",
+              "bytes": 5137,
+              "retrieved_at": "2026-09-22T06:51:43.600056+00:00"
+            },
+            {
+              "osm_ref": "way/509232577",
+              "url": "https://api.openstreetmap.org/api/0.6/way/509232577/full.json",
+              "path": "data/onboarding/xian/maps/api-way-509232577.json",
+              "sha256": "6e31666ca0a43b75d9d72ca49efb6aff12e61af2efae1120ec111b3f9014c19e",
+              "bytes": 2973,
+              "retrieved_at": "2026-09-22T06:51:44.704768+00:00"
+            },
+            {
+              "osm_ref": "way/1419575280",
+              "url": "https://api.openstreetmap.org/api/0.6/way/1419575280/full.json",
+              "path": "data/onboarding/xian/maps/api-way-1419575280.json",
+              "sha256": "cd5e8c03f15b5d36c7a3344a05617e25853796114cbc203175002d7c2ccefce0",
+              "bytes": 7954,
+              "retrieved_at": "2026-09-22T06:51:44.880240+00:00"
+            },
+            {
+              "osm_ref": "way/252867154",
+              "url": "https://api.openstreetmap.org/api/0.6/way/252867154/full.json",
+              "path": "data/onboarding/xian/maps/api-way-252867154.json",
+              "sha256": "eb2cab481091e6e46df4607ecb1c86d814336b71a59f763f6af0d77142f7952b",
+              "bytes": 10463,
+              "retrieved_at": "2026-09-22T06:51:44.320754+00:00"
+            },
+            {
+              "osm_ref": "way/283397230",
+              "url": "https://api.openstreetmap.org/api/0.6/way/283397230/full.json",
+              "path": "data/onboarding/xian/maps/api-way-283397230.json",
+              "sha256": "7e03a2c76ff67f76ab1fefbd5601104ebeed88642aefeb2f3641779d1ab1e97b",
+              "bytes": 11167,
+              "retrieved_at": "2026-09-22T06:51:44.972630+00:00"
+            },
+            {
+              "osm_ref": "way/245402102",
+              "url": "https://api.openstreetmap.org/api/0.6/way/245402102/full.json",
+              "path": "data/onboarding/xian/maps/api-way-245402102.json",
+              "sha256": "38a01767942c2e3cb9b1618ba5a17dfb7906b65b85e28d4a145a25126e23bb17",
+              "bytes": 5856,
+              "retrieved_at": "2026-09-22T06:51:46.057111+00:00"
+            },
+            {
+              "osm_ref": "way/402061867",
+              "url": "https://api.openstreetmap.org/api/0.6/way/402061867/full.json",
+              "path": "data/onboarding/xian/maps/api-way-402061867.json",
+              "sha256": "107847f046fa708e14ad62e06c2844613e36f4a519384107a123385c2adfaf0a",
+              "bytes": 6539,
+              "retrieved_at": "2026-09-22T06:51:46.220606+00:00"
+            },
+            {
+              "osm_ref": "way/1377770481",
+              "url": "https://api.openstreetmap.org/api/0.6/way/1377770481/full.json",
+              "path": "data/onboarding/xian/maps/api-way-1377770481.json",
+              "sha256": "057be2a9254e3f9cb44c8bfc7da75004bd5de375fd0233e4736bb2fa71629970",
+              "bytes": 19631,
+              "retrieved_at": "2026-09-22T06:51:45.567588+00:00"
+            },
+            {
+              "osm_ref": "way/88216827",
+              "url": "https://api.openstreetmap.org/api/0.6/way/88216827/full.json",
+              "path": "data/onboarding/xian/maps/api-way-88216827.json",
+              "sha256": "89bc0bdf70e2a684e309f60c1aaafb353d05051893bea847bf2c36290cd2e8c6",
+              "bytes": 3134,
+              "retrieved_at": "2026-09-22T06:51:46.557600+00:00"
+            },
+            {
+              "osm_ref": "way/71235670",
+              "url": "https://api.openstreetmap.org/api/0.6/way/71235670/full.json",
+              "path": "data/onboarding/xian/maps/api-way-71235670.json",
+              "sha256": "79c9dab041a7e148938cd665f445c025fd48bd15e4341cb6c08b04c6980cc172",
+              "bytes": 5245,
+              "retrieved_at": "2026-09-22T06:51:47.239380+00:00"
+            },
+            {
+              "osm_ref": "relation/17568632",
+              "url": "https://api.openstreetmap.org/api/0.6/relation/17568632/full.json",
+              "path": "data/onboarding/xian/maps/api-relation-17568632.json",
+              "sha256": "665871a861c57d219f8fb5f147d47930e8f319cc61e7f3c028251d11a521ed9a",
+              "bytes": 12312,
+              "retrieved_at": "2026-09-22T06:51:47.251398+00:00"
+            },
+            {
+              "osm_ref": "relation/18399358",
+              "url": "https://api.openstreetmap.org/api/0.6/relation/18399358/full.json",
+              "path": "data/onboarding/xian/maps/api-relation-18399358.json",
+              "sha256": "fa51154a61f7dfddaf8310f62c4ff0615bdb2141d9beab997d9de6aa7c6cac84",
+              "bytes": 45844,
+              "retrieved_at": "2026-09-22T06:51:48.185073+00:00"
+            },
+            {
+              "osm_ref": "relation/18459164",
+              "url": "https://api.openstreetmap.org/api/0.6/relation/18459164/full.json",
+              "path": "data/onboarding/xian/maps/api-relation-18459164.json",
+              "sha256": "694664608a80882e40423504b78dcbc4ebab05797a18e59f9e804b0c59c4388b",
+              "bytes": 154281,
+              "retrieved_at": "2026-09-22T06:51:49.422629+00:00"
+            },
+            {
+              "osm_ref": "relation/3450809",
+              "url": "https://api.openstreetmap.org/api/0.6/relation/3450809/full.json",
+              "path": "data/onboarding/xian/maps/api-relation-3450809.json",
+              "sha256": "a6655195956891525d7a669f526d4ac91d7aa89031995734364eb5f0c47bb124",
+              "bytes": 125495,
+              "retrieved_at": "2026-09-22T06:51:49.114840+00:00"
+            },
+            {
+              "osm_ref": "relation/13957684",
+              "url": "https://api.openstreetmap.org/api/0.6/relation/13957684/full.json",
+              "path": "data/onboarding/xian/maps/api-relation-13957684.json",
+              "sha256": "74022a927d2dbc72e5d4a0ed560d6ce7b0995734bd6e9123055460e9ec4db9dc",
+              "bytes": 6718,
+              "retrieved_at": "2026-09-22T06:51:49.071727+00:00"
+            }
+          ],
+          "retrieved_at": "2026-09-22T06:51:49.438763+00:00"
+        },
+        {
+          "name": "station-area",
+          "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=108.951,34.274,108.968,34.286",
+          "method": "GET",
+          "path": "data/onboarding/xian/maps/station-area.json",
+          "sha256": "2f557c79f94824635bd5b815669189b1763b1b362cd6d9c787a6a531f13ae2de",
+          "bytes": 3182068,
+          "element_count": 15080,
+          "status": "complete",
+          "retrieved_at": "2026-09-22T06:52:09.977815+00:00"
+        },
+        {
+          "name": "extra-api-geometry",
+          "path": "data/onboarding/xian/maps/extra-api-geometry.json",
+          "sha256": "739583e6222e911d9b6b2d14719249bff94dc3291f1884e1940ea1367428d306",
+          "bytes": 42180,
+          "element_count": 161,
+          "status": "complete",
+          "method": "OSM primary API /full.json, resolving original node references in original order",
+          "raw_sources": [
+            {
+              "osm_ref": "way/972281883",
+              "url": "https://api.openstreetmap.org/api/0.6/way/972281883/full.json",
+              "path": "data/onboarding/xian/maps/api-way-972281883.json",
+              "sha256": "03a532dbf738caf73c7dabb4faa2b999fd516317ffff42a84e4c5dda9ec29a1a",
+              "bytes": 1545,
+              "retrieved_at": "2026-09-22T06:54:06.184363+00:00"
+            },
+            {
+              "osm_ref": "way/675892052",
+              "url": "https://api.openstreetmap.org/api/0.6/way/675892052/full.json",
+              "path": "data/onboarding/xian/maps/api-way-675892052.json",
+              "sha256": "9f1e47337d7497c51f551d2ab14441c26cd91540fafbe3345d0730e5a1263c6d",
+              "bytes": 5144,
+              "retrieved_at": "2026-09-22T06:54:06.063113+00:00"
+            },
+            {
+              "osm_ref": "way/252885702",
+              "url": "https://api.openstreetmap.org/api/0.6/way/252885702/full.json",
+              "path": "data/onboarding/xian/maps/api-way-252885702.json",
+              "sha256": "770dc28ea4bb3b5bb266a961693bcae8c582feed77a2e78989c8772746df7c21",
+              "bytes": 14729,
+              "retrieved_at": "2026-09-22T06:54:06.330117+00:00"
+            },
+            {
+              "osm_ref": "node/10313079757",
+              "url": "https://api.openstreetmap.org/api/0.6/node/10313079757.json",
+              "path": "data/onboarding/xian/maps/api-node-10313079757.json",
+              "sha256": "2ffd5763ce2b9c0f9eb4403efd9c0b569e4eb6b76c2c016e466c9e8a81bad46e",
+              "bytes": 496,
+              "retrieved_at": "2026-09-22T06:54:06.665804+00:00"
+            },
+            {
+              "osm_ref": "way/1049105052",
+              "url": "https://api.openstreetmap.org/api/0.6/way/1049105052/full.json",
+              "path": "data/onboarding/xian/maps/api-way-1049105052.json",
+              "sha256": "9a2337b705773b7b10e16f07b5081e119826187a0303d105abf9b796cc60b92d",
+              "bytes": 1588,
+              "retrieved_at": "2026-09-22T06:54:07.296985+00:00"
+            },
+            {
+              "osm_ref": "way/164554515",
+              "url": "https://api.openstreetmap.org/api/0.6/way/164554515/full.json",
+              "path": "data/onboarding/xian/maps/api-way-164554515.json",
+              "sha256": "40fe1f6475ddcc1e8711d464707a42cc8cede207dc2d81c0b7b8a3a6d7271525",
+              "bytes": 2228,
+              "retrieved_at": "2026-09-22T06:54:07.251611+00:00"
+            },
+            {
+              "osm_ref": "relation/21251434",
+              "url": "https://api.openstreetmap.org/api/0.6/relation/21251434/full.json",
+              "path": "data/onboarding/xian/maps/api-relation-21251434.json",
+              "sha256": "214201c257df0778299755974c95fc68f0db658dc6d9885cbc28f6e71ee1e296",
+              "bytes": 6511,
+              "retrieved_at": "2026-09-22T06:54:07.856736+00:00"
+            }
+          ],
+          "retrieved_at": "2026-09-22T06:54:07.857999+00:00",
+          "derivation": "Ordered OSM way node references and relation memberships resolved from complete primary API responses; no synthesized geometry. Object bounds are min/max of these unchanged source geometry nodes."
+        },
+        {
+          "name": "yanliang-api-geometry",
+          "path": "data/onboarding/xian/maps/yanliang-api-geometry.json",
+          "sha256": "ae60659ba4740f7ffb93e1ced70846f920cc9d53c81c29d30e380a28677df76b",
+          "bytes": 372439,
+          "element_count": 1324,
+          "status": "complete",
+          "method": "OSM primary API /full.json, resolving original node references in original order",
+          "raw_sources": [
+            {
+              "osm_ref": "relation/3226097",
+              "url": "https://api.openstreetmap.org/api/0.6/relation/3226097/full.json",
+              "path": "data/onboarding/xian/maps/api-relation-3226097.json",
+              "sha256": "65b1b9a7c257b68e5c096e297d7ffd9838759b43d43c88011bb862a9b800c289",
+              "bytes": 239600,
+              "retrieved_at": "2026-09-22T06:57:20.849259+00:00"
+            }
+          ],
+          "retrieved_at": "2026-09-22T06:57:20.853211+00:00"
+        }
+      ],
+      "context_names": [
+        "西安交通大学兴庆校区",
+        "西北工业大学友谊校区",
+        "西北大学太白校区",
+        "陕西师范大学雁塔校区",
+        "西安建筑科技大学雁塔校区",
+        "赛格国际购物中心",
+        "大唐西市博物馆",
+        "曲江池遗址公园",
+        "汉城湖公园",
+        "广仁寺",
+        "洒金桥"
+      ],
+      "road_labels": [
+        "西安绕城高速",
+        "西安绕城高速公路",
+        "连霍高速",
+        "京昆高速",
+        "包茂高速",
+        "沪陕高速",
+        "长安南路",
+        "长安中路",
+        "长安北路",
+        "南大街",
+        "北大街",
+        "东大街",
+        "西大街",
+        "太白南路",
+        "咸宁西路",
+        "二环南路西段",
+        "二环东路"
+      ],
+      "panels": [
+        {
+          "title": "古城与曲江片区",
+          "description": "城墙内外、博物馆与曲江街区；固定编号对照地点目录，郊区见区域图。",
+          "bounds": [
+            34.187,
+            108.883,
+            34.322,
+            109.037
+          ],
+          "scale_km": 2,
+          "show_attraction_labels": false,
+          "show_context": true,
+          "output": "chinatour/static/maps/xian-urban.svg",
+          "attraction_numbers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            26,
+            27
+          ],
+          "label_offsets": {
+            "赛格国际购物中心": [
+              -115,
+              -8
+            ],
+            "西北大学太白校区": [
+              -25,
+              -10
+            ]
+          },
+          "marker_offsets": {
+            "4": [
+              5,
+              18
+            ],
+            "5": [
+              -11,
+              -14
+            ],
+            "3": [
+              6,
+              -22
+            ],
+            "6": [
+              0,
+              -12
+            ],
+            "7": [
+              -9,
+              9
+            ],
+            "26": [
+              -33,
+              14
+            ]
+          }
+        },
+        {
+          "title": "市域主要景点与交通",
+          "description": "临潼、秦岭北麓与城区相对分布；机场在咸阳，灰色索引暂未核验坐标。",
+          "bounds": [
+            33.7,
+            107.7,
+            34.75,
+            109.85
+          ],
+          "scale_km": 20,
+          "show_attraction_labels": false,
+          "show_context": false,
+          "output": "chinatour/static/maps/xian-region.svg",
+          "attraction_numbers": [
+            1,
+            2,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            28
+          ],
+          "marker_offsets": {
+            "1": [
+              16,
+              0
+            ],
+            "2": [
+              -10,
+              -10
+            ],
+            "16": [
+              18,
+              -4
+            ],
+            "17": [
+              -16,
+              8
+            ],
+            "18": [
+              0,
+              -12
+            ],
+            "19": [
+              19,
+              6
+            ],
+            "20": [
+              -18,
+              -6
+            ],
+            "21": [
+              20,
+              19
+            ],
+            "22": [
+              -9,
+              15
+            ],
+            "25": [
+              -21,
+              -14
+            ],
+            "28": [
+              -11,
+              -9
+            ]
+          }
+        }
+      ],
+      "notes": []
+    }
+  }
+}
