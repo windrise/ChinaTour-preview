@@ -13,7 +13,8 @@ const state = {
   routeTheme: 'all', routePeriod: 'all', routeLimit: 3, openRouteId: null,
   regionId: initialParams.get('region') || 'all', nearbyExpanded: false,
   query: '', attractionLimit: 6, places: [], sources: [], selectedSourceKeys: new Set(['official', 'xiaohongshu']), overview: null, data: null, map: null, mapAssetIndex: 0,
-  requestVersion: 0, openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
+  requestVersion: 0, destinationLoading: false, pendingAttraction: initialParams.get('view') === 'destination' ? initialParams.get('attraction') : null,
+  openAttractionId: null, drawerReturnFocus: null, job: null, pollTimer: null, toastTimer: null, executorReady: false, browserExecutor: 'unknown', browserStatus: 'unknown', browserStatusMessage: '', browserInfoExpanded: false, storage: null,
   placeSearch: null, placeSearchTimer: null, placeSearchBusy: false, placeSearchError: '',
   placeSearchQuery: '', placeSearchMonth: initialMonthNumber >= 1 && initialMonthNumber <= 12 ? initialMonthNumber : defaultMonthNumber, placeSearchResults: null, placeSearchVersion: 0,
 };
@@ -26,7 +27,6 @@ const STATUS_LABELS = {
   stable_candidate: '稳定共识候选',
   accepted: '已核对', pending_change: '待确认变化', recent_signal: '近期信号', baseline: '历史基线',
 };
-const KIND_LABELS = { observation: '现场观察', notice: '公告', background: '背景资料', link: '链接线索', lead: '链接线索' };
 const photoDecks = new Set();
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 let photoCycleTimer = null;
@@ -108,7 +108,6 @@ function dateText(value) {
   const parsed = new Date(raw);
   return Number.isFinite(parsed.getTime()) ? new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).format(parsed) : raw.slice(0, 24);
 }
-function dateValue(value) { return value ? String(value).slice(0, 10) : ''; }
 function monthOf(item) {
   const explicit = integer(item?.month, 0);
   if (explicit >= 1 && explicit <= 12) return explicit;
@@ -116,18 +115,10 @@ function monthOf(item) {
   const match = captured && String(captured).match(/^\d{4}-(\d{2})/);
   return match ? integer(match[1], 0) : 0;
 }
-function yearOf(item) {
-  const explicit = integer(item?.year, 0);
-  if (explicit >= 1900) return explicit;
-  const captured = item?.observed_start || item?.observed_at;
-  const match = captured && String(captured).match(/^(\d{4})-/);
-  return match ? integer(match[1], 0) : 0;
-}
 function todayYear() { return new Date(window.CHINATOUR_PREVIEW?.snapshotAt || Date.now()).getFullYear(); }
 function currentMonthNumber() { return integer(state.month, new Date().getMonth() + 1); }
 function statusText(value) { return STATUS_LABELS[String(value || '').toLowerCase()] || String(value || '待确认'); }
 function sourceText(value) { return SOURCE_LABELS[String(value || '').toLowerCase()] || String(value || '来源未注明'); }
-function kindText(value) { return KIND_LABELS[String(value || '').toLowerCase()] || String(value || '资料'); }
 function errorText(value) {
   if (value === undefined || value === null || value === '') return '';
   if (typeof value === 'string') return value;
@@ -158,11 +149,16 @@ function matchesSource(source, key) {
 function showToast(message, error = false, duration = 5200) {
   const toast = $('#toast');
   if (!toast) return;
-  toast.textContent = message;
+  clear(toast);
+  const text = make('span', 'toast-message', message);
+  const dismiss = make('button', 'toast-dismiss', '×'); dismiss.type = 'button'; dismiss.setAttribute('aria-label', '关闭提示');
+  dismiss.addEventListener('click', () => { toast.hidden = true; clearTimeout(state.toastTimer); });
+  toast.append(text, dismiss);
   toast.classList.toggle('error', error);
+  toast.setAttribute('role', error ? 'alert' : 'status');
   toast.hidden = false;
   clearTimeout(state.toastTimer);
-  state.toastTimer = setTimeout(() => { toast.hidden = true; }, duration);
+  state.toastTimer = error ? null : setTimeout(() => { toast.hidden = true; }, duration);
 }
 function showNotice(message, error = false) {
   const banner = $('#notification');
@@ -201,17 +197,21 @@ function destinationPath(mode = state.mode) {
   params.set('mode', mode || 'all');
   return `/api/destination?${params.toString()}`;
 }
-function updateUrl() {
+function updateUrl({ replace = false } = {}) {
   const params = new URLSearchParams();
+  const current = new URLSearchParams(location.search);
   if (state.placeId) params.set('place_id', state.placeId);
   if (state.month) params.set('month', state.month);
   if (state.mode !== 'all') params.set('mode', state.mode);
   if (state.regionId !== 'all') params.set('region', state.regionId);
   if (state.monthScope !== 'selected') params.set('collect_scope', state.monthScope);
-  if (new URLSearchParams(location.search).get('view') === 'destination') params.set('view', 'destination');
+  if (state.openAttractionId || state.pendingAttraction) params.set('attraction', state.openAttractionId || state.pendingAttraction);
+  if (state.openAttractionId || current.get('view') === 'destination') params.set('view', 'destination');
+  else if (current.has('atlas_stage')) params.set('atlas_stage', current.get('atlas_stage'));
   const query = params.toString();
   const route = window.CHINATOUR_PREVIEW?.basePath || '/';
-  history.replaceState(history.state, '', (query ? `${route}?${query}` : route) + location.hash);
+  const next = (query ? `${route}?${query}` : route) + location.hash;
+  if (next !== `${location.pathname}${location.search}${location.hash}`) history[replace ? 'replaceState' : 'pushState'](history.state, '', next);
 }
 
 function normalizeDestination(raw) {
@@ -307,16 +307,33 @@ async function loadStorage() {
   renderStorage();
   return state.storage;
 }
+function setDestinationLoading(loading) {
+  state.destinationLoading = loading;
+  document.body.classList.toggle('is-loading', loading);
+  const indicator = $('#destination-loading');
+  if (indicator) {
+    indicator.hidden = !loading;
+    if (loading) $('#destination-loading-label').textContent = `正在读取 ${state.places.find(place => String(place.id) === state.placeId)?.name || '目的地'} ${state.month} 月的照片与资料…`;
+  }
+  for (const id of ['#attractions-grid', '#area-album', '#attraction-directory-panel']) {
+    const element = $(id); if (!element) continue;
+    element.inert = loading;
+    if (loading) element.setAttribute('aria-hidden', 'true'); else element.removeAttribute('aria-hidden');
+  }
+  $('#attractions-section')?.setAttribute('aria-busy', String(loading));
+}
 async function loadDestination({ silent = false } = {}) {
   const version = ++state.requestVersion;
-  if (!silent) document.body.classList.add('is-loading');
+  const requestedPlace = state.placeId, requestedMode = state.mode;
+  if (!silent || state.destinationLoading) setDestinationLoading(true);
   let raw;
   try {
     try {
       raw = await request(destinationPath());
     } catch (error) {
-      if (state.mode === 'all' && (error.status === 404 || error.status === 405)) {
-        raw = await request(`/api/places/${encodeURIComponent(state.placeId)}`);
+      if (version !== state.requestVersion) return;
+      if (requestedMode === 'all' && (error.status === 404 || error.status === 405)) {
+        raw = await request(`/api/places/${encodeURIComponent(requestedPlace)}`);
         raw = adaptLegacy(raw);
       } else throw error;
     }
@@ -326,13 +343,14 @@ async function loadDestination({ silent = false } = {}) {
     if (!state.places.some((place) => String(place.id) === String(state.data.destination.id))) state.places.push(state.data.destination);
     renderAll();
     hideNotice();
+    restoreLinkedAttraction();
   } catch (error) {
     if (version !== state.requestVersion) return;
     state.data = null;
     renderAll();
     showNotice(`暂时无法读取 ${state.placeId || '目的地'} 的资料：${readableError(error)}`, true);
   } finally {
-    if (!silent) document.body.classList.remove('is-loading');
+    if (version === state.requestVersion) setDestinationLoading(false);
   }
 }
 
@@ -372,14 +390,6 @@ function renderHero() {
   $('#hero-proof-text').textContent = '先看景色，再点开照片背后的真实记录。';
   $('#map-heading').textContent = `${destination.name || '目的地'}，先看全貌`;
 }
-function firstMedia(item, preferLandscape = false) {
-  if (!item) return null;
-  const media = Array.isArray(item.media) ? item.media : [];
-  const direct = (preferLandscape && media.find((entry) => entry.scene_hint?.eligible && safeUrl(entry?.url || entry?.src))) || media.find((entry) => safeUrl(entry?.url || entry?.src));
-  if (direct) return { url: safeUrl(direct.url || direct.src), credit: direct.credit || item.photo_credit || item.publisher || '', ordinal: direct.ordinal, sceneHint: direct.scene_hint };
-  const directUrl = safeUrl(item.photo_url || item.image_url || item.media_url);
-  return directUrl ? { url: directUrl, credit: item.photo_credit || item.publisher || '' } : null;
-}
 function addImage(container, media, alt) {
   if (!container || !media?.url) return false;
   const image = document.createElement('img');
@@ -395,22 +405,6 @@ function addImage(container, media, alt) {
   container.append(image);
   if (media.credit) container.append(make('span', 'image-credit', `图源：${media.credit}`));
   return true;
-}
-function renderHeroMedia() {
-  const container = clear($('#hero-media'));
-  container.classList.remove('media-empty', 'image-missing');
-  const attraction = (state.data?.attractions || []).map((item) => ({ item, media: firstMedia(item) })).find((entry) => entry.media);
-  const evidence = (state.data?.evidence || []).map((item) => ({ item, media: firstMedia(item, true) })).filter((entry) => entry.media);
-  const seasonal = evidence.find((entry) => monthOf(entry.item) === integer(state.month) && entry.media.sceneHint?.eligible)
-    || evidence.find((entry) => monthOf(entry.item) === integer(state.month));
-  const selected = seasonal || evidence[0] || attraction;
-  if (selected && addImage(container, selected.media, selected.item.name || selected.item.title || '目的地实景图')) {
-    const basis = photoTimeText(selected.item, timeBasis(selected.item));
-    container.append(make('span', `hero-media-label${isUnknownTime(basis) ? ' unknown' : ''}`, `SOURCE IMAGE · 时间依据：${basis}`));
-    return;
-  }
-  container.classList.add('media-empty');
-  container.append(make('span', 'media-empty-mark', '景'), make('strong', '', '暂无可展示实景图'), make('small', '', '只有带地点与时间依据的图片，才会进入这里。'));
 }
 
 function monthCoverage() {
@@ -435,28 +429,40 @@ function renderStats() {
     : '资料数量、来源独立性和时间依据会分别展示。';
 }
 function renderMonths() {
-  const container = clear($('#month-filter'));
+  const container = $('#month-filter');
+  const focusedMonth = container?.contains?.(document.activeElement) ? document.activeElement?.dataset?.month : null;
+  clear(container);
   const counts = monthCounts();
   const coverage = monthCoverage();
   for (let month = 1; month <= 12; month += 1) {
     const button = make('button', `month-button${state.month === String(month) ? ' active' : ''}`);
     button.type = 'button'; button.dataset.month = String(month); button.setAttribute('aria-pressed', String(state.month === String(month)));
     const photos = coverage[month]?.browse_photo_count ?? coverage[month]?.approved_photo_count;
-    const photoLabel = photos === undefined ? (counts[month] ? `${counts[month]} 条` : '—') : integer(photos) ? `${integer(photos)} 图` : '无当月图';
+    const photoLabel = photos === undefined ? (counts[month] ? `${counts[month]} 条` : '—') : integer(photos) ? `${integer(photos)} 图` : '待补';
     const areaPhotos = coverage[month]?.area_approved_photo_count;
     const areaNote = areaPhotos === undefined ? '' : ` · 其中区域相册 ${integer(areaPhotos)} 张（具体地点未确定）`;
     button.title = `${integer(counts[month])} 条来源资料 · ${photos === undefined ? '照片数待统计' : `${integer(photos)} 张可展示月份照片`}${areaNote}`;
+    button.setAttribute('aria-label', `${month}月 · ${button.title}`);
     button.append(make('span', '', `${month}`), make('small', '', '月'), make('b', '', photoLabel));
     button.addEventListener('click', () => chooseMonth(String(month)));
     container.append(button);
   }
-  $('#month-heading-note').textContent = '现场月份与发布月份暂归档会分别标明；没有当月照片时留空，不用其他月份或背景图补位。';
+  if (focusedMonth) container.querySelector(`[data-month="${focusedMonth}"]`)?.focus();
+  $('#month-heading-note').textContent = '图中时间依据随照片标注；没有当月照片时留空。';
+  const selected = coverage[integer(state.month)] || {};
+  const photoCount = selected.browse_photo_count ?? selected.approved_photo_count;
+  const areaCount = integer(selected.area_approved_photo_count);
+  const summary = $('#month-coverage-summary');
+  if (summary) summary.textContent = state.data
+    ? `${state.month}月 · ${integer(counts[integer(state.month)])} 条来源资料 · ${photoCount === undefined ? '照片数待统计' : `${integer(photoCount)} 张可展示照片`}${areaCount ? `，含 ${areaCount} 张具体地点待确定的区域照片` : ''}。现场月与发布月参考分别标注，不代表完整覆盖。`
+    : '正在读取月份覆盖…';
 }
 function chooseMonth(month) {
   state.month = month || String(new Date().getMonth() + 1);
   state.attractionLimit = 6;
   updateUrl();
-  loadDestination();
+  renderMonths();
+  return loadDestination();
 }
 function baselineForMonth() {
   const month = integer(state.month, 0);
@@ -727,12 +733,6 @@ function renderMapLimitations() {
   });
 }
 
-function addMonths(container, months) {
-  const values = Array.isArray(months) ? months.map((month) => integer(month, 0)).filter((month) => month >= 1 && month <= 12) : [];
-  if (!values.length) { container.append(make('span', 'muted', '月份未确认')); return; }
-  values.slice(0, 6).forEach((month) => container.append(make('span', 'mini-month', `${month}月`)));
-  if (values.length > 6) container.append(make('span', 'mini-month more', `+${values.length - 6}`));
-}
 function attractionQueryMatch(attraction) {
   const terms = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   if (!terms.length) return true;
@@ -772,6 +772,11 @@ function startPhotoCycle() {
     }
   }, 6000);
 }
+function photoBasisBadge(entry) {
+  const kind = entry.observedMonth ? 'observation' : entry.browseTimeBasis === 'publication_month' ? 'publication' : 'background';
+  const label = { observation: '现场月', publication: '发布月参考', background: '时间待确认' }[kind];
+  return make('span', `time-basis-badge time-basis-${kind}`, label);
+}
 function createPhotoDeck(container, entries, attraction, card) {
   if (!entries.length) {
     container.classList.add('media-empty'); container.append(make('span', '', '暂无当月可展示照片 · 背景资料仍可点开查看')); return;
@@ -791,7 +796,7 @@ function createPhotoDeck(container, entries, attraction, card) {
     layers.forEach((layer, i) => { layer.image.classList.toggle('active', i === index); layer.image.setAttribute('aria-hidden', String(i !== index)); });
     const entry = entries[index];
     credit.textContent = `图源：${entry.credit || entry.source}`;
-    time.textContent = entry.time;
+    clear(time); time.append(photoBasisBadge(entry), make('span', 'photo-time-text', entry.time));
     time.classList.toggle('unknown', isUnknownTime(entry.time));
     count.textContent = `${available.indexOf(index) + 1} / ${available.length}`;
   };
@@ -801,7 +806,7 @@ function createPhotoDeck(container, entries, attraction, card) {
     image.addEventListener('error', () => { layer.failed = true; image.classList.remove('active'); if (index === i) show((i + 1) % entries.length); }, { once: true });
     container.append(image);
   }
-  container.append(credit, time);
+  const caption = make('div', 'photo-caption'); caption.append(credit, time); container.append(caption);
   show(0);
   if (entries.length < 2) return;
   const deck = { element: card, paused: false, next: () => show((index + 1) % entries.length) };
@@ -1013,17 +1018,6 @@ function currentMonthEvidence() {
 function publicationMonthEvidence() {
   return (state.data?.evidence || []).filter((item) => item.browse_time_basis === 'publication_month' && integer(item.browse_month) === integer(state.month));
 }
-function evidenceMonthMatch(item) { return !state.month || integer(item?.month, 0) === integer(state.month, 0); }
-function evidenceModeMatch(item) {
-  if (state.mode === 'all') return true;
-  const year = yearOf(item);
-  if (state.mode === 'recent') {
-    const materialDate = item?.material_date || item?.published_at || item?.published_label;
-    const materialYear = materialDate && String(materialDate).match(/^(\d{4})/);
-    return Boolean(item?.mode === 'recent' || item?.recent === true || (materialYear && integer(materialYear[1]) >= todayYear() - 1));
-  }
-  return Boolean(item?.mode === 'historical' || item?.historical === true || (year && year < todayYear() - 1));
-}
 function evidenceQueryMatch(item) {
   const query = state.query.trim().toLowerCase(); if (!query) return true;
   const haystack = [item.title, item.excerpt, item.publisher, item.place_name, item.source_type, item.confidence_label].filter(Boolean).join(' ').toLowerCase();
@@ -1047,44 +1041,8 @@ function timeBasis(item) {
   if (item?.time_basis && item.time_basis !== 'background') return String(item.time_basis);
   return '时间依据未提供';
 }
-function confidenceClass(item) {
-  const value = String(item?.confidence_label || '').toLowerCase();
-  if (value.includes('不足') || value.includes('低') || value.includes('待') || value.includes('背景') || value.includes('未知') || value.includes('未核验')) return 'weak';
-  if (value.includes('高') || value.includes('确认') || value.includes('supported')) return 'strong';
-  return 'neutral';
-}
 function renderEvidence() {
-  if (!state.openAttractionId) return;
-  const attraction = openAlbum();
-  if (attraction) populateDrawer(attraction);
-  else closeDrawer();
-}
-function evidenceCard(item) {
-  const card = make('article', 'evidence-card');
-  const media = make('div', 'evidence-media'); const sourceMedia = firstMedia(item);
-  if (sourceMedia) {
-    addImage(media, sourceMedia, item.title || '资料实景图');
-    const basis = photoTimeText(item, timeBasis(item));
-    media.append(make('span', `photo-time${isUnknownTime(basis) ? ' unknown' : ''}`, `时间依据：${basis}`));
-  } else { media.classList.add('media-empty'); media.append(make('span', '', '原文未提供可展示图片')); }
-  card.append(media);
-  const body = make('div', 'evidence-body');
-  const tags = make('div', 'evidence-tags'); tags.append(make('span', 'tag tag-source', sourceText(item.source_type || item.publisher))); const hasTimeEvidence = Boolean(item.observed_start || item.month || ['author_explicit_date', 'author_month_only'].includes(item.time_basis)); tags.append(make('span', `tag time-tag${hasTimeEvidence ? '' : ' weak'}`, timeBasis(item))); tags.append(make('span', `tag confidence-tag ${confidenceClass(item)}`, item.confidence_label || '时间/地点待核对')); body.append(tags);
-  if (Array.isArray(item.topics) && item.topics.length) {
-    const topics = make('div', 'topic-list'); item.topics.slice(0, 4).forEach((topic) => topics.append(make('span', 'topic-chip', topic))); body.append(topics);
-  }
-  body.append(make('h3', '', item.title || '未命名资料'), make('p', 'evidence-excerpt', item.excerpt || '原文摘要暂未提供。'));
-  const meta = make('dl', 'evidence-meta'); meta.append(make('dt', '', '来源'), make('dd', '', item.publisher || sourceText(item.source_type))); meta.append(make('dt', '', '时间依据'), make('dd', '', item.time_excerpt || timeBasis(item))); if (item.material_date || item.material_time_basis) meta.append(make('dt', '', '资料日期'), make('dd', '', `${item.material_date ? dateText(item.material_date) : '未提供'} · ${item.material_time_basis || '依据未提供'}`)); else if (item.published_label || item.published_at) meta.append(make('dt', '', '资料日期'), make('dd', '', item.published_label || dateText(item.published_at))); body.append(meta);
-  const visual = item.visual_analysis;
-  if (visual?.media_total) {
-    const label = visual.independence_status === 'shared_material_unresolved' ? '与其他原帖共享部分图片，独立性待核对'
-      : visual.independence_status === 'exact_album_dependency' ? '发现相同相册，不增加独立票数'
-      : visual.complete ? '未发现精确重复；仍不能证明独立拍摄' : '图片尚未全部检查，暂不参与共识投票';
-    meta.append(make('dt', '', '图片检查'), make('dd', '', `${visual.analyzed_media}/${visual.media_total} 张 · ${label}`));
-  }
-  if (item.visual_content?.total) meta.append(make('dt', '', '图片内容'), make('dd', '', `已自动检查 ${item.visual_content.analyzed}/${item.visual_content.total} 张的主体，用于辅助选图，不证明季节`));
-  const footer = make('div', 'evidence-footer'); const url = safeUrl(item.url || item.source_url); if (url) { const link = make('a', 'source-link', '打开原文 ↗'); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; footer.append(link); } if (item.kind) footer.append(make('span', 'kind-label', kindText(item.kind))); body.append(footer);
-  card.append(body); return card;
+  refreshOpenDrawer();
 }
 
 function renderChanges() {
@@ -1518,7 +1476,6 @@ function renderAll() {
   renderPlacePicker(); renderMode(); renderHero(); renderStats(); renderMonths(); renderEssentials(); renderRouteGuides(); renderBaseline(); renderVisualCohorts(); renderLandscapeUpdates(); renderMap(); renderAttractions(); renderNearby(); renderEvidence(); renderChanges(); renderSourceOptions(); renderJob();
   renderCollectionScope();
   renderPlaceSearch();
-  refreshOpenDrawer();
   document.dispatchEvent(new CustomEvent('chinatour:data', { detail: state.data }));
   window.CHINATOUR_PREVIEW?.render();
 }
@@ -1568,6 +1525,7 @@ function attractionMediaEntries(attraction) {
       subjectExcluded: media.scene_hint?.reason === 'prominent_non_landscape_subject',
       observedMonth,
       monthMatched,
+      browseTimeBasis: item.browse_time_basis || item.photo_browse_time_basis || '',
       visitPeriod,
     });
   };
@@ -1586,7 +1544,10 @@ function drawerPhoto(entry, attraction, index) {
   const figure = make('figure', 'drawer-photo');
   const frame = make('div', 'drawer-photo-frame');
   addImage(frame, { url: entry.url, credit: entry.credit }, `${attraction.name || '景点'}实景图 ${index + 1}`);
-  frame.append(make('span', `photo-time${isUnknownTime(entry.time) ? ' unknown' : ''}`, `时间依据：${entry.time}`));
+  const time = make('span', `photo-time${isUnknownTime(entry.time) ? ' unknown' : ''}`);
+  time.append(photoBasisBadge(entry), make('span', 'photo-time-text', entry.time));
+  const overlay = make('div', 'photo-caption'); const credit = frame.querySelector('.image-credit');
+  if (credit) overlay.append(credit); overlay.append(time); frame.append(overlay);
   figure.append(frame);
   const caption = make('figcaption', 'drawer-photo-caption');
   caption.append(visitPeriodBadge(entry.visitPeriod || visitPeriodOf(null), 'photo-period-badge'), make('strong', '', entry.source), make('span', '', entry.time));
@@ -1750,46 +1711,81 @@ function populateDrawer(attraction) {
   });
   periodResults.id = 'drawer-period-results'; renderPeriodResults();
 }
-function openDrawer(attraction) {
+function restoreLinkedAttraction() {
+  const key = state.pendingAttraction;
+  if (!key || !state.data) return;
+  state.pendingAttraction = null;
+  const items = [...state.data.attractions, ...(state.data.area_album ? [state.data.area_album] : [])];
+  const attraction = items.find(item => String(item.id || item.place_id) === key) || items.find(item => item.name === key);
+  if (attraction) {
+    openDrawer(attraction, { update: false });
+    updateUrl({ replace: true }); // Canonical IDs; old name-based shared links still work.
+  } else {
+    updateUrl({ replace: true });
+    showNotice('这个链接中的景点尚未收录在当前目的地，已展示目的地资料。');
+  }
+}
+function openDrawer(attraction, { update = true } = {}) {
   const drawer = $('#detail-drawer'); if (!drawer || !attraction) return;
-  state.drawerReturnFocus = document.activeElement;
+  if (!state.openAttractionId) state.drawerReturnFocus = document.activeElement;
+  state.pendingAttraction = null;
   state.openAttractionId = String(attraction.id || attraction.place_id || '');
   populateDrawer(attraction);
   drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false'); document.body.classList.add('drawer-open');
   $('.drawer-panel', drawer).scrollTop = 0; stopPhotoCycle(); $('#close-drawer')?.focus();
+  if (update) updateUrl();
 }
-function closeDrawer() {
+function closeDrawer({ update = true } = {}) {
   const drawer = $('#detail-drawer'); if (!drawer) return;
   const wasOpen = drawer.classList.contains('open');
+  const hadAttraction = Boolean(state.openAttractionId || state.pendingAttraction);
+  state.pendingAttraction = null;
   drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); document.body.classList.remove('drawer-open'); state.openAttractionId = null;
   if (wasOpen && state.drawerReturnFocus?.isConnected) state.drawerReturnFocus.focus();
   state.drawerReturnFocus = null; startPhotoCycle();
+  if (update && hadAttraction) updateUrl();
 }
 
-function selectDestination(placeId, { update = true, regionId = 'all' } = {}) {
+async function selectDestination(placeId, { update = true, regionId = 'all', attraction = null } = {}) {
   if (!placeId || String(placeId) === state.placeId) return;
-  closeDrawer(); state.placeId = String(placeId); state.attractionLimit = 6; state.mapAssetIndex = 0;
+  closeDrawer({ update: false }); state.pendingAttraction = attraction;
+  state.placeId = String(placeId); state.attractionLimit = 6; state.mapAssetIndex = 0;
   state.query = ''; $('#search-input').value = ''; state.practicalTab = null;
   state.routeTheme = 'all'; state.routePeriod = 'all'; state.routeLimit = 3; state.openRouteId = null;
   state.regionId = regionId; state.nearbyExpanded = false;
   state.data = null; clearJobForContext();
   if (update) updateUrl();
   document.dispatchEvent(new CustomEvent('chinatour:place-selected', { detail: { placeId: state.placeId } }));
-  loadDestination();
+  return loadDestination();
 }
 
 $('#place-picker')?.addEventListener('change', (event) => selectDestination(event.target.value));
-document.addEventListener('chinatour:select-place', (event) => selectDestination(event.detail?.placeId));
-window.addEventListener('popstate', () => {
+document.querySelectorAll('[data-evidence-help]').forEach(button => button.addEventListener('click', () => {
+  const details = $('#evidence-methods'); if (!details) return;
+  details.open = true; details.querySelector('summary')?.focus();
+  details.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' });
+}));
+document.addEventListener('chinatour:select-place', (event) => selectDestination(event.detail?.placeId, { update: event.detail?.updateHistory !== false }));
+document.addEventListener('atlas:home', () => closeDrawer({ update: false }));
+document.addEventListener('atlas:entered', () => {
+  if (!new URLSearchParams(location.search).has('attraction')) closeDrawer({ update: false });
+});
+async function restoreLocation() {
   const params = new URLSearchParams(location.search);
   const placeId = params.get('place_id') || window.CHINATOUR_PREVIEW_META?.defaultPlace || state.places[0]?.id;
   const month = integer(params.get('month'), defaultMonthNumber);
   state.month = String(month >= 1 && month <= 12 ? month : defaultMonthNumber);
   state.mode = ['all', 'recent', 'historical'].includes(params.get('mode')) ? params.get('mode') : 'all';
   state.regionId = params.get('region') || 'all';
-  if (placeId !== state.placeId) selectDestination(placeId, { update: false, regionId: state.regionId });
-  else loadDestination();
-});
+  state.monthScope = ['all', 'practical'].includes(params.get('collect_scope')) ? params.get('collect_scope') : 'selected';
+  const attraction = params.get('view') === 'destination' ? params.get('attraction') : null;
+  closeDrawer({ update: false });
+  state.attractionLimit = 6; clearJobForContext();
+  if (placeId && placeId !== state.placeId) return selectDestination(placeId, { update: false, regionId: state.regionId, attraction });
+  state.pendingAttraction = attraction;
+  return loadDestination();
+}
+window.addEventListener('popstate', restoreLocation);
 $('#mode-filter')?.addEventListener('click', (event) => { const button = event.target.closest('[data-mode]'); if (!button) return; state.mode = button.dataset.mode; state.attractionLimit = 6; clearJobForContext(); updateUrl(); renderMode(); loadDestination(); });
 $('#search-input')?.addEventListener('input', (event) => { state.query = event.target.value || ''; state.attractionLimit = 6; renderAttractions(); });
 $('#open-place-search')?.addEventListener('click', () => togglePlaceSearch($('#place-search-panel').hidden));
@@ -1805,8 +1801,8 @@ $('#collection-month-scope')?.addEventListener('change', (event) => {
   if (state.job && jobActive(state.job)) pollJob();
 });
 $('#login-button')?.addEventListener('click', toggleBrowserInfo);
-$('#close-drawer')?.addEventListener('click', closeDrawer);
-document.querySelector('[data-close-drawer]')?.addEventListener('click', closeDrawer);
+$('#close-drawer')?.addEventListener('click', () => closeDrawer());
+document.querySelector('[data-close-drawer]')?.addEventListener('click', () => closeDrawer());
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') { closeDrawer(); if (!$('#place-search-panel').hidden) togglePlaceSearch(false); }
   if (event.key !== 'Tab' || !state.openAttractionId) return;
@@ -1828,9 +1824,6 @@ async function initialize() {
     state.browserTimer = setInterval(() => loadBrowserStatus(), 30000);
   }
   await loadDestination();
-  const linkedParams = new URLSearchParams(location.search);
-  const linkedPlace = linkedParams.get('view') === 'destination' && (state.data?.attractions || []).find(item => item.name === linkedParams.get('attraction'));
-  if (linkedPlace) openDrawer(linkedPlace);
   await loadPlaceSearch();
   syncJobFromDestination();
   renderJob();

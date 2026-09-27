@@ -120,10 +120,23 @@
     const center=centerOf(place);$a('#atlas-coordinate').textContent=center?`${Math.abs(center[1]).toFixed(2)}° ${center[1]>=0?'N':'S'} / ${Math.abs(center[0]).toFixed(2)}° ${center[0]>=0?'E':'W'}${place.center_label ? ` · ${place.center_label}` : ''}`:'';
     $a('#atlas-map-mount').setAttribute('aria-label',`中国、${place.province_name}与${place.local_label || place.name}的地理层级地图`);
   }
-  function changeStage(next,animate=true) {
+  function writeAtlasUrl({view='atlas',nextStage=stage,target='',replace=false,resetRegion=false}={}) {
+    const url=new URL(location.href);
+    if(selectedId)url.searchParams.set('place_id',selectedId);
+    if(resetRegion)url.searchParams.delete('region');
+    url.searchParams.delete('attraction');
+    if(view==='destination') {
+      url.searchParams.set('view','destination');url.searchParams.delete('atlas_stage');url.hash=target;
+    } else {
+      url.searchParams.delete('view');url.hash='';
+      if(nextStage==='china')url.searchParams.delete('atlas_stage');else url.searchParams.set('atlas_stage',nextStage);
+    }
+    if(url.href!==location.href)history[replace?'replaceState':'pushState']({...history.state,atlas:view!=='destination'},'',url);
+  }
+  function changeStage(next,animate=true,update=true) {
     if(!['china','province','local'].includes(next))return Promise.resolve();
     if(!hasMap())next='china';
-    stage=next;setCopy(next);if(!geometry||!hasMap())return Promise.resolve();
+    stage=next;setCopy(next);if(update)writeAtlasUrl({nextStage:next});if(!geometry||!hasMap())return Promise.resolve();
     const features=featuresFor(next);if(!features.length)return Promise.resolve();
     const target=fitted(bounds(features,next==='china'?p=>p[1]>=18:()=>true),next==='china'?.08:.32);
     const start=camera.slice();const duration=animate&&!motion.matches?1050:0;const started=performance.now();const seq=++animation;
@@ -156,22 +169,28 @@
       camera=null;$a('#atlas-map-mount').replaceChildren();entry.classList.remove('is-ready');
       failure.textContent=`${destination().name}的地理地图暂不可用。你仍可直接浏览目的地资料。`;failure.hidden=false;
     }
-    changeStage('china',false);
-    if(notify)document.dispatchEvent(new CustomEvent('chinatour:select-place',{detail:{placeId}}));
+    changeStage('china',false,false);
+    if(notify) {
+      // Keep city selection and its landing state in one history entry. The app
+      // receives the same state, but must not create a second entry for it.
+      writeAtlasUrl({nextStage:'china',resetRegion:true});
+      document.dispatchEvent(new CustomEvent('chinatour:select-place',{detail:{placeId,updateHistory:false}}));
+    }
   }
   function showDestination(target='#month-explorer',update=true) {
     target=target==='#destination-map'?target:'#month-explorer';
     cancelJourney();document.body.classList.remove('atlas-landing');entry.setAttribute('aria-hidden','true');
     $a('#atlas-home').classList.remove('active');
-    if(update){const url=new URL(location.href);url.searchParams.set('view','destination');if(selectedId)url.searchParams.set('place_id',selectedId);url.hash=target;history.pushState({atlas:false},'',url);}
+    if(update)writeAtlasUrl({view:'destination',target});
     window.scrollTo({top:0,behavior:'instant'});
     if(target!=='#month-explorer')document.querySelector(target)?.scrollIntoView({behavior:motion.matches?'instant':'smooth'});
     else $a('#destination-title')?.focus({preventScroll:true});
     document.dispatchEvent(new CustomEvent('atlas:entered'));
   }
-  function showAtlas(update=true) {
+  function showAtlas(update=true,nextStage='china') {
     cancelJourney();document.body.classList.add('atlas-landing');entry.removeAttribute('aria-hidden');$a('#atlas-home').classList.add('active');
-    changeStage('china',false);if(update){const url=new URL(location.href);url.searchParams.delete('view');url.hash='';history.pushState({atlas:true},'',url);}window.scrollTo({top:0,behavior:'instant'});
+    changeStage(nextStage,false,false);if(update)writeAtlasUrl({nextStage:stage});window.scrollTo({top:0,behavior:'instant'});
+    document.dispatchEvent(new CustomEvent('atlas:home'));
   }
   $a('#atlas-enter').addEventListener('click',()=>stage==='local'?showDestination():travel());
   $a('#atlas-place-picker').addEventListener('change',event=>selectPlace(event.target.value));
@@ -181,7 +200,16 @@
   $a('#atlas-home').addEventListener('click',()=>showAtlas());
   document.querySelectorAll('[data-atlas-stage]').forEach(button=>button.addEventListener('click',()=>{cancelJourney();changeStage(button.dataset.atlasStage);}));
   document.querySelectorAll('.header-nav a[href^="#"]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();showDestination(link.getAttribute('href'));}));
-  window.addEventListener('popstate',()=>{const params=new URLSearchParams(location.search);const next=params.get('place_id')||window.CHINATOUR_PREVIEW_META?.defaultPlace||destinations[0]?.id;if(next!==selectedId)selectPlace(next,false);if(params.get('view')==='destination')showDestination(location.hash||'#month-explorer',false);else showAtlas(false);});
+  window.addEventListener('popstate',()=>{
+    cancelJourney();const params=new URLSearchParams(location.search);
+    const next=params.get('place_id')||window.CHINATOUR_PREVIEW_META?.defaultPlace||destinations[0]?.id;
+    if(next!==selectedId)selectPlace(next,false);
+    if(params.get('view')==='destination') {
+      // Month and drawer history belong to the app. Do not steal their focus or
+      // scroll position when the destination layer is already visible.
+      if(document.body.classList.contains('atlas-landing'))showDestination(location.hash||'#month-explorer',false);
+    } else showAtlas(false,['province','local'].includes(params.get('atlas_stage'))?params.get('atlas_stage'):'china');
+  });
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.body.classList.contains('atlas-landing')){cancelJourney();changeStage('china');}});
   document.addEventListener('chinatour:data',event=>{
     const data=event.detail;const hero=$a('#destination-hero-photo');const credit=$a('#destination-hero-credit');
@@ -218,6 +246,16 @@
     // Geographic assets are optional; their city list must not replace a deep link.
     // The application validates the requested destination against the backend.
     const requested=selectedId||destinations[0].id;
-    selectPlace(requested,requested!==selectedId);
+    const chooseDefault=requested!==selectedId;
+    selectPlace(requested,false);
+    if(chooseDefault) {
+      // Resolving the default city is initialization, not a user visit to the
+      // landing page. Preserve a destination deep link or an early Skip click.
+      const url=new URL(location.href);url.searchParams.set('place_id',requested);
+      history.replaceState(history.state,'',url);
+      document.dispatchEvent(new CustomEvent('chinatour:select-place',{detail:{placeId:requested,updateHistory:false}}));
+    }
+    const params=new URLSearchParams(location.search);
+    if(params.get('view')!=='destination'&&['province','local'].includes(params.get('atlas_stage')))changeStage(params.get('atlas_stage'),false,false);
   }).catch(()=>{$a('#atlas-map-failure').hidden=false;});
 })();

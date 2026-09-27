@@ -1179,11 +1179,9 @@
           "photos": []
         },
         "unknown": {
-          "evidence_count": 1,
+          "evidence_count": 0,
           "photo_count": 0,
-          "evidence_ids": [
-            "ev_48b5804ab74045bc"
-          ],
+          "evidence_ids": [],
           "photos": []
         }
       },
@@ -1282,76 +1280,6 @@
       "browse_year": null,
       "browse_time_basis": "author_month_only",
       "browse_time_label": "作者描述月份 · 年份待补证",
-      "visual_content": {
-        "analyzed": 0,
-        "total": 0,
-        "scene_counts": {}
-      },
-      "media_review": {
-        "original_count": 0,
-        "approved_count": 0,
-        "hidden_count": 0
-      },
-      "visual_analysis": {
-        "media_total": 0,
-        "analyzed_media": 0,
-        "full_pixel_media": 0,
-        "missing_media_ids": [],
-        "coverage": 0,
-        "complete": false,
-        "media": [],
-        "exact_album_peers": [],
-        "partial_shared_peers": [],
-        "independence_status": "no_visual_evidence"
-      },
-      "visual_independence_pending": false
-    },
-    {
-      "id": "ev_48b5804ab74045bc",
-      "place_id": "place_7cc3ccd9440e4e8d",
-      "title": "科技赋能推动沉浸式文旅项目不断涌现（一）--西安市文化和旅游局",
-      "excerpt": "2.永兴坊\n永兴坊依托陕西深厚的历史文化资源，将本土文化与持久创新相结合，通过对非遗美食、传统文化的深耕细作，打造了全国首个“非遗文化”主题特色聚集区，汇聚了陕西全省11地市、107区县的非遗文化，801种特色美食，并延伸到非遗演艺、非遗手工艺、非遗文创及品牌化产品等多种业态，充分满足了海内外游客“一站式咥美陕西、一站式体验陕西、一站式购齐陕西、一站式看美陕西、一站式玩美陕西”的消费愿望。\n\n \n地址：新城区东新街与顺城东路北段交叉口西北100米",
-      "published_at": "2024-09-26",
-      "fetched_at": "2026-09-22T07:12:11.084791+00:00",
-      "observed_start": null,
-      "observed_end": null,
-      "month": null,
-      "year": null,
-      "kind": "background",
-      "aspect": null,
-      "value": null,
-      "valid_until": null,
-      "status": "accepted",
-      "url": "https://wlj.xa.gov.cn/xxgk/tzgg/1839203941456883713.html",
-      "publisher": "西安市文化和旅游局",
-      "place_name": "永兴坊",
-      "media_count": 0,
-      "media_status": "none",
-      "source_type": "official",
-      "time_basis": "background",
-      "time_excerpt": "景区介绍；未提供拍摄时间",
-      "published_label": "2024-09-26",
-      "captured_at": "2026-09-22T07:12:11.084791+00:00",
-      "topics": [],
-      "media": [],
-      "claims": [],
-      "confidence_label": "官方背景资料",
-      "material_date": "2024-09-26",
-      "material_time_basis": "页面明确发布日期",
-      "visit_period": {
-        "kind": "unknown",
-        "id": "unknown",
-        "holiday": null,
-        "label": "时间待确认",
-        "basis": "background_material",
-        "support_excerpt": "",
-        "basis_label": "背景资料未确认照片到访时段",
-        "source_url": "https://wlj.xa.gov.cn/xxgk/tzgg/1839203941456883713.html"
-      },
-      "browse_month": null,
-      "browse_year": null,
-      "browse_time_basis": "unknown",
-      "browse_time_label": "月份未归档 · 拍摄时间未知",
       "visual_content": {
         "analyzed": 0,
         "total": 0,

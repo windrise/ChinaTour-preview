@@ -6,14 +6,17 @@
   <meta name="theme-color" content="#080f14">
   <meta name="description" content="行知：按月份认识一个地方，循着真实照片找到想去的景点。">
   <title>行知 · 中国旅行</title>
-  <link rel="stylesheet" href="./static/style.css?v=94659ecf3e24">
-  <link rel="stylesheet" href="./static/atlas.css?v=94659ecf3e24">
-  <link rel="stylesheet" href="./static/visitation.css?v=94659ecf3e24">
-  <script defer src="./static/visitation.js?v=94659ecf3e24"></script>
-  <script defer src='./preview-config.js?v=94659ecf3e24'></script>
-  <script defer src='./static/preview.js?v=94659ecf3e24'></script>
-  <script defer src="./static/app.js?v=94659ecf3e24"></script>
-  <script defer src="./static/atlas.js?v=94659ecf3e24"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&amp;family=Noto+Serif+SC:wght@400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="./static/style.css?v=77029fe95080">
+  <link rel="stylesheet" href="./static/atlas.css?v=77029fe95080">
+  <link rel="stylesheet" href="./static/visitation.css?v=77029fe95080">
+  <script defer src="./static/visitation.js?v=77029fe95080"></script>
+  <script defer src='./preview-config.js?v=77029fe95080'></script>
+  <script defer src='./static/preview.js?v=77029fe95080'></script>
+  <script defer src="./static/app.js?v=77029fe95080"></script>
+  <script defer src="./static/atlas.js?v=77029fe95080"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
@@ -63,6 +66,8 @@
       <section id="month-explorer" class="section-block month-section" aria-labelledby="month-heading">
         <div class="month-heading-row"><h2 id="month-heading">你想几月去？</h2><label class="destination-picker"><span class="sr-only">选择目的地</span><select id="place-picker" aria-label="选择目的地"></select></label></div>
         <div id="month-filter" class="month-ruler" role="group" aria-label="选择月份"></div>
+        <div class="evidence-legend" role="group" aria-label="照片时间依据，点开了解说明"><button type="button" class="time-basis-observation" data-evidence-help>现场月 · 作者注明</button><button type="button" class="time-basis-publication" data-evidence-help>发布月 · 拍摄时间未知</button><button type="button" class="time-basis-background" data-evidence-help>背景资料 · 不补当月图</button></div>
+        <p id="month-coverage-summary" class="month-coverage-summary" role="status"></p>
         <div class="month-controls-row"><div id="mode-filter" class="mode-switch" role="group" aria-label="资料时间范围"><button type="button" data-mode="all" class="active" aria-pressed="true">全部资料</button><button type="button" data-mode="recent" aria-pressed="false">近两年发布</button><button type="button" data-mode="historical" aria-pressed="false">历年同月</button></div><p id="month-heading-note" class="heading-note">照片的时间依据会随图标注。</p></div>
         <div id="visitor-seasonality"></div>
       </section>
@@ -71,6 +76,7 @@
         <div class="section-heading split-heading"><div><p class="eyebrow">PLACES TO NOTICE</p><h2 id="attractions-heading">值得先看的景点</h2></div><div class="attraction-controls"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">筛选当前城市景点</span><input id="search-input" type="search" maxlength="60" placeholder="筛选当前城市景点" autocomplete="off"></label><span id="attractions-count" class="section-count">—</span></div></div>
         <p id="attractions-context" class="section-intro">点开感兴趣的景点，查看照片、路线与真实资料。</p>
         <div id="region-filter" class="region-filter" role="group" aria-label="按地区筛选景点" hidden></div>
+        <div id="destination-loading" class="destination-loading" hidden><p id="destination-loading-label" role="status">正在读取照片与资料…</p><div class="loading-skeletons" aria-hidden="true"><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div></div></div>
         <div id="area-album" class="area-album" aria-live="polite" hidden></div>
         <div id="attractions-grid" class="attractions-grid" aria-live="polite"></div>
         <details id="attraction-directory-panel" class="attraction-directory-panel"><summary id="attraction-directory-summary">全部景点与待补资料</summary><nav id="attraction-directory" class="attraction-directory" aria-label="景点目录"></nav></details>
