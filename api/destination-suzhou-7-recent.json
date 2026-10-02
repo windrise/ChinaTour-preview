@@ -13689,6 +13689,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-1-walk-1-route.json",
         "segments": [
@@ -14864,6 +14865,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-1-walk-2-route.json",
         "segments": [
@@ -15648,6 +15650,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-2-walk-1-route.json",
         "segments": [
@@ -16546,6 +16549,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-2-walk-2-route.json",
         "segments": [
@@ -16944,6 +16948,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-3-walk-1-route.json",
         "segments": [
@@ -17707,6 +17712,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-3-walk-2-route.json",
         "segments": [
@@ -18123,6 +18129,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-4-walk-1-route.json",
         "segments": [
@@ -18787,6 +18794,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-4-walk-2-route.json",
         "segments": [
@@ -19632,6 +19640,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-5-walk-1-route.json",
         "segments": [
@@ -20034,6 +20043,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-6-walk-1-route.json",
         "segments": [
@@ -20504,6 +20514,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-cycle-1-route.json",
         "segments": [
@@ -20663,6 +20674,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-cycle-2-route.json",
         "segments": [
@@ -20946,6 +20958,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-cycle-3-route.json",
         "segments": [
@@ -21185,6 +21198,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/suzhou-bus85-route.json",
         "segments": [

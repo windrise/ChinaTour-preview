@@ -7482,6 +7482,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-1-walk-1-route.json",
         "segments": [
@@ -7747,6 +7748,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-1-walk-2-route.json",
         "segments": [
@@ -8029,6 +8031,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-2-walk-1-route.json",
         "segments": [
@@ -8499,6 +8502,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-2-walk-2-route.json",
         "segments": [
@@ -9117,6 +9121,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-3-walk-1-route.json",
         "segments": [
@@ -9952,6 +9957,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-3-walk-2-route.json",
         "segments": [
@@ -10371,6 +10377,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-4-walk-1-route.json",
         "segments": [
@@ -11443,6 +11450,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-4-walk-2-route.json",
         "segments": [
@@ -12082,6 +12090,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-5-walk-1-route.json",
         "segments": [
@@ -12457,6 +12466,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-5-walk-2-route.json",
         "segments": [
@@ -12725,6 +12735,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-6-walk-1-route.json",
         "segments": [
@@ -13099,6 +13110,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-6-walk-2-route.json",
         "segments": [
@@ -13395,6 +13407,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-7-walk-1-route.json",
         "segments": [
@@ -13975,6 +13988,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-7-walk-2-route.json",
         "segments": [
@@ -14517,6 +14531,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-cycle-1-route.json",
         "segments": [
@@ -15127,6 +15142,7 @@
         "distance": null,
         "duration": null,
         "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "highlights": [],
         "source_basis": "osm_network",
         "geometry_url": "/static/maps/xian-cycle-2-route.json",
         "segments": [

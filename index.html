@@ -9,16 +9,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&amp;family=Noto+Serif+SC:wght@400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="./static/style.css?v=ce17d82f1e34">
-  <link rel="stylesheet" href="./static/atlas.css?v=ce17d82f1e34">
-  <link rel="stylesheet" href="./static/visitation.css?v=ce17d82f1e34">
-  <link rel="stylesheet" href="./static/immersive-routes.css?v=ce17d82f1e34">
-  <script defer src="./static/visitation.js?v=ce17d82f1e34"></script>
-  <script defer src="./static/immersive-routes.js?v=ce17d82f1e34"></script>
-  <script defer src='./preview-config.js?v=ce17d82f1e34'></script>
-  <script defer src='./static/preview.js?v=ce17d82f1e34'></script>
-  <script defer src="./static/app.js?v=ce17d82f1e34"></script>
-  <script defer src="./static/atlas.js?v=ce17d82f1e34"></script>
+  <link rel="stylesheet" href="./static/style.css?v=1cebc4111226">
+  <link rel="stylesheet" href="./static/atlas.css?v=1cebc4111226">
+  <link rel="stylesheet" href="./static/visitation.css?v=1cebc4111226">
+  <link rel="stylesheet" href="./static/immersive-routes.css?v=1cebc4111226">
+  <script defer src="./static/visitation.js?v=1cebc4111226"></script>
+  <script defer src="./static/immersive-routes.js?v=1cebc4111226"></script>
+  <script defer src='./preview-config.js?v=1cebc4111226'></script>
+  <script defer src='./static/preview.js?v=1cebc4111226'></script>
+  <script defer src="./static/app.js?v=1cebc4111226"></script>
+  <script defer src="./static/atlas.js?v=1cebc4111226"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
@@ -150,7 +150,7 @@
           <div class="walk-map-stage"><svg id="walk-map" class="walk-map" viewBox="0 0 1000 700" aria-label="路线地图，节点可用键盘选择"><title>地图道路与漫游路线</title></svg><div class="walk-map-caption"><span>街道 · 园林 · 水系</span><strong id="walk-map-kind">沿地图路网 · 未核实交通段不连线</strong></div><div class="walk-map-tools" role="group" aria-label="地图缩放"><button id="walk-zoom-in" type="button" aria-label="放大地图">＋</button><button id="walk-zoom-out" type="button" aria-label="缩小地图">−</button><button id="walk-fit" type="button" aria-label="显示完整路线">⌖</button></div><p class="walk-map-credit"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors · ODbL</a></p></div>
           <div class="walk-controls"><div class="walk-progress-heading"><span id="walk-position">从起点出发</span><output id="walk-percent" for="walk-progress">0%</output></div><div class="walk-mode-row"><span id="walk-mode" class="walk-mode"></span><span>浏览进度，非里程比例</span></div><div class="walk-scrubber-row"><button id="walk-play" class="walk-play" type="button" aria-label="播放路线" aria-pressed="false">▶ 播放</button><input id="walk-progress" type="range" min="0" max="1000" step="1" value="0" aria-label="路线浏览进度"><button id="walk-restart" type="button" aria-label="回到路线起点">↺</button></div><div id="walk-gap" class="walk-gap" hidden><p id="walk-gap-note"></p><button id="walk-gap-next" type="button">跳到此段终点 →</button></div><div id="walk-stop-list" class="walk-stop-list" role="group" aria-label="沿途节点"></div><details class="walk-segment-details"><summary>查看各段交通方式</summary><div id="walk-segments" class="walk-segments" role="group" aria-label="选择路线交通段"></div></details><p id="walk-hint" class="walk-hint">拖动或用方向键来回浏览 · 点击节点直达</p></div>
         </div>
-        <aside class="walk-scene" aria-label="当前节点的风景和资料"><div class="walk-scene-photo"><img id="walk-photo" alt="" hidden><div id="walk-photo-empty" class="walk-photo-empty"><span aria-hidden="true">⌁</span><strong>这里的风景，等待补充</strong><p id="walk-photo-empty-note">暂无当前月份的合格实拍</p></div><div id="walk-photo-controls" class="walk-photo-controls" hidden><button id="walk-photo-prev" type="button" aria-label="上一张节点照片">←</button><span id="walk-photo-count"></span><button id="walk-photo-next" type="button" aria-label="下一张节点照片">→</button></div></div><div class="walk-scene-body"><p id="walk-scene-kicker" class="walk-scene-kicker"></p><h3 id="walk-place-name"></h3><p id="walk-scene-note" class="walk-scene-note"></p><p id="walk-photo-meta" class="walk-photo-meta"></p><a id="walk-photo-source" class="walk-photo-source" target="_blank" rel="noopener noreferrer" hidden>查看照片原帖 ↗</a><details class="walk-details"><summary>路线说明与资料来源</summary><div id="walk-details-content"></div></details><p id="walk-status" class="sr-only" role="status" aria-live="polite"></p></div></aside>
+        <aside id="walk-scene" class="walk-scene is-photo-empty" aria-label="当前节点的风景和资料"><div class="walk-scene-photo"><img id="walk-photo" alt="" hidden><div id="walk-photo-empty" class="walk-photo-empty"><span aria-hidden="true">⌁</span><strong>这里的风景，等待补充</strong><p id="walk-photo-empty-note">暂无当前月份的合格实拍</p></div><div id="walk-photo-controls" class="walk-photo-controls" hidden><button id="walk-photo-prev" type="button" aria-label="上一张节点照片">←</button><span id="walk-photo-count"></span><button id="walk-photo-next" type="button" aria-label="下一张节点照片">→</button></div></div><div class="walk-scene-body"><p id="walk-scene-kicker" class="walk-scene-kicker"></p><h3 id="walk-place-name"></h3><p id="walk-scene-note" class="walk-scene-note"></p><p id="walk-photo-meta" class="walk-photo-meta"></p><a id="walk-photo-source" class="walk-photo-source" target="_blank" rel="noopener noreferrer" hidden>查看照片原帖 ↗</a><section id="walk-highlights" class="walk-highlights" aria-label="沿途特色，独立于路线节点" hidden><div class="walk-highlights-heading"><h4>沿途特色</h4><span id="walk-highlight-count"></span></div><div id="walk-highlight-options" class="walk-highlight-options" role="group" aria-label="选择沿途特色"></div><div id="walk-highlight-detail" class="walk-highlight-detail"></div></section><details class="walk-details"><summary>路线说明与资料来源</summary><div id="walk-details-content"></div></details><p id="walk-status" class="sr-only" role="status" aria-live="polite"></p></div></aside>
       </div>
     </div>
   </dialog>

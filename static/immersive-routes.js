@@ -21,6 +21,8 @@
     return { points, stops: distances.map(d => d / length), length };
   }
   const modeLabel = mode => ({ walk: '步行', cycle: '骑行', bus: '公交' }[mode] || '交通方式待核实');
+  const highlightCategory = value => ({ food: '吃点好的', shopping: '逛一逛', beach: '海滩', boardwalk: '栈道', sea_view: '看海', landmark: '地标', play: '游玩', other: '沿途发现' }[value] || '沿途发现');
+  const pointHighlight = item => item?.location?.kind === 'point' && Number.isFinite(item.location.lon) && Number.isFinite(item.location.lat);
   const distanceLabel = meters => Number(meters) > 0 ? Number(meters) >= 1000 ? `${(Number(meters) / 1000).toFixed(1)} km` : `${Math.round(Number(meters))} m` : '';
   function networkTrack(route, project) {
     const nodePoints = route.nodes.map(n => project([n.lon, n.lat]));
@@ -116,6 +118,7 @@
   let photos = [], photoIndex = 0, playing = false, timer = null, lastFrame = null;
   let mapVersion = 0, zoom = 1, loading = false, pendingOpen = false, returnFocus = null;
   let photoVersion = 0, routeGroup = 'between', attractionFilter = '';
+  let selectedHighlightId = null, highlightPoints = [];
   const svg = $('walk-map');
   const svgNS = 'http://www.w3.org/2000/svg';
   const el = (tag, text, className) => { const e = document.createElement(tag); if (text != null) e.textContent = text; if (className) e.className = className; return e; };
@@ -159,6 +162,7 @@
   }
   function hidePhoto(message) {
     ++photoVersion;
+    $('walk-scene').classList.add('is-photo-empty');
     $('walk-photo').onload = null; $('walk-photo').onerror = null;
     $('walk-photo').hidden = true; $('walk-photo').removeAttribute('src');
     $('walk-photo').alt = '';
@@ -174,10 +178,11 @@
     if (!url) return hidePhoto('这张已审核照片的缓存暂不可用。');
     const img = $('walk-photo');
     const version = ++photoVersion;
+    $('walk-scene').classList.add('is-photo-empty');
     img.hidden = true; $('walk-photo-empty').hidden = false; $('walk-photo-empty-note').textContent = '正在读取已审核实拍…';
     const reference = route.nodes[sceneIndex].photo_scope === 'attraction' || route.photo_scope === 'attraction' || route.route_type === 'scenicwalk';
     img.alt = `${reference ? route.nodes[sceneIndex].attraction_name + ' · 所属景点参考照片，非此路点实拍' : route.nodes[sceneIndex].name} · ${photo.time}`;
-    img.onload = () => { if (version !== photoVersion || img.getAttribute('src') !== url || !dialog.open || loading) return; img.hidden = false; $('walk-photo-empty').hidden = true; };
+    img.onload = () => { if (version !== photoVersion || img.getAttribute('src') !== url || !dialog.open || loading) return; img.hidden = false; $('walk-photo-empty').hidden = true; $('walk-scene').classList.remove('is-photo-empty'); };
     img.onerror = () => {
       if (version !== photoVersion || img.getAttribute('src') !== url) return;
       hidePhoto(photos.length > 1 ? '这张照片暂时无法加载，试试下一张。' : '这张照片暂时无法加载；可切换节点或月份。');
@@ -195,12 +200,12 @@
     const node = route.nodes[index];
     if (sceneIndex !== index) {
       sceneIndex = index; photoIndex = 0; photos = selectPhotos(data, node, month());
-      $('walk-place-name').textContent = node.photo_scope === 'attraction' ? node.attraction_name : node.name;
+      $('walk-place-name').textContent = node.name;
       renderPhoto();
       $('walk-status').textContent = `当前参考节点：${node.name}，${photos.length ? '有已审核实拍' : '暂无本月合格照片'}`;
     }
     $('walk-scene-kicker').textContent = `NODE ${String(index + 1).padStart(2, '0')} / ${String(route.nodes.length).padStart(2, '0')} · ${atNode ? '抵达节点' : '最近节点实拍参考'}`;
-    $('walk-scene-note').textContent = [node.photo_scope === 'attraction' || route.photo_scope === 'attraction' || route.route_type === 'scenicwalk' ? '所属景点参考照片，非此路点实拍。' : atNode ? '' : '正在节点之间浏览，照片属于此参考节点，不是当前位置的沿线实拍。', node.note].filter(Boolean).join(' ');
+    $('walk-scene-note').textContent = [node.photo_scope === 'attraction' || route.photo_scope === 'attraction' || route.route_type === 'scenicwalk' ? `${node.attraction_name}景点参考图，不对应精确节点。` : atNode ? '' : '正在节点之间浏览，照片属于此参考节点，不是当前位置的沿线实拍。', node.note].filter(Boolean).join(' ');
   }
   function setProgress(value, manual = true) {
     if (!route || !track || loading) return;
@@ -240,11 +245,16 @@
     if (geometry.type === 'MultiPolygon') return geometry.coordinates.flatMap(p => p.map(c => line(c) + ' Z')).join(' ');
     return '';
   }
+  function mapPixelUnit() {
+    const width = Number((svg.getAttribute('viewBox') || '').split(/\s+/)[2]);
+    return width > 0 && svg.clientWidth > 0 ? width / svg.clientWidth : 1 / zoom;
+  }
   function applyZoom() {
     const current = track ? positionAt(track, progress).point : [500, 350];
     let frame = { x: 0, y: 0, width: 1000, height: 700 };
     if (track && svg.clientWidth > 0 && svg.clientHeight > 0) {
-      const xs = track.points.map(p => p[0]), ys = track.points.map(p => p[1]);
+      const fitPoints = [...track.points, ...highlightPoints.map(item => item.point)];
+      const xs = fitPoints.map(p => p[0]), ys = fitPoints.map(p => p[1]);
       const west = Math.min(...xs), east = Math.max(...xs), north = Math.min(...ys), south = Math.max(...ys);
       const aspect = svg.clientWidth / svg.clientHeight;
       const width = Math.max(east - west + 240, (south - north + 160) * aspect);
@@ -254,14 +264,108 @@
     const x = zoom === 1 ? frame.x : clamp(current[0] - width / 2, frame.x, frame.x + frame.width - width);
     const y = zoom === 1 ? frame.y : clamp(current[1] - height / 2, frame.y, frame.y + frame.height - height);
     svg.setAttribute('viewBox', `${x} ${y} ${width} ${height}`);
-    // Zoom into the paths, without turning node markers into giant circles.
-    svg.querySelectorAll('.walk-node').forEach(node => {
+    // Initial fit changes scale too: use world units per actual CSS pixel,
+    // not just the zoom-button multiplier, for all marker sizes and offsets.
+    const pixelUnit = mapPixelUnit();
+    [...svg.querySelectorAll('.walk-node'), ...svg.querySelectorAll('.walk-highlight-marker')].forEach(node => {
       const x = Number(node.dataset.x), y = Number(node.dataset.y);
-      node.setAttribute('transform', `translate(${x} ${y}) scale(${1 / zoom}) translate(${-x} ${-y})`);
+      node.setAttribute('transform', `translate(${x} ${y}) scale(${pixelUnit}) translate(${-x} ${-y})`);
     });
-    svg.querySelector('.walk-cursor')?.setAttribute('r', 8 / zoom);
-    svg.querySelectorAll('.walk-road-label').forEach(label => label.setAttribute('font-size', 13 / zoom));
+    layoutHighlightMarkers(pixelUnit);
+    svg.querySelector('.walk-cursor')?.setAttribute('r', 8 * pixelUnit);
+    svg.querySelectorAll('.walk-road-label').forEach(label => label.setAttribute('font-size', 13 * pixelUnit));
     $('walk-zoom-in').disabled = zoom >= 8; $('walk-zoom-out').disabled = zoom <= 1;
+  }
+  const routeHighlights = () => Array.isArray(route?.highlights) ? route.highlights : [];
+  const highlightKey = item => String.fromCharCode(65 + routeHighlights().filter(pointHighlight).findIndex(h => h.id === item.id));
+  function layoutHighlightMarkers(pixelUnit) {
+    if (!track) return;
+    // Offsets are in marker/display units. The source coordinate stays at the
+    // start of the leader, independent from the pin and itinerary anchors.
+    const occupied = (track.nodePoints || track.points).map(p => [p[0] / pixelUnit, p[1] / pixelUnit]);
+    const candidates = [[0, 0], [0, -50], [0, 50], [48, -36], [-48, -36], [48, 36], [-48, 36], [60, 0], [-60, 0]];
+    svg.querySelectorAll('.walk-highlight-marker').forEach(marker => {
+      const x = Number(marker.dataset.x), y = Number(marker.dataset.y);
+      const clearance = ([dx, dy]) => Math.min(...occupied.map(p => Math.hypot(x / pixelUnit + dx - p[0], y / pixelUnit + dy - p[1])));
+      const offset = candidates.find(c => clearance(c) >= 45) || [...candidates].sort((a, b) => clearance(b) - clearance(a))[0];
+      const [dx, dy] = offset;
+      marker.dataset.offsetX = dx; marker.dataset.offsetY = dy;
+      marker.querySelector('.walk-highlight-pin').setAttribute('transform', `translate(${dx} ${dy})`);
+      const leader = marker.querySelector('.walk-highlight-leader');
+      leader.setAttribute('x2', x + dx); leader.setAttribute('y2', y + dy);
+      leader.setAttribute('visibility', dx || dy ? 'visible' : 'hidden');
+      occupied.push([x / pixelUnit + dx, y / pixelUnit + dy]);
+    });
+  }
+  function selectHighlight(id, focusCard = false) {
+    const item = routeHighlights().find(h => h.id === id); if (!item) return;
+    selectedHighlightId = item.id;
+    const options = [...$('walk-highlight-options').children];
+    for (const button of options) {
+      const active = button.dataset.highlight === id;
+      button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active));
+      if (active && focusCard) button.focus({ preventScroll: true });
+    }
+    svg.querySelectorAll('.walk-highlight-marker').forEach(marker => {
+      const active = marker.dataset.highlight === id;
+      marker.classList.toggle('active', active); marker.setAttribute('aria-pressed', String(active));
+    });
+    const detail = $('walk-highlight-detail'); detail.replaceChildren();
+    const heading = el('div', null, 'walk-highlight-heading');
+    heading.append(el('strong', item.title), el('span', pointHighlight(item) ? item.location.precision === 'area' ? '区域示意' : '地图点位' : '沿途线索 · 未定位'));
+    detail.append(heading);
+    if (item.description) detail.append(el('p', item.description, 'walk-highlight-description'));
+    const sources = el('details', null, 'walk-highlight-sources');
+    sources.append(el('summary', '资料来源'));
+    const source = item.source || {};
+    const sourceKind = { osm: '地图资料', news: '报道资料', user_report: '旅行者分享' }[source.kind] || '资料';
+    const row = el('p', `${sourceKind} · `), url = httpUrl(source.url);
+    if (url) { const a = el('a', `${source.label || '原始来源'} ↗`); a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; row.append(a); }
+    else row.append(el('span', source.label || '来源未注明'));
+    if (source.observed_at) row.append(el('span', ` · 记录日期 ${source.observed_at}`));
+    sources.append(row);
+    if (pointHighlight(item)) {
+      const coordinate = item.location.coordinate_source || {}, coordinateUrl = httpUrl(coordinate.url);
+      if (coordinateUrl) { const p = el('p', '位置依据 · '), a = el('a', `${coordinate.label || '地图来源'} ↗`); a.href = coordinateUrl; a.target = '_blank'; a.rel = 'noopener noreferrer'; p.append(a); sources.append(p); }
+    }
+    sources.append(el('p', '此特色使用独立资料，上方照片仍随路线节点展示。'));
+    detail.append(sources);
+  }
+  function renderHighlights() {
+    const items = routeHighlights(), list = $('walk-highlight-options'); list.replaceChildren();
+    $('walk-highlights').hidden = !items.length;
+    $('walk-highlight-count').textContent = `${items.length} 处发现`;
+    $('walk-highlight-detail').replaceChildren();
+    for (const item of items) {
+      const button = el('button', null, 'walk-highlight-card'); button.type = 'button'; button.dataset.highlight = item.id;
+      const categories = [...new Set((item.categories || []).map(highlightCategory))];
+      button.append(el('span', pointHighlight(item) ? highlightKey(item) : '⌁', 'walk-highlight-key'), el('strong', item.title), el('small', categories.join(' · ')));
+      button.setAttribute('aria-controls', 'walk-highlight-detail');
+      button.addEventListener('click', () => { if (!loading) selectHighlight(item.id); }); list.append(button);
+    }
+    if (!items.some(item => item.id === selectedHighlightId)) selectedHighlightId = items[0]?.id || null;
+    if (selectedHighlightId) selectHighlight(selectedHighlightId);
+  }
+  function drawHighlights(project) {
+    highlightPoints = [];
+    const layer = shape('g', { class: 'walk-highlights-layer' });
+    routeHighlights().forEach(item => {
+      if (!pointHighlight(item)) return;
+      const point = project([item.location.lon, item.location.lat]), [x, y] = point;
+      highlightPoints.push({ id: item.id, point });
+      const active = item.id === selectedHighlightId;
+      const marker = shape('g', { class: `walk-highlight-marker${active ? ' active' : ''}`, tabindex: '0', role: 'button', 'aria-pressed': String(active), 'aria-label': `沿途特色：${item.title}${item.location.precision === 'area' ? '，区域示意' : ''}`, 'aria-controls': 'walk-highlight-detail' });
+      marker.dataset.x = x; marker.dataset.y = y; marker.dataset.highlight = item.id;
+      const pin = shape('g', { class: 'walk-highlight-pin' });
+      pin.append(shape('circle', { cx: x, cy: y, r: 22, class: 'walk-highlight-hit' }), shape('rect', { x: x - 14, y: y - 14, width: 28, height: 28, rx: 8, class: 'walk-highlight-dot' }), shape('text', { x, y: y + 4, 'text-anchor': 'middle', 'aria-hidden': 'true' }, highlightKey(item)));
+      pin.append(shape('text', { x: x + (x > 650 ? -23 : 23), y: y + 4, 'text-anchor': x > 650 ? 'end' : 'start', class: 'walk-highlight-label', 'aria-hidden': 'true' }, item.title));
+      marker.append(shape('line', { x1: x, y1: y, x2: x, y2: y, class: 'walk-highlight-leader', 'pointer-events': 'none' }), pin);
+      const select = () => { if (!loading) selectHighlight(item.id, true); };
+      marker.addEventListener('click', select);
+      marker.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); select(); } });
+      layer.append(marker);
+    });
+    svg.append(layer);
   }
   function drawRoute(project) {
     const points = route.nodes.map(n => project([n.lon, n.lat]));
@@ -275,13 +379,14 @@
       const g = shape('g', { class: 'walk-node', tabindex: '0', role: 'button', 'aria-label': `浏览第${i + 1}站：${node.name}` });
       g.dataset.x = x; g.dataset.y = y;
       g.append(shape('circle', { cx: x, cy: y, r: 25, class: 'walk-node-hit', fill: 'transparent' }), shape('circle', { cx: x, cy: y, r: 16, class: 'walk-node-dot' }), shape('text', { x, y: y + 5, 'text-anchor': 'middle', 'aria-hidden': 'true' }, i + 1));
-      const label = shape('text', { x: x + (x > 650 ? -26 : 26), y: y + 5, 'text-anchor': x > 650 ? 'end' : 'start', class: 'walk-node-label', 'aria-hidden': 'true' }, node.name);
+      const label = shape('text', { x: x + (x > 650 ? -26 : 26), y: y - 28, 'text-anchor': x > 650 ? 'end' : 'start', class: 'walk-node-label', 'aria-hidden': 'true' }, node.name);
       g.append(label);
       const visit = () => { setProgress(track.stops[i]); if (zoom > 1) applyZoom(); };
       g.addEventListener('click', visit);
       g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); visit(); } });
       svg.append(g);
     });
+    drawHighlights(project);
     svg.append(shape('circle', { r: 8, class: 'walk-cursor', 'pointer-events': 'none' }));
     applyZoom(); setProgress(progress, false);
     syncControls();
@@ -315,7 +420,7 @@
         if (kind === 'road' && f.properties.name && !labels.has(f.properties.name) && labels.size < 12 && f.geometry.type === 'LineString') {
           const c = f.geometry.coordinates[Math.floor(f.geometry.coordinates.length / 2)], [x, y] = project(c);
           if (x > 70 && x < 930 && y > 100 && y < 630 && !track.points.some(pt => Math.hypot(pt[0] - x, pt[1] - y) < 100)) {
-            base.append(shape('text', { x, y, class: 'walk-road-label', fill: '#777d6d', 'font-size': 13 / zoom, 'text-anchor': 'middle' }, f.properties.name)); labels.add(f.properties.name);
+            base.append(shape('text', { x, y, class: 'walk-road-label', fill: '#777d6d', 'font-size': 13 * mapPixelUnit(), 'text-anchor': 'middle' }, f.properties.name)); labels.add(f.properties.name);
           }
         }
       }
@@ -353,6 +458,7 @@
     const next = routes.find(r => r.id === id) || routes[0]; if (!next) return;
     const same = route?.id === next.id;
     route = next; progress = preserve && same ? progress : 0; sceneIndex = -1; zoom = preserve && same ? zoom : 1;
+    if (!preserve || !same) selectedHighlightId = null;
     routeGroup = next.route_type === 'scenicwalk' ? 'inside' : 'between';
     if (attractionFilter && !routeAttractions(next).includes(attractionFilter)) attractionFilter = '';
     renderRouteOptions();
@@ -364,7 +470,7 @@
     $('walk-stop-list').replaceChildren();
     route.nodes.forEach((node, i) => { const button = el('button', null, 'walk-stop'); button.type = 'button'; button.append(el('small', String(i + 1).padStart(2, '0')), el('span', node.name)); button.addEventListener('click', () => { if (track) { setProgress(track.stops[i]); applyZoom(); } }); $('walk-stop-list').append(button); });
     [...$('walk-route-options').children].forEach(button => { const active = button.dataset.route === route.id; button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active)); });
-    renderDetails(); renderMap();
+    renderDetails(); renderHighlights(); renderMap();
     $('walk-hint').textContent = motion.matches ? '已减少动态效果 · 播放时逐站切换，也可用方向键浏览' : '拖动或用方向键来回浏览 · 点击节点直达';
     if (dialog.open) writeLocation(route.id);
   }
@@ -394,6 +500,7 @@
     $('walk-scope-between').disabled = loading || !routes.some(item => item.route_type !== 'scenicwalk');
     for (const button of $('walk-route-options').children) button.disabled = loading;
     for (const button of $('walk-segments').children) button.disabled = disabled;
+    for (const button of $('walk-highlight-options').children) button.disabled = loading;
   }
   const routeAttractions = item => [...new Set([item.attraction_name, ...(item.nodes || []).map(n => n.attraction_name)].filter(Boolean))];
   const inGroup = item => (item.route_type === 'scenicwalk' ? 'inside' : 'between') === routeGroup;
@@ -439,6 +546,7 @@
     if (!routes.length) {
       setPlaying(false); route = null; track = null; ++mapVersion; svg.replaceChildren();
       progress = 0; photos = []; photoIndex = 0; sceneIndex = -1;
+      selectedHighlightId = null; highlightPoints = []; renderHighlights();
       $('walk-progress').value = 0; $('walk-percent').value = '0%';
       $('walk-progress').style.setProperty('--walk-progress', '0%');
       $('walk-progress').setAttribute('aria-valuetext', '路线资料暂不可用');
