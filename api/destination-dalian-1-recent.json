@@ -1590,6 +1590,86 @@
       "map_source_url": "https://www.openstreetmap.org/way/202067280",
       "coordinate_system": "WGS84",
       "local_map": null
+    },
+    {
+      "id": "dalian-coastal-boardwalk",
+      "name": "滨海路亲海栈道",
+      "lat": 38.8733579,
+      "lon": 121.5944001,
+      "description": "沿大连南部海岸分布的亲海步道。地图代表点取星海湾段已记录的人行桥路点，不是整条栈道入口；尚未核验全程连通。",
+      "source_url": "https://dalian.runsky.com/2023-08/30/content_6228726.html",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/14139899378",
+      "coordinate_system": "WGS84",
+      "local_map": null
+    },
+    {
+      "id": "dalian-fujiazhuang",
+      "name": "傅家庄公园",
+      "lat": 38.8642293,
+      "lon": 121.6190802,
+      "description": "滨海公园与海滨浴场；地图代表点采用园内真实步道节点，不是已核验的入园口。",
+      "source_url": "https://www.openstreetmap.org/way/164816992",
+      "photo_url": null,
+      "photo_credit": null,
+      "photo_time_basis": null,
+      "photo_source_url": null,
+      "photo_month": null,
+      "photo_browse_month": null,
+      "evidence_count": 0,
+      "months": [],
+      "collection_status": "not_collected",
+      "visit_periods": {
+        "ordinary": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "holiday": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        },
+        "unknown": {
+          "evidence_count": 0,
+          "photo_count": 0,
+          "evidence_ids": [],
+          "photos": []
+        }
+      },
+      "map_source_url": "https://www.openstreetmap.org/node/2455857456",
+      "coordinate_system": "WGS84",
+      "local_map": null
     }
   ],
   "area_album": null,
@@ -3365,6 +3445,28 @@
     {
       "place_id": "place_bb2a9e407fce4c8a",
       "place_name": "旅顺博物馆",
+      "month": 1,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "dalian-coastal-boardwalk",
+      "place_name": "滨海路亲海栈道",
+      "month": 1,
+      "status": "insufficient",
+      "support": 0,
+      "groups": 0,
+      "years": [],
+      "candidate_records": 0,
+      "summary": "这个月份还缺少有时间依据的独立观察"
+    },
+    {
+      "place_id": "dalian-fujiazhuang",
+      "place_name": "傅家庄公园",
       "month": 1,
       "status": "insufficient",
       "support": 0,
@@ -22750,6 +22852,750 @@
           {
             "url": "https://www.openstreetmap.org/way/43666407",
             "title": "OpenStreetMap 骑行道路",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "星海广场 → 傅家庄 · 海岸漫游",
+        "subtitle": "步行 · 海岸分段预览 · 2处连接待核实",
+        "summary": "从星海广场南侧，经过挑月桥、亲海步道西段和滨海西路旁步道，分段浏览至傅家庄海边。仅绘制已记录的真实道路，银沙滩附近两处连接留空，不代表现场一定不通。此线不是个人行程的精确复原，未定位的礁石穿越未纳入轨迹。",
+        "id": "dalian-xinghai-fujiazhuang-coast",
+        "guide_id": null,
+        "route_type": "citywalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dalian-xinghai-fujiazhuang-coast-map.json",
+        "bounds": [
+          38.861,
+          121.581,
+          38.889,
+          121.624
+        ],
+        "nodes": [
+          {
+            "id": "dalian-xinghai-fujiazhuang-coast-node-1",
+            "name": "星海广场南侧",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.8762269,
+            "lon": 121.5818091,
+            "note": "从百年城雕附近的真实步道开始。此线分段展示，银沙滩附近的连接仍待核实；不含未定位的礁石捷径。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2421358630",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-xinghai-fujiazhuang-coast-node-2",
+            "name": "挑月桥东端",
+            "attraction_name": "滨海路亲海栈道",
+            "attraction_id": "dalian-coastal-boardwalk",
+            "lat": 38.8752966,
+            "lon": 121.5864967,
+            "note": "这里是挑月桥的人行桥路点，可沿地图已记录的沿海道路继续浏览。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/614725238",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-xinghai-fujiazhuang-coast-node-3",
+            "name": "亲海步道西段",
+            "attraction_name": "滨海路亲海栈道",
+            "attraction_id": "dalian-coastal-boardwalk",
+            "lat": 38.8726719,
+            "lon": 121.5996678,
+            "note": "西段已记录道路到此。通往中段的连续步行轨迹尚未核实，播放在缺口前暂停；不代表这里就是礁石穿越位置。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11478308937",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-xinghai-fujiazhuang-coast-node-4",
+            "name": "滨海西路步道",
+            "attraction_name": "滨海路亲海栈道",
+            "attraction_id": "dalian-coastal-boardwalk",
+            "lat": 38.8708109,
+            "lon": 121.6065935,
+            "note": "滨海西路南侧的独立步道，沿真实折线浏览；未使用机动车主路代替人行道。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8276826051",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-xinghai-fujiazhuang-coast-node-5",
+            "name": "银沙滩方向步道",
+            "attraction_name": "滨海路亲海栈道",
+            "attraction_id": "dalian-coastal-boardwalk",
+            "lat": 38.868898,
+            "lon": 121.6090791,
+            "note": "朝银沙滩方向的步道路点，不是沙滩入口。到傅家庄西侧的步行连接仍待核实。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8995055871",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-xinghai-fujiazhuang-coast-node-6",
+            "name": "傅家庄西侧",
+            "attraction_name": "傅家庄公园",
+            "attraction_id": "dalian-fujiazhuang",
+            "lat": 38.8658708,
+            "lon": 121.6151649,
+            "note": "傅家庄公园西侧园路点，沿园内步道继续到海边；不是已核验入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2455858039",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-xinghai-fujiazhuang-coast-node-7",
+            "name": "傅家庄海边",
+            "attraction_name": "傅家庄公园",
+            "attraction_id": "dalian-fujiazhuang",
+            "lat": 38.8642293,
+            "lon": 121.6190802,
+            "note": "傅家庄公园内的海边步道路点。照片只使用傅家庄已审核资料；目前没有合适照片时显示地点名称。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2455857456",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dalian-xinghai-fujiazhuang-coast-route.json",
+        "segments": [
+          {
+            "from_node_id": "dalian-xinghai-fujiazhuang-coast-node-1",
+            "to_node_id": "dalian-xinghai-fujiazhuang-coast-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5818091,
+                38.8762269
+              ],
+              [
+                121.581892,
+                38.8765908
+              ],
+              [
+                121.5820878,
+                38.876627
+              ],
+              [
+                121.582239,
+                38.8765509
+              ],
+              [
+                121.5821729,
+                38.8761723
+              ],
+              [
+                121.5826819,
+                38.8760085
+              ],
+              [
+                121.5825373,
+                38.8753788
+              ],
+              [
+                121.5827689,
+                38.8753121
+              ],
+              [
+                121.582982,
+                38.8751771
+              ],
+              [
+                121.5831472,
+                38.8749932
+              ],
+              [
+                121.5833206,
+                38.8747797
+              ],
+              [
+                121.5835664,
+                38.8750019
+              ],
+              [
+                121.5837139,
+                38.875006
+              ],
+              [
+                121.5840894,
+                38.8749267
+              ],
+              [
+                121.5842728,
+                38.8748057
+              ],
+              [
+                121.5845936,
+                38.8747676
+              ],
+              [
+                121.5846632,
+                38.8749109
+              ],
+              [
+                121.5848887,
+                38.8753751
+              ],
+              [
+                121.5848223,
+                38.8754729
+              ],
+              [
+                121.5847067,
+                38.8755758
+              ],
+              [
+                121.5845828,
+                38.8756491
+              ],
+              [
+                121.5844424,
+                38.875698
+              ],
+              [
+                121.5843978,
+                38.8757854
+              ],
+              [
+                121.5844027,
+                38.8758845
+              ],
+              [
+                121.5844721,
+                38.87595
+              ],
+              [
+                121.5845844,
+                38.8760079
+              ],
+              [
+                121.5847413,
+                38.8760468
+              ],
+              [
+                121.5847311,
+                38.8759507
+              ],
+              [
+                121.58477,
+                38.8758469
+              ],
+              [
+                121.5848615,
+                38.875748
+              ],
+              [
+                121.5849384,
+                38.8757205
+              ],
+              [
+                121.5864967,
+                38.8752966
+              ]
+            ],
+            "distance_m": 831.431,
+            "way_ids": [
+              233806453,
+              266257506,
+              510345244,
+              890518709,
+              48401030,
+              510083113,
+              48401032
+            ],
+            "note": "星海广场南侧至挑月桥东端；仅为地图长度，现场通行未核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/233806453",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 2421358630,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 614725238,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-xinghai-fujiazhuang-coast-node-2",
+            "to_node_id": "dalian-xinghai-fujiazhuang-coast-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5864967,
+                38.8752966
+              ],
+              [
+                121.5866532,
+                38.8752878
+              ],
+              [
+                121.5865522,
+                38.8751257
+              ],
+              [
+                121.5865056,
+                38.8749775
+              ],
+              [
+                121.5865417,
+                38.8747562
+              ],
+              [
+                121.5866493,
+                38.8745817
+              ],
+              [
+                121.5868135,
+                38.8744396
+              ],
+              [
+                121.5869899,
+                38.8743508
+              ],
+              [
+                121.587244,
+                38.8742956
+              ],
+              [
+                121.5878174,
+                38.8742935
+              ],
+              [
+                121.5887216,
+                38.8742696
+              ],
+              [
+                121.5896344,
+                38.8742368
+              ],
+              [
+                121.589833,
+                38.8741832
+              ],
+              [
+                121.5900147,
+                38.8741918
+              ],
+              [
+                121.5900962,
+                38.8742293
+              ],
+              [
+                121.590315,
+                38.8744689
+              ],
+              [
+                121.5905374,
+                38.8746219
+              ],
+              [
+                121.5907228,
+                38.8746912
+              ],
+              [
+                121.5909564,
+                38.8747431
+              ],
+              [
+                121.5912122,
+                38.8747749
+              ],
+              [
+                121.5914319,
+                38.8747637
+              ],
+              [
+                121.5916031,
+                38.8747243
+              ],
+              [
+                121.5918115,
+                38.8746504
+              ],
+              [
+                121.5919961,
+                38.8745498
+              ],
+              [
+                121.5920832,
+                38.8744799
+              ],
+              [
+                121.5920726,
+                38.8742068
+              ],
+              [
+                121.5923232,
+                38.8738063
+              ],
+              [
+                121.5931674,
+                38.8736256
+              ],
+              [
+                121.5936936,
+                38.8735857
+              ],
+              [
+                121.5938752,
+                38.8733864
+              ],
+              [
+                121.5944001,
+                38.8733579
+              ],
+              [
+                121.5950356,
+                38.8734153
+              ],
+              [
+                121.5952261,
+                38.8733788
+              ],
+              [
+                121.5959436,
+                38.8732201
+              ],
+              [
+                121.5962949,
+                38.8731773
+              ],
+              [
+                121.5972216,
+                38.8730123
+              ],
+              [
+                121.5984823,
+                38.8729225
+              ],
+              [
+                121.5987948,
+                38.8729246
+              ],
+              [
+                121.5995096,
+                38.8727576
+              ],
+              [
+                121.5995297,
+                38.8727158
+              ],
+              [
+                121.5996678,
+                38.8726719
+              ]
+            ],
+            "distance_m": 1356.06,
+            "way_ids": [
+              48401033,
+              48392891,
+              937489374,
+              1554222040,
+              1236239850
+            ],
+            "note": "挑月桥东端至海边服务道路已记录末段；仅为地图长度，现场通行未核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/48401033",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 614725238,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11478308937,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-xinghai-fujiazhuang-coast-node-3",
+            "to_node_id": "dalian-xinghai-fujiazhuang-coast-node-4",
+            "mode": "walk",
+            "status": "unresolved",
+            "coordinates": [],
+            "distance_m": null,
+            "way_ids": [],
+            "note": "当前地图未记录连续可核验的步行连接。这里只表示资料缺口，不是已知礁石段；不连线、不推算距离，可跳到下一段继续浏览。",
+            "source": null
+          },
+          {
+            "from_node_id": "dalian-xinghai-fujiazhuang-coast-node-4",
+            "to_node_id": "dalian-xinghai-fujiazhuang-coast-node-5",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.6065935,
+                38.8708109
+              ],
+              [
+                121.6065715,
+                38.8707196
+              ],
+              [
+                121.6068015,
+                38.8704515
+              ],
+              [
+                121.6072604,
+                38.8699176
+              ],
+              [
+                121.6072604,
+                38.869856
+              ],
+              [
+                121.6070855,
+                38.8699354
+              ],
+              [
+                121.6070677,
+                38.8699115
+              ],
+              [
+                121.6072425,
+                38.8698321
+              ],
+              [
+                121.6072124,
+                38.8697919
+              ],
+              [
+                121.6072177,
+                38.8697482
+              ],
+              [
+                121.6072899,
+                38.8697119
+              ],
+              [
+                121.6081371,
+                38.8692935
+              ],
+              [
+                121.6090791,
+                38.868898
+              ]
+            ],
+            "distance_m": 359.589,
+            "way_ids": [
+              971869920
+            ],
+            "note": "滨海西路南侧已记录独立步道；仅为地图长度，现场通行未核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/971869920",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8276826051,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 8995055871,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-xinghai-fujiazhuang-coast-node-5",
+            "to_node_id": "dalian-xinghai-fujiazhuang-coast-node-6",
+            "mode": "walk",
+            "status": "unresolved",
+            "coordinates": [],
+            "distance_m": null,
+            "way_ids": [],
+            "note": "当前地图未记录连续可核验的步行连接。这里只表示资料缺口，不是已知礁石段；不连线、不推算距离，可跳到下一段继续浏览。",
+            "source": null
+          },
+          {
+            "from_node_id": "dalian-xinghai-fujiazhuang-coast-node-6",
+            "to_node_id": "dalian-xinghai-fujiazhuang-coast-node-7",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.6151649,
+                38.8658708
+              ],
+              [
+                121.6152764,
+                38.8658227
+              ],
+              [
+                121.6153285,
+                38.8658003
+              ],
+              [
+                121.615433,
+                38.8657514
+              ],
+              [
+                121.6154958,
+                38.8656836
+              ],
+              [
+                121.6155515,
+                38.8656456
+              ],
+              [
+                121.6156212,
+                38.8656375
+              ],
+              [
+                121.6157362,
+                38.8656701
+              ],
+              [
+                121.616008,
+                38.865689
+              ],
+              [
+                121.6161043,
+                38.8656598
+              ],
+              [
+                121.6161206,
+                38.8656548
+              ],
+              [
+                121.616231,
+                38.8656212
+              ],
+              [
+                121.6163739,
+                38.8655887
+              ],
+              [
+                121.6165829,
+                38.8655697
+              ],
+              [
+                121.6167432,
+                38.865548
+              ],
+              [
+                121.6168896,
+                38.8654828
+              ],
+              [
+                121.6170638,
+                38.8653689
+              ],
+              [
+                121.6171892,
+                38.8653092
+              ],
+              [
+                121.61759,
+                38.8652441
+              ],
+              [
+                121.6179245,
+                38.8651301
+              ],
+              [
+                121.6182973,
+                38.8650976
+              ],
+              [
+                121.6185099,
+                38.8650705
+              ],
+              [
+                121.6188039,
+                38.8649363
+              ],
+              [
+                121.619052,
+                38.8648413
+              ],
+              [
+                121.6191217,
+                38.8647264
+              ],
+              [
+                121.619165,
+                38.8646418
+              ],
+              [
+                121.6191553,
+                38.8645499
+              ],
+              [
+                121.6191164,
+                38.8644371
+              ],
+              [
+                121.6190802,
+                38.8642293
+              ]
+            ],
+            "distance_m": 438.167,
+            "way_ids": [
+              237705195
+            ],
+            "note": "傅家庄公园西侧步道至海边；仅为地图长度，现场通行未核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/237705195",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 2455858039,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2455857456,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 2985.247,
+        "has_unresolved_segments": true,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/233806453",
+            "title": "OpenStreetMap 步行道路",
             "publisher": "OpenStreetMap contributors",
             "published_at": null
           }

@@ -224,6 +224,20 @@
     "aliases": []
   },
   {
+    "destination_id": "dalian",
+    "destination_name": "大连",
+    "name": "滨海路亲海栈道",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
+    "destination_id": "dalian",
+    "destination_name": "大连",
+    "name": "傅家庄公园",
+    "kind": "attraction",
+    "aliases": []
+  },
+  {
     "destination_id": "suzhou",
     "destination_name": "苏州",
     "name": "苏州",
