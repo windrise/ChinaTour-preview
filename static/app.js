@@ -1770,6 +1770,12 @@ document.querySelectorAll('[data-evidence-help]').forEach(button => button.addEv
   details.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' });
 }));
 document.addEventListener('chinatour:select-place', (event) => selectDestination(event.detail?.placeId, { update: event.detail?.updateHistory !== false }));
+document.addEventListener('chinatour:open-attraction', (event) => {
+  const detail = event.detail;
+  if (state.destinationLoading || !detail || detail.placeId !== state.placeId || state.data?.destination?.id !== detail.placeId) return;
+  const attraction = state.data.attractions.find(item => item.name === detail.attractionName);
+  if (attraction) openDrawer(attraction);
+});
 document.addEventListener('chinatour:walk-month', (event) => {
   const month = Number(event.detail?.month);
   if (Number.isInteger(month) && month >= 1 && month <= 12) chooseMonth(String(month));

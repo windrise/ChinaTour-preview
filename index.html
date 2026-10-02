@@ -9,22 +9,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&amp;family=Noto+Serif+SC:wght@400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="./static/style.css?v=1cebc4111226">
-  <link rel="stylesheet" href="./static/atlas.css?v=1cebc4111226">
-  <link rel="stylesheet" href="./static/visitation.css?v=1cebc4111226">
-  <link rel="stylesheet" href="./static/immersive-routes.css?v=1cebc4111226">
-  <script defer src="./static/visitation.js?v=1cebc4111226"></script>
-  <script defer src="./static/immersive-routes.js?v=1cebc4111226"></script>
-  <script defer src='./preview-config.js?v=1cebc4111226'></script>
-  <script defer src='./static/preview.js?v=1cebc4111226'></script>
-  <script defer src="./static/app.js?v=1cebc4111226"></script>
-  <script defer src="./static/atlas.js?v=1cebc4111226"></script>
+  <link rel="stylesheet" href="./static/style.css?v=17ebbfe9d9395410">
+  <link rel="stylesheet" href="./static/atlas.css?v=17ebbfe9d9395410">
+  <link rel="stylesheet" href="./static/visitation.css?v=17ebbfe9d9395410">
+  <link rel="stylesheet" href="./static/immersive-routes.css?v=17ebbfe9d9395410">
+  <link rel="stylesheet" href="./static/route-overview.css?v=17ebbfe9d9395410">
+  <script defer src="./static/visitation.js?v=17ebbfe9d9395410"></script>
+  <script defer src="./static/immersive-routes.js?v=17ebbfe9d9395410"></script>
+  <script defer src="./static/route-overview.js?v=17ebbfe9d9395410"></script>
+  <script defer src='./preview-config.js?v=17ebbfe9d9395410'></script>
+  <script defer src='./static/preview.js?v=17ebbfe9d9395410'></script>
+  <script defer src="./static/app.js?v=17ebbfe9d9395410"></script>
+  <script defer src="./static/atlas.js?v=17ebbfe9d9395410"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
     <header class="site-header">
       <a class="brand" href="./" aria-label="行知首页"><span class="brand-seal" aria-hidden="true">行</span><span class="brand-copy"><strong>行知</strong><em>FIELD NOTES · CHINA</em></span></a>
-      <nav class="header-nav" aria-label="主导航"><button type="button" id="atlas-home" class="nav-link active">山河图鉴</button><a class="nav-link" href="#month-explorer">四季发现</a><a class="nav-link" href="#immersive-routes">路线漫游</a><a class="nav-link" href="#destination-map">目的地地图</a></nav>
+      <nav class="header-nav" aria-label="主导航"><button type="button" id="atlas-home" class="nav-link active">山河图鉴</button><a class="nav-link" href="#month-explorer">四季发现</a><a id="route-overview-nav" class="nav-link" href="#immersive-routes">路线攻略</a><a class="nav-link" href="#destination-map">目的地地图</a></nav>
       <div class="header-actions"><span id="connection-indicator" class="connection-indicator"><i></i> 本地资料</span><button id="login-button" class="button button-quiet" type="button" aria-expanded="false">内置浏览器</button><button id="open-place-search" class="button button-primary" type="button" aria-expanded="false" aria-controls="place-search-panel">搜索 / 搜集 <span aria-hidden="true">↗</span></button></div>
       <section id="place-search-panel" class="global-search-panel" aria-labelledby="place-search-title" hidden>
         <div class="global-search-heading"><div><p class="eyebrow">DISCOVER ANYWHERE</p><h2 id="place-search-title">想去哪里？</h2></div><button id="close-place-search" class="global-search-close" type="button" aria-label="关闭全站搜索">×</button></div>
@@ -87,6 +89,16 @@
       <section id="travel-essentials" class="travel-essentials" aria-label="衣食住行">
         <div id="essentials-grid" class="essentials-grid"></div>
         <div id="essentials-panel" class="essentials-panel" hidden></div>
+      </section>
+
+      <section id="route-overview" class="route-overview" aria-labelledby="route-overview-title" hidden>
+        <header class="ro-heading"><p class="eyebrow">FIND YOUR SIDE OF THE CITY</p><h2 id="route-overview-title">先看这座城怎么逛</h2><p id="route-overview-intro"></p></header>
+        <div id="route-overview-tabs" class="ro-tabs" role="tablist" aria-label="选择城市主题线路"></div>
+        <div id="route-overview-content" class="ro-content" role="tabpanel">
+          <div class="ro-map-column"><div class="ro-map-caption"><strong>顺序示意，非导航</strong><span id="route-overview-order-note"></span></div><div class="ro-map-scroll"><svg id="route-overview-map" class="ro-map" role="group" aria-label="城市地点与游览顺序"></svg><p id="route-overview-map-error" class="ro-map-error" hidden>底图暂未加载，仍可从地点列表查看亮点与资料。</p></div><div id="route-overview-legend" class="ro-legend" aria-label="主题颜色图例"></div><p class="ro-map-help">点选地点查看亮点 · 小屏可横向拖动地图 · 位置代表点不等于入口<a class="ro-map-attribution" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors ↗</a></p></div>
+          <aside id="route-overview-panel" class="ro-panel" aria-label="主题线路与地点详情"></aside>
+        </div>
+        <p id="route-overview-footnote" class="ro-footnote"></p><p id="route-overview-status" class="sr-only" role="status" aria-live="polite"></p>
       </section>
 
       <section id="immersive-routes" class="walk-entry" aria-labelledby="walk-entry-title">

@@ -1,0 +1,98 @@
+.route-overview[hidden] { display: none; }
+.route-overview { margin: 42px 0 52px; scroll-margin-top: 8rem; border: 1px solid #344642; border-radius: 14px; overflow: hidden; background: #111d20; }
+.ro-heading { padding: 26px 28px 18px; }
+.ro-heading .eyebrow { color: #bdab8c; margin: 0 0 8px; }
+.ro-heading h2 { margin: 0; color: #e5ecdd; font: 400 clamp(24px, 3vw, 36px)/1.4 var(--serif); }
+.ro-heading > p:last-child { margin: 10px 0 0; max-width: 850px; color: #a6b6ab; font-size: 14px; line-height: 1.8; }
+.ro-tabs { display: flex; gap: 8px; padding: 0 28px 20px; overflow-x: auto; scrollbar-width: thin; }
+.ro-tab { display: inline-flex; align-items: center; gap: 8px; flex: 0 0 auto; min-height: 44px; padding: 9px 17px; border: 1px solid #41544d; border-radius: 100px; color: #adbbb1; background: transparent; font: inherit; font-size: 13px; cursor: pointer; }
+.ro-tab-number { font: 11px/1 var(--mono, monospace); color: var(--ro-accent); }
+.ro-tab[aria-selected="true"] { color: #f0eee1; border-color: var(--ro-accent); background: #2a3630; box-shadow: inset 0 -2px var(--ro-accent); }
+.ro-tab:hover { background: #24322e; }
+.ro-tab:focus-visible, .route-overview button:focus-visible { outline: 2px solid #eed1a1; outline-offset: 3px; }
+.ro-content { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(285px, 1fr); align-items: start; border-top: 1px solid #344642; }
+.ro-map-column { min-width: 0; background: #e8e9df; }
+.ro-map-caption { display: flex; flex-wrap: wrap; gap: 7px 12px; align-items: baseline; padding: 13px 18px; border-bottom: 1px solid #c8d0bd; color: #496258; background: #f4f1e7; font-size: 11px; line-height: 1.7; }
+.ro-map-caption strong { flex: 0 0 auto; color: #4a4b3d; font-size: 12px; }
+.ro-map-scroll { position: relative; overflow: auto; scrollbar-width: thin; scrollbar-color: #a3b5a3 #e8e9df; }
+.ro-map { display: block; width: 100%; min-width: 560px; height: auto; background: #e7ece4; }
+.ro-order-line { stroke-width: 4.5; stroke-dasharray: 9 9; stroke-linecap: round; opacity: .95; pointer-events: none; }
+.ro-poi { cursor: pointer; outline: none; transition: opacity .16s ease; }
+.ro-poi.is-muted { opacity: .26; }
+.ro-poi.is-muted:hover, .ro-poi.is-muted:focus { opacity: .9; }
+.ro-poi-dot { stroke: #fffef5; stroke-width: 4; }
+.ro-poi-number { fill: #162c2a; font: 600 22px/1 var(--sans); pointer-events: none; }
+.ro-poi-halo { opacity: .28; stroke: #233e37; stroke-width: 2; }
+.ro-poi.is-selected .ro-poi-dot, .ro-poi:focus .ro-poi-dot { stroke: #263f34; stroke-width: 5; }
+.ro-map-label rect { fill: #fcfaf0; fill-opacity: .94; }
+.ro-map-label text { fill: #304d43; font: 500 23px var(--sans); }
+.ro-label-leader { fill: none; stroke: #526e64; stroke-width: 1.3; opacity: .8; pointer-events: none; }
+.ro-map-error { position: absolute; left: 12px; top: 12px; z-index: 2; margin: 0; max-width: 90%; padding: 10px 14px; border-radius: 6px; color: #374b43; background: #fff8e8; font-size: 13px; }
+.ro-map-error[hidden] { display: none; }
+.ro-legend { display: flex; flex-wrap: wrap; gap: 8px 15px; padding: 12px 18px; color: #4b6559; background: #f4f1e7; font-size: 11px; }
+.ro-legend > span::before { content: ''; display: inline-block; width: 9px; height: 9px; margin-right: 6px; border-radius: 50%; background: var(--ro-accent); }
+.ro-map-help { margin: 0; padding: 0 18px 12px; color: #6c7e72; background: #f4f1e7; font-size: 10px; line-height: 1.6; }
+.ro-map-attribution { display: block; padding-top: 5px; color: #435f53; }
+.ro-panel { position: relative; min-width: 0; max-height: 735px; padding: 23px; overflow: auto; scrollbar-width: thin; scrollbar-color: #465e52 #111d20; }
+.ro-kicker { margin: 0 0 13px; color: #aab99f; font-size: 11px; letter-spacing: .1em; }
+.ro-theme-card { display: grid; grid-template-columns: 30px minmax(0, 1fr); column-gap: 11px; width: 100%; margin: 0 0 12px; padding: 17px 14px; border: 1px solid #3b4d43; border-left: 3px solid var(--ro-accent); border-radius: 6px; color: #e0e5d6; background: #172629; text-align: left; cursor: pointer; }
+.ro-theme-card:hover { background: #233431; border-color: var(--ro-accent); }
+.ro-card-number { grid-row: span 3; color: var(--ro-accent); font: 16px/1.7 var(--mono, monospace); }
+.ro-theme-card strong { font-size: 17px; font-weight: 500; line-height: 1.5; }
+.ro-theme-card small { color: #b6bda6; font-size: 11px; line-height: 1.8; }
+.ro-theme-card p { margin: 7px 0 0; color: #9fb1a6; font-size: 12px; line-height: 1.8; }
+.ro-plan-head { padding-bottom: 13px; border-bottom: 2px solid var(--ro-accent); }
+.ro-plan-head > span { color: var(--ro-accent); }
+.ro-plan-head h3 { margin: 5px 0 8px; color: #edf0e2; font: 400 24px/1.4 var(--serif); }
+.ro-plan-head p, .ro-place-summary { margin: 0; color: #b5c2b6; font-size: 13px; line-height: 1.85; }
+.ro-plan-facts { margin: 12px 0; padding: 0 0 0 11px; border-left: 2px solid #506257; }
+.ro-plan-facts p { margin: 6px 0; color: #a9b9ae; font-size: 12px; line-height: 1.8; }
+.ro-stop-list { margin: 13px 0; padding: 0; list-style: none; }
+.ro-stop-list li + li { margin-top: 5px; }
+.ro-stop { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 40px; padding: 6px 9px; border: 1px solid transparent; border-radius: 5px; color: #bfcbbe; background: transparent; text-align: left; cursor: pointer; }
+.ro-stop span { color: #8ba095; font: 11px var(--mono, monospace); }
+.ro-stop strong { font-size: 13px; font-weight: 500; }
+.ro-stop:hover, .ro-stop[aria-pressed="true"] { border-color: #6e8471; color: #f1ddba; background: #26352e; }
+.ro-optional { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 8px; margin: 10px 0 14px; color: #a3b1a3; font-size: 11px; }
+.ro-optional button { min-height: 32px; padding: 5px 8px; border: 1px dashed #627564; border-radius: 3px; color: #bcc8ba; background: transparent; font: inherit; cursor: pointer; }
+.ro-place-detail { padding-top: 19px; margin-top: 10px; border-top: 1px solid #40554a; }
+.ro-place-detail:first-child { margin-top: 0; padding-top: 0; border: 0; }
+.ro-place-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.ro-place-header h3 { margin: 0; color: #ecebda; font: 400 23px/1.45 var(--serif); }
+.ro-place-close { min-width: 38px; min-height: 38px; border: 0; color: #b2c0b4; background: transparent; font-size: 23px; cursor: pointer; }
+.ro-tags { display: flex; flex-wrap: wrap; gap: 5px; margin: 10px 0 12px; }
+.ro-tags span { padding: 3px 8px; border: 1px solid #4e6255; border-radius: 3px; color: #bdc7ad; font-size: 10px; line-height: 1.7; }
+.ro-album-button, .ro-walk-button { display: block; width: 100%; min-height: 42px; margin-top: 12px; padding: 10px 12px; border: 1px solid #748675; border-radius: 5px; color: #e4e2cd; background: #293b33; font-size: 12px; text-align: left; cursor: pointer; }
+.ro-walk-button { border-color: #a98668; background: #363a2f; color: #f0d6ab; }
+.ro-walk-button small { display: block; margin-top: 4px; color: #c4c5ae; font-size: 10px; line-height: 1.5; }
+.ro-sources { margin-top: 14px; border-top: 1px solid #3a4f44; color: #9faf9e; font-size: 11px; line-height: 1.8; }
+.ro-sources summary { min-height: 37px; padding: 10px 0 3px; cursor: pointer; }
+.ro-sources a { color: #c3cbb0; overflow-wrap: anywhere; }
+.ro-sources small { display: block; color: #91a798; }
+.ro-sources > div { padding: 8px 0; }
+.ro-footnote { margin: 0; padding: 12px 25px; border-top: 1px solid #344642; color: #a2b3a5; font-size: 11px; line-height: 1.8; }
+@media (max-width: 900px) {
+  .ro-content { grid-template-columns: minmax(0, 1.35fr) minmax(255px, 1fr); }
+  .ro-panel { padding: 18px; max-height: 670px; }
+}
+@media (max-width: 700px) {
+  .route-overview { margin: 30px 0; border-radius: 8px; }
+  .ro-heading { padding: 20px 17px 15px; }
+  .ro-heading h2 { font-size: 25px; }
+  .ro-heading > p:last-child { font-size: 12px; }
+  .ro-tabs { padding: 0 16px 16px; }
+  .ro-tab { padding: 9px 13px; font-size: 12px; }
+  .ro-content { display: block; }
+  .ro-map-scroll { max-height: 420px; }
+  .ro-map { min-width: 600px; }
+  .ro-map-caption, .ro-legend { padding-left: 14px; padding-right: 14px; }
+  .ro-panel { max-height: 600px; overflow: auto; padding: 19px 17px; }
+  .ro-theme-card { padding: 13px 12px; }
+  .ro-theme-card strong { font-size: 16px; }
+  .ro-stop-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
+  .ro-stop-list li + li { margin-top: 0; }
+  .ro-stop { min-height: 44px; padding: 6px; }
+  .ro-stop strong { font-size: 12px; }
+  .ro-footnote { padding: 12px 17px; }
+}
+@media (prefers-reduced-motion: reduce) { .ro-poi { transition: none; } }

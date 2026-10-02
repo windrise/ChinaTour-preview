@@ -564,6 +564,14 @@
     if (routes.length) openWalk();
     else { const target = updateEntry(); if (target) { pendingOpen = true; document.dispatchEvent(new CustomEvent('chinatour:select-place', { detail: { placeId: target.id } })); } }
   });
+  document.addEventListener('chinatour:walk-open', event => {
+    const detail = event.detail;
+    if (loading || !detail || detail.placeId !== data?.destination?.id) return;
+    const selected = routes.find(item => item.id === detail.routeId && item.geometry_kind === 'osm_network');
+    if (!selected) return;
+    writeLocation(selected.id);
+    openWalk();
+  });
   $('walk-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('close', () => { setPlaying(false); ++mapVersion; hidePhoto('选择节点查看沿途照片。'); document.body.classList.remove('walk-opened'); writeLocation(null); returnFocus?.focus({ preventScroll: true }); });
   $('walk-progress').addEventListener('input', e => setProgress(Number(e.target.value) / 1000));

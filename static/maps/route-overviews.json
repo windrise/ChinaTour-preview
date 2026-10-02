@@ -1,0 +1,524 @@
+{
+  "version": 1,
+  "destinations": {
+    "dalian": {
+      "title": "先选一片大连，再慢慢走",
+      "intro": "看海、逛街、吃点东西，先在地图上找到适合自己的那一段。",
+      "map": {
+        "image_url": "/static/maps/dalian-route-overview.svg",
+        "width": 1030,
+        "height": 785
+      },
+      "places": [
+        {
+          "id": "heishijiao",
+          "name": "黑石礁公园",
+          "kind": "attraction",
+          "x": 162.323,
+          "y": 639.602,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/377001129",
+            "sha256": "2a3ae523d5a99559cfa7b02f27967c1616799fd792d05ccc6b4a3bbd8863c4ce"
+          },
+          "summary": "礁石海岸与公园，可以与自然博物馆放在同一小段安排。",
+          "tags": [
+            "礁石",
+            "海岸公园"
+          ],
+          "source_ids": [
+            "map"
+          ]
+        },
+        {
+          "id": "natural-museum",
+          "name": "大连自然博物馆",
+          "kind": "attraction",
+          "x": 159.076,
+          "y": 645.724,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/491758384",
+            "sha256": "2a3ae523d5a99559cfa7b02f27967c1616799fd792d05ccc6b4a3bbd8863c4ce"
+          },
+          "summary": "看海之外的室内选择；与黑石礁邻近，入馆前另查预约。",
+          "tags": [
+            "博物馆",
+            "室内备选"
+          ],
+          "source_ids": [
+            "spring23"
+          ]
+        },
+        {
+          "id": "xinghai-park",
+          "name": "星海公园",
+          "kind": "attraction",
+          "x": 188.376,
+          "y": 600.277,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/164817555",
+            "sha256": "2a3ae523d5a99559cfa7b02f27967c1616799fd792d05ccc6b4a3bbd8863c4ce"
+          },
+          "summary": "海滨公园漫步；和星海广场是两个不同地点。",
+          "tags": [
+            "海滨公园",
+            "慢走"
+          ],
+          "source_ids": [
+            "citywalk24"
+          ],
+          "attraction_name": "星海公园"
+        },
+        {
+          "id": "xinghai-square",
+          "name": "星海广场",
+          "kind": "attraction",
+          "x": 286.549,
+          "y": 573.357,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/510083111",
+            "sha256": "5573da69ff558459abec7dd69568e385d93b39eae69ecc21dd6a148fd36e05e6"
+          },
+          "summary": "看星海湾、海鸥和跨海大桥；进入海边慢逛可看沿路风景与摊位线索。",
+          "tags": [
+            "海湾",
+            "大桥",
+            "沿路吃逛"
+          ],
+          "source_ids": [
+            "spring23"
+          ],
+          "attraction_name": "星海广场"
+        },
+        {
+          "id": "lianhuashan",
+          "name": "莲花山观景台",
+          "kind": "attraction",
+          "x": 386.867,
+          "y": 587.785,
+          "precision": "osm_named_node",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/node/12926917301",
+            "sha256": "5573da69ff558459abec7dd69568e385d93b39eae69ecc21dd6a148fd36e05e6"
+          },
+          "summary": "从高处看城市与海湾；可作为海边行程中的登高分支。",
+          "tags": [
+            "登高",
+            "海湾全景"
+          ],
+          "source_ids": [
+            "citywalk24"
+          ],
+          "attraction_name": "莲花山观景台"
+        },
+        {
+          "id": "fujiazhuang",
+          "name": "傅家庄公园",
+          "kind": "attraction",
+          "x": 456.571,
+          "y": 675.691,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/164816992",
+            "sha256": "5573da69ff558459abec7dd69568e385d93b39eae69ecc21dd6a148fd36e05e6"
+          },
+          "summary": "公园与海滨浴场。与星海广场之间的海岸漫游已收录，部分路段仍有缺口。",
+          "tags": [
+            "海滨浴场",
+            "亲海"
+          ],
+          "source_ids": [
+            "map"
+          ],
+          "attraction_name": "傅家庄公园"
+        },
+        {
+          "id": "laohutan",
+          "name": "老虎滩海洋公园",
+          "kind": "attraction",
+          "x": 720.776,
+          "y": 624.879,
+          "precision": "osm_object_bbox_center_not_verified_inside",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/1485203436",
+            "sha256": "2b11f48d67087675ffacfe89e25a4020764058db2966972e40a885c693f3761e"
+          },
+          "summary": "海洋主题公园。想进馆游览时，建议留出独立时段，不与长串沿海点位挤在一起。",
+          "tags": [
+            "海洋公园",
+            "亲子备选"
+          ],
+          "source_ids": [
+            "map"
+          ],
+          "attraction_name": "老虎滩海洋公园"
+        },
+        {
+          "id": "fisher-wharf",
+          "name": "渔人码头",
+          "kind": "attraction",
+          "x": 751.966,
+          "y": 606.928,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/1116720902",
+            "sha256": "608622561f3e3fc71bc1dd36c7292ee2fc9b79969fbfa81a83567da61c2924d3"
+          },
+          "summary": "以码头为停留点看港湾，可与老虎滩片区一起取舍。",
+          "tags": [
+            "码头",
+            "港湾"
+          ],
+          "source_ids": [
+            "spring23"
+          ]
+        },
+        {
+          "id": "bangchuidao",
+          "name": "棒棰岛海滨浴场",
+          "kind": "attraction",
+          "x": 879.14,
+          "y": 533.761,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/377811360",
+            "sha256": "2a3ae523d5a99559cfa7b02f27967c1616799fd792d05ccc6b4a3bbd8863c4ce"
+          },
+          "summary": "山海景区中的海滨浴场；图上标记为浴场区域，并非景区入口。",
+          "tags": [
+            "海滩",
+            "山海"
+          ],
+          "source_ids": [
+            "spring23"
+          ],
+          "attraction_name": "棒棰岛"
+        },
+        {
+          "id": "haizhiyun",
+          "name": "海之韵公园",
+          "kind": "attraction",
+          "x": 863.392,
+          "y": 450.706,
+          "precision": "osm_named_node",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/node/4421390011",
+            "sha256": "2a3ae523d5a99559cfa7b02f27967c1616799fd792d05ccc6b4a3bbd8863c4ce"
+          },
+          "summary": "从东港向山海延伸的一站；公园范围较大，先决定想走的园内部分。",
+          "tags": [
+            "山地公园",
+            "海岸"
+          ],
+          "source_ids": [
+            "spring23"
+          ],
+          "attraction_name": "海之韵公园"
+        },
+        {
+          "id": "gangdong5",
+          "name": "港东五街",
+          "kind": "attraction",
+          "x": 786.789,
+          "y": 343.025,
+          "precision": "osm_way_original_node_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/482649502",
+            "sha256": "2a3ae523d5a99559cfa7b02f27967c1616799fd792d05ccc6b4a3bbd8863c4ce"
+          },
+          "summary": "东港片区的一条街道，可顺路辨认位置；图上标记是街道路点，不是固定拍摄机位。",
+          "tags": [
+            "街道",
+            "顺路备选"
+          ],
+          "source_ids": [
+            "map"
+          ]
+        },
+        {
+          "id": "water-city",
+          "name": "东方威尼斯水城",
+          "kind": "attraction",
+          "x": 754.257,
+          "y": 299.565,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/1164551346",
+            "sha256": "2a3ae523d5a99559cfa7b02f27967c1616799fd792d05ccc6b4a3bbd8863c4ce"
+          },
+          "summary": "沿运河与街巷慢逛，适合与东港木栈道、喷泉广场组成短线。",
+          "tags": [
+            "运河",
+            "街巷",
+            "慢逛"
+          ],
+          "source_ids": [
+            "citywalk24"
+          ],
+          "attraction_name": "东方威尼斯水城"
+        },
+        {
+          "id": "donggang",
+          "name": "东港音乐喷泉广场",
+          "kind": "attraction",
+          "x": 704.274,
+          "y": 269.796,
+          "precision": "osm_named_node",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/node/7673272795",
+            "sha256": "773822f7e99bca330bb42df065920539254cd9eea8f3443022d37d1e7c5df6b9"
+          },
+          "summary": "滨海广场与木栈道片区。喷泉是否演出、演出时间以当日公告为准。",
+          "tags": [
+            "海滨广场",
+            "木栈道",
+            "夜景备选"
+          ],
+          "source_ids": [
+            "citywalk24"
+          ],
+          "attraction_name": "东港音乐喷泉广场"
+        },
+        {
+          "id": "dongguan",
+          "name": "东关街历史文化街区",
+          "kind": "food",
+          "x": 443.485,
+          "y": 343.413,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/891418420",
+            "sha256": "608622561f3e3fc71bc1dd36c7292ee2fc9b79969fbfa81a83567da61c2924d3"
+          },
+          "summary": "百年街区里穿插老菜、小吃与文化空间。来源曾报道节假日市集，不代表每天都有相同摊位。",
+          "tags": [
+            "历史街区",
+            "小吃",
+            "文创"
+          ],
+          "source_ids": [
+            "dongguan25"
+          ]
+        },
+        {
+          "id": "russian-street",
+          "name": "俄罗斯风情街",
+          "kind": "attraction",
+          "x": 516.027,
+          "y": 290.708,
+          "precision": "osm_object_bbox_center_not_verified_inside",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/38826527",
+            "sha256": "773822f7e99bca330bb42df065920539254cd9eea8f3443022d37d1e7c5df6b9"
+          },
+          "summary": "从胜利桥片区进入历史街区，可把街巷与美术馆周边放在同一段走。",
+          "tags": [
+            "历史街巷",
+            "建筑"
+          ],
+          "source_ids": [
+            "citywalk24"
+          ],
+          "attraction_name": "俄罗斯风情街"
+        },
+        {
+          "id": "zhongshan",
+          "name": "中山广场",
+          "kind": "attraction",
+          "x": 555.158,
+          "y": 329.176,
+          "precision": "osm_object_bbox_center_not_verified_inside",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/971609007",
+            "sha256": "2b11f48d67087675ffacfe89e25a4020764058db2966972e40a885c693f3761e"
+          },
+          "summary": "围绕广场看近代建筑群，再按兴趣接往老街或南山。",
+          "tags": [
+            "近代建筑",
+            "城市漫步"
+          ],
+          "source_ids": [
+            "spring23"
+          ],
+          "attraction_name": "中山广场"
+        },
+        {
+          "id": "nanshan",
+          "name": "南山路",
+          "kind": "food",
+          "x": 592.613,
+          "y": 371.681,
+          "precision": "osm_way_original_node_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/232981741",
+            "sha256": "608622561f3e3fc71bc1dd36c7292ee2fc9b79969fbfa81a83567da61c2924d3"
+          },
+          "summary": "咖啡、文创与特色餐饮穿插在街区里，适合边逛边停；假期市集另看活动日期。",
+          "tags": [
+            "咖啡",
+            "文创",
+            "街边吃逛"
+          ],
+          "source_ids": [
+            "nanshan26"
+          ]
+        },
+        {
+          "id": "railway",
+          "name": "大连站",
+          "kind": "hub",
+          "x": 504.095,
+          "y": 317.495,
+          "precision": "osm_object_bbox_center_not_verified_inside",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/1496795036",
+            "sha256": "2b11f48d67087675ffacfe89e25a4020764058db2966972e40a885c693f3761e"
+          },
+          "summary": "位于老城片区；到站后可先选老城路线。图上是车站区域代表点。",
+          "tags": [
+            "铁路枢纽"
+          ],
+          "source_ids": [
+            "map"
+          ]
+        },
+        {
+          "id": "airport",
+          "name": "大连周水子国际机场",
+          "kind": "hub",
+          "x": 70.086,
+          "y": 61.04,
+          "precision": "osm_area_interior_representative",
+          "coordinate_source": {
+            "url": "https://www.openstreetmap.org/way/93166761",
+            "sha256": "2be6f231ed7a9b1ba710abf29a49bbcd0e2b940b6346c3afbac467cc5787147a"
+          },
+          "summary": "周水子机场与滨海游览区不在同一片区，先安排进城交通。",
+          "tags": [
+            "航空枢纽"
+          ],
+          "source_ids": [
+            "map"
+          ]
+        }
+      ],
+      "themes": [
+        {
+          "id": "west-coast",
+          "title": "西岸 · 看海与登高",
+          "subtitle": "礁石 / 公园 / 大桥 / 浴场",
+          "summary": "从黑石礁到星海湾，看礁石、海滨公园与跨海大桥；再按体力选择登高或继续去浴场。",
+          "plan_note": "慢逛先选星海公园—星海广场；喜欢礁石加黑石礁，想看全景加莲花山。自然博物馆可作室内备选。",
+          "transport_note": "景点内步行，跨片区可选择公交或打车；未核验具体班次。星海到傅家庄并非已确认全程可走的岸线，海岸漫游中保留断点。",
+          "stop_ids": [
+            "heishijiao",
+            "xinghai-park",
+            "xinghai-square",
+            "lianhuashan",
+            "fujiazhuang"
+          ],
+          "optional_stop_ids": [
+            "natural-museum"
+          ],
+          "walk_route_ids": [
+            "dalian-1-walk-1",
+            "dalian-cycle-1",
+            "dalian-xinghai-fujiazhuang-coast"
+          ],
+          "source_ids": [
+            "citywalk24",
+            "spring23"
+          ]
+        },
+        {
+          "id": "east-coast",
+          "title": "东岸 · 港湾与水城",
+          "subtitle": "码头 / 山海 / 运河 / 海滨广场",
+          "summary": "把渔港、自然海岸和东港街区分开看：想轻松逛选东港一段，想看山海再加公园或浴场。",
+          "plan_note": "轻松短线选水城—东港；喜欢港湾加渔人码头。棒棰岛、海之韵或老虎滩按兴趣选一项深入，不必一天打卡全部。",
+          "transport_note": "渔人码头、棒棰岛、海之韵与东港之间安排转场；虚线只表达游览顺序。水城局部有可展开的街巷步道。",
+          "stop_ids": [
+            "fisher-wharf",
+            "bangchuidao",
+            "haizhiyun",
+            "water-city",
+            "donggang"
+          ],
+          "optional_stop_ids": [
+            "laohutan",
+            "gangdong5"
+          ],
+          "walk_route_ids": [
+            "dalian-4-walk-1"
+          ],
+          "source_ids": [
+            "citywalk24",
+            "spring23"
+          ]
+        },
+        {
+          "id": "old-town",
+          "title": "老城 · 建筑与吃逛",
+          "subtitle": "老街 / 小吃 / 建筑 / 咖啡",
+          "summary": "街区里穿插小吃、建筑和咖啡停留。东关街看烟火气，中山广场看建筑，南山适合慢慢逛。",
+          "plan_note": "以大连站附近为参照，按东关街—俄罗斯风情街—中山广场—南山的顺序选点；用吃饭和咖啡做中途休息。",
+          "transport_note": "街区内步行，街区之间自行选择公共交通或步行转场；未将地图直线换算成步行路程。节日市集的规模和开放日需另核对。",
+          "stop_ids": [
+            "dongguan",
+            "russian-street",
+            "zhongshan",
+            "nanshan"
+          ],
+          "optional_stop_ids": [],
+          "walk_route_ids": [],
+          "source_ids": [
+            "citywalk24",
+            "dongguan25",
+            "nanshan26"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "citywalk24",
+          "title": "大连晚报 · 城市漫步与滨海路线（2024）",
+          "url": "https://dalian.runsky.com/2024-04/02/content_6238733.html",
+          "published_at": "2024-04-02",
+          "checked_at": "2026-10-02"
+        },
+        {
+          "id": "spring23",
+          "title": "大连日报 · 文旅场景与城市漫游（2023）",
+          "url": "https://dalian.runsky.com/2023-04/19/content_6222623.html",
+          "published_at": "2023-04-19",
+          "checked_at": "2026-10-02"
+        },
+        {
+          "id": "dongguan25",
+          "title": "大连日报 · 东关街小吃与文化街区（2025 五一报道）",
+          "url": "https://dalian.runsky.com/2025-05/02/content_6256030.html",
+          "published_at": "2025-05-02",
+          "checked_at": "2026-10-02"
+        },
+        {
+          "id": "nanshan26",
+          "title": "大连日报 · 南山咖啡、文创与生活节（2026 五一报道）",
+          "url": "https://dalian.runsky.com/2026-05/08/content_7013953.html",
+          "published_at": "2026-05-08",
+          "checked_at": "2026-10-02"
+        },
+        {
+          "id": "map",
+          "title": "OpenStreetMap · 地点与街道分布",
+          "url": "https://www.openstreetmap.org/copyright",
+          "published_at": null,
+          "checked_at": "2026-10-02"
+        }
+      ],
+      "note": "主题与游览顺序由已注明来源的地点资料编排；虚线不是导航路线。地图为区域代表位置，实景照片仍按各自地点与时间审核。"
+    }
+  }
+}
