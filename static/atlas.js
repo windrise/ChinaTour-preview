@@ -178,7 +178,7 @@
     }
   }
   function showDestination(target='#month-explorer',update=true) {
-    target=target==='#destination-map'?target:'#month-explorer';
+    target=['#destination-map','#immersive-routes'].includes(target)?target:'#month-explorer';
     cancelJourney();document.body.classList.remove('atlas-landing');entry.setAttribute('aria-hidden','true');
     $a('#atlas-home').classList.remove('active');
     if(update)writeAtlasUrl({view:'destination',target});

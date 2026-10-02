@@ -393,11 +393,9 @@
         "photos": []
       },
       "unknown": {
-        "evidence_count": 1,
+        "evidence_count": 0,
         "photo_count": 0,
-        "evidence_ids": [
-          "ev_0b2d434046ae4366"
-        ],
+        "evidence_ids": [],
         "photos": []
       }
     },
@@ -477,97 +475,6 @@
         "exact_album_peers": [],
         "partial_shared_peers": [],
         "independence_status": "no_visual_evidence"
-      },
-      "visual_independence_pending": false
-    },
-    {
-      "id": "ev_0b2d434046ae4366",
-      "place_id": "fuxianhu",
-      "title": "抚仙湖，中国第3深湖，深度155-157米。第一长白山天池，第二是喀纳斯湖，第三抚仙湖。 传说湖里有神秘古城、站着的尸体、大金字塔。 今儿带家人",
-      "excerpt": "点击原帖查看作者正文与完整说明。",
-      "published_at": null,
-      "fetched_at": "2026-09-21T15:50:49.430036+00:00",
-      "observed_start": null,
-      "observed_end": null,
-      "month": null,
-      "year": null,
-      "kind": "background",
-      "aspect": null,
-      "value": null,
-      "valid_until": null,
-      "status": "accepted",
-      "url": "https://weibo.com/1192966660/OzwDpmB4j",
-      "publisher": "韩路",
-      "place_name": "抚仙湖",
-      "media_count": 2,
-      "media_status": "link_only",
-      "source_type": "weibo",
-      "time_basis": "unknown",
-      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
-      "published_label": "24-10-1 14:11 已编辑",
-      "captured_at": "2026-09-21T15:50:49.430036+00:00",
-      "topics": [],
-      "media": [],
-      "claims": [],
-      "confidence_label": "拍摄时间未知",
-      "material_date": "2024-10-01",
-      "material_time_basis": "页面短年份编辑日期（按2000年代解析），非拍摄日期",
-      "visit_period": {
-        "kind": "unknown",
-        "id": "unknown",
-        "holiday": null,
-        "label": "时间待确认",
-        "basis": "unconfirmed",
-        "support_excerpt": "",
-        "basis_label": "原文未确认到访时段",
-        "source_url": "https://weibo.com/1192966660/OzwDpmB4j"
-      },
-      "browse_month": 10,
-      "browse_year": 2024,
-      "browse_time_basis": "publication_month",
-      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
-      "visual_content": {
-        "analyzed": 2,
-        "total": 2,
-        "scene_counts": {
-          "water": 1
-        }
-      },
-      "media_review": {
-        "original_count": 2,
-        "approved_count": 0,
-        "hidden_count": 2
-      },
-      "visual_analysis": {
-        "media_total": 2,
-        "analyzed_media": 2,
-        "full_pixel_media": 2,
-        "missing_media_ids": [],
-        "coverage": 1.0,
-        "complete": true,
-        "media": [
-          {
-            "id": "ac4a8258634f7551041f59e7",
-            "ordinal": 1,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "dc5fb4c4d48dd04a1e67744b",
-            "ordinal": 2,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          }
-        ],
-        "exact_album_peers": [],
-        "partial_shared_peers": [],
-        "independence_status": "no_exact_overlap_found"
       },
       "visual_independence_pending": false
     }
@@ -7656,6 +7563,16 @@
       "holiday": 0,
       "unknown": 0
     }
+  },
+  "immersive_routes": {
+    "items": [],
+    "available_destinations": [
+      {
+        "id": "suzhou",
+        "name": "苏州"
+      }
+    ],
+    "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"
   },
   "nearby": {
     "origin": null,

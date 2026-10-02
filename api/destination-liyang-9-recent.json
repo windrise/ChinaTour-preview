@@ -45,10 +45,9 @@
           "photos": []
         },
         "unknown": {
-          "evidence_count": 6,
+          "evidence_count": 5,
           "photo_count": 6,
           "evidence_ids": [
-            "ev_94313cc9590e48a6",
             "ev_3c4986f77eb84f19",
             "ev_aa15a339cd2a49f1",
             "ev_11dd159aa3f7434e",
@@ -431,17 +430,15 @@
           "photos": []
         },
         "unknown": {
-          "evidence_count": 11,
+          "evidence_count": 9,
           "photo_count": 6,
           "evidence_ids": [
             "ev_cf65df2319bf45ec",
-            "ev_92d04cb36b08475b",
             "ev_43dd094df3e4497f",
             "ev_30944b70d7404c30",
             "ev_e47ceb2c164941e0",
             "ev_656df51f237542d5",
             "ev_ac34d33d6e654b68",
-            "ev_a6c2a8d510d943ef",
             "ev_7e9775cab0334168",
             "ev_6aab69d8af2843f3",
             "ev_6fd5c12669d245c0"
@@ -2174,160 +2171,6 @@
   "area_album": null,
   "evidence": [
     {
-      "id": "ev_94313cc9590e48a6",
-      "place_id": "place_a56c09bc013d4921",
-      "title": "20240928。天目湖山水园现在多了个名字，宴夜天目湖，里面弄了个晒秋，让小朋友玩水的时候，了解秋天农家晒秋茶、晒秋收农作物，在茶村体验晒秋的",
-      "excerpt": "点击原帖查看作者正文与完整说明。",
-      "published_at": null,
-      "fetched_at": "2026-09-20T10:47:44.200064+00:00",
-      "observed_start": "2024-09-28",
-      "observed_end": "2024-09-28",
-      "month": 9,
-      "year": 2024,
-      "kind": "observation",
-      "aspect": null,
-      "value": null,
-      "valid_until": null,
-      "status": "accepted",
-      "url": "https://weibo.com/2275491451/OzefHgpl6",
-      "publisher": "八姑婆-",
-      "place_name": "天目湖山水园",
-      "media_count": 9,
-      "media_status": "link_only",
-      "source_type": "weibo",
-      "time_basis": "author_explicit_date",
-      "time_excerpt": "原帖开头日期与游览叙述「20240928。天目湖山水园现在多了个名字,宴夜天目湖,里面弄了个晒秋,让小朋友玩水的时候,了解秋天农家晒秋茶、晒秋收农作物,在茶村体验晒秋的乐趣,感受丰收的喜悦,蛮好溧阳·天目湖山水园 。 ​​​」；作者自注日期，照片日期未独立核验",
-      "published_label": "24-9-29 15:23",
-      "captured_at": "2026-09-20T10:47:44.200064+00:00",
-      "topics": [
-        "湖泊"
-      ],
-      "media": [],
-      "claims": [],
-      "confidence_label": "作者明确日期 · 照片未独立核验",
-      "material_date": "2024-09-29",
-      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
-      "visit_period": {
-        "kind": "unknown",
-        "id": "unknown",
-        "holiday": null,
-        "label": "时间待确认",
-        "basis": "unconfirmed",
-        "support_excerpt": "",
-        "basis_label": "原文未确认到访时段",
-        "source_url": "https://weibo.com/2275491451/OzefHgpl6"
-      },
-      "browse_month": 9,
-      "browse_year": 2024,
-      "browse_time_basis": "author_explicit_date",
-      "browse_time_label": "作者明确日期 · 照片未独立核验",
-      "visual_content": {
-        "analyzed": 9,
-        "total": 9,
-        "scene_counts": {}
-      },
-      "media_review": {
-        "original_count": 9,
-        "approved_count": 0,
-        "hidden_count": 9
-      },
-      "visual_analysis": {
-        "media_total": 9,
-        "analyzed_media": 9,
-        "full_pixel_media": 9,
-        "missing_media_ids": [],
-        "coverage": 1.0,
-        "complete": true,
-        "media": [
-          {
-            "id": "53e479ef096f867b3b529df7",
-            "ordinal": 1,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "8e692e494fc68ce77cc8a4ef",
-            "ordinal": 2,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "81c6e114e05bc45be85ca87d",
-            "ordinal": 3,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "21a32a74185b50eefb8f3764",
-            "ordinal": 4,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "dabfd4086274b77d051a57c6",
-            "ordinal": 5,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "d2cc5394d390c650ac7a0fb8",
-            "ordinal": 6,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "4b0b1c08901b80652310bba8",
-            "ordinal": 7,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "4d84b8dc483595d353643aca",
-            "ordinal": 8,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "00fa4681e27c1efea3870edd",
-            "ordinal": 9,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          }
-        ],
-        "exact_album_peers": [],
-        "partial_shared_peers": [],
-        "independence_status": "no_exact_overlap_found"
-      },
-      "visual_independence_pending": false
-    },
-    {
       "id": "ev_cf65df2319bf45ec",
       "place_id": "place_e110a91eefb442ea",
       "title": "2026.9.19常州溧阳南山竹海跑游",
@@ -2397,234 +2240,6 @@
         "exact_album_peers": [],
         "partial_shared_peers": [],
         "independence_status": "no_visual_evidence"
-      },
-      "visual_independence_pending": false
-    },
-    {
-      "id": "ev_92d04cb36b08475b",
-      "place_id": "place_e110a91eefb442ea",
-      "title": "溧阳亲子游Day2 能让鹿宝全程没有喊累，还主动牵一路🐶可可的一天就是最到位的👏 为了方便大家参考，我把行程分两段写哈，今天早上10:00到下午",
-      "excerpt": "点击原帖查看作者正文与完整说明。",
-      "published_at": null,
-      "fetched_at": "2026-09-20T09:42:39.942522+00:00",
-      "observed_start": "2024-09-29",
-      "observed_end": "2024-09-29",
-      "month": 9,
-      "year": 2024,
-      "kind": "observation",
-      "aspect": null,
-      "value": null,
-      "valid_until": null,
-      "status": "accepted",
-      "url": "https://weibo.com/7216240984/Ozgp5t6vt",
-      "publisher": "鹿宝妈妈_",
-      "place_name": "南山竹海",
-      "media_count": 17,
-      "media_status": "link_only",
-      "source_type": "weibo",
-      "time_basis": "author_relative_date",
-      "time_excerpt": "推算 2024-09-29：正文「今天早上10:00到下午14:00都是在南山竹海这个溧阳著名景点度过的逛下来我觉得非常适合亲子带娃,可逛性挺高的,不仅仅是单纯的一个风景秀丽的地方~」；原帖日期 2024-09-29（页面未标注编辑）",
-      "published_label": "24-9-29 20:52",
-      "captured_at": "2026-09-20T09:42:39.942522+00:00",
-      "topics": [
-        "竹林"
-      ],
-      "media": [],
-      "claims": [],
-      "confidence_label": "相对时间推算 · 现场日期未独立核验",
-      "material_date": "2024-09-29",
-      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
-      "visit_period": {
-        "kind": "unknown",
-        "id": "unknown",
-        "holiday": null,
-        "label": "时间待确认",
-        "basis": "unconfirmed",
-        "support_excerpt": "",
-        "basis_label": "原文未确认到访时段",
-        "source_url": "https://weibo.com/7216240984/Ozgp5t6vt"
-      },
-      "browse_month": 9,
-      "browse_year": 2024,
-      "browse_time_basis": "author_relative_date",
-      "browse_time_label": "相对时间推算 · 现场日期未独立核验",
-      "visual_content": {
-        "analyzed": 17,
-        "total": 17,
-        "scene_counts": {
-          "vegetation": 1
-        }
-      },
-      "media_review": {
-        "original_count": 17,
-        "approved_count": 0,
-        "hidden_count": 17
-      },
-      "visual_analysis": {
-        "media_total": 17,
-        "analyzed_media": 17,
-        "full_pixel_media": 17,
-        "missing_media_ids": [],
-        "coverage": 1.0,
-        "complete": true,
-        "media": [
-          {
-            "id": "9f000a26721d744fb2663084",
-            "ordinal": 1,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "5ead210ca9fd6b8f43dd8df9",
-            "ordinal": 2,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "9a43458dccef9d9abdf7ea6d",
-            "ordinal": 3,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "faa44723a749d8f4eb968b55",
-            "ordinal": 4,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "31dbc2c5d407a03047c656be",
-            "ordinal": 5,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "c1911c3baafdf2cc29d3b90b",
-            "ordinal": 6,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "2b0e82a9cb5c53c2f802c1f9",
-            "ordinal": 7,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "8377e6bd70e9e8ffd1677da9",
-            "ordinal": 8,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "f6a70ff26d141f3754a700f7",
-            "ordinal": 9,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "221af10c71c904d10af4b420",
-            "ordinal": 10,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "e1976cf78148a2e2b6fdcf40",
-            "ordinal": 11,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "b966104c121c6488af58b4bb",
-            "ordinal": 12,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "71eba289dc2f9e27675dc118",
-            "ordinal": 13,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "226df2f7ca1601f9ca2e499f",
-            "ordinal": 14,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "13a0a083f62d4fe8e730d190",
-            "ordinal": 15,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "363ece838c05fe82a43a990c",
-            "ordinal": 16,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "1facad0ea82a88280adfd896",
-            "ordinal": 17,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          }
-        ],
-        "exact_album_peers": [],
-        "partial_shared_peers": [],
-        "independence_status": "no_exact_overlap_found"
       },
       "visual_independence_pending": false
     },
@@ -6003,163 +5618,6 @@
         "exact_album_peers": [],
         "partial_shared_peers": [],
         "independence_status": "no_visual_evidence"
-      },
-      "visual_independence_pending": false
-    },
-    {
-      "id": "ev_a6c2a8d510d943ef",
-      "place_id": "place_e110a91eefb442ea",
-      "title": "趁着最后一天上班的早八人们还没醒，我们一大早5点20天还没亮就开车出发了，果然完美避开了离沪拥堵高峰时间～ 打卡溧阳南山竹海～的确是漫山遍野的竹",
-      "excerpt": "点击原帖查看作者正文与完整说明。",
-      "published_at": null,
-      "fetched_at": "2026-09-20T10:47:44.197561+00:00",
-      "observed_start": null,
-      "observed_end": null,
-      "month": null,
-      "year": null,
-      "kind": "background",
-      "aspect": null,
-      "value": null,
-      "valid_until": null,
-      "status": "accepted",
-      "url": "https://weibo.com/2303852471/OzpTytTcv",
-      "publisher": "Bonnie加加油",
-      "place_name": "南山竹海",
-      "media_count": 9,
-      "media_status": "link_only",
-      "source_type": "weibo",
-      "time_basis": "unknown",
-      "time_excerpt": "原帖未明确现场月份；发布时间不代替拍摄时间",
-      "published_label": "24-9-30 21:02",
-      "captured_at": "2026-09-20T10:47:44.197561+00:00",
-      "topics": [
-        "竹林"
-      ],
-      "media": [],
-      "claims": [],
-      "confidence_label": "拍摄时间未知",
-      "material_date": "2024-09-30",
-      "material_time_basis": "页面短年份发布日期（按2000年代解析），非拍摄日期",
-      "visit_period": {
-        "kind": "unknown",
-        "id": "unknown",
-        "holiday": null,
-        "label": "时间待确认",
-        "basis": "unconfirmed",
-        "support_excerpt": "",
-        "basis_label": "原文未确认到访时段",
-        "source_url": "https://weibo.com/2303852471/OzpTytTcv"
-      },
-      "browse_month": 9,
-      "browse_year": 2024,
-      "browse_time_basis": "publication_month",
-      "browse_time_label": "按发布月份暂归档 · 拍摄时间未知",
-      "visual_content": {
-        "analyzed": 9,
-        "total": 9,
-        "scene_counts": {
-          "mountain": 1,
-          "vegetation": 1
-        }
-      },
-      "media_review": {
-        "original_count": 9,
-        "approved_count": 0,
-        "hidden_count": 9
-      },
-      "visual_analysis": {
-        "media_total": 9,
-        "analyzed_media": 9,
-        "full_pixel_media": 9,
-        "missing_media_ids": [],
-        "coverage": 1.0,
-        "complete": true,
-        "media": [
-          {
-            "id": "4e7fbcc006bd940040806e83",
-            "ordinal": 1,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "5f3fcf0c8911dc95c3a7167f",
-            "ordinal": 2,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "7292b8319aeb4423311cde38",
-            "ordinal": 3,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "5a0edfd852a8fd0894395b19",
-            "ordinal": 4,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "0f5a8d3ad9445f6a65c06ed4",
-            "ordinal": 5,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "eaee2b7c34c066236bff9a4e",
-            "ordinal": 6,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "cfa048a8f031bec26425218c",
-            "ordinal": 7,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "532cc762a92af1b17136f634",
-            "ordinal": 8,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "ad3f7b909fd6d289fa34d51b",
-            "ordinal": 9,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          }
-        ],
-        "exact_album_peers": [],
-        "partial_shared_peers": [],
-        "independence_status": "no_exact_overlap_found"
       },
       "visual_independence_pending": false
     },
@@ -28489,6 +27947,16 @@
       "holiday": 2,
       "unknown": 6
     }
+  },
+  "immersive_routes": {
+    "items": [],
+    "available_destinations": [
+      {
+        "id": "suzhou",
+        "name": "苏州"
+      }
+    ],
+    "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"
   },
   "nearby": {
     "origin": {

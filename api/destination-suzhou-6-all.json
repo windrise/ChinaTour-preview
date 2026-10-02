@@ -14007,6 +14007,177 @@
       "unknown": 3
     }
   },
+  "immersive_routes": {
+    "items": [
+      {
+        "title": "古城慢逛：园林与平江路",
+        "subtitle": "园林 · 古城街巷",
+        "summary": "取自同一篇已核对攻略的第1天节点顺序。用于先看地点与沿途资料；部分停靠点已省略，图中连线不代表全程可步行，交通衔接、实际步行线形及用时待核实。",
+        "id": "suzhou-oldtown-walk",
+        "guide_id": "suzhou-three-day-catalog-outline",
+        "route_type": "citywalk",
+        "geometry_kind": "node_connections",
+        "map_url": "/static/maps/suzhou-oldtown-walks.json",
+        "bounds": [
+          31.31,
+          120.615,
+          31.331,
+          120.638
+        ],
+        "nodes": [
+          {
+            "id": "suzhou-oldtown-walk-stop-1",
+            "name": "拙政园",
+            "attraction_name": "拙政园",
+            "attraction_id": "place_4f716ad781e94bdc",
+            "lat": 31.3264725,
+            "lon": 120.6247266,
+            "note": "园林参观；地点坐标为区域代表点，不是入园口。",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/way/468359738",
+              "label": "OpenStreetMap 地点代表坐标"
+            }
+          },
+          {
+            "id": "suzhou-oldtown-walk-stop-2",
+            "name": "狮子林",
+            "attraction_name": "狮子林",
+            "attraction_id": "place_5a1ab30e3dd249f1",
+            "lat": 31.3231111,
+            "lon": 120.6248316,
+            "note": "原帖同日安排了两座园林，可按体力二选一；园内步道尚未核对。",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/way/44679451",
+              "label": "OpenStreetMap 地点代表坐标"
+            }
+          },
+          {
+            "id": "suzhou-oldtown-walk-stop-3",
+            "name": "平江历史文化街区",
+            "attraction_name": "平江历史文化街区",
+            "attraction_id": "place_b27020754ec3482c",
+            "lat": 31.3149294,
+            "lon": 120.6296912,
+            "note": "沿平江路与支巷散步；当前未核对各巷通行与具体连接方式。",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12104035258",
+              "label": "OpenStreetMap 地点代表坐标"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。",
+        "source_guide_title": "三日苏州：古城、园林与金鸡湖",
+        "sources": [
+          {
+            "title": "苏州📍三天两夜｜不绕路版保姆级逛吃攻略",
+            "url": "https://www.xiaohongshu.com/explore/6a8ff7f6000000002003c6b2",
+            "publisher": "墨晔",
+            "published_at": "2026-08-27",
+            "checked_at": "2026-09-21"
+          }
+        ],
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": "https://www.xiaohongshu.com/explore/6a8ff7f6000000002003c6b2"
+        }
+      },
+      {
+        "title": "园林与水巷：虎丘到山塘街",
+        "subtitle": "山间景观 · 园林 · 街巷",
+        "summary": "取自同一篇已核对攻略的第2天节点顺序。用于先看地点与沿途资料；部分停靠点已省略，图中连线不代表全程可步行，交通衔接、实际步行线形及用时待核实。",
+        "id": "suzhou-gardens-walk",
+        "guide_id": "suzhou-three-day-catalog-outline",
+        "route_type": "citywalk",
+        "geometry_kind": "node_connections",
+        "map_url": "/static/maps/suzhou-gardens-walks.json",
+        "bounds": [
+          31.308,
+          120.565,
+          31.344,
+          120.607
+        ],
+        "nodes": [
+          {
+            "id": "suzhou-gardens-walk-stop-1",
+            "name": "虎丘山风景名胜区",
+            "attraction_name": "虎丘山风景名胜区",
+            "attraction_id": "place_dd31877c46254d97",
+            "lat": 31.3375463,
+            "lon": 120.5764425,
+            "note": "虎丘塔及山间景观；图中点是景区代表点，不是登山起点。",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/way/161416532",
+              "label": "OpenStreetMap 地点代表坐标"
+            }
+          },
+          {
+            "id": "suzhou-gardens-walk-stop-2",
+            "name": "留园",
+            "attraction_name": "留园",
+            "attraction_id": "place_1344eacbcaf247c9",
+            "lat": 31.3176233,
+            "lon": 120.5882673,
+            "note": "沿用原帖第2天的景点先后顺序；中间另有寒山寺和枫桥，已略去。",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/way/420034522",
+              "label": "OpenStreetMap 地点代表坐标"
+            }
+          },
+          {
+            "id": "suzhou-gardens-walk-stop-3",
+            "name": "山塘街",
+            "attraction_name": "山塘街",
+            "attraction_id": "place_b60f579ea22048af",
+            "lat": 31.3201022,
+            "lon": 120.59745,
+            "note": "原帖安排晚间逛街；坐船另计，未核对运营时间。",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5151296022",
+              "label": "OpenStreetMap 地点代表坐标"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。",
+        "source_guide_title": "三日苏州：古城、园林与金鸡湖",
+        "sources": [
+          {
+            "title": "苏州📍三天两夜｜不绕路版保姆级逛吃攻略",
+            "url": "https://www.xiaohongshu.com/explore/6a8ff7f6000000002003c6b2",
+            "publisher": "墨晔",
+            "published_at": "2026-08-27",
+            "checked_at": "2026-09-21"
+          }
+        ],
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": "https://www.xiaohongshu.com/explore/6a8ff7f6000000002003c6b2"
+        }
+      }
+    ],
+    "available_destinations": [
+      {
+        "id": "suzhou",
+        "name": "苏州"
+      }
+    ],
+    "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"
+  },
   "nearby": {
     "origin": {
       "destination_id": "suzhou",

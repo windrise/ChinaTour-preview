@@ -9,20 +9,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&amp;family=Noto+Serif+SC:wght@400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="./static/style.css?v=77029fe95080">
-  <link rel="stylesheet" href="./static/atlas.css?v=77029fe95080">
-  <link rel="stylesheet" href="./static/visitation.css?v=77029fe95080">
-  <script defer src="./static/visitation.js?v=77029fe95080"></script>
-  <script defer src='./preview-config.js?v=77029fe95080'></script>
-  <script defer src='./static/preview.js?v=77029fe95080'></script>
-  <script defer src="./static/app.js?v=77029fe95080"></script>
-  <script defer src="./static/atlas.js?v=77029fe95080"></script>
+  <link rel="stylesheet" href="./static/style.css?v=3273cf08c9f9">
+  <link rel="stylesheet" href="./static/atlas.css?v=3273cf08c9f9">
+  <link rel="stylesheet" href="./static/visitation.css?v=3273cf08c9f9">
+  <link rel="stylesheet" href="./static/immersive-routes.css?v=3273cf08c9f9">
+  <script defer src="./static/visitation.js?v=3273cf08c9f9"></script>
+  <script defer src="./static/immersive-routes.js?v=3273cf08c9f9"></script>
+  <script defer src='./preview-config.js?v=3273cf08c9f9'></script>
+  <script defer src='./static/preview.js?v=3273cf08c9f9'></script>
+  <script defer src="./static/app.js?v=3273cf08c9f9"></script>
+  <script defer src="./static/atlas.js?v=3273cf08c9f9"></script>
 </head>
 <body class="atlas-mode atlas-landing">
   <div class="site-shell">
     <header class="site-header">
       <a class="brand" href="./" aria-label="行知首页"><span class="brand-seal" aria-hidden="true">行</span><span class="brand-copy"><strong>行知</strong><em>FIELD NOTES · CHINA</em></span></a>
-      <nav class="header-nav" aria-label="主导航"><button type="button" id="atlas-home" class="nav-link active">山河图鉴</button><a class="nav-link" href="#month-explorer">四季发现</a><a class="nav-link" href="#destination-map">目的地地图</a></nav>
+      <nav class="header-nav" aria-label="主导航"><button type="button" id="atlas-home" class="nav-link active">山河图鉴</button><a class="nav-link" href="#month-explorer">四季发现</a><a class="nav-link" href="#immersive-routes">路线漫游</a><a class="nav-link" href="#destination-map">目的地地图</a></nav>
       <div class="header-actions"><span id="connection-indicator" class="connection-indicator"><i></i> 本地资料</span><button id="login-button" class="button button-quiet" type="button" aria-expanded="false">内置浏览器</button><button id="open-place-search" class="button button-primary" type="button" aria-expanded="false" aria-controls="place-search-panel">搜索 / 搜集 <span aria-hidden="true">↗</span></button></div>
       <section id="place-search-panel" class="global-search-panel" aria-labelledby="place-search-title" hidden>
         <div class="global-search-heading"><div><p class="eyebrow">DISCOVER ANYWHERE</p><h2 id="place-search-title">想去哪里？</h2></div><button id="close-place-search" class="global-search-close" type="button" aria-label="关闭全站搜索">×</button></div>
@@ -87,6 +89,11 @@
         <div id="essentials-panel" class="essentials-panel" hidden></div>
       </section>
 
+      <section id="immersive-routes" class="walk-entry" aria-labelledby="walk-entry-title">
+        <div><p class="eyebrow">A WALK THROUGH THE CITY</p><h2 id="walk-entry-title">让风景，沿路展开。</h2><p id="walk-entry-note">拖动路线，看地图，也看沿途的真实照片。</p></div>
+        <button id="walk-open" class="walk-open" type="button" disabled>读取路线…</button>
+      </section>
+
       <section id="route-guides" class="section-block route-guides" aria-labelledby="route-guides-heading">
         <div class="section-heading split-heading"><div><p class="eyebrow">FIND YOUR WAY</p><h2 id="route-guides-heading">热门线路攻略</h2></div><p class="route-heading-hint">少做一点功课，多走一段喜欢的路。</p></div>
         <div class="route-filter-row"><div id="route-theme-filter" class="route-theme-filter" role="group" aria-label="按玩法筛选线路"></div><label class="route-period-control" for="route-period-filter"><span>出行时段</span><select id="route-period-filter" aria-label="按平时或节假日筛选线路"></select></label></div>
@@ -134,6 +141,19 @@
     </main>
   </div>
   <aside id="detail-drawer" class="detail-drawer" aria-labelledby="drawer-title" aria-hidden="true"><div class="drawer-scrim" data-close-drawer></div><div class="drawer-panel" role="dialog" aria-modal="true" tabindex="-1"><div class="drawer-head"><div><p id="drawer-kicker" class="eyebrow">PLACE DETAIL</p><h2 id="drawer-title">景点详情</h2></div><button id="close-drawer" class="round-button" type="button" aria-label="关闭详情">×</button><div id="drawer-month-filter" class="drawer-month-filter" role="group" aria-label="切换当前景点的月份"></div></div><div id="drawer-content" class="drawer-content" aria-live="polite"></div></div></aside>
+  <dialog id="walk-dialog" class="walk-dialog" aria-labelledby="walk-title">
+    <div class="walk-shell">
+      <header class="walk-header"><div class="walk-brand"><p class="eyebrow">行知 / IMMERSIVE WALKS</p><h2 id="walk-title">路线漫游</h2></div><p id="walk-context" class="walk-context"></p><button id="walk-close" class="walk-close" type="button" aria-label="关闭路线漫游">×</button></header>
+      <div class="walk-routebar"><div id="walk-route-options" class="walk-route-options" role="group" aria-label="选择漫游路线"></div><label class="walk-month-label" for="walk-month">浏览月份 <select id="walk-month" aria-label="漫游照片月份"></select></label></div>
+      <div class="walk-layout">
+        <div class="walk-map-column">
+          <div class="walk-map-stage"><svg id="walk-map" class="walk-map" viewBox="0 0 1000 700" aria-label="路线地图，节点可用键盘选择"><title>真实地图上的节点连接示意</title></svg><div class="walk-map-caption"><span>街道 · 园林 · 水系</span><strong>节点连接示意 · 非步行导航</strong></div><div class="walk-map-tools" role="group" aria-label="地图缩放"><button id="walk-zoom-in" type="button" aria-label="放大地图">＋</button><button id="walk-zoom-out" type="button" aria-label="缩小地图">−</button><button id="walk-fit" type="button" aria-label="显示完整路线">⌖</button></div><p class="walk-map-credit"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors · ODbL</a></p></div>
+          <div class="walk-controls"><div class="walk-progress-heading"><span id="walk-position">从起点出发</span><output id="walk-percent" for="walk-progress">0%</output></div><div class="walk-scrubber-row"><button id="walk-play" class="walk-play" type="button" aria-label="播放路线" aria-pressed="false">▶ 播放</button><input id="walk-progress" type="range" min="0" max="1000" step="1" value="0" aria-label="路线浏览进度"><button id="walk-restart" type="button" aria-label="回到路线起点">↺</button></div><div id="walk-stop-list" class="walk-stop-list" role="group" aria-label="沿途节点"></div><p id="walk-hint" class="walk-hint">拖动或用方向键来回浏览 · 点击节点直达</p></div>
+        </div>
+        <aside class="walk-scene" aria-label="当前节点的风景和资料"><div class="walk-scene-photo"><img id="walk-photo" alt="" hidden><div id="walk-photo-empty" class="walk-photo-empty"><span aria-hidden="true">⌁</span><strong>这里的风景，等待补充</strong><p id="walk-photo-empty-note">暂无当前月份的合格实拍</p></div><div id="walk-photo-controls" class="walk-photo-controls" hidden><button id="walk-photo-prev" type="button" aria-label="上一张节点照片">←</button><span id="walk-photo-count"></span><button id="walk-photo-next" type="button" aria-label="下一张节点照片">→</button></div></div><div class="walk-scene-body"><p id="walk-scene-kicker" class="walk-scene-kicker"></p><h3 id="walk-place-name"></h3><p id="walk-scene-note" class="walk-scene-note"></p><p id="walk-photo-meta" class="walk-photo-meta"></p><a id="walk-photo-source" class="walk-photo-source" target="_blank" rel="noopener noreferrer" hidden>查看照片原帖 ↗</a><details class="walk-details"><summary>路线说明与资料来源</summary><div id="walk-details-content"></div></details><p id="walk-status" class="sr-only" role="status" aria-live="polite"></p></div></aside>
+      </div>
+    </div>
+  </dialog>
   <div id="toast" class="toast" role="status" hidden></div>
 </body>
 </html>

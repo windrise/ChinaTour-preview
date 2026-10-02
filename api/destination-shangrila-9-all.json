@@ -5921,6 +5921,16 @@
       "unknown": 0
     }
   },
+  "immersive_routes": {
+    "items": [],
+    "available_destinations": [
+      {
+        "id": "suzhou",
+        "name": "苏州"
+      }
+    ],
+    "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"
+  },
   "nearby": {
     "origin": {
       "destination_id": "shangrila",

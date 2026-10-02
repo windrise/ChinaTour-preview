@@ -109,13 +109,12 @@
           "photos": []
         },
         "unknown": {
-          "evidence_count": 7,
+          "evidence_count": 6,
           "photo_count": 6,
           "evidence_ids": [
             "ev_494b44c6c7634b18",
             "ev_3b798cd9ea05421d",
             "ev_9f9f22abc9584d65",
-            "ev_1a916fa239b0480f",
             "ev_e9dbc37d35644e0a",
             "ev_6f89bacd03d74d27",
             "ev_6fd5c12669d245c0"
@@ -1925,248 +1924,6 @@
           {
             "id": "b8712395b2e34c68e1ec90a1",
             "ordinal": 9,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          }
-        ],
-        "exact_album_peers": [],
-        "partial_shared_peers": [],
-        "independence_status": "no_exact_overlap_found"
-      },
-      "visual_independence_pending": false
-    },
-    {
-      "id": "ev_1a916fa239b0480f",
-      "place_id": "place_e110a91eefb442ea",
-      "title": "南山竹海，肉见可见的葱郁🌿D2#天目湖##一月²⁰²⁴# ​​​",
-      "excerpt": "点击原帖查看作者正文与完整说明。",
-      "published_at": null,
-      "fetched_at": "2026-09-20T09:21:39.563899+00:00",
-      "observed_start": null,
-      "observed_end": null,
-      "month": 1,
-      "year": 2024,
-      "kind": "observation",
-      "aspect": null,
-      "value": null,
-      "valid_until": null,
-      "status": "accepted",
-      "url": "https://weibo.com/2964285732/OzozRnJDe",
-      "publisher": "悠悠muO0o",
-      "place_name": "南山竹海",
-      "media_count": 18,
-      "media_status": "link_only",
-      "source_type": "weibo",
-      "time_basis": "author_explicit_month",
-      "time_excerpt": "#一月2024#",
-      "published_label": "24-9-30 17:40 已编辑",
-      "captured_at": "2026-09-20T09:21:39.563899+00:00",
-      "topics": [
-        "湖泊",
-        "竹林"
-      ],
-      "media": [],
-      "claims": [
-        {
-          "support_excerpt": "点击原帖查看作者正文与完整说明。",
-          "theme": "竹林色彩",
-          "value": "翠绿"
-        }
-      ],
-      "confidence_label": "作者明确年月 · 具体日期未知",
-      "material_date": "2024-09-30",
-      "material_time_basis": "页面短年份编辑日期（按2000年代解析），非拍摄日期",
-      "visit_period": {
-        "kind": "unknown",
-        "id": "unknown",
-        "holiday": null,
-        "label": "时间待确认",
-        "basis": "unconfirmed",
-        "support_excerpt": "",
-        "basis_label": "原文未确认到访时段",
-        "source_url": "https://weibo.com/2964285732/OzozRnJDe"
-      },
-      "browse_month": 1,
-      "browse_year": 2024,
-      "browse_time_basis": "author_explicit_month",
-      "browse_time_label": "作者明确年月 · 具体日期未知",
-      "visual_content": {
-        "analyzed": 0,
-        "total": 18,
-        "scene_counts": {}
-      },
-      "media_review": {
-        "original_count": 18,
-        "approved_count": 0,
-        "hidden_count": 18
-      },
-      "visual_analysis": {
-        "media_total": 18,
-        "analyzed_media": 18,
-        "full_pixel_media": 18,
-        "missing_media_ids": [],
-        "coverage": 1.0,
-        "complete": true,
-        "media": [
-          {
-            "id": "6da106bcbe29b8093053367e",
-            "ordinal": 1,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "deb59b89c094ecb51cf0b935",
-            "ordinal": 2,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "ffc3b1cb0a5176e9fa164126",
-            "ordinal": 3,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "acde26c52bdced9d598cb602",
-            "ordinal": 4,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "f7ab6895b8d646b13b3dc59f",
-            "ordinal": 5,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "9a6f740de43df3d58c015a17",
-            "ordinal": 6,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "36c8f8ada97e326e6a786fcb",
-            "ordinal": 7,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "7493f88923bbeb0b96e38b9f",
-            "ordinal": 8,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "bda474f4eb80b1c97cdba3b0",
-            "ordinal": 9,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "e6246caeb91c351ce811b90f",
-            "ordinal": 10,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "a298c8d2fc53e6945f263645",
-            "ordinal": 11,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "6312e586049c2155449c6959",
-            "ordinal": 12,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "e74b7ed08a8f87a844a96538",
-            "ordinal": 13,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "012fa2e15711063266210a87",
-            "ordinal": 14,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "33c24da595b274bec172414e",
-            "ordinal": 15,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "554584f1bf612cab2aeb4802",
-            "ordinal": 16,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "d89f3b208462b12bf3d79efd",
-            "ordinal": 17,
-            "analyzed": true,
-            "file_hash_available": true,
-            "full_pixel_hash_available": true,
-            "animated": false,
-            "feature_version": "full-pixels-v2"
-          },
-          {
-            "id": "f8bca68609c6ddb6c6828235",
-            "ordinal": 18,
             "analyzed": true,
             "file_hash_available": true,
             "full_pixel_hash_available": true,
@@ -24810,6 +24567,16 @@
       "holiday": 2,
       "unknown": 6
     }
+  },
+  "immersive_routes": {
+    "items": [],
+    "available_destinations": [
+      {
+        "id": "suzhou",
+        "name": "苏州"
+      }
+    ],
+    "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"
   },
   "nearby": {
     "origin": {

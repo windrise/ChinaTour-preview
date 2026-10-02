@@ -205,6 +205,7 @@ function updateUrl({ replace = false } = {}) {
   if (state.mode !== 'all') params.set('mode', state.mode);
   if (state.regionId !== 'all') params.set('region', state.regionId);
   if (state.monthScope !== 'selected') params.set('collect_scope', state.monthScope);
+  if (current.has('walk')) params.set('walk', current.get('walk'));
   if (state.openAttractionId || state.pendingAttraction) params.set('attraction', state.openAttractionId || state.pendingAttraction);
   if (state.openAttractionId || current.get('view') === 'destination') params.set('view', 'destination');
   else if (current.has('atlas_stage')) params.set('atlas_stage', current.get('atlas_stage'));
@@ -238,6 +239,8 @@ function normalizeDestination(raw) {
     map: raw?.map && typeof raw.map === 'object' ? raw.map : { bounds: [], hubs: [], roads: [], limitations: [] },
     practical: raw?.practical || { facts: [], classified_sources: [], climate: null },
     route_guides: raw?.route_guides && typeof raw.route_guides === 'object' ? raw.route_guides : { items: [], available_themes: [] },
+    immersive_routes: raw?.immersive_routes || { items: [], available_destinations: [] },
+    browse_month: currentMonthNumber(), browse_mode: state.mode,
     nearby: raw?.nearby && typeof raw.nearby === 'object' ? raw.nearby : { items: [], regions: [] },
     limitations: Array.isArray(raw?.limitations) ? raw.limitations : [],
   };
@@ -309,6 +312,7 @@ async function loadStorage() {
 }
 function setDestinationLoading(loading) {
   state.destinationLoading = loading;
+  document.dispatchEvent(new CustomEvent('chinatour:loading', { detail: { loading } }));
   document.body.classList.toggle('is-loading', loading);
   const indicator = $('#destination-loading');
   if (indicator) {
@@ -1766,6 +1770,10 @@ document.querySelectorAll('[data-evidence-help]').forEach(button => button.addEv
   details.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' });
 }));
 document.addEventListener('chinatour:select-place', (event) => selectDestination(event.detail?.placeId, { update: event.detail?.updateHistory !== false }));
+document.addEventListener('chinatour:walk-month', (event) => {
+  const month = Number(event.detail?.month);
+  if (Number.isInteger(month) && month >= 1 && month <= 12) chooseMonth(String(month));
+});
 document.addEventListener('atlas:home', () => closeDrawer({ update: false }));
 document.addEventListener('atlas:entered', () => {
   if (!new URLSearchParams(location.search).has('attraction')) closeDrawer({ update: false });
