@@ -11647,11 +11647,1147 @@
     }
   },
   "immersive_routes": {
-    "items": [],
+    "items": [
+      {
+        "title": "月亮湾湿地公园 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "fuxianhu-2-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/fuxianhu-2-walk-1-map.json",
+        "bounds": [
+          24.6225994,
+          102.9434881,
+          24.6270524,
+          102.9478555
+        ],
+        "nodes": [
+          {
+            "id": "fuxianhu-2-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.6237994,
+            "lon": 102.9451936,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826685558",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "fuxianhu-2-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.6244602,
+            "lon": 102.9465455,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826685572",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "fuxianhu-2-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.6251551,
+            "lon": 102.9456429,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826686109",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "fuxianhu-2-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.6258524,
+            "lon": 102.9446881,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826686122",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/fuxianhu-2-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "fuxianhu-2-walk-1-node-1",
+            "to_node_id": "fuxianhu-2-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                102.9451936,
+                24.6237994
+              ],
+              [
+                102.9452634,
+                24.6237994
+              ],
+              [
+                102.9453278,
+                24.6238092
+              ],
+              [
+                102.9454458,
+                24.6238677
+              ],
+              [
+                102.9455718,
+                24.6239043
+              ],
+              [
+                102.9457033,
+                24.6239091
+              ],
+              [
+                102.9457596,
+                24.6239262
+              ],
+              [
+                102.9458132,
+                24.6239603
+              ],
+              [
+                102.9458642,
+                24.6240018
+              ],
+              [
+                102.9459876,
+                24.6241359
+              ],
+              [
+                102.9460412,
+                24.6241749
+              ],
+              [
+                102.9461673,
+                24.6242261
+              ],
+              [
+                102.9462934,
+                24.6242651
+              ],
+              [
+                102.9464516,
+                24.6243724
+              ],
+              [
+                102.9465455,
+                24.6244602
+              ]
+            ],
+            "distance_m": 160.822,
+            "way_ids": [
+              1164104478
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1164104478",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10826685558,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10826685572,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "fuxianhu-2-walk-1-node-2",
+            "to_node_id": "fuxianhu-2-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                102.9465455,
+                24.6244602
+              ],
+              [
+                102.9466099,
+                24.624565
+              ],
+              [
+                102.9466554,
+                24.6246796
+              ],
+              [
+                102.9466555,
+                24.6247564
+              ],
+              [
+                102.946642,
+                24.6248247
+              ],
+              [
+                102.9466085,
+                24.6248966
+              ],
+              [
+                102.9464457,
+                24.6251235
+              ],
+              [
+                102.9463926,
+                24.6251478
+              ],
+              [
+                102.9463188,
+                24.6251673
+              ],
+              [
+                102.9462598,
+                24.6251636
+              ],
+              [
+                102.9461056,
+                24.6251197
+              ],
+              [
+                102.9460198,
+                24.6251039
+              ],
+              [
+                102.9459393,
+                24.6251002
+              ],
+              [
+                102.9458414,
+                24.6251076
+              ],
+              [
+                102.9457301,
+                24.6251271
+              ],
+              [
+                102.9456429,
+                24.6251551
+              ]
+            ],
+            "distance_m": 165.778,
+            "way_ids": [
+              1164104478,
+              1164104464
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1164104478",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10826685572,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10826686109,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "fuxianhu-2-walk-1-node-3",
+            "to_node_id": "fuxianhu-2-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                102.9456429,
+                24.6251551
+              ],
+              [
+                102.9455926,
+                24.6251752
+              ],
+              [
+                102.945549,
+                24.6252051
+              ],
+              [
+                102.9454793,
+                24.6252587
+              ],
+              [
+                102.9454096,
+                24.6253148
+              ],
+              [
+                102.9453573,
+                24.6253685
+              ],
+              [
+                102.9453237,
+                24.6254233
+              ],
+              [
+                102.9452848,
+                24.6255172
+              ],
+              [
+                102.9452191,
+                24.6257098
+              ],
+              [
+                102.9451668,
+                24.6257634
+              ],
+              [
+                102.9451025,
+                24.6257903
+              ],
+              [
+                102.9450341,
+                24.6257988
+              ],
+              [
+                102.9449724,
+                24.6257988
+              ],
+              [
+                102.9448235,
+                24.6258354
+              ],
+              [
+                102.9446881,
+                24.6258524
+              ]
+            ],
+            "distance_m": 135.988,
+            "way_ids": [
+              1164104464
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1164104464",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10826686109,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10826686122,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 462.588,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/1147820092",
+            "title": "月亮湾湿地公园 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "月亮湾湿地公园 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "fuxianhu-2-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/fuxianhu-2-walk-2-map.json",
+        "bounds": [
+          24.6235564,
+          102.9411264,
+          24.6270524,
+          102.9478555
+        ],
+        "nodes": [
+          {
+            "id": "fuxianhu-2-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.62496,
+            "lon": 102.9423264,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826686317",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "fuxianhu-2-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.6254331,
+            "lon": 102.9441221,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826686035",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "fuxianhu-2-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.6254233,
+            "lon": 102.9453237,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826686114",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "fuxianhu-2-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.6247564,
+            "lon": 102.9466555,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826686273",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/fuxianhu-2-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "fuxianhu-2-walk-2-node-1",
+            "to_node_id": "fuxianhu-2-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                102.9423264,
+                24.62496
+              ],
+              [
+                102.9423948,
+                24.6249186
+              ],
+              [
+                102.9424551,
+                24.6248869
+              ],
+              [
+                102.9425275,
+                24.6248808
+              ],
+              [
+                102.9426067,
+                24.6248918
+              ],
+              [
+                102.9426694,
+                24.6249218
+              ],
+              [
+                102.9426898,
+                24.6249576
+              ],
+              [
+                102.9428078,
+                24.6252502
+              ],
+              [
+                102.9428494,
+                24.6252965
+              ],
+              [
+                102.9429325,
+                24.6253331
+              ],
+              [
+                102.9430224,
+                24.6253563
+              ],
+              [
+                102.9430988,
+                24.6253538
+              ],
+              [
+                102.9431753,
+                24.6253368
+              ],
+              [
+                102.9432983,
+                24.625274
+              ],
+              [
+                102.9433952,
+                24.6252246
+              ],
+              [
+                102.9434824,
+                24.6252209
+              ],
+              [
+                102.9438633,
+                24.6253745
+              ],
+              [
+                102.9440054,
+                24.6254123
+              ],
+              [
+                102.9441221,
+                24.6254331
+              ]
+            ],
+            "distance_m": 221.631,
+            "way_ids": [
+              1164104461,
+              1164104462
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1164104461",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10826686317,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10826686035,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "fuxianhu-2-walk-2-node-2",
+            "to_node_id": "fuxianhu-2-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                102.9441221,
+                24.6254331
+              ],
+              [
+                102.9442307,
+                24.6254416
+              ],
+              [
+                102.9443152,
+                24.6254416
+              ],
+              [
+                102.9443635,
+                24.6254587
+              ],
+              [
+                102.9443917,
+                24.6254843
+              ],
+              [
+                102.9444413,
+                24.6255562
+              ],
+              [
+                102.9444627,
+                24.6256111
+              ],
+              [
+                102.9444949,
+                24.6257342
+              ],
+              [
+                102.9445204,
+                24.625783
+              ],
+              [
+                102.9445566,
+                24.6258183
+              ],
+              [
+                102.9446076,
+                24.6258415
+              ],
+              [
+                102.9446881,
+                24.6258524
+              ],
+              [
+                102.9448235,
+                24.6258354
+              ],
+              [
+                102.9449724,
+                24.6257988
+              ],
+              [
+                102.9450341,
+                24.6257988
+              ],
+              [
+                102.9451025,
+                24.6257903
+              ],
+              [
+                102.9451668,
+                24.6257634
+              ],
+              [
+                102.9452191,
+                24.6257098
+              ],
+              [
+                102.9452848,
+                24.6255172
+              ],
+              [
+                102.9453237,
+                24.6254233
+              ]
+            ],
+            "distance_m": 175.5,
+            "way_ids": [
+              1164104462,
+              1164104464
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1164104462",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10826686035,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10826686114,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "fuxianhu-2-walk-2-node-3",
+            "to_node_id": "fuxianhu-2-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                102.9453237,
+                24.6254233
+              ],
+              [
+                102.9453573,
+                24.6253685
+              ],
+              [
+                102.9454096,
+                24.6253148
+              ],
+              [
+                102.9454793,
+                24.6252587
+              ],
+              [
+                102.945549,
+                24.6252051
+              ],
+              [
+                102.9455926,
+                24.6251752
+              ],
+              [
+                102.9456429,
+                24.6251551
+              ],
+              [
+                102.9457301,
+                24.6251271
+              ],
+              [
+                102.9458414,
+                24.6251076
+              ],
+              [
+                102.9459393,
+                24.6251002
+              ],
+              [
+                102.9460198,
+                24.6251039
+              ],
+              [
+                102.9461056,
+                24.6251197
+              ],
+              [
+                102.9462598,
+                24.6251636
+              ],
+              [
+                102.9463188,
+                24.6251673
+              ],
+              [
+                102.9463926,
+                24.6251478
+              ],
+              [
+                102.9464457,
+                24.6251235
+              ],
+              [
+                102.9466085,
+                24.6248966
+              ],
+              [
+                102.946642,
+                24.6248247
+              ],
+              [
+                102.9466555,
+                24.6247564
+              ]
+            ],
+            "distance_m": 175.007,
+            "way_ids": [
+              1164104464,
+              1164104478
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1164104464",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10826686114,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10826686273,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 572.138,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/1147820092",
+            "title": "月亮湾湿地公园 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "月亮湾湿地公园 → 樱花谷",
+        "subtitle": "景点间骑行 · 实际道路预览",
+        "summary": "用于比较景点间的骑行衔接；起终点均为真实道路路点，未核验为景区出入口。地图距离不包含从这些路点走到景点入口的路程。",
+        "id": "fuxianhu-cycle-1",
+        "guide_id": null,
+        "route_type": "citywalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/fuxianhu-cycle-1-map.json",
+        "bounds": [
+          24.606625,
+          102.9424426,
+          24.6266662,
+          102.953102
+        ],
+        "nodes": [
+          {
+            "id": "fuxianhu-cycle-1-node-1",
+            "name": "月亮湾湿地公园附近道路",
+            "attraction_name": "月亮湾湿地公园",
+            "attraction_id": "place_ef640d6a189a4fcb",
+            "lat": 24.6246662,
+            "lon": 102.9449643,
+            "note": "道路锚点距景点代表点约33米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10826686330",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "fuxianhu-cycle-1-node-2",
+            "name": "樱花谷附近道路",
+            "attraction_name": "樱花谷",
+            "attraction_id": "place_ebe6a1cb7cf74870",
+            "lat": 24.608625,
+            "lon": 102.951102,
+            "note": "道路锚点距景点代表点约81米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2322897074",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/fuxianhu-cycle-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "fuxianhu-cycle-1-node-1",
+            "to_node_id": "fuxianhu-cycle-1-node-2",
+            "mode": "cycle",
+            "status": "mapped",
+            "coordinates": [
+              [
+                102.9449643,
+                24.6246662
+              ],
+              [
+                102.9450408,
+                24.6246114
+              ],
+              [
+                102.9451159,
+                24.6245151
+              ],
+              [
+                102.9451682,
+                24.6244078
+              ],
+              [
+                102.9451883,
+                24.6243066
+              ],
+              [
+                102.9451856,
+                24.6242005
+              ],
+              [
+                102.945148,
+                24.6241091
+              ],
+              [
+                102.945085,
+                24.624014
+              ],
+              [
+                102.9449885,
+                24.6239311
+              ],
+              [
+                102.9448624,
+                24.623875
+              ],
+              [
+                102.9447846,
+                24.623814
+              ],
+              [
+                102.944735,
+                24.6237884
+              ],
+              [
+                102.9447524,
+                24.6237348
+              ],
+              [
+                102.9448114,
+                24.6236738
+              ],
+              [
+                102.944912,
+                24.6236373
+              ],
+              [
+                102.9450113,
+                24.6236348
+              ],
+              [
+                102.9451065,
+                24.623647
+              ],
+              [
+                102.94525,
+                24.6237007
+              ],
+              [
+                102.9453291,
+                24.6237153
+              ],
+              [
+                102.9454022,
+                24.6237031
+              ],
+              [
+                102.9453841,
+                24.6236677
+              ],
+              [
+                102.9453814,
+                24.6235836
+              ],
+              [
+                102.9454149,
+                24.6234666
+              ],
+              [
+                102.9454887,
+                24.6233166
+              ],
+              [
+                102.9455356,
+                24.6231569
+              ],
+              [
+                102.9455852,
+                24.6230484
+              ],
+              [
+                102.9444426,
+                24.622295
+              ],
+              [
+                102.9444474,
+                24.6221876
+              ],
+              [
+                102.9445821,
+                24.6218024
+              ],
+              [
+                102.9448235,
+                24.6212806
+              ],
+              [
+                102.9450005,
+                24.6208222
+              ],
+              [
+                102.9450756,
+                24.6205394
+              ],
+              [
+                102.9450889,
+                24.6201578
+              ],
+              [
+                102.9451293,
+                24.6189934
+              ],
+              [
+                102.9452205,
+                24.6187886
+              ],
+              [
+                102.9455991,
+                24.6184088
+              ],
+              [
+                102.9458159,
+                24.6181912
+              ],
+              [
+                102.9464006,
+                24.6176279
+              ],
+              [
+                102.9468834,
+                24.6174085
+              ],
+              [
+                102.9476666,
+                24.6171012
+              ],
+              [
+                102.9481119,
+                24.6169013
+              ],
+              [
+                102.9485357,
+                24.6166282
+              ],
+              [
+                102.9494101,
+                24.6159649
+              ],
+              [
+                102.9495281,
+                24.615843
+              ],
+              [
+                102.9496193,
+                24.6156772
+              ],
+              [
+                102.949909,
+                24.6149603
+              ],
+              [
+                102.9507083,
+                24.6131851
+              ],
+              [
+                102.9507995,
+                24.613068
+              ],
+              [
+                102.9509778,
+                24.6129936
+              ],
+              [
+                102.9509979,
+                24.6115561
+              ],
+              [
+                102.9510073,
+                24.6111867
+              ],
+              [
+                102.951102,
+                24.608625
+              ]
+            ],
+            "distance_m": 2218.856,
+            "way_ids": [
+              1164104481,
+              1164104476,
+              1164104477,
+              1147820091,
+              1306512518
+            ],
+            "note": "按允许骑行的已记录道路和单行方向生成；未核验现场限行，长度为地图值。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1164104481",
+              "label": "OpenStreetMap 骑行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10826686330,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2322897074,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 2218.856,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/1164104481",
+            "title": "OpenStreetMap 骑行道路",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      }
+    ],
     "available_destinations": [
+      {
+        "id": "liyang",
+        "name": "溧阳"
+      },
+      {
+        "id": "dalian",
+        "name": "大连"
+      },
       {
         "id": "suzhou",
         "name": "苏州"
+      },
+      {
+        "id": "nanjing",
+        "name": "南京"
+      },
+      {
+        "id": "kunming",
+        "name": "昆明"
+      },
+      {
+        "id": "fuxianhu",
+        "name": "抚仙湖"
+      },
+      {
+        "id": "lijiang",
+        "name": "丽江"
+      },
+      {
+        "id": "dali",
+        "name": "大理"
+      },
+      {
+        "id": "shangrila",
+        "name": "香格里拉"
+      },
+      {
+        "id": "xian",
+        "name": "西安"
       }
     ],
     "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"

@@ -32093,11 +32093,5491 @@
     }
   },
   "immersive_routes": {
-    "items": [],
+    "items": [
+      {
+        "title": "中山陵 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-1-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-1-walk-1-map.json",
+        "bounds": [
+          32.056850700000005,
+          118.847306,
+          32.0632716,
+          118.8500124
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-1-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "中山陵",
+            "attraction_id": "place_36119e2140c44287",
+            "lat": 32.0580507,
+            "lon": 118.8487276,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/667334553",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-1-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "中山陵",
+            "attraction_id": "place_36119e2140c44287",
+            "lat": 32.0602102,
+            "lon": 118.848564,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13283814926",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-1-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "中山陵",
+            "attraction_id": "place_36119e2140c44287",
+            "lat": 32.0615499,
+            "lon": 118.8487416,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12353436326",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-1-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "中山陵",
+            "attraction_id": "place_36119e2140c44287",
+            "lat": 32.0620716,
+            "lon": 118.8487803,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/667334652",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-1-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-1-walk-1-node-1",
+            "to_node_id": "nanjing-1-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.8487276,
+                32.0580507
+              ],
+              [
+                118.8487143,
+                32.0581611
+              ],
+              [
+                118.8486681,
+                32.0587126
+              ],
+              [
+                118.848564,
+                32.0602102
+              ]
+            ],
+            "distance_m": 240.633,
+            "way_ids": [
+              1335291472,
+              52508823
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1335291472",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 667334553,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13283814926,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-1-walk-1-node-2",
+            "to_node_id": "nanjing-1-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.848564,
+                32.0602102
+              ],
+              [
+                118.848506,
+                32.061046
+              ],
+              [
+                118.8487798,
+                32.0610611
+              ],
+              [
+                118.8487416,
+                32.0615499
+              ]
+            ],
+            "distance_m": 173.425,
+            "way_ids": [
+              52508823,
+              1447791573,
+              52508843
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/52508823",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13283814926,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12353436326,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-1-walk-1-node-3",
+            "to_node_id": "nanjing-1-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.8487416,
+                32.0615499
+              ],
+              [
+                118.8488124,
+                32.0616798
+              ],
+              [
+                118.8488032,
+                32.0618342
+              ],
+              [
+                118.8487803,
+                32.0620716
+              ]
+            ],
+            "distance_m": 59.587,
+            "way_ids": [
+              52508843
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/52508843",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 12353436326,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 667334652,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 473.645,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/relation/18303735",
+            "title": "中山陵 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "中山陵 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-1-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-1-walk-2-map.json",
+        "bounds": [
+          32.057453200000005,
+          118.84669960000001,
+          32.059952599999995,
+          118.8506344
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-1-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "中山陵",
+            "attraction_id": "place_36119e2140c44287",
+            "lat": 32.0586532,
+            "lon": 118.8478996,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12353368657",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-1-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "中山陵",
+            "attraction_id": "place_36119e2140c44287",
+            "lat": 32.0586932,
+            "lon": 118.8483405,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/667334637",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-1-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "中山陵",
+            "attraction_id": "place_36119e2140c44287",
+            "lat": 32.0587343,
+            "lon": 118.8489615,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/667334644",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-1-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "中山陵",
+            "attraction_id": "place_36119e2140c44287",
+            "lat": 32.0587526,
+            "lon": 118.8494344,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1536910086",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-1-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-1-walk-2-node-1",
+            "to_node_id": "nanjing-1-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.8478996,
+                32.0586532
+              ],
+              [
+                118.8483405,
+                32.0586932
+              ]
+            ],
+            "distance_m": 41.787,
+            "way_ids": [
+              1335291474
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1335291474",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 12353368657,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 667334637,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-1-walk-2-node-2",
+            "to_node_id": "nanjing-1-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.8483405,
+                32.0586932
+              ],
+              [
+                118.8486681,
+                32.0587126
+              ],
+              [
+                118.8489615,
+                32.0587343
+              ]
+            ],
+            "distance_m": 58.702,
+            "way_ids": [
+              1335291474
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1335291474",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 667334637,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 667334644,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-1-walk-2-node-3",
+            "to_node_id": "nanjing-1-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.8489615,
+                32.0587343
+              ],
+              [
+                118.8494344,
+                32.0587526
+              ]
+            ],
+            "distance_m": 44.612,
+            "way_ids": [
+              1335291474
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1335291474",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 667334644,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1536910086,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 145.101,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/relation/18303735",
+            "title": "中山陵 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "玄武湖 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-3-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-3-walk-1-map.json",
+        "bounds": [
+          32.061540900000004,
+          118.7802618,
+          32.0889065,
+          118.8063181
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-3-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0627409,
+            "lon": 118.8050434,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13620051951",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-3-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0660406,
+            "lon": 118.7903961,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1111383596",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-3-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0739136,
+            "lon": 118.7826585,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12189998329",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-3-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0877065,
+            "lon": 118.784778,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12189928987",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-3-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-3-walk-1-node-1",
+            "to_node_id": "nanjing-3-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.8050434,
+                32.0627409
+              ],
+              [
+                118.8051181,
+                32.0628858
+              ],
+              [
+                118.8049171,
+                32.0631354
+              ],
+              [
+                118.8046927,
+                32.0632669
+              ],
+              [
+                118.8045468,
+                32.0631015
+              ],
+              [
+                118.8044302,
+                32.063178
+              ],
+              [
+                118.8040225,
+                32.0633826
+              ],
+              [
+                118.8035773,
+                32.063528
+              ],
+              [
+                118.8023864,
+                32.0637644
+              ],
+              [
+                118.801807,
+                32.0638781
+              ],
+              [
+                118.8013671,
+                32.0638963
+              ],
+              [
+                118.8011365,
+                32.0638826
+              ],
+              [
+                118.801077,
+                32.0638837
+              ],
+              [
+                118.8010031,
+                32.0638855
+              ],
+              [
+                118.8004796,
+                32.0637824
+              ],
+              [
+                118.7997305,
+                32.0635668
+              ],
+              [
+                118.7996504,
+                32.0635705
+              ],
+              [
+                118.7989531,
+                32.0636028
+              ],
+              [
+                118.7979496,
+                32.0637226
+              ],
+              [
+                118.7973944,
+                32.0638139
+              ],
+              [
+                118.7970213,
+                32.063902
+              ],
+              [
+                118.796692,
+                32.0639753
+              ],
+              [
+                118.7964332,
+                32.0640333
+              ],
+              [
+                118.7955468,
+                32.0642017
+              ],
+              [
+                118.7949391,
+                32.0643215
+              ],
+              [
+                118.7943101,
+                32.0642556
+              ],
+              [
+                118.794084,
+                32.0643035
+              ],
+              [
+                118.793975,
+                32.0643898
+              ],
+              [
+                118.7939002,
+                32.0644472
+              ],
+              [
+                118.7937376,
+                32.0645897
+              ],
+              [
+                118.7928099,
+                32.0647333
+              ],
+              [
+                118.7923901,
+                32.0646962
+              ],
+              [
+                118.7922933,
+                32.0648829
+              ],
+              [
+                118.7921465,
+                32.0648719
+              ],
+              [
+                118.7920254,
+                32.0648628
+              ],
+              [
+                118.7918232,
+                32.0647582
+              ],
+              [
+                118.7916411,
+                32.064739
+              ],
+              [
+                118.7916018,
+                32.0649203
+              ],
+              [
+                118.7913393,
+                32.0651088
+              ],
+              [
+                118.7911469,
+                32.0652447
+              ],
+              [
+                118.7909604,
+                32.0654414
+              ],
+              [
+                118.7907429,
+                32.0655419
+              ],
+              [
+                118.7905501,
+                32.0657958
+              ],
+              [
+                118.7903961,
+                32.0660406
+              ]
+            ],
+            "distance_m": 1571.989,
+            "way_ids": [
+              1485664432,
+              1485664433,
+              100944896,
+              290148744
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1485664432",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13620051951,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1111383596,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-3-walk-1-node-2",
+            "to_node_id": "nanjing-3-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7903961,
+                32.0660406
+              ],
+              [
+                118.7903102,
+                32.0661481
+              ],
+              [
+                118.7899993,
+                32.0663397
+              ],
+              [
+                118.7896897,
+                32.066529
+              ],
+              [
+                118.7895937,
+                32.0666763
+              ],
+              [
+                118.7892235,
+                32.0668398
+              ],
+              [
+                118.7890714,
+                32.0670548
+              ],
+              [
+                118.7889037,
+                32.067203
+              ],
+              [
+                118.7887185,
+                32.0673219
+              ],
+              [
+                118.7885131,
+                32.0674221
+              ],
+              [
+                118.7882667,
+                32.0675167
+              ],
+              [
+                118.7879947,
+                32.067574
+              ],
+              [
+                118.7876566,
+                32.0676478
+              ],
+              [
+                118.7875171,
+                32.0676782
+              ],
+              [
+                118.7874909,
+                32.0676817
+              ],
+              [
+                118.7871755,
+                32.0677235
+              ],
+              [
+                118.7869165,
+                32.0677579
+              ],
+              [
+                118.786381,
+                32.0677702
+              ],
+              [
+                118.7857891,
+                32.0677651
+              ],
+              [
+                118.7854757,
+                32.0677664
+              ],
+              [
+                118.7850527,
+                32.0677909
+              ],
+              [
+                118.7848602,
+                32.0678077
+              ],
+              [
+                118.7848108,
+                32.0679329
+              ],
+              [
+                118.7848012,
+                32.0680401
+              ],
+              [
+                118.7847396,
+                32.0681594
+              ],
+              [
+                118.7843881,
+                32.0689987
+              ],
+              [
+                118.7840465,
+                32.0690682
+              ],
+              [
+                118.7834897,
+                32.0691814
+              ],
+              [
+                118.7833981,
+                32.0695228
+              ],
+              [
+                118.7832823,
+                32.0699545
+              ],
+              [
+                118.7831781,
+                32.0702341
+              ],
+              [
+                118.783126,
+                32.0707296
+              ],
+              [
+                118.7830565,
+                32.0709356
+              ],
+              [
+                118.7829931,
+                32.0711382
+              ],
+              [
+                118.782935,
+                32.0714213
+              ],
+              [
+                118.7828134,
+                32.0717794
+              ],
+              [
+                118.7827524,
+                32.0722233
+              ],
+              [
+                118.7827491,
+                32.0723661
+              ],
+              [
+                118.7827844,
+                32.0724907
+              ],
+              [
+                118.782878,
+                32.0727117
+              ],
+              [
+                118.7828143,
+                32.0729877
+              ],
+              [
+                118.7827339,
+                32.0733363
+              ],
+              [
+                118.7826695,
+                32.0738272
+              ],
+              [
+                118.7826585,
+                32.0739136
+              ]
+            ],
+            "distance_m": 1354.323,
+            "way_ids": [
+              290148744,
+              95918069,
+              1443715936,
+              95920083,
+              95920080,
+              280718317
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/290148744",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1111383596,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12189998329,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-3-walk-1-node-3",
+            "to_node_id": "nanjing-3-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7826585,
+                32.0739136
+              ],
+              [
+                118.7826116,
+                32.0742802
+              ],
+              [
+                118.7825441,
+                32.0748086
+              ],
+              [
+                118.7825301,
+                32.0749182
+              ],
+              [
+                118.7824712,
+                32.075368
+              ],
+              [
+                118.7824475,
+                32.0755497
+              ],
+              [
+                118.7823822,
+                32.0760483
+              ],
+              [
+                118.7822846,
+                32.0767943
+              ],
+              [
+                118.782267,
+                32.0769407
+              ],
+              [
+                118.7820863,
+                32.0781534
+              ],
+              [
+                118.7820755,
+                32.0782259
+              ],
+              [
+                118.7820594,
+                32.0782884
+              ],
+              [
+                118.7820379,
+                32.0785611
+              ],
+              [
+                118.7818927,
+                32.0792427
+              ],
+              [
+                118.7817397,
+                32.079961
+              ],
+              [
+                118.7817116,
+                32.0801773
+              ],
+              [
+                118.7816955,
+                32.0803017
+              ],
+              [
+                118.7816724,
+                32.080481
+              ],
+              [
+                118.7816856,
+                32.0808913
+              ],
+              [
+                118.7816093,
+                32.0815734
+              ],
+              [
+                118.7814618,
+                32.0822075
+              ],
+              [
+                118.7815272,
+                32.0823312
+              ],
+              [
+                118.7817132,
+                32.0826898
+              ],
+              [
+                118.7817707,
+                32.083055
+              ],
+              [
+                118.7817783,
+                32.0832392
+              ],
+              [
+                118.7818076,
+                32.0836381
+              ],
+              [
+                118.7818239,
+                32.0838596
+              ],
+              [
+                118.7818373,
+                32.0844659
+              ],
+              [
+                118.781848,
+                32.0847367
+              ],
+              [
+                118.7818585,
+                32.0850037
+              ],
+              [
+                118.7818594,
+                32.085369
+              ],
+              [
+                118.7818063,
+                32.0856317
+              ],
+              [
+                118.7822191,
+                32.086054
+              ],
+              [
+                118.7824475,
+                32.0861403
+              ],
+              [
+                118.7825796,
+                32.0863038
+              ],
+              [
+                118.7837869,
+                32.0865966
+              ],
+              [
+                118.783959,
+                32.0869227
+              ],
+              [
+                118.7842169,
+                32.0870036
+              ],
+              [
+                118.784518,
+                32.0872535
+              ],
+              [
+                118.7845312,
+                32.0874127
+              ],
+              [
+                118.7845758,
+                32.0874695
+              ],
+              [
+                118.7846135,
+                32.0875176
+              ],
+              [
+                118.784778,
+                32.0877065
+              ]
+            ],
+            "distance_m": 1704.99,
+            "way_ids": [
+              280718317,
+              1317130219,
+              1317128049,
+              1317127161,
+              1317126970
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/280718317",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 12189998329,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12189928987,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 4631.302,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/62354287",
+            "title": "玄武湖 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "玄武湖 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-3-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-3-walk-2-map.json",
+        "bounds": [
+          32.0701605,
+          118.7870175,
+          32.078373899999995,
+          118.79190729999999
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-3-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0713605,
+            "lon": 118.7882175,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13621823563",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-3-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0729745,
+            "lon": 118.7900203,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/7144760765",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-3-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0761501,
+            "lon": 118.7894851,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13247468900",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-3-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0771739,
+            "lon": 118.7882689,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13247468873",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-3-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-3-walk-2-node-1",
+            "to_node_id": "nanjing-3-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7882175,
+                32.0713605
+              ],
+              [
+                118.7883045,
+                32.0714609
+              ],
+              [
+                118.7883881,
+                32.0714273
+              ],
+              [
+                118.7884708,
+                32.0715539
+              ],
+              [
+                118.7885407,
+                32.0715175
+              ],
+              [
+                118.7886991,
+                32.0715026
+              ],
+              [
+                118.7889015,
+                32.0714777
+              ],
+              [
+                118.7891273,
+                32.0714553
+              ],
+              [
+                118.7893327,
+                32.0714727
+              ],
+              [
+                118.7895057,
+                32.0715548
+              ],
+              [
+                118.7896084,
+                32.0716542
+              ],
+              [
+                118.7897345,
+                32.071776
+              ],
+              [
+                118.7899604,
+                32.071858
+              ],
+              [
+                118.7901628,
+                32.0718978
+              ],
+              [
+                118.7902713,
+                32.071955
+              ],
+              [
+                118.7904209,
+                32.0720618
+              ],
+              [
+                118.7906952,
+                32.0721645
+              ],
+              [
+                118.7906898,
+                32.072386
+              ],
+              [
+                118.7907073,
+                32.0726
+              ],
+              [
+                118.790664,
+                32.0726806
+              ],
+              [
+                118.790567,
+                32.0727797
+              ],
+              [
+                118.7904953,
+                32.0728229
+              ],
+              [
+                118.790449,
+                32.0728507
+              ],
+              [
+                118.7904319,
+                32.072861
+              ],
+              [
+                118.7903274,
+                32.0728928
+              ],
+              [
+                118.790218,
+                32.072904
+              ],
+              [
+                118.7901302,
+                32.0729018
+              ],
+              [
+                118.7900203,
+                32.0729745
+              ]
+            ],
+            "distance_m": 404.925,
+            "way_ids": [
+              1485883268,
+              803760120,
+              776728671
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1485883268",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13621823563,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 7144760765,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-3-walk-2-node-2",
+            "to_node_id": "nanjing-3-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7900203,
+                32.0729745
+              ],
+              [
+                118.789807,
+                32.0730782
+              ],
+              [
+                118.7897326,
+                32.073147
+              ],
+              [
+                118.7898181,
+                32.073249
+              ],
+              [
+                118.7898593,
+                32.0733041
+              ],
+              [
+                118.7898776,
+                32.0733942
+              ],
+              [
+                118.7899355,
+                32.0735523
+              ],
+              [
+                118.7900502,
+                32.0737649
+              ],
+              [
+                118.7901124,
+                32.0738549
+              ],
+              [
+                118.7902088,
+                32.0739886
+              ],
+              [
+                118.7902408,
+                32.0740618
+              ],
+              [
+                118.7902726,
+                32.0741388
+              ],
+              [
+                118.7902478,
+                32.0742395
+              ],
+              [
+                118.7901898,
+                32.0743319
+              ],
+              [
+                118.7899193,
+                32.0745196
+              ],
+              [
+                118.7899972,
+                32.0746671
+              ],
+              [
+                118.7901579,
+                32.074821
+              ],
+              [
+                118.7902677,
+                32.0748831
+              ],
+              [
+                118.7904383,
+                32.075
+              ],
+              [
+                118.7905045,
+                32.0750835
+              ],
+              [
+                118.7904919,
+                32.0751818
+              ],
+              [
+                118.7903954,
+                32.0755091
+              ],
+              [
+                118.7901164,
+                32.0756909
+              ],
+              [
+                118.7897945,
+                32.0758727
+              ],
+              [
+                118.7895371,
+                32.076
+              ],
+              [
+                118.7894972,
+                32.0760308
+              ],
+              [
+                118.7895014,
+                32.0760898
+              ],
+              [
+                118.7894851,
+                32.0761501
+              ]
+            ],
+            "distance_m": 461.918,
+            "way_ids": [
+              776728672,
+              776728673,
+              776728674,
+              764871115,
+              1443667892
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/776728672",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 7144760765,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13247468900,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-3-walk-2-node-3",
+            "to_node_id": "nanjing-3-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7894851,
+                32.0761501
+              ],
+              [
+                118.7894504,
+                32.0761778
+              ],
+              [
+                118.7894072,
+                32.07619
+              ],
+              [
+                118.7893437,
+                32.0761924
+              ],
+              [
+                118.7893264,
+                32.0762047
+              ],
+              [
+                118.7893216,
+                32.0762739
+              ],
+              [
+                118.789286,
+                32.0763155
+              ],
+              [
+                118.7892418,
+                32.0763489
+              ],
+              [
+                118.7892245,
+                32.0764173
+              ],
+              [
+                118.7891966,
+                32.0764621
+              ],
+              [
+                118.7891302,
+                32.0765053
+              ],
+              [
+                118.7890658,
+                32.0765224
+              ],
+              [
+                118.7889946,
+                32.0765208
+              ],
+              [
+                118.7889408,
+                32.0765102
+              ],
+              [
+                118.7888735,
+                32.0765371
+              ],
+              [
+                118.7887946,
+                32.076533
+              ],
+              [
+                118.7887513,
+                32.0765256
+              ],
+              [
+                118.7887043,
+                32.0765659
+              ],
+              [
+                118.7886096,
+                32.0765869
+              ],
+              [
+                118.7884871,
+                32.0766413
+              ],
+              [
+                118.7883953,
+                32.0767104
+              ],
+              [
+                118.7883443,
+                32.0767783
+              ],
+              [
+                118.7883151,
+                32.076866
+              ],
+              [
+                118.7883239,
+                32.076971
+              ],
+              [
+                118.7883764,
+                32.0771007
+              ],
+              [
+                118.788302,
+                32.0771241
+              ],
+              [
+                118.7883221,
+                32.0771568
+              ],
+              [
+                118.7882689,
+                32.0771739
+              ]
+            ],
+            "distance_m": 197.189,
+            "way_ids": [
+              1443667892
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1443667892",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13247468900,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13247468873,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1064.032,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/62354287",
+            "title": "玄武湖 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "夫子庙—秦淮风光带景区 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-4-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-4-walk-1-map.json",
+        "bounds": [
+          32.0191576,
+          118.77778980000001,
+          32.0252081,
+          118.7856761
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-4-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.0203576,
+            "lon": 118.7833994,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1214502858",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-4-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.0214536,
+            "lon": 118.7826916,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13888480111",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-4-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.0224873,
+            "lon": 118.7791462,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13888479982",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-4-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.0240081,
+            "lon": 118.7793989,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13888583469",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-4-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-4-walk-1-node-1",
+            "to_node_id": "nanjing-4-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7833994,
+                32.0203576
+              ],
+              [
+                118.7841152,
+                32.0207075
+              ],
+              [
+                118.7844761,
+                32.0209107
+              ],
+              [
+                118.784301,
+                32.021107
+              ],
+              [
+                118.783986,
+                32.0215044
+              ],
+              [
+                118.7838263,
+                32.0217096
+              ],
+              [
+                118.7829799,
+                32.021244
+              ],
+              [
+                118.7829478,
+                32.0212817
+              ],
+              [
+                118.7828837,
+                32.0213423
+              ],
+              [
+                118.7828097,
+                32.0213946
+              ],
+              [
+                118.7826988,
+                32.021451
+              ],
+              [
+                118.7826916,
+                32.0214536
+              ]
+            ],
+            "distance_m": 358.038,
+            "way_ids": [
+              105436070,
+              105436067,
+              105436061,
+              105436066,
+              585539415,
+              1523561700
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/105436070",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1214502858,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13888480111,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-4-walk-1-node-2",
+            "to_node_id": "nanjing-4-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7826916,
+                32.0214536
+              ],
+              [
+                118.7825411,
+                32.0215074
+              ],
+              [
+                118.7823192,
+                32.0215785
+              ],
+              [
+                118.7821315,
+                32.0216303
+              ],
+              [
+                118.7820655,
+                32.0216485
+              ],
+              [
+                118.7802496,
+                32.0221494
+              ],
+              [
+                118.7801065,
+                32.022184
+              ],
+              [
+                118.7800335,
+                32.0222043
+              ],
+              [
+                118.7799568,
+                32.0222257
+              ],
+              [
+                118.7797276,
+                32.0222894
+              ],
+              [
+                118.7791866,
+                32.0224399
+              ],
+              [
+                118.7791592,
+                32.0224581
+              ],
+              [
+                118.7791462,
+                32.0224873
+              ]
+            ],
+            "distance_m": 354.998,
+            "way_ids": [
+              1523561700,
+              1523561674
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1523561700",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13888480111,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13888479982,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-4-walk-1-node-3",
+            "to_node_id": "nanjing-4-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7791462,
+                32.0224873
+              ],
+              [
+                118.779139,
+                32.0225216
+              ],
+              [
+                118.7791283,
+                32.0225508
+              ],
+              [
+                118.7791046,
+                32.0225719
+              ],
+              [
+                118.7790665,
+                32.022584
+              ],
+              [
+                118.7790226,
+                32.0226002
+              ],
+              [
+                118.7790083,
+                32.0226203
+              ],
+              [
+                118.7789898,
+                32.0226574
+              ],
+              [
+                118.7793645,
+                32.0238913
+              ],
+              [
+                118.7793714,
+                32.0239151
+              ],
+              [
+                118.7793749,
+                32.0239269
+              ],
+              [
+                118.7793989,
+                32.0240081
+              ]
+            ],
+            "distance_m": 181.017,
+            "way_ids": [
+              1523561674,
+              1523588640,
+              1523588641
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1523561674",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13888479982,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13888583469,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 894.053,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/590937998",
+            "title": "夫子庙—秦淮风光带景区 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "夫子庙—秦淮风光带景区 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-4-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-4-walk-2-map.json",
+        "bounds": [
+          32.020044000000006,
+          118.77778980000001,
+          32.0242873,
+          118.78906599999999
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-4-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.0226574,
+            "lon": 118.7789898,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13888479989",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-4-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.022184,
+            "lon": 118.7801065,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13888479977",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-4-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.022205,
+            "lon": 118.7846494,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12801639148",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-4-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.0216888,
+            "lon": 118.787866,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2763304988",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-4-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-4-walk-2-node-1",
+            "to_node_id": "nanjing-4-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7789898,
+                32.0226574
+              ],
+              [
+                118.7790083,
+                32.0226203
+              ],
+              [
+                118.7790226,
+                32.0226002
+              ],
+              [
+                118.7790665,
+                32.022584
+              ],
+              [
+                118.7791046,
+                32.0225719
+              ],
+              [
+                118.7791283,
+                32.0225508
+              ],
+              [
+                118.779139,
+                32.0225216
+              ],
+              [
+                118.7791462,
+                32.0224873
+              ],
+              [
+                118.7791592,
+                32.0224581
+              ],
+              [
+                118.7791866,
+                32.0224399
+              ],
+              [
+                118.7797276,
+                32.0222894
+              ],
+              [
+                118.7799568,
+                32.0222257
+              ],
+              [
+                118.7800335,
+                32.0222043
+              ],
+              [
+                118.7801065,
+                32.022184
+              ]
+            ],
+            "distance_m": 123.977,
+            "way_ids": [
+              1523561674
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1523561674",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13888479989,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13888479977,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-4-walk-2-node-2",
+            "to_node_id": "nanjing-4-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7801065,
+                32.022184
+              ],
+              [
+                118.7802496,
+                32.0221494
+              ],
+              [
+                118.7820655,
+                32.0216485
+              ],
+              [
+                118.7821315,
+                32.0216303
+              ],
+              [
+                118.7823192,
+                32.0215785
+              ],
+              [
+                118.7825411,
+                32.0215074
+              ],
+              [
+                118.7826916,
+                32.0214536
+              ],
+              [
+                118.7826988,
+                32.021451
+              ],
+              [
+                118.7828097,
+                32.0213946
+              ],
+              [
+                118.7828837,
+                32.0213423
+              ],
+              [
+                118.7829478,
+                32.0212817
+              ],
+              [
+                118.7829799,
+                32.021244
+              ],
+              [
+                118.7838263,
+                32.0217096
+              ],
+              [
+                118.7846494,
+                32.022205
+              ]
+            ],
+            "distance_m": 483.489,
+            "way_ids": [
+              1523561674,
+              1523561700,
+              585539415
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1523561674",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13888479977,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12801639148,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-4-walk-2-node-3",
+            "to_node_id": "nanjing-4-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7846494,
+                32.022205
+              ],
+              [
+                118.784675,
+                32.0222689
+              ],
+              [
+                118.7851199,
+                32.0225322
+              ],
+              [
+                118.7856442,
+                32.0228814
+              ],
+              [
+                118.7857815,
+                32.0229991
+              ],
+              [
+                118.7859131,
+                32.0230873
+              ],
+              [
+                118.7862038,
+                32.0228048
+              ],
+              [
+                118.7864115,
+                32.0226706
+              ],
+              [
+                118.7865414,
+                32.0225482
+              ],
+              [
+                118.7866635,
+                32.0223595
+              ],
+              [
+                118.7869393,
+                32.0220482
+              ],
+              [
+                118.7871285,
+                32.0219453
+              ],
+              [
+                118.787866,
+                32.0216888
+              ]
+            ],
+            "distance_m": 403.917,
+            "way_ids": [
+              585539415,
+              105436068,
+              105436065,
+              105436060
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/585539415",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 12801639148,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2763304988,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1011.383,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/590937998",
+            "title": "夫子庙—秦淮风光带景区 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "老门东 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-5-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-5-walk-1-map.json",
+        "bounds": [
+          32.010689600000006,
+          118.7808351,
+          32.016053299999996,
+          118.7853837
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-5-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0118896,
+            "lon": 118.7841837,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10303904944",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-5-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0129755,
+            "lon": 118.7821224,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1038878574",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-5-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0136837,
+            "lon": 118.7823767,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2153941317",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-5-walk-1-node-4",
+            "name": "老门东牌坊",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0148533,
+            "lon": 118.7827944,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5595508794",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-5-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-5-walk-1-node-1",
+            "to_node_id": "nanjing-5-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7841837,
+                32.0118896
+              ],
+              [
+                118.7837664,
+                32.0121193
+              ],
+              [
+                118.7836505,
+                32.012172
+              ],
+              [
+                118.7832178,
+                32.0123686
+              ],
+              [
+                118.783115,
+                32.0124059
+              ],
+              [
+                118.7829195,
+                32.01247
+              ],
+              [
+                118.7824426,
+                32.0126226
+              ],
+              [
+                118.7823623,
+                32.0126464
+              ],
+              [
+                118.7820351,
+                32.0127431
+              ],
+              [
+                118.7821224,
+                32.0129755
+              ]
+            ],
+            "distance_m": 251.772,
+            "way_ids": [
+              606894138,
+              1126851082
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/606894138",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10303904944,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1038878574,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-5-walk-1-node-2",
+            "to_node_id": "nanjing-5-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7821224,
+                32.0129755
+              ],
+              [
+                118.7821316,
+                32.0130018
+              ],
+              [
+                118.7821543,
+                32.0130699
+              ],
+              [
+                118.7821757,
+                32.0131281
+              ],
+              [
+                118.782246,
+                32.0133194
+              ],
+              [
+                118.7822554,
+                32.0133456
+              ],
+              [
+                118.7822951,
+                32.0134563
+              ],
+              [
+                118.7823174,
+                32.0135185
+              ],
+              [
+                118.7823412,
+                32.0135848
+              ],
+              [
+                118.7823767,
+                32.0136837
+              ]
+            ],
+            "distance_m": 82.32,
+            "way_ids": [
+              205418424
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/205418424",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1038878574,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2153941317,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-5-walk-1-node-3",
+            "to_node_id": "nanjing-5-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7823767,
+                32.0136837
+              ],
+              [
+                118.7824254,
+                32.0138249
+              ],
+              [
+                118.7824603,
+                32.0139261
+              ],
+              [
+                118.7824776,
+                32.0139763
+              ],
+              [
+                118.7825043,
+                32.0140534
+              ],
+              [
+                118.7825253,
+                32.0141144
+              ],
+              [
+                118.7825717,
+                32.0142437
+              ],
+              [
+                118.7826075,
+                32.0143457
+              ],
+              [
+                118.7827479,
+                32.0147331
+              ],
+              [
+                118.7827944,
+                32.0148533
+              ]
+            ],
+            "distance_m": 135.892,
+            "way_ids": [
+              205418424
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/205418424",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 2153941317,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5595508794,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 469.984,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/948332291",
+            "title": "老门东 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "老门东 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-5-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-5-walk-2-map.json",
+        "bounds": [
+          32.011620400000005,
+          118.779374,
+          32.0157957,
+          118.7854485
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-5-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0145957,
+            "lon": 118.780574,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10303904977",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-5-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0139763,
+            "lon": 118.7824776,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/9630664985",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-5-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0133456,
+            "lon": 118.7822554,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/9630638755",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-5-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0128204,
+            "lon": 118.7842485,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2153943835",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-5-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-5-walk-2-node-1",
+            "to_node_id": "nanjing-5-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.780574,
+                32.0145957
+              ],
+              [
+                118.7811404,
+                32.0144767
+              ],
+              [
+                118.7811916,
+                32.0144246
+              ],
+              [
+                118.781507,
+                32.0143236
+              ],
+              [
+                118.7824861,
+                32.0141224
+              ],
+              [
+                118.7825253,
+                32.0141144
+              ],
+              [
+                118.7825043,
+                32.0140534
+              ],
+              [
+                118.7824776,
+                32.0139763
+              ]
+            ],
+            "distance_m": 209.134,
+            "way_ids": [
+              606894144,
+              777418550,
+              205418424
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/606894144",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10303904977,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 9630664985,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-5-walk-2-node-2",
+            "to_node_id": "nanjing-5-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7824776,
+                32.0139763
+              ],
+              [
+                118.7824603,
+                32.0139261
+              ],
+              [
+                118.7824254,
+                32.0138249
+              ],
+              [
+                118.7823767,
+                32.0136837
+              ],
+              [
+                118.7823412,
+                32.0135848
+              ],
+              [
+                118.7823174,
+                32.0135185
+              ],
+              [
+                118.7822951,
+                32.0134563
+              ],
+              [
+                118.7822554,
+                32.0133456
+              ]
+            ],
+            "distance_m": 73.194,
+            "way_ids": [
+              205418424
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/205418424",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 9630664985,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 9630638755,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-5-walk-2-node-3",
+            "to_node_id": "nanjing-5-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.7822554,
+                32.0133456
+              ],
+              [
+                118.782246,
+                32.0133194
+              ],
+              [
+                118.782279,
+                32.0133112
+              ],
+              [
+                118.7831853,
+                32.0130863
+              ],
+              [
+                118.7834918,
+                32.0130063
+              ],
+              [
+                118.783916,
+                32.012901
+              ],
+              [
+                118.7842485,
+                32.0128204
+              ]
+            ],
+            "distance_m": 199.839,
+            "way_ids": [
+              205418424,
+              606894147
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/205418424",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 9630638755,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2153943835,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 482.167,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/948332291",
+            "title": "老门东 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "栖霞山风景区 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-6-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-6-walk-1-map.json",
+        "bounds": [
+          32.154456700000004,
+          118.9581799,
+          32.1629994,
+          118.96309289999999
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-6-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "栖霞山风景区",
+            "attraction_id": "place_21f2272ea50f4e95",
+            "lat": 32.1556567,
+            "lon": 118.9602726,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1042362742",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-6-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "栖霞山风景区",
+            "attraction_id": "place_21f2272ea50f4e95",
+            "lat": 32.157776,
+            "lon": 118.9595486,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5602528465",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-6-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "栖霞山风景区",
+            "attraction_id": "place_21f2272ea50f4e95",
+            "lat": 32.1599722,
+            "lon": 118.9611774,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5602528556",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-6-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "栖霞山风景区",
+            "attraction_id": "place_21f2272ea50f4e95",
+            "lat": 32.1617994,
+            "lon": 118.9615446,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5602528532",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-6-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-6-walk-1-node-1",
+            "to_node_id": "nanjing-6-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.9602726,
+                32.1556567
+              ],
+              [
+                118.9600758,
+                32.155883
+              ],
+              [
+                118.9600029,
+                32.1564246
+              ],
+              [
+                118.9595034,
+                32.1568997
+              ],
+              [
+                118.9593799,
+                32.1568807
+              ],
+              [
+                118.9594755,
+                32.1569489
+              ],
+              [
+                118.9594788,
+                32.1570132
+              ],
+              [
+                118.9593995,
+                32.1570803
+              ],
+              [
+                118.9594226,
+                32.1571586
+              ],
+              [
+                118.9594953,
+                32.1572257
+              ],
+              [
+                118.9600436,
+                32.1572145
+              ],
+              [
+                118.9600998,
+                32.1572565
+              ],
+              [
+                118.9601262,
+                32.1573124
+              ],
+              [
+                118.9597595,
+                32.1576172
+              ],
+              [
+                118.9595812,
+                32.1575893
+              ],
+              [
+                118.9595639,
+                32.1577114
+              ],
+              [
+                118.9595486,
+                32.157776
+              ]
+            ],
+            "distance_m": 374.807,
+            "way_ids": [
+              585884630,
+              586367839,
+              586367840
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/585884630",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1042362742,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5602528465,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-6-walk-1-node-2",
+            "to_node_id": "nanjing-6-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.9595486,
+                32.157776
+              ],
+              [
+                118.9598538,
+                32.1579988
+              ],
+              [
+                118.9599491,
+                32.1580763
+              ],
+              [
+                118.9603802,
+                32.1580892
+              ],
+              [
+                118.9606892,
+                32.158199
+              ],
+              [
+                118.960754,
+                32.1583476
+              ],
+              [
+                118.9610134,
+                32.1584735
+              ],
+              [
+                118.9612308,
+                32.1587738
+              ],
+              [
+                118.9609981,
+                32.1589417
+              ],
+              [
+                118.960918,
+                32.1590322
+              ],
+              [
+                118.9610439,
+                32.1592614
+              ],
+              [
+                118.9612766,
+                32.1596328
+              ],
+              [
+                118.9612107,
+                32.1596693
+              ],
+              [
+                118.9611774,
+                32.1597339
+              ],
+              [
+                118.9611344,
+                32.1598187
+              ],
+              [
+                118.9611487,
+                32.1599076
+              ],
+              [
+                118.9611774,
+                32.1599722
+              ]
+            ],
+            "distance_m": 366.829,
+            "way_ids": [
+              586367840,
+              586367845
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/586367840",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5602528465,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5602528556,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-6-walk-1-node-3",
+            "to_node_id": "nanjing-6-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.9611774,
+                32.1599722
+              ],
+              [
+                118.9612537,
+                32.1601055
+              ],
+              [
+                118.96133,
+                32.1602468
+              ],
+              [
+                118.9613872,
+                32.1603074
+              ],
+              [
+                118.9613443,
+                32.1604729
+              ],
+              [
+                118.9613348,
+                32.1606304
+              ],
+              [
+                118.9613968,
+                32.1607637
+              ],
+              [
+                118.9615065,
+                32.1608202
+              ],
+              [
+                118.9615828,
+                32.160901
+              ],
+              [
+                118.9617784,
+                32.1610585
+              ],
+              [
+                118.96185,
+                32.1611554
+              ],
+              [
+                118.9618929,
+                32.161325
+              ],
+              [
+                118.9618643,
+                32.1613977
+              ],
+              [
+                118.9616687,
+                32.161531
+              ],
+              [
+                118.9615971,
+                32.1615915
+              ],
+              [
+                118.9615542,
+                32.1616723
+              ],
+              [
+                118.9615446,
+                32.1617994
+              ]
+            ],
+            "distance_m": 241.367,
+            "way_ids": [
+              586367845
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/586367845",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5602528556,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5602528532,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 983.003,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/89925772",
+            "title": "栖霞山风景区 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "栖霞山风景区 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-6-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-6-walk-2-map.json",
+        "bounds": [
+          32.1560433,
+          118.95760560000001,
+          32.160101999999995,
+          118.9654613
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-6-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "栖霞山风景区",
+            "attraction_id": "place_21f2272ea50f4e95",
+            "lat": 32.1572433,
+            "lon": 118.9588056,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5602528463",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-6-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "栖霞山风景区",
+            "attraction_id": "place_21f2272ea50f4e95",
+            "lat": 32.158199,
+            "lon": 118.9606892,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5602528469",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-6-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "栖霞山风景区",
+            "attraction_id": "place_21f2272ea50f4e95",
+            "lat": 32.1586148,
+            "lon": 118.9628096,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5602528564",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-6-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "栖霞山风景区",
+            "attraction_id": "place_21f2272ea50f4e95",
+            "lat": 32.1587116,
+            "lon": 118.9642613,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5598370708",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-6-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-6-walk-2-node-1",
+            "to_node_id": "nanjing-6-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.9588056,
+                32.1572433
+              ],
+              [
+                118.9593764,
+                32.1576172
+              ],
+              [
+                118.9595812,
+                32.1575893
+              ],
+              [
+                118.9595639,
+                32.1577114
+              ],
+              [
+                118.9595486,
+                32.157776
+              ],
+              [
+                118.9598538,
+                32.1579988
+              ],
+              [
+                118.9599491,
+                32.1580763
+              ],
+              [
+                118.9603802,
+                32.1580892
+              ],
+              [
+                118.9606892,
+                32.158199
+              ]
+            ],
+            "distance_m": 230.997,
+            "way_ids": [
+              586367839,
+              586367840
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/586367839",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5602528463,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5602528469,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-6-walk-2-node-2",
+            "to_node_id": "nanjing-6-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.9606892,
+                32.158199
+              ],
+              [
+                118.960754,
+                32.1583476
+              ],
+              [
+                118.9610134,
+                32.1584735
+              ],
+              [
+                118.9612825,
+                32.1584567
+              ],
+              [
+                118.9615286,
+                32.158428
+              ],
+              [
+                118.9618085,
+                32.1584639
+              ],
+              [
+                118.9623006,
+                32.1584927
+              ],
+              [
+                118.9625721,
+                32.1585142
+              ],
+              [
+                118.9628096,
+                32.1586148
+              ]
+            ],
+            "distance_m": 218.299,
+            "way_ids": [
+              586367840,
+              586367846
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/586367840",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5602528469,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5602528564,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-6-walk-2-node-3",
+            "to_node_id": "nanjing-6-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.9628096,
+                32.1586148
+              ],
+              [
+                118.9629369,
+                32.1587369
+              ],
+              [
+                118.9631744,
+                32.1588302
+              ],
+              [
+                118.9635053,
+                32.1588159
+              ],
+              [
+                118.9635739,
+                32.1588546
+              ],
+              [
+                118.963658,
+                32.158902
+              ],
+              [
+                118.9639804,
+                32.158823
+              ],
+              [
+                118.9642613,
+                32.1587116
+              ]
+            ],
+            "distance_m": 152.012,
+            "way_ids": [
+              586367846
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/586367846",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5602528564,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5598370708,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 601.308,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/89925772",
+            "title": "栖霞山风景区 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "无想山景区 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-7-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-7-walk-1-map.json",
+        "bounds": [
+          31.580525899999998,
+          119.0430698,
+          31.588464000000002,
+          119.0500459
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-7-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "无想山景区",
+            "attraction_id": "place_e9830b0768994d05",
+            "lat": 31.5817259,
+            "lon": 119.0482271,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8444740505",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-7-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "无想山景区",
+            "attraction_id": "place_e9830b0768994d05",
+            "lat": 31.5829785,
+            "lon": 119.0467609,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13356904315",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-7-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "无想山景区",
+            "attraction_id": "place_e9830b0768994d05",
+            "lat": 31.5847845,
+            "lon": 119.046577,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13356904325",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-7-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "无想山景区",
+            "attraction_id": "place_e9830b0768994d05",
+            "lat": 31.587264,
+            "lon": 119.0442698,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12964195363",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-7-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-7-walk-1-node-1",
+            "to_node_id": "nanjing-7-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.0482271,
+                31.5817259
+              ],
+              [
+                119.048294,
+                31.5818964
+              ],
+              [
+                119.0488459,
+                31.5822695
+              ],
+              [
+                119.0488459,
+                31.5826427
+              ],
+              [
+                119.0483904,
+                31.5827472
+              ],
+              [
+                119.0483028,
+                31.5827919
+              ],
+              [
+                119.0482852,
+                31.5833516
+              ],
+              [
+                119.0481801,
+                31.583471
+              ],
+              [
+                119.0476282,
+                31.5831725
+              ],
+              [
+                119.0470588,
+                31.5830904
+              ],
+              [
+                119.0467609,
+                31.5829785
+              ]
+            ],
+            "distance_m": 408.908,
+            "way_ids": [
+              1456405406
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1456405406",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8444740505,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13356904315,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-7-walk-1-node-2",
+            "to_node_id": "nanjing-7-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.0467609,
+                31.5829785
+              ],
+              [
+                119.0465069,
+                31.5829561
+              ],
+              [
+                119.0463054,
+                31.5830233
+              ],
+              [
+                119.0462704,
+                31.5832397
+              ],
+              [
+                119.0464018,
+                31.5833666
+              ],
+              [
+                119.0467347,
+                31.5834188
+              ],
+              [
+                119.0471902,
+                31.5836128
+              ],
+              [
+                119.0472778,
+                31.5837695
+              ],
+              [
+                119.0472866,
+                31.584083
+              ],
+              [
+                119.0471639,
+                31.5842621
+              ],
+              [
+                119.046577,
+                31.5847845
+              ]
+            ],
+            "distance_m": 325.727,
+            "way_ids": [
+              1456405406
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1456405406",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13356904315,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13356904325,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-7-walk-1-node-3",
+            "to_node_id": "nanjing-7-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.046577,
+                31.5847845
+              ],
+              [
+                119.0464806,
+                31.5850979
+              ],
+              [
+                119.0462704,
+                31.5853068
+              ],
+              [
+                119.0459638,
+                31.5854262
+              ],
+              [
+                119.0458586,
+                31.5854859
+              ],
+              [
+                119.0454732,
+                31.5859486
+              ],
+              [
+                119.0453681,
+                31.5861725
+              ],
+              [
+                119.0449213,
+                31.5868143
+              ],
+              [
+                119.0443431,
+                31.587262
+              ],
+              [
+                119.0442698,
+                31.587264
+              ]
+            ],
+            "distance_m": 364.353,
+            "way_ids": [
+              1456405406
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1456405406",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13356904325,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12964195363,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1098.988,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/909515703",
+            "title": "无想山景区 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "无想山景区 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "nanjing-7-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-7-walk-2-map.json",
+        "bounds": [
+          31.573033799999997,
+          119.0497613,
+          31.5825065,
+          119.0577015
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-7-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "无想山景区",
+            "attraction_id": "place_e9830b0768994d05",
+            "lat": 31.5742338,
+            "lon": 119.0509613,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13356904286",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-7-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "无想山景区",
+            "attraction_id": "place_e9830b0768994d05",
+            "lat": 31.5765322,
+            "lon": 119.0533309,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13356904292",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-7-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "无想山景区",
+            "attraction_id": "place_e9830b0768994d05",
+            "lat": 31.580726,
+            "lon": 119.0564181,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13356904298",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-7-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "无想山景区",
+            "attraction_id": "place_e9830b0768994d05",
+            "lat": 31.5813065,
+            "lon": 119.0538037,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13356904304",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-7-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-7-walk-2-node-1",
+            "to_node_id": "nanjing-7-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.0509613,
+                31.5742338
+              ],
+              [
+                119.0514814,
+                31.5747196
+              ],
+              [
+                119.0520933,
+                31.5749684
+              ],
+              [
+                119.0521906,
+                31.575229
+              ],
+              [
+                119.0523158,
+                31.5755252
+              ],
+              [
+                119.0525661,
+                31.5758688
+              ],
+              [
+                119.0533309,
+                31.5765322
+              ]
+            ],
+            "distance_m": 351.122,
+            "way_ids": [
+              1456405405
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1456405405",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13356904286,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13356904292,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-7-walk-2-node-2",
+            "to_node_id": "nanjing-7-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.0533309,
+                31.5765322
+              ],
+              [
+                119.0552639,
+                31.5775392
+              ],
+              [
+                119.0561261,
+                31.5784988
+              ],
+              [
+                119.0561122,
+                31.5793755
+              ],
+              [
+                119.0563347,
+                31.5800152
+              ],
+              [
+                119.0565015,
+                31.5802403
+              ],
+              [
+                119.0564181,
+                31.580726
+              ]
+            ],
+            "distance_m": 604.877,
+            "way_ids": [
+              1456405405
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1456405405",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13356904292,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13356904298,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "nanjing-7-walk-2-node-3",
+            "to_node_id": "nanjing-7-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.0564181,
+                31.580726
+              ],
+              [
+                119.0557645,
+                31.5809985
+              ],
+              [
+                119.0553612,
+                31.5805128
+              ],
+              [
+                119.0547215,
+                31.5805957
+              ],
+              [
+                119.0544295,
+                31.5807023
+              ],
+              [
+                119.0540401,
+                31.5809156
+              ],
+              [
+                119.0538037,
+                31.5813065
+              ]
+            ],
+            "distance_m": 319.222,
+            "way_ids": [
+              1456405405
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1456405405",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13356904298,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13356904304,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1275.221,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/909515703",
+            "title": "无想山景区 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "夫子庙—秦淮风光带景区 → 老门东",
+        "subtitle": "景点间骑行 · 实际道路预览",
+        "summary": "用于比较景点间的骑行衔接；起终点均为真实道路路点，未核验为景区出入口。地图距离不包含从这些路点走到景点入口的路程。",
+        "id": "nanjing-cycle-1",
+        "guide_id": null,
+        "route_type": "citywalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-cycle-1-map.json",
+        "bounds": [
+          32.010106699999994,
+          118.7784731,
+          32.0250586,
+          118.7874999
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-cycle-1-node-1",
+            "name": "夫子庙—秦淮风光带景区附近道路",
+            "attraction_name": "夫子庙—秦淮风光带景区",
+            "attraction_id": "place_7efb1145e7e24592",
+            "lat": 32.0228314,
+            "lon": 118.782833,
+            "note": "道路锚点距景点代表点约73米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1155855140",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-cycle-1-node-2",
+            "name": "老门东附近道路",
+            "attraction_name": "老门东",
+            "attraction_id": "place_0b7d09ed61a54c3b",
+            "lat": 32.0126073,
+            "lon": 118.7834562,
+            "note": "道路锚点距景点代表点约151米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10303904984",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-cycle-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-cycle-1-node-1",
+            "to_node_id": "nanjing-cycle-1-node-2",
+            "mode": "cycle",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.782833,
+                32.0228314
+              ],
+              [
+                118.7827203,
+                32.0229087
+              ],
+              [
+                118.7824575,
+                32.0229906
+              ],
+              [
+                118.782356,
+                32.0230586
+              ],
+              [
+                118.7822107,
+                32.0228268
+              ],
+              [
+                118.7821356,
+                32.0226722
+              ],
+              [
+                118.7821463,
+                32.0225267
+              ],
+              [
+                118.7821951,
+                32.0223831
+              ],
+              [
+                118.7822431,
+                32.0222881
+              ],
+              [
+                118.7822792,
+                32.0222255
+              ],
+              [
+                118.782285,
+                32.0221487
+              ],
+              [
+                118.7822538,
+                32.0220681
+              ],
+              [
+                118.7822322,
+                32.0220036
+              ],
+              [
+                118.7820843,
+                32.021606
+              ],
+              [
+                118.7812788,
+                32.0218226
+              ],
+              [
+                118.7805341,
+                32.0220303
+              ],
+              [
+                118.7805142,
+                32.0220334
+              ],
+              [
+                118.7805026,
+                32.0220308
+              ],
+              [
+                118.7804921,
+                32.0220258
+              ],
+              [
+                118.780481,
+                32.0220152
+              ],
+              [
+                118.7804755,
+                32.0220051
+              ],
+              [
+                118.7804731,
+                32.0219929
+              ],
+              [
+                118.7804757,
+                32.0219783
+              ],
+              [
+                118.780483,
+                32.0219663
+              ],
+              [
+                118.7805024,
+                32.0219549
+              ],
+              [
+                118.7812406,
+                32.0217573
+              ],
+              [
+                118.7821193,
+                32.0215221
+              ],
+              [
+                118.7823543,
+                32.0214365
+              ],
+              [
+                118.7825659,
+                32.0213427
+              ],
+              [
+                118.7826205,
+                32.0213598
+              ],
+              [
+                118.7826786,
+                32.021362
+              ],
+              [
+                118.7827348,
+                32.0213491
+              ],
+              [
+                118.7827837,
+                32.0213224
+              ],
+              [
+                118.7828207,
+                32.0212845
+              ],
+              [
+                118.7828425,
+                32.0212387
+              ],
+              [
+                118.7828468,
+                32.0211896
+              ],
+              [
+                118.7828334,
+                32.0211416
+              ],
+              [
+                118.7829714,
+                32.0210938
+              ],
+              [
+                118.7830515,
+                32.0210237
+              ],
+              [
+                118.7831374,
+                32.0208797
+              ],
+              [
+                118.7833449,
+                32.0204662
+              ],
+              [
+                118.7833994,
+                32.0203576
+              ],
+              [
+                118.7837327,
+                32.020025
+              ],
+              [
+                118.7840108,
+                32.0197628
+              ],
+              [
+                118.7836651,
+                32.0186396
+              ],
+              [
+                118.7835543,
+                32.0180429
+              ],
+              [
+                118.7834503,
+                32.0174537
+              ],
+              [
+                118.7833919,
+                32.0170986
+              ],
+              [
+                118.7832767,
+                32.0165194
+              ],
+              [
+                118.7831698,
+                32.0159309
+              ],
+              [
+                118.7847582,
+                32.0155541
+              ],
+              [
+                118.785069,
+                32.015485
+              ],
+              [
+                118.7848991,
+                32.0146048
+              ],
+              [
+                118.7847085,
+                32.0140805
+              ],
+              [
+                118.7845745,
+                32.0137089
+              ],
+              [
+                118.7844005,
+                32.0132047
+              ],
+              [
+                118.7843949,
+                32.0131692
+              ],
+              [
+                118.7843955,
+                32.0131472
+              ],
+              [
+                118.7843869,
+                32.0131232
+              ],
+              [
+                118.7842716,
+                32.0128157
+              ],
+              [
+                118.7842979,
+                32.0128103
+              ],
+              [
+                118.7846765,
+                32.0127325
+              ],
+              [
+                118.7854999,
+                32.0125275
+              ],
+              [
+                118.7854453,
+                32.0124338
+              ],
+              [
+                118.7853719,
+                32.0122094
+              ],
+              [
+                118.7853601,
+                32.0121701
+              ],
+              [
+                118.7853412,
+                32.0121067
+              ],
+              [
+                118.7851511,
+                32.0121551
+              ],
+              [
+                118.7843903,
+                32.0123487
+              ],
+              [
+                118.7839299,
+                32.0124853
+              ],
+              [
+                118.7834562,
+                32.0126073
+              ]
+            ],
+            "distance_m": 2117.594,
+            "way_ids": [
+              99979637,
+              99979638,
+              1523561666,
+              1523561672,
+              91365010,
+              1347744449,
+              777411821,
+              777411822,
+              61966987,
+              1126672841,
+              89638621,
+              777476151,
+              606894153,
+              1436614983,
+              205417969,
+              205418383,
+              91997679
+            ],
+            "note": "按允许骑行的已记录道路和单行方向生成；未核验现场限行，长度为地图值。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/99979637",
+              "label": "OpenStreetMap 骑行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1155855140,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10303904984,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 2117.594,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/99979637",
+            "title": "OpenStreetMap 骑行道路",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "明孝陵 → 玄武湖",
+        "subtitle": "景点间骑行 · 实际道路预览",
+        "summary": "用于比较景点间的骑行衔接；起终点均为真实道路路点，未核验为景区出入口。地图距离不包含从这些路点走到景点入口的路程。",
+        "id": "nanjing-cycle-2",
+        "guide_id": null,
+        "route_type": "citywalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/nanjing-cycle-2-map.json",
+        "bounds": [
+          32.0576709,
+          118.7917017,
+          32.0802901,
+          118.83711749999999
+        ],
+        "nodes": [
+          {
+            "id": "nanjing-cycle-2-node-1",
+            "name": "明孝陵附近道路",
+            "attraction_name": "明孝陵",
+            "attraction_id": "place_4fc1aa951eff474e",
+            "lat": 32.0641988,
+            "lon": 118.8351175,
+            "note": "道路锚点距景点代表点约239米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8012889793",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "nanjing-cycle-2-node-2",
+            "name": "玄武湖附近道路",
+            "attraction_name": "玄武湖",
+            "attraction_id": "place_f2436907b2484995",
+            "lat": 32.0772978,
+            "lon": 118.7944645,
+            "note": "道路锚点距景点代表点约271米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11865629109",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/nanjing-cycle-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "nanjing-cycle-2-node-1",
+            "to_node_id": "nanjing-cycle-2-node-2",
+            "mode": "cycle",
+            "status": "mapped",
+            "coordinates": [
+              [
+                118.8351175,
+                32.0641988
+              ],
+              [
+                118.8348949,
+                32.0642443
+              ],
+              [
+                118.8347688,
+                32.0642988
+              ],
+              [
+                118.8345596,
+                32.0643466
+              ],
+              [
+                118.834337,
+                32.064342
+              ],
+              [
+                118.8340554,
+                32.0642784
+              ],
+              [
+                118.8339025,
+                32.0642761
+              ],
+              [
+                118.8337791,
+                32.0643329
+              ],
+              [
+                118.8335189,
+                32.0645398
+              ],
+              [
+                118.8334411,
+                32.0645443
+              ],
+              [
+                118.8331273,
+                32.0644739
+              ],
+              [
+                118.8329315,
+                32.0643693
+              ],
+              [
+                118.8327116,
+                32.0641193
+              ],
+              [
+                118.832379,
+                32.0636669
+              ],
+              [
+                118.8318327,
+                32.0632553
+              ],
+              [
+                118.8312176,
+                32.0631691
+              ],
+              [
+                118.8307867,
+                32.0632826
+              ],
+              [
+                118.8306687,
+                32.0632462
+              ],
+              [
+                118.8304648,
+                32.0631371
+              ],
+              [
+                118.8301859,
+                32.0631098
+              ],
+              [
+                118.8299498,
+                32.0630462
+              ],
+              [
+                118.8297251,
+                32.0630221
+              ],
+              [
+                118.8296215,
+                32.0630093
+              ],
+              [
+                118.8293485,
+                32.0629757
+              ],
+              [
+                118.8291656,
+                32.0629057
+              ],
+              [
+                118.8287945,
+                32.0627948
+              ],
+              [
+                118.8286113,
+                32.062806
+              ],
+              [
+                118.8283831,
+                32.0628142
+              ],
+              [
+                118.8281646,
+                32.0628183
+              ],
+              [
+                118.8279169,
+                32.0628183
+              ],
+              [
+                118.827708,
+                32.0628348
+              ],
+              [
+                118.8274361,
+                32.062843
+              ],
+              [
+                118.8272904,
+                32.0628101
+              ],
+              [
+                118.8270718,
+                32.0627443
+              ],
+              [
+                118.826897,
+                32.0627031
+              ],
+              [
+                118.8267465,
+                32.062699
+              ],
+              [
+                118.8266202,
+                32.0627278
+              ],
+              [
+                118.8264405,
+                32.062806
+              ],
+              [
+                118.8262268,
+                32.0628636
+              ],
+              [
+                118.8260083,
+                32.0628801
+              ],
+              [
+                118.8258432,
+                32.0629007
+              ],
+              [
+                118.8256101,
+                32.0629459
+              ],
+              [
+                118.8253478,
+                32.0630159
+              ],
+              [
+                118.8252264,
+                32.06302
+              ],
+              [
+                118.8250564,
+                32.0629542
+              ],
+              [
+                118.8247602,
+                32.0627854
+              ],
+              [
+                118.8245902,
+                32.0626537
+              ],
+              [
+                118.8243522,
+                32.0625632
+              ],
+              [
+                118.8240414,
+                32.0624685
+              ],
+              [
+                118.8236529,
+                32.062415
+              ],
+              [
+                118.8233518,
+                32.0623985
+              ],
+              [
+                118.8230021,
+                32.0623121
+              ],
+              [
+                118.8226476,
+                32.0622216
+              ],
+              [
+                118.8224291,
+                32.0622298
+              ],
+              [
+                118.8222591,
+                32.0622504
+              ],
+              [
+                118.8220745,
+                32.0622257
+              ],
+              [
+                118.8218949,
+                32.0621639
+              ],
+              [
+                118.8217055,
+                32.0620364
+              ],
+              [
+                118.8216175,
+                32.0619529
+              ],
+              [
+                118.821584,
+                32.0619211
+              ],
+              [
+                118.8214578,
+                32.0617483
+              ],
+              [
+                118.8213072,
+                32.0616412
+              ],
+              [
+                118.8210644,
+                32.0614951
+              ],
+              [
+                118.8208216,
+                32.0613675
+              ],
+              [
+                118.8205642,
+                32.0612317
+              ],
+              [
+                118.8202485,
+                32.060923
+              ],
+              [
+                118.8199571,
+                32.0606761
+              ],
+              [
+                118.8197969,
+                32.0604168
+              ],
+              [
+                118.8196584,
+                32.0601597
+              ],
+              [
+                118.8195405,
+                32.0599597
+              ],
+              [
+                118.8194748,
+                32.0598943
+              ],
+              [
+                118.8194035,
+                32.0598241
+              ],
+              [
+                118.8192519,
+                32.0597542
+              ],
+              [
+                118.8191182,
+                32.0597001
+              ],
+              [
+                118.8189425,
+                32.0596762
+              ],
+              [
+                118.8187332,
+                32.0596709
+              ],
+              [
+                118.8186119,
+                32.05976
+              ],
+              [
+                118.8185658,
+                32.0597939
+              ],
+              [
+                118.8184606,
+                32.059888
+              ],
+              [
+                118.8183908,
+                32.059954
+              ],
+              [
+                118.8183372,
+                32.0600199
+              ],
+              [
+                118.8182711,
+                32.0600796
+              ],
+              [
+                118.8181843,
+                32.060129
+              ],
+              [
+                118.8181132,
+                32.0601592
+              ],
+              [
+                118.8180062,
+                32.0601541
+              ],
+              [
+                118.8179456,
+                32.0601404
+              ],
+              [
+                118.8178772,
+                32.0601227
+              ],
+              [
+                118.8177416,
+                32.0602382
+              ],
+              [
+                118.8176704,
+                32.0603046
+              ],
+              [
+                118.8175113,
+                32.0604522
+              ],
+              [
+                118.8173277,
+                32.0605717
+              ],
+              [
+                118.8171849,
+                32.0606335
+              ],
+              [
+                118.8169138,
+                32.060673
+              ],
+              [
+                118.8166204,
+                32.0606947
+              ],
+              [
+                118.8160276,
+                32.0606947
+              ],
+              [
+                118.8152965,
+                32.0605945
+              ],
+              [
+                118.8147339,
+                32.0605203
+              ],
+              [
+                118.8138594,
+                32.060424
+              ],
+              [
+                118.8118383,
+                32.0604071
+              ],
+              [
+                118.8108935,
+                32.0604079
+              ],
+              [
+                118.8104672,
+                32.0603933
+              ],
+              [
+                118.8097757,
+                32.0604035
+              ],
+              [
+                118.8089099,
+                32.060466
+              ],
+              [
+                118.8080726,
+                32.0605569
+              ],
+              [
+                118.8081689,
+                32.0608309
+              ],
+              [
+                118.8095391,
+                32.0644767
+              ],
+              [
+                118.8097392,
+                32.0650456
+              ],
+              [
+                118.8101649,
+                32.0662559
+              ],
+              [
+                118.8102813,
+                32.0665682
+              ],
+              [
+                118.810519,
+                32.067206
+              ],
+              [
+                118.8104771,
+                32.0676603
+              ],
+              [
+                118.8104494,
+                32.0679878
+              ],
+              [
+                118.8103922,
+                32.0680913
+              ],
+              [
+                118.8102382,
+                32.0683701
+              ],
+              [
+                118.8089981,
+                32.0706155
+              ],
+              [
+                118.8076277,
+                32.0732505
+              ],
+              [
+                118.8069986,
+                32.074496
+              ],
+              [
+                118.8066248,
+                32.0751453
+              ],
+              [
+                118.8065913,
+                32.0752035
+              ],
+              [
+                118.8063863,
+                32.0751386
+              ],
+              [
+                118.8060974,
+                32.0751307
+              ],
+              [
+                118.803943,
+                32.0743012
+              ],
+              [
+                118.8038248,
+                32.074253
+              ],
+              [
+                118.8036671,
+                32.0743541
+              ],
+              [
+                118.8035278,
+                32.0745706
+              ],
+              [
+                118.8030832,
+                32.0754245
+              ],
+              [
+                118.8026505,
+                32.0761477
+              ],
+              [
+                118.8015519,
+                32.0779839
+              ],
+              [
+                118.8015351,
+                32.0780119
+              ],
+              [
+                118.8013455,
+                32.0779345
+              ],
+              [
+                118.801304,
+                32.077918
+              ],
+              [
+                118.8011099,
+                32.0779884
+              ],
+              [
+                118.8008953,
+                32.0779748
+              ],
+              [
+                118.8006485,
+                32.0779248
+              ],
+              [
+                118.8005037,
+                32.0778657
+              ],
+              [
+                118.800391,
+                32.0777975
+              ],
+              [
+                118.8002784,
+                32.0777066
+              ],
+              [
+                118.8002301,
+                32.0776475
+              ],
+              [
+                118.8001808,
+                32.0775807
+              ],
+              [
+                118.8001496,
+                32.0775384
+              ],
+              [
+                118.8000638,
+                32.0774293
+              ],
+              [
+                118.7999619,
+                32.077293
+              ],
+              [
+                118.7998331,
+                32.0771839
+              ],
+              [
+                118.7997098,
+                32.0771157
+              ],
+              [
+                118.7996132,
+                32.077093
+              ],
+              [
+                118.7994469,
+                32.0771157
+              ],
+              [
+                118.7993336,
+                32.0771277
+              ],
+              [
+                118.7991743,
+                32.0771958
+              ],
+              [
+                118.7990266,
+                32.0772638
+              ],
+              [
+                118.7987486,
+                32.0773557
+              ],
+              [
+                118.7980381,
+                32.0775796
+              ],
+              [
+                118.7973863,
+                32.0777855
+              ],
+              [
+                118.7968053,
+                32.0779775
+              ],
+              [
+                118.7964142,
+                32.0781167
+              ],
+              [
+                118.7959783,
+                32.0782422
+              ],
+              [
+                118.7958113,
+                32.0782792
+              ],
+              [
+                118.7957008,
+                32.0782901
+              ],
+              [
+                118.7955672,
+                32.0782487
+              ],
+              [
+                118.795372,
+                32.0781421
+              ],
+              [
+                118.7950894,
+                32.0779679
+              ],
+              [
+                118.7949538,
+                32.077892
+              ],
+              [
+                118.794854,
+                32.0778362
+              ],
+              [
+                118.7947088,
+                32.0777914
+              ],
+              [
+                118.7945537,
+                32.0777924
+              ],
+              [
+                118.79443,
+                32.0778201
+              ],
+              [
+                118.7943177,
+                32.0778613
+              ],
+              [
+                118.7942793,
+                32.0778879
+              ],
+              [
+                118.7942368,
+                32.0779173
+              ],
+              [
+                118.7941899,
+                32.0779777
+              ],
+              [
+                118.7941529,
+                32.0780607
+              ],
+              [
+                118.7940901,
+                32.0781201
+              ],
+              [
+                118.7939763,
+                32.078167
+              ],
+              [
+                118.7938481,
+                32.078192
+              ],
+              [
+                118.7937017,
+                32.0781819
+              ],
+              [
+                118.7937101,
+                32.0776436
+              ],
+              [
+                118.7940637,
+                32.0773936
+              ],
+              [
+                118.7944645,
+                32.0772978
+              ]
+            ],
+            "distance_m": 6326.657,
+            "way_ids": [
+              859643826,
+              52502909,
+              52502912,
+              162239103,
+              62061433,
+              91202333,
+              91202332,
+              160759222,
+              577920368,
+              167230199,
+              167230194,
+              1278075249,
+              1278075250,
+              468956232,
+              1278075248
+            ],
+            "note": "按允许骑行的已记录道路和单行方向生成；未核验现场限行，长度为地图值。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/859643826",
+              "label": "OpenStreetMap 骑行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8012889793,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11865629109,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 6326.657,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/859643826",
+            "title": "OpenStreetMap 骑行道路",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      }
+    ],
     "available_destinations": [
+      {
+        "id": "liyang",
+        "name": "溧阳"
+      },
+      {
+        "id": "dalian",
+        "name": "大连"
+      },
       {
         "id": "suzhou",
         "name": "苏州"
+      },
+      {
+        "id": "nanjing",
+        "name": "南京"
+      },
+      {
+        "id": "kunming",
+        "name": "昆明"
+      },
+      {
+        "id": "fuxianhu",
+        "name": "抚仙湖"
+      },
+      {
+        "id": "lijiang",
+        "name": "丽江"
+      },
+      {
+        "id": "dali",
+        "name": "大理"
+      },
+      {
+        "id": "shangrila",
+        "name": "香格里拉"
+      },
+      {
+        "id": "xian",
+        "name": "西安"
       }
     ],
     "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"

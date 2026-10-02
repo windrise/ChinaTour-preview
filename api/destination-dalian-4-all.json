@@ -22461,11 +22461,1940 @@
     }
   },
   "immersive_routes": {
-    "items": [],
+    "items": [
+      {
+        "title": "星海广场 · 园内步道 A",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dalian-1-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dalian-1-walk-1-map.json",
+        "bounds": [
+          38.875799300000004,
+          121.5813906,
+          38.8866309,
+          121.58551
+        ],
+        "nodes": [
+          {
+            "id": "dalian-1-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.8854309,
+            "lon": 121.58431,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11438668126",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-1-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.8817899,
+            "lon": 121.5839919,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2718421233",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-1-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.8806199,
+            "lon": 121.5838747,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2718421124",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-1-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.8769993,
+            "lon": 121.5825906,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2718420200",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dalian-1-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dalian-1-walk-1-node-1",
+            "to_node_id": "dalian-1-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.58431,
+                38.8854309
+              ],
+              [
+                121.5842976,
+                38.8853671
+              ],
+              [
+                121.5839965,
+                38.8839392
+              ],
+              [
+                121.5839775,
+                38.8838383
+              ],
+              [
+                121.583948,
+                38.8836813
+              ],
+              [
+                121.5836131,
+                38.8820575
+              ],
+              [
+                121.5837858,
+                38.881978
+              ],
+              [
+                121.5839097,
+                38.88189
+              ],
+              [
+                121.5839919,
+                38.8817899
+              ]
+            ],
+            "distance_m": 425.024,
+            "way_ids": [
+              1232962410,
+              1232962411,
+              266257513,
+              1232962412
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1232962410",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11438668126,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2718421233,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-1-walk-1-node-2",
+            "to_node_id": "dalian-1-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5839919,
+                38.8817899
+              ],
+              [
+                121.5840613,
+                38.8816699
+              ],
+              [
+                121.5840963,
+                38.8816093
+              ],
+              [
+                121.5841641,
+                38.8814921
+              ],
+              [
+                121.584223,
+                38.8813262
+              ],
+              [
+                121.584212,
+                38.8811147
+              ],
+              [
+                121.5841595,
+                38.8809345
+              ],
+              [
+                121.5840534,
+                38.8807775
+              ],
+              [
+                121.5838747,
+                38.8806199
+              ]
+            ],
+            "distance_m": 142.637,
+            "way_ids": [
+              1232962413,
+              266257548
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1232962413",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 2718421233,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2718421124,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-1-walk-1-node-3",
+            "to_node_id": "dalian-1-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5838747,
+                38.8806199
+              ],
+              [
+                121.5837481,
+                38.8805475
+              ],
+              [
+                121.583678,
+                38.8805074
+              ],
+              [
+                121.5835434,
+                38.8804305
+              ],
+              [
+                121.5832772,
+                38.8803637
+              ],
+              [
+                121.5829454,
+                38.8787378
+              ],
+              [
+                121.5829142,
+                38.8785847
+              ],
+              [
+                121.5828977,
+                38.878504
+              ],
+              [
+                121.5825906,
+                38.8769993
+              ]
+            ],
+            "distance_m": 438.587,
+            "way_ids": [
+              1232962417,
+              1232962427,
+              266257544,
+              1232962421,
+              1232962420
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1232962417",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 2718421124,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2718420200,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1006.248,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/510083111",
+            "title": "星海广场 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "星海广场 · 园内步道 B",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dalian-1-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dalian-1-walk-2-map.json",
+        "bounds": [
+          38.875903,
+          121.58051350000001,
+          38.886731999999995,
+          121.5846265
+        ],
+        "nodes": [
+          {
+            "id": "dalian-1-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.885532,
+            "lon": 121.5834265,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11438667918",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-1-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.8818935,
+            "lon": 121.5821235,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2718421235",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-1-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.880847,
+            "lon": 121.5819452,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11438668292",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-1-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.877103,
+            "lon": 121.5817135,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2718420241",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dalian-1-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "dalian-1-walk-2-node-1",
+            "to_node_id": "dalian-1-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5834265,
+                38.885532
+              ],
+              [
+                121.5831247,
+                38.8840476
+              ],
+              [
+                121.5831043,
+                38.8839467
+              ],
+              [
+                121.5830674,
+                38.8837643
+              ],
+              [
+                121.5827325,
+                38.8821561
+              ],
+              [
+                121.5824849,
+                38.8820943
+              ],
+              [
+                121.5823388,
+                38.8820131
+              ],
+              [
+                121.5822653,
+                38.8819723
+              ],
+              [
+                121.5821235,
+                38.8818935
+              ]
+            ],
+            "distance_m": 441.1,
+            "way_ids": [
+              1232962403,
+              1232962404,
+              266257516,
+              1232962405,
+              1232962399
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1232962403",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11438667918,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2718421235,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-1-walk-2-node-2",
+            "to_node_id": "dalian-1-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5821235,
+                38.8818935
+              ],
+              [
+                121.5819913,
+                38.8817648
+              ],
+              [
+                121.5818975,
+                38.8816292
+              ],
+              [
+                121.5818318,
+                38.8814848
+              ],
+              [
+                121.5818073,
+                38.8813383
+              ],
+              [
+                121.581804,
+                38.8811938
+              ],
+              [
+                121.5818311,
+                38.8810306
+              ],
+              [
+                121.581907,
+                38.8809084
+              ],
+              [
+                121.5819452,
+                38.880847
+              ]
+            ],
+            "distance_m": 125.957,
+            "way_ids": [
+              1232962414,
+              1232962415
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1232962414",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 2718421235,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11438668292,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-1-walk-2-node-3",
+            "to_node_id": "dalian-1-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5819452,
+                38.880847
+              ],
+              [
+                121.5820197,
+                38.880727
+              ],
+              [
+                121.5821192,
+                38.8806374
+              ],
+              [
+                121.5822749,
+                38.8805284
+              ],
+              [
+                121.5824042,
+                38.880459
+              ],
+              [
+                121.5820697,
+                38.8788338
+              ],
+              [
+                121.5820406,
+                38.8786922
+              ],
+              [
+                121.5820233,
+                38.878608
+              ],
+              [
+                121.5817135,
+                38.877103
+              ]
+            ],
+            "distance_m": 437.64,
+            "way_ids": [
+              1232962415,
+              1232962416,
+              1232962418,
+              1232962419,
+              266257547
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1232962415",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11438668292,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2718420241,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1004.697,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/510083111",
+            "title": "星海广场 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "星海公园 · 园内步道 A",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dalian-2-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dalian-2-walk-1-map.json",
+        "bounds": [
+          38.8744219,
+          121.5639187,
+          38.8780879,
+          121.56780479999999
+        ],
+        "nodes": [
+          {
+            "id": "dalian-2-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8768458,
+            "lon": 121.5657516,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5325480796",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-2-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8759186,
+            "lon": 121.5663666,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5325480790",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-2-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8757298,
+            "lon": 121.5654658,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5325480784",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-2-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8768879,
+            "lon": 121.5651187,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5325480779",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dalian-2-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dalian-2-walk-1-node-1",
+            "to_node_id": "dalian-2-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5657516,
+                38.8768458
+              ],
+              [
+                121.5656953,
+                38.8766536
+              ],
+              [
+                121.5659855,
+                38.8765558
+              ],
+              [
+                121.5661977,
+                38.8764816
+              ],
+              [
+                121.5665528,
+                38.8764142
+              ],
+              [
+                121.5666048,
+                38.87634
+              ],
+              [
+                121.5663666,
+                38.8759186
+              ]
+            ],
+            "distance_m": 161.664,
+            "way_ids": [
+              551436649
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/551436649",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5325480796,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5325480790,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-2-walk-1-node-2",
+            "to_node_id": "dalian-2-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5663666,
+                38.8759186
+              ],
+              [
+                121.5662713,
+                38.8758006
+              ],
+              [
+                121.5660548,
+                38.8757163
+              ],
+              [
+                121.5658902,
+                38.8756556
+              ],
+              [
+                121.5657213,
+                38.8756219
+              ],
+              [
+                121.5655697,
+                38.8756522
+              ],
+              [
+                121.5654658,
+                38.8757298
+              ]
+            ],
+            "distance_m": 93.327,
+            "way_ids": [
+              551436649
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/551436649",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5325480790,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5325480784,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-2-walk-1-node-3",
+            "to_node_id": "dalian-2-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5654658,
+                38.8757298
+              ],
+              [
+                121.5653662,
+                38.8759017
+              ],
+              [
+                121.5653619,
+                38.876185
+              ],
+              [
+                121.5653229,
+                38.8763805
+              ],
+              [
+                121.5653099,
+                38.8765929
+              ],
+              [
+                121.5651187,
+                38.8768879
+              ]
+            ],
+            "distance_m": 134.858,
+            "way_ids": [
+              551436649
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/551436649",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5325480784,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5325480779,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 389.849,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/164817555",
+            "title": "星海公园 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "星海公园 · 园内步道 B",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dalian-2-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dalian-2-walk-2-map.json",
+        "bounds": [
+          38.8741502,
+          121.55812300000001,
+          38.877586099999995,
+          121.5625862
+        ],
+        "nodes": [
+          {
+            "id": "dalian-2-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8753502,
+            "lon": 121.559323,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/9136836087",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-2-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8756416,
+            "lon": 121.5596882,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/9136836090",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-2-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8762955,
+            "lon": 121.5610301,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/9136836093",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-2-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8763861,
+            "lon": 121.5613862,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/9136836095",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dalian-2-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "dalian-2-walk-2-node-1",
+            "to_node_id": "dalian-2-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.559323,
+                38.8753502
+              ],
+              [
+                121.5594303,
+                38.8754462
+              ],
+              [
+                121.5595398,
+                38.8754977
+              ],
+              [
+                121.5596882,
+                38.8756416
+              ]
+            ],
+            "distance_m": 45.745,
+            "way_ids": [
+              988493705
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/988493705",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 9136836087,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 9136836090,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-2-walk-2-node-2",
+            "to_node_id": "dalian-2-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5596882,
+                38.8756416
+              ],
+              [
+                121.5603477,
+                38.8759917
+              ],
+              [
+                121.5608453,
+                38.8762102
+              ],
+              [
+                121.5610301,
+                38.8762955
+              ]
+            ],
+            "distance_m": 137.153,
+            "way_ids": [
+              988493705
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/988493705",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 9136836090,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 9136836093,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-2-walk-2-node-3",
+            "to_node_id": "dalian-2-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5610301,
+                38.8762955
+              ],
+              [
+                121.5611899,
+                38.8763204
+              ],
+              [
+                121.5613862,
+                38.8763861
+              ]
+            ],
+            "distance_m": 32.604,
+            "way_ids": [
+              988493705
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/988493705",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 9136836093,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 9136836095,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 215.502,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/164817555",
+            "title": "星海公园 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "东方威尼斯水城 · 街巷步道 A",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dalian-4-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dalian-4-walk-1-map.json",
+        "bounds": [
+          38.923826000000005,
+          121.679854,
+          38.927154599999994,
+          121.6842977
+        ],
+        "nodes": [
+          {
+            "id": "dalian-4-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "东方威尼斯水城",
+            "attraction_id": "place_0b85b8622805447b",
+            "lat": 38.925026,
+            "lon": 121.6830977,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12087217791",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-4-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "东方威尼斯水城",
+            "attraction_id": "place_0b85b8622805447b",
+            "lat": 38.9253307,
+            "lon": 121.68269,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12087217788",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-4-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "东方威尼斯水城",
+            "attraction_id": "place_0b85b8622805447b",
+            "lat": 38.9256729,
+            "lon": 121.6818505,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12087217784",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-4-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "东方威尼斯水城",
+            "attraction_id": "place_0b85b8622805447b",
+            "lat": 38.9258568,
+            "lon": 121.681054,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12087217781",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dalian-4-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dalian-4-walk-1-node-1",
+            "to_node_id": "dalian-4-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.6830977,
+                38.925026
+              ],
+              [
+                121.6827759,
+                38.9251304
+              ],
+              [
+                121.6826471,
+                38.9252597
+              ],
+              [
+                121.68269,
+                38.9253307
+              ]
+            ],
+            "distance_m": 57.074,
+            "way_ids": [
+              1305050192
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1305050192",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 12087217791,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12087217788,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-4-walk-1-node-2",
+            "to_node_id": "dalian-4-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.68269,
+                38.9253307
+              ],
+              [
+                121.6826203,
+                38.9253599
+              ],
+              [
+                121.6820061,
+                38.9255706
+              ],
+              [
+                121.6820329,
+                38.9256145
+              ],
+              [
+                121.6818505,
+                38.9256729
+              ]
+            ],
+            "distance_m": 87.383,
+            "way_ids": [
+              1305050192
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1305050192",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 12087217788,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12087217784,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dalian-4-walk-1-node-3",
+            "to_node_id": "dalian-4-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.6818505,
+                38.9256729
+              ],
+              [
+                121.6812309,
+                38.9258962
+              ],
+              [
+                121.6811129,
+                38.9259546
+              ],
+              [
+                121.681054,
+                38.9258568
+              ]
+            ],
+            "distance_m": 83.178,
+            "way_ids": [
+              1305050192,
+              1305050191
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1305050192",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 12087217784,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12087217781,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 227.635,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/1164551346",
+            "title": "东方威尼斯水城 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "星海广场 → 星海公园",
+        "subtitle": "景点间骑行 · 实际道路预览",
+        "summary": "用于比较景点间的骑行衔接；起终点均为真实道路路点，未核验为景区出入口。地图距离不包含从这些路点走到景点入口的路程。",
+        "id": "dalian-cycle-1",
+        "guide_id": null,
+        "route_type": "citywalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dalian-cycle-1-map.json",
+        "bounds": [
+          38.874566099999996,
+          121.556517,
+          38.882693800000006,
+          121.5845073
+        ],
+        "nodes": [
+          {
+            "id": "dalian-cycle-1-node-1",
+            "name": "星海广场附近道路",
+            "attraction_name": "星海广场",
+            "attraction_id": "place_37140c302d0b447c",
+            "lat": 38.8805419,
+            "lon": 121.5825073,
+            "note": "道路锚点距景点代表点约89米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11438667884",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dalian-cycle-1-node-2",
+            "name": "星海公园附近道路",
+            "attraction_name": "星海公园",
+            "attraction_id": "place_2c970d42b87642a2",
+            "lat": 38.8767696,
+            "lon": 121.5627461,
+            "note": "道路锚点距景点代表点约19米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/7619137684",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dalian-cycle-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dalian-cycle-1-node-1",
+            "to_node_id": "dalian-cycle-1-node-2",
+            "mode": "cycle",
+            "status": "mapped",
+            "coordinates": [
+              [
+                121.5825073,
+                38.8805419
+              ],
+              [
+                121.582481,
+                38.8804157
+              ],
+              [
+                121.5821603,
+                38.8788751
+              ],
+              [
+                121.5821159,
+                38.8786623
+              ],
+              [
+                121.5820406,
+                38.8786922
+              ],
+              [
+                121.5819922,
+                38.8787114
+              ],
+              [
+                121.5818685,
+                38.8787605
+              ],
+              [
+                121.5817215,
+                38.8788382
+              ],
+              [
+                121.5816037,
+                38.8789147
+              ],
+              [
+                121.5814861,
+                38.8790076
+              ],
+              [
+                121.5813708,
+                38.8791175
+              ],
+              [
+                121.5812836,
+                38.8792217
+              ],
+              [
+                121.581202,
+                38.8793418
+              ],
+              [
+                121.5811324,
+                38.8794674
+              ],
+              [
+                121.5810605,
+                38.8796072
+              ],
+              [
+                121.5809973,
+                38.8797489
+              ],
+              [
+                121.580941,
+                38.8798889
+              ],
+              [
+                121.5808912,
+                38.8800336
+              ],
+              [
+                121.5808565,
+                38.8801486
+              ],
+              [
+                121.5808218,
+                38.8802814
+              ],
+              [
+                121.5807941,
+                38.8804402
+              ],
+              [
+                121.5807818,
+                38.8805107
+              ],
+              [
+                121.5806048,
+                38.8804482
+              ],
+              [
+                121.5797314,
+                38.8801395
+              ],
+              [
+                121.5795866,
+                38.8800883
+              ],
+              [
+                121.5795021,
+                38.8800584
+              ],
+              [
+                121.5793577,
+                38.8800074
+              ],
+              [
+                121.5792843,
+                38.8799814
+              ],
+              [
+                121.5768976,
+                38.8791379
+              ],
+              [
+                121.5768251,
+                38.8791123
+              ],
+              [
+                121.5767098,
+                38.8790715
+              ],
+              [
+                121.5765937,
+                38.8790305
+              ],
+              [
+                121.574555,
+                38.8783099
+              ],
+              [
+                121.5744413,
+                38.8782697
+              ],
+              [
+                121.5743832,
+                38.8782492
+              ],
+              [
+                121.5736205,
+                38.8779796
+              ],
+              [
+                121.5734664,
+                38.8779373
+              ],
+              [
+                121.5733136,
+                38.8779109
+              ],
+              [
+                121.5731567,
+                38.8778925
+              ],
+              [
+                121.5730243,
+                38.8778871
+              ],
+              [
+                121.5728919,
+                38.8778871
+              ],
+              [
+                121.5727595,
+                38.8778961
+              ],
+              [
+                121.5726116,
+                38.877916
+              ],
+              [
+                121.5724903,
+                38.8779386
+              ],
+              [
+                121.572373,
+                38.8779667
+              ],
+              [
+                121.5722377,
+                38.8780112
+              ],
+              [
+                121.5721103,
+                38.8780629
+              ],
+              [
+                121.5720392,
+                38.8780998
+              ],
+              [
+                121.572003,
+                38.8781186
+              ],
+              [
+                121.5718756,
+                38.8781967
+              ],
+              [
+                121.5718103,
+                38.8782403
+              ],
+              [
+                121.5717449,
+                38.878284
+              ],
+              [
+                121.5701261,
+                38.8797756
+              ],
+              [
+                121.5698727,
+                38.8800092
+              ],
+              [
+                121.569771,
+                38.8800552
+              ],
+              [
+                121.5694926,
+                38.8799522
+              ],
+              [
+                121.5694229,
+                38.8799264
+              ],
+              [
+                121.5680901,
+                38.8794986
+              ],
+              [
+                121.5680165,
+                38.8794759
+              ],
+              [
+                121.5679149,
+                38.8794445
+              ],
+              [
+                121.5665908,
+                38.8790359
+              ],
+              [
+                121.5665235,
+                38.8790194
+              ],
+              [
+                121.5662806,
+                38.8789599
+              ],
+              [
+                121.5661245,
+                38.8789216
+              ],
+              [
+                121.566028,
+                38.8789029
+              ],
+              [
+                121.5659143,
+                38.8788922
+              ],
+              [
+                121.5658088,
+                38.8788989
+              ],
+              [
+                121.5656952,
+                38.8789179
+              ],
+              [
+                121.5655949,
+                38.8789499
+              ],
+              [
+                121.5655022,
+                38.8790037
+              ],
+              [
+                121.565438,
+                38.8790647
+              ],
+              [
+                121.565384,
+                38.8791385
+              ],
+              [
+                121.5653287,
+                38.8792542
+              ],
+              [
+                121.5649545,
+                38.8802441
+              ],
+              [
+                121.5649339,
+                38.8802986
+              ],
+              [
+                121.5648942,
+                38.8804036
+              ],
+              [
+                121.5647991,
+                38.880489
+              ],
+              [
+                121.5647385,
+                38.8806136
+              ],
+              [
+                121.5647262,
+                38.8806387
+              ],
+              [
+                121.5646994,
+                38.8806938
+              ],
+              [
+                121.5645961,
+                38.8806689
+              ],
+              [
+                121.5636037,
+                38.8804182
+              ],
+              [
+                121.5633492,
+                38.8803424
+              ],
+              [
+                121.5631112,
+                38.8802545
+              ],
+              [
+                121.5628971,
+                38.8801398
+              ],
+              [
+                121.5627946,
+                38.8800534
+              ],
+              [
+                121.5622484,
+                38.879353
+              ],
+              [
+                121.5620805,
+                38.879192
+              ],
+              [
+                121.5616082,
+                38.8786013
+              ],
+              [
+                121.5613675,
+                38.8783347
+              ],
+              [
+                121.5612487,
+                38.8782136
+              ],
+              [
+                121.5611474,
+                38.8781286
+              ],
+              [
+                121.5609854,
+                38.8780193
+              ],
+              [
+                121.5607853,
+                38.877903
+              ],
+              [
+                121.5603873,
+                38.8777172
+              ],
+              [
+                121.5598081,
+                38.8774469
+              ],
+              [
+                121.5588753,
+                38.8770116
+              ],
+              [
+                121.5588033,
+                38.876978
+              ],
+              [
+                121.5586802,
+                38.8769205
+              ],
+              [
+                121.558517,
+                38.876844
+              ],
+              [
+                121.5586275,
+                38.8767743
+              ],
+              [
+                121.5587504,
+                38.876731
+              ],
+              [
+                121.5588915,
+                38.876694
+              ],
+              [
+                121.5591773,
+                38.8765661
+              ],
+              [
+                121.5615601,
+                38.8776101
+              ],
+              [
+                121.561817,
+                38.8776143
+              ],
+              [
+                121.5618971,
+                38.877631
+              ],
+              [
+                121.5619921,
+                38.8776838
+              ],
+              [
+                121.562292,
+                38.8772678
+              ],
+              [
+                121.5623808,
+                38.8772175
+              ],
+              [
+                121.5624805,
+                38.8771836
+              ],
+              [
+                121.5627806,
+                38.8771604
+              ],
+              [
+                121.5628084,
+                38.8768216
+              ],
+              [
+                121.5627461,
+                38.8767696
+              ]
+            ],
+            "distance_m": 3369.869,
+            "way_ids": [
+              43666407,
+              52496060,
+              1232962408,
+              1271169183,
+              1115629608,
+              207419013,
+              814398878,
+              814398879,
+              551436645,
+              551436647,
+              815801445
+            ],
+            "note": "按允许骑行的已记录道路和单行方向生成；未核验现场限行，长度为地图值。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/43666407",
+              "label": "OpenStreetMap 骑行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11438667884,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 7619137684,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 3369.869,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/43666407",
+            "title": "OpenStreetMap 骑行道路",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      }
+    ],
     "available_destinations": [
+      {
+        "id": "liyang",
+        "name": "溧阳"
+      },
+      {
+        "id": "dalian",
+        "name": "大连"
+      },
       {
         "id": "suzhou",
         "name": "苏州"
+      },
+      {
+        "id": "nanjing",
+        "name": "南京"
+      },
+      {
+        "id": "kunming",
+        "name": "昆明"
+      },
+      {
+        "id": "fuxianhu",
+        "name": "抚仙湖"
+      },
+      {
+        "id": "lijiang",
+        "name": "丽江"
+      },
+      {
+        "id": "dali",
+        "name": "大理"
+      },
+      {
+        "id": "shangrila",
+        "name": "香格里拉"
+      },
+      {
+        "id": "xian",
+        "name": "西安"
       }
     ],
     "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"

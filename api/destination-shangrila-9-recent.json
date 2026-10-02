@@ -5496,11 +5496,2996 @@
     }
   },
   "immersive_routes": {
-    "items": [],
+    "items": [
+      {
+        "title": "独克宗古城 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "shangrila-1-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/shangrila-1-walk-1-map.json",
+        "bounds": [
+          27.8056591,
+          99.70109360000001,
+          27.8186924,
+          99.7071765
+        ],
+        "nodes": [
+          {
+            "id": "shangrila-1-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "独克宗古城",
+            "attraction_id": "place_012120a31fae458f",
+            "lat": 27.8068591,
+            "lon": 99.7059093,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11459109774",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-1-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "独克宗古城",
+            "attraction_id": "place_012120a31fae458f",
+            "lat": 27.81376,
+            "lon": 99.7032611,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6930229081",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-1-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "独克宗古城",
+            "attraction_id": "place_012120a31fae458f",
+            "lat": 27.8149055,
+            "lon": 99.7040504,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13764905103",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-1-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "独克宗古城",
+            "attraction_id": "place_012120a31fae458f",
+            "lat": 27.8174924,
+            "lon": 99.7029878,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1871634490",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/shangrila-1-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "shangrila-1-walk-1-node-1",
+            "to_node_id": "shangrila-1-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7059093,
+                27.8068591
+              ],
+              [
+                99.7058519,
+                27.807
+              ],
+              [
+                99.7059765,
+                27.8079637
+              ],
+              [
+                99.7059115,
+                27.8079829
+              ],
+              [
+                99.705822,
+                27.8080093
+              ],
+              [
+                99.705776,
+                27.8082946
+              ],
+              [
+                99.7057163,
+                27.8084744
+              ],
+              [
+                99.7051201,
+                27.8092031
+              ],
+              [
+                99.7050867,
+                27.8092604
+              ],
+              [
+                99.704681,
+                27.8099559
+              ],
+              [
+                99.7043883,
+                27.8102651
+              ],
+              [
+                99.7045536,
+                27.8104641
+              ],
+              [
+                99.7045536,
+                27.8106535
+              ],
+              [
+                99.7049849,
+                27.8114129
+              ],
+              [
+                99.7040123,
+                27.8114414
+              ],
+              [
+                99.7036582,
+                27.8114995
+              ],
+              [
+                99.7023654,
+                27.8123666
+              ],
+              [
+                99.7022936,
+                27.8124148
+              ],
+              [
+                99.7026014,
+                27.8127248
+              ],
+              [
+                99.7028831,
+                27.813312
+              ],
+              [
+                99.7029622,
+                27.8134496
+              ],
+              [
+                99.703055,
+                27.813587
+              ],
+              [
+                99.7030831,
+                27.8136287
+              ],
+              [
+                99.7032611,
+                27.81376
+              ]
+            ],
+            "distance_m": 1055.004,
+            "way_ids": [
+              1234552591,
+              1234552592,
+              1068752729,
+              629125224
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1234552591",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11459109774,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 6930229081,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-1-walk-1-node-2",
+            "to_node_id": "shangrila-1-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7032611,
+                27.81376
+              ],
+              [
+                99.703367,
+                27.8138312
+              ],
+              [
+                99.703474,
+                27.8138246
+              ],
+              [
+                99.7034791,
+                27.8138534
+              ],
+              [
+                99.7038179,
+                27.8140486
+              ],
+              [
+                99.7039621,
+                27.814141
+              ],
+              [
+                99.7040247,
+                27.8142046
+              ],
+              [
+                99.7040807,
+                27.8142657
+              ],
+              [
+                99.7042418,
+                27.8143736
+              ],
+              [
+                99.7044108,
+                27.8144777
+              ],
+              [
+                99.70439,
+                27.8145088
+              ],
+              [
+                99.7043681,
+                27.8145322
+              ],
+              [
+                99.704343,
+                27.8145516
+              ],
+              [
+                99.7043114,
+                27.8145723
+              ],
+              [
+                99.7042924,
+                27.8145793
+              ],
+              [
+                99.7042723,
+                27.8145867
+              ],
+              [
+                99.7042527,
+                27.8145931
+              ],
+              [
+                99.7042242,
+                27.8146079
+              ],
+              [
+                99.7041866,
+                27.814637
+              ],
+              [
+                99.704149,
+                27.8146794
+              ],
+              [
+                99.704101,
+                27.8147383
+              ],
+              [
+                99.7040699,
+                27.8148043
+              ],
+              [
+                99.7040578,
+                27.8148567
+              ],
+              [
+                99.7040504,
+                27.8149055
+              ]
+            ],
+            "distance_m": 204.766,
+            "way_ids": [
+              629125224,
+              43616874,
+              43616871
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/629125224",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 6930229081,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13764905103,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-1-walk-1-node-3",
+            "to_node_id": "shangrila-1-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7040504,
+                27.8149055
+              ],
+              [
+                99.7040304,
+                27.8150985
+              ],
+              [
+                99.70402,
+                27.8151958
+              ],
+              [
+                99.7040072,
+                27.8152805
+              ],
+              [
+                99.7039905,
+                27.8153596
+              ],
+              [
+                99.7039753,
+                27.8154241
+              ],
+              [
+                99.7039596,
+                27.8154711
+              ],
+              [
+                99.7039505,
+                27.8155204
+              ],
+              [
+                99.703944,
+                27.8156543
+              ],
+              [
+                99.7038872,
+                27.8156674
+              ],
+              [
+                99.7038425,
+                27.8156792
+              ],
+              [
+                99.7038051,
+                27.8156912
+              ],
+              [
+                99.7037869,
+                27.8157108
+              ],
+              [
+                99.7037831,
+                27.8157325
+              ],
+              [
+                99.7037848,
+                27.8157553
+              ],
+              [
+                99.7038076,
+                27.8159248
+              ],
+              [
+                99.7038095,
+                27.8159377
+              ],
+              [
+                99.7035275,
+                27.8159654
+              ],
+              [
+                99.7034389,
+                27.8162886
+              ],
+              [
+                99.7033265,
+                27.8165655
+              ],
+              [
+                99.7031294,
+                27.8172394
+              ],
+              [
+                99.703035,
+                27.8174063
+              ],
+              [
+                99.7029878,
+                27.8174924
+              ]
+            ],
+            "distance_m": 332.993,
+            "way_ids": [
+              43616871,
+              43616876,
+              740185442,
+              176686242
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/43616871",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13764905103,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1871634490,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1592.763,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/763318050",
+            "title": "独克宗古城 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "独克宗古城 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "shangrila-1-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/shangrila-1-walk-2-map.json",
+        "bounds": [
+          27.811885399999998,
+          99.70007700000001,
+          27.8174765,
+          99.7088108
+        ],
+        "nodes": [
+          {
+            "id": "shangrila-1-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "独克宗古城",
+            "attraction_id": "place_012120a31fae458f",
+            "lat": 27.8162765,
+            "lon": 99.701277,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/4189362923",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-1-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "独克宗古城",
+            "attraction_id": "place_012120a31fae458f",
+            "lat": 27.8156792,
+            "lon": 99.7038425,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13764905140",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-1-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "独克宗古城",
+            "attraction_id": "place_012120a31fae458f",
+            "lat": 27.8148069,
+            "lon": 99.7061203,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/9520832124",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-1-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "独克宗古城",
+            "attraction_id": "place_012120a31fae458f",
+            "lat": 27.8130854,
+            "lon": 99.7076108,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13584921096",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/shangrila-1-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "shangrila-1-walk-2-node-1",
+            "to_node_id": "shangrila-1-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.701277,
+                27.8162765
+              ],
+              [
+                99.7018719,
+                27.8161576
+              ],
+              [
+                99.7023051,
+                27.8160122
+              ],
+              [
+                99.7024685,
+                27.8159689
+              ],
+              [
+                99.7025257,
+                27.8161056
+              ],
+              [
+                99.7032804,
+                27.8159219
+              ],
+              [
+                99.7033035,
+                27.8159613
+              ],
+              [
+                99.7035275,
+                27.8159654
+              ],
+              [
+                99.7038095,
+                27.8159377
+              ],
+              [
+                99.7038076,
+                27.8159248
+              ],
+              [
+                99.7037848,
+                27.8157553
+              ],
+              [
+                99.7037831,
+                27.8157325
+              ],
+              [
+                99.7037869,
+                27.8157108
+              ],
+              [
+                99.7038051,
+                27.8156912
+              ],
+              [
+                99.7038425,
+                27.8156792
+              ]
+            ],
+            "distance_m": 302.531,
+            "way_ids": [
+              176686238,
+              629821776,
+              629821775,
+              740185442,
+              43616876
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/176686238",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 4189362923,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13764905140,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-1-walk-2-node-2",
+            "to_node_id": "shangrila-1-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7038425,
+                27.8156792
+              ],
+              [
+                99.7038872,
+                27.8156674
+              ],
+              [
+                99.703944,
+                27.8156543
+              ],
+              [
+                99.7040705,
+                27.8156329
+              ],
+              [
+                99.7042062,
+                27.8156083
+              ],
+              [
+                99.7044224,
+                27.8155637
+              ],
+              [
+                99.7045064,
+                27.815541
+              ],
+              [
+                99.704584,
+                27.8155059
+              ],
+              [
+                99.7049211,
+                27.8153645
+              ],
+              [
+                99.7051833,
+                27.8153287
+              ],
+              [
+                99.7053748,
+                27.8152703
+              ],
+              [
+                99.7055341,
+                27.8152015
+              ],
+              [
+                99.7059458,
+                27.8151226
+              ],
+              [
+                99.706036,
+                27.8150325
+              ],
+              [
+                99.7061203,
+                27.8148069
+              ]
+            ],
+            "distance_m": 257.065,
+            "way_ids": [
+              43616876,
+              246660160
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/43616876",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13764905140,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 9520832124,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-1-walk-2-node-3",
+            "to_node_id": "shangrila-1-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7061203,
+                27.8148069
+              ],
+              [
+                99.7061574,
+                27.8147828
+              ],
+              [
+                99.70624,
+                27.814758
+              ],
+              [
+                99.7062412,
+                27.8145939
+              ],
+              [
+                99.7067617,
+                27.8145835
+              ],
+              [
+                99.7068685,
+                27.814587
+              ],
+              [
+                99.7068734,
+                27.8144654
+              ],
+              [
+                99.7068889,
+                27.8140714
+              ],
+              [
+                99.7070332,
+                27.814071
+              ],
+              [
+                99.7070351,
+                27.8137301
+              ],
+              [
+                99.7072397,
+                27.813731
+              ],
+              [
+                99.7074605,
+                27.8137319
+              ],
+              [
+                99.7076072,
+                27.8137326
+              ],
+              [
+                99.7076093,
+                27.8133589
+              ],
+              [
+                99.7076108,
+                27.8130854
+              ]
+            ],
+            "distance_m": 330.765,
+            "way_ids": [
+              1481129647,
+              280417180,
+              740185431,
+              1481129648,
+              629513821,
+              1416518295,
+              740185424,
+              1481129653,
+              1481129684,
+              1481129685
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1481129647",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 9520832124,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13584921096,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 890.361,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/763318050",
+            "title": "独克宗古城 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "松赞林寺 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "shangrila-2-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/shangrila-2-walk-1-map.json",
+        "bounds": [
+          27.860410899999998,
+          99.7016723,
+          27.8653358,
+          99.7062293
+        ],
+        "nodes": [
+          {
+            "id": "shangrila-2-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "松赞林寺",
+            "attraction_id": "place_4cba65cce48d4dee",
+            "lat": 27.8616109,
+            "lon": 99.7047218,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6933845203",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-2-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "松赞林寺",
+            "attraction_id": "place_4cba65cce48d4dee",
+            "lat": 27.8631946,
+            "lon": 99.704832,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/4681534902",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-2-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "松赞林寺",
+            "attraction_id": "place_4cba65cce48d4dee",
+            "lat": 27.8638097,
+            "lon": 99.7040123,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5942669082",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-2-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "松赞林寺",
+            "attraction_id": "place_4cba65cce48d4dee",
+            "lat": 27.8641358,
+            "lon": 99.7028723,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6697920369",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/shangrila-2-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "shangrila-2-walk-1-node-1",
+            "to_node_id": "shangrila-2-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7047218,
+                27.8616109
+              ],
+              [
+                99.7047429,
+                27.8617265
+              ],
+              [
+                99.7047794,
+                27.8619269
+              ],
+              [
+                99.7047905,
+                27.8621142
+              ],
+              [
+                99.7047072,
+                27.86241
+              ],
+              [
+                99.7046378,
+                27.8627318
+              ],
+              [
+                99.7045471,
+                27.8631227
+              ],
+              [
+                99.704832,
+                27.8631946
+              ]
+            ],
+            "distance_m": 200.266,
+            "way_ids": [
+              740594591,
+              305837753,
+              77967066,
+              474142659
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/740594591",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 6933845203,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 4681534902,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-2-walk-1-node-2",
+            "to_node_id": "shangrila-2-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.704832,
+                27.8631946
+              ],
+              [
+                99.7048001,
+                27.8633239
+              ],
+              [
+                99.7047945,
+                27.8633464
+              ],
+              [
+                99.7050293,
+                27.8633888
+              ],
+              [
+                99.7049816,
+                27.8636647
+              ],
+              [
+                99.7047432,
+                27.8636366
+              ],
+              [
+                99.7047083,
+                27.8638334
+              ],
+              [
+                99.7046645,
+                27.863898
+              ],
+              [
+                99.7040123,
+                27.8638097
+              ]
+            ],
+            "distance_m": 190.9,
+            "way_ids": [
+              474142659,
+              629468531,
+              629468530
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/474142659",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 4681534902,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5942669082,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-2-walk-1-node-3",
+            "to_node_id": "shangrila-2-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7040123,
+                27.8638097
+              ],
+              [
+                99.7034731,
+                27.8637113
+              ],
+              [
+                99.7033471,
+                27.8637066
+              ],
+              [
+                99.7032049,
+                27.8637493
+              ],
+              [
+                99.7031524,
+                27.8638009
+              ],
+              [
+                99.7031057,
+                27.8638963
+              ],
+              [
+                99.7030306,
+                27.864086
+              ],
+              [
+                99.7028723,
+                27.8641358
+              ]
+            ],
+            "distance_m": 139.425,
+            "way_ids": [
+              712373801
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/712373801",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5942669082,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 6697920369,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 530.591,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/187166845",
+            "title": "松赞林寺 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "松赞林寺 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "shangrila-2-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/shangrila-2-walk-2-map.json",
+        "bounds": [
+          27.8617051,
+          99.7009401,
+          27.865098,
+          99.70777509999999
+        ],
+        "nodes": [
+          {
+            "id": "shangrila-2-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "松赞林寺",
+            "attraction_id": "place_4cba65cce48d4dee",
+            "lat": 27.8638417,
+            "lon": 99.7021401,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6697920380",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-2-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "松赞林寺",
+            "attraction_id": "place_4cba65cce48d4dee",
+            "lat": 27.8636354,
+            "lon": 99.7036783,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5942669079",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-2-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "松赞林寺",
+            "attraction_id": "place_4cba65cce48d4dee",
+            "lat": 27.8631946,
+            "lon": 99.704832,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/4681534902",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-2-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "松赞林寺",
+            "attraction_id": "place_4cba65cce48d4dee",
+            "lat": 27.8629051,
+            "lon": 99.7065751,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5942669094",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/shangrila-2-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "shangrila-2-walk-2-node-1",
+            "to_node_id": "shangrila-2-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7021401,
+                27.8638417
+              ],
+              [
+                99.7023225,
+                27.8636971
+              ],
+              [
+                99.7023788,
+                27.8636022
+              ],
+              [
+                99.7024646,
+                27.8633651
+              ],
+              [
+                99.7025371,
+                27.8633367
+              ],
+              [
+                99.7028165,
+                27.8634037
+              ],
+              [
+                99.7030789,
+                27.8634102
+              ],
+              [
+                99.7034155,
+                27.8634398
+              ],
+              [
+                99.7037025,
+                27.8634955
+              ],
+              [
+                99.7036783,
+                27.8636354
+              ]
+            ],
+            "distance_m": 203.613,
+            "way_ids": [
+              629468529,
+              629468530
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/629468529",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 6697920380,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5942669079,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-2-walk-2-node-2",
+            "to_node_id": "shangrila-2-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.7036783,
+                27.8636354
+              ],
+              [
+                99.704019,
+                27.8636935
+              ],
+              [
+                99.7040123,
+                27.8638097
+              ],
+              [
+                99.7046645,
+                27.863898
+              ],
+              [
+                99.7047083,
+                27.8638334
+              ],
+              [
+                99.7047432,
+                27.8636366
+              ],
+              [
+                99.7049816,
+                27.8636647
+              ],
+              [
+                99.7050293,
+                27.8633888
+              ],
+              [
+                99.7047945,
+                27.8633464
+              ],
+              [
+                99.7048001,
+                27.8633239
+              ],
+              [
+                99.704832,
+                27.8631946
+              ]
+            ],
+            "distance_m": 237.947,
+            "way_ids": [
+              629468530,
+              629468531,
+              474142659
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/629468530",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 5942669079,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 4681534902,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-2-walk-2-node-3",
+            "to_node_id": "shangrila-2-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.704832,
+                27.8631946
+              ],
+              [
+                99.7049851,
+                27.8631529
+              ],
+              [
+                99.7055814,
+                27.8631617
+              ],
+              [
+                99.7057267,
+                27.8631638
+              ],
+              [
+                99.7059413,
+                27.8631942
+              ],
+              [
+                99.706091,
+                27.8631305
+              ],
+              [
+                99.7062045,
+                27.8631728
+              ],
+              [
+                99.7062975,
+                27.8632074
+              ],
+              [
+                99.7063699,
+                27.8632015
+              ],
+              [
+                99.7065751,
+                27.8629051
+              ]
+            ],
+            "distance_m": 194.174,
+            "way_ids": [
+              629468532
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/629468532",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 4681534902,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5942669094,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 635.734,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/187166845",
+            "title": "松赞林寺 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "普达措国家公园 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "shangrila-3-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/shangrila-3-walk-1-map.json",
+        "bounds": [
+          27.9025563,
+          99.9405091,
+          27.9132617,
+          99.9590453
+        ],
+        "nodes": [
+          {
+            "id": "shangrila-3-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "普达措国家公园",
+            "attraction_id": "place_46ca7a46e48847d7",
+            "lat": 27.9037563,
+            "lon": 99.9417091,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1809174214",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-3-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "普达措国家公园",
+            "attraction_id": "place_46ca7a46e48847d7",
+            "lat": 27.9039102,
+            "lon": 99.9462776,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2560655178",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-3-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "普达措国家公园",
+            "attraction_id": "place_46ca7a46e48847d7",
+            "lat": 27.9069834,
+            "lon": 99.9537736,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1809173945",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-3-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "普达措国家公园",
+            "attraction_id": "place_46ca7a46e48847d7",
+            "lat": 27.9120617,
+            "lon": 99.9578453,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1809174142",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/shangrila-3-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "shangrila-3-walk-1-node-1",
+            "to_node_id": "shangrila-3-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.9417091,
+                27.9037563
+              ],
+              [
+                99.9420524,
+                27.9037563
+              ],
+              [
+                99.9423203,
+                27.9038393
+              ],
+              [
+                99.9424409,
+                27.9038993
+              ],
+              [
+                99.9426596,
+                27.9040531
+              ],
+              [
+                99.9427591,
+                27.9040787
+              ],
+              [
+                99.9432041,
+                27.9041367
+              ],
+              [
+                99.9440966,
+                27.904192
+              ],
+              [
+                99.9443198,
+                27.9041899
+              ],
+              [
+                99.9444807,
+                27.9041447
+              ],
+              [
+                99.9448123,
+                27.9039116
+              ],
+              [
+                99.9449904,
+                27.9038719
+              ],
+              [
+                99.9459462,
+                27.9037808
+              ],
+              [
+                99.9460974,
+                27.903793
+              ],
+              [
+                99.9461788,
+                27.9038349
+              ],
+              [
+                99.9462776,
+                27.9039102
+              ]
+            ],
+            "distance_m": 474.677,
+            "way_ids": [
+              169760216
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/169760216",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1809174214,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2560655178,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-3-walk-1-node-2",
+            "to_node_id": "shangrila-3-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.9462776,
+                27.9039102
+              ],
+              [
+                99.9465371,
+                27.9042304
+              ],
+              [
+                99.9472076,
+                27.9050751
+              ],
+              [
+                99.9472856,
+                27.9051982
+              ],
+              [
+                99.9476234,
+                27.9054363
+              ],
+              [
+                99.9486365,
+                27.9060763
+              ],
+              [
+                99.948815,
+                27.9061652
+              ],
+              [
+                99.9494768,
+                27.9063731
+              ],
+              [
+                99.9502922,
+                27.9064679
+              ],
+              [
+                99.9509788,
+                27.9063921
+              ],
+              [
+                99.9513865,
+                27.9062594
+              ],
+              [
+                99.9517084,
+                27.9062404
+              ],
+              [
+                99.9521904,
+                27.9061208
+              ],
+              [
+                99.9526944,
+                27.9062633
+              ],
+              [
+                99.9531461,
+                27.90643
+              ],
+              [
+                99.9537736,
+                27.9069834
+              ]
+            ],
+            "distance_m": 887.81,
+            "way_ids": [
+              169760216
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/169760216",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 2560655178,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1809173945,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-3-walk-1-node-3",
+            "to_node_id": "shangrila-3-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.9537736,
+                27.9069834
+              ],
+              [
+                99.9539404,
+                27.9073296
+              ],
+              [
+                99.9540452,
+                27.9077194
+              ],
+              [
+                99.9543048,
+                27.9081745
+              ],
+              [
+                99.9543319,
+                27.9084736
+              ],
+              [
+                99.9543262,
+                27.9085728
+              ],
+              [
+                99.9538542,
+                27.908971
+              ],
+              [
+                99.9537027,
+                27.9092954
+              ],
+              [
+                99.9537083,
+                27.9094383
+              ],
+              [
+                99.9538542,
+                27.9096915
+              ],
+              [
+                99.9555279,
+                27.9102414
+              ],
+              [
+                99.9561501,
+                27.9107723
+              ],
+              [
+                99.9571586,
+                27.9113601
+              ],
+              [
+                99.9573671,
+                27.9117953
+              ],
+              [
+                99.9573329,
+                27.9119139
+              ],
+              [
+                99.9578453,
+                27.9120617
+              ]
+            ],
+            "distance_m": 836.387,
+            "way_ids": [
+              169760216
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/169760216",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1809173945,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1809174142,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 2198.874,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/832323147",
+            "title": "普达措国家公园 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "普达措国家公园 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "shangrila-3-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/shangrila-3-walk-2-map.json",
+        "bounds": [
+          27.9025563,
+          99.9318731,
+          27.9132617,
+          99.9592952
+        ],
+        "nodes": [
+          {
+            "id": "shangrila-3-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "普达措国家公园",
+            "attraction_id": "place_46ca7a46e48847d7",
+            "lat": 27.9061653,
+            "lon": 99.9330731,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1809174081",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-3-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "普达措国家公园",
+            "attraction_id": "place_46ca7a46e48847d7",
+            "lat": 27.9043372,
+            "lon": 99.9384813,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3800399810",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-3-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "普达措国家公园",
+            "attraction_id": "place_46ca7a46e48847d7",
+            "lat": 27.9039102,
+            "lon": 99.9462776,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2560655178",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-3-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "普达措国家公园",
+            "attraction_id": "place_46ca7a46e48847d7",
+            "lat": 27.9119569,
+            "lon": 99.9580952,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1809174150",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/shangrila-3-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "shangrila-3-walk-2-node-1",
+            "to_node_id": "shangrila-3-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.9330731,
+                27.9061653
+              ],
+              [
+                99.9332929,
+                27.9062106
+              ],
+              [
+                99.933359,
+                27.9061363
+              ],
+              [
+                99.9335741,
+                27.9057303
+              ],
+              [
+                99.9336933,
+                27.9056852
+              ],
+              [
+                99.9337804,
+                27.9056546
+              ],
+              [
+                99.9338814,
+                27.9054504
+              ],
+              [
+                99.9340957,
+                27.9053771
+              ],
+              [
+                99.9344081,
+                27.9051607
+              ],
+              [
+                99.9347036,
+                27.9050449
+              ],
+              [
+                99.9347793,
+                27.9050419
+              ],
+              [
+                99.9349291,
+                27.9051463
+              ],
+              [
+                99.9350563,
+                27.905194
+              ],
+              [
+                99.935231,
+                27.9051515
+              ],
+              [
+                99.9354565,
+                27.9052006
+              ],
+              [
+                99.9356463,
+                27.9051372
+              ],
+              [
+                99.9358174,
+                27.9051299
+              ],
+              [
+                99.9359195,
+                27.9051077
+              ],
+              [
+                99.9359825,
+                27.9050488
+              ],
+              [
+                99.9360358,
+                27.9049095
+              ],
+              [
+                99.9361475,
+                27.9048048
+              ],
+              [
+                99.9362611,
+                27.9047501
+              ],
+              [
+                99.9363899,
+                27.9047364
+              ],
+              [
+                99.9364764,
+                27.9046946
+              ],
+              [
+                99.9366118,
+                27.9045873
+              ],
+              [
+                99.9367309,
+                27.9045717
+              ],
+              [
+                99.9369962,
+                27.9046295
+              ],
+              [
+                99.937364,
+                27.904334
+              ],
+              [
+                99.9374365,
+                27.9040774
+              ],
+              [
+                99.9375112,
+                27.9041257
+              ],
+              [
+                99.9380573,
+                27.9043004
+              ],
+              [
+                99.9382716,
+                27.9043825
+              ],
+              [
+                99.9384106,
+                27.9043634
+              ],
+              [
+                99.9384813,
+                27.9043372
+              ]
+            ],
+            "distance_m": 671.916,
+            "way_ids": [
+              1412638604,
+              1412638605,
+              169760216
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1412638604",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1809174081,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 3800399810,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-3-walk-2-node-2",
+            "to_node_id": "shangrila-3-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.9384813,
+                27.9043372
+              ],
+              [
+                99.9385916,
+                27.9042962
+              ],
+              [
+                99.938654,
+                27.9042872
+              ],
+              [
+                99.9387263,
+                27.9043082
+              ],
+              [
+                99.9387782,
+                27.9043159
+              ],
+              [
+                99.9389211,
+                27.9042763
+              ],
+              [
+                99.9390241,
+                27.9042358
+              ],
+              [
+                99.9391529,
+                27.9041379
+              ],
+              [
+                99.9392688,
+                27.9040698
+              ],
+              [
+                99.9392816,
+                27.9040622
+              ],
+              [
+                99.9393944,
+                27.9040413
+              ],
+              [
+                99.9396556,
+                27.9040522
+              ],
+              [
+                99.940049,
+                27.9040686
+              ],
+              [
+                99.9405075,
+                27.9039649
+              ],
+              [
+                99.9411083,
+                27.9038132
+              ],
+              [
+                99.9412132,
+                27.9037995
+              ],
+              [
+                99.9413369,
+                27.9038349
+              ],
+              [
+                99.9414585,
+                27.9038233
+              ],
+              [
+                99.9417091,
+                27.9037563
+              ],
+              [
+                99.9420524,
+                27.9037563
+              ],
+              [
+                99.9423203,
+                27.9038393
+              ],
+              [
+                99.9424409,
+                27.9038993
+              ],
+              [
+                99.9426596,
+                27.9040531
+              ],
+              [
+                99.9427591,
+                27.9040787
+              ],
+              [
+                99.9432041,
+                27.9041367
+              ],
+              [
+                99.9440966,
+                27.904192
+              ],
+              [
+                99.9443198,
+                27.9041899
+              ],
+              [
+                99.9444807,
+                27.9041447
+              ],
+              [
+                99.9448123,
+                27.9039116
+              ],
+              [
+                99.9449904,
+                27.9038719
+              ],
+              [
+                99.9459462,
+                27.9037808
+              ],
+              [
+                99.9460974,
+                27.903793
+              ],
+              [
+                99.9461788,
+                27.9038349
+              ],
+              [
+                99.9462776,
+                27.9039102
+              ]
+            ],
+            "distance_m": 807.554,
+            "way_ids": [
+              169760216
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/169760216",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 3800399810,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2560655178,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-3-walk-2-node-3",
+            "to_node_id": "shangrila-3-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                99.9462776,
+                27.9039102
+              ],
+              [
+                99.9465371,
+                27.9042304
+              ],
+              [
+                99.9472076,
+                27.9050751
+              ],
+              [
+                99.9472856,
+                27.9051982
+              ],
+              [
+                99.9476234,
+                27.9054363
+              ],
+              [
+                99.9486365,
+                27.9060763
+              ],
+              [
+                99.948815,
+                27.9061652
+              ],
+              [
+                99.9494768,
+                27.9063731
+              ],
+              [
+                99.9502922,
+                27.9064679
+              ],
+              [
+                99.9509788,
+                27.9063921
+              ],
+              [
+                99.9513865,
+                27.9062594
+              ],
+              [
+                99.9517084,
+                27.9062404
+              ],
+              [
+                99.9521904,
+                27.9061208
+              ],
+              [
+                99.9526944,
+                27.9062633
+              ],
+              [
+                99.9531461,
+                27.90643
+              ],
+              [
+                99.9537736,
+                27.9069834
+              ],
+              [
+                99.9539404,
+                27.9073296
+              ],
+              [
+                99.9540452,
+                27.9077194
+              ],
+              [
+                99.9543048,
+                27.9081745
+              ],
+              [
+                99.9543319,
+                27.9084736
+              ],
+              [
+                99.9543262,
+                27.9085728
+              ],
+              [
+                99.9538542,
+                27.908971
+              ],
+              [
+                99.9537027,
+                27.9092954
+              ],
+              [
+                99.9537083,
+                27.9094383
+              ],
+              [
+                99.9538542,
+                27.9096915
+              ],
+              [
+                99.9555279,
+                27.9102414
+              ],
+              [
+                99.9561501,
+                27.9107723
+              ],
+              [
+                99.9571586,
+                27.9113601
+              ],
+              [
+                99.9573671,
+                27.9117953
+              ],
+              [
+                99.9573329,
+                27.9119139
+              ],
+              [
+                99.9578453,
+                27.9120617
+              ],
+              [
+                99.9579886,
+                27.9120143
+              ],
+              [
+                99.9580952,
+                27.9119569
+              ]
+            ],
+            "distance_m": 1751.497,
+            "way_ids": [
+              169760216
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/169760216",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 2560655178,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1809174150,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 3230.967,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/832323147",
+            "title": "普达措国家公园 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "虎跳峡 · 虎跳峡栈道 A",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "shangrila-4-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/shangrila-4-walk-1-map.json",
+        "bounds": [
+          27.190134099999998,
+          100.1115017,
+          27.1940652,
+          100.1152238
+        ],
+        "nodes": [
+          {
+            "id": "shangrila-4-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "虎跳峡",
+            "attraction_id": "place_51fcfee3aee341c8",
+            "lat": 27.1913341,
+            "lon": 100.1127017,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/7747014479",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-4-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "虎跳峡",
+            "attraction_id": "place_51fcfee3aee341c8",
+            "lat": 27.1918133,
+            "lon": 100.1133798,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6548018160",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-4-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "虎跳峡",
+            "attraction_id": "place_51fcfee3aee341c8",
+            "lat": 27.1927137,
+            "lon": 100.113996,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6934010054",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-4-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "虎跳峡",
+            "attraction_id": "place_51fcfee3aee341c8",
+            "lat": 27.1928652,
+            "lon": 100.1137935,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6934010058",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/shangrila-4-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "shangrila-4-walk-1-node-1",
+            "to_node_id": "shangrila-4-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1127017,
+                27.1913341
+              ],
+              [
+                100.1127325,
+                27.1914236
+              ],
+              [
+                100.112805,
+                27.191494
+              ],
+              [
+                100.1129585,
+                27.1915594
+              ],
+              [
+                100.1132,
+                27.1917814
+              ],
+              [
+                100.1133798,
+                27.1918133
+              ]
+            ],
+            "distance_m": 90.341,
+            "way_ids": [
+              740621007,
+              708347461
+            ],
+            "note": "含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/740621007",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 7747014479,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 6548018160,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-4-walk-1-node-2",
+            "to_node_id": "shangrila-4-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1133798,
+                27.1918133
+              ],
+              [
+                100.1134019,
+                27.1919241
+              ],
+              [
+                100.1136111,
+                27.1921638
+              ],
+              [
+                100.1136902,
+                27.1923618
+              ],
+              [
+                100.1140238,
+                27.1926897
+              ],
+              [
+                100.113996,
+                27.1927137
+              ]
+            ],
+            "distance_m": 122.626,
+            "way_ids": [
+              708347461,
+              740621008
+            ],
+            "note": "含台阶 · 含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/708347461",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 6548018160,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 6934010054,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-4-walk-1-node-3",
+            "to_node_id": "shangrila-4-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.113996,
+                27.1927137
+              ],
+              [
+                100.1139316,
+                27.1926589
+              ],
+              [
+                100.1139142,
+                27.192697
+              ],
+              [
+                100.1137774,
+                27.1927304
+              ],
+              [
+                100.1137935,
+                27.1928652
+              ]
+            ],
+            "distance_m": 42.492,
+            "way_ids": [
+              740621008
+            ],
+            "note": "含台阶 · 含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/740621008",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 6934010054,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 6934010058,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 255.459,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/740621007",
+            "title": "虎跳峡 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "虎跳峡 · 虎跳峡栈道 B",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "shangrila-4-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/shangrila-4-walk-2-map.json",
+        "bounds": [
+          27.1909383,
+          100.1109118,
+          27.1940652,
+          100.1152238
+        ],
+        "nodes": [
+          {
+            "id": "shangrila-4-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "虎跳峡",
+            "attraction_id": "place_51fcfee3aee341c8",
+            "lat": 27.1921383,
+            "lon": 100.1121118,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13572075008",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-4-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "虎跳峡",
+            "attraction_id": "place_51fcfee3aee341c8",
+            "lat": 27.1925273,
+            "lon": 100.1129327,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13572065199",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-4-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "虎跳峡",
+            "attraction_id": "place_51fcfee3aee341c8",
+            "lat": 27.1928271,
+            "lon": 100.1136473,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6934010053",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "shangrila-4-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "虎跳峡",
+            "attraction_id": "place_51fcfee3aee341c8",
+            "lat": 27.1926897,
+            "lon": 100.1140238,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5709098753",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/shangrila-4-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "shangrila-4-walk-2-node-1",
+            "to_node_id": "shangrila-4-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1121118,
+                27.1921383
+              ],
+              [
+                100.1122974,
+                27.1923086
+              ],
+              [
+                100.1126453,
+                27.192489
+              ],
+              [
+                100.1128273,
+                27.1925141
+              ],
+              [
+                100.1127927,
+                27.192675
+              ],
+              [
+                100.1128988,
+                27.1927385
+              ],
+              [
+                100.1129555,
+                27.1926717
+              ],
+              [
+                100.1129327,
+                27.1925273
+              ]
+            ],
+            "distance_m": 140.804,
+            "way_ids": [
+              830072715,
+              708347464
+            ],
+            "note": "含台阶 · 含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/830072715",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13572075008,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13572065199,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-4-walk-2-node-2",
+            "to_node_id": "shangrila-4-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1129327,
+                27.1925273
+              ],
+              [
+                100.1130136,
+                27.1925577
+              ],
+              [
+                100.1130155,
+                27.1924073
+              ],
+              [
+                100.1131511,
+                27.1925217
+              ],
+              [
+                100.1132664,
+                27.1927054
+              ],
+              [
+                100.1134756,
+                27.1928628
+              ],
+              [
+                100.1135695,
+                27.1927626
+              ],
+              [
+                100.1136473,
+                27.1928271
+              ]
+            ],
+            "distance_m": 119.414,
+            "way_ids": [
+              708347464,
+              740621008
+            ],
+            "note": "含台阶 · 含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/708347464",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13572065199,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 6934010053,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "shangrila-4-walk-2-node-3",
+            "to_node_id": "shangrila-4-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1136473,
+                27.1928271
+              ],
+              [
+                100.1137076,
+                27.1927889
+              ],
+              [
+                100.1137935,
+                27.1928652
+              ],
+              [
+                100.1137774,
+                27.1927304
+              ],
+              [
+                100.1139142,
+                27.192697
+              ],
+              [
+                100.1139316,
+                27.1926589
+              ],
+              [
+                100.113996,
+                27.1927137
+              ],
+              [
+                100.1140238,
+                27.1926897
+              ]
+            ],
+            "distance_m": 65.652,
+            "way_ids": [
+              740621008
+            ],
+            "note": "含台阶 · 含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/740621008",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 6934010053,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5709098753,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 325.87,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/830072715",
+            "title": "虎跳峡 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      }
+    ],
     "available_destinations": [
+      {
+        "id": "liyang",
+        "name": "溧阳"
+      },
+      {
+        "id": "dalian",
+        "name": "大连"
+      },
       {
         "id": "suzhou",
         "name": "苏州"
+      },
+      {
+        "id": "nanjing",
+        "name": "南京"
+      },
+      {
+        "id": "kunming",
+        "name": "昆明"
+      },
+      {
+        "id": "fuxianhu",
+        "name": "抚仙湖"
+      },
+      {
+        "id": "lijiang",
+        "name": "丽江"
+      },
+      {
+        "id": "dali",
+        "name": "大理"
+      },
+      {
+        "id": "shangrila",
+        "name": "香格里拉"
+      },
+      {
+        "id": "xian",
+        "name": "西安"
       }
     ],
     "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"

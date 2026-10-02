@@ -3052,11 +3052,4415 @@
     }
   },
   "immersive_routes": {
-    "items": [],
+    "items": [
+      {
+        "title": "大理古城 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dali-1-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-1-walk-1-map.json",
+        "bounds": [
+          25.6885091,
+          100.1565697,
+          25.7037017,
+          100.1680205
+        ],
+        "nodes": [
+          {
+            "id": "dali-1-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6897091,
+            "lon": 100.1591349,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11381245412",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-1-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6938085,
+            "lon": 100.1611526,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3136471097",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-1-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6982068,
+            "lon": 100.1623683,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10035909303",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-1-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.7025017,
+            "lon": 100.165581,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3019413744",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-1-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-1-walk-1-node-1",
+            "to_node_id": "dali-1-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1591349,
+                25.6897091
+              ],
+              [
+                100.1592177,
+                25.6897473
+              ],
+              [
+                100.1593684,
+                25.6898059
+              ],
+              [
+                100.1594303,
+                25.6898493
+              ],
+              [
+                100.159197,
+                25.6897725
+              ],
+              [
+                100.1589201,
+                25.6899433
+              ],
+              [
+                100.1584511,
+                25.6908843
+              ],
+              [
+                100.1577697,
+                25.6922775
+              ],
+              [
+                100.1584973,
+                25.6924275
+              ],
+              [
+                100.1593858,
+                25.69272
+              ],
+              [
+                100.1596683,
+                25.6928386
+              ],
+              [
+                100.1599558,
+                25.6929775
+              ],
+              [
+                100.1600595,
+                25.6930276
+              ],
+              [
+                100.1601985,
+                25.6930948
+              ],
+              [
+                100.1603598,
+                25.6931643
+              ],
+              [
+                100.1605123,
+                25.6932301
+              ],
+              [
+                100.1613032,
+                25.6935248
+              ],
+              [
+                100.1611952,
+                25.6937269
+              ],
+              [
+                100.1611526,
+                25.6938085
+              ]
+            ],
+            "distance_m": 792.808,
+            "way_ids": [
+              965873041,
+              744089126,
+              767451402,
+              767451403,
+              308359775,
+              308359583
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/965873041",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11381245412,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 3136471097,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-1-walk-1-node-2",
+            "to_node_id": "dali-1-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1611526,
+                25.6938085
+              ],
+              [
+                100.1611043,
+                25.6939004
+              ],
+              [
+                100.1610511,
+                25.6940017
+              ],
+              [
+                100.1610136,
+                25.6940628
+              ],
+              [
+                100.1608073,
+                25.694473
+              ],
+              [
+                100.1606265,
+                25.6948324
+              ],
+              [
+                100.1604717,
+                25.6951402
+              ],
+              [
+                100.1603947,
+                25.6952932
+              ],
+              [
+                100.1601555,
+                25.6957941
+              ],
+              [
+                100.1600174,
+                25.6960835
+              ],
+              [
+                100.1598998,
+                25.6963303
+              ],
+              [
+                100.1594928,
+                25.6971776
+              ],
+              [
+                100.1597699,
+                25.6973254
+              ],
+              [
+                100.1597803,
+                25.6973287
+              ],
+              [
+                100.1610299,
+                25.6977477
+              ],
+              [
+                100.1617182,
+                25.6979538
+              ],
+              [
+                100.162028,
+                25.6980525
+              ],
+              [
+                100.1622878,
+                25.6981414
+              ],
+              [
+                100.1623174,
+                25.6981655
+              ],
+              [
+                100.1623683,
+                25.6982068
+              ]
+            ],
+            "distance_m": 721.204,
+            "way_ids": [
+              696847066,
+              308359586,
+              893988203,
+              972253835,
+              1436639921,
+              1436638493
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/696847066",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 3136471097,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10035909303,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-1-walk-1-node-3",
+            "to_node_id": "dali-1-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1623683,
+                25.6982068
+              ],
+              [
+                100.1630854,
+                25.6984844
+              ],
+              [
+                100.1631967,
+                25.6985437
+              ],
+              [
+                100.1634735,
+                25.6986836
+              ],
+              [
+                100.1642298,
+                25.6989469
+              ],
+              [
+                100.1648807,
+                25.6991795
+              ],
+              [
+                100.1652969,
+                25.6993364
+              ],
+              [
+                100.1657488,
+                25.6995229
+              ],
+              [
+                100.1658203,
+                25.6996228
+              ],
+              [
+                100.1668205,
+                25.7000031
+              ],
+              [
+                100.1666747,
+                25.7003012
+              ],
+              [
+                100.1666413,
+                25.7003695
+              ],
+              [
+                100.1665799,
+                25.7004952
+              ],
+              [
+                100.1664388,
+                25.7007837
+              ],
+              [
+                100.1662134,
+                25.7012454
+              ],
+              [
+                100.1659318,
+                25.701826
+              ],
+              [
+                100.1658411,
+                25.7019277
+              ],
+              [
+                100.165756,
+                25.7021114
+              ],
+              [
+                100.165581,
+                25.7025017
+              ]
+            ],
+            "distance_m": 796.191,
+            "way_ids": [
+              1436638493,
+              96369155,
+              56269245,
+              287875647,
+              298029058
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1436638493",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10035909303,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 3019413744,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 2310.203,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/767449039",
+            "title": "大理古城 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "大理古城 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dali-1-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-1-walk-2-map.json",
+        "bounds": [
+          25.6946712,
+          100.1548303,
+          25.699684400000002,
+          100.1690955
+        ],
+        "nodes": [
+          {
+            "id": "dali-1-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6958712,
+            "lon": 100.1560303,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8309062315",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-1-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6973287,
+            "lon": 100.1597803,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8998520138",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-1-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6971663,
+            "lon": 100.1637348,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/549727032",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-1-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6977337,
+            "lon": 100.1678955,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/2974084553",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-1-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-1-walk-2-node-1",
+            "to_node_id": "dali-1-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1560303,
+                25.6958712
+              ],
+              [
+                100.1561049,
+                25.6959018
+              ],
+              [
+                100.1577843,
+                25.696554
+              ],
+              [
+                100.1578619,
+                25.6965844
+              ],
+              [
+                100.1584415,
+                25.6967832
+              ],
+              [
+                100.1585568,
+                25.6968249
+              ],
+              [
+                100.1589151,
+                25.696956
+              ],
+              [
+                100.1593928,
+                25.6971308
+              ],
+              [
+                100.1594928,
+                25.6971776
+              ],
+              [
+                100.1597699,
+                25.6973254
+              ],
+              [
+                100.1597803,
+                25.6973287
+              ]
+            ],
+            "distance_m": 409.583,
+            "way_ids": [
+              893988202,
+              893988203,
+              972253835
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/893988202",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8309062315,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 8998520138,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-1-walk-2-node-2",
+            "to_node_id": "dali-1-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1597803,
+                25.6973287
+              ],
+              [
+                100.1610299,
+                25.6977477
+              ],
+              [
+                100.1617182,
+                25.6979538
+              ],
+              [
+                100.162028,
+                25.6980525
+              ],
+              [
+                100.1622878,
+                25.6981414
+              ],
+              [
+                100.1623174,
+                25.6981655
+              ],
+              [
+                100.1623683,
+                25.6982068
+              ],
+              [
+                100.1630854,
+                25.6984844
+              ],
+              [
+                100.1632226,
+                25.698173
+              ],
+              [
+                100.1633486,
+                25.6979409
+              ],
+              [
+                100.163523,
+                25.6975808
+              ],
+              [
+                100.1637348,
+                25.6971663
+              ]
+            ],
+            "distance_m": 516.514,
+            "way_ids": [
+              1436639921,
+              1436638493,
+              1436639920
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1436639921",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8998520138,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 549727032,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-1-walk-2-node-3",
+            "to_node_id": "dali-1-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1637348,
+                25.6971663
+              ],
+              [
+                100.1641265,
+                25.6963687
+              ],
+              [
+                100.1649861,
+                25.6966503
+              ],
+              [
+                100.1649727,
+                25.6966962
+              ],
+              [
+                100.165286,
+                25.6968458
+              ],
+              [
+                100.1653321,
+                25.6968678
+              ],
+              [
+                100.1653777,
+                25.6967663
+              ],
+              [
+                100.1659678,
+                25.6969633
+              ],
+              [
+                100.1670832,
+                25.6974069
+              ],
+              [
+                100.1671473,
+                25.6974325
+              ],
+              [
+                100.1678955,
+                25.6977337
+              ]
+            ],
+            "distance_m": 521.188,
+            "way_ids": [
+              1436638495,
+              298296244,
+              293825934,
+              293825935
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1436638495",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 549727032,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 2974084553,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1447.285,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/767449039",
+            "title": "大理古城 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "喜洲古镇 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dali-2-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-2-walk-1-map.json",
+        "bounds": [
+          25.8524732,
+          100.1252376,
+          25.857526800000002,
+          100.1323404
+        ],
+        "nodes": [
+          {
+            "id": "dali-2-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "喜洲古镇",
+            "attraction_id": "place_e81edf5f3c1b409a",
+            "lat": 25.8536732,
+            "lon": 100.1264376,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/7413740461",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-2-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "喜洲古镇",
+            "attraction_id": "place_e81edf5f3c1b409a",
+            "lat": 25.8545253,
+            "lon": 100.1285785,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/12582404311",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-2-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "喜洲古镇",
+            "attraction_id": "place_e81edf5f3c1b409a",
+            "lat": 25.855184,
+            "lon": 100.1305496,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1849515896",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-2-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "喜洲古镇",
+            "attraction_id": "place_e81edf5f3c1b409a",
+            "lat": 25.8563268,
+            "lon": 100.1310524,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/5936946812",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-2-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-2-walk-1-node-1",
+            "to_node_id": "dali-2-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1264376,
+                25.8536732
+              ],
+              [
+                100.1265327,
+                25.8537095
+              ],
+              [
+                100.1267636,
+                25.8537977
+              ],
+              [
+                100.1268278,
+                25.8538222
+              ],
+              [
+                100.1268705,
+                25.8538389
+              ],
+              [
+                100.1271289,
+                25.8539338
+              ],
+              [
+                100.1276413,
+                25.8541208
+              ],
+              [
+                100.128333,
+                25.8543612
+              ],
+              [
+                100.1284524,
+                25.854427
+              ],
+              [
+                100.1285785,
+                25.8545253
+              ]
+            ],
+            "distance_m": 235.233,
+            "way_ids": [
+              1528337501,
+              792833213,
+              1528337502,
+              1082989135,
+              35863958
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1528337501",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 7413740461,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 12582404311,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-2-walk-1-node-2",
+            "to_node_id": "dali-2-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1285785,
+                25.8545253
+              ],
+              [
+                100.1287251,
+                25.8545675
+              ],
+              [
+                100.1287288,
+                25.8546002
+              ],
+              [
+                100.128758,
+                25.8546462
+              ],
+              [
+                100.1290291,
+                25.8547185
+              ],
+              [
+                100.1292407,
+                25.8547658
+              ],
+              [
+                100.1294591,
+                25.8548091
+              ],
+              [
+                100.1299342,
+                25.8549034
+              ],
+              [
+                100.1305452,
+                25.8549719
+              ],
+              [
+                100.1305496,
+                25.855184
+              ]
+            ],
+            "distance_m": 231.32,
+            "way_ids": [
+              35863958
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/35863958",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 12582404311,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1849515896,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-2-walk-1-node-3",
+            "to_node_id": "dali-2-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1305496,
+                25.855184
+              ],
+              [
+                100.1305392,
+                25.8557328
+              ],
+              [
+                100.1305526,
+                25.8558861
+              ],
+              [
+                100.1305646,
+                25.8559156
+              ],
+              [
+                100.1305888,
+                25.85595
+              ],
+              [
+                100.130681,
+                25.8560325
+              ],
+              [
+                100.130745,
+                25.8560598
+              ],
+              [
+                100.1308892,
+                25.8561431
+              ],
+              [
+                100.1311404,
+                25.8562229
+              ],
+              [
+                100.1310524,
+                25.8563268
+              ]
+            ],
+            "distance_m": 164.578,
+            "way_ids": [
+              35863958,
+              35863924,
+              791194135
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/35863958",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1849515896,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 5936946812,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 631.131,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/1528337500",
+            "title": "喜洲古镇 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "喜洲古镇 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dali-2-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-2-walk-2-map.json",
+        "bounds": [
+          25.854675,
+          100.1269593,
+          25.8607584,
+          100.1308462
+        ],
+        "nodes": [
+          {
+            "id": "dali-2-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "喜洲古镇",
+            "attraction_id": "place_e81edf5f3c1b409a",
+            "lat": 25.855875,
+            "lon": 100.1296462,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/7413740438",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-2-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "喜洲古镇",
+            "attraction_id": "place_e81edf5f3c1b409a",
+            "lat": 25.8576571,
+            "lon": 100.1286036,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11338714921",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-2-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "喜洲古镇",
+            "attraction_id": "place_e81edf5f3c1b409a",
+            "lat": 25.8583106,
+            "lon": 100.1286187,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11338714931",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-2-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "喜洲古镇",
+            "attraction_id": "place_e81edf5f3c1b409a",
+            "lat": 25.8595584,
+            "lon": 100.1281593,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1849515929",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-2-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-2-walk-2-node-1",
+            "to_node_id": "dali-2-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1296462,
+                25.855875
+              ],
+              [
+                100.1294602,
+                25.8561968
+              ],
+              [
+                100.1294053,
+                25.8563199
+              ],
+              [
+                100.1293436,
+                25.8564599
+              ],
+              [
+                100.1291907,
+                25.8565498
+              ],
+              [
+                100.1290344,
+                25.8567134
+              ],
+              [
+                100.1289888,
+                25.8567954
+              ],
+              [
+                100.1289178,
+                25.8569449
+              ],
+              [
+                100.1286831,
+                25.8574598
+              ],
+              [
+                100.1286227,
+                25.8576025
+              ],
+              [
+                100.1286036,
+                25.8576571
+              ]
+            ],
+            "distance_m": 227.598,
+            "way_ids": [
+              792833206,
+              790237568
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/792833206",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 7413740438,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11338714921,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-2-walk-2-node-2",
+            "to_node_id": "dali-2-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1286036,
+                25.8576571
+              ],
+              [
+                100.1285912,
+                25.8577503
+              ],
+              [
+                100.1285775,
+                25.8578345
+              ],
+              [
+                100.1285721,
+                25.8578659
+              ],
+              [
+                100.1285681,
+                25.8578976
+              ],
+              [
+                100.1285698,
+                25.8579751
+              ],
+              [
+                100.1285751,
+                25.8580312
+              ],
+              [
+                100.1285832,
+                25.8580861
+              ],
+              [
+                100.128608,
+                25.8581965
+              ],
+              [
+                100.1286167,
+                25.858269
+              ],
+              [
+                100.1286187,
+                25.8583106
+              ]
+            ],
+            "distance_m": 73.281,
+            "way_ids": [
+              790237568
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/790237568",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11338714921,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11338714931,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-2-walk-2-node-3",
+            "to_node_id": "dali-2-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1286187,
+                25.8583106
+              ],
+              [
+                100.128614,
+                25.8583516
+              ],
+              [
+                100.128608,
+                25.858383
+              ],
+              [
+                100.1284906,
+                25.8586557
+              ],
+              [
+                100.1284645,
+                25.8587203
+              ],
+              [
+                100.128374,
+                25.8588844
+              ],
+              [
+                100.1283096,
+                25.8589943
+              ],
+              [
+                100.1282465,
+                25.8591566
+              ],
+              [
+                100.1281956,
+                25.8593762
+              ],
+              [
+                100.1281593,
+                25.8595584
+              ]
+            ],
+            "distance_m": 147.12,
+            "way_ids": [
+              790237568
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/790237568",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11338714931,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1849515929,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 447.999,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/1528337500",
+            "title": "喜洲古镇 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "双廊镇区街巷 · 南北步道",
+        "subtitle": "镇区步行 · 地图选线",
+        "summary": "沿双廊镇建成居住区内已记录的街巷浏览，包含民族文化街及支路。区域依据为地图居住区范围，不代表古镇景区边界；照片仅作双廊所属景点参考。",
+        "id": "dali-3-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-3-walk-1-map.json",
+        "bounds": [
+          25.907128699999998,
+          100.18612420000001,
+          25.9246016,
+          100.19452489999999
+        ],
+        "nodes": [
+          {
+            "id": "dali-3-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "双廊古镇",
+            "attraction_id": "place_cf5850b5cbdd454f",
+            "lat": 25.9083287,
+            "lon": 100.1931382,
+            "note": "双廊镇区道路路点，不代表景区入口；照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8334924665",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-3-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "双廊古镇",
+            "attraction_id": "place_cf5850b5cbdd454f",
+            "lat": 25.9128387,
+            "lon": 100.192753,
+            "note": "双廊镇区道路路点，不代表景区入口；照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3159358360",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-3-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "双廊古镇",
+            "attraction_id": "place_cf5850b5cbdd454f",
+            "lat": 25.9176862,
+            "lon": 100.1911242,
+            "note": "双廊镇区道路路点，不代表景区入口；照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1849298894",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-3-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "双廊古镇",
+            "attraction_id": "place_cf5850b5cbdd454f",
+            "lat": 25.9234016,
+            "lon": 100.1873242,
+            "note": "双廊镇区道路路点，不代表景区入口；照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/6957763641",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-3-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-3-walk-1-node-1",
+            "to_node_id": "dali-3-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1931382,
+                25.9083287
+              ],
+              [
+                100.1932687,
+                25.9084611
+              ],
+              [
+                100.1933249,
+                25.9085309
+              ],
+              [
+                100.193038,
+                25.9087602
+              ],
+              [
+                100.1929389,
+                25.908846
+              ],
+              [
+                100.1927483,
+                25.9090111
+              ],
+              [
+                100.192577,
+                25.9091417
+              ],
+              [
+                100.1923668,
+                25.9093019
+              ],
+              [
+                100.1924678,
+                25.9094275
+              ],
+              [
+                100.1929495,
+                25.910004
+              ],
+              [
+                100.1927416,
+                25.910121
+              ],
+              [
+                100.19258,
+                25.910247
+              ],
+              [
+                100.1925196,
+                25.9103285
+              ],
+              [
+                100.1925029,
+                25.9103731
+              ],
+              [
+                100.1924975,
+                25.9104461
+              ],
+              [
+                100.1925015,
+                25.9106306
+              ],
+              [
+                100.1924982,
+                25.9110124
+              ],
+              [
+                100.1924975,
+                25.9112024
+              ],
+              [
+                100.1924928,
+                25.9113852
+              ],
+              [
+                100.192523,
+                25.9118755
+              ],
+              [
+                100.1925471,
+                25.912042
+              ],
+              [
+                100.1926129,
+                25.9123351
+              ],
+              [
+                100.192753,
+                25.9128387
+              ]
+            ],
+            "distance_m": 594.169,
+            "way_ids": [
+              896645118,
+              896544483,
+              896544482,
+              743321901
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/896645118",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8334924665,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 3159358360,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-3-walk-1-node-2",
+            "to_node_id": "dali-3-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.192753,
+                25.9128387
+              ],
+              [
+                100.19281,
+                25.9129769
+              ],
+              [
+                100.1928361,
+                25.9130697
+              ],
+              [
+                100.1928435,
+                25.9131507
+              ],
+              [
+                100.1928448,
+                25.9136336
+              ],
+              [
+                100.1928187,
+                25.9138261
+              ],
+              [
+                100.1927738,
+                25.9140287
+              ],
+              [
+                100.1927141,
+                25.9142078
+              ],
+              [
+                100.1925766,
+                25.9145601
+              ],
+              [
+                100.1923728,
+                25.9151217
+              ],
+              [
+                100.1921449,
+                25.9155574
+              ],
+              [
+                100.1920294,
+                25.9158242
+              ],
+              [
+                100.1919449,
+                25.9160722
+              ],
+              [
+                100.1918054,
+                25.9163186
+              ],
+              [
+                100.1917143,
+                25.9164583
+              ],
+              [
+                100.1916283,
+                25.9166206
+              ],
+              [
+                100.1916003,
+                25.9166734
+              ],
+              [
+                100.1914782,
+                25.9168973
+              ],
+              [
+                100.1913276,
+                25.9172166
+              ],
+              [
+                100.1912556,
+                25.9173653
+              ],
+              [
+                100.191241,
+                25.9174009
+              ],
+              [
+                100.1911723,
+                25.9175688
+              ],
+              [
+                100.1911242,
+                25.9176862
+              ]
+            ],
+            "distance_m": 574.13,
+            "way_ids": [
+              743321901
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/743321901",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 3159358360,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1849298894,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-3-walk-1-node-3",
+            "to_node_id": "dali-3-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1911242,
+                25.9176862
+              ],
+              [
+                100.1910681,
+                25.9178166
+              ],
+              [
+                100.1910534,
+                25.9178507
+              ],
+              [
+                100.1909579,
+                25.918066
+              ],
+              [
+                100.1909445,
+                25.9181035
+              ],
+              [
+                100.1908668,
+                25.9182587
+              ],
+              [
+                100.1906912,
+                25.9186094
+              ],
+              [
+                100.1905314,
+                25.9189286
+              ],
+              [
+                100.1903945,
+                25.9191944
+              ],
+              [
+                100.1902811,
+                25.9194145
+              ],
+              [
+                100.1900527,
+                25.9197674
+              ],
+              [
+                100.1897961,
+                25.9199772
+              ],
+              [
+                100.1896489,
+                25.9201288
+              ],
+              [
+                100.1891013,
+                25.9207264
+              ],
+              [
+                100.1883532,
+                25.9213798
+              ],
+              [
+                100.1881416,
+                25.9216304
+              ],
+              [
+                100.1879592,
+                25.921903
+              ],
+              [
+                100.1877805,
+                25.9221684
+              ],
+              [
+                100.1876051,
+                25.9224289
+              ],
+              [
+                100.1874905,
+                25.9226898
+              ],
+              [
+                100.1874335,
+                25.9228198
+              ],
+              [
+                100.1873611,
+                25.9231285
+              ],
+              [
+                100.1873242,
+                25.9234016
+              ]
+            ],
+            "distance_m": 753.936,
+            "way_ids": [
+              743321901
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/743321901",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1849298894,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 6957763641,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1922.235,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/relation/20964490",
+            "title": "双廊古镇 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "双廊镇区街巷 · 南北步道",
+        "subtitle": "镇区步行 · 地图选线",
+        "summary": "沿双廊镇建成居住区内已记录的街巷浏览，包含民族文化街及支路。区域依据为地图居住区范围，不代表古镇景区边界；照片仅作双廊所属景点参考。",
+        "id": "dali-3-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-3-walk-2-map.json",
+        "bounds": [
+          25.9035232,
+          100.19471800000001,
+          25.908014,
+          100.19767519999999
+        ],
+        "nodes": [
+          {
+            "id": "dali-3-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "双廊古镇",
+            "attraction_id": "place_cf5850b5cbdd454f",
+            "lat": 25.9047232,
+            "lon": 100.1964752,
+            "note": "双廊镇区道路路点，不代表景区入口；照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1849321395",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-3-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "双廊古镇",
+            "attraction_id": "place_cf5850b5cbdd454f",
+            "lat": 25.9053518,
+            "lon": 100.1963411,
+            "note": "双廊镇区道路路点，不代表景区入口；照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13816802933",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-3-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "双廊古镇",
+            "attraction_id": "place_cf5850b5cbdd454f",
+            "lat": 25.9061229,
+            "lon": 100.1959829,
+            "note": "双廊镇区道路路点，不代表景区入口；照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13816802907",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-3-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "双廊古镇",
+            "attraction_id": "place_cf5850b5cbdd454f",
+            "lat": 25.906814,
+            "lon": 100.1959314,
+            "note": "双廊镇区道路路点，不代表景区入口；照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/1849298838",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-3-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-3-walk-2-node-1",
+            "to_node_id": "dali-3-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1964752,
+                25.9047232
+              ],
+              [
+                100.1963473,
+                25.9048179
+              ],
+              [
+                100.196262,
+                25.9049024
+              ],
+              [
+                100.1962738,
+                25.9049293
+              ],
+              [
+                100.1962955,
+                25.904979
+              ],
+              [
+                100.1963217,
+                25.9050671
+              ],
+              [
+                100.1963673,
+                25.9052028
+              ],
+              [
+                100.1963659,
+                25.9052336
+              ],
+              [
+                100.1963579,
+                25.9053011
+              ],
+              [
+                100.1963519,
+                25.9053283
+              ],
+              [
+                100.1963411,
+                25.9053518
+              ]
+            ],
+            "distance_m": 81.205,
+            "way_ids": [
+              1511854065,
+              1511854069
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1511854065",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 1849321395,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13816802933,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-3-walk-2-node-2",
+            "to_node_id": "dali-3-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1963411,
+                25.9053518
+              ],
+              [
+                100.1963116,
+                25.9053928
+              ],
+              [
+                100.1961916,
+                25.9055912
+              ],
+              [
+                100.1961748,
+                25.9056323
+              ],
+              [
+                100.1960501,
+                25.9058536
+              ],
+              [
+                100.1960387,
+                25.9058784
+              ],
+              [
+                100.1959924,
+                25.9060273
+              ],
+              [
+                100.1959864,
+                25.9060768
+              ],
+              [
+                100.1959817,
+                25.9060901
+              ],
+              [
+                100.1959817,
+                25.9061184
+              ],
+              [
+                100.1959829,
+                25.9061229
+              ]
+            ],
+            "distance_m": 93.929,
+            "way_ids": [
+              1511854069
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1511854069",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13816802933,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13816802907,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-3-walk-2-node-3",
+            "to_node_id": "dali-3-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1959829,
+                25.9061229
+              ],
+              [
+                100.1959851,
+                25.9061311
+              ],
+              [
+                100.1960172,
+                25.906189
+              ],
+              [
+                100.1960186,
+                25.9062439
+              ],
+              [
+                100.1960172,
+                25.9062571
+              ],
+              [
+                100.1959804,
+                25.9064284
+              ],
+              [
+                100.1959723,
+                25.9064381
+              ],
+              [
+                100.1959227,
+                25.9066583
+              ],
+              [
+                100.195918,
+                25.9067324
+              ],
+              [
+                100.1959314,
+                25.906814
+              ]
+            ],
+            "distance_m": 78.87,
+            "way_ids": [
+              1511854069
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1511854069",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13816802907,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 1849298838,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 254.004,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/relation/20964490",
+            "title": "双廊古镇 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "崇圣寺三塔 · 南北步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dali-5-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-5-walk-1-map.json",
+        "bounds": [
+          25.7038425,
+          100.1368593,
+          25.7112781,
+          100.1498144
+        ],
+        "nodes": [
+          {
+            "id": "dali-5-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7050425,
+            "lon": 100.1383303,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11379276705",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-5-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7065376,
+            "lon": 100.1398091,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8278897563",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-5-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7085057,
+            "lon": 100.1471378,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13013325683",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-5-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7100781,
+            "lon": 100.1485394,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11379276805",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-5-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-5-walk-1-node-1",
+            "to_node_id": "dali-5-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1383303,
+                25.7050425
+              ],
+              [
+                100.1382673,
+                25.7052042
+              ],
+              [
+                100.1381924,
+                25.7053963
+              ],
+              [
+                100.1381317,
+                25.7055521
+              ],
+              [
+                100.1380593,
+                25.705738
+              ],
+              [
+                100.1381399,
+                25.7057635
+              ],
+              [
+                100.1382802,
+                25.7058079
+              ],
+              [
+                100.1384887,
+                25.7058738
+              ],
+              [
+                100.1384048,
+                25.7060892
+              ],
+              [
+                100.1385034,
+                25.7061204
+              ],
+              [
+                100.1386609,
+                25.7061702
+              ],
+              [
+                100.138681,
+                25.7061765
+              ],
+              [
+                100.1387847,
+                25.7062094
+              ],
+              [
+                100.139023,
+                25.706289
+              ],
+              [
+                100.1391594,
+                25.7063321
+              ],
+              [
+                100.1393163,
+                25.7063817
+              ],
+              [
+                100.1393471,
+                25.7063915
+              ],
+              [
+                100.1394309,
+                25.706418
+              ],
+              [
+                100.1396018,
+                25.7064721
+              ],
+              [
+                100.1396572,
+                25.7064896
+              ],
+              [
+                100.1398091,
+                25.7065376
+              ]
+            ],
+            "distance_m": 302.216,
+            "way_ids": [
+              1227117259,
+              891235105,
+              890765521,
+              890765520,
+              1227117263,
+              1227117262,
+              890765516,
+              1452587063,
+              1452587062,
+              890765515
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1227117259",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11379276705,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 8278897563,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-5-walk-1-node-2",
+            "to_node_id": "dali-5-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1398091,
+                25.7065376
+              ],
+              [
+                100.1399379,
+                25.7065796
+              ],
+              [
+                100.1401871,
+                25.706659
+              ],
+              [
+                100.1405809,
+                25.7067845
+              ],
+              [
+                100.1418314,
+                25.7071764
+              ],
+              [
+                100.1420306,
+                25.7072388
+              ],
+              [
+                100.1420502,
+                25.7072449
+              ],
+              [
+                100.1424322,
+                25.7073656
+              ],
+              [
+                100.1426426,
+                25.7074328
+              ],
+              [
+                100.1440178,
+                25.7078721
+              ],
+              [
+                100.1442029,
+                25.7079312
+              ],
+              [
+                100.1443507,
+                25.7079785
+              ],
+              [
+                100.1444544,
+                25.7080116
+              ],
+              [
+                100.1452706,
+                25.7082723
+              ],
+              [
+                100.1457321,
+                25.7084197
+              ],
+              [
+                100.1460162,
+                25.7085105
+              ],
+              [
+                100.1461315,
+                25.708199
+              ],
+              [
+                100.1462705,
+                25.7082138
+              ],
+              [
+                100.1466259,
+                25.7083529
+              ],
+              [
+                100.146675,
+                25.7083672
+              ],
+              [
+                100.1471378,
+                25.7085057
+              ]
+            ],
+            "distance_m": 802.83,
+            "way_ids": [
+              890765514,
+              1452587067,
+              890765513,
+              737470881,
+              737470882,
+              737470885,
+              737470883,
+              737470884,
+              737470879,
+              737470877,
+              1416062503
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/890765514",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8278897563,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13013325683,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-5-walk-1-node-3",
+            "to_node_id": "dali-5-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1471378,
+                25.7085057
+              ],
+              [
+                100.1470158,
+                25.7088421
+              ],
+              [
+                100.1475546,
+                25.7090033
+              ],
+              [
+                100.1483108,
+                25.7092352
+              ],
+              [
+                100.1482762,
+                25.7093353
+              ],
+              [
+                100.1482392,
+                25.7093834
+              ],
+              [
+                100.1482218,
+                25.7094089
+              ],
+              [
+                100.148225,
+                25.709455
+              ],
+              [
+                100.1482348,
+                25.7094933
+              ],
+              [
+                100.1482403,
+                25.7095129
+              ],
+              [
+                100.1482827,
+                25.7095129
+              ],
+              [
+                100.1483132,
+                25.7095158
+              ],
+              [
+                100.1483448,
+                25.7095296
+              ],
+              [
+                100.1484058,
+                25.7095718
+              ],
+              [
+                100.1485168,
+                25.7097179
+              ],
+              [
+                100.1485375,
+                25.7097473
+              ],
+              [
+                100.148568,
+                25.7097748
+              ],
+              [
+                100.1485909,
+                25.7098072
+              ],
+              [
+                100.1485974,
+                25.7098405
+              ],
+              [
+                100.1486144,
+                25.7100359
+              ],
+              [
+                100.1485394,
+                25.7100781
+              ]
+            ],
+            "distance_m": 294.62,
+            "way_ids": [
+              1416062503,
+              737470892,
+              1227117225,
+              1227117224,
+              1452587080
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1416062503",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13013325683,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11379276805,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1399.666,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/848708168",
+            "title": "崇圣寺三塔 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "崇圣寺三塔 · 东西步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "dali-5-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-5-walk-2-map.json",
+        "bounds": [
+          25.7044939,
+          100.1359218,
+          25.7098202,
+          100.1507087
+        ],
+        "nodes": [
+          {
+            "id": "dali-5-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7056939,
+            "lon": 100.1371218,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8283594212",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-5-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7063817,
+            "lon": 100.1393163,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8278897564",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-5-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7080116,
+            "lon": 100.1444544,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13321700469",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-5-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7084956,
+            "lon": 100.1495087,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11379276498",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-5-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-5-walk-2-node-1",
+            "to_node_id": "dali-5-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1371218,
+                25.7056939
+              ],
+              [
+                100.1373983,
+                25.7057759
+              ],
+              [
+                100.1377355,
+                25.7058746
+              ],
+              [
+                100.1377854,
+                25.7058909
+              ],
+              [
+                100.1378517,
+                25.7059127
+              ],
+              [
+                100.1378738,
+                25.705858
+              ],
+              [
+                100.1379024,
+                25.7057926
+              ],
+              [
+                100.1379268,
+                25.7058007
+              ],
+              [
+                100.1379095,
+                25.7059354
+              ],
+              [
+                100.1380549,
+                25.7059814
+              ],
+              [
+                100.1384048,
+                25.7060892
+              ],
+              [
+                100.1385034,
+                25.7061204
+              ],
+              [
+                100.1386609,
+                25.7061702
+              ],
+              [
+                100.138681,
+                25.7061765
+              ],
+              [
+                100.1387847,
+                25.7062094
+              ],
+              [
+                100.139023,
+                25.706289
+              ],
+              [
+                100.1391594,
+                25.7063321
+              ],
+              [
+                100.1393163,
+                25.7063817
+              ]
+            ],
+            "distance_m": 258.482,
+            "way_ids": [
+              891235126,
+              891235110,
+              891235109,
+              891235107,
+              891235108,
+              890765521,
+              890765520,
+              1227117263,
+              1227117262,
+              890765516
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/891235126",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8283594212,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 8278897564,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-5-walk-2-node-2",
+            "to_node_id": "dali-5-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1393163,
+                25.7063817
+              ],
+              [
+                100.1393471,
+                25.7063915
+              ],
+              [
+                100.1394309,
+                25.706418
+              ],
+              [
+                100.1396018,
+                25.7064721
+              ],
+              [
+                100.1396572,
+                25.7064896
+              ],
+              [
+                100.1398091,
+                25.7065376
+              ],
+              [
+                100.1399379,
+                25.7065796
+              ],
+              [
+                100.1401871,
+                25.706659
+              ],
+              [
+                100.1405809,
+                25.7067845
+              ],
+              [
+                100.1418314,
+                25.7071764
+              ],
+              [
+                100.1420306,
+                25.7072388
+              ],
+              [
+                100.1420502,
+                25.7072449
+              ],
+              [
+                100.1424322,
+                25.7073656
+              ],
+              [
+                100.1426426,
+                25.7074328
+              ],
+              [
+                100.1440178,
+                25.7078721
+              ],
+              [
+                100.1442029,
+                25.7079312
+              ],
+              [
+                100.1443507,
+                25.7079785
+              ],
+              [
+                100.1444544,
+                25.7080116
+              ]
+            ],
+            "distance_m": 545.757,
+            "way_ids": [
+              1452587063,
+              1452587062,
+              890765515,
+              890765514,
+              1452587067,
+              890765513,
+              737470881,
+              737470882,
+              737470885,
+              737470883,
+              737470884
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1452587063",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8278897564,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13321700469,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "dali-5-walk-2-node-3",
+            "to_node_id": "dali-5-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1444544,
+                25.7080116
+              ],
+              [
+                100.1452706,
+                25.7082723
+              ],
+              [
+                100.1457321,
+                25.7084197
+              ],
+              [
+                100.1460162,
+                25.7085105
+              ],
+              [
+                100.1461315,
+                25.708199
+              ],
+              [
+                100.1462705,
+                25.7082138
+              ],
+              [
+                100.1466259,
+                25.7083529
+              ],
+              [
+                100.146675,
+                25.7083672
+              ],
+              [
+                100.1471378,
+                25.7085057
+              ],
+              [
+                100.1472015,
+                25.7083299
+              ],
+              [
+                100.1472501,
+                25.7082092
+              ],
+              [
+                100.1485375,
+                25.7086202
+              ],
+              [
+                100.1486301,
+                25.7084034
+              ],
+              [
+                100.1486914,
+                25.7082445
+              ],
+              [
+                100.1492081,
+                25.7084058
+              ],
+              [
+                100.1492248,
+                25.7084108
+              ],
+              [
+                100.1495087,
+                25.7084956
+              ]
+            ],
+            "distance_m": 612.134,
+            "way_ids": [
+              737470884,
+              737470879,
+              737470877,
+              1416062503,
+              1452587069,
+              1227117228,
+              1227117227,
+              1227117222
+            ],
+            "note": "含台阶 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/737470884",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13321700469,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11379276498,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1416.373,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/848708168",
+            "title": "崇圣寺三塔 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "大理古城 → 崇圣寺三塔",
+        "subtitle": "景点间骑行 · 实际道路预览",
+        "summary": "用于比较景点间的骑行衔接；起终点均为真实道路路点，未核验为景区出入口。地图距离不包含从这些路点走到景点入口的路程。",
+        "id": "dali-cycle-1",
+        "guide_id": null,
+        "route_type": "citywalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-cycle-1-map.json",
+        "bounds": [
+          25.696446,
+          100.14468330000001,
+          25.7100512,
+          100.1662298
+        ],
+        "nodes": [
+          {
+            "id": "dali-cycle-1-node-1",
+            "name": "大理古城附近道路",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6984844,
+            "lon": 100.1630854,
+            "note": "道路锚点距景点代表点约44米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/549727030",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-cycle-1-node-2",
+            "name": "崇圣寺三塔附近道路",
+            "attraction_name": "崇圣寺三塔",
+            "attraction_id": "configured_30c0d73354606b7a1391",
+            "lat": 25.7080512,
+            "lon": 100.1466833,
+            "note": "道路锚点距景点代表点约67米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/696662266",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-cycle-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-cycle-1-node-1",
+            "to_node_id": "dali-cycle-1-node-2",
+            "mode": "cycle",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1630854,
+                25.6984844
+              ],
+              [
+                100.1631967,
+                25.6985437
+              ],
+              [
+                100.1634735,
+                25.6986836
+              ],
+              [
+                100.1642298,
+                25.6989469
+              ],
+              [
+                100.1641667,
+                25.6990924
+              ],
+              [
+                100.1641121,
+                25.6992305
+              ],
+              [
+                100.1639836,
+                25.6995367
+              ],
+              [
+                100.1636818,
+                25.7002435
+              ],
+              [
+                100.1632134,
+                25.7000588
+              ],
+              [
+                100.1631812,
+                25.7000461
+              ],
+              [
+                100.1627435,
+                25.6998735
+              ],
+              [
+                100.1624975,
+                25.6997753
+              ],
+              [
+                100.1614766,
+                25.6993874
+              ],
+              [
+                100.1606965,
+                25.699087
+              ],
+              [
+                100.1602139,
+                25.6989011
+              ],
+              [
+                100.1600303,
+                25.6988304
+              ],
+              [
+                100.1592764,
+                25.6985401
+              ],
+              [
+                100.1589549,
+                25.698446
+              ],
+              [
+                100.1586114,
+                25.6991335
+              ],
+              [
+                100.1583428,
+                25.6996712
+              ],
+              [
+                100.1578708,
+                25.7005784
+              ],
+              [
+                100.1577503,
+                25.7008289
+              ],
+              [
+                100.1572872,
+                25.7019053
+              ],
+              [
+                100.157161,
+                25.7021785
+              ],
+              [
+                100.1570996,
+                25.7023115
+              ],
+              [
+                100.1570188,
+                25.7022883
+              ],
+              [
+                100.1567464,
+                25.7022091
+              ],
+              [
+                100.1566206,
+                25.7022079
+              ],
+              [
+                100.1566666,
+                25.7023075
+              ],
+              [
+                100.1567019,
+                25.702381
+              ],
+              [
+                100.156741,
+                25.7024387
+              ],
+              [
+                100.156778,
+                25.7024849
+              ],
+              [
+                100.1569755,
+                25.7026118
+              ],
+              [
+                100.1568241,
+                25.7029588
+              ],
+              [
+                100.1567902,
+                25.7030346
+              ],
+              [
+                100.1567771,
+                25.7030688
+              ],
+              [
+                100.1560125,
+                25.7048376
+              ],
+              [
+                100.1546122,
+                25.7049074
+              ],
+              [
+                100.1540902,
+                25.7049355
+              ],
+              [
+                100.153697,
+                25.7049475
+              ],
+              [
+                100.1534575,
+                25.7049387
+              ],
+              [
+                100.1532112,
+                25.7049147
+              ],
+              [
+                100.1527296,
+                25.7048503
+              ],
+              [
+                100.1524804,
+                25.7048269
+              ],
+              [
+                100.1523551,
+                25.7048066
+              ],
+              [
+                100.1522053,
+                25.7047731
+              ],
+              [
+                100.1520764,
+                25.7051081
+              ],
+              [
+                100.1519546,
+                25.7053564
+              ],
+              [
+                100.1518216,
+                25.7055955
+              ],
+              [
+                100.151361,
+                25.7053691
+              ],
+              [
+                100.1508405,
+                25.7050609
+              ],
+              [
+                100.1501885,
+                25.706411
+              ],
+              [
+                100.14992,
+                25.7063017
+              ],
+              [
+                100.149209,
+                25.7076942
+              ],
+              [
+                100.149169,
+                25.7076804
+              ],
+              [
+                100.149108,
+                25.7076657
+              ],
+              [
+                100.1490275,
+                25.7076637
+              ],
+              [
+                100.1487085,
+                25.7076784
+              ],
+              [
+                100.1486276,
+                25.707672
+              ],
+              [
+                100.1485164,
+                25.7076407
+              ],
+              [
+                100.1472387,
+                25.7072504
+              ],
+              [
+                100.1471047,
+                25.7072046
+              ],
+              [
+                100.1469871,
+                25.7074587
+              ],
+              [
+                100.1468521,
+                25.7077706
+              ],
+              [
+                100.1467704,
+                25.7079551
+              ],
+              [
+                100.1467421,
+                25.7080316
+              ],
+              [
+                100.1467116,
+                25.7080502
+              ],
+              [
+                100.1466833,
+                25.7080512
+              ]
+            ],
+            "distance_m": 2924.132,
+            "way_ids": [
+              1436638493,
+              297354259,
+              39160233,
+              1126157205,
+              56242851,
+              1121664417,
+              767449044,
+              767449045,
+              694518847,
+              56242805,
+              298032271,
+              1518174463,
+              741243862,
+              187587711,
+              187587710,
+              684419850,
+              298032274,
+              55441278,
+              193253440
+            ],
+            "note": "按允许骑行的已记录道路和单行方向生成；未核验现场限行，长度为地图值。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1436638493",
+              "label": "OpenStreetMap 骑行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 549727030,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 696662266,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 2924.132,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/1436638493",
+            "title": "OpenStreetMap 骑行道路",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "大理古城 → 龙龛码头",
+        "subtitle": "景点间骑行 · 实际道路预览",
+        "summary": "用于比较景点间的骑行衔接；起终点均为真实道路路点，未核验为景区出入口。地图距离不包含从这些路点走到景点入口的路程。",
+        "id": "dali-cycle-2",
+        "guide_id": null,
+        "route_type": "citywalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/dali-cycle-2-map.json",
+        "bounds": [
+          25.689790900000002,
+          100.1610854,
+          25.704041399999998,
+          100.20969559999999
+        ],
+        "nodes": [
+          {
+            "id": "dali-cycle-2-node-1",
+            "name": "大理古城附近道路",
+            "attraction_name": "大理古城",
+            "attraction_id": "place_b6dbcd980d7c4a60",
+            "lat": 25.6984844,
+            "lon": 100.1630854,
+            "note": "道路锚点距景点代表点约44米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/549727030",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "dali-cycle-2-node-2",
+            "name": "龙龛码头附近道路",
+            "attraction_name": "龙龛码头",
+            "attraction_id": "configured_bb2db10088251c699c91",
+            "lat": 25.7007306,
+            "lon": 100.2048887,
+            "note": "道路锚点距景点代表点约84米，不是已核验的入园口。照片为所属景点参考。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11333059633",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/dali-cycle-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "dali-cycle-2-node-1",
+            "to_node_id": "dali-cycle-2-node-2",
+            "mode": "cycle",
+            "status": "mapped",
+            "coordinates": [
+              [
+                100.1630854,
+                25.6984844
+              ],
+              [
+                100.1631967,
+                25.6985437
+              ],
+              [
+                100.1634735,
+                25.6986836
+              ],
+              [
+                100.1642298,
+                25.6989469
+              ],
+              [
+                100.1641667,
+                25.6990924
+              ],
+              [
+                100.1641121,
+                25.6992305
+              ],
+              [
+                100.1639836,
+                25.6995367
+              ],
+              [
+                100.1636818,
+                25.7002435
+              ],
+              [
+                100.1642147,
+                25.7004584
+              ],
+              [
+                100.1657108,
+                25.7010435
+              ],
+              [
+                100.1662134,
+                25.7012454
+              ],
+              [
+                100.1667066,
+                25.701414
+              ],
+              [
+                100.1671108,
+                25.7015522
+              ],
+              [
+                100.1673862,
+                25.7016464
+              ],
+              [
+                100.1677168,
+                25.7017594
+              ],
+              [
+                100.1677942,
+                25.7017859
+              ],
+              [
+                100.1678812,
+                25.7018156
+              ],
+              [
+                100.1685414,
+                25.7020414
+              ],
+              [
+                100.1689319,
+                25.7011843
+              ],
+              [
+                100.1691721,
+                25.7006432
+              ],
+              [
+                100.1693964,
+                25.7001127
+              ],
+              [
+                100.1694079,
+                25.7000927
+              ],
+              [
+                100.1694257,
+                25.7000705
+              ],
+              [
+                100.1694592,
+                25.7000559
+              ],
+              [
+                100.1694953,
+                25.7000536
+              ],
+              [
+                100.1695473,
+                25.700054
+              ],
+              [
+                100.1695817,
+                25.7000615
+              ],
+              [
+                100.1696524,
+                25.7000773
+              ],
+              [
+                100.1696922,
+                25.7000713
+              ],
+              [
+                100.169726,
+                25.7000553
+              ],
+              [
+                100.169753,
+                25.7000322
+              ],
+              [
+                100.169766,
+                25.7000112
+              ],
+              [
+                100.1698356,
+                25.6998382
+              ],
+              [
+                100.1698462,
+                25.6998129
+              ],
+              [
+                100.1699454,
+                25.6995756
+              ],
+              [
+                100.1699487,
+                25.6995418
+              ],
+              [
+                100.1699458,
+                25.6995198
+              ],
+              [
+                100.1699371,
+                25.6995027
+              ],
+              [
+                100.1699236,
+                25.6994729
+              ],
+              [
+                100.1698963,
+                25.6994415
+              ],
+              [
+                100.1698308,
+                25.6993917
+              ],
+              [
+                100.1698368,
+                25.6993238
+              ],
+              [
+                100.169962,
+                25.6991016
+              ],
+              [
+                100.1699676,
+                25.6990916
+              ],
+              [
+                100.1701249,
+                25.6988065
+              ],
+              [
+                100.170324,
+                25.6984042
+              ],
+              [
+                100.1706799,
+                25.6976162
+              ],
+              [
+                100.1707243,
+                25.6975201
+              ],
+              [
+                100.1709431,
+                25.6970468
+              ],
+              [
+                100.171223,
+                25.6964427
+              ],
+              [
+                100.1714062,
+                25.6960419
+              ],
+              [
+                100.1714715,
+                25.6959047
+              ],
+              [
+                100.1716934,
+                25.6954583
+              ],
+              [
+                100.171833,
+                25.6951621
+              ],
+              [
+                100.1719439,
+                25.6949271
+              ],
+              [
+                100.1720713,
+                25.6947216
+              ],
+              [
+                100.1721372,
+                25.6946509
+              ],
+              [
+                100.1723135,
+                25.6943716
+              ],
+              [
+                100.1723456,
+                25.6943333
+              ],
+              [
+                100.1723737,
+                25.6942568
+              ],
+              [
+                100.1724693,
+                25.6941402
+              ],
+              [
+                100.172846,
+                25.6936657
+              ],
+              [
+                100.1730478,
+                25.693406
+              ],
+              [
+                100.1730511,
+                25.6934018
+              ],
+              [
+                100.1731757,
+                25.6932427
+              ],
+              [
+                100.1733315,
+                25.6930086
+              ],
+              [
+                100.1735334,
+                25.6926833
+              ],
+              [
+                100.1737859,
+                25.6922572
+              ],
+              [
+                100.1738454,
+                25.6922049
+              ],
+              [
+                100.1763266,
+                25.6922021
+              ],
+              [
+                100.1764165,
+                25.6922103
+              ],
+              [
+                100.1765902,
+                25.6922103
+              ],
+              [
+                100.1802243,
+                25.6921309
+              ],
+              [
+                100.1805142,
+                25.6921365
+              ],
+              [
+                100.1806623,
+                25.6921639
+              ],
+              [
+                100.1807889,
+                25.6922049
+              ],
+              [
+                100.1807984,
+                25.6921872
+              ],
+              [
+                100.1809192,
+                25.6920667
+              ],
+              [
+                100.1809883,
+                25.6920259
+              ],
+              [
+                100.181121,
+                25.692017
+              ],
+              [
+                100.1816307,
+                25.6920052
+              ],
+              [
+                100.1820147,
+                25.6919543
+              ],
+              [
+                100.1823896,
+                25.6919227
+              ],
+              [
+                100.1829033,
+                25.6919372
+              ],
+              [
+                100.1831755,
+                25.6919384
+              ],
+              [
+                100.1835738,
+                25.6919215
+              ],
+              [
+                100.1838635,
+                25.6919142
+              ],
+              [
+                100.1842202,
+                25.6918816
+              ],
+              [
+                100.1843865,
+                25.6918864
+              ],
+              [
+                100.184526,
+                25.6919021
+              ],
+              [
+                100.1847593,
+                25.6919263
+              ],
+              [
+                100.1848988,
+                25.6919505
+              ],
+              [
+                100.1850477,
+                25.6919553
+              ],
+              [
+                100.1852059,
+                25.6919529
+              ],
+              [
+                100.185442,
+                25.6919202
+              ],
+              [
+                100.185784,
+                25.6918634
+              ],
+              [
+                100.1859409,
+                25.6918477
+              ],
+              [
+                100.18613,
+                25.6918598
+              ],
+              [
+                100.1863539,
+                25.6918792
+              ],
+              [
+                100.1865685,
+                25.691884
+              ],
+              [
+                100.1867348,
+                25.6918816
+              ],
+              [
+                100.1870218,
+                25.6918441
+              ],
+              [
+                100.1872069,
+                25.6918381
+              ],
+              [
+                100.1875783,
+                25.6918369
+              ],
+              [
+                100.188088,
+                25.6918284
+              ],
+              [
+                100.1888551,
+                25.6918163
+              ],
+              [
+                100.189531,
+                25.6918054
+              ],
+              [
+                100.1900902,
+                25.6918284
+              ],
+              [
+                100.1901834,
+                25.6918279
+              ],
+              [
+                100.190341,
+                25.6918272
+              ],
+              [
+                100.1907407,
+                25.6918248
+              ],
+              [
+                100.1911819,
+                25.6917921
+              ],
+              [
+                100.1915038,
+                25.6917909
+              ],
+              [
+                100.1918404,
+                25.6918091
+              ],
+              [
+                100.1919477,
+                25.6918284
+              ],
+              [
+                100.1920389,
+                25.691855
+              ],
+              [
+                100.192586,
+                25.692081
+              ],
+              [
+                100.1941471,
+                25.6927046
+              ],
+              [
+                100.1942665,
+                25.6927531
+              ],
+              [
+                100.1950255,
+                25.6930611
+              ],
+              [
+                100.1952977,
+                25.6931711
+              ],
+              [
+                100.1955928,
+                25.6932424
+              ],
+              [
+                100.1958181,
+                25.6932895
+              ],
+              [
+                100.1959495,
+                25.6933257
+              ],
+              [
+                100.1961131,
+                25.6933995
+              ],
+              [
+                100.1962982,
+                25.6934635
+              ],
+              [
+                100.1964712,
+                25.6935312
+              ],
+              [
+                100.1966442,
+                25.6935916
+              ],
+              [
+                100.1969621,
+                25.693675
+              ],
+              [
+                100.1972549,
+                25.6937593
+              ],
+              [
+                100.1981771,
+                25.6939928
+              ],
+              [
+                100.1997465,
+                25.6943978
+              ],
+              [
+                100.2006032,
+                25.6946092
+              ],
+              [
+                100.201444,
+                25.6948279
+              ],
+              [
+                100.2020153,
+                25.6949874
+              ],
+              [
+                100.2022634,
+                25.6950406
+              ],
+              [
+                100.2025179,
+                25.6950706
+              ],
+              [
+                100.2030046,
+                25.6951327
+              ],
+              [
+                100.2036065,
+                25.6952094
+              ],
+              [
+                100.2044622,
+                25.6952456
+              ],
+              [
+                100.2050252,
+                25.6952584
+              ],
+              [
+                100.20586,
+                25.6952938
+              ],
+              [
+                100.2059117,
+                25.6952684
+              ],
+              [
+                100.2059695,
+                25.6950946
+              ],
+              [
+                100.2061164,
+                25.6950902
+              ],
+              [
+                100.2063067,
+                25.6951092
+              ],
+              [
+                100.2068573,
+                25.6951471
+              ],
+              [
+                100.2070925,
+                25.6951457
+              ],
+              [
+                100.2073299,
+                25.6951689
+              ],
+              [
+                100.2076956,
+                25.6952194
+              ],
+              [
+                100.2076426,
+                25.6953681
+              ],
+              [
+                100.2076198,
+                25.6954207
+              ],
+              [
+                100.2075715,
+                25.6954896
+              ],
+              [
+                100.2075199,
+                25.6955572
+              ],
+              [
+                100.2074917,
+                25.6956195
+              ],
+              [
+                100.207481,
+                25.6956612
+              ],
+              [
+                100.2074609,
+                25.6957844
+              ],
+              [
+                100.2074401,
+                25.6958726
+              ],
+              [
+                100.2074274,
+                25.6959004
+              ],
+              [
+                100.2074039,
+                25.695927
+              ],
+              [
+                100.2073744,
+                25.695953
+              ],
+              [
+                100.2073321,
+                25.6959754
+              ],
+              [
+                100.2072731,
+                25.6959905
+              ],
+              [
+                100.2072322,
+                25.6959947
+              ],
+              [
+                100.207135,
+                25.6960007
+              ],
+              [
+                100.2070297,
+                25.696002
+              ],
+              [
+                100.2069493,
+                25.6960032
+              ],
+              [
+                100.2069077,
+                25.6960122
+              ],
+              [
+                100.2068621,
+                25.696031
+              ],
+              [
+                100.2068091,
+                25.6960581
+              ],
+              [
+                100.2067774,
+                25.6960949
+              ],
+              [
+                100.2067602,
+                25.6961288
+              ],
+              [
+                100.2067461,
+                25.6961548
+              ],
+              [
+                100.206732,
+                25.696202
+              ],
+              [
+                100.2067126,
+                25.6962666
+              ],
+              [
+                100.2067038,
+                25.6963047
+              ],
+              [
+                100.2066341,
+                25.6965875
+              ],
+              [
+                100.2066047,
+                25.696671
+              ],
+              [
+                100.2065644,
+                25.6967856
+              ],
+              [
+                100.2065282,
+                25.6968582
+              ],
+              [
+                100.2064437,
+                25.6969718
+              ],
+              [
+                100.2063096,
+                25.6971965
+              ],
+              [
+                100.2061218,
+                25.6978684
+              ],
+              [
+                100.2060682,
+                25.6980666
+              ],
+              [
+                100.2060252,
+                25.69826
+              ],
+              [
+                100.2059394,
+                25.6985645
+              ],
+              [
+                100.2058428,
+                25.6989464
+              ],
+              [
+                100.2057939,
+                25.6990726
+              ],
+              [
+                100.2057564,
+                25.6991251
+              ],
+              [
+                100.2056959,
+                25.6991814
+              ],
+              [
+                100.2055927,
+                25.6992606
+              ],
+              [
+                100.2055136,
+                25.6993131
+              ],
+              [
+                100.2054546,
+                25.6993669
+              ],
+              [
+                100.2053969,
+                25.6994473
+              ],
+              [
+                100.2053052,
+                25.6996323
+              ],
+              [
+                100.2052933,
+                25.6996579
+              ],
+              [
+                100.2052548,
+                25.6997272
+              ],
+              [
+                100.2051951,
+                25.6998257
+              ],
+              [
+                100.2051601,
+                25.6999038
+              ],
+              [
+                100.2051575,
+                25.6999095
+              ],
+              [
+                100.205135,
+                25.6999763
+              ],
+              [
+                100.2050771,
+                25.7001476
+              ],
+              [
+                100.2050171,
+                25.7003364
+              ],
+              [
+                100.2049571,
+                25.7005258
+              ],
+              [
+                100.2049529,
+                25.7005416
+              ],
+              [
+                100.2049269,
+                25.7006394
+              ],
+              [
+                100.2048993,
+                25.7007053
+              ],
+              [
+                100.2048887,
+                25.7007306
+              ]
+            ],
+            "distance_m": 6252.669,
+            "way_ids": [
+              1436638493,
+              297354259,
+              39160233,
+              767449057,
+              1227972968,
+              1227972951,
+              1227972949,
+              136815775,
+              1121664422,
+              1077794646,
+              1077794645,
+              136816567,
+              949600289,
+              1359322210,
+              1137265354
+            ],
+            "note": "按允许骑行的已记录道路和单行方向生成；未核验现场限行，长度为地图值。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1436638493",
+              "label": "OpenStreetMap 骑行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 549727030,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11333059633,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 6252.669,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/1436638493",
+            "title": "OpenStreetMap 骑行道路",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      }
+    ],
     "available_destinations": [
+      {
+        "id": "liyang",
+        "name": "溧阳"
+      },
+      {
+        "id": "dalian",
+        "name": "大连"
+      },
       {
         "id": "suzhou",
         "name": "苏州"
+      },
+      {
+        "id": "nanjing",
+        "name": "南京"
+      },
+      {
+        "id": "kunming",
+        "name": "昆明"
+      },
+      {
+        "id": "fuxianhu",
+        "name": "抚仙湖"
+      },
+      {
+        "id": "lijiang",
+        "name": "丽江"
+      },
+      {
+        "id": "dali",
+        "name": "大理"
+      },
+      {
+        "id": "shangrila",
+        "name": "香格里拉"
+      },
+      {
+        "id": "xian",
+        "name": "西安"
       }
     ],
     "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"

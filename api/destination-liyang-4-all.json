@@ -25925,11 +25925,1391 @@
     }
   },
   "immersive_routes": {
-    "items": [],
+    "items": [
+      {
+        "title": "天目湖山水园 · 园内步道 A",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "liyang-1-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/liyang-1-walk-1-map.json",
+        "bounds": [
+          31.3112718,
+          119.4329099,
+          31.315849800000002,
+          119.43720569999999
+        ],
+        "nodes": [
+          {
+            "id": "liyang-1-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "天目湖山水园",
+            "attraction_id": "place_a56c09bc013d4921",
+            "lat": 31.3142134,
+            "lon": 119.4341099,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10917208800",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-1-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "天目湖山水园",
+            "attraction_id": "place_a56c09bc013d4921",
+            "lat": 31.3144308,
+            "lon": 119.4350444,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10917208786",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-1-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "天目湖山水园",
+            "attraction_id": "place_a56c09bc013d4921",
+            "lat": 31.3137433,
+            "lon": 119.4352176,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10917208761",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-1-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "天目湖山水园",
+            "attraction_id": "place_a56c09bc013d4921",
+            "lat": 31.3125915,
+            "lon": 119.4360057,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/10917208772",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/liyang-1-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "liyang-1-walk-1-node-1",
+            "to_node_id": "liyang-1-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.4341099,
+                31.3142134
+              ],
+              [
+                119.434178,
+                31.3141712
+              ],
+              [
+                119.4342943,
+                31.3141813
+              ],
+              [
+                119.434337,
+                31.3142543
+              ],
+              [
+                119.434337,
+                31.3143618
+              ],
+              [
+                119.4344676,
+                31.3143983
+              ],
+              [
+                119.4344652,
+                31.314591
+              ],
+              [
+                119.4346693,
+                31.314593
+              ],
+              [
+                119.4346669,
+                31.3146478
+              ],
+              [
+                119.4348687,
+                31.3146498
+              ],
+              [
+                119.4348687,
+                31.3144328
+              ],
+              [
+                119.4350444,
+                31.3144308
+              ]
+            ],
+            "distance_m": 160.088,
+            "way_ids": [
+              1174904412,
+              1174904401,
+              1174904411,
+              1174904410,
+              1174904409,
+              1174904400
+            ],
+            "note": "含台阶 · 含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1174904412",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10917208800,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10917208786,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "liyang-1-walk-1-node-2",
+            "to_node_id": "liyang-1-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.4350444,
+                31.3144308
+              ],
+              [
+                119.4350467,
+                31.3143659
+              ],
+              [
+                119.4352176,
+                31.3143639
+              ],
+              [
+                119.4354028,
+                31.3142868
+              ],
+              [
+                119.4354218,
+                31.3142402
+              ],
+              [
+                119.4354455,
+                31.3141002
+              ],
+              [
+                119.435379,
+                31.3141246
+              ],
+              [
+                119.4353387,
+                31.3141063
+              ],
+              [
+                119.4353078,
+                31.3140475
+              ],
+              [
+                119.4351393,
+                31.3139806
+              ],
+              [
+                119.435122,
+                31.3139275
+              ],
+              [
+                119.4351559,
+                31.3139015
+              ],
+              [
+                119.4352176,
+                31.3137433
+              ]
+            ],
+            "distance_m": 129.271,
+            "way_ids": [
+              1174904408,
+              1174904399,
+              1174904407,
+              1174904404
+            ],
+            "note": "含台阶 · 含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1174904408",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10917208786,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10917208761,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "liyang-1-walk-1-node-3",
+            "to_node_id": "liyang-1-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.4352176,
+                31.3137433
+              ],
+              [
+                119.4352461,
+                31.313577
+              ],
+              [
+                119.4352295,
+                31.3134128
+              ],
+              [
+                119.4352271,
+                31.3131573
+              ],
+              [
+                119.4352319,
+                31.3127497
+              ],
+              [
+                119.4352698,
+                31.3126401
+              ],
+              [
+                119.4353767,
+                31.3125611
+              ],
+              [
+                119.4354906,
+                31.3125002
+              ],
+              [
+                119.4356045,
+                31.3124718
+              ],
+              [
+                119.4357493,
+                31.3124759
+              ],
+              [
+                119.4358443,
+                31.3125083
+              ],
+              [
+                119.4360057,
+                31.3125915
+              ]
+            ],
+            "distance_m": 202.312,
+            "way_ids": [
+              1174904404
+            ],
+            "note": "含木栈道 · 沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1174904404",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 10917208761,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 10917208772,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 491.671,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/334129142",
+            "title": "天目湖山水园 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "天目湖山水园 · 逍遥桥",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "liyang-1-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/liyang-1-walk-2-map.json",
+        "bounds": [
+          31.312174199999998,
+          119.4236444,
+          31.314737400000002,
+          119.4266791
+        ],
+        "nodes": [
+          {
+            "id": "liyang-1-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "天目湖山水园",
+            "attraction_id": "place_a56c09bc013d4921",
+            "lat": 31.3133742,
+            "lon": 119.4254791,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3412201851",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-1-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "天目湖山水园",
+            "attraction_id": "place_a56c09bc013d4921",
+            "lat": 31.3135374,
+            "lon": 119.4248444,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3412201852",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/liyang-1-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "liyang-1-walk-2-node-1",
+            "to_node_id": "liyang-1-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.4254791,
+                31.3133742
+              ],
+              [
+                119.4248444,
+                31.3135374
+              ]
+            ],
+            "distance_m": 62.967,
+            "way_ids": [
+              334129147
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/334129147",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 3412201851,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 3412201852,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 62.967,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/334129142",
+            "title": "天目湖山水园 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "南山竹海 · 观光步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "liyang-2-walk-1",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/liyang-2-walk-1-map.json",
+        "bounds": [
+          31.16657,
+          119.5164553,
+          31.1774251,
+          119.5286734
+        ],
+        "nodes": [
+          {
+            "id": "liyang-2-walk-1-node-1",
+            "name": "步道起点",
+            "attraction_name": "南山竹海",
+            "attraction_id": "place_e110a91eefb442ea",
+            "lat": 31.1762251,
+            "lon": 119.5272463,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3412201617",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-2-walk-1-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "南山竹海",
+            "attraction_id": "place_e110a91eefb442ea",
+            "lat": 31.1722882,
+            "lon": 119.5266913,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/11721707558",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-2-walk-1-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "南山竹海",
+            "attraction_id": "place_e110a91eefb442ea",
+            "lat": 31.1692373,
+            "lon": 119.522966,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8833924723",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-2-walk-1-node-4",
+            "name": "步道终点",
+            "attraction_name": "南山竹海",
+            "attraction_id": "place_e110a91eefb442ea",
+            "lat": 31.16777,
+            "lon": 119.5176553,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3412201639",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/liyang-2-walk-1-route.json",
+        "segments": [
+          {
+            "from_node_id": "liyang-2-walk-1-node-1",
+            "to_node_id": "liyang-2-walk-1-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.5272463,
+                31.1762251
+              ],
+              [
+                119.5272817,
+                31.1760704
+              ],
+              [
+                119.527389,
+                31.1759224
+              ],
+              [
+                119.5274493,
+                31.1758145
+              ],
+              [
+                119.527456,
+                31.1756045
+              ],
+              [
+                119.5273943,
+                31.1753223
+              ],
+              [
+                119.527342,
+                31.17504
+              ],
+              [
+                119.527287,
+                31.1748358
+              ],
+              [
+                119.5273085,
+                31.1746946
+              ],
+              [
+                119.5274614,
+                31.1743653
+              ],
+              [
+                119.5274734,
+                31.1742471
+              ],
+              [
+                119.5274574,
+                31.1740888
+              ],
+              [
+                119.5273514,
+                31.1739316
+              ],
+              [
+                119.5271918,
+                31.173647
+              ],
+              [
+                119.5270054,
+                31.1734038
+              ],
+              [
+                119.5268686,
+                31.173071
+              ],
+              [
+                119.5268807,
+                31.1729046
+              ],
+              [
+                119.5268257,
+                31.1724607
+              ],
+              [
+                119.5266913,
+                31.1722882
+              ]
+            ],
+            "distance_m": 464.729,
+            "way_ids": [
+              334129137
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/334129137",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 3412201617,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 11721707558,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "liyang-2-walk-1-node-2",
+            "to_node_id": "liyang-2-walk-1-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.5266913,
+                31.1722882
+              ],
+              [
+                119.5266516,
+                31.1722372
+              ],
+              [
+                119.5262343,
+                31.1719511
+              ],
+              [
+                119.5260251,
+                31.1718753
+              ],
+              [
+                119.5257702,
+                31.1716826
+              ],
+              [
+                119.5253411,
+                31.171499
+              ],
+              [
+                119.5251158,
+                31.1713521
+              ],
+              [
+                119.5251238,
+                31.1711868
+              ],
+              [
+                119.525215,
+                31.1709321
+              ],
+              [
+                119.5252123,
+                31.1707898
+              ],
+              [
+                119.5251265,
+                31.1706429
+              ],
+              [
+                119.5249388,
+                31.1703767
+              ],
+              [
+                119.5247483,
+                31.1702321
+              ],
+              [
+                119.5243728,
+                31.170122
+              ],
+              [
+                119.5242575,
+                31.1700853
+              ],
+              [
+                119.524,
+                31.1699017
+              ],
+              [
+                119.5239088,
+                31.1696664
+              ],
+              [
+                119.5236164,
+                31.1695758
+              ],
+              [
+                119.522966,
+                31.1692373
+              ]
+            ],
+            "distance_m": 536.104,
+            "way_ids": [
+              334129137
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/334129137",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 11721707558,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 8833924723,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "liyang-2-walk-1-node-3",
+            "to_node_id": "liyang-2-walk-1-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.522966,
+                31.1692373
+              ],
+              [
+                119.5226106,
+                31.1690984
+              ],
+              [
+                119.5221814,
+                31.1689423
+              ],
+              [
+                119.5218328,
+                31.1687886
+              ],
+              [
+                119.5216718,
+                31.1686233
+              ],
+              [
+                119.5215377,
+                31.1684076
+              ],
+              [
+                119.5210201,
+                31.1680771
+              ],
+              [
+                119.5207438,
+                31.1679784
+              ],
+              [
+                119.5205533,
+                31.1678752
+              ],
+              [
+                119.52021,
+                31.1678407
+              ],
+              [
+                119.519864,
+                31.1678866
+              ],
+              [
+                119.5194295,
+                31.1678224
+              ],
+              [
+                119.5191023,
+                31.1678453
+              ],
+              [
+                119.5188984,
+                31.1679188
+              ],
+              [
+                119.5186463,
+                31.167882
+              ],
+              [
+                119.5183459,
+                31.1678453
+              ],
+              [
+                119.5180428,
+                31.167827
+              ],
+              [
+                119.5176553,
+                31.16777
+              ]
+            ],
+            "distance_m": 561.301,
+            "way_ids": [
+              334129137
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/334129137",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 8833924723,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 3412201639,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 1562.134,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/334129131",
+            "title": "南山竹海 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      },
+      {
+        "title": "南山竹海 · 登山步道",
+        "subtitle": "园路与街巷 · 地图选线",
+        "summary": "沿公开地图已记录的真实园路或街巷浏览。选择南北、东西向路点连接形成不同视角，不代表景区推荐行程；是否开放请以现场为准。",
+        "id": "liyang-2-walk-2",
+        "guide_id": null,
+        "route_type": "scenicwalk",
+        "geometry_kind": "osm_network",
+        "map_url": "/static/maps/liyang-2-walk-2-map.json",
+        "bounds": [
+          31.166671,
+          119.5110657,
+          31.1749795,
+          119.524166
+        ],
+        "nodes": [
+          {
+            "id": "liyang-2-walk-2-node-1",
+            "name": "步道起点",
+            "attraction_name": "南山竹海",
+            "attraction_id": "place_e110a91eefb442ea",
+            "lat": 31.167871,
+            "lon": 119.5172915,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3412201640",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-2-walk-2-node-2",
+            "name": "沿途路点 1",
+            "attraction_name": "南山竹海",
+            "attraction_id": "place_e110a91eefb442ea",
+            "lat": 31.172752,
+            "lon": 119.5139779,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/3412201594",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-2-walk-2-node-3",
+            "name": "沿途路点 2",
+            "attraction_name": "南山竹海",
+            "attraction_id": "place_e110a91eefb442ea",
+            "lat": 31.1736056,
+            "lon": 119.5166968,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/13359584815",
+              "label": "OpenStreetMap 道路节点"
+            }
+          },
+          {
+            "id": "liyang-2-walk-2-node-4",
+            "name": "步道终点",
+            "attraction_name": "南山竹海",
+            "attraction_id": "place_e110a91eefb442ea",
+            "lat": 31.1692373,
+            "lon": 119.522966,
+            "note": "沿用地图记录的步道路点，未核验具体景区入口。",
+            "photo_scope": "attraction",
+            "coordinate_source": {
+              "url": "https://www.openstreetmap.org/node/8833924723",
+              "label": "OpenStreetMap 道路节点"
+            }
+          }
+        ],
+        "distance": null,
+        "duration": null,
+        "note": "按 OpenStreetMap 道路生成的地图预览，未现场核验；距离为地图几何长度，缺口不连线。",
+        "source_basis": "osm_network",
+        "geometry_url": "/static/maps/liyang-2-walk-2-route.json",
+        "segments": [
+          {
+            "from_node_id": "liyang-2-walk-2-node-1",
+            "to_node_id": "liyang-2-walk-2-node-2",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.5172915,
+                31.167871
+              ],
+              [
+                119.5169702,
+                31.1680311
+              ],
+              [
+                119.5150462,
+                31.1699392
+              ],
+              [
+                119.5141482,
+                31.1705082
+              ],
+              [
+                119.5134451,
+                31.1708168
+              ],
+              [
+                119.5129688,
+                31.1712929
+              ],
+              [
+                119.5128881,
+                31.1714899
+              ],
+              [
+                119.5127626,
+                31.1715572
+              ],
+              [
+                119.512438,
+                31.1713182
+              ],
+              [
+                119.5122657,
+                31.1714525
+              ],
+              [
+                119.5122992,
+                31.1719402
+              ],
+              [
+                119.5124197,
+                31.1723003
+              ],
+              [
+                119.5124279,
+                31.172482
+              ],
+              [
+                119.5126159,
+                31.1727752
+              ],
+              [
+                119.51279,
+                31.1728185
+              ],
+              [
+                119.5129144,
+                31.1727841
+              ],
+              [
+                119.513066,
+                31.1727979
+              ],
+              [
+                119.5131397,
+                31.1727853
+              ],
+              [
+                119.513247,
+                31.172783
+              ],
+              [
+                119.5134737,
+                31.1728403
+              ],
+              [
+                119.5135206,
+                31.1728254
+              ],
+              [
+                119.5136587,
+                31.1728576
+              ],
+              [
+                119.5137459,
+                31.1728507
+              ],
+              [
+                119.5138465,
+                31.1728048
+              ],
+              [
+                119.5139779,
+                31.172752
+              ]
+            ],
+            "distance_m": 955.796,
+            "way_ids": [
+              334129136
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/334129136",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 3412201640,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 3412201594,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "liyang-2-walk-2-node-2",
+            "to_node_id": "liyang-2-walk-2-node-3",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.5139779,
+                31.172752
+              ],
+              [
+                119.5141053,
+                31.1727497
+              ],
+              [
+                119.5142488,
+                31.1727876
+              ],
+              [
+                119.5144441,
+                31.1729006
+              ],
+              [
+                119.5147587,
+                31.1730304
+              ],
+              [
+                119.5148583,
+                31.17316
+              ],
+              [
+                119.5149273,
+                31.1732148
+              ],
+              [
+                119.5150172,
+                31.1732275
+              ],
+              [
+                119.5152756,
+                31.1731938
+              ],
+              [
+                119.5155284,
+                31.1731121
+              ],
+              [
+                119.5155832,
+                31.1731014
+              ],
+              [
+                119.5156986,
+                31.17311
+              ],
+              [
+                119.5157844,
+                31.1731192
+              ],
+              [
+                119.5159654,
+                31.1731662
+              ],
+              [
+                119.5159983,
+                31.1731616
+              ],
+              [
+                119.5160379,
+                31.1731484
+              ],
+              [
+                119.5161116,
+                31.1731766
+              ],
+              [
+                119.5162323,
+                31.1732127
+              ],
+              [
+                119.5162719,
+                31.1732001
+              ],
+              [
+                119.5163376,
+                31.1732138
+              ],
+              [
+                119.5164214,
+                31.1732569
+              ],
+              [
+                119.516459,
+                31.1732884
+              ],
+              [
+                119.5164677,
+                31.1733303
+              ],
+              [
+                119.5165294,
+                31.1734175
+              ],
+              [
+                119.516647,
+                31.173517
+              ],
+              [
+                119.5166968,
+                31.1736056
+              ]
+            ],
+            "distance_m": 304.669,
+            "way_ids": [
+              334129136,
+              1456692723
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/334129136",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 3412201594,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 13359584815,
+                "distance_m": 0.0
+              }
+            }
+          },
+          {
+            "from_node_id": "liyang-2-walk-2-node-3",
+            "to_node_id": "liyang-2-walk-2-node-4",
+            "mode": "walk",
+            "status": "mapped",
+            "coordinates": [
+              [
+                119.5166968,
+                31.1736056
+              ],
+              [
+                119.5165472,
+                31.1736975
+              ],
+              [
+                119.5166508,
+                31.1737795
+              ],
+              [
+                119.5168349,
+                31.1737073
+              ],
+              [
+                119.5170305,
+                31.1737762
+              ],
+              [
+                119.517019,
+                31.1736975
+              ],
+              [
+                119.5169384,
+                31.1735728
+              ],
+              [
+                119.5169768,
+                31.173494
+              ],
+              [
+                119.5171302,
+                31.1735564
+              ],
+              [
+                119.5171609,
+                31.173412
+              ],
+              [
+                119.5177438,
+                31.1734284
+              ],
+              [
+                119.5177247,
+                31.1730838
+              ],
+              [
+                119.5185531,
+                31.1732676
+              ],
+              [
+                119.5188062,
+                31.1728246
+              ],
+              [
+                119.5192511,
+                31.1728607
+              ],
+              [
+                119.5194812,
+                31.1726343
+              ],
+              [
+                119.5197344,
+                31.1726047
+              ],
+              [
+                119.5200834,
+                31.1722831
+              ],
+              [
+                119.5209126,
+                31.1719134
+              ],
+              [
+                119.5213327,
+                31.1716529
+              ],
+              [
+                119.5215702,
+                31.1713977
+              ],
+              [
+                119.5217832,
+                31.1707361
+              ],
+              [
+                119.5226538,
+                31.1702048
+              ],
+              [
+                119.5229126,
+                31.1700772
+              ],
+              [
+                119.522966,
+                31.1692373
+              ]
+            ],
+            "distance_m": 990.657,
+            "way_ids": [
+              1456692723
+            ],
+            "note": "沿 OSM 已记录道路生成；开放状态与现场路况未实时核验。",
+            "source": {
+              "url": "https://www.openstreetmap.org/way/1456692723",
+              "label": "OpenStreetMap 步行道路"
+            },
+            "snap": {
+              "from": {
+                "node_id": 13359584815,
+                "distance_m": 0.0
+              },
+              "to": {
+                "node_id": 8833924723,
+                "distance_m": 0.0
+              }
+            }
+          }
+        ],
+        "mapped_distance_m": 2251.122,
+        "has_unresolved_segments": false,
+        "source_guide_title": "OpenStreetMap 道路预览",
+        "visit_period": {
+          "kind": "unknown",
+          "id": "unknown",
+          "holiday": null,
+          "label": "时间待确认",
+          "basis": "unconfirmed",
+          "support_excerpt": "",
+          "basis_label": "原文未确认到访时段",
+          "source_url": null
+        },
+        "sources": [
+          {
+            "url": "https://www.openstreetmap.org/way/334129131",
+            "title": "南山竹海 · OSM 区域与步道",
+            "publisher": "OpenStreetMap contributors",
+            "published_at": null
+          }
+        ]
+      }
+    ],
     "available_destinations": [
+      {
+        "id": "liyang",
+        "name": "溧阳"
+      },
+      {
+        "id": "dalian",
+        "name": "大连"
+      },
       {
         "id": "suzhou",
         "name": "苏州"
+      },
+      {
+        "id": "nanjing",
+        "name": "南京"
+      },
+      {
+        "id": "kunming",
+        "name": "昆明"
+      },
+      {
+        "id": "fuxianhu",
+        "name": "抚仙湖"
+      },
+      {
+        "id": "lijiang",
+        "name": "丽江"
+      },
+      {
+        "id": "dali",
+        "name": "大理"
+      },
+      {
+        "id": "shangrila",
+        "name": "香格里拉"
+      },
+      {
+        "id": "xian",
+        "name": "西安"
       }
     ],
     "note": "节点连接示意，非步行导航；连线不代表可通行道路，步行距离与预计用时待核实。"
